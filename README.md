@@ -15,8 +15,8 @@ The first thing you need to do is **fork and clone down this repository** using 
 1. Open your terminal
 1. Navigate to where you would like to save your prework  
    I suggest creating a directory named 'Turing' and within that directory, a folder named 'Prework'
-1. Enter the following into your terminal `git clone <paste the copied ssh link>`
-   You know have a copy of this repository on your local machine!  
+1. Enter the following into your terminal `git clone <paste the copied ssh link>`  
+   You now have a copy of this repository on your local machine!  
 1. In your terminal, `cd backend_prework`
 1. And, `atom .`
 1. This will open the repository in the Atom text editor
