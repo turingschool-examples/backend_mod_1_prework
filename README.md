@@ -47,7 +47,12 @@ Now that this setup is finished, you can follow along with steps for each day be
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Number](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes.
 
-1. Work through the exercise.rb file in the day_1 directory.
+1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:  
+    1. strings
+    1. numbers
+    1. variables
+    1. interpolation
+    1. loops
 
 1. Answer the questions in the questions.md file in the day_1 directory.
 
