@@ -4,11 +4,14 @@ This repository will walk you through the prework for the Backend program at Tur
 
 ## Setup
 
-The first thing you need to do is *fork and clone down this repository* using the steps below:
+The first thing you need to do is *fork this repository*. Forking is when you copy of a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
 1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
-1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_  
-   _Now, you should be on your copy of this repository!_
+1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_.
+   _Now, you should be on your forked copy of this repository!_
+
+The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
+
 1. Click on `Clone or Download`  
    _If you see `Clone with HTTPS` click on `Use SSH`_
 1. Click on the copy icon to copy the SSH link to your clipboard.
