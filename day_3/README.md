@@ -10,7 +10,7 @@
 
 1. Read through the [Conditionals](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) section of Ruby in 100 Minutes.
 
-1. Work through the exercise.rb file in the day_3 directory.
+1. Work through the exercise files in the day_3/exercises directory. 
 
 1. Answer the questions in the questions.md file in the day_3 directory.
 

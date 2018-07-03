@@ -79,9 +79,7 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
     1. [Booleans](https://learnrubythehardway.org/book/ex27.html) - just read through this lesson, you do not need to memorize anything, or create flashcards(unless you _really_ want to).
     2. [Boolean Practice](https://learnrubythehardway.org/book/ex28.html)
 
-1. Work through the exercise files in the day_2/exercises directory.  Complete them in this order:  
-    1. arrays
-    1. iteration
+1. Work through the exercise files in the day_3/exercises directory. 
 
 1. Answer the questions in the questions.md file in the day_2 directory.
 
