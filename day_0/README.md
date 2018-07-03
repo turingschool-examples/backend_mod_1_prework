@@ -29,11 +29,11 @@ Atom is a program where we edit code - it is a text editor with many great featu
 
 ### Terminal
 
-The terminal is a textual interface to your computer. Before Graphical User Interfaces were invented, this was the only way to interact with computer. A Graphical User Interface (GUI) is a more visual way of interacting with a computer, usually involving clicking on buttons with a mouse. They are more intuitive and beginner friendly, but offer much less power, flexibility, and speed than a Terminal.
+The Terminal, also referred to as the Command Line, allows you to enter commands to your computer. Before Graphical User Interfaces were invented, this was the only way to interact with computer. A Graphical User Interface (GUI) is a more visual way of interacting with a computer, usually involving clicking on buttons with a mouse. They are more intuitive and beginner friendly, but offer much less power, flexibility, and speed than a Terminal.
 
-A Terminal allows you to navigate around folders (called directories) and run programs. For example, when we run `ruby`, we are running that program from the terminal.
+A Terminal allows you to navigate around folders (called directories) and run programs. For example, when we run `ruby`, we are running that program from the terminal. You could also do this using the Mac's Finder program by clicking through folders and files, but this will be much slower and less powerful than the Terminal.
 
-To launch the terminal, open Spotlight Serach using `Command + Space`, type "terminal", then enter.
+To launch the Terminal, open Spotlight Serach using `Command + Space`, type "terminal", then enter.
 
 #### Setting Up Terminal Access for Atom
 
