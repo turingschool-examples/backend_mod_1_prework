@@ -10,14 +10,14 @@ The first thing you need to do is *fork this repository*. Forking is when you co
 1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_.
    _Now, you should be on your forked copy of this repository! You should see something like the image below in the upper left area of the screen_
 
-   ![Forked Repo](https://i.imgur.com/7a8vnMJ.png)
+   ![Forked Repo](https://i.imgur.com/7a8vnMJs.png)
 
 The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
 
 1. Click on `Clone or Download`  
    _If you see `Clone with HTTPS` click on `Use SSH` - you want it to look like the image below:_
 
-   ![Imgur](https://i.imgur.com/RHpul4V.png)
+   ![Cloning](https://i.imgur.com/RHpul4Vs.png)
 
 1. Click on the copy icon to copy the SSH link to your clipboard.
 1. Open your terminal
