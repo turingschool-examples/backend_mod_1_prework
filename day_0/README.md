@@ -272,17 +272,17 @@ Be careful, there are two different rbenv commands, `version` and `versions`. Th
 
 Switch to your newly installed version with
 
- `rbenv local 2.4.1`
+`rbenv local 2.4.1`
 
- Now enter:
+Now enter:
 
- `ruby -v`
+`ruby -v`
 
- This shows us what version of Ruby we are running. You should see something like:
+This shows us what version of Ruby we are running. You should see something like:
 
- `ruby 2.4.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]`
+`ruby 2.4.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]`
 
- You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have you successfully edited your bash_profile, restart your terminal, and try again.
+You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have you successfully edited your bash_profile, restart your terminal, and try again.
 
 #### Setting the Default Version
 
@@ -402,21 +402,29 @@ Next, we are going to *fork this repository*. Forking is when you copy a Github 
 
 1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_.
-   _Now, you should be on your forked copy of this repository!_
+_Now, you should be on your forked copy of this repository!_
 
 
 The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
 
-   1. In YOUR backend_prework repository that your just forked, click on `Clone or Download`  
-      _If you see `Clone with HTTPS` click on `Use SSH`_
-   1. Click on the copy icon to copy the SSH link to your clipboard.
-   1. Open your terminal
-   1. Enter `cd`. This is a shortcut for `cd ~`, which is "change into the home directory"
-   1. Enter `cd turing`
-   1. Enter `cd 1module`
-   1. Enter `git clone <paste the copied ssh link>`.
-      _You now have a copy of this repository on your local machine!_  
-   1. Enter `ls`. You should see a directory called `backend_prework`
-   1. Enter `cd backend_prework`
-   1. And, `atom .`
-   1. This will open the repository in the Atom text editor
+1. In YOUR backend_prework repository that your just forked, click on `Clone or Download`  
+_If you see `Clone with HTTPS` click on `Use SSH`_
+1. Click on the copy icon to copy the SSH link to your clipboard.
+1. Open your terminal
+1. Enter `cd`. This is a shortcut for `cd ~`, which is "change into the home directory"
+1. Enter `cd turing`
+1. Enter `cd 1module`
+1. Enter `git clone <paste the copied ssh link>`.
+_You now have a copy of this repository on your local machine!_  
+1. Enter `ls`. You should see a directory called `backend_prework`
+1. Enter `cd backend_prework`
+1. Enter `git status`.
+
+If everything worked correctly, you should see
+
+```
+On branch master
+nothing to commit, working tree clean
+```
+
+From here on out, all the work you do will be in this repository. Each day's README will walk you through the steps you need to take to save your work.
