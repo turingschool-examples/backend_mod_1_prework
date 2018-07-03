@@ -11,3 +11,7 @@
 1. How would you print the string `"zebra"` using the variable that you created above?
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+
+1. How do we get input from a user? What is the method that we would use?
+
+1. Name and describe two common string methods.
