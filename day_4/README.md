@@ -10,7 +10,7 @@
     1. [Methods and Variables](https://learnrubythehardway.org/book/ex19.html)
     1. [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html)
 
-1. Work through the exercise.rb file in the day_4 directory.
+1. Work through the methods.rb file in the day_4/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_4 directory.
 
