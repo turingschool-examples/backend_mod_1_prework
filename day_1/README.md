@@ -64,10 +64,9 @@ This will open the day_1 directory in Atom. You should be able to see the direct
     1. interpolation
     1. loops
 
-1. Answer the questions in the questions.md file in the day_1 directory.
+1. Answer the questions in the questions.md file in the day_1 directory. The .md file extension for this file refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
 
-
-## Saving your work in Git and pushing to Github
+## Saving your work in Git
 
 When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository.
 
@@ -144,18 +143,37 @@ Under "Changes to be committed", It now lists "ex1.rb". This means that git is g
 1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
 1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".
 1. Enter `git commit -m "adds day 1"`.
-1. Run `git status`. You should see this output
+1. Run `git status`. You should see this output:
+
+```
+On branch master
+nothing to commit, working tree clean
+```
+
+Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "adds day 1"`.
 
 
+## Pushing to Github
 
-`$ git add day_1/exercises.rb`
-    1. `$ git add day_1/questions.md`
-    1. `$ git add day_1/lrthw_notes.md`
-    1. Use `git add day_1/<filename>` to add all additional files that you created today
-    1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-    1. `$ git commit -m "Adds Day 1 Work"`
-    1. `$ git push origin master`
+We've save out work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+
+```
+git push origin master
+```
+
+You should see output similar to this:
+
+```
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:JohnDoe/backend_prework.git
+   e8ebd7a..32c0ed3  master -> master
+```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-1. Work through the following lessons from Learn Ruby the Hard Way.  As you work through these lessons, you will be creating some ruby files; put these files in your day_1 directory.  In the day_1 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons. The .md file extension for this file refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
+1. Work through the following lessons from Learn Ruby the Hard Way.  As you work through these lessons, you will be creating some ruby files; put these files in your day_1 directory.  In the day_1 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons.
