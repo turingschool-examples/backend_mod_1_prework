@@ -1,10 +1,27 @@
 ## Day 1
 
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/prework`. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository.
+1. Using your terminal, open the local copy of the repository that you created during setup in Atom. To do this, enter these commands into your terminal:
 
-1. Work through the following lessons from Learn Ruby the Hard Way.  As you work through these lessons, you will be creating some ruby files; put these files in your day_1 directory.  In the day_1 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons. The .md file extension for this file refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
+```
+cd ~
+ls
+cd turing
+ls
+cd 1module
+ls
+cd prework
+ls
+cd day_1
+ls
+atom .
+```
 
-    1. [A Good First Program](https://learnrubythehardway.org/book/ex1.html)  
+This will open the day_1 directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
+
+1. Read [This Introduction](https://learnrubythehardway.org/book/intro.html) to the Learn Ruby The Hard Way Tutorial. To reiterate from this introduction, DO NOT copy and paste the code examples. Actually type them.
+
+1. Work through this Learn Ruby the Hard Way lesson [A Good First Program](https://learnrubythehardway.org/book/ex1.html). This lesson tells you to type code into a file called "ex1.rb". Create this file in your `day_1` directory. If you are in your `day_1` directory, you can do this with `touch ex1.rb`. If you are not in your `day_1` directory, navigate to it using `cd` and `ls`.
+
     1. [Comments in Code](https://learnrubythehardway.org/book/ex2.html)  
     1. [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)  
     1. [Variables and Names](https://learnrubythehardway.org/book/ex4.html)  
@@ -12,7 +29,9 @@
     1. [More Strings](https://learnrubythehardway.org/book/ex6.html)  
     1. [Asking for Input](https://learnrubythehardway.org/book/ex11.html)  
 
-1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Number](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes.
+1. Work through the following lessons from Learn Ruby the Hard Way.  As you work through these lessons, you will be creating some ruby files; put these files in your day_1 directory.  In the day_1 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons. The .md file extension for this file refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
+
+1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes.
 
 1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:  
     1. strings
