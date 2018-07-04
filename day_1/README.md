@@ -55,7 +55,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)  
 1. Repeat the steps from the previous lessons for [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
-1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes.
+1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
 1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:  
     1. strings
@@ -69,10 +69,85 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 ## Saving your work in Git and pushing to Github
 
-When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository and push your work to the remote repository on GitHub:
+When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository.
 
 1. Make sure you are in your `day_1` directory. When you enter `ls` in your terminal, you should see the exercises directory listed, as well as README.md, questions.md, and all of the files you created while working through Learn Ruby the Hard Way i.e. "ex1.rb", "ex2.rb", etc.
-1. In your terminal, enter `git status`. 
+1. In your terminal, enter `git status`. You should see output like this:
+
+```
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   exercises/interpolation.rb
+	modified:   exercises/loops.rb
+	modified:   exercises/numbers.rb
+	modified:   exercises/strings.rb
+	modified:   exercises/variables.rb
+	modified:   questions.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ex1.rb
+	ex11.rb
+	ex2.rb
+	ex3.rb
+	ex4.rb
+	ex5.rb
+	ex6.rb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+The command `git status` shows us information about files we changed. Don't worry too much about understanding what this all means just yet. What's important is that you get comfortable typing `git status` often.
+
+1. Enter `git add ex1.rb`.
+1. Enter `git status`. Your status should now look a little different:
+
+```On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   ex1.rb
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+  modified:   exercises/interpolation.rb
+  modified:   exercises/loops.rb
+  modified:   exercises/numbers.rb
+  modified:   exercises/strings.rb
+  modified:   exercises/variables.rb
+  modified:   questions.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ex11.rb
+	ex2.rb
+	ex3.rb
+	ex4.rb
+	ex5.rb
+	ex6.rb
+```
+
+Under "Changes to be committed", It now lists "ex1.rb". This means that git is getting ready to save this file. We want to do this for each file.
+
+1. Enter `git add ex2.rb`
+1. Enter `git status`. "ex2.rb" should now be listed under "Changes to be committed".
+1. Do this for each of your "ex#.rb" files you created for Learn Ruby the Hard Way and your "questions.md" file.
+1. Enter `git status`. Under "Changes not staged for commit", you should see all the files in the exercises directory.
+1. Enter `git add exercises`.
+1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
+1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".
+1. Enter `git commit -m "adds day 1"`.
+1. Run `git status`. You should see this output
+
+
+
 `$ git add day_1/exercises.rb`
     1. `$ git add day_1/questions.md`
     1. `$ git add day_1/lrthw_notes.md`
