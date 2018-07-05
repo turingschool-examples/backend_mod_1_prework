@@ -162,7 +162,7 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 1. Work through the [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) lesson from Ruby in 100 Minutes. Any files that you create while working through this lesson can be kept in the day_5 directory.
 
-1. Work through the methods.rb file in the day_5/exercises directory.
+1. Work through the files in the day_5/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_5 directory.
 
@@ -185,7 +185,7 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
 
-1. Work through the exercise.rb file in the day_6 directory.
+1. Work through the hashes.rb file in the day_6/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_6 directory.
 

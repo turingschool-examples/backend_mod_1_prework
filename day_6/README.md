@@ -6,7 +6,7 @@
 
 1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
 
-1. Work through the exercise.rb file in the day_6 directory.
+1. Work through the hashes.rb file in the day_6/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_6 directory.
 
