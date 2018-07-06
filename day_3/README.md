@@ -1,4 +1,4 @@
-## Day 3
+## Day 3 - If Statements and Loops
 
 1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/prework`. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository.
 
@@ -10,7 +10,7 @@
 
 1. Read through the [Conditionals](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) section of Ruby in 100 Minutes.
 
-1. Work through the exercise files in the day_3/exercises directory. 
+1. Work through the exercise files in the day_3/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_3 directory.
 
