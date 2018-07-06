@@ -4,18 +4,7 @@ This repository will walk you through the prework for the Backend program at Tur
 
 Each day has a folder containing a README.md file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
-### Index
-* [Environment Setup](#enviroment-setup)  
-* [Day One - Strings and Numbers](#day-one)  
-* [Day Two - Arrays and Iteration](#day-two)  
-* [Day Three - If Statements and Loops ](#day-three)  
-* [Day Four - Methods and Return Values](#day-four)  
-* [Day Five - Hashes](#day-five)  
-* [Day Six - Classes](#day-six)  
-* [Day Seven - Build a Thing!](#day-seven)
-
-
-## [Environment Setup](#envirnment-setup)
+## Environment Setup
 
 The material in the day_0 folder will walk you through setting up your computer for Turing. The instructions have been copied here for your convenience.
 
@@ -447,8 +436,8 @@ nothing to commit, working tree clean
 
 From here on out, all the work you do will be in this repository. Each day's README will walk you through the steps you need to take to save your work.
 
-## Day 1 - Strings and Numbers
-[](#day-one)
+# Day 1 - Strings and Numbers
+
 
 Today, you will begin to learn the basics of Ruby. You will work through several tutorials which will help you get comfortable running files and seeing output. You will also learn about two ways to represent data in Ruby: Strings and Numbers.
 
@@ -628,7 +617,7 @@ To github.com:JohnDoe/backend_prework.git
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-# [Day 2 - Arrays and Iteration](#day-two)
+# Day 2 - Arrays and Iteration
 
 Computers may not be smart, but they are good at doing many things *very* quickly, like working through lots of data. As such, we need a way to store lots of data. Today, you will learn about a Ruby data structure that let's us store collections of data: The Array. You will also learn about iteration, which is going through every element of an Array.
 
@@ -642,10 +631,12 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. Work through the [Arrays](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#7.-arrays) section of Ruby in 100 Minutes. As you work through this section, research each of the methods mentioned by looking through the Ruby docs for [Arrays](https://ruby-doc.org/core-2.4.1/Array.html). This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
 
+1. Work through [Booleans](http://docs.railsbridge.org/ruby/booleans) lesson from the Ruby Railsbridge.
+
 1. Work through the following lessons from Learn Ruby the Hard Way.
 
-1. [Booleans](https://learnrubythehardway.org/book/ex27.html) - just read through this lesson, you do not need to memorize anything, or create flashcards(unless you _really_ want to).
-2. [Boolean Practice](https://learnrubythehardway.org/book/ex28.html)
+    1. [Booleans](https://learnrubythehardway.org/book/ex27.html) - just read through this lesson, you do not need to memorize anything, or create flashcards(unless you _really_ want to).
+    2. [Boolean Practice](https://learnrubythehardway.org/book/ex28.html)
 
 1. Work through the exercise files in the day_2/exercises directory.  Complete them in this order:  
 1. arrays
@@ -673,7 +664,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## [Day 3 - If Statements and Loops](#day-three)
+# Day 3 - If Statements and Loops
 
 One of the most important concepts in computer programming is knowing when and how to tell the computer to either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements and Loops, which you will learn about today.
 
@@ -716,7 +707,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## [Day 4 - Methods and Return Values](#day-four)
+# Day 4 - Methods and Return Values
 
 On day 1 of the prework, you learned how to store information in Variables. Today, you will learn about another way to store information; more specifically, how to use Methods to create Return Values.  In programming, we _often_ use methods, so this is an important concept to get familiar with!
 
@@ -758,7 +749,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## [Day 5 - Hashes](#day-five)
+# Day 5 - Hashes
 
 Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call a Hash. We use hashes on a near daily basis as programmers and understanding how to build hashes and how to retrieve information from a hash can make your life as a programmer much easier.
 
@@ -796,7 +787,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## [Day 6 - Classes](#day-six)
+# Day 6 - Classes
 
 Today, you are going to be learning about Objects and Classes. In ruby, Classes are one of the tools we use to group together specific Methods that are meant to work together, or on the same type of Object. Arriving at Turing with a strong understanding of how to build a class, and how to call Methods on that class will make your first couple of weeks go smoothly!
 
@@ -835,7 +826,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## [Day 7 - Build a Thing!](#day-seven)
+# Day 7 - Build a Thing!
 
 Congrats on making it through the first 6 days of Prework! Today, you will be putting together all that you have learned so far to actually build a program - hopefully this will help show you everything you have already accomplished in your first week as a programmer!
 
