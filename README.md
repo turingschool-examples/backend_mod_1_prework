@@ -4,6 +4,8 @@ This repository will walk you through the prework for the Backend program at Tur
 
 Each day has a folder containing a README.md file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
+[link](#day-1---strings-and-numbers)
+
 ## Environment Setup
 
 The material in the day_0 folder will walk you through setting up your computer for Turing. The instructions have been copied here for your convenience.
