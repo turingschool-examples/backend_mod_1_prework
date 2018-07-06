@@ -223,3 +223,14 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
     1. `$ git push origin master`
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+## Submission
+
+When you have completed *all* the activities described above, follow the steps below to submit your technical prework.
+
+    1. Go to *your* prework repository on GitHub
+    1. click on `New Pull Request` per the image below:
+
+    ![Imgur](https://i.imgur.com/lGKNxwCm.png)
+
+    2. 
