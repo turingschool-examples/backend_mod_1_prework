@@ -2,7 +2,11 @@
 
 This repository will walk you through the prework for the Backend program at Turing.
 
-## Setup
+Each day has a folder containing a README.md file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
+
+## Day 0
+
+The material in the day_0 folder will walk you through setting up your computer for Turing. The instructions have been copied here for your convenience.
 
 The first thing you need to do is *fork this repository*. Forking is when you copy of a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
