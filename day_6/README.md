@@ -12,13 +12,22 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. Answer the questions in the questions.md file in the day_6 directory.
 
-1. When you are finished with all of the day_6 activities, use your terminal to run the following commands in order to save your work to your local git repository and push your work to the remote repository on GitHub:
+## Save your work in Git
 
-    1. `$ git add day_6/exercises.rb`
-    1. `$ git add day_6/questions.md`
-    1. Use `git add day_6/<filename>` to add all additional files that you created today
-    1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-    1. `$ git commit -m "Adds Day 6 Work"`
-    1. `$ git push origin master`
+When you are finished with all of the day_6 activities, use your terminal to run the following commands in order to save your work to your local git repository.
+
+1. `$ git add day_6/exercises.rb`
+1. `$ git add day_6/questions.md``
+1. Use `git add day_6/<filename>` to add all additional files that you created today
+1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
+1. `$ git commit -m "Adds Day 6 Work"`
+
+## Push to Github
+
+You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+
+```
+git push origin master
+```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!

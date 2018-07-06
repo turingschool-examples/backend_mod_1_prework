@@ -68,7 +68,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 1. Answer the questions in the questions.md file in the day_1 directory. The .md file extension for this file refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
 
-## Saving your work in Git
+## Save your work in Git
 
 When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository.
 
@@ -155,9 +155,9 @@ nothing to commit, working tree clean
 Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "adds day 1"`.
 
 
-## Pushing to Github
+## Push to Github
 
-We've save out work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
@@ -177,5 +177,3 @@ To github.com:JohnDoe/backend_prework.git
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
-
-1. Work through the following lessons from Learn Ruby the Hard Way.  As you work through these lessons, you will be creating some ruby files; put these files in your day_1 directory.  In the day_1 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons.
