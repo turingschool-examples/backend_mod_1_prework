@@ -862,7 +862,7 @@ When you have completed *all* the activities described above, follow the steps b
 
 2. On the Pull Request page, make sure you see something similar to below (but with your username):
 
-![New PR](https://i.imgur.com/CwJH8osm.png)
+![New PR](https://i.imgur.com/CwJH8os.png)
 
 3. Click on `Create New Pull Request` (circled in the image above).
 4. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
