@@ -396,6 +396,8 @@ ls
 
 You should now see that the `playground.rb` file is gone.
 
+If you feel like you still need more practice, see the terminal.md lesson located in the day_0 directory.
+
 ### Cloning the Prework Repository
 
 Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
