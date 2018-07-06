@@ -1,6 +1,8 @@
 ## Day 4 - Methods and Return Values
 
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/prework`. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository.
+## Open your local copy of backend_prework
+
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
 1. Work through the [Methods](https://launchschool.com/books/ruby/read/methods) lesson from LaunchSchool, up to the `obj.method or method(obj)` header.  Any files that you create while working through this lesson can be kept in the day_4 directory.
 

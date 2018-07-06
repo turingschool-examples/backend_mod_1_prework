@@ -1,6 +1,10 @@
 ## Day 3 - If Statements and Loops
 
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/prework`. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository.
+
+## Open your local copy of backend_prework
+
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
+
 
 1. Work through the following lessons from Learn Ruby the Hard Way.  In the day_3 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons.
 

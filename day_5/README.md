@@ -1,6 +1,8 @@
 ## Day 5 - Hashes
 
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/prework`. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository.
+## Open your local copy of backend_prework
+
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
 1. Work through the [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) and [Classes Defining Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) sections of the Object Model Lesson from LaunchSchool. Any files that you create while working through this lesson can be kept in the day_5 directory.
 
