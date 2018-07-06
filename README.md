@@ -4,7 +4,16 @@ This repository will walk you through the prework for the Backend program at Tur
 
 Each day has a folder containing a README.md file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
-[link](#day-1---strings-and-numbers)
+### Index
+
+* [Day 1 - Strings and Numbers](#day-1---strings-and-numbers)  
+* [Day 2 - Arrays and Iteration](#day-2---arrays-and-iteration)  
+* [Day 3 - If Statements and Loops](#day-3---if-statements-and-loops)  
+* [Day 4 - Methods and Return Values](#day-4---methods-and-return-values)  
+* [Day 5 - Hashes](#day-5---hashes)  
+* [Day 6 - Classes](#day-6---classes)  
+* [Day 7 - Build A Thing](#day-7---build-a-thing)
+
 
 ## Environment Setup
 
