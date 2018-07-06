@@ -6,7 +6,7 @@ Each day has a folder containing a README.md file with instructions for the day,
 
 ### Index
 * [Environment Setup](#enviroment-setup)  
-* [Day One - Strings and Numbers](#day-one)  
+* [Day One - Strings and Numbers](day-one)  
 * [Day Two - Arrays and Iteration](#day-two)  
 * [Day Three - If Statements and Loops ](#day-three)  
 * [Day Four - Methods and Return Values](#day-four)  
@@ -447,7 +447,7 @@ nothing to commit, working tree clean
 
 From here on out, all the work you do will be in this repository. Each day's README will walk you through the steps you need to take to save your work.
 
-## [Day 1 - Strings and Numbers](day-one)
+## [Day 1 - Strings and Numbers](#day-one)
 
 Today, you will begin to learn the basics of Ruby. You will work through several tutorials which will help you get comfortable running files and seeing output. You will also learn about two ways to represent data in Ruby: Strings and Numbers.
 
