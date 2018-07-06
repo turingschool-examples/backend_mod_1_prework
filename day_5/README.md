@@ -1,18 +1,21 @@
 ## Day 5 - Hashes
 
+Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call a Hash. We use hashes on a near daily basis as programmers and understanding how to build hashes and how to retrieve information from a hash can make your life as a programmer much easier.
+
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+
 ## Open your local copy of backend_prework
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-1. Work through the [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) and [Classes Defining Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) sections of the Object Model Lesson from LaunchSchool. Any files that you create while working through this lesson can be kept in the day_5 directory.
+1. Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way.
 
-1. Work through the [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) lesson from LaunchSchool.
+1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
 
-1. Work through the [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) lesson from Ruby in 100 Minutes. Any files that you create while working through this lesson can be kept in the day_5 directory.
+1. Work through the hashes.rb file in the day_6/exercises directory.
 
-1. Work through the files in the day_5/exercises directory.
+1. Answer the questions in the questions.md file in the day_6 directory.
 
-1. Answer the questions in the questions.md file in the day_5 directory.
 ## Save your work in Git
 
 When you are finished with all of the day_5 activities, use your terminal to run the following commands in order to save your work to your local git repository.

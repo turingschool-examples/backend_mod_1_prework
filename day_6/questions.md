@@ -1,13 +1,13 @@
-## Day 6 Questions
+## Day 5 Questions
 
-1. What is a Hash, and how is it different from an Array in Ruby?
+1. In your own words, what is a Class?
 
-1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
+1. In relation to a Class, what is an attribute?
 
-1. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+1. In relation to a Class, what is behavior?
 
-1. With the same hash above, how would we get all the keys?  All the values?
+1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
+1. How do you create an instance of a class?
 
-1. What questions do you still have about hashes?
+1. What questions do you still have about classes in Ruby?

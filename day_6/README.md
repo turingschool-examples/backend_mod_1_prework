@@ -1,14 +1,19 @@
 ## Day 6 - Classes
 
-## Open your local copy of backend_prework
+Today, you are going to be learning about Objects and Classes. In ruby, Classes are one of the tools we use to group together specific Methods that are meant to work together, or on the same type of Object. Arriving at Turing with a strong understanding of how to build a class, and how to call Methods on that class will make your first couple of weeks go smoothly!
 
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+
+## Open your local copy of backend_prework
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-1. Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way. In the day_6 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons.
+1. Work through the [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) and [Classes Defining Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) sections of the Object Model Lesson from LaunchSchool. Any files that you create while working through this lesson can be kept in the day_6 directory.
 
-1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
+1. Work through the [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) lesson from LaunchSchool.
 
-1. Work through the hashes.rb file in the day_6/exercises directory.
+1. Work through the [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) lesson from Ruby in 100 Minutes. Any files that you create while working through this lesson can be kept in the day_6 directory.
+
+1. Work through the files in the day_6/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_6 directory.
 

@@ -1,12 +1,15 @@
 ## Day 3 - If Statements and Loops
 
+One of the most important concepts in computer programming is knowing when and how to tell the computer to either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements and Loops, which you will learn about today.
+
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
 ## Open your local copy of backend_prework
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
 
-1. Work through the following lessons from Learn Ruby the Hard Way.  In the day_3 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons.
+1. Work through the following lessons from Learn Ruby the Hard Way.
 
     1. [What If?](https://learnrubythehardway.org/book/ex29.html)
     1. [Else and If](https://learnrubythehardway.org/book/ex30.html)
