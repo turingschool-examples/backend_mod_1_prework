@@ -17,3 +17,23 @@
     1. `$ git push origin master`
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+## Submission
+
+When you have completed *all* the activities described above, follow the steps below to submit your technical prework.
+
+    1. Go to *your* prework repository on GitHub
+    1. click on `New Pull Request` per the image below:
+
+    ![New PR](https://i.imgur.com/lGKNxwCm.png)
+
+    2. On the Pull Request page, make sure you see something similar to below (but with your username):
+
+    ![New PR](https://i.imgur.com/CwJH8osm.png)
+
+    3. Click on `Create New Pull Request` (circled in the image above).
+    4. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
+
+    ![Create PR](https://i.imgur.com/CQQzfNcm.png)
+
+And you're done!  Can't wait to see you on the first day of class!!
