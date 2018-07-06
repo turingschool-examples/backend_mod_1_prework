@@ -1,10 +1,14 @@
 ## Day 5 - Hashes
 
+Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call a Hash. We use hashes on a near daily basis as programmers and understanding how to build hashes and how to retrieve information from a hash can make your life as a programmer much easier.
+
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+
 ## Open your local copy of backend_prework
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-1. Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way. In the day_6 directory you will see a file called lrthw_notes.md - this is where you can put the answers to any questions or reflections from the lessons.
+1. Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way.
 
 1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
 
