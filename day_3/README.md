@@ -1,6 +1,6 @@
 ## Day 3 - If Statements and Loops
 
-One of the most important concepts in computer programming is knowing when and how to tell the computer to either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements and Loops, which you will learn about today.
+One of the most important concepts in computer programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements and Loops, which you will learn about today.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
