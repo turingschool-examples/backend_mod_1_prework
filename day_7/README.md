@@ -9,10 +9,10 @@ When you have completed the activities for day 7 you will submit your work throu
 
 1. Using what you have learned in the last week, complete at least one of the projects below.  Put any files related to the project(s) you choose in a day_7 directory.
 
-    1. [FizzBuzz](./day_7/fizzbuzz.md)
-    1. [10 Little Monkeys](./day_7/10_little_monkeys.md)
-    1. [Ceasar Cipher](./day_7/ceasar_cipher.md)
-    1. [Checker Board](./day_7/checker_board.md)
+    1. [FizzBuzz](./fizzbuzz.md)
+    1. [10 Little Monkeys](./10_little_monkeys.md)
+    1. [Ceasar Cipher](./ceasar_cipher.md)
+    1. [Checker Board](./checker_board.md)
 
 1. When you are finished with your project(s), use your terminal to run the following commands in order to save your work to your local git repository and push your work to the remote repository on GitHub:
 
