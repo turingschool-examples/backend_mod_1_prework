@@ -3,10 +3,27 @@
 # file from your terminal with the command `ruby day_1/exercises/strings.rb`
 
 # example: Write code below to print your name to the terminal:
-p "Alan Turing"
+puts "What is your name"
+name = gets.chomp
+print "hi #{name}"
 
 # Write code below to print `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+print " #{name} 'Welcome to Turing' "
 
 # Write code below to print `99 bottles of pop on the wall...`:
-# YOUR CODE HERE
+counter = 100
+while counter >= 1
+      if counter == 1
+        puts "1 bottle of pop on the wall"
+        puts "1 bottle of pop"
+        puts "If that bottles should happen to fall,"
+        puts "No bottles of pop on the wall."
+      else
+        puts "#{counter} bottles of pop on the wall "
+        puts "#{counter} bottles of pop "
+        puts "If one of those bottles should happen to fall,"
+        puts "#{counter - 1} bottles of pop on the wall."
+      end
+      counter -= 1
+
+  end
