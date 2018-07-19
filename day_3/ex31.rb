@@ -8,6 +8,7 @@ if door == "1"
   puts "There's a giant bear here eating a cheese cake. What do you do?"
   puts "1. Take the cake."
   puts "2. Scream at the bear."
+  puts "3. Freeze. Like a ball of frozen, wiggly-no-more Jello."
 
   print "> "
   bear = $stdin.gets.chomp
@@ -16,6 +17,8 @@ if door == "1"
     puts "The bear eats your face off. Good job!"
   elsif bear == "2"
     puts "The bear eats your legs off. Good job!"
+  elsif bear == "3"
+    puts "UNFREEZE AND RUN, VIVIAN!"
   else
     puts "Well doing %s is probably better. Bear runs away." % bear
   end

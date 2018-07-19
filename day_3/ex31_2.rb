@@ -8,6 +8,18 @@ print "> "
 
 homework = $stdin.gets.chomp
 
-if homework == "1"
-  #put some kind of loop somewhere that sends user back to the beginning if they choose option 1. maybe figure out how to say a different message if
-  #they choose option 1 YET AGAIN - such as "WHAT DID I JUST TELL YOU??"
+ if homework == "1"
+  puts "WRONG! YOU MUST WORK! TRY AGAIN!"
+  print "> "
+  homework = $stdin.gets.chomp
+ end
+
+ if homework == "2"
+   puts "Great idea. Good job, my young padawan."
+ elsif homework == "3"
+   puts "Well, you got something done, but now you must spend even more time on it to fix it. Lesson learned."
+ else
+   puts "No. Your options are one.to.three. Try again."
+   print "> "
+   homework = $stdin.gets.chomp
+ end
