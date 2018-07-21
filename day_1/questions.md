@@ -2,34 +2,34 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-2. p '"Hello World!"'
+  * p '"Hello World!"'
 
 1. What is the character you would use to indicate comments in a ruby file?
 
-2. #
+  * #
 
 1. Explain the difference between an integer and a float?
 
-2. and integer is a whole number and float is a number with decimals
+  * and integer is a whole number and float is a number with decimals
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
-2. animal = "zebra"
+  * animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 
-2. p animal
+  * p animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-2. interpolation is what ever you put between the brackets in #{} will be      put inside what string the #{} are in.
-p "Africa has many #{animal}s."
+  * interpolation is what ever you put between the brackets in #{} will be   put inside what string the #{} are in.
+  p "Africa has many #{animal}s."
 
 1. How do we get input from a user? What is the method that we would use?
 
-2. gets
+  * gets
 
 1. Name and describe two common string methods.
 
-2.  .upcase capitalizes the strings
+  * .upcase capitalizes the strings
     .to_i converts the string to an integer
