@@ -4,29 +4,29 @@
 
   A conditional statement is an `if-statement` that causes a branch in the code, based on certain conditions.
   examples:
-  - ` if burgers < people
-        puts "someone is going hungry, today!"
-      elsif burgers == people
-        puts "We have just enough food for everyone."
-      else
-        puts "Looks like there should be plenty of food!"
-      end`
-
-  - ` if toes == 10
-        puts "You have the right number of toes"
-      elsif toes == 9
-        puts "You are missing a toe."
-      elsif toes < 9
-        puts "You are missing some toes."
-      else
-        puts "You have too many toes."
-      end`
-
-  - ` if eyes = ears
-        puts "Your face looks pretty normal."
-      else
-        puts "Something looks different about you..."
+  - ` if burgers < people  
+        puts "someone is going hungry, today!"  
+      elsif burgers == people  
+        puts "We have just enough food for everyone."  
+      else  
+        puts "Looks like there should be plenty of food!"  
       end`  
+
+  - ` if toes == 10  
+        puts "You have the right number of toes"  
+      elsif toes == 9  
+        puts "You are missing a toe."  
+      elsif toes < 9  
+        puts "You are missing some toes."  
+      else  
+        puts "You have too many toes."  
+      end`
+
+  - ` if eyes = ears  
+        puts "Your face looks pretty normal."  
+      else  
+        puts "Something looks different about you..."  
+      end`
 
 1. Why might you want to use an if-statement?
 
