@@ -23,6 +23,7 @@
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
    *Interpolation is entering variables inside strings.*
+   
    *p "The #{animal} is an animal.*
 
 1. How do we get input from a user? What is the method that we would use?
