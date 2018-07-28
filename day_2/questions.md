@@ -18,8 +18,9 @@
 
 1. Name and describe two additional array methods.
 
-   *Length: Returns the number of elements in the array.
-  First: Returns the first element of an array.*
+   *Length: Returns the number of elements in the array.*
+   
+   *First: Returns the first element of an array.*
 
 1. What are the boolean values in Ruby?
 
