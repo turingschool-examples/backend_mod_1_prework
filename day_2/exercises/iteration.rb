@@ -19,8 +19,15 @@ end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-# YOUR CODE HERE
+hipster_foods = ["coffee", "pickles", "kale", "slaw", "sriracha", "pork belly", "kombucha", "bacon"]
+hipster_foods.each do |hipster_food|
+  puts "Add #{hipster_food} to shopping list, bro!"
+end
 
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
-# YOUR CODE HERE
+numbers = [1, 2, 3, 4, 5, 6]
+numbers.each do |number_doubled|
+  number_doubled = number_doubled * 2
+  puts "The number doubled is #{number_doubled}."
+end
