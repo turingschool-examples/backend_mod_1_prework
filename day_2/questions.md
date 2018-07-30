@@ -2,19 +2,19 @@
 
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-   *["zebra", "giraffe", "elephant"]*
+       ["zebra", "giraffe", "elephant"]
 
 1. Save the array you created above to a variable `animals`.
 
-   *animals = ["zebra", "giraffe", "elephant"]*
+       animals = ["zebra", "giraffe", "elephant"]
 
 1. using the array `animals`, how would you access `"giraffe"`?
 
-   *animals[1]*
+       animals[1]
 
 1. How would you add `"lion"` to the `animals` array?
 
-   *animals << "lion"*
+       animals << "lion"
 
 1. Name and describe two additional array methods.
 

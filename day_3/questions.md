@@ -12,11 +12,11 @@
 
 1. What is the Ruby syntax for an if statement?
 
-   *if* `boolean expression`
+       if `boolean expression`
 
-       code to be executed if expression evaluates to TRUE
+         code to be executed if expression evaluates to TRUE
 
-   *end*
+       end
    
 1. How do you add multiple conditions to an if statement?
 
@@ -24,19 +24,19 @@
 
 1. What is the Ruby syntax for an if/elsif/else statement?
 
-   *if* `boolean expression`
+       if `boolean expression`
 
-       code to be executed if expression evaluates to TRUE
+         code to be executed if expression evaluates to TRUE
 
-   *elsif* `boolean expression`
+       elsif `boolean expression`
 
-       code to be executed if expression evaluates to TRUE
+         code to be executed if expression evaluates to TRUE
 
-   *else*
+       else
 
-       code to be executed if none of the above expressions evaluate to TRUE
+         code to be executed if none of the above expressions evaluate to TRUE
 
-   *end*
+       end
    
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
