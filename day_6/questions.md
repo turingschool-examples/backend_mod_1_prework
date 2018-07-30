@@ -14,17 +14,17 @@ A behavior is a method specific to a class and, thereby, to all objects within t
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-` class Dog
-    attr_reader :name, :breed
+`   class Dog
+      attr_reader :name, :breed
 
-    def speak
-      puts "Woof!"
-    end
+      def speak
+        puts "Woof!"
+      end
 
-    def sit
-      puts "#{name} sits. What a good dog!"
-    end
-  end`
+      def sit
+        puts "#{name} sits. What a good dog!"
+      end
+    end`
 
 1. How do you create an instance of a class?
 
