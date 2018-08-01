@@ -47,4 +47,4 @@ the piece to be changed, and what we want to change it to.
 
 ```Ruby
 "Amy".gsub("A","E")
-```    
+```
