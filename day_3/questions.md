@@ -14,8 +14,8 @@
 1. What is the Ruby syntax for an if statement?
 
   * if cars == "blue"
-      puts "your car is blue."
-    end
+  *   puts "your car is blue."
+  * end
 
 1. How do you add multiple conditions to an if statement?
 
@@ -24,12 +24,12 @@
 1. What is the Ruby syntax for an if/elsif/else statement?
 
   * if shirt == "large"
-      puts "It's the right size."
-    elsif shirt == "small"
-      puts "It's to small of size."
-    else
-      puts "Not the right size."
-    end
+  *   puts "It's the right size."
+  * elsif shirt == "small"
+  *   puts "It's to small of size."
+  * else
+  *   puts "Not the right size."
+  * end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
