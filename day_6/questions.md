@@ -16,20 +16,20 @@
 
   * class Dog
 
-    def initialize(name, age)
-        @name = name
-        @age = age
-      end
+  * def initialize(name, age)
+  *     @name = name
+  *     @age = age
+  *   end
 
-      def run(place)
-        puts "#{@name} runs to the #{place}."
-      end
+  *   def run(place)
+  *     puts "#{@name} runs to the #{place}."
+  *   end
 
-      def eat(food)
-        puts "You give #{@name} a piece of #{food} to eat."
-      end
+  *   def eat(food)
+  *     puts "You give #{@name} a piece of #{food} to eat."
+  *   end
 
-    end  
+  * end  
 1. How do you create an instance of a class?
 
   * lucky = Dog.new("lucky", 8)
