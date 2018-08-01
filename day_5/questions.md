@@ -2,7 +2,7 @@
 
 1. What is a Hash, and how is it different from an Array in Ruby?
 
-  * Hashes are an unorder list where you use values to represent the keys. An array is an order list where you use an index to get items from the list.
+  * Hashes are an unorder list where you use values to represent the keys. An array is an ordered list where you use an index to get items from the list.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
