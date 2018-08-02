@@ -1,0 +1,6 @@
+Explain this error: This error means that the variable "carpool_capacity" has
+not been properly assigned. Possibly a typo when assigning the variable on
+line number 7.
+
+# 1 - Using 4.0 is not necessary for this variable. Using a decimal point
+changes this variable into a floating point number.

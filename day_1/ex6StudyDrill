@@ -1,0 +1,17 @@
+2 - Find all the places where a string is put inside a string. There are four places.
+
+2A - I found five in my code, lines 10, 18, 20, 25, 36 all print out a string with a variable that is also a string.
+
+3 - Are you sure there are only 4 four?
+
+3A - No, Line 36, prints out two strings 'w' and 'e' which both have strings assigned to them.
+
+4 - Explain why adding the two strings 'w' and 'e' with '+' makes a longer string.
+
+4A - Both 'w' and 'e' have strings assigned to them, so then you also add a '+' sign, this prints out both strings.
+
+5 - What happens when you change the strings to use '' instead of "", does it work? why?
+
+5A - It does not seem to work, It no longer recognizes the #{variable} inside of the string.
+
+I think the use of single quotes '' gets printed out exactly as you type it, instead of inserting the variable.

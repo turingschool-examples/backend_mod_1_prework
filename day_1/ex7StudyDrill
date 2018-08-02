@@ -1,0 +1,9 @@
+1 - Go online and find out what Ruby's gets.chomp does.
+
+1A - gets.chomp is a two part process I think. 'gets' takes in user input, in this case the users
+age, height and weight. '.chomp' takes off the last character of the users input. in this case the
+character "\n" which means 'new line' and is what happens when you hit the Enter key
+
+2 - Can you find other ways to use it? Try some of the samples you find.
+
+2-A 
