@@ -1,0 +1,40 @@
+puts "You are lost in forest. While lost you encounter 2 abandoned houses. Which one do you enter the one on the left or right?"
+
+print "> "
+house = $stdin.gets.chomp
+
+if house == "right"
+  puts "It's so dark you can barely see a staircase going downstairs and a closed door."
+  puts "1. Go downstairs."
+  puts "2. Open the door."
+
+  print "> "
+  way = $stdin.gets.chomp
+
+  if way == "1"
+    puts "You go down and find nothing."
+  elsif way == "2"
+    puts "You find a map that can lead you out of the forest."
+  else
+    puts "You leave the house."
+  end
+
+elsif house == "left"
+  puts "There is a candle that lights the house you see a trapdoor and a desk. Which do you go to first?"
+  puts "1. Go down the trapdoor."
+  puts "2. Check the desk."
+
+  print "> "
+  way_2 = $stdin.gets.chomp
+
+  if way_2 == "1"
+   puts "You go down and find nothing."
+ elsif way_2 = "2"
+   puts "You find a flint rock and a jacket."
+ else
+   puts "You leave the house."
+ end
+
+else
+  puts "You freeze and die."
+end
