@@ -34,14 +34,17 @@ puts states
 puts cities
 
 line_break
+
 puts "NY State has: #{cities['NY']}"
 puts "OR State has: #{cities['OR']}"
 
 line_break
+
 puts "Michigan has: #{cities[states['Michigan']]}"
 puts "Florida has: #{cities[states['Florida']]}"
 
 line_break
+
 states.each do |state, abbrev|
   city = cities[abbrev]
   puts "#{state} is abbreviated #{abbrev} and has city #{city}"
