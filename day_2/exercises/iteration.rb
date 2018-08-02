@@ -5,22 +5,24 @@
 # example: Write code below that iterates through a list of animals and print
 # each animal.
 animals = ["Zebra", "Giraffe", "Elephant"]
-
 animals.each do |animal|
   p animal
 end
 
 # Write code below that iterates through a list of animals and prints "The
 # <animal> is awesome!" for each animal.
-
 animals.each do |animal|
-  # YOUR CODE HERE
+  p "The #{animal} is awesome!"
 end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-# YOUR CODE HERE
+grocery_list = ["almonds", "eggs", "coffee", "apples", "avocados", "zucchini"]
+
+grocery_list.each{ |food_item| p "Add #{food_item} to shopping list" }
 
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
-# YOUR CODE HERE
+numbers = [43,59,394,9584,374,3,5,3843]
+
+numbers.each{ |number| p number * 2 }
