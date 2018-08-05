@@ -1,0 +1,38 @@
+true
+false
+false
+true
+true
+true
+false
+true
+false
+false
+true
+false
+true
+false
+false
+false
+true
+true
+false
+false
+
+Drills:
+Equality operators
+> Greater than
+< Less than
+!= Not equal
+== equal
+<= less than or equal
+>= greater than or equal
+<=> combined comparison operator
+=== case equality operator - works as defined by the class of the object
+    on the left
+
+.eql?   determines if both have the same type and value (hash equality)
+.equal? determines if both have the same object id (identiy comparison)
+Identical twins would yield different results, for example
+    twin1.eql?(twin2) = true
+    twin1.equal?(twin2) = false
