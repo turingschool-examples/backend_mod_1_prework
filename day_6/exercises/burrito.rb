@@ -26,6 +26,7 @@ class Burrito
   include AddTopping
   include RemoveTopping
   include ChangeProtein
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
