@@ -19,12 +19,29 @@ class Dog
   def eat
     @hungry = false
   end
+
+  def play
+    p "* wag, tug, run, zigzag, wag, pant *"
+    @hungry = true
+  end
+
+  def hungry?
+    if @hungry
+      p "#{name} is hungry!"
+    else
+      p "#{name} is not hungry!"
+    end
+    @hungry
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
 p fido.breed
 p fido.name
 p fido.age
-p fido.hungry
+fido.hungry?
 fido.eat
-p fido.hungry
+fido.hungry?
+
+fido.play
+fido.hungry?

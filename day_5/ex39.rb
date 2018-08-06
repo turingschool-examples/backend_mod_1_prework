@@ -63,7 +63,8 @@ if !state # If 'state' is either nil or false
 end
 
 # default values using ||= with the nil result
-# cities = Hash.new('DefaultTest') # Example of setting new default
+cities = Hash.new('DefaultTest') # Example of setting new default
+puts cities
 city = cities['TX']
 city ||= 'Does Not Exist' # resets value if original value is nil
 puts "The city for the state 'TX' is: #{city}"
