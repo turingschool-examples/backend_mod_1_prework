@@ -1,0 +1,9 @@
+sort = rearranges the order of elements in an array in a specified way
+each = goes through each element in an array
+join = converts the elements of an array into a string
+index = tells you where in the array an object is or nil if it isn't in the array
+include? = goes through an element and returns true if the object is present and false if it is not
+collect = goes through each element of a block and creates a new array containing the values returned by the block
+first = returns the first element
+last = returns the last element
+shuffle = returns an array with elements in a scrambled order
