@@ -8,7 +8,6 @@ require 'pry'
 class Burrito
   attr_reader :protein, :base, :toppings
   def initialize(protein, base, toppings)
-
     @protein  = protein
     @base     = base
     @toppings = toppings
@@ -32,4 +31,6 @@ dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
-binding.pry
+p dinner.remove_topping("salsa")
+p dinner.toppings
+#binding.pry
