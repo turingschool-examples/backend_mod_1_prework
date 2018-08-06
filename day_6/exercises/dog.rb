@@ -28,3 +28,11 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+
+class Dog
+  def play
+    @hungry = true
+  end
+end
+
+fido.play

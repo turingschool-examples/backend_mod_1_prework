@@ -1,4 +1,4 @@
-# Add the following methods to this burrito class and call the methods below
+  # Add the following methods to this burrito class and call the methods below
 #the class:
 # 1. add_topping
 # 2. remove_topping
@@ -17,3 +17,12 @@ dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
+
+class Burrito
+  attr_accessor :protein, :base, :toppings, :add_topping, :remove_topping :change_protein
+  def initilize(add_topping, remove_topping, change_protein)
+    @add_topping = add_topping
+    @remove_topping = remove_topping
+    @change_protein = change_protein
+  end
+end
