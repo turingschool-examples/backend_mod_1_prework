@@ -7,6 +7,7 @@
 animals = ["Zebra", "Giraffe", "Elephant"]
 p animals
 
+
 # Write code below that will print an array of states. Store the array in a variable.
 states = ["Alaaaaabama", "Alaska", "Arizona", "Arkansas"]
 p states

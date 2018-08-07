@@ -1,5 +1,6 @@
 ## Day 2 Questions
 
+
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 ["zebra", "giraffe", "elephant"]
 

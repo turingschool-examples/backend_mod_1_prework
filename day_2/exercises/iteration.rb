@@ -10,6 +10,7 @@ animals.each do |animal|
   p animal
 end
 
+
 # Write code below that iterates through a list of animals and prints "The
 # <animal> is awesome!" for each animal.
 
