@@ -4,6 +4,7 @@
 
 class Dog
   attr_reader :breed, :name, :age
+  attr_accessor :hungry
 
   def initialize(breed, name, age)
     @breed  = breed
@@ -19,6 +20,13 @@ class Dog
   def eat
     @hungry = false
   end
+
+  # define a method called play that makes the dog hungry
+  def play
+    puts "You play #{self.name} and have lots of fun but #{self.name} get's hungry as a result."
+    @hungry = true
+  end
+
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
@@ -27,4 +35,7 @@ p fido.name
 p fido.age
 p fido.hungry
 fido.eat
+p fido.hungry
+# call the method and print out fido's hungry status
+fido.play
 p fido.hungry
