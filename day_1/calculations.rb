@@ -1,0 +1,5 @@
+puts "I want to calculate my D&D character's weapon attack modifier."
+puts "He has 16 strength and is proficient with his weapon."
+puts "His strength gives him +#{(16 - 10) / 2} to attack."
+puts "He is level 14 so his proficiency modifier is +#{14 / 4 + 2}"
+puts "With both of those in mind he gains +#{5 + 3} to attack rolls."
