@@ -11,9 +11,24 @@ class Burrito
     @base     = base
     @toppings = toppings
   end
+
+  def add_topping
+    "onions"
+  end
+
+  def remove_topping
+    "bacon"
+  end
+
+  def change_protein
+    'Chicken'
+  end
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
+p dinner.add_topping
+p dinner.remove_topping
+p dinner.change_protein
