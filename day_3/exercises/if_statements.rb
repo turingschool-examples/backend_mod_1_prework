@@ -9,18 +9,20 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+puts "You look outside. Is it sunny, rainy, snowy, or icy?"
+print "> "
+  weather = $stdin.gets.chomp
 
   if weather == 'sunny'
-    p "sunscreen"
+    p "You need to take sunscreen"
   elsif weather == 'rainy'
-    p "umbrella"
+    p "You need to take an umbrella"
   elsif weather == 'snowy'
-    p "coat"
+    p "You need to take a coat"
   elsif weather == 'icy'
-    p "yak traks"
+    p "You need to take yak traks"
   else
-    p "good to go!"
+    p "You're good to go!"
   end
 
 # Manipulate the variable 'weather' to see if you can print something other
@@ -42,10 +44,12 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+num_quarters = 2
+  if num_quarters < 2
+    puts "I don't have enough money for a gumball"
+  elsif
+    puts "I have enough money for a gumball"
+  end
 
 
 #####################
@@ -59,5 +63,22 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+puts "I hear you're trying to make pizza"
+puts "How any cups of flour do you have?"
+print "> "
+  cups_of_flour = gets.chomp.to_i
+
+puts "Do you have sauce? (y/n)"
+print "> "
+    sauceans = $stdin.gets.chomp
+  if sauceans == "y"
+    has_sauce = true
+  else
+    has_sauce = false
+  end
+
+if (cups_of_flour >= 2) && (has_sauce == true)
+  puts "You can make pizza."
+else
+  puts "You can't make pizza."
+end
