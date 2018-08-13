@@ -1,6 +1,10 @@
+
 puts "Please provide me a number higher than 10"
 response = gets.chomp.to_i
 numbers = Array(1..response)
+
+y = gets.chomp.to_i
+numbers = Array(1..y)
 numbers.each do |num|
   if num %3 == 0 && num % 5 == 0
     puts "fizzbuzz"
