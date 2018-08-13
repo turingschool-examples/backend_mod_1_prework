@@ -1,31 +1,15 @@
-puts "Please input start of range: "
-range_start = gets.to_i
+def fizzbuzz(num)
+  if num % 3 == 0 && num % 5 == 0
+    puts "fizzbuzz"
+  elsif num % 3 == 0
+    puts "fizz"
+  elsif num % 5 == 0
+    puts "buzz"
+  else
+    puts num
+  end
+end
 
-puts "Please input end of range: "
-range_end = gets.to_i
-
-# check start and end of range are not nil and not zero
-if range_start.nil? || range_start == 0
-    puts "Please input correct start of range!"
-elsif range_end.nil? || range_end == 0
-    puts "Please input correct end of range!"
-else
-    end_ = range_end
-    i = range_start
-    array = Array[]
-    begin
-        if i % 3 == 0 and i % 5 == 0
-            array.push('FizzBuzz')
-        elsif i % 3 == 0
-            array.push('Fizz')
-        elsif i % 5 == 0
-            array.push('Buzz')
-        else
-            array.push(i)
-        end
-        i +=1
-    end while i <= end_
-
-    fizzbuzz = array.join(", ")
-    puts fizzbuzz
+1.upto(100) do |x|
+  fizzbuzz(x)
 end
