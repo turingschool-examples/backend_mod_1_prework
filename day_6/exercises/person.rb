@@ -3,3 +3,9 @@
 # terminal.
 
 #YOUR CODE HERE
+class person
+  def initialize(eye_color, hair_color)
+    @eye_color = eye_color
+    @hair_color = hair_color
+  end
+end
