@@ -11,6 +11,10 @@ class Burrito
     @base     = base
     @toppings = toppings
   end
+  
+  def add_topping(toppings)
+    @toppings = @toppings.push(toppings)
+  end
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
