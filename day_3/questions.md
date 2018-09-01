@@ -13,20 +13,20 @@ specified string will be printed.
 
   ex2 - This is a basic if/else statement. Since 1 does not equal two, the program moves to the next condition. Else just says that if the first conditions don't return true, then run my code. In this case, the second code block runs.
 ```ruby
-    if 1 == 2
-  puts "Weird."
+  if 1 == 2
+    puts "Weird."
   else
-  puts "One does not equal two."
+    puts "One does not equal two."
   end
 ```
   ex3 - This is a basic if/elsif/else statement. The program runs through each line until the conditions are met. The if condition returns false because 1 doesn't equal 2. So it moves to the elsif - that one returns false because 1 is not greater than 2. Finally it moves to the else - this is the fallback, because it will run if none of the earlier lines return true. The third code block will run.
 ```ruby
-  if 1 == 2
-puts "Weird."
+if 1 == 2
+  puts "Weird."
 elsif 1 > 2
-puts "Also weird."
+  puts "Also weird."
 else
-puts "One is less than two."
+  puts "One is less than two."
 end
 ```
 **2. Why might you want to use an if-statement?**
@@ -43,7 +43,7 @@ end
   The syntax is structured like so:
   ```ruby
    if (#conditional statement)
-  #code block to be run if the if conditions are met/true
+     #code block to be run if the if conditions are met/true
   end # this ends the statement
   ```
 **4. How do you add multiple conditions to an if statement?**
@@ -57,9 +57,9 @@ end
   Syntax:
   ```ruby
   elsif (#conditional statement)
-  #code block to be run if the elsif conditions are met/true.
+    #code block to be run if the elsif conditions are met/true.
   else
-  #this code only runs if the previous conditional statements do not have their parameters met or return true.
+    #this code only runs if the previous conditional statements do not have their parameters met or return true.
   end
 ```
 
