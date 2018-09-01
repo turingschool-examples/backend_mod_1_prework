@@ -7,7 +7,7 @@
 specified string will be printed.
 ```ruby
   if 1 < 2
-  puts "One is less than two"
+    puts "One is less than two"
   end
 ```
 
