@@ -1,7 +1,7 @@
 # In the dog class below, add a play method that, when called, will result in
 # the dog being hungry. Call that method below the class, and print the dog's
 # hunger status.
-
+require 'pry'
 class Dog
   attr_reader :breed, :name, :age
 
@@ -9,7 +9,6 @@ class Dog
     @breed  = breed
     @name   = name
     @age    = age
-    @hungry = true
   end
 
   def bark
@@ -18,13 +17,19 @@ class Dog
 
   def eat
     @hungry = false
+    print "I am not hungry."
   end
+
+  def play
+    @hungry = true
+    print "I am hungry now."
+  end
+
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
 p fido.breed
 p fido.name
 p fido.age
-p fido.hungry
-fido.eat
-p fido.hungry
+puts fido.play
+puts fido.eat

@@ -9,22 +9,36 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
-
-  if weather == 'sunny'
-    p "sunscreen"
-  elsif weather == 'rainy'
-    p "umbrella"
-  elsif weather == 'snowy'
-    p "coat"
-  elsif weather == 'icy'
-    p "yak traks"
-  else
-    p "good to go!"
-  end
+  # weather = 'snowy'
+  #
+  # if weather == 'sunny'
+  #   p "sunscreen"
+  # elsif weather == 'rainy'
+  #   p "umbrella"
+  # elsif weather == 'snowy'
+  #   p "coat"
+  # elsif weather == 'icy'
+  #   p "yak traks"
+  # else
+  #   p "good to go!"
+  # end
 
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
+
+weather = 'sunny'
+
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'rainy'
+  p "umbrella"
+elsif weather == 'snowy'
+  p "coat"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 
 ##################
@@ -42,10 +56,12 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
-
+num_quarters = 6
+if num_quarters >= 2
 puts "I have enough money for a gumball"
+else
 puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -59,5 +75,10 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+cups_of_flour = 3
 has_sauce = true
+if cups_of_flour >= 2 && has_sauce = true
+  puts "I can make make pizza"
+else
+  puts "I cannot make pizza."
+end
