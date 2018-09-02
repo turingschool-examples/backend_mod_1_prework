@@ -13,5 +13,8 @@ end
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
+10.times do
+  p "She sells seashells down by the seashore"
+end
 # 10 times.
 # YOUR CODE HERE
