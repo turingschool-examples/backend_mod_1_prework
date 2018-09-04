@@ -1,4 +1,4 @@
-print "Who do you think will win the game this weekend? "
+print "Who do you think will win the game this weekend? " #Notre Dame, hopefully
 winner = gets.chomp
 print "What do you think the winning score will be? "
 score = gets.chomp
