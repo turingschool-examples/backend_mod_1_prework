@@ -1,6 +1,7 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
+
 `puts "Hello World!"`
 
 1. What is the character you would use to indicate comments in a ruby file?
@@ -18,7 +19,8 @@ animal = "zebra"
 `puts animal`
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-It is using variables to customize strings to a particular situation.
+
+It is inserting the values of variables into strings to customize the strings to a particular situation.
 `"A #{animal} is a type of animal often found in zoos"`
 
 1. How do we get input from a user? What is the method that we would use?
