@@ -19,10 +19,12 @@ animal = "zebra"
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
   * It is inserting the values of variables (or calculations) into strings to customize the strings to a particular situation.
-`"A #{animal} is a type of animal often found in zoos"`
+  ```ruby
+  puts "A #{animal} is a type of animal often found in zoos"
+  ```
 
 1. How do we get input from a user? What is the method that we would use?
-  * `gets.chomp`
+  * `gets` or `gets.chomp`
   * gets is the main method for getting input from the user. chomp removes the newline character.
 
 1. Name and describe two common string methods.
