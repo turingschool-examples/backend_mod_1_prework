@@ -8,8 +8,8 @@
   # if it is rainy, print "umbrella"
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
-
-  weather = 'snowy'
+  p "What's the weather like?"
+  weather = gets.chomp
 
   if weather == 'sunny'
     p "sunscreen"
@@ -42,11 +42,16 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+p "How many quarters do you have?"
+print "> "
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+num_quarters = gets.chomp.to_i
 
+if num_quarters <= 1
+  puts "I don't have enough money for a gumball"
+else 
+  puts "I have enough money for a gumball"
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +64,17 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+p "How many cups of flour do you have?"
+print "> "
+cups_of_flour = gets.chomp.to_i
+p "Do you have sauce? Enter true or false"
+print "> "
+has_sauce = gets.chomp
+
+if cups_of_flour < 2 || has_sauce == "false"
+  p "I cannot make pizza"
+elsif cups_of_flour >= 2 && has_sauce == "true"
+  p "I can make pizza"
+else 
+  p "I cannot make pizza"
+end
