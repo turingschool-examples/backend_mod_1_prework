@@ -13,8 +13,8 @@
 1. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 `states["IA"]`
 1. With the same hash above, how would we get all the keys?  All the values?
-# Keys `states.keys`
-# Values `states.values`
+*Keys:* `states.keys`
+*Values:* `states.values`
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 ...It's useful to use a hash when you have one value and want to look up an associated value that the first is linked to.  It's better to use a hash in this case because your value does not need to be numeric.
 
