@@ -4,7 +4,7 @@
   * A statement where a certain block of code is performed if a particular condition is met (evaluates to `true`).
   * if x is equal to 1, add 1 to the value of x.
   * if there are more than 10 dogs, print "there are too many dogs"
-  * ```ruby
+  ```ruby
   if number != 0
     puts "That's not nothing!"
   end
@@ -14,7 +14,7 @@
   * To direct the flow of a program - you may only want to execute part of a program if something is true. For example, a user returns a certain value, or a calculation turns out in a certain way, or to check that you get an expected result.
 
 1. What is the Ruby syntax for an if statement?
-  * ```ruby
+  ```ruby
   if conditional statement
     code to execute
   end
@@ -24,7 +24,7 @@
   * Using `elsif` to add more blocks
 
 1. What is the Ruby syntax for an if/elsif/else statement?
-  * ```ruby
+  ```ruby
   if conditional statement
   code to run
   elsif conditional statement
