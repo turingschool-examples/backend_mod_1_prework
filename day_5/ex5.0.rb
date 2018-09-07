@@ -4,7 +4,11 @@ states = {
   'Florida' => 'FL',
   'California' => 'CA',
   'New York' => 'NY',
-  'Michigan' => 'MI'
+  'Michigan' => 'MI',
+  'Indiana' => 'IN',
+  'Alabama' => 'AL',
+  'Ohio' => 'OH',
+  'South Carolina' = 'SC'
 }
 
 # create a basic set of states and some cities in them
@@ -12,26 +16,33 @@ cities = {
   'CA' => 'San Francisco',
   'MI' => 'Detroit',
   'FL' => 'Jacksonville',
+  'SC' => 'Charleston',
+  'AL' => 'Cullman',
+  'IN' => 'South Bend'
 }
 
 # add some more cities
 cities['NY'] = 'New York'
 cities['OR'] = 'Portland'
+cities['OH'] = 'Cincinnati'
 
 # puts out some cities
 puts '-' * 10
 puts "NY State has: #{cities['NY']}"
 puts "OR State has: #{cities['OR']}"
+puts "IN State has #{cities['IN']}"
 
 # puts some states
 puts '-' * 10
 puts "Michigan's abbreviation is: #{states['Michigan']}"
 puts "Florida's abbreviation is #{states['Florida']}"
+puts "Alabama's abbreviation is #{states['Alabama']}"
 
 # do it by using the state then cities dict
 puts '-' * 10
 puts "Michigan has: #{cities[states['Michigan']]}"
 puts "Florida has: #{cities[states['Florida']]}"
+puts "Ohio has #{cities[states['Ohio']]}"
 
 # puts every state abbreviation
 puts '-' * 10
