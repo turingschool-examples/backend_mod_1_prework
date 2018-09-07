@@ -8,11 +8,12 @@ animals = ["Zebra", "Giraffe", "Elephant"]
 p animals
 
 # Write code below that will print an array of states. Store the array in a variable.
-states = #YOUR CODE HERE
+states = ["Washington", "Oregon", "Florida", "Georgia", "Nevada"]
 p states
 
 # Write code below that will print an array of foods. Store the array in a variable.
-# YOUR CODE HERE
+foods = ["apple", "beans", "bananas", "chocolate"]
+p foods
 
 # example: Write code below that will print the number of elements in array of
 # animals from above.
@@ -20,18 +21,25 @@ p animals.count
 
 # Write code below that will print the number of elements in the array of
 #foods from above.
-# YOUR CODE HERE
+p foods.count
 
 # Write code below that will print "Zebra" from the animals array
-# YOUR CODE HERE
+p animals[0]
 
 # Write code below that will print the last item from the foods array.
-# YOUR CODE HERE
+p foods.last
 
 # Write code below that uses a method to add "lion" to the animals array and
-# print the result
-# YOUR CODE HERE
+animals << "lion"
+p animals
 
 # Write code below that removes the last item of food from the foods array and
 # print the result
-# YOUR CODE HERE
+# define variable based on number of elements in array
+x = foods.count
+# the variable just defined says how many elements are in the array.
+# subtract one from the variable to get the index number of the last element.
+# delete the element in the last index number position
+foods.delete_at(x -1)
+# print the resulting array
+p foods
