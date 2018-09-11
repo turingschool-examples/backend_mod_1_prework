@@ -25,4 +25,4 @@ hello_someone("Sam")
 1. What questions do you still have about methods in Ruby?
   * Curious about the fact that you don't need to explicitly tell Ruby what to return by using `return` - not sure how that would play out in larger methods? Seems safer just to use `return` explicitely?
   * Can you use variables from outside the method inside the method without passing them in as arguments?
-  * Variable/argument naming conventions... E.g., if you have "name" as a variable but then also want to use it in a method... using the same thing in the method would probably be confusing, but do you shorten it e.g. "n" or lengthen it e.g. "_user_name"?
+  * Variable/argument naming conventions... E.g., if you have "name" as a variable but then also want to use it in a method... using the same thing in the method would probably be confusing, but do you shorten it e.g. "n" or lengthen it e.g. "user_name"?
