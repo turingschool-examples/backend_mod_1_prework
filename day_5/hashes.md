@@ -1,6 +1,6 @@
 # What can I do with hashes?
 
-### Some interesting m  ethods from the [Ruby documentation]( https://ruby-doc.org/core-2.5.1/Hash.html)
+### Some interesting methods from the [Ruby documentation]( https://ruby-doc.org/core-2.5.1/Hash.html)
 
 1. `.clear`
   * Clears all key-value pairs from the hash.
