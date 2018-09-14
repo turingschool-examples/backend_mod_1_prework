@@ -41,3 +41,7 @@ puts "Is it greater? #{5.0 > -2.0}"
 puts "Is it greater or equal? #{5.0 >= -2.0}"
 # Same as above except it checks it using a less or equal statement
 puts "Is it less or equal? #{5.0 <= -2.0}"
+
+
+# calc made for exercise
+puts "What is a 20 percent return on a principal of 9323 dollars? #{9323 * 0.2}"
