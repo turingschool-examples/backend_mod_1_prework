@@ -1,56 +1,53 @@
 
+Array [1, 2, 3, 4]
+sample = [1, 2, 3, 4]
 
-puts "Want to play a game? Y/N"
-
-print "> "
-
-answer = $stdin.gets.chomp
-
-if answer == "Y"
-  loop do
-
-        puts "What is my favorite color? 1.Purple 2.Brown 3.Yellow 4.None of the above"
-
-        print "> "
-
-        color = $stdin.gets.chomp
-
-  break
+def start
+  puts "Want to play a game? Y/N"
+  print "> "
+  answer = $stdin.gets.chomp
+  check_answer (answer)
 end
-  if color == "1"
 
-    puts "I hate purple"
+def play
+   puts "What is Terminal's favorite color? 1. Purple, 2. Blue, 3. Yellow, 4. Brown"
+   print "> "
 
-  elsif color == "2"
+   color = $stdin.gets.chomp
+   check_color (color)
+end
 
-    puts "Yay, You got it"
+def win
+  puts "Winner, winner, chicken dinner!"
+end
 
-  elsif color == "3"
+def check_answer (answer)
 
-    puts "And it was all yelloooow!"
+  if answer == "N"
+    puts "Lame."
 
-    puts "Still wrong, guess again"
+    puts "Goodbye now."
 
+  elsif answer == "Y"
 
-  elsif color == "4"
+    play
 
-    puts "I tricked you"
+  else
 
-    puts "Still wrong, guess again"
+    puts "You had two options, try again!"
+  end
+end
+
+def check_color (color)
+
+  if color == "2"
+
+    puts "You got it!"
+    win
 
   else
     puts "The options are 1, 2, 3, 4. Try again!"
-
+    play
+  end
 end
-elsif answer == "N"
-
-  puts "Lame."
-
-  puts "Goodbye now."
-
-else
-
-  puts "You had two options, try again!"
-
-
-end
+start
