@@ -13,11 +13,11 @@ class Burrito
   end
 
   def add_topping(topping)
-    self.toppings.push(topping)
+    toppings.push(topping)
   end
 
   def remove_topping(topping)
-    self.toppings.delete_if {|t| t == topping}
+    toppings.delete_if {|t| t == topping}
   end
 
   def change_protein(p)

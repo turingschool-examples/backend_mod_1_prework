@@ -40,3 +40,5 @@ joe.boring
 joe.color_hair("purple")
 
 joe.info
+
+joe.fun

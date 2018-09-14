@@ -1,7 +1,7 @@
 ## Day 5 Questions
 
 1. In your own words, what is a Class?
-  * A class is a definition of a kind of object, one that you can create yourself. The class defines the properties of the object - what states will be possible (what kind of information can be stored about the object) and what behaviors will be possible (what can the object do or have done to it).
+  * A class is a definition of a kind of object, one that you can create yourself. The class defines the properties of the object - what states will be possible (what kind of information can be stored about the object) and what behaviors will be possible (what can the object do or have done to it). It is like a blueprint or a mold for objects.
 
 1. In relation to a Class, what is an attribute?
   * Attributes are defined pieces of information that instances of a class can have.
@@ -21,7 +21,7 @@ class Dog
   end
 
   def feed()
-    self.weight = self.weight + 1
+    self.weight = weight + 1
     "#{name} is a growing pup!"
   end
 
@@ -36,4 +36,4 @@ end
   * `name = class.new` - including any initial attributes if needed. For example for our Dog class above, `fido = Dog.new("brown", "Fido", 45)`
 
 1. What questions do you still have about classes in Ruby?
-  * When is it appropriate/necessary to use the "getter method" for instance variables (e.g. `self.name`) in class method definitions vs just calling the variable directly with `@name`?
+  * When is it appropriate/necessary to use the "getter method" for instance variables (e.g. `self.name` or just `name`) in class method definitions vs just calling the variable directly with `@name`?
