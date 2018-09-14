@@ -14,7 +14,7 @@
 ...Behaviors are what the objects in a class are capable of doing.
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-```class Dog
+`class Dog
   attr_accessor :age, :color
 
   def sleep
@@ -27,7 +27,7 @@
   end
   fido = Dog.new
   fido.sleep
-  fido.food```
+  fido.food`
 
 1. How do you create an instance of a class?
 
@@ -36,4 +36,4 @@
 1. What questions do you still have about classes in Ruby?
 
 ...Are classes always capital letters, and are there any other instances where
-...capitalization matters?  I'm still having a hard time between using `""` & `''`.
+...capitalization matters?  I'm still having a hard time between using `" "` & `' '`.
