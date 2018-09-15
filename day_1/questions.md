@@ -17,7 +17,8 @@ animal = "zebra"
 puts "#{animal}"
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-Interpolation is a way of combining the value of a variable with a string. Example:
+Interpolation is a way of combining the value of a variable with a string. 
+Example:
 puts "My favourite animal is the #{animal}"
 1. How do we get input from a user? What is the method that we would use?
 
