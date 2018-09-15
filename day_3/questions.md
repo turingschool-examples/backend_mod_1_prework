@@ -1,10 +1,10 @@
 ## Day 3 Questions
 
-1. What is a conditional statement? Give three examples.
-it is a logical comparison that evaluates to true or false
- - "<= less than or equal"
- - ">= greater than or equal"
- - "> greater than"
+1. What is a conditional statement? Give three examples.<br>
+it is a logical comparison that evaluates to true or false<br>
+ "<= less than or equal"<br>
+ ">= greater than or equal"<br>
+ "> greater than"
 1. Why might you want to use an if-statement?
 when you are sure of the input of variables and want to write what to do in several scenarios.
 1. What is the Ruby syntax for an if statement? <br>
@@ -20,4 +20,4 @@ else code
 end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?<br>
-case statements, comparison of limits/capacity, will this input or procedures exceed what is available?
+We might use if-Statements for comparison of limits/capacity, will this input or procedure exceed what is available or for user input: if the number is too great or too small, then ask again.
