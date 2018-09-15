@@ -6,7 +6,7 @@ save lines of code, DRY - don't repeat yourself
 def hello <br>
   p "Sam I am" <br>
 end <br>
-p hello <br>
+hello <br>
 
 1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.<br>
 def hello_someone(name)<br>
