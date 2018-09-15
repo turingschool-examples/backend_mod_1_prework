@@ -12,7 +12,8 @@ hello <br>
 def hello_someone(name)<br>
   @name = name<br>
   p "#{name} I am"<br>
-end
+end<br>
+hello_someone("Jennica")
 1. How would you call or execute the method that you created above?<br>
 hello_someone("Sam")
 1. What questions do you still have about methods in Ruby?<br>
