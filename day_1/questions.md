@@ -4,7 +4,7 @@
 puts "Hello World!"
 
 1. What is the character you would use to indicate comments in a ruby file?<br>
-#
+"#"
 1. Explain the difference between an integer and a float?<br>
 an integer is a whole number (3) and a float is a decimal number (3.0)
 1. In the space below, create a variable `animal` that holds the string `"zebra"`<br>
