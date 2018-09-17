@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'sunny'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -26,6 +26,7 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+# I changed "snowy" into "sunny" in the variable assignment above.
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -44,9 +45,11 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -61,3 +64,9 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
