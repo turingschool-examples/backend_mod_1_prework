@@ -1,7 +1,6 @@
 # Caesar Cipher Exercise
 
 class CeasarCipher
-#  attr_accessor :word, :shift_num
 
   def encode(s, i)
     word = s

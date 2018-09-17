@@ -14,19 +14,21 @@ X X X
 
 -------
 ### Pseudocode
-1. Prompt the user for the checkerboard size - n
-1. Set iterator variables for column and row to 0
-1. Iterate over n for each row
-  1. Iterate over n for each column
-  1. If i % 2 == 0, print 'X', else print ' '
-  1. Add 1 to i
-
---------
-1. Create a Class for rows.
-  * Attributes: size (integer), x_start (true/false)
-  * Behaviors: print
-1. Create an array for row 1 and row 2 based on size
-1. alternate printing them based on size
+1. Create a Class for rows. Each row starts with either 'X' or ' '. (though this could be generalized to any two characters...)
+  * Attributes: size (integer), first (string), second (string), row (array)
+  * Behaviors:
+    * initialize
+    * create_row: creates an array and populates it with the specified characters.
+    * print_row: prints the row to the screen.
+1. Create a class for the checkerboard.
+  * Attributes: size (integer), row_one (array), row_two (array)
+  * Behaviors:
+    * initialize
+    * print_board: prints row_one and row_two alternating, based on the size.
+1. Prompt the user for the size of the board.
+1. Create two rows, one starting with 'X' and one with ' '.
+1. Create a new checkerboard, inputting the size and the two rows.
+1. Print the checkerboard.
 
 
 
@@ -34,66 +36,4 @@ X X X
 
 ### Questions/Notes
 1. Bonus - ask the user for the height/width separately
-
-
-
-### Testing code below
-```ruby
-# Iterate over
-(size / 2).times do
-  size.times do
-    if i % 2 == 0
-      print 'X'
-    else
-      print ' '
-    end
-    i += 1
-  end
-  puts ""
-  i = 0
-  size.times do
-    if i % 2 == 1
-      print 'X'
-    else
-      print ' '
-    end
-    i += 1
-  end
-  puts ""
-  i = 0
-end
-```
-
---------
-```ruby
-class Checkerboard
-  attr_accessor :size, :column, :row
-
-  def column_increase()
-    self.column += 1
-  end
-
-  def row_increase()
-    self.row += 1
-  end
-end
-
-checkerboard = Checkerboard.new
-
-# Set iterator variables
-column = 0
-row = 0
-
-size.times do
-  size.times do
-    if column % 2 == 0
-      print 'X'
-    else
-      print ' '
-    end
-    column += 1
-  end
-  puts ""
-  column += 1
-  row += 1
-end
+1. Ask the user to specify characters

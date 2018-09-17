@@ -37,5 +37,4 @@ cipher.encode("Hello World", 5)
 * `.flatten` "flattens" an array. It takes every element of an array that is an array, and puts its elements individually into the original array. Returns a new array (does not change original array).
 * `.index(obj)` returns the index of the first element of an array equal to the object indicated.
 * `next` tells the method to go to the next element in an `.each` loop
-1. I don't really see the value of creating the Class around the cipher in this case...
-2. To make it more robust... Make it so it can deal with numbers > 26, and with symbols. 
+1. To make it more robust... Make it so it can deal with numbers > 26, and with symbols. 
