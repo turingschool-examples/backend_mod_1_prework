@@ -5,6 +5,7 @@
 # example: Write code that combines the variables below into another string:
 name = "Ron"
 team = "Chudley Cannons"
+team_name = "Ron" & "Chudley Cannons"
 
 p "The #{team} are #{name}'s favorite Quidditch team"
 
@@ -13,11 +14,12 @@ p "The #{team} are #{name}'s favorite Quidditch team"
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"
 
-p # YOUR CODE HERE
+
+p "#{speedy} #{slow_poke}"# YOUR CODE HERE
 
 # Write code that combines the variables below into a string that reads "In a
 # predictable result, the tortoise beat the hare!"
 slow_poke = "tortoise"
 speedy = "hare"
 
-# YOUR CODE HERE
+"In a predictable result, the #{slow_poke} beat the #{speedy}!"# YOUR CODE HERE
