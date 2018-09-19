@@ -26,11 +26,10 @@ class Dog
 
   def hungry
     if @hungry == true
-      puts "The dog is hungry."
-    elseif @hungry == false
-      puts "The dog is not hungry."
+      "Dog is hungry"
     else
-      puts "Try again."
+      "Dog is not hungry"
+    end
   end
 end
 
