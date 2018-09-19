@@ -21,8 +21,3 @@ slow_poke = "tortoise"
 speedy = "hare"
 
 puts "In a predictable result, the #{slow_poke} beat the #{speedy}"
-
-animal = "zebra"
-friend = "giraffe"
-
-puts "The #{animal} and #{friend} are friends and hang out at the watering hole together."
