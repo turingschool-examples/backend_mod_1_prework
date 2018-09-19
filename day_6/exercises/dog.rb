@@ -16,9 +16,15 @@ class Dog
     p "woof!"
   end
 
+  def hungry
+    p "yum"
+  end
+
   def eat
     @hungry = false
+    p "not hungry!"
   end
+
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
