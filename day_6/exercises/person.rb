@@ -29,8 +29,6 @@ end
 
 
 
-
-
   #create objects
 student1 = Person.new("Ali", "5ft4in", "29")
 
