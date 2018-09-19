@@ -6,10 +6,23 @@
 
 class Burrito
   attr_reader :protein, :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
     @toppings = toppings
+  end
+
+  def add_topping
+    "chikun"
+  end
+
+  def remove_topping
+    "chikun"
+  end
+
+  def change_protein
+    "tempeh"
   end
 end
 
@@ -17,3 +30,8 @@ dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
+puts "You added #{dinner.add_topping}!"
+puts " "
+puts "You removed some #{dinner.remove_topping}."
+puts " "
+puts "You changed the beans out for some #{dinner.change_protein}."
