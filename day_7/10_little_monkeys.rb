@@ -14,7 +14,10 @@ monkeys.each {| x, y |
     puts '"Get those monkeys right to bed!"'
   end }
 
-# Here's how I made it work for any number of monkeys:
+# Here's how I made it work for "any" number of monkeys. I don't have a
+# solution to convert any number to a word, but my solution was to create an
+# array with all of the number-words, though I know that this wouldn't scale
+# because I would have to write out every possible number as a word in that array.
 
 puts "How many monkeys?"
 print ">"

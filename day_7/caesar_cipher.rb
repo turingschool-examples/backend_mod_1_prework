@@ -17,7 +17,7 @@ class CaesarCipher
   def encrypt()
     puts "What word or phrase would you like to encrypt?" # gets the message from the user
     print ">"
-    @string = $stdin.gets.chomp # stores the message in @string
+    @string = $stdin.gets.chomp.downcase # stores the message in @string
     # gets the shift number from the user to enrypt the message.
     puts "What would you like the shift value to be to encrypt your message?(must enter a number)"
     print ">"
