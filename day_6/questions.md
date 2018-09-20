@@ -41,4 +41,4 @@ class Dog
 class.new
 
 1. What questions do you still have about classes in Ruby?
-Not much currently but I really need to practice vocabulary down. 
+Not much currently but I really need to practice vocabulary down.
