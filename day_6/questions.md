@@ -38,4 +38,4 @@ instance = Class.new(attributes)
 
 1. What questions do you still have about classes in Ruby?
 
-I haven't fully understand how instance variables work and when is better not to reference them but to reference the instance method.
+I haven't fully understood how instance variables work and when is better not to reference them but to reference the instance method.
