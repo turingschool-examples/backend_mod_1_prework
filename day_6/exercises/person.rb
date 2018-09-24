@@ -3,11 +3,11 @@
 # terminal.
 
 class Person
-  attr_reader :tall, :short
+  attr_reader :height, :hair_color
 
-  def initilize(tall, short)
-    @tall = tall
-    @short = short
+  def initilize
+    @height     = height
+    @hair_color = hair_color
   end
 
   def screem
@@ -19,8 +19,8 @@ class Person
   end
 end
 
-jimmy = Person.new(homosapien)
-p jimmy.tall
-p jimmy.short
+jimmy = Person.new
+p jimmy.height
+p jimmy.hair_color
 p jimmy.screem
 p jimmy.happy

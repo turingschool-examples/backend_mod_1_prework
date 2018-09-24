@@ -20,10 +20,10 @@ puts the_situation
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
 students = 22
-students_added= 2
+students_added = 2
 puts "There are #{students + students_added} here today"
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
 students = 2
-puts 2 - students
+puts students - 2

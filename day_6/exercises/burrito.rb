@@ -19,7 +19,7 @@ p dinner.base
 p dinner.toppings
 
 class Burrito
-  attr_accessor :protein, :base, :toppings, :add_topping, :remove_topping :change_protein
+  attr_accessor :protein, :base, :toppings, :add_topping, :remove_topping, :change_protein
   def initilize(add_topping, remove_topping, change_protein)
     @add_topping = add_topping
     @remove_topping = remove_topping

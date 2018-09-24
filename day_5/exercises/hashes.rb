@@ -14,22 +14,23 @@ p "The Colorado Zoo holds #{number} animals currently"
 end
 
 # Using the zoo that you created above, print all the keys in the hash.
-zoo
-zoo.keys
+zoo = {"Zebra" => 50, "Gorilla" => 20, "Crocks" => 5, "Rino" => 5}
+p zoo.keys
 
 # Using the zoo that you created above, print all the values in the hash.
-zoo
-zoo.values
+zoo = {"Zebra" => 50, "Gorilla" => 20, "Crocks" => 5, "Rino" => 5}
+p zoo.values
 
-# Using the zoo taht you created above, print the value of the first item in
+# Using the zoo that you created above, print the value of the first item in
 # the hash
 zoo.first do |number|
   p "The first animals here are #{number}"
 end
 
 # Add an animal to the zoo hash and print the updated hash.
+zoo = {"Zebra" => 50, "Gorilla" => 20, "Crocks" => 5, "Rino" => 5}
 zoo["Action Beatle"] = 30
-zoo
+
 zoo.each do |number|
 p "The Colorado Zoo holds #{number} animals after today"
 end

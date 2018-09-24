@@ -14,5 +14,5 @@ end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
-twister = "She sells seashells down by the seashore"
+twister = "She sells seashells down by the seashore "
 puts "This is a lot: #{twister * 7}"

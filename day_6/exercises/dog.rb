@@ -26,7 +26,7 @@ p fido.breed
 p fido.name
 p fido.age
 p fido.hungry
-fido.eat
+p fido.eat
 p fido.hungry
 
 class Dog
@@ -35,4 +35,4 @@ class Dog
   end
 end
 
-fido.play
+p fido.play
