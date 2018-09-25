@@ -1,14 +1,15 @@
-class Fizzbuzz
+puts "Pick a number to test"
+fizzbuzz = gets.chomp
+numbers = Array.new(fizzbuzz.to_i){|x| x + 1}
 
- def Fizzbuzz
-   if self % 3 == 0 && self % 5 == 0
-     return "fizzbuzz"
-   elsif self % 5 == 0
-     return "buzz"
-   elsif self % 3 == 0
-     return "fizz"
-   else
-     return self
-   end
- end
- 
+numbers.each do |number|
+  if number % 3 == 0 && number % 5 == 0
+    print "FizzBuzz, "
+  elsif number % 3 == 0
+    print "Fizz, "
+  elsif number % 5 == 0
+    print "Buzz, "
+  else
+    print "#{number}, "
+  end
+end

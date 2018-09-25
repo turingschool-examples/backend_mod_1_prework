@@ -1,8 +1,8 @@
-def line_one(*args)
+def line_one
   puts "|'X' ' ' 'X' ' ' 'X' ' '|"
 end
 
-def line_two(*args)
+def line_two
   puts "|' ' 'X' ' ' 'X' ' ' 'X'|"
 end
 
