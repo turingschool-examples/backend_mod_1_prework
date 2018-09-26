@@ -13,7 +13,7 @@ puts "The #{team} are #{name}'s favorite Quidditch team"
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"
 
-p "The #{speedy} jumped over the #{slow_poke}."
+puts "The #{speedy} jumped over the #{slow_poke}."
 
 # Write code that combines the variables below into a string that reads "In a
 # predictable result, the tortoise beat the hare!"
