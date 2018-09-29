@@ -17,3 +17,8 @@ end
 10.times do
   p "She sells seashells down by the seashore"
 end
+
+a = "string"
+5.times do
+  p "This is how you interpolate a #{a}."
+end

@@ -1,5 +1,5 @@
 # else and if exercise 30
-# defining the variables 
+# defining the variables
 people = 55
 cars = 40
 trucks = 100

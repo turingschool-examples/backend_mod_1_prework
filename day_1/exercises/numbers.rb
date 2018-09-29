@@ -13,3 +13,5 @@ puts "#{6 * 53}"
 
 # print the result of the module of 10 into 54:
 puts "#{54 % 10}"
+
+puts 5 * 8
