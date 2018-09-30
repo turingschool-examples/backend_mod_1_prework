@@ -24,6 +24,16 @@ class GoodDogTest < Minitest::Test
   def test_get_info_gets_object_attributes
     sparky = GoodDog.new("Sparky", "12 inches", "10 lbs")
     assert_equal "Sparky weighs 10 lbs and is 12 inches tall.",
-    sparky.get_info 
+    sparky.get_info
   end
+
+  def test_change_info_changes_attributes
+    sparky = GoodDog.new("Sparky", "12 inches", "10 lbs")
+    assert_equal "Sparky weighs 10 lbs and is 12 inches tall.",
+    sparky.get_info
+    sparky.change_info('Spartacus', '24 inches', '45 lbs')
+    assert_equal "Spartacus weighs 45 lbs and is 24 inches tall.",
+    sparky.get_info
+  end
+
 end
