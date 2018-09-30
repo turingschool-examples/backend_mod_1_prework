@@ -1,6 +1,11 @@
 class GoodDog
-  attr_reader :name
+  attr_accessor :name
+
   def initialize(name)
     @name = name
+  end
+
+  def speak
+    "#{name} says arf!"
   end
 end
