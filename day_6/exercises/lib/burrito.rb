@@ -6,12 +6,17 @@
 
 class Burrito
   attr_reader :protein, :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
     @toppings = toppings
   end
+
+  
 end
+
+
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
