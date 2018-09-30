@@ -14,11 +14,11 @@ class Burrito
   end
 
   def add_topping(topping)
-    toppings << topping
+    @toppings << topping
   end
 
   def remove_topping(topping)
-    toppings.delete("salsa")
+    @toppings.delete("salsa")
   end
 
   def change_protein(new_protein)
