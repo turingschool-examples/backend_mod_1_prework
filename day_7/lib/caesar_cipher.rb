@@ -17,5 +17,16 @@ class CaesarCipher
       end
     end.join
   end
-
 end
+
+puts "=" * 25 + "  Caesar Cipher  " + "=" * 25
+
+print "Type the Message you want to encrypt:"
+msg = gets.chomp
+print "Enter shift value:"
+shift = gets.chomp.to_i
+
+cipher = CaesarCipher.new
+puts "Your encrypted message is:"
+puts cipher.encode(msg, shift)
+puts " "
