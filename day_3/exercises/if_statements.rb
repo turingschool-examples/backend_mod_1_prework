@@ -26,6 +26,25 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+def what_to_take(outside)
+  outside.each do |today|
+    if today == 'sunny'
+      p "The weather is #{today}, wear sunscreen"
+    elsif today == 'rainy'
+      p "The weather is #{today}, bring an umbrella"
+    elsif today == 'snowy'
+      p "The weather is #{today}, wear a coat"
+    elsif today == 'icy'
+      p "The weather is #{today}, bring yak traks"
+    else
+      p "The weather is perfect today, you're good to go!"
+    end
+  end
+end
+
+weather = ['sunny', 'rainy', 'snowy', 'icy','']
+
+what_to_take(weather)
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -42,11 +61,21 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
+def gumball(quarters)
+  if quarters == 0 || quarters == 1
+    puts "I don't have enough money for a gumball"
+  elsif quarters == 2 || quarters == 3
+    puts "I have enough money for a gumball"
+  end
+end
+
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+puts "How many quarters do I have? (type a value between 0-3)"
+print "> "
+num_quarters = $stdin.gets.chomp.to_i
 
+gumball(num_quarters)
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -60,4 +89,33 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
 cups_of_flour = 1
-has_sauce = true
+
+def enough_cups_of_flour
+  puts "How many cups of flour do I have?"
+  print "> "
+  cups = $stdin.gets.chomp.to_i
+  if cups >= 2
+    true
+  else
+    false
+  end
+end
+
+def has_sauce
+  puts " Do I have sauce?"
+  puts "1. Yes"
+  puts "2. No"
+  print "> "
+  sauce = $stdin.gets.chomp
+  if sauce == "1"
+    true
+  elsif sauce == "2"
+    false
+  end
+end
+
+if enough_cups_of_flour && has_sauce
+  puts "I can make pizza"
+else
+  puts " I cannot make pizza"
+end
