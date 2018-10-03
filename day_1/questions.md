@@ -4,7 +4,7 @@
 print "Hello World!"
 
 1. What is the character you would use to indicate comments in a ruby file?
-#
+#comments
 
 1. Explain the difference between an integer and a float?
 A floating number has a decimal point. The integer number does not.

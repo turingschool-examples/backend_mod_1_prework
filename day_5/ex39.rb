@@ -1,9 +1,9 @@
 states = {
-  'Oregon'=>'OR',
-  'Florida'=>'FL',
+  'Oregon'    =>'OR',
+  'Florida'   =>'FL',
   'California'=>'CA',
-  'New York'=>'NY',
-  'Michigan'=>'MI'
+  'New York'  =>'NY',
+  'Michigan'  =>'MI'
   }
 
 
@@ -14,8 +14,8 @@ cities = {
 }
 
 
-cities ['NY']='New York'
-cities ['OR']='Portland'
+cities['NY']='New York'
+cities['OR']='Portland'
 
 puts '-' * 10
 puts "NY State has: #{cities['NY']}"

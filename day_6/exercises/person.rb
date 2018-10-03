@@ -4,18 +4,21 @@
 
 #YOUR CODE HERE
 class Person
-  attr_accessor :first_name, :last_name, :primary_phone_number
+  attr_reader :name
 
-def introduction(target)
-  puts "Hi, #{target} my name is #{first_name}!"
-end
+  def initialize(name = 'Aizar')
+  @name = name
+  end
 
-def favorite_person
-  "Aurelia"
-end
+  def introduction(target)
+    p "Hi #{target}, my name is #{@name}!"
+  end
+
+  def favorite_person
+    p "My favorite person is, YOU"
+  end
 end
 
 aizar = Person.new
-aizar.first_name = "Aizar"
-aizar.introduction("Aurelia")
-puts "My favorite person is #{aizar.favorite_person}."
+aizar.introduction("Amigo")
+aizar.favorite_person

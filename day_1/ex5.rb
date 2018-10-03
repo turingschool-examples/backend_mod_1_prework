@@ -6,6 +6,8 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 
+
+#Here we're using the values stored in the variables in order to format strings
 puts "Let's talk about #{name}."
 puts "He's #{height} inches tall."
 puts "He's #{weight} pounds heavy."

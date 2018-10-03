@@ -30,10 +30,10 @@ def initialize(name)
 
 end
 
-gyalbu = TheDog.new ("Gyalbu")
-puts gyalbu.speak
-puts gyalbu.play
-puts gyalbu.get_name
+gyalbu = TheDog.new("Gyalbu")
+gyalbu.speak
+gyalbu.play
+gyalbu.get_name
 
 1. How do you create an instance of a class?
 Aizar = Student.new

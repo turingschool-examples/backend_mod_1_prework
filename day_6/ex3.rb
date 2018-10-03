@@ -1,7 +1,7 @@
 class Car
 
   def initialize(year, model, color)
-    @year = year
+    @year  = year
     @model = model
     @color = color
     @speed = 0
@@ -27,7 +27,7 @@ class Car
   end
 end
 
-ramvan = Car.new(1996, 'ram van', 'white')
+ramvan = Car.new(1996,'ram van','white')
 ramvan.speed_up(30)
 ramvan.speed
 ramvan.speed_up(30)

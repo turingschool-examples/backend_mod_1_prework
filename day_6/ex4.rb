@@ -1,9 +1,9 @@
 class Car
+  attr_reader   :year
   attr_accessor :color
-    attr_reader :year
 
   def initialize(year, model, color)
-    @year = year
+    @year  = year
     @model = model
     @color = color
     @speed = 0

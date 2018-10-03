@@ -18,6 +18,6 @@ puts "Oh, that's why it's false."
 
 puts "How about some more."
 
-puts "Is it greater? #{5 > -2}"
-puts "Is it greater or equal? #{5 >= -2}"
+puts "is it greater? #{5 > -2}"
+puts "Is it greaterot equal? #{5 >= -2}"
 puts "Is it less or equal? #{5 <= -2}"

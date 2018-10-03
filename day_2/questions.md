@@ -12,7 +12,7 @@ animals=>[1]
 
 1. How would you add `"lion"` to the `animals` array?
 animals=["zebra", "giraffe", "elephant"]
-animals<<"lion"
+animals << "lion"
 
 1. Name and describe two additional array methods.
 You can reorder the elements using the SORT method. You can iterate through each element using the EACH method. in other words, you can rearrange and repeat the elements using these two methods.
@@ -21,9 +21,9 @@ You can reorder the elements using the SORT method. You can iterate through eac
 They are terms (characters and phrases) for determining if something is "true" or "false."
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
-2==25
+2 == 25
 =>false
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
-25>=2
+25 >= 2
 =>true

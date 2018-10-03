@@ -1,5 +1,4 @@
 class Student
 end
 
-
-Aizar = Student.new
+aizar = Student.new
