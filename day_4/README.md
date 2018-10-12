@@ -24,8 +24,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_4 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_4/exercises.rb`
-1. `$ git add day_4/questions.md``
+1. `$ git add day_4/exercises`
+1. `$ git add day_4/questions.md`
 1. Use `git add day_4/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 4 Work"`
