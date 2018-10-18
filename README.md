@@ -659,8 +659,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_2 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_2/exercises.rb`
-1. `$ git add day_2/questions.md``
+1. `$ git add day_2/exercises`
+1. `$ git add day_2/questions.md`
 1. Use `git add day_2/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 2 Work"`
@@ -702,8 +702,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_3 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_3/exercises.rb`
-1. `$ git add day_3/questions.md``
+1. `$ git add day_3/exercises`
+1. `$ git add day_3/questions.md`
 1. Use `git add day_3/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 3 Work"`
@@ -744,8 +744,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_4 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_4/exercises.rb`
-1. `$ git add day_4/questions.md``
+1. `$ git add day_4/exercises`
+1. `$ git add day_4/questions.md`
 1. Use `git add day_4/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 4 Work"`
@@ -782,8 +782,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_5 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_5/exercises.rb`
-1. `$ git add day_5/questions.md``
+1. `$ git add day_5/exercises`
+1. `$ git add day_5/questions.md`
 1. Use `git add day_5/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 5 Work"`
@@ -821,8 +821,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_6 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_6/exercises.rb`
-1. `$ git add day_6/questions.md``
+1. `$ git add day_6/exercises`
+1. `$ git add day_6/questions.md`
 1. Use `git add day_6/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 6 Work"`
