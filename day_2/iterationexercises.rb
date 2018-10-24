@@ -50,4 +50,4 @@ end
     puts lastname.length
   end
 
-  puts names.join.length 
+  puts names.join.length
