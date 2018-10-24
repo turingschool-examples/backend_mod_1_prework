@@ -2,8 +2,11 @@
 # the dog being hungry. Call that method below the class, and print the dog's
 # hunger status.
 
+# Added :hungry to attribute reader to allow access given
+# supplied code already attempted to access a getter for this instance variable
+
 class Dog
-  attr_reader :breed, :name, :age
+  attr_reader :breed, :name, :age, :hungry
 
   def initialize(breed, name, age)
     @breed  = breed
@@ -19,6 +22,10 @@ class Dog
   def eat
     @hungry = false
   end
+
+  def play
+    @hungry = true
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
@@ -27,4 +34,6 @@ p fido.name
 p fido.age
 p fido.hungry
 fido.eat
+p fido.hungry
+fido.play
 p fido.hungry
