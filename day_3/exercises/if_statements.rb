@@ -9,7 +9,11 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+puts "How's the weather? Tell me and I'll tell you what you need!"
+
+print "> "
+weather = $stdin.gets.chomp
+  #weather = 'snowy'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -25,7 +29,7 @@
 
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
-
+# I commented it out so that it allows the other options to be chosen.
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -42,11 +46,21 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+puts "Do I have enough money for a gumball? How many quarters do I have? 0,1,2, or 3?"
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+print "> "
+num_quarters = $stdin.gets.chomp
 
+  if num_quarters == "0"
+    p "I don't have enough money for a gumball."
+  elsif num_quarters == "1"
+    p "I don't have enough money for a gumball!"
+  elsif num_quarters >= "2"
+    p "I have enough money for a gumball!"
+  elsif num_quarters == "3"
+    p "I have enough money for a gumball!"
+  else
+  end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +73,25 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+#cups_of_flour = 1
+#has_sauce = true
+
+puts "Let's make a pizza! How many cups of flour do you have?"
+
+print "> "
+cups_of_flour = $stdin.gets.chomp
+
+  if cups_of_flour <= "1"
+    p "I cannot make a pizza. So sad. So hungry."
+  elsif cups_of_flour > "1"
+    p "Do you have sauce?"
+
+    print "> "
+    has_sauce = $stdin.gets.chomp
+
+    if has_sauce == "true"
+      p "I can make a pizza!"
+    else
+      p "I cannot make a pizza."
+    end
+end
