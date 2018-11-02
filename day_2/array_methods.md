@@ -1,0 +1,10 @@
+.sort = returns a new array where the elements are in alphabetical order, for strings, and in ascending value order, for numbers.
+.each = returns all the elements, one by one, in the order they are stored in the array.  If a block is specified then, it prints the results but, returns the original array.
+.collect = works similarly to .each method but, it does not return to the original array after a block is applied.
+.first = returns the first element in the array.
+.last = returns the last element in the array.
+.shuffle = returns all the elements in the array but, in a randomly selected order.
+.join = returns all the elements as a single string, without spaces.  Unless, a separator is applied.
+.index = this is used to find out the index number (position in the array) of an element.  If the element does not exist in the array the nil is returned.
+.include? = returns a value of true or false.  It is used to check if an element is present in the array or not.
+.pop = removes the last element in an array.

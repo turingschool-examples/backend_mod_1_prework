@@ -7,20 +7,26 @@
 animals = ["Zebra", "Giraffe", "Elephant"]
 
 animals.each do |animal|
-  p animal
+  puts animal
 end
 
 # Write code below that iterates through a list of animals and prints "The
 # <animal> is awesome!" for each animal.
 
 animals.each do |animal|
-  # YOUR CODE HERE
+  puts "#{animal} is awesome!"
 end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-# YOUR CODE HERE
+shopping_list = ["milk", "yogurt", "eggs", "bread"]
+shopping_list.each do |items_needed|
+  puts "Add #{items_needed} to shopping list"
+end
 
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
-# YOUR CODE HERE
+numbers = [1,2,3,4]
+numbers.each do |double_print|
+  puts "#{double_print} #{double_print}"
+end
