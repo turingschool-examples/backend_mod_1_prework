@@ -1,4 +1,4 @@
-#Array methods
+# Array methods
 
 1. .last
 It returns the last element of the array. If the array is empty, it returns nil.
