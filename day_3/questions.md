@@ -8,9 +8,7 @@ For example:
             if cold==true
                 puts "wear a jacket"
              end
-```
 
-```
              if 5 > 1
                 puts "5 is bigger than 1"
              end
