@@ -47,6 +47,8 @@ end
 
 ```
 
-6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?   
+
+
+6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?      
 
 Perhaps to create loops. In the code of the if statement, we could add some condition that would alter the character of the variable, like +=5 or something similar. Then, we could create a loop with it until a certain value is reached.
