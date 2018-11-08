@@ -2,7 +2,8 @@
 
 1. What is a conditional statement? Give three examples.   
 
-A conditional statement are expressions which perform different operations if the statement is true or false.  
+A conditional statement are expressions which perform different operations if the statement is true or false.    
+
 For example:  
 ```
             if cold==true
@@ -21,7 +22,8 @@ For example:
 
 To perform different operations depending on which condition is true.
 
-3. What is the Ruby syntax for an if statement?  
+3. What is the Ruby syntax for an if statement?   
+
 ```
 if condition
     code
@@ -33,6 +35,7 @@ end
 You can use the elsif statement
 
 5. What is the Ruby syntax for an if/elsif/else statement?
+
 
 ```
 if conditions
