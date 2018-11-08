@@ -5,6 +5,7 @@
 A conditional statement are expressions which perform different operations if the statement is true or false.    
 
 For example:  
+
 ```
             if cold==true
                 puts "wear a jacket"
@@ -22,7 +23,7 @@ For example:
 
 To perform different operations depending on which condition is true.
 
-3. What is the Ruby syntax for an if statement?   
+2. What is the Ruby syntax for an if statement?   
 
 ```
 if condition
