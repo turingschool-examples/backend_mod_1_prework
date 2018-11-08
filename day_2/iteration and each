@@ -1,0 +1,20 @@
+numbers.each do|number|     ,    numbers.each do|number|
+   p number * 2                     p number * 3
+end                              end
+
+numbers.each do|number|
+   p number if number.even
+end
+
+numbers.map do|number|
+   p number * 2
+end
+
+print name [0]
+print name [1]
+print name [2]
+    p names.first
+    p names.last
+    p names.word.start
+    p name.last.size
+    p names.count
