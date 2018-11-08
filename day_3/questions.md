@@ -7,16 +7,13 @@ A conditional statement are expressions which perform different operations if th
 For example:  
 
 ```
-            if cold==true
-                puts "wear a jacket"
-             end
+puts "wear a jacket"
+end
 
-             if 5 > 1
-                puts "5 is bigger than 1"
-             end
-
-            ```
-
+if 5 > 1
+puts "5 is bigger than 1"
+end
+```
 
 
 2. Why might you want to use an if-statement?   
@@ -30,6 +27,7 @@ if condition
     code
 end
 ```
+
 
 4. How do you add multiple conditions to an if statement?  
 
