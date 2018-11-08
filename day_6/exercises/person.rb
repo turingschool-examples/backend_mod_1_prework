@@ -2,4 +2,35 @@
 # person methods below the class so that they print their result to the
 # terminal.
 
-#YOUR CODE HERE
+class Person
+  attr_reader :height, :age, :tired
+
+  def initialize (height, age)
+    @height = height
+    @age = age
+    @tired = false
+
+  end
+
+  def work
+    @tired = true
+  end
+
+  def sleep
+    @tired = false
+  end
+end
+
+ trevor = Person.new(6,23)
+ p trevor.height
+ p trevor.age
+ trevor.work
+ p trevor.tired
+ trevor.sleep
+ p trevor.tired
+
+kathy = Person.new(5,50)
+p kathy.height
+p kathy.age
+kathy.work
+p kathy.tired
