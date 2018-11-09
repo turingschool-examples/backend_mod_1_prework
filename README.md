@@ -880,4 +880,6 @@ When you have completed *all* the activities described above, follow the steps b
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
 
+5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link too your technical pre-work GitHub repository will be in the format https://github.com/your_github_username/backend_prework.
+
 And you're done!  Can't wait to see you on the first day of class!!
