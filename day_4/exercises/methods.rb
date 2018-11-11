@@ -4,22 +4,28 @@
 
 # example: Write a method below that, when called will print your name
 def print_name
-  p "Severus Snape"
+  p "Jennica"
 end
 
 print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
-print_name("Albus Dumbledore")
+print_name("Jennica")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
-
+def add(number_1, number_2)
+  p number_1 + number_2
+end
+add(4,5)
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+def concat(human, dog)
+  p "When #{human} walks #{dog}, there is never a dull moment."
+end
+concat("Eric","Luke")
