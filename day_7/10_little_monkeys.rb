@@ -1,5 +1,3 @@
-require 'pry'
-
 class LittleMonkeys
 
   def initialize(number)
@@ -85,3 +83,5 @@ end
 
 little_monkeys = LittleMonkeys.new(999)
 little_monkeys.rhyme
+# If anyone sees more than 999 little monkeys jumping on a bed,
+# please notify me immediately.
