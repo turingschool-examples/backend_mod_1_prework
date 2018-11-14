@@ -1,4 +1,4 @@
-class Decode
+class CeasarCipher
 
   def initialize(alphabet = (65.chr..90.chr).to_a + (97.chr..122.chr).to_a)
     @alphabet = alphabet
@@ -9,7 +9,7 @@ class Decode
     message.split(//)
   end
 
-  def decipher(message, shifts = 1, alpha = @alphabet)
+  def encode(message, shifts = 1, alpha = @alphabet)
     message_array = make_messsage_array(message)
     message_array.map do |letter|
       if @special_char_array.any? { |char| char == letter } == true
@@ -23,5 +23,5 @@ class Decode
 
 end
 
-ceasar = Decode.new
-p ceasar.decipher("Hello World!",5)
+ceasar = CeasarCipher.new
+p ceasar.encode("Hello World!",5)
