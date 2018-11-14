@@ -4,11 +4,9 @@ class WordGame
   end
 
   def fizzbuzz(number)
-    num_array = (0..number).to_a
+    num_array = (1..number).to_a
     num_array.map do |num|
-      if num == 0
-        num
-      elsif num % 3 == 0 && num % 5 == 0
+      if num % 3 == 0 && num % 5 == 0
         "FizzBuzz"
       elsif num % 5 == 0
         "Buzz"
