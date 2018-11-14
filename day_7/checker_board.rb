@@ -17,10 +17,10 @@ class BoardGame
           ' '
         end
       end.join
-      p rows
+      puts rows
     end
   end
 end
 
 checkers = BoardGame.new
-p checkers.checker_board(6)
+checkers.checker_board(6)
