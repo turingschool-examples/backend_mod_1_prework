@@ -42,3 +42,4 @@ puts "Which protein would you like instead of beans?"
 dinner.change_protein(gets.chomp)
 
 puts "Your new burrito has the protein #{dinner.protein}, the base #{dinner.base} and the following toppings: #{dinner.toppings}"
+ 
