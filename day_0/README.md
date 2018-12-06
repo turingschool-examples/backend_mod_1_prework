@@ -282,7 +282,7 @@ This shows us what version of Ruby we are running. You should see something like
 
 `ruby 2.4.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]`
 
-You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have you successfully edited your bash_profile, restart your terminal, and try again.
+You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have successfully edited your bash_profile, restart your terminal, and try again.
 
 #### Setting the Default Version
 
