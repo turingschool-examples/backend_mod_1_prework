@@ -187,7 +187,7 @@ Are you sure you want to continue connecting (yes/no)?
 -   If everything's working, you'll see the the following:
 
 ```bash
-=> Hi YourUsername! You\'ve successfully authenticated, but GitHub does not provide shell access.
+=> Hi YourUsername! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 ### [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
