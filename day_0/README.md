@@ -302,7 +302,7 @@ rbenv rehash
 
 We sometimes refer to the Terminal as the "Command Line", since we are using it to enter commands to the computer.
 
-Now, let's create a directory structure to store all of your code. open a terminal with Spotlight search (`Command + Space`), type "terminal" and hit enter. Enter these commands into your terminal:
+Now, let's create a directory structure to store all of your code. Open a terminal with Spotlight search (`Command + Space`), type "terminal" and hit enter. Enter these commands into your terminal:
 
 ```
 $ cd ~
@@ -357,7 +357,7 @@ cd ..
 
 Enter this command and type `ls`. You should now be in the `turing` folder. Make sure that throughout the course of this prework you are getting comfortable with using `cd` to navigate directories and `ls` to see what's in those directories.
 
-Now that this is complete, you can now get to your  1module directory from anywhere through the terminal by typing:
+Now that this is complete, you can now get to your 1module directory from anywhere through the terminal by typing:
 
 ```
 cd ~/turing/1module
@@ -374,7 +374,7 @@ ls
 
 You should see the `playground.rb` file listed when you enter the `ls` command. `touch` is the command used to create a new file. Now type `atom p`, hit `tab`, and the terminal should autocomplete the command to `atom playground.rb`. Hit enter to run this command. It should open the `playground.rb` file, which should be blank, in Atom. You can use `atom <file name>` to open any file in Atom. You can also use `atom <directory name>` to open an entire directory in Atom. If you want to open the current directory, you can type `atom .`.
 
-Let's pretend that we don't want `playground.rb` in our  `1module` folder. Let's move it up one level, to the `turing` folder. Type `ls` and you should see your `playground.rb` file. If you don't, use `cd` and `ls` to find it. Once you have found it, enter the following commands:
+Let's pretend that we don't want `playground.rb` in our `1module` folder. Let's move it up one level, to the `turing` folder. Type `ls` and you should see your `playground.rb` file. If you don't, use `cd` and `ls` to find it. Once you have found it, enter the following commands:
 
 ```
 mv playground.rb ..
@@ -385,7 +385,7 @@ ls
 
 The first `ls` should show you nothing. The second one should show you the `playground.rb` file.
 
-`mv` is short for "move". It's general usage is `mv <file> <location>`. `<file>`, the first argument after `mv`, is the thing we are trying to move. The second argument, `<location>` is where we want to move it. Thus, the command `mv playground.rb ..` means "move the playground file up one directory".
+`mv` is short for "move". Its general usage is `mv <file> <location>`. `<file>`, the first argument after `mv`, is the thing we are trying to move. The second argument, `<location>` is where we want to move it. Thus, the command `mv playground.rb ..` means "move the playground file up one directory".
 
 Let's delete this file. The command to delete a file is `rm`, short for "remove". In your terminal, type `ls` and you should see your `playground.rb` file. If you don't, use `cd` and `ls` to find it. Once you have found it, enter the following commands:
 
@@ -410,7 +410,7 @@ _Now, you should be on your forked copy of this repository!_
 
 The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
 
-1. In YOUR backend_prework repository that your just forked, click on `Clone or Download`  
+1. In YOUR backend_prework repository that you just forked, click on `Clone or Download`  
 _If you see `Clone with HTTPS` click on `Use SSH`_
 
 ![Clone](https://i.imgur.com/RHpul4Vm.png)
