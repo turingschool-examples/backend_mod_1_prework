@@ -1,4 +1,4 @@
-def fizzbuzz()
+def fizzbuzz
   n = 1
 
   while n < 100
