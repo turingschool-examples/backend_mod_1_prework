@@ -22,3 +22,9 @@ class Person
 end
 
 paul = Person.new("Paul", 2, 'black')
+
+paul.shower
+paul.walk
+paul.name
+paul.legs
+paul.hair
