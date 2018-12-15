@@ -5,33 +5,61 @@
 # example: write code below that will print an array of animals.
 # Store the array in a variable.
 animals = ["Zebra", "Giraffe", "Elephant"]
-p animals
+
+animals.each do |animal|
+  p animal
+end
 
 # Write code below that will print an array of states. Store the array in a variable.
-states = #YOUR CODE HERE
-p states
+states = ["Colorado", "Michigan", "Delaware", "Ohio"]
+
+states.each do |state|
+  p state
+end
 
 # Write code below that will print an array of foods. Store the array in a variable.
 # YOUR CODE HERE
 
+foods = ["Pizza", "Brisket", "Ribs", "Links", "Eggs"]
+
+foods.each {|food| p food}
+
+
 # example: Write code below that will print the number of elements in array of
 # animals from above.
-p animals.count
+p animals.length
 
 # Write code below that will print the number of elements in the array of
 #foods from above.
 # YOUR CODE HERE
 
+p foods.length
+
 # Write code below that will print "Zebra" from the animals array
 # YOUR CODE HERE
 
+p animals.first
+
 # Write code below that will print the last item from the foods array.
 # YOUR CODE HERE
+
+p foods.last
 
 # Write code below that uses a method to add "lion" to the animals array and
 # print the result
 # YOUR CODE HERE
 
+animals.push("lion")
+
+p animals
+
 # Write code below that removes the last item of food from the foods array and
 # print the result
 # YOUR CODE HERE
+
+animals.pop
+p animals
+
+last = animals.length - 1
+animals.delete_at(last)
+p animals
