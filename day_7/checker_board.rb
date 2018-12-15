@@ -1,17 +1,10 @@
 def checker_board(size)
   template = 1.upto(size)
-  evenArr = template.map do |num|
-    if num % 2 == 0
-      num = " "
-    elsif num % 2 == 1
-      num = "X"
-    end
-  end
 
   oddArr = template.map do |num|
     if num % 2 == 0
       num = "X"
-    elsif num % 2 == 1
+    else
       num = " "  
     end
   end
@@ -19,11 +12,11 @@ def checker_board(size)
   template.each do |count|
     if count % 2 == 0
       puts oddArr.join
+    else
+      puts oddArr.reverse.join
     end
-    if count % 2 == 1
-      puts evenArr.join
-    end
+  
   end
 end
 
-checker_board(5)
+checker_board(10)
