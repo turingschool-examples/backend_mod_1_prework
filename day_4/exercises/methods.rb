@@ -11,7 +11,7 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
@@ -20,6 +20,19 @@ print_name("Albus Dumbledore")
 # method.
 # YOUR CODE HERE
 
+def sum(first, second)
+  p first + second
+end
+
+sum(4, 5)
+
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+
+def rhyme(arr)
+  str = arr.join(" ")
+  p str
+end
+
+rhyme(['heads', 'shoulders', 'knees', 'and', 'toes'])
