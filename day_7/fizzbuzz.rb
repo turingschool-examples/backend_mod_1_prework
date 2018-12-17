@@ -1,7 +1,7 @@
-def fizzbuzz
-  n = 1
+def fizzbuzz(start, last)
+  n = start
 
-  while n < 100
+  while n < last
     if n % 3 == 0 && n % 5 == 0
       print "FizzBuzz, "
     elsif n % 3 == 0
@@ -15,4 +15,4 @@ def fizzbuzz
   end
 end
 
-fizzbuzz()
+fizzbuzz(4, 10)
