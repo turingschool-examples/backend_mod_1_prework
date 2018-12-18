@@ -1,6 +1,6 @@
 # In the exercises below, write your own code where indicated
 # to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_1/exercises/variables.rb`
+# file from your terminal with the command `ruby day_1/exercises/interpolation.rb`
 
 # example: Write code that combines the variables below into another string:
 name = "Ron"
@@ -13,11 +13,11 @@ p "The #{team} are #{name}'s favorite Quidditch team"
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"
 
-p # YOUR CODE HERE
+p "The #{speedy} jumped over the #{slow_poke}"
 
 # Write code that combines the variables below into a string that reads "In a
 # predictable result, the tortoise beat the hare!"
 slow_poke = "tortoise"
 speedy = "hare"
 
-# YOUR CODE HERE
+p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
