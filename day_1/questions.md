@@ -16,12 +16,12 @@
     puts animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-    Interpolation inserts data into a string, and is shorter than Concatenation. You can do this using #{data}
+    Interpolation inserts data into a string, and is shorter than Concatenation. You can do this using `#{data}`
         ex: "My favorite animal is a #{animal}!"
 
 1. How do we get input from a user? What is the method that we would use?
     We get input from a user by prompting them to do so by printing a command/request - "What is your age?"
-    We then create a variable which pairs with the users response using the gets method - age = gets.chomp
+    We then create a variable which pairs with the users response using the gets method - age = `gets.chomp`
 
 1. Name and describe two common string methods.
     .length - When used at the end of a string or variable, will give you a count of the characters (including spaces). - name.length
