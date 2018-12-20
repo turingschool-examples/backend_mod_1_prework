@@ -13,6 +13,7 @@ puts "Total value = $#{total_value.round(2)}"
 
 
 # figure out why this code below isn't working like you want.
+## rate was being retuned as an interger, rounding down to 0.
 
 puts "Principle"
 principle = gets.chomp.to_f
