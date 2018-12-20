@@ -10,23 +10,27 @@
 > If statements are used to make your code do different things depending on the result of a conditional if statement
 
 1. What is the Ruby syntax for an if statement?
-> if conditions
->   do something
-> else
->   do something else
-> end
+```Ruby
+if conditions
+  do something
+else
+  do something_else
+end
+```
 
 1. How do you add multiple conditions to an if statement?
 > To add multiple conditions, you can use the && or || operators or you could also nest multiple if statements within each other
 
 1. What is the Ruby syntax for an if/elsif/else statement?
-> if conditions
->   do something
-> elsif conditions
->   do something
-> else
->   do something else
-> end
+```Ruby
+if conditions
+ do something
+elsif conditions
+ do something_else
+else
+ do something_else_else
+end
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 > For loops, triggering certain events, comparing values for calculations
