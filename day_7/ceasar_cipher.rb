@@ -16,4 +16,8 @@ class CeasarCipher
 end
 
 cipher = CeasarCipher.new
-p cipher.encode("Hello World", 5)
+puts "What string would you like to encode?"
+str = gets.chomp
+puts "What cipher shift index would you like?"
+sft = gets.chomp.to_i
+p cipher.encode(str, sft)
