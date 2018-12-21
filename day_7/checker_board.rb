@@ -11,7 +11,7 @@ def checker_board(size)
 
   template.each do |count|
     if count % 2 == 0
-      puts oddArr.join
+      puts oddArr * ""
     else
       puts oddArr.join.gsub(" X", "X ")
     end
