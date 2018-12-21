@@ -13,10 +13,10 @@ def checker_board(size)
     if count % 2 == 0
       puts oddArr.join
     else
-      puts oddArr.reverse.join
+      puts oddArr.join.gsub(" X", "X ")
     end
-  
   end
 end
 
+checker_board(5)
 checker_board(10)
