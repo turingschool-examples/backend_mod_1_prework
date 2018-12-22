@@ -1,5 +1,5 @@
 def ceasar_cipher(str, shift_val) 
-  alphabet = ('a'..'z').to_a
+  alphabet = ('A'..'Z').to_a
   split_arr = str.upcase.split(//)
   rotated_alpha = alphabet.rotate(shift_val * -1)
 
