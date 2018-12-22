@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'sunny'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -26,7 +26,6 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
-
 ##################
 # Using the num_quarters variable defined below, determine
 # if you have enough money to buy a gumball. A gumball costs
@@ -41,11 +40,20 @@
 # When num_quarters = 1, program should print "I don't have enough money for a gumball"
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
+puts "How many quarters do you have?"
+print "> "
+num_quarters = $stdin.gets.chomp.to_i
+ if num_quarters < 2
+   puts "I don't have enough money for a gumball"
+ else
+   puts "I have enough money for a gumball"
+ end
 
-num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+#num_quarters = 0
+
+#puts "I have enough money for a gumball"
+#puts "I don't have enough money for a gumball"
 
 
 #####################
@@ -59,5 +67,12 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+
+cups_of_flour = 2
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "You can make a pizza"
+else
+  puts "You cannot make a pizza"
+end
