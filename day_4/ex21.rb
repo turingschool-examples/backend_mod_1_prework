@@ -34,3 +34,13 @@ puts "Here is a puzzle:"
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
+
+
+puts "Ok, now let's do our own math."
+
+miles = 2,790
+speed = 70
+time = divide(2790, 70)
+
+puts "I will be driving from Denver, stopping in Austin, then hitting up New Orleans and back again to Denver."
+puts "If I'm averaging #{speed} mph, and I have #{miles} to go, then it should take me #{time} hours."
