@@ -1,17 +1,10 @@
 def ceasar_cipher(str, shift_val) 
   alphabet = ('A'..'Z').to_a
-  split_arr = str.upcase.split
-  rotated_alpha = alphabet.rotate(shift_val * -1)
+  shifted_alphabet = alphabet.rotate(shift_val * -1)
+  split_arr = str.upcase.split(//)
 
-  cipher = split_arr.map do |char|
-    if char == " "
-      char
-    else
-      index = alphabet.find_index(char)
-      rotated_alpha[index]
-    end
-  end
-  return cipher.join("")
+  split_arr.map {|char|
+    char == " " ? char : rotated_alpha[alphabet.find_index(char)]
+  }.join("")
+ 
 end
-
-puts ceasar_cipher("Hello World", 5)
