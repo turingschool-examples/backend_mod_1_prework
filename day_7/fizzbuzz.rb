@@ -1,7 +1,5 @@
 def fizzbuzz(start, last)
-  n = start
-
-  while n < last
+  while start < last
     if n % 3 == 0 && n % 5 == 0
       print "FizzBuzz, "
     elsif n % 3 == 0
@@ -11,7 +9,7 @@ def fizzbuzz(start, last)
     else
       print "#{n}, "
     end
-    n+=1
+    start += 1
   end
 end
 
