@@ -50,31 +50,22 @@ def in_words(size)
     1 => "one"
   }
 
-  x = size
-  x.downto(1).each do |int|
-  if int != 0
-    if int < 21
-      puts little_monkeys(numbers_to_strings[int])
-    end
+  size.downto(1).each {|int|
+    if int != 0 && int < 21
+      puts little_monkeys(numbers_to_strings[int].capitalize)
+      end
 
     if int < 100 && int > 20
       nearest_10 = int.floor(-1)
       single_remainder = int - nearest_10
-      str = "#{numbers_to_strings[nearest_10]}-#{numbers_to_strings[single_remainder]}"
-      puts little_monkeys(str)
-    end
-
-      if int < 1000 && int > 99
-        nearest_hundred = int.floor(-2)
-        hundred_remainder = int - nearest_hundred
-        nearest_ten = hundred_remainder.floor(-1)
-        ten_remainder = hundred_remainder - nearest_ten
-        str = "#{numbers_to_strings[nearest_hundred]} #{numbers_to_strings[nearest_ten]}-#{numbers_to_strings[ten_remainder]}"
-        puts little_monkeys(str)
+      if int % 10 != 0
+        little_monkeys("#{numbers_to_strings[nearest_10].capitalize}-#{numbers_to_strings[single_remainder]}")
+      else
+        little_monkeys("#{numbers_to_strings[nearest_10].capitalize}")
       end
     end
+    }
   end
-end
 
 in_words(122)
     
