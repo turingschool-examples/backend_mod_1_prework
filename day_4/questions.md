@@ -19,6 +19,6 @@
     hello_someone("Corey")
 
 1. What questions do you still have about methods in Ruby?
-*   Although I think I understand it, it might be nice to play around with and to learn more about methods and the scope that they have with variables - both within and outside of the def.
-*   A little more clarity on `return` and is impact. I think I understand it, but could dig a little deeper.
-*   What are the names of some common/universal methods to avoid when creating methods.
+* Although I think I understand it, it might be nice to play around with and to learn more about methods and the scope that they have with variables - both within and outside of the def.
+* A little more clarity on `return` and is impact. I think I understand it, but could dig a little deeper.
+* What are the names of some common/universal methods to avoid when creating methods.
