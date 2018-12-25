@@ -3,23 +3,36 @@
 # file from your terminal with the command `ruby day_5/exercises/hashes.rb`
 
 # example: Write code below to print a hash that holds grocery store inventory
-foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+foods = {
+  "gumbo" => 1,
+  "cookies" => 25,
+  "eggs" => 9,
+  "kambucha" => 3,
+  "pies" => 4,
+}
+puts foods
 
 # Write code below that will print a hash of animals and their number
 # at the zoo. (an inventory of animals)
-zoo = #YOUR CODE HERE
-p zoo
+zoo = {
+  "penguins" => 30,
+  "kangaroos" => 14,
+  "camels" => 3,
+  "lemurs" => 15
+}
+puts zoo
 
 # Using the zoo that you created above, print all the keys in the hash.
-# YOUR CODE HERE
+puts "There are #{zoo["kangaroos"]} kangaroos in the zoo."
 
 # Using the zoo that you created above, print all the values in the hash.
-# YOUR CODE here
+puts "There are #{zoo["penguins"]} penguins, #{zoo["kangaroos"]} kangaroos, #{zoo["camles"]} camels and #{zoo["lemurs"]} lemurs at the zoo,"
+puts "for a grand total of #{zoo["penguins"] + zoo["kangaroos"] + zoo["camels"] + zoo["lemurs"]} animals in the zoo."
 
 # Using the zoo taht you created above, print the value of the first item in
-# the hash
-# YOUR CODE HERE
+puts "We love having #{zoo["penguins"]} penguins at the zoo."
 
 # Add an animal to the zoo hash and print the updated hash.
-# YOUR CODE HERE
+# Come back to this one: haven't figured it out yet
+another_zoo = {"lions" => 8}
+:hash.merge(another_zoo)
