@@ -51,18 +51,14 @@ def in_words(size)
   }
 
   size.downto(1).each {|int|
-    if int != 0 && int < 21
-      puts little_monkeys(numbers_to_strings[int].capitalize)
-      end
-
+    puts little_monkeys(numbers_to_strings[int].capitalize) if int != 0 && int < 21
+    
     if int < 100 && int > 20
       nearest_10 = int.floor(-1)
       single_remainder = int - nearest_10
-      if int % 10 != 0
-        little_monkeys("#{numbers_to_strings[nearest_10].capitalize}-#{numbers_to_strings[single_remainder]}")
-      else
-        little_monkeys("#{numbers_to_strings[nearest_10].capitalize}")
-      end
+      int % 10 != 0 
+      ? little_monkeys("#{numbers_to_strings[nearest_10].capitalize}-#{numbers_to_strings[single_remainder]}") 
+      : little_monkeys("#{numbers_to_strings[nearest_10].capitalize}")
     end
     }
   end
