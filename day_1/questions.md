@@ -15,5 +15,5 @@ answer: p "This is an example of interpolation, where I include the variable 'an
 1. How do we get input from a user? What is the method that we would use?
 answer: gets.chomp
 1. Name and describe two common string methods.
-answer 1: .to_i - converts string into integer
-answer 2: .capitalize - converts first letter into string uppercase
+answer 1: .split - breaks a string into parts
+answer 2: .length - tells you how many characters (including spaces) are in a string
