@@ -4,7 +4,7 @@ Also known as a shift cipher, the Ceasar Cipher is one of the oldest and simples
 
 ```
 plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
-cipher: XYZABCDEFGHIJKLMNOPQRSTUVW
+cipher: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
 Create a file named caesar_cipher.rb and within that file, write a program that will take any string, and encode it based on a shift value provided by the user.  The interaction pattern for this program might look something like this:
