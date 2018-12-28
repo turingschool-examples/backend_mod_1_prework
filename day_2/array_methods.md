@@ -8,7 +8,7 @@
 
 .sort: return a new array where the elements are sorted alphabetically (if strings) or ascending (if numbers)
 
-.each: iterate through each element
+.each: iterate through each element over a collection
 
 .join: mash together elements into one string
 
