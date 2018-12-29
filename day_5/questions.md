@@ -8,7 +8,9 @@
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
   
   pet_store = {"puppies" => 3, "turtles" => 6, "fish" => 100}
+   
    or
+  
   pet_store["puppies" => 3, "turtles" => 6, "fish" => 100]
 
 
