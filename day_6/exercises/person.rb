@@ -56,8 +56,3 @@ corey.eats
 corey.overall_status
 corey.works
 corey.overall_status
-
-puts " - - - - "
-
-chelsea = Person.new("Chelsea", false, false)
-chelsea.overall_status
