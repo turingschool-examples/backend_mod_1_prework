@@ -5,9 +5,11 @@ A conditional statement is one that runs only if a parameter evaluates to a true
 1. Why might you want to use an if-statement?
 When you only want to run part of your code if a criterion, or criteria, is/are met.
 1. What is the Ruby syntax for an if statement?
-`if (comparison)
+```
+if (comparison)
   run block
-end`
+end
+```
 
 1. How do you add multiple conditions to an if statement?
 With double ampersand i.e. &&
