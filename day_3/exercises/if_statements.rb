@@ -42,11 +42,15 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+puts "How many quarters do you have?"
+print "> "
+num_quarters = $stdin.gets.chomp
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+if num_quarters >= "2"
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +63,22 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+puts "Lets see if I have the ingredients to make pizza."
+puts "How many cups of flour do I have?"
+print "> "
+cups_of_flour = $stdin.gets.chomp
+puts "Do I have enough sauce?"
+print "> "
+has_sauce = $stdin.gets.chomp
+
+if has_sauce == "yes" || has_sauce == "y"
+  has_sauce = true
+else
+  has_sauce = false
+end
+
+if cups_of_flour >= "2" && has_sauce == true
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
