@@ -83,16 +83,22 @@ names = ["David, Daniels", "Jessica, Widder", "Sarah, Wilson", "Jake, Yarmus"]
 puts names
 
 #First names
+first_names = ["David", "Jessica", "Sarah", "Jake"]
+last_names = ["Daniels", "Widder", "Wilson", "Yarmus"]
+
+puts first_names
 
 #Last names
-names = ["David, Daniels", "Jessica, Widder", "Sarah, Wilson", "Jake, Yarmus"]
+puts last_names
 
 names.last do |names|
   puts names
 end
 #Only initials
 
-#How can you print out the last name and how many characters are in it?
+#How can you print out the last name and how many characters are in it?***************
+last_names.count
+puts last_names
 
 #How can you create an interger which represents the total number of characters in all the names?
 names = ["David, Daniels", "Jessica, Widder", "Sarah, Wilson", "Jake, Yarmus"]
