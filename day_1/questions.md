@@ -2,7 +2,7 @@
 1. How would you print the string '"Hello World!"' to the terminal?
 + p "Hello World!"
 1. What is the character you would use to indicate comments in a ruby file?
-+  #
++ use #
 1. Explain the difference between an integer and a float?
 + An integer is a number without a decimal point.
 + A float is a number with a decimal point, for when precision is needed.
