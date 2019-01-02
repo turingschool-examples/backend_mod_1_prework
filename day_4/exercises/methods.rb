@@ -18,8 +18,17 @@ print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
+def print_sum(a, b)
+  puts (a + b)
+end
+
+print_sum(1, 5)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+def concat_strings(str1, str2)
+  puts str1 + str2
+end
+
+concat_strings("Hello darkness ", "my old friend.")
