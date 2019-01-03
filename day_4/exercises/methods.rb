@@ -30,7 +30,7 @@ add(2, 4)
 # the end result might be "When Harry Met Sally".  Then, call that method.
 
 def string_concat(man, woman)
-  puts "When #{man} Met #{woman}"
+  puts "When" + " " + "#{man}" + " " + "Met" + " " + "#{woman}"
 end
 
 string_concat("Harry", "Sally")
