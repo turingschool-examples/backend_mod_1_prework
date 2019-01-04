@@ -34,5 +34,5 @@ puts "We love having #{zoo["penguins"]} penguins at the zoo."
 
 # Add an animal to the zoo hash and print the updated hash.
 # Come back to this one: haven't figured it out yet
-another_zoo = {"lions" => 8}
-:hash.merge(another_zoo)
+
+array.push("lions" => 8)

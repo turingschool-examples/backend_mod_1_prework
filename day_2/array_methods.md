@@ -5,4 +5,4 @@
 .each seems to name all of the elements in the array
 .collect does some dark magic numerical madness
 .first and .last does the first or last element in the array
-.shuffle mixes all the elements up.
+.shuffle mixes all the elements up.atom
