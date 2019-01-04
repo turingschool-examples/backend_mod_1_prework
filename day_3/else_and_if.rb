@@ -4,7 +4,7 @@ trucks = 15
 
 
 if cars > people
-  puts "We shoudld take the cars."
+  puts "We should take the cars."
 elsif cars < people
   puts "We should not take the cars."
 else
