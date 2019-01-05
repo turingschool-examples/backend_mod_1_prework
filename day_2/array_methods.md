@@ -20,4 +20,4 @@
 
 .first: fetches first element
 
-.shufffle: randomizes the order of the elements and returns new array
+.shuffle: randomizes the order of the elements and returns new array
