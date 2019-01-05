@@ -20,7 +20,7 @@ print_name("Albus Dumbledore")
 # method.
 
 def add(a, b)
-  a + b
+  puts a + b
 end
 
 add(2, 4)
