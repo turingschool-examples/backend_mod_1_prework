@@ -1,18 +1,17 @@
 # Interation and Each Exercises from Module 1 Lesson
 
 # If you had an array of numbers. e.g. [1,2,3,4], how do you print out the doubles of each number?
-# Triples?
 numbers = [1,2,3,4]
 numbers.each {|x| print String(x) * 2 + ' '}
 puts
 
 #or
-
 numbers.each do |x|
   print String(x) * 2 + ' '
 end
 puts
 
+# Triples?
 numbers.each do |x|
   print String(x) * 3 + ' '
 puts
