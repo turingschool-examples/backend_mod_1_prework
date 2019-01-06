@@ -19,11 +19,11 @@
 +   end  
 +
 +   def bark
-+     "woof! woof!"
++     puts "woof! woof!"
 +   end
 +
 +   def sleep
-+     "...zzzZZzZ"
++     puts "...zzzZZzZ"
 +   end
 + end
 

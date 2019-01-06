@@ -23,7 +23,7 @@ class MyCar
   end
 
   def current_speed
-    puts "You are driving at #{@ccurrent_speed} mph."
+    puts "The car is at #{@current_speed} mph; you are currently parked."
   end
 
   def speed_up(number)
@@ -41,8 +41,15 @@ class MyCar
     puts "Turn off the car."
   end
 
-  def spray_paint(color)
-    self.color = color
-    puts "#{color} is a nice new paint choice."
+  def spray_paint
+    @color = "Blue"
+    puts "#{@color} is a nice new paint choice."
   end
 end
+
+toyota = MyCar.new('2014', 'white', 'Camry')
+toyota.current_speed
+toyota.speed_up(50)
+toyota.brake(25)
+toyota.shut_off
+toyota.spray_paint
