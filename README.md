@@ -612,7 +612,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
