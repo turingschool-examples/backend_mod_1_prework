@@ -25,6 +25,8 @@
 
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
+  weather = 'sunny'
+
 
 
 ##################
@@ -44,8 +46,18 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+   if num_quarters == 0
+     p "I don't have enough money for a gumball"
+   elsif num_quarters == 1
+     p "I don't have enough money for a gumball"
+   elsif num_quarters == 2
+     p "I have enough money for a gumball"
+   elsif num_quarters == 3
+     p "I have enough money for a gumball"
+   else
+     p "No gumball, sorry"
+   end
+
 
 
 #####################
@@ -61,3 +73,15 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour == 1 and has_sauce == true
+  p "I cannot make pizza"
+elsif cups_of_flour == 1 and has_sauce == false
+  p "I cannot make pizza"
+elsif cups_of_flour == 2 and has_sauce == true
+  p "I can make pizza"
+elsif cups_of_flour == 3 and has_sauce == true
+  p "I can make pizza"
+else
+  p "No pizza"
+end
