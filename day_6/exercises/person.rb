@@ -3,3 +3,23 @@
 # terminal.
 
 #YOUR CODE HERE
+class Person
+  attr_accessor :name, :age
+  def initialize(name, age)
+    @age = age
+    @name = name
+  end
+  def age
+    @age +=1
+  end
+  def change_name(name)
+    @name = name
+  end
+
+end
+
+lou = Person.new('lou', 53)
+ puts lou.age
+ puts lou.age
+ lou.change_name('Frank')
+ puts lou.name
