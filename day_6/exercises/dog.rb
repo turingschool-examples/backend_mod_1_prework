@@ -10,21 +10,27 @@ class Dog
     @name   = name
     @age    = age
     @hungry = true
+
   end
 
   def bark
     puts "woof!"
   end
 
+def play
+  puts "Sophie's been playing all day! Are you hungry Sophie?"
+end
+
   def eat
-    @hungry = false
+    @hungry =  true
+    puts "Bark! I'm hungry!"
   end
 end
 
-fido = Dog.new("Bernese", "Fido", 4)
-puts fido.breed
-puts fido.name
-puts fido.age
-puts fido.hungry
-fido.eat
-puts fido.hungry
+sophie = Dog.new("Havanese", "Sophie", 10)
+puts sophie.breed
+puts sophie.name
+puts sophie.age
+puts sophie.play
+puts sophie.eat
+puts sophie.bark

@@ -10,10 +10,22 @@ class Burrito
     @protein  = protein
     @base     = base
     @toppings = toppings
+
+    def add_toppings(top_1, top_2)
+
+    end
   end
 end
 
+
+
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
-p dinner.protein
-p dinner.base
-p dinner.toppings
+dinner.add_toppings("bacon", "sour cream")
+puts "What are my protein options?"
+puts dinner.protein
+puts "Great. What is the base?"
+puts dinner.base
+puts "And my topping options?"
+puts dinner.toppings
+puts "Is there anything else I could get?"
+puts "Yes, how about some #{top_1} or #{top_2}?"
