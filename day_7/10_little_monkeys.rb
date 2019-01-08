@@ -1,8 +1,8 @@
 number = 10
 
   while number > 1
-    puts "#{number} little monkeys jumping on the bed,"
-    puts "One fell off and bumped his head,"
+    puts "#{number} little monkeys jumping on the bed," \n
+    "One fell off and bumped his head,"
     puts "Mama called the doctor and the doctor said,"
     puts "\"No more monkeys jumping on the bed!\""
     puts " "
@@ -19,7 +19,7 @@ number = 10
 puts " "
 
 # Bonus
-# gems I could use: .to_words, .capitalize. Otherwise hash each i to word.
+# gems I could use: .to_words, or .humanize; otherwise hash i to word.
 
 def monkeys
   puts "How many monkeys are there?"
