@@ -41,11 +41,14 @@
 # When num_quarters = 1, program should print "I don't have enough money for a gumball"
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
+print "how many quarters do you have: "
+num_quarters = gets.chomp
 
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= "2"
+  puts "I have enough money for a gumball"
+elsif num_quarters < "2"
+    puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -61,3 +64,12 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+print "how many cups of flour do you have: "
+cups_of_flour = gets.chomp
+print "do you have any sauce (t) for true and (f) for false: "
+has_sauce = gets.chomp
+if cups_of_flour >= "2" && has_sauce == "t"
+  puts "I can make pizza"
+elsif cups_of_flour < "2" || has_sauce == "f"
+    puts "I cannot make pizza"
+end
