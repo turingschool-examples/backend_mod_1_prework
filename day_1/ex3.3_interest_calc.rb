@@ -22,9 +22,10 @@ return_rate = gets.chomp.to_f
 puts "Years"
 years = gets.chomp.to_f
 
-p "years #{years.class}"
-p "rate #{return_rate.class}"
-p "princicple #{principle.class}"
+# the three lines below were used in checking for errors, making sure all variables returned as floats.
+#p "years #{years.class}"
+#p "rate #{return_rate.class}"
+#p "princicple #{principle.class}"
 
 total_value = principle * (1 + return_rate) ** years
 
