@@ -20,7 +20,7 @@
     `first` and `last` are methods which allow you to reference the 'first' or 'last' items in an array.
 
 1. What are the boolean values in Ruby?
-    boolean values are either `true` or `false` and are a result of comparing data by using a vareity of boolean operators, such as `==`, `!=`, `&&`, `||` just to show a few. 
+    boolean values are either `true` or `false` and are a result of comparing data by using a variety of boolean operators, such as `==`, `!=`, `&&`, `||` just to show a few.
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
     2 == 25
