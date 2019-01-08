@@ -41,9 +41,11 @@ class CaesarCipher
 end
 
 puts "What phrase do you want to encode?"
+print "> "
 user_input = gets.chomp
 cipher = CaesarCipher.new(user_input)
 puts "What is your shift value?"
+print "> "
 shift = gets.to_i
 cipher.encode_alpha(shift)
 cipher.encode

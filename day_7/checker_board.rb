@@ -1,5 +1,5 @@
-p "What size is your checkerboard?"
-
+puts "What size is your checkerboard?"
+print "> "
 dimension = gets.chomp.to_i
 
 (dimension/2).times do
