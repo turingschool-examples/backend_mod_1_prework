@@ -58,5 +58,5 @@ end
 else
   puts "The Trinary-contingent appartition Monty only has power if you concede to one of his three choices.  He is simply defeated by your
   insolence and returns to his home when he operates in 4 spacial dimensions and is constrained, pushed in one direction along the 5th."
-  puts "Monty: 𝑜𝐨𝐩𝕊, 𝐢 𝓉𝐑Ｙ ａ𝕘αเＮ ᵃ 𝕨ᗴ𝒆Ќ 卂𝐠ᵒ."
+  puts "Monty: Ŏ̸̢̦̹͓͙͕̟̼̳̀̅͂̀̉̕͝ò̷̪̮̦̟̝͖̀̇̑̏͠͠p̴̖̀͊s̸̡̟̰̪̫͎̙͖̜͊̀̏̋͊̂͘͘͜͠,̷͎͈̭͎̥̳̪̫̤͛͒͘͜ ̵̪̤̣̇͊͋̈́̉I̷̡̯̅͌̒̈́̀͐̓͆̕͝ ̶̫̀̓̏̓͘l̶̙͙̤͈̉͂͐͜͝'̵̡͕̣͊̂́̃̌͛̍̿̔͋͜l̵̺̭̖̹̘͖̰̽̃͜l̷̼͓̠̅̔̐̽̏ ̸̧͉͚͇̥̈́̉̕t̵̻͚̱̜̘̰̹̹̟̊ŗ̸̝̘͙̪̰̣̄͆̇̾̓̏́̚͠͝ŷ̵͉̯̠̟͚̎̂͐̈́̃͒͑̒ ̴̘̙̺̳͕͓̯͔̐̿̽͒̂̓͗̈̕a̴͔̖̅͘͜͝g̴̝̲̳̎͋̑̅̿̊̕a̵̲̭̥̤͈͑̐̈́̊̉̉̋͝͝i̵̱̒͒̈́̓̏̀͝͠n̴̦̠̺̱͇͎̺̽̊ ̵͇͎͇͈̙͙͉̟̫̝̓̀̎̎̈̆̕ȃ̸͓́̀͋̚ ̵̹͓̂̿̏͐̄w̴̗̰͉͔̥̻̭͐͘͝ȩ̵̛̛͓̤̙̦͇̰̱̩̺͂͋͋͘ě̸̢̞̯̙͙̙̘̦̘͓̃͊͂̿̏̽̈́͝k̶͔̹̩̠͎͕͔̰͋̄͑̾̈́͘ ̷̡̌͐̇̊̋̍̓̎á̶̩̪̪͒́̇͑̕ġ̷͓͈̰͙̏̍̃̓͝o̴̫̔̎̅͝ͅ.̶̨̞̙̯͓̬͎̹̙̈̚͝"
 end
