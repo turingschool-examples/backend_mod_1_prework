@@ -1,21 +1,21 @@
 # Needs an iteration loop below
-  int = 100
-    int.each do |int|
-  end
 
-def fizz_buzz(int)
+print "Pick a number, any number:"
+number = gets.chomp.to_i
+puts "So you picked #{number}."
 
-  if int % 3 == 0 && int % 5 == 0
-   return "FizzBuzz"
-  end
+1.upto(number){|x|
 
-  if int % 5 == 0
-   return "Buzz"
-  end
+  if x % 3 == 0 && x % 5 == 0
+   puts "FizzBuzz"
 
-  if int % 3 == 0
-   return "Fizz"
-  end
+ elsif x % 5 == 0
+   puts "Buzz"
+
+ elsif x % 3 == 0
+   puts "Fizz"
+
+ else
+    puts "#{x}"
 end
-
-puts "#{fizz_buzz}"
+}
