@@ -17,3 +17,12 @@ dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
+
+dinner.toppings.push("cilantro")
+p dinner.toppings
+
+dinner.toppings.delete("salsa")
+p dinner.toppings
+
+dinner.protein.replace("Steak")
+p dinner.protein
