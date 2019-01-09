@@ -18,5 +18,4 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 > "Get those monkeys right to bed!"
 
 ### Bonus
-Can you write the program so that it will run for any number
-of monkeys?
+Can you write the program so that it will run for any number of monkeys?
