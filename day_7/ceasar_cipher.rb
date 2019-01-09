@@ -1,9 +1,21 @@
-def ceasar_cipher(str, shift_val) 
-  alphabet = ('A'..'Z').to_a
-  shifted_alphabet = alphabet.rotate(shift_val * -1)
+class CeasarCipher
+  attr_reader :phrase,
+              :alphabet
   
-  str.upcase.split(//).map {|char|
+  def initialize(phrase)
+    @phrase = phrase
+    @alphabet = ('A'..'Z').to_a
+  end
+    
+  def shift(shift_val)
+  shifted_alphabet = @alphabet.rotate(shift_val * -1)
+  
+  @phrase.upcase.gsub(/./) {|char|
     char == " " ? char : shifted_alphabet[alphabet.find_index(char)]
-  }.join("")
- 
+  }
+  end
+
 end
+
+x = CeasarCipher.new('Hello world')
+x.shift(3)
