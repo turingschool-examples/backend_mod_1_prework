@@ -27,5 +27,6 @@ puts "We need to put about #{average_passengers_per_car} in each car."
 # When setting variables in line 14, carpool_capacity was left blank
 # Question - how come when line 4 still has an = sign but no variable
 # description, does not return error message, but rather returns the vale of 3?
+# Answer if `=` sign is left, then this variable calculates based on the value of the following variable. If there is no `=` sign, then an undefined variable error message results.
 
 # 1: If 4.0 for space_in_a_car is changed to 4, then answers are calculated less accurately, without a float.

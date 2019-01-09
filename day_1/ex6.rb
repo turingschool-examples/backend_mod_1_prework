@@ -40,4 +40,4 @@ puts w + e
 # 2 - done
 # 3 - looked for the 4 #{variable} places which were located in strings, and whose variable was a string (not an integer or false value)
 # 4 - both the w and e variables are strings, and when combined, you get one longer string
-# 5 - you get the same output as ' and " are interchangeable
+# 5 - you get the same output, as ' and " are interchangeable
