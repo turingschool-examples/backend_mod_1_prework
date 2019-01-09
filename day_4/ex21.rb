@@ -11,7 +11,7 @@ def subtract(a, b)
 end
 
 def multiply(a, b)
-  puts "MULTIPLIN #{a} * #{b}"
+  puts "MULTIPLYIN' #{a} * #{b}"
   return a * b
 end
 
