@@ -33,6 +33,15 @@ puts "for a grand total of #{zoo["penguins"] + zoo["kangaroos"] + zoo["camels"] 
 puts "We love having #{zoo["penguins"]} penguins at the zoo."
 
 # Add an animal to the zoo hash and print the updated hash.
-# Come back to this one: haven't figured it out yet
 
-array.push("lions" => 8)
+zoo = {
+  "penguins" => 30,
+  "kangaroos" => 14,
+  "camels" => 3,
+  "lemurs" => 15
+}
+puts zoo
+
+zoo.merge!("lions" => 3)
+
+  puts zoo
