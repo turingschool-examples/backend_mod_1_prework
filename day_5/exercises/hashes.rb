@@ -1,6 +1,6 @@
 # In the exercises below, write your own code where indicated
 # to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_6/exercises/arrays.rb`
+# file from your terminal with the command `ruby day_5/exercises/hashes.rb`
 
 # example: Write code below to print a hash that holds grocery store inventory
 foods = {apples: 23, grapes: 507, eggs: 48}

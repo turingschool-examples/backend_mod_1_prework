@@ -11,5 +11,10 @@ p 83 - 7
 # print the result of 6 multiplied by 53 to the terminal:
 p 6 * 53
 
+
 # print the result of the module of 10 into 54:
 p 54.0 % 10.0
+=======
+# print the result of the modulo of 10 into 54:
+# YOUR CODE HERE
+
