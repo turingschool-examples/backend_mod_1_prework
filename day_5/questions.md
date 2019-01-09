@@ -5,7 +5,7 @@
 ###   Arrays are listed that have an index that helps you reference each item in it.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-# pet_store ### = {
+# pet_store = {
 ### "dog collars" => 109,
 ### "birbs" => 100,
 ### "birb collars" => 0,
