@@ -1,0 +1,8 @@
+puts Board
+asks for input
+converts to array location'
+checks if taken
+puts x or o
+if won puts winner
+elsif drawn puts draw
+else changes player
