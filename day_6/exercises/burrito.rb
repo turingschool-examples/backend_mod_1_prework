@@ -5,7 +5,7 @@
 # 3. change_protein
 
 class Burrito
-  attr_reader :protein, :base, :toppings
+  attr_accessor :protein, :base, :toppings
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
@@ -21,9 +21,8 @@ class Burrito
   end
 
   def change_protein(new_protein)
-    @protein = new_protein
-    # self.protein
-    puts "Protein has been changed to #{new_protein}."
+    self.protein = new_protein
+    puts "Protein has been changed to #{self.protein}."
   end
 end
 
