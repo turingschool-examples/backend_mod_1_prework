@@ -3,7 +3,7 @@
 # 1. add_topping
 # 2. remove_topping
 # 3. change_protein
-require 'pry'
+# require 'pry'
 
 class Burrito
   attr_reader :protein, :base, :toppings
@@ -28,4 +28,4 @@ p dinner.protein
 p dinner.base
 p dinner.toppings
 
-binding.pry
+# binding.pry

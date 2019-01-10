@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 class MyCar
   attr_accessor :color
@@ -28,4 +28,4 @@ class MyCar
 
 end
 
-binding.pry
+# binding.pry

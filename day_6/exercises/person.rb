@@ -5,6 +5,11 @@
 class Person
   attr_accessor :height, :weight
 
+  def initialize(height, weight)
+    @height = height
+    @weight = weight
+  end
+
   def run
     puts "The person is running"
   end
@@ -15,9 +20,7 @@ class Person
 
 end
 
-matt = Person.new
-matt.height = 71
-matt.weight = 180
+matt = Person.new(60, 180)
 
 puts matt.height
 puts matt.weight
