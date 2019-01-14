@@ -3,18 +3,30 @@
 # terminal.
 
 class Person
-  attr_reader :height, :weight, :physical, :mental
 
-  def initialize(height, weight, physical, mental)
-  @height = height
-  @weight = weight
-  @physical = physical
-  @mental = mental
-end
+  def att_1
+    height = 6
+    p "Charlie is #{height} feet tall."
+  end
+
+  def att_2
+    weight = 175
+    p "Charlie is #{weight} pounds."
+  end
+
+  def beh_1
+    physical = 'slim'
+    p "Charlie is #{physical}."
+  end
+
+  def beh_2
+    mental = 'kind'
+    p "Charlie is #{mental}."
+  end
 end
 
-charlie = Person.new("6 ft.", "175 lbs.", "runner", "kind")
-p charlie.height
-p charlie.weight
-p charlie.physical
-p charlie.mental
+c = Person.new
+c.att_1
+c.att_2
+c.beh_1
+c.beh_2

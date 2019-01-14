@@ -21,7 +21,7 @@ class Dog
   end
 
   def play
-    p "#{@name} is hungry!"
+    @hungry = true
   end
 end
 
