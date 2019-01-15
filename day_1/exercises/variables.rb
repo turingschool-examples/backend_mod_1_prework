@@ -5,24 +5,26 @@
 # example: Write code below to save your name to a variable and
 # print that variable to the terminal:
 name = "Harry Potter"
-p name
+puts "My name is #{name}."
 
 # Write code below to save the string 'Dobby' to a variable and
 # print that variable to the terminal:
 house_elf = "Dobby"
-#YOUR CODE HERE
+puts "#{house_elf} is a house elf."
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
-# YOUR CODE HERE
+warning = "#{name} must not return to Hogwarts!"
+puts warning
 
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
 students = 22
+puts "There are currently #{students} students at the school."
 students += 2
-p students
+puts "We added a couple more, now there are #{students} students at the school."
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
-#YOUR CODE HERE
-p students
+students -= 2
+puts "A couple left, now there are #{students} students at the school."
