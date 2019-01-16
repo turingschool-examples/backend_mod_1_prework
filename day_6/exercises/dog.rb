@@ -12,30 +12,22 @@ class Dog
     @hungry = true
   end
 
-  def bark
-    p "woof!"
+  def bark(bark)
+    puts bark
   end
-
-  def eat
-    @hungry = false
-  end
-
-  def call
-     "#{@name}! Come here boy"
-  end
-
-  def hungry
+  def play
     @hungry = true
-     "#{@name} is hungry"
+    "hungry"
   end
 
-  def eat
-    "#{@name} is eating"
-  end
-
-  def non_hungry
+  def eat(eat)
     @hungry = false
-    "#{@name} isn't hungry anymore."
+    puts eat
+  end
+
+  def hunger_status(status)
+    @hungry = false
+    puts status
   end
 end
 
@@ -43,7 +35,7 @@ fido = Dog.new("Bernese", "Fido", 4)
 p fido.breed
 p fido.name
 p fido.age
-p fido.call
-p fido.hungry
-p fido.eat
-p fido.non_hungry
+fido.bark("woof!")
+p fido.play
+fido.eat("#{fido.name} is eating")
+fido.hunger_status("Not hungry")
