@@ -11,19 +11,18 @@ class Person
     @city = c
   end
 
-  def person_name
-    p "Hi, I'm #{@name}"
+  def speak
+    p "Hi I'm #{@name}, I'm #{@age} years old, and I live in #{@city}."
   end
-
-  def person_age
-    p "I'm #{@age}"
-  end
-
-  def person_city
-    p "I'm from #{@city}"
+  def response
+    p "It's a pleasure to meet you!"
   end
 end
-james = Person.new("James", "35", "Denver")
-james.person_name
-james.person_age
-james.person_city
+james = Person.new("Geogre", 35, "Denver")
+james.name = "James"
+james.age = 27
+james.city = "LA"
+james.speak
+bob = Person.new("Bob", 24, "New York")
+bob.speak
+bob.response
