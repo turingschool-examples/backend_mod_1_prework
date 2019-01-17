@@ -1,3 +1,4 @@
+require 'pry'
 # In the exercises below, write your own code where indicated
 # to achieve the desired result. You should be able to run this
 # file from your terminal with the command `ruby day_3/exercises/if_statements.rb`
@@ -26,6 +27,21 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+weather = 'snowy'
+
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'rainy'
+  p "umbrella"
+elsif weather == 'snowy'
+  p "mittens"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
+
+
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -43,9 +59,11 @@
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
 num_quarters = 0
-
+if num_quarters == 2
 puts "I have enough money for a gumball"
+else num_quarters < 2
 puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -59,5 +77,11 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+cups_of_flour = 4
 has_sauce = true
+
+if cups_of_flour < 2 || has_sauce == false
+  print "I cannot make pizza"
+else
+  print "I can make pizza"
+end
