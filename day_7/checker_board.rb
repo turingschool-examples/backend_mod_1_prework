@@ -23,7 +23,7 @@ if grid_size < 2
     puts "|" + ("X " * (grid_size / 2)) + "|"
     puts "|" + (" X" * (grid_size / 2)) + "|"
   end
-  # Odd number grid size block 
+  # Odd number grid size block
   else
     (grid_size / 2).times do
     puts "|" + ("X " * (grid_size / 2)) + "X" + "|"

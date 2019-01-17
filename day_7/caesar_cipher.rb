@@ -1,3 +1,7 @@
+puts "CAESER CIPHER"
+# Encrypts a message with user input for message and shift count.
+puts ""
+
 class CaeserCipher
 
   def initialize(message, shift = 0)
@@ -32,22 +36,15 @@ class CaeserCipher
   end
 end
 
-corey = CaeserCipher.new("This is just a test", 1)
-p corey.encoded_phrase
+# corey = CaeserCipher.new("This is just a test", 1)
+# p corey.encoded_phrase
 
 
-# puts "Enter a phrase that you want to encode below:"
-# user_phrase = $stdin.gets.chomp.upcase
-#
-# puts "How many letters would you like to shift your phrase"
-# user_shift = $stdin.gets.chomp.to_i
-#
-# user_input = CaeserCipher.new(user_phrase, user_shift)
-# p user_input.encode
+puts "Enter a phrase that you want to encode below:"
+user_phrase = $stdin.gets.chomp.upcase
 
+puts "How many letters would you like to shift your phrase"
+user_shift = $stdin.gets.chomp.to_i
 
-
-
-# it takes in a string
-# it it manipulates that string using .rotate
-# it returns a decrypted output
+user_input = CaeserCipher.new(user_phrase, user_shift)
+p user_input.encoded_phrase
