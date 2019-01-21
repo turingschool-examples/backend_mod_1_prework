@@ -7,51 +7,35 @@ require 'pry'
 
 class CeasarCipher
 
-
-
   def encode(string, shift)
-    arr_index = []
-    arr = string.chars
+
+    # This rotates the characters to a new array
     characters = ("a".."z").to_a
-    character_rotated = characters.rotate(-shift)
-    # index of H in Char Array
-      arr.each do |char|
-        arr_index << characters.index(char.downcase)
-      end
-      character_rotated
+    characters_rotated = characters.rotate(-shift)
 
-      arr_index.each do |index|
-        character_rotated.each do |character|
-          binding.pry
+    # This adds indexes to the string for easy accessibility
+    string_indexed = []
+    arr = string.chars
+    arr.each do |char|
+    string_indexed << characters.index(char.downcase)
+    end
 
+    # This gets the new characters into an encode array
+    encode = []
+    string_indexed.each do |index|
+        if index == nil
+          new_encoded_character = (" ")
+        else
+          new_encoded_character = characters_rotated[index]
         end
-      end
-
-
-
-
-
-
-
-    # arr = string.split
-    # encoded_words = []
-    # arr.each do |word|
-    #   word.chars.shift
-
-
-
-    # if char.chars == nil
-    #   arr_index << " "
-    # end
-
-      # if word.chars == nil
-      #   encoded_words << " "
-      # end
-    # end
+        encode << new_encoded_character
+    end
+    p encode.join
   end
-
-
 end
+
+
+
 
 cipher = CeasarCipher.new
 cipher.encode("Hello World", 5)
