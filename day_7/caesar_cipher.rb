@@ -21,7 +21,7 @@ class CaeserCipher
     @message.chars
   end
 
-  def reference_in_alphabet_array #references each character from split_message in terms of index in the alphabet arrray
+  def reference_in_alphabet_array #references each character from split_message in terms of index in the alphabet array
     split_message.map { |character| alphabet_array.index(character) } #use of `map` crucial for changing array
   end
 
