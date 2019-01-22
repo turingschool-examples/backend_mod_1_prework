@@ -1,9 +1,21 @@
-def ceasarCipher(text)
-  rot5 = ->(text) do
-    alphabet = ("a".."z").to_a
-    key = Hash[alphabet.zip(alphabet.rotate(5))]
-    text.each_char.inject("") { |encrypted, char| encrypted + key[char] }
-  end
+class Caesar
+
+
+def caesar_cipher()
+  puts "What message could you like encrypted?#{"\n\n"}> "
+  message = gets.chomp
+  puts "#{"\n\n"}And how many shifts? #{"\n\n"}> "
+  key = gets.chomp.to_i
+  normal_alphabet   = Array('a'..'z')
+  encrypter  = Hash[normal_alphabet.zip(normal_alphabet.rotate(key))]
+  message.chars.map { |x| encrypter.fetch(x, " ") }
 end
-#  Had some help but was unable to finish
-ceasarCipher("Hello")
+
+def executie
+  puts caesar_cipher().join
+end
+
+end
+
+inst = Caesar.new()
+inst.executie
