@@ -1,15 +1,21 @@
+
+
 class Caesar
 
+def caesar_cipher
 
-def caesar_cipher()
+
   puts "#{"\n\n"}What message could you like encrypted?  (write in lower case or it will
                        not work correctly)#{"\n\n"}> "
   message = gets.chomp
   puts "#{"\n\n"}And how many shifts to the right? #{"\n\n"}> "
+
+
   key = gets.chomp.to_i
   normal_alphabet   = Array('a'..'z')
   shifter  = Hash[normal_alphabet.zip(normal_alphabet.rotate(key))]
   message.chars.map { |x| shifter.fetch(x, " ") }
+
 end
 
 def executie
@@ -71,11 +77,32 @@ class Monkey
 end
 
 
-#instantiate and executes methods and their main classes
-inst1 = Counter.new()
-inst2 = Monkey.new()
-inst3 = Caesar.new()
+class Introduction
+def greeting
+  puts "Choose between the three: 1)Counter, 2)Monkey, 3)Caesar #{"\n\n"}> "
 
-inst1.askforcount
-inst2.nursery_rhyme
-inst3.executie
+  choice = gets.chomp.to_i
+
+  case choice
+  when 1
+    inst1 = Counter.new()
+    inst1.askforcount
+  when 2
+    inst2 = Monkey.new()
+    inst2.nursery_rhyme
+  when 3
+    inst3 = Caesar.new()
+    inst3.executie
+  else
+    puts "Not a valid input.  Try again#{"\n\n"}"
+    intro = Introduction.new()
+    intro.greeting
+  end
+
+end
+end
+
+
+#instantiate and executes methods and their main classes
+hello = Introduction.new()
+hello.greeting
