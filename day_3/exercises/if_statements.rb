@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'icy'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -42,11 +42,13 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+num_quarters = 4
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +61,25 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+cups_of_flour = 6
 has_sauce = true
+pies_possible = cups_of_flour/2.0
+
+if cups_of_flour < 2 || has_sauce == false
+  puts "I cannot make pizza"
+else
+  puts "I can make pizza"
+end
+
+
+if cups_of_flour < 2 && has_sauce == false
+  puts "I don't have enough flour or sauce to make even one pizza"
+elsif cups_of_flour < 2 && has_sauce == true
+  puts "Bummer. I have sauce, but need more flour to make pizza."
+elsif cups_of_flour >= 2 && has_sauce == false
+  puts "Bummer. I have enough flour, but need sauce to make pizza."
+elsif pies_possible == 1 && has_sauce == true
+  puts "Phew! I have just enough flour and sauce to make a pizza."
+else
+  puts "Yippee. There's enough flour and sauce to make #{pies_possible} pizzas!"
+end
