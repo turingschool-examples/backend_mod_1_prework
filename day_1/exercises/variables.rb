@@ -10,12 +10,12 @@ p name
 # Write code below to save the string 'Dobby' to a variable and
 # print that variable to the terminal:
 house_elf = "Dobby"
-puts house_elf
+p house_elf
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
-omninous_warning = "Harry Potter must not return to Hogwarts!"
-puts omninous_warning
+ominous_warning = "Harry Potter must not return to Hogwarts!"
+p ominous_warning
 
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
