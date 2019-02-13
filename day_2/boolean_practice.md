@@ -9,4 +9,4 @@
 1. `<= Less or Equals` Is as above, but it also returns true if the values are equal.
 1. `<=> Combined Comparison` This is the combined comparison operator. This returns 0 if the two sides are equal, 1 if left side is greater than the right side and -1 if the right side is greater then the left.
 1. `.eql? Equals Method` This method returns true if the object the method is used on and the argument have both the same type and are equal.
-1. `equal? Identical MMethod` This method returns true if the two objects are perfectly identical, so it only returns true if you are comparing the same object. This returns false in all other cases, including if the objects have the same value and type.
+1. `equal? Identical Method` This method returns true if the two objects are perfectly identical, so it only returns true if you are comparing the same object. This returns false in all other cases, including if the objects have the same value and type.
