@@ -1,31 +1,39 @@
-# In the exercises below, write your own code where indicated
-# to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_3/exercises/if_statements.rb`
+# In the exercises below, write your own code where indicated to achieve the desired result. You should be able to run this file from your terminal with the command `ruby day_3/exercises/if_statements.rb`
 
-# example, using the weather variable below, determine what you need to take
-# with you to be prepared based on the following conditions:
+# example, using the weather variable below, determine what you need to take with you to be prepared based on the following conditions:
   # if it is sunny, print "sunscreen"
   # if it is rainy, print "umbrella"
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  #weather = 'snowy'
 
-  if weather == 'sunny'
-    p "sunscreen"
-  elsif weather == 'rainy'
-    p "umbrella"
-  elsif weather == 'snowy'
-    p "coat"
-  elsif weather == 'icy'
-    p "yak traks"
-  else
-    p "good to go!"
-  end
+  #if weather == 'sunny'
+  #  puts "sunscreen"
+  #elsif weather == 'rainy'
+  #  puts "umbrella"
+  #elsif weather == 'snowy'
+  #  puts "coat"
+  #elsif weather == 'icy'
+  #  puts "yak traks"
+  #else
+  #  puts "good to go!"
+  #end
 
-# Manipulate the variable 'weather' to see if you can print something other
-# than 'coat'
-
+# Manipulate the variable 'weather' to see if you can print something other than 'coat'
+  #puts "Enter a weather type: sunny, rainy, snowy, or icy: "
+  #weather = $stdin.gets.chomp
+  #if weather == 'sunny'
+  #  puts "sunscreen"
+  #elsif weather == 'rainy'
+  #  puts "umbrella"
+  #elsif weather == 'snowy'
+  #  puts "coat"
+  #elsif weather == 'icy'
+  #  puts "yak traks"
+  #else
+  #  puts "good to go!"
+  #end
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -42,11 +50,12 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+#num_quarters = 0
+#if num_quarters >= 2
+#  puts "I have enough money for a gumball"
+#else
+#  puts "I don't have enough money for a gumball"
+#end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +68,11 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+cups_of_flour = 3
 has_sauce = true
+
+if cups_of_flour <= 1 || has_sauce == false
+  puts "I cannot make pizza"
+else
+  puts "I can make pizza"
+end
