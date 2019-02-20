@@ -17,7 +17,18 @@ class Dog
   end
 
   def eat
+    p "#{name} eats."
     @hungry = false
+  end
+
+  def hungry
+    p "Is #{name} hungry: #{@hungry}"
+  end
+
+  def play
+    p "#{name} plays and is hungry."
+    @hungry = true
+    self.hungry
   end
 end
 
@@ -28,3 +39,4 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+p fido.play 
