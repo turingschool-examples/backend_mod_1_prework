@@ -225,7 +225,9 @@ _If you see `Clone with HTTPS` click on `Use SSH`_
 1. Click on the copy icon to copy the SSH link to your clipboard.
 1. Open your terminal
 1. Enter `cd`. This is a shortcut for `cd ~`, which is "change into the home directory"
+1. Enter `mkdir turing`
 1. Enter `cd turing`
+1. Enter `mkdir 1module`
 1. Enter `cd 1module`
 1. Enter `git clone <paste the copied ssh link>`.
 _You now have a copy of this repository on your local machine!_  
