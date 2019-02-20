@@ -419,6 +419,7 @@ You should now see that the `playground.rb` file is gone.
 Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
 1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
+1. Scroll to the top of *this* page
 1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_.
 _Now, you should be on your forked copy of this repository!_
 
@@ -611,7 +612,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
@@ -645,26 +646,21 @@ Using your terminal, open the local copy of the repository that you created duri
 ## Arrays
 
 1. Work through the [Arrays](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#7.-arrays) section of Ruby in 100 Minutes. As you work through this section, research each of the methods mentioned by looking through the Ruby docs for [Arrays](https://ruby-doc.org/core-2.4.1/Array.html). This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
-
-1. Work through [Booleans](http://docs.railsbridge.org/ruby/booleans) lesson from the Ruby Railsbridge.
-
-1. Work through the following lessons from Learn Ruby the Hard Way.
-
-    1. [Booleans](https://learnrubythehardway.org/book/ex27.html) - just read through this lesson, you do not need to memorize anything, or create flashcards(unless you _really_ want to).
-    2. [Boolean Practice](https://learnrubythehardway.org/book/ex28.html)
-
+1. Work through the [Iteration and Each](http://backend.turing.io/module1/lessons/iteration_and_each) lesson.  
+1. Work through the following lessons from Learn Ruby the Hard Way:  
+    1. [Booleans](https://learnrubythehardway.org/book/ex27.html) - just read through this lesson, you do not need to memorize anything, or create flashcards(unless you _really_ want to).  
+    1. [Boolean Practice](https://learnrubythehardway.org/book/ex28.html).  
 1. Work through the exercise files in the day_2/exercises directory.  Complete them in this order:  
-1. arrays
-1. iteration
-
-1. Answer the questions in the questions.md file in the day_2 directory.
+    1. arrays  
+    1. iteration  
+1. Answer the questions in the questions.md file in the day_2 directory.  
 
 ## Save your work in Git
 
 When you are finished with all of the day_2 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_2/exercises.rb`
-1. `$ git add day_2/questions.md``
+1. `$ git add day_2/exercises`
+1. `$ git add day_2/questions.md`
 1. Use `git add day_2/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 2 Work"`
@@ -706,8 +702,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_3 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_3/exercises.rb`
-1. `$ git add day_3/questions.md``
+1. `$ git add day_3/exercises`
+1. `$ git add day_3/questions.md`
 1. Use `git add day_3/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 3 Work"`
@@ -748,8 +744,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_4 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_4/exercises.rb`
-1. `$ git add day_4/questions.md``
+1. `$ git add day_4/exercises`
+1. `$ git add day_4/questions.md`
 1. Use `git add day_4/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 4 Work"`
@@ -786,8 +782,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_5 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_5/exercises.rb`
-1. `$ git add day_5/questions.md``
+1. `$ git add day_5/exercises`
+1. `$ git add day_5/questions.md`
 1. Use `git add day_5/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 5 Work"`
@@ -825,8 +821,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_6 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_6/exercises.rb`
-1. `$ git add day_6/questions.md``
+1. `$ git add day_6/exercises`
+1. `$ git add day_6/questions.md`
 1. Use `git add day_6/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 6 Work"`
@@ -883,5 +879,7 @@ When you have completed *all* the activities described above, follow the steps b
 4. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
+
+5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/your_github_username/backend_prework.
 
 And you're done!  Can't wait to see you on the first day of class!!

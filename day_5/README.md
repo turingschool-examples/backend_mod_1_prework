@@ -12,7 +12,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
 
-1. Work through the hashes.rb file in the day_6/exercises directory.
+1. Work through the hashes.rb file in the day_5/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_6 directory.
 
@@ -20,8 +20,8 @@ Using your terminal, open the local copy of the repository that you created duri
 
 When you are finished with all of the day_5 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_5/exercises.rb`
-1. `$ git add day_5/questions.md``
+1. `$ git add day_5/exercises`
+1. `$ git add day_5/questions.md`
 1. Use `git add day_5/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Adds Day 5 Work"`

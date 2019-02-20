@@ -14,6 +14,7 @@ Here's what we're going to go over:
 *   Installing Ruby Versions using Rbenv
 *   Forking and Cloning the Prework Repository
 
+
 ### Setting Up Terminal Access for Atom
 
 Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
@@ -72,7 +73,7 @@ Are you sure you want to continue connecting (yes/no)?
 -   If everything's working, you'll see the the following:
 
 ```bash
-=> Hi YourUsername! You\'ve successfully authenticated, but GitHub does not provide shell access.
+=> Hi YourUsername! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 ### [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
@@ -167,7 +168,7 @@ This shows us what version of Ruby we are running. You should see something like
 
 `ruby 2.4.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]`
 
-You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have you successfully edited your bash_profile, restart your terminal, and try again.
+You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have successfully edited your bash_profile, restart your terminal, and try again.
 
 #### Setting the Default Version
 
@@ -199,7 +200,7 @@ _Now, you should be on your forked copy of this repository!_
 
 The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
 
-1. In YOUR backend_prework repository that your just forked, click on `Clone or Download`  
+1. In YOUR backend_prework repository that you just forked, click on `Clone or Download`  
 _If you see `Clone with HTTPS` click on `Use SSH`_
 
 ![Clone](https://i.imgur.com/RHpul4Vm.png)
