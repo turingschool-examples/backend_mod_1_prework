@@ -2,40 +2,20 @@
 
 ## Environment Setup
 
-If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about using a Mac.
+These setup instructions assume that you have completed the setup for Module 0. If you haven't done that yet, see [these instructions](http://mod0.turing.io/)
 
-Before we can do much programming, we need to make sure our machines are properly configured with a functional development environment. Let's walk through this process now to make sure we have what we need. You can also follow along with [this video](https://www.youtube.com/watch?v=qMkRHW9zE1c)
+Before we can do much programming, we need to make sure our machines are properly configured with a functional development environment. Let's walk through this process now to make sure we have what we need.
 
 Here's what we're going to go over:
 
-*   Atom -- a text editor. Developers need to work with text in a different way than
-your average MS Word user. We'll want a text editor designed for software
-development.
-*   Terminal -- for interacting with our machine from the command
-line. Fortunately OS X already ships with one.
-*   OS X "Command Line Tools" -- these are some system dependencies needed for
-some of the tools we will use.
-*   HomeBrew -- a package manager. Package managers help us install developer-related
-programs. You can think of it as the "App Store for nerds."
-*   Git -- a version control system (VCS). A VCS helps us to save our work, manage different versions, and collaborate with other developers.
-*   Rbenv - a Ruby Version Manager. This allow us to install other versions as needed
-*   Ruby -- the programming language we will use extensively in the Backend Program.
+*   Setting up Terminal Access for Atom
+*   Setting up GitHub SSH Keys
+*   Installing Rbenv - a Ruby Version Manager. This allow us to install other versions as needed
+*   Installing Ruby Versions using Rbenv
+*   Forking and Cloning the Prework Repository
 
-### Atom
 
-Download [Atom](https://atom.io/). Follow along with the installation wizard to get Atom installed. You should be able to open Spotlight Search using `Command + Space`, type "atom" and hit enter, and Atom should open for you.
-
-Atom is a program where we edit code - it is a text editor with many great features that makes editing code more enjoyable compared to a simple text editor. Atom is commonly used in the software development industry, and we use it throughout your time at Turing.
-
-### Terminal
-
-The Terminal, also referred to as the Command Line, allows you to enter commands to your computer. Before Graphical User Interfaces were invented, this was the only way to interact with a computer. A Graphical User Interface (GUI) is a more visual way of interacting with a computer, usually involving clicking on buttons with a mouse. They are more intuitive and beginner friendly, but offer much less power, flexibility, and speed than a Terminal.
-
-A Terminal allows you to navigate around folders (called directories) and run programs. For example, when we run `ruby`, we are running that program from the terminal. You could also do this using the Mac's Finder program by clicking through folders and files, but this will be much slower and less powerful than the Terminal.
-
-To launch the Terminal, open Spotlight Search using `Command + Space`, type "terminal", then enter.
-
-#### Setting Up Terminal Access for Atom
+### Setting Up Terminal Access for Atom
 
 Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
 
@@ -43,105 +23,11 @@ To confirm that atom is working from your command line, open a terminal with Spo
 
 Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
 
-### XCode & Command Line Tools
+### GitHub SSH Keys
 
-XCode is a huge suite of development tools published by Apple. If we wanted to develop software for the Apple Ecosystem (iPhone apps, Mac OS Apps, etc), we would use XCode as our editor. But even if we aren't working in this ecosystem, XCode provides some system dependencies that we'll want to have available.
+SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
-You'll want to install it before attempting to install anything else.
-
-1.  Open the App store, search for "XCode" and install it (this will probably take a little while to finish)
-2.  Open the application after installing and agree to the SLA terms
-3.  Open a terminal with Spotlight search (`Command + Space`) and run `xcode-select --install`, enter your user password
-
-Now you should have the underlying tools we need to move forward.
-
-### Homebrew
-
-[Homebrew](http://brew.sh) is a package management system that makes it easy to install hundreds of open source projects and compile them from source for maximum performance on your machine.
-
-Open a terminal with Spotlight search (`Command + Space`) then run the homebrew installation script:
-
-```shell
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-It will ask you for your password. This is the password to log in to your account on the computer.
-It needs this because it installs its packages in a place that all users of this computer can access.
-
-#### Verifying Homebrew
-
-When it has completed the installation run `brew doctor` and it should tell you that everything is fine:
-
-```shell
-brew doctor
-Your system is ready to brew.
-```
-
-#### Modifying your PATH
-
-If you got a warning from Homebrew about your path, do the following:
-
-```shell
-echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
-```
-
-Now run `brew doctor` again and the warning should be gone.
-
-__Aside: `PATH`:__
-
-Your `PATH` is a system configuration property which tells your computer which places to look for underlying programs when you want to run a command.
-
-For example, when we type `ruby` at the command line to run a ruby program, our `PATH` will help the system know where on the system to find ruby. By adding this directory to our `PATH`, we're telling the system how to find the various applications we will install using Homebrew.
-
-__Aside: `~/.bash_profile`__
-
-When we use our terminal, we're actually using a program called a "Shell" to interact with the underlying Operating System. Specifically, we're using a shell called [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
-
-The file `~/.bash_profile` contains settings and commands to help us configure the shell, so when we have a bit of configuration code such as setting our `PATH`, it often goes in our `~/.bash_profile`.
-
-### Git
-
-Git is a Version Control System (VCS). It allows you to save work on your project, and reference previous states of a project if needed. Normally when we save something on our computer, the newer version overwrites the older version. This is problematic if we need to look back at an earlier version. Git solves this problem by providing you multiple save points. You can get the current version, and ANY previous version. Git’s philosophy: never lose anything.
-
-XCode installed an older version of Git for you, but let's update it.
-
-```shell
-brew install git
-==> Downloading http://git-core.googlecode.com/files/git-1.8.3.4.tar.gz
-########################################################### 100.0%
-```
-
-### Github
-
-GitHub is a website for hosting git repositories.
-
-The git repository on your computer is called the local repository. It is only accessible through your computer. If you are working with a partner, they cannot access it on their computer. That’s where Github comes in. When you push your repository to Github, you are creating a remote repository. It is in the cloud and collaborators can access it through the web.
-
-Before GitHub, developers or companies configured and ran their own independent git servers, and things were much more fragmented. Now GitHub has become the de facto community standard for hosting and sharing repositories.
-
-You certainly don’t need GitHub to use git, but its popularity and dominance, especially within the open source community, have intertwined the 2 for many users.
-
-As you progress through becoming a more practiced git user, don’t forget that these are 2 distinct things – git provides the core technology for tracking and managing source control changes, while GitHub provides a shared location for hosting git projects.
-
-If you have not created a Github account yet, go to [GitHub.com](https://github.com/) and create one. Make sure you use a username that appropriately identifies you. This username will go on your resume some day.
-
-#### Configuring Git
-
-We'll want to configure git with some basic information about us.
-
-We can tell git to configure itself using the `git config` command from our terminal. Additionally, we're setting "global" configurations for git, so we'll use the `--global` flag when we provide it with a new piece of configuration.
-
-Open a terminal with Spotlight search (`Command + Space`) and tell git your Name and Email address by using the following commands, substituting your own name and email:
-
-```
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-```
-
-Now we need to generate an SSH key for this email. SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
-
--   Generate a new key by running
+-   Generate a new key by running (You should use the email associated with your GitHub account)
 
 ```bash
 $ ssh-keygen -t rsa -C "johndoe@example.com"
@@ -298,107 +184,11 @@ To reload your shell, do the following:
 rbenv rehash
 ```
 
-### Command Line
+### Terminal
 
-We sometimes refer to the Terminal as the "Command Line", since we are using it to enter commands to the computer.
+We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
 
-Now, let's create a directory structure to store all of your code. Open a terminal with Spotlight search (`Command + Space`), type "terminal" and hit enter. Enter these commands into your terminal:
-
-```
-$ cd ~
-$ ls
-```
-
-You should see something like this:
-
-```
-Applications	Downloads	Music
-Desktop		Library		Pictures
-Documents	Movies		Public
-```
-
-__A few notes:__
-
-*   `cd` stands for "change directory", and moves us to a specific place on the filesystem, similar to using the Finder to click on a folder to open it.
-*   `~` is a shortcut for our "home directory". It's where everything associated with your User is stored, which is pretty much everything. It will be in `/Users/<your-user-name>`. Be careful about changing anything at or above the `User` directory.
-*   Putting this together, `cd ~` means "move to the home directory".
-*   `ls` is short for "list". It shows us what is in the current directory. Very frequently, when you type `cd <directory name>`, you type `ls` right after because you want to see what's in the directory you just opened. It's very similar to when you open a folder using the Finder and it immediately shows you what is in that folder.
-
-Now enter into the terminal:
-
-```
-mkdir turing
-```
-
-*   `mkdir` stands for "make directory", and it allows us to create new folders on the machine.
-
-Type `ls`, and you should see your newly created `turing` directory. Now we want to enter the directory we have created. In your terminal, type `cd t` and then hit `tab`. The command `cd turing` should autocomplete for you. Hit `enter`. Autocomplete is a very useful feature when using the terminal. Not only does it make entering commands faster, it also confirms to us that the computer can find what we are looking for. If you hit `tab` to autocomplete and it doesn't autocomplete, the terminal probably can't find what you're looking for.
-
-Type `ls` and you should see nothing since we have created our `turing` directory but haven't put anything in it. Enter the commands:
-
-```
-mkdir 1module
-cd 1module
-```
-
-You should now be in your newly created 1module folder. Verify this by entering:
-
-```
-pwd
-```
-
-You should see something like `/Users/JohnDoe/turing/1module`. `pwd` stands for "print working directory". This command is basically the terminal asking the computer "where am I"?
-
-We are in `/Users/JohnDoe/turing/1module`, but let's say we want to move up one level, to `Users/JohnDoe/turing`. We use `.` to represent our current directory, and `..` to represent "up one level". Thus, the command to change directories up one level is:
-
-```
-cd ..
-```
-
-Enter this command and type `ls`. You should now be in the `turing` folder. Make sure that throughout the course of this prework you are getting comfortable with using `cd` to navigate directories and `ls` to see what's in those directories.
-
-Now that this is complete, you can now get to your 1module directory from anywhere through the terminal by typing:
-
-```
-cd ~/turing/1module
-```
-
-__Try It:__ Move to your home directory using `cd ~`. Then use `cd` to navigate back to your `1module` directory.
-
-From your `1module` directory, enter these commands:
-
-```
-touch playground.rb
-ls
-```
-
-You should see the `playground.rb` file listed when you enter the `ls` command. `touch` is the command used to create a new file. Now type `atom p`, hit `tab`, and the terminal should autocomplete the command to `atom playground.rb`. Hit enter to run this command. It should open the `playground.rb` file, which should be blank, in Atom. You can use `atom <file name>` to open any file in Atom. You can also use `atom <directory name>` to open an entire directory in Atom. If you want to open the current directory, you can type `atom .`.
-
-Let's pretend that we don't want `playground.rb` in our `1module` folder. Let's move it up one level, to the `turing` folder. Type `ls` and you should see your `playground.rb` file. If you don't, use `cd` and `ls` to find it. Once you have found it, enter the following commands:
-
-```
-mv playground.rb ..
-ls
-cd ..
-ls
-```
-
-The first `ls` should show you nothing. The second one should show you the `playground.rb` file.
-
-`mv` is short for "move". Its general usage is `mv <file> <location>`. `<file>`, the first argument after `mv`, is the thing we are trying to move. The second argument, `<location>` is where we want to move it. Thus, the command `mv playground.rb ..` means "move the playground file up one directory".
-
-Let's delete this file. The command to delete a file is `rm`, short for "remove". In your terminal, type `ls` and you should see your `playground.rb` file. If you don't, use `cd` and `ls` to find it. Once you have found it, enter the following commands:
-
-```
-rm playground.rb
-ls
-```
-
-You should now see that the `playground.rb` file is gone.
-
-If you feel like you still need more practice, see the terminal.md lesson located in the day_0 directory.
-
-### Cloning the Prework Repository
+### Forking and Cloning the Prework Repository
 
 Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
