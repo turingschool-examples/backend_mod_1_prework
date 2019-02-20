@@ -26,3 +26,5 @@ end
 logan = Person.new('Logan', '72', '180')
 logan.intro
 logan.change('190', '70')
+abbie = Person.new('Abbie', '67', '145')
+abbie.intro
