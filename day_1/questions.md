@@ -33,4 +33,5 @@
 1. Name and describe two common string methods.
 
   .length tells you how many characters are in the string.
+  
   .split breaks the string into parts
