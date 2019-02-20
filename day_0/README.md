@@ -2,24 +2,17 @@
 
 ## Environment Setup
 
-If this is your first time using a Mac instead of a PC or Linux, then watch [this video](https://www.youtube.com/watch?v=MN0FD8KW2V4) about using a Mac.
+These setup instructions assume that you have completed the setup for Module 0. If you haven't done that yet, see [these instructions](http://mod0.turing.io/)
 
-Before we can do much programming, we need to make sure our machines are properly configured with a functional development environment. Let's walk through this process now to make sure we have what we need. You can also follow along with [this video](https://www.youtube.com/watch?v=qMkRHW9zE1c)
+Before we can do much programming, we need to make sure our machines are properly configured with a functional development environment. Let's walk through this process now to make sure we have what we need.
 
 Here's what we're going to go over:
 
-*   Atom -- a text editor. Developers need to work with text in a different way than
-your average MS Word user. We'll want a text editor designed for software
-development.
-*   Terminal -- for interacting with our machine from the command
-line. Fortunately OS X already ships with one.
-*   OS X "Command Line Tools" -- these are some system dependencies needed for
-some of the tools we will use.
-*   HomeBrew -- a package manager. Package managers help us install developer-related
-programs. You can think of it as the "App Store for nerds."
-*   Git -- a version control system (VCS). A VCS helps us to save our work, manage different versions, and collaborate with other developers.
-*   Rbenv - a Ruby Version Manager. This allow us to install other versions as needed
-*   Ruby -- the programming language we will use extensively in the Backend Program.
+*   Setting up Terminal Access for Atom
+*   Setting up GitHub SSH Keys
+*   Installing Rbenv - a Ruby Version Manager. This allow us to install other versions as needed
+*   Installing Ruby Versions using Rbenv
+*   Forking and Cloning the Prework Repository
 
 ### Setting Up Terminal Access for Atom
 
@@ -194,7 +187,7 @@ rbenv rehash
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
 
-### Cloning the Prework Repository
+### Forking and Cloning the Prework Repository
 
 Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
