@@ -9,9 +9,12 @@ end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
 7.times do
-  # YOUR CODE HERE
+  p 2 + 2
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
-# YOUR CODE HERE
+xs = ["she", "sells", "sea", "shells", "by", "the", "seashore"]
+10.times do
+  puts "#{xs[rand(7)]} #{xs[rand(7)]} #{xs[rand(7)]} #{xs[rand(7)]} #{xs[rand(7)]} #{xs[rand(7)]} #{xs[rand(7)]}.".capitalize
+end

@@ -6,7 +6,12 @@
 p "Alan Turing"
 
 # Write code below to print `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+p "Welcome to Turing!"
 
 # Write code below to print `99 bottles of pop on the wall...`:
-# YOUR CODE HERE
+i = 99
+while i > 0 do
+  puts "#{i} bottles of pop on the wall\n#{i} bottles of pop,\nTake one down\nSpin in around\n#{i-1} bottles of pop on the wall."
+  i -= 1
+  gets
+end
