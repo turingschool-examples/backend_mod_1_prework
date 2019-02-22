@@ -12,19 +12,33 @@ class Dog
     @hungry = true
   end
 
-  def bark
-    p "woof!"
+  def hungry
+    @hungry
   end
 
   def eat
     @hungry = false
   end
+
+  def play
+    @hungry = true
+  end
+
+  def bark
+    p "woof!"
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
+
 p fido.breed
 p fido.name
 p fido.age
+
+fido.bark
+fido.eat
+p fido.hungry
+fido.play
 p fido.hungry
 fido.eat
 p fido.hungry
