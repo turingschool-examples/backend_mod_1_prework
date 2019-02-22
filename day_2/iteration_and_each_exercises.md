@@ -20,7 +20,7 @@
 
 ***These above functions iterate through the array numbers. For each element, it checks whether it is even (or odd), and if so, returns the x,", " string.***
 
-3. How could you create a new array which contains each number multipled by 2?
+3. How could you create a new array which contains each number multiplied by 2?
 
 ***doubled = numbers.map{ |x| x*2}
 => [2, 4, 6, 8]***
