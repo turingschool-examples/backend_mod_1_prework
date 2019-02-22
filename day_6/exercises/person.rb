@@ -27,6 +27,6 @@ end
 
 jimmy = Person.new("Jimmy", "blue", "brown", 30)
 
-p jimmy.about
+print jimmy.about
 print jimmy.dance
 print jimmy.sing
