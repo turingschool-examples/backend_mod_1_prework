@@ -9,8 +9,9 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weathers = ["sunny", "rainy", "snowy", "icy", "tornado"]
 
+weathers.each do |weather|
   if weather == 'sunny'
     p "sunscreen"
   elsif weather == 'rainy'
@@ -22,6 +23,7 @@
   else
     p "good to go!"
   end
+end
 
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
@@ -44,9 +46,8 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+print num_quarters > 1 ? "I" : "I don't"
+puts " have enough for a gumball."
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -61,3 +62,10 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if has_sauce
+  print cups_of_flour > 1 ? "I can" : "I cannot"
+else
+  print "I cannot"
+end
+puts " make pizza."
