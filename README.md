@@ -1,6 +1,6 @@
-# Backend Prework Repository
+# Backend Mod 0 Capstone Repository
 
-This repository will walk you through the prework for the Backend program at Turing.
+This repository will walk you through the Mod 0 Capstone for the Backend program at Turing.
 
 Each day has a folder containing a README.md file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
