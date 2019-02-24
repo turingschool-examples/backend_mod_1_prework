@@ -32,3 +32,6 @@ p zoo["zebra"]
 zoo["giraffe"] = 7
 
 p zoo
+
+states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}
+p states["IA"]
