@@ -1,6 +1,6 @@
 $nums = ["\b", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
 $tens = ["", "", "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"]
-$pows = [" thousand ", " million ", " billion ", " trillion "]
+$pows = [" thousand ", " million ", " billion ", " trillion ", " quadrillion ", " quintillion ", " sextillion ", " septillion ", " octillion ", " nonillion ", " decillion ", " undecillion ", " duodecillion ", " tredecillion ", " quattuordecillion ", " quindecillion ", " sexdecillion ", " septendecillion ", " octodecillion ", " novemdecillion ", " vigintillion "]
 
 def n(x)
     case x
@@ -21,7 +21,7 @@ def group(str, xs)
     end
 end
 def parse(inp)
-    return "Too many " if inp > 10**15
+    return "Too many " if inp > 10**65
     xs = group(inp.to_s, []).map {|x| n(x.to_i).gsub(/hundred\B/, 'hundred and ')}
     xs = xs.join('_')
     i = xs.count('_')
@@ -34,7 +34,8 @@ end
 
 print "How many monkeys jumping on the bed?: "
 inp = gets.chomp
-if inp.match?(/^\d*$/)
+if inp.match(/^\d*$/)
+    inp = inp.to_i
     while inp > 0
         puts parse(inp).capitalize + " little monkeys jumping on the bed."
         puts "One fell off and bumped his head."
