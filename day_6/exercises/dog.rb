@@ -4,27 +4,35 @@
 
 class Dog
   attr_reader :breed, :name, :age
+  attr_accessor :hungry
 
-  def initialize(breed, name, age)
+  def initialize(breed, name, age, hungry)
     @breed  = breed
     @name   = name
     @age    = age
-    @hungry = true
+    @hungry = hungry
   end
 
   def bark
-    p "woof!"
+    puts "woof!"
   end
 
   def eat
     @hungry = false
   end
+
+  def play
+    @hungry = true
+  end
+
 end
 
-fido = Dog.new("Bernese", "Fido", 4)
-p fido.breed
-p fido.name
-p fido.age
-p fido.hungry
+fido = Dog.new("Bernese", "Fido", 4, true)
+puts fido.breed
+puts fido.name
+puts fido.age
+puts fido.hungry
 fido.eat
-p fido.hungry
+puts fido.hungry
+fido.play
+puts fido.hungry
