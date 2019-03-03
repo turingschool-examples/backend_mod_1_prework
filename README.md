@@ -392,7 +392,7 @@ Under "Changes to be committed", It now lists "ex1.rb". This means that git is g
 1. Enter `git add exercises`.
 1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
 1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".
-1. Enter `git commit -m "adds day 1"`.
+1. Enter `git commit -m "Add day 1"`.
 1. Run `git status`. You should see this output:
 
 ```
@@ -400,7 +400,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "adds day 1"`.
+Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add day 1"`.
 
 
 ## Push to Github
@@ -456,7 +456,7 @@ When you are finished with all of the day_2 activities, use your terminal to run
 1. `$ git add day_2/questions.md`
 1. Use `git add day_2/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 2 Work"`
+1. `$ git commit -m "Add Day 2 Work"`
 
 ## Push to Github
 
@@ -499,7 +499,7 @@ When you are finished with all of the day_3 activities, use your terminal to run
 1. `$ git add day_3/questions.md`
 1. Use `git add day_3/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 3 Work"`
+1. `$ git commit -m "Add Day 3 Work"`
 
 ## Push to Github
 
@@ -541,7 +541,7 @@ When you are finished with all of the day_4 activities, use your terminal to run
 1. `$ git add day_4/questions.md`
 1. Use `git add day_4/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 4 Work"`
+1. `$ git commit -m "Add Day 4 Work"`
 
 ## Push to Github
 
@@ -579,7 +579,7 @@ When you are finished with all of the day_5 activities, use your terminal to run
 1. `$ git add day_5/questions.md`
 1. Use `git add day_5/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 5 Work"`
+1. `$ git commit -m "Add Day 5 Work"`
 
 ## Push to Github
 
@@ -618,7 +618,7 @@ When you are finished with all of the day_6 activities, use your terminal to run
 1. `$ git add day_6/questions.md`
 1. Use `git add day_6/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 6 Work"`
+1. `$ git commit -m "Add Day 6 Work"`
 
 ## Push to Github
 
@@ -650,7 +650,7 @@ When you have completed the activities for day 7 you will submit your work throu
 
     1. Use `git add day_7/<filename>` to add all additional files that you created today
     1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-    1. `$ git commit -m "Adds Day 7 Work"`
+    1. `$ git commit -m "Add Day 7 Work"`
     1. `$ git push origin master`
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!

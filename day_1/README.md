@@ -144,7 +144,7 @@ Under "Changes to be committed", It now lists "ex1.rb". This means that git is g
 1. Enter `git add exercises`.
 1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
 1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".
-1. Enter `git commit -m "adds day 1"`.
+1. Enter `git commit -m "Add day 1"`.
 1. Run `git status`. You should see this output:
 
 ```
@@ -152,7 +152,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "adds day 1"`.
+Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add day 1"`.
 
 
 ## Push to Github

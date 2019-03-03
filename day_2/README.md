@@ -28,7 +28,7 @@ When you are finished with all of the day_2 activities, use your terminal to run
 1. `$ git add day_2/questions.md`
 1. Use `git add day_2/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 2 Work"`
+1. `$ git commit -m "Add Day 2 Work"`
 
 ## Push to Github
 

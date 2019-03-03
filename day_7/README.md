@@ -18,7 +18,7 @@ When you have completed the activities for day 7 you will submit your work throu
 
     1. Use `git add day_7/<filename>` to add all additional files that you created today
     1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-    1. `$ git commit -m "Adds Day 7 Work"`
+    1. `$ git commit -m "Add Day 7 Work"`
     1. `$ git push origin master`
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!

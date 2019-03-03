@@ -29,7 +29,7 @@ When you are finished with all of the day_3 activities, use your terminal to run
 1. `$ git add day_3/questions.md`
 1. Use `git add day_3/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Adds Day 3 Work"`
+1. `$ git commit -m "Add Day 3 Work"`
 
 ## Push to Github
 
