@@ -43,3 +43,5 @@ age = gets.chomp
 '.length' will show you how many characters are present in a string.
 
 '.sub' or '.gsub' will allow you to 'replace' and 'replace all' specified values within a string, respectively.
+
+Testing SSH Key...
