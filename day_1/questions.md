@@ -17,7 +17,7 @@ animal = "zebra"
 puts animal
 
 6. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-String interpolation is using a variable inside a String.
+String interpolation is using a special series of characters to get a variable's value inside a String.
 puts "This is an example of #{animals}'s drinking water."
 
 7. How do we get input from a user? What is the method that we would use?

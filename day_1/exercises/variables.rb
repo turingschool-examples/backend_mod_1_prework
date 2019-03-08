@@ -21,7 +21,7 @@ p feelings
 # print the result:
 students = 22
 students += 2
-p students #thanks?
+p students
 
 # Write the code below to subtract 2 students from the `students` variable and
 # print the result:
