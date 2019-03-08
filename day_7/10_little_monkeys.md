@@ -16,12 +16,6 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 > He fell off and bumped his head,  
 > Mama called the doctor and the doctor said,  
 > "Get those monkeys right to bed!"
->
-> One little monkey jumping on the bed,  
-> He fell off and bumped his head,  
-> Mama called the doctor and the doctor said,  
-> "Get those monkeys right to bed!"
-
 
 ### Bonus
 Can you write the program so that it will run for any number of monkeys?
