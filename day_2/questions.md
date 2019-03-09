@@ -1,9 +1,9 @@
 ## Day 2 Questions
 
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
-chanimals = ["zebra", "giraffe", "elephant"]
+ ["zebra", "giraffe", "elephant"]
 2. Save the array you created above to a variable `animals`.
-animals = chanimals
+animals = ["zebra", "giraffe", "elephant"]
 3. using the array `animals`, how would you access `"giraffe"`?
 animals[1]
 4. How would you add `"lion"` to the `animals` array?

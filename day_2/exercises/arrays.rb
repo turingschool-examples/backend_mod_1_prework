@@ -31,6 +31,7 @@ p animals.last
 
 # Write code below that uses a method to add "lion" to the animals array and
 # print the result
+# is using:( animals << "lion") also an idiomatic way to do this?
 animals.push("lion")
 
 p animals

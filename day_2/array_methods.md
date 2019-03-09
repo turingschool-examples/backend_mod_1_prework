@@ -1,4 +1,4 @@
-=being
+=begin
 
 sort = sorts elements in ascending order if they are digits, and alphabetically
 if they are strings
