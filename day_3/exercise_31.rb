@@ -1,5 +1,5 @@
 puts "You enter a dark room with doors. Do you go through" +
-      " door #1 or door #2?"
+      " door #1 or door #2 or door #3?"
 
 print "> "
 door = $stdin.gets.chomp
@@ -18,7 +18,7 @@ if door == "1"
   elsif bear == "2"
     puts "The bear eats your legs off. Good job!"
   else
-    puts "Well, doing #{bear} is probably better. Bear runs away."
+    puts "Well, doing %s is probably better. Bear runs away." %bear
   end
 elsif door == "2"
   puts "You stare into the endless abyss at Cthulhu's retina."
@@ -34,7 +34,18 @@ elsif door == "2"
   else
     puts "The insanit rots your eyes into a pol of muck. Good job!"
   end
+elsif door == "3"
+  puts "You ponder the meaning of life, do you take the red pill or the blue one?"
+  puts "1. Red"
+  puts "2. Blue"
+  print "> "
+  pill = STDIN.gets.chomp
 
+  if pill == "1"
+    puts "You start flying above all else and realize you are a hero now!"
+  else
+    puts "You descend into madness, yeaaa!"
+  end
 else
   puts "You stumble around and fall on a knife and die. Good job!"
 end
