@@ -2,4 +2,11 @@
 # person methods below the class so that they print their result to the
 # terminal.
 
-#YOUR CODE HERE
+class Person
+  attr_accessor :name, :age
+end
+
+joe = Person.new
+joe.name = "joe"
+joe.age = 21
+p "Hi #{joe.name}, I see here you are #{joe.age}."
