@@ -675,4 +675,8 @@ When you have completed *all* the activities described above, follow the steps b
 
 5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/your_github_username/backend_prework.
 
-And you're done!  Can't wait to see you on the first day of class!!
+# Extension (optional)
+
+You're done! You've finished your Mod 0 Capstone! If you're interested in challenging yourself a bit more and getting a step up in your coding abilities before your first day, we recommend working on [Credit Check](https://github.com/turingschool-examples/credit_check). 
+
+Follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer. 
