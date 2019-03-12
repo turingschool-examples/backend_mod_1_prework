@@ -10,14 +10,14 @@ p "The #{team} are #{name}'s favorite Quidditch team"
 
 # Write code that combines the variables below into a string that reads "The
 # quick red fox jumped over the lazy brown dog":
-speedy = "quick red fox"
-slow_poke = "lazy brown dog"
+speedy1 = "quick red fox"
+slow_poke1 = "lazy brown dog"
 
-p # YOUR CODE HERE
+puts "The #{speedy1} jumped over the #{slow_poke1}"
 
 # Write code that combines the variables below into a string that reads "In a
 # predictable result, the tortoise beat the hare!"
-slow_poke = "tortoise"
-speedy = "hare"
+slow_poke2 = "tortoise"
+speedy2 = "hare"
 
-# YOUR CODE HERE
+puts "In a predictable result, the #{slow_poke2} beat the #{speedy2}!"
