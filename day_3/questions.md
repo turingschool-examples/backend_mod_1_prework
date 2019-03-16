@@ -8,7 +8,8 @@ Conditional statements are statements that are evaluated to be either true or fa
 - <= less than or equal to <br>
 - == equal <br>
 
-```people = 10
+```
+people = 10
 scooters = 5
 
 if people <= scooters
