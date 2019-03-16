@@ -1,11 +1,9 @@
 ## Day 3 Questions
 
 1. What is a conditional statement? Give three examples. <br>
-Conditional statements are statements that are evaluated to be either true or false.
-
-The following are are common examples of conditional operators:
-- > greater than <br>
-- >= greater than or equal to <br>
+Conditional statements are statements that are evaluated to be either true or false. The following are are common examples of conditional operators:
+- \> greater than <br>
+- \>= greater than or equal to <br>
 - < less than <br>
 - <= less than or equal to <br>
 - == equal <br>
