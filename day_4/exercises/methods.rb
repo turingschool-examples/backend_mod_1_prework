@@ -10,16 +10,26 @@ end
 print_name
 
 # Write a method that takes an argument of your name and prints your name
-def print_name(name)
-  # YOUR CODE HERE
+def print_name()
+  p "Nathan Thomas"
 end
 
-print_name("Albus Dumbledore")
+print_name()
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
+def add(a, b)
+  p a + b
+end
+
+add(2000, 19)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+
+def things_i_love(thing_1, thing_2)
+  p "I can't imagine a life without #{thing_1} and #{thing_2}."
+end
+
+things_i_love("beer", "tacos")
