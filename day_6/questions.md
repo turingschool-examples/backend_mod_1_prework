@@ -28,11 +28,11 @@ class Dog
   end
 
   def beg_for_treat
-    "I'm looking as cute as I can. Please give me a treat."
+    p "I'm looking as cute as I can. Please give me a treat."
   end
 
   def eat_treat
-    "Thank you!"
+    p "Thank you!"
   end
 end
 ```
