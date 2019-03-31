@@ -16,6 +16,17 @@ class Dog
     p "woof!"
   end
 
+def hungry?
+  if @hungry == true
+    puts "#{name} is hungry"
+  else
+    puts "#{name} is not hungry"
+  end
+end
+  def play
+    @hungry = true
+  end
+
   def eat
     @hungry = false
   end
