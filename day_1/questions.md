@@ -6,7 +6,7 @@ puts "Hello World!"
 
 1. What is the character you would use to indicate comments in a ruby file?
 
-# hash character #
+&#35 hash character
 
 1. Explain the difference between an integer and a float?
 
