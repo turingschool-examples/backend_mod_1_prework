@@ -26,10 +26,12 @@ puts "A zebra is an #{animal}."
 
 1. How do we get input from a user? What is the method that we would use?
 
-puts "What is your name?" \n
+puts "What is your name?"
+
 name = gets.chomp
 
 1. Name and describe two common string methods.
 
 string.length
+
 string.split
