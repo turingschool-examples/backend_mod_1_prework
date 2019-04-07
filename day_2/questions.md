@@ -15,16 +15,20 @@ animals[1]
 animals << "lion"
 
 1. Name and describe two additional array methods.
-.index gives the numerical location of a desired element in an arrays
-.fetch gives the string to desired indexed integer that the user gives
+
+  .index gives the numerical location of a desired element in an arrays
+  .fetch gives the string to desired indexed integer that the user gives
+
 1. What are the boolean values in Ruby?
-True and False
+
+  True and False
+
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
-2 == 25
-false
+  2 == 25
+  false
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
-25 > 2
-true
+  25 > 2
+  true
