@@ -1,6 +1,11 @@
 def cheese_and_crackers(cheese_count, boxes_of_crackers)
+  #defines cheese_and_crackers as the cheese_count + boxes_of_crackers
+  #and begins the function
   puts "You have #{cheese_count} cheeses"
+  #prints the number cheeses with an interpilation placeholder
   puts "You have #{boxes_of_crackers} boxes of crackers"
+  #prints the number crackers with an interpilation placeholder
+
   puts "Man thats enough for a party!"
   puts "Get a blanket. \n"
 end
