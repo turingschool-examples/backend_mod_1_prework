@@ -29,7 +29,6 @@ puts sum(1, 2)
 # the end result might be "When Harry Met Sally".  Then, call that method.
 
 def string_compile(dog, breed)
-  
   puts "#{dog} is an #{breed}"
 end
 
