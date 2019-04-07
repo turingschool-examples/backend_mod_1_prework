@@ -3,8 +3,7 @@
 # hunger status.
 
 class Dog
-  attr_reader :breed, :name, :age
-
+  attr_reader :breed, :name, :age, :hungry
   def initialize(breed, name, age)
     @breed  = breed
     @name   = name
@@ -12,19 +11,12 @@ class Dog
     @hungry = true
   end
 
-  def bark
-    p "woof!"
-  end
-
-def hungry?
-  if @hungry == true
-    puts "#{name} is hungry"
-  else
-    puts "#{name} is not hungry"
-  end
-end
   def play
     @hungry = true
+  end
+
+  def bark
+    p "woof!"
   end
 
   def eat
@@ -37,5 +29,7 @@ p fido.breed
 p fido.name
 p fido.age
 p fido.hungry
-fido.eat
+p fido.eat
 p fido.hungry
+p fido.play
+p fido.bark
