@@ -1,4 +1,4 @@
-## Day 5 - Hashes
+# Day 5 - Hashes
 
 Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call a Hash. We use hashes on a near daily basis as programmers and understanding how to build hashes and how to retrieve information from a hash can make your life as a programmer much easier.
 
@@ -14,7 +14,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. Work through the hashes.rb file in the day_5/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_6 directory.
+1. Answer the questions in the questions.md file in the day_5 directory.
 
 ## Save your work in Git
 
@@ -35,3 +35,5 @@ git push origin master
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+
