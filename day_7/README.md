@@ -1,4 +1,4 @@
-## Day 7 - Build a Thing!
+# Day 7 - Build a Thing!
 
 Congrats on making it through the first 6 days of Prework! Today, you will be putting together all that you have learned so far to actually build a program - hopefully this will help show you everything you have already accomplished in your first week as a programmer!
 
@@ -40,5 +40,7 @@ When you have completed *all* the activities described above, follow the steps b
 4. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
+
+5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/your_github_username/backend_prework.
 
 And you're done!  Can't wait to see you on the first day of class!!

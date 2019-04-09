@@ -1,4 +1,5 @@
-## Day 1 - Strings and Numbers
+# Day 1 - Strings and Numbers
+
 
 Today, you will begin to learn the basics of Ruby. You will work through several tutorials which will help you get comfortable running files and seeing output. You will also learn about two ways to represent data in Ruby: Strings and Numbers.
 
@@ -36,28 +37,28 @@ This will open the day_1 directory in Atom. You should be able to see the direct
     1. Complete the Study Drills listed at the end of the lesson.
     1. Read the Common Student Questions section.
 
-1. Follow these steps to complete [Comments in Code](https://learnrubythehardway.org/book/ex2.html)  
+1. Follow these steps to complete [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
     1. Create a file in your `day_1` directory called `ex2.rb`. If you are in your `day_1` directory, you can do this with `touch ex2.rb`. If you are not in your `day_1` directory, first navigate to it using `cd` and `ls`, and then run `touch ex2.rb`.
     1. **Type** the code from the lesson into your "ex2.rb" file, and run it with `ruby ex2.rb`.
     1. Complete the Study Drills listed at the end of the lesson.
     1. Read the Common Student Questions section.
 
-1. Follow these steps to complete [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)  
+1. Follow these steps to complete [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
     1. Create a file in your `day_1` directory called `ex3.rb`.
     1. **Type** the code from the lesson into your "ex3.rb" file, and run it with `ruby ex3.rb`.
     1. Complete the Study Drills listed at the end of the lesson.
     1. Read the Common Student Questions section.
 
-1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)  
-1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)  
-1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)  
+1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)
+1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)
 1. Repeat the steps from the previous lessons for [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
 ## Exercises
 
-1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:  
+1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
     1. strings
     1. numbers
     1. variables
@@ -157,7 +158,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
@@ -177,3 +178,5 @@ To github.com:JohnDoe/backend_prework.git
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+

@@ -1,4 +1,4 @@
-## Day 4 - Methods and Return Values
+# Day 4 - Methods and Return Values
 
 On day 1 of the prework, you learned how to store information in Variables. Today, you will learn about another way to store information; more specifically, how to use Methods to create Return Values.  In programming, we _often_ use methods, so this is an important concept to get familiar with!
 
@@ -39,3 +39,5 @@ git push origin master
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+

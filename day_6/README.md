@@ -1,4 +1,4 @@
-## Day 6 - Classes
+# Day 6 - Classes
 
 Today, you are going to be learning about Objects and Classes. In ruby, Classes are one of the tools we use to group together specific Methods that are meant to work together, or on the same type of Object. Arriving at Turing with a strong understanding of how to build a class, and how to call Methods on that class will make your first couple of weeks go smoothly!
 
@@ -36,3 +36,5 @@ git push origin master
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+
