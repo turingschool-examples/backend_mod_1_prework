@@ -8,7 +8,7 @@ A method is a piece of code that does something when you call it, often taking i
 
 def hello()
 
-  puts "Sam I am"
+&nbsp;&nbsp;&nbsp;&nbsp  puts "Sam I am"
   
 end
 
@@ -16,7 +16,7 @@ end
 
 def hello_someone(name)
 
-  puts "#{name} I am"
+&nbsp;&nbsp;&nbsp;&nbsp  puts "#{name} I am"
   
 end
 
