@@ -2,12 +2,12 @@
 
 1. In your own words, what is a Class?
 
-A class defines the generic form and function of a type of object, so that we can
+- A class defines the generic form and function of a type of object, so that we can
 create objects from the class and have them all behave in a similar way.
 
 2. In relation to a Class, what is an attribute?
 
-An attribute is a trait belonging to all objects of a class
+- An attribute is a trait belonging to all objects of a class
 
 3. In relation to a Class, what is behavior?
 
