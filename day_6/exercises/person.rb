@@ -3,3 +3,27 @@
 # terminal.
 
 #YOUR CODE HERE
+class Person
+  attr_reader :name, :age
+  attr_accessor :work, :tired
+
+  def initialize(name, age)
+    @name = name
+    @age = age
+    @work = work
+    @tired = false
+  end
+
+  def work
+    @tired = true
+    "When sally works, she gets tired."
+  end
+
+  def tired
+    @tired 
+  end
+end
+
+sally = Person.new(27, "Sally")
+p sally.work
+p sally.tired
