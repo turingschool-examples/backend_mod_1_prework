@@ -11,5 +11,23 @@ The output of you program will look something like this:
 => 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, ..., 98, Fizz, Buzz
 ```
 
+```ruby
+def fizzbuzz
+  (1..100).each do |num|
+    if num % 3 == 0 && num % 5 == 0
+      puts 'fizzbuzz'
+    elsif num % 3 == 0
+      puts 'fizz'
+    elsif num % 5 == 0
+      puts 'buzz'
+    else
+      puts num
+    end
+  end
+end
+
+fizzbuzz()
+```
+
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
