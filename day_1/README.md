@@ -7,9 +7,9 @@ In addition to Ruby, this day will also walk you through the commands you need t
 
 At the end of the day, you will use several git commands to save your work to your local git repository. Then you will push your updates to your remote Github repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of git later. For now, all you need to do is follow along and know that we are using git to save our work, and Github to put it on the internet.
 
-## Open your local copy of backend_prework in Atom
+## Open your local copy of module_0_capstone in Atom
 
-1. Using your terminal, open the local copy of the repository that you created during setup in Atom. To do this, enter these commands into your terminal:
+1. Using your terminal, open your local copy of module_0_capstone for editing in Atom. To do this, enter these commands into your terminal:
 
 ```
 cd ~
@@ -18,7 +18,7 @@ cd turing
 ls
 cd 1module
 ls
-cd backend_prework
+cd module_0_capstone
 ls
 cd day_1
 ls
@@ -173,10 +173,8 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JohnDoe/backend_prework.git
+To github.com:JohnDoe/module_0_capstone.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
-
-

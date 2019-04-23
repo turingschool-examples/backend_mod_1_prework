@@ -204,9 +204,11 @@ rbenv rehash
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
 
-### Forking and Cloning the Prework Repository
+### Forking and Cloning the Module 0 Capstone Repository
 
-Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
+Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
+
+In this scenario, the Turing Github account owns the `module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
 1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 1. Scroll to the top of *this* page
@@ -217,7 +219,7 @@ _Now, you should be on your forked copy of this repository!_
 
 The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
 
-1. In YOUR backend_prework repository that your just forked, click on `Clone or Download`
+1. In YOUR `module_0_capstone` repository that your just forked, click on `Clone or Download`
 _If you see `Clone with HTTPS` click on `Use SSH`_
 
 ![Clone](https://i.imgur.com/RHpul4Vm.png)
@@ -231,8 +233,8 @@ _If you see `Clone with HTTPS` click on `Use SSH`_
 1. Enter `cd 1module`
 1. Enter `git clone <paste the copied ssh link>`.
 _You now have a copy of this repository on your local machine!_
-1. Enter `ls`. You should see a directory called `backend_prework`
-1. Enter `cd backend_prework`
+1. Enter `ls`. You should see a directory called `module_0_capstone`
+1. Enter `cd module_0_capstone`
 1. Enter `git status`.
 
 If everything worked correctly, you should see
@@ -242,6 +244,6 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-From here on out, all the work you do will be in this repository. Each day's README will walk you through the steps you need to take to save your work.
+From here on out, all the work you do will be in this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `module_0_capstone` repository.
 
-
+Each day's README will walk you through the steps you need to take to save your work.

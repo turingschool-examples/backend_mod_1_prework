@@ -200,7 +200,7 @@ _Now, you should be on your forked copy of this repository!_
 
 The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
 
-1. In YOUR backend_prework repository that you just forked, click on `Clone or Download`  
+1. In YOUR module_0_capstone repository that you just forked, click on `Clone or Download`  
 _If you see `Clone with HTTPS` click on `Use SSH`_
 
 ![Clone](https://i.imgur.com/RHpul4Vm.png)
@@ -214,8 +214,8 @@ _If you see `Clone with HTTPS` click on `Use SSH`_
 1. Enter `cd 1module`
 1. Enter `git clone <paste the copied ssh link>`.
 _You now have a copy of this repository on your local machine!_  
-1. Enter `ls`. You should see a directory called `backend_prework`
-1. Enter `cd backend_prework`
+1. Enter `ls`. You should see a directory called `module_0_capstone`
+1. Enter `cd module_0_capstone`
 1. Enter `git status`.
 
 If everything worked correctly, you should see
