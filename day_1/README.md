@@ -9,7 +9,7 @@ At the end of the day, you will use several git commands to save your work to yo
 
 ## Open your local copy of module_0_capstone in Atom
 
-1. Using your terminal, open your local copy of module_0_capstone for editing in Atom. To do this, enter these commands into your terminal:
+1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
 ```
 cd ~
