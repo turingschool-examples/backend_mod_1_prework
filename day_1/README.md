@@ -9,7 +9,7 @@ At the end of the day, you will use several git commands to save your work to yo
 
 ## Open your local copy of backend_prework in Atom
 
-1. Using your terminal, open the local copy of the repository that you created during setup in Atom. To do this, enter these commands into your terminal:
+1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
 ```
 cd ~
@@ -18,7 +18,7 @@ cd turing
 ls
 cd 1module
 ls
-cd backend_prework
+cd module_0_capstone
 ls
 cd day_1
 ls
