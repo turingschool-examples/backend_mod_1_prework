@@ -1,8 +1,8 @@
-puts "Enter number: "
-puts "> "
-n = gets.chomp.to_i
+puts "Enter a number: "
+p "> "
+num = gets.chomp.to_i
 
-x = Array(1..n)
+x = Array(1..num)
 
 x.each do |i|
   if (i % 3 == 0 && i % 5 == 0)
