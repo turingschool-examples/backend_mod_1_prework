@@ -1,31 +1,36 @@
-.pop
-removes the last element of an array
+# ARRAY METHODS
+##### .pop
 
-Shovel Operator (<<)
-adds an element to an array
+  * Removes the last element of an array and returns the removed element.
+##### Shovel Operator (<<)
 
-.sort
+  * Adds an element to an array
 
-sorts sorts all elements in the array into numerical or alphabetical order
+##### .sort
 
-.each
+  * Sorts sorts all elements in the array into ascending numerical order or alphabetical order
 
-selects all elements out of an array and allows an action to be preformed on all elements.  
+##### .each
 
-.join
-Joins elements of an array into a string. ["a" "b" "c"] would become "abc"
+  * Selects all elements out of an array and allows an action to be preformed on all elements.  
 
-.index
-gives the position of an element in an array. if you called upon an element .index would return the elements numerical place in the array.
+##### .join
+  * Joins elements of an array into a string. ["a" "b" "c"] would become "abc"
 
-.include?
+##### .index
+  * Gives the position of an element in an array. if you called upon an element .index would return the elements numerical place in the array.
 
-Gives a true or false answer whether an element exists in an array.
-.collect
+##### .include?
 
-.first & .last
+  * Gives a true or false answer whether an element exists in an array.
 
-Return the first or last elements of an array
+##### .collect
 
-.shuffle
-Shuffles the elements in an array and returns a new randomized array of the same elements
+  * Similar to each method, .collect allows the user to iterate over every element of an array. The difference is that .collect modifies the existing array while .each creates its own new array leaving the original unchanged.
+
+##### .first & .last
+
+  * Returns the first or last elements of an array
+
+##### .shuffle
+  * Shuffles the elements in an array and returns a new randomized array of the same elements
