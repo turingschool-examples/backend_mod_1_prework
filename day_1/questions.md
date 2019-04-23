@@ -1,39 +1,45 @@
 ## Day 1 Questions
 
-1. How would you print the string `"Hello World!"` to the terminal?
+##### 1. How would you print the string `"Hello World!"` to the terminal?
 
-puts "Hello World!"
+* puts "Hello World!"
 
-1. What is the character you would use to indicate comments in a ruby file?
+##### 1. What is the character you would use to indicate comments in a ruby file?
 
-Pound Sign (#)
+   * Pound Sign (#)
 
-1. Explain the difference between an integer and a float?
+##### 1. Explain the difference between an integer and a float?
 
-Integer- Whole numbers
+* Integer- Whole numbers
 
-Float- Number with decimals
+* Float- Number with decimals
 
-1. In the space below, create a variable `animal` that holds the string `"zebra"`
+##### 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
-animal = "zebra"
+* animal = "zebra"
 
-1. How would you print the string `"zebra"` using the variable that you created above?
+##### 1. How would you print the string `"zebra"` using the variable that you created above?
 
- puts animal
+* puts animal
 
-1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-Interpolation substitutes a placeholder into a string and can perform a calculation or replace a variable
-puts "The #{animal} has black and white stripes"
+##### 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-1. How do we get input from a user? What is the method that we would use?
+* Interpolation allows users to insert a piece of code into a  string. The information could be a variable, a calculation etc.
 
-gets.chomp
+* puts "The #{animal} has black and white stripes"
 
-The user can then enter text and interact with our code from the terminal
+##### 1. How do we get input from a user? What is the method that we would use?
 
-1. Name and describe two common string methods.
+* The 'gets' method
 
- .length counts the number of characters including spaces of a strings
+* The user can then enter text and interact with the code from the terminal
 
- .split produces an array which splits each word of a string into its own quotes.
+##### 1. Name and describe two common string methods.
+
+*.length*
+
+* counts the number of characters including spaces of a strings
+
+*.split*
+
+* produces an array which splits each word of a string into its own quotes.
