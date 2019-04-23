@@ -1,34 +1,36 @@
 ## Day 2 Questions
 
-1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+#### 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-["zebra" , "giraffe" , "elephant"]
-1. Save the array you created above to a variable `animals`.
+* ["zebra" , "giraffe" , "elephant"]
 
-animals = ["zebra" , "giraffe" , "elephant"]
 
-1. using the array `animals`, how would you access `"giraffe"`?
+#### 1. Save the array you created above to a variable `animals`.
 
-animals[1]
-1. How would you add `"lion"` to the `animals` array?
+* animals = ["zebra" , "giraffe" , "elephant"]
 
-animals << "lion"
+#### 1. using the array `animals`, how would you access `"giraffe"`?
 
-1. Name and describe two additional array methods.
+* animals[1]
+#### 1. How would you add `"lion"` to the `animals` array?
 
-  .index gives the numerical location of a desired element in an arrays
-  .fetch gives the string to desired indexed integer that the user gives
+* animals <<  "lion"
 
-1. What are the boolean values in Ruby?
+#### 1. Name and describe two additional array methods.
 
-  True and False
+  * .unshift will add element to the beginning of an array
 
-1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+  * .fetch gives the string to desired indexed integer that the user gives
 
-  2 == 25
-  false
+#### 1. What are the boolean values in Ruby?
 
-1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+  * True and False
 
-  25 > 2
-  true
+#### 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+
+  *  2 == 25
+        * false
+
+#### 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+*   25 > 2
+    * true
