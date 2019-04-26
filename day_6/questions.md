@@ -8,7 +8,7 @@ I have learned that everything in ruby is an object. A class is a shell of an ob
 
 Attributes are specific properties of an object.
 
-###1. In relation to a Class, what is behavior?
+### 1. In relation to a Class, what is behavior?
 
 Behavior is essentially a method. Behavior determines how an instance of that class operates.
 
