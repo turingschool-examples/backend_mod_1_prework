@@ -19,6 +19,23 @@ class Dog
   def eat
     @hungry = false
   end
+  
+  def play
+    puts "#{@name} ran like a horse today!"
+    @hungry = true
+  end
+
+  def hungry
+    if @hungry == true
+      puts "#{@name} is hungry"
+
+    elsif @hungry == false
+      puts "#{@name} is not hungry"
+    end
+
+  end
+
+
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
@@ -28,3 +45,5 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+
+
