@@ -2,7 +2,7 @@
 
 ### 1. What is a Hash, and how is it different from an Array in Ruby?
 
-In a hash you can use almost anything as data instead of just numbers for indexes like in an array.
+A hash is a collection of data but you can use almost anything as data instead of just numbers for indexes like in an array.
 
 ### 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
