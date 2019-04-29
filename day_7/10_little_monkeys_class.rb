@@ -6,7 +6,7 @@ class NumMonkeys
   end
 
   def jump
-    while @num_monkeys > 0
+    while @num_monkeys > 1
       puts "#{@num_monkeys.to_words.capitalize} little monkeys jumping on the bed,"
       puts "One fell off and bumped his head,"
       puts "Mama called the doctor and the doctor said,"
@@ -14,9 +14,13 @@ class NumMonkeys
       puts ""
       @num_monkeys -= 1
     end
+
+    puts "One little monkey jumping on the bed,"
+    puts "One fell off and bumped his head,"
+    puts "Mama called the doctor and the doctor said,"
+    puts "\"No more monkeys jumping on the bed!\""
   end
 end
-num_monkeys = 10
 
 print "How many monkeys are on the bed? "
 num_monkeys = gets.chomp.to_i
