@@ -28,7 +28,7 @@ Interpolation is sticking data into the middle of a string. To do this, you simp
 
 To get input from a user, you have to ask or prompt them for the information you're looking for. To do this, you must first provide a question. When typing the code for your question, however, use `print` instead of `puts`, which prints the question without a newline, and allows the user to input the answer where the cursor stops (i.e. `print "What city are you from?"`). Then, identify the variable you would like the user to answer, and define it with `gets.chomp` (i.e. `city = gets.chomp`). This prompts the user to enter an answer, and once it's given, inputs that as the variable's value. You can then use the variable name to put whatever input the user provided into context.
 
-**1. Name and describe two common string methods.**
+**8. Name and describe two common string methods.**
 
   - **`.split` with an argument:** This allows you to split a string on a character other than just space that you specify. This is helpful to split a group of numbers or a list based off a specific character.
 
