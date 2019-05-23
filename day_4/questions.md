@@ -19,6 +19,10 @@ end
 
 **4. How would you call or execute the method that you created above?**
 ```
+def hello_someone(name)
+  p "#{name} I am"
+end
+
 puts "Your name:"
 your_name = gets.chomp
 
