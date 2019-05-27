@@ -28,7 +28,9 @@ interpolation is inserting a variable in the middle of a string.
 
 1. How do we get input from a user? What is the method that we would use?
 
-By printing a string asking for input then creating a variable with gets.chomp to get string and remove the /newline. For example: `puts "What's your favorite color?" color = gets.chomp`
+By printing a string asking for input then creating a variable with gets.chomp to get string and remove the /newline. For example:
+`puts "What's your favorite color?"
+color = gets.chomp`
 
 1. Name and describe two common string methods.
 
