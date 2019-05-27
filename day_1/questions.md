@@ -34,4 +34,4 @@ color = gets.chomp`
 
 1. Name and describe two common string methods.
 
-One common string method is `.length` which tells you how many character units and spaces combined your string consists of. Another one is `.split` which splits your string into an array. The string can be divided by any character or group of characters as long as it's defined in () immediately following 'split' (`.split(a)`). If no parameter is passed in the argument of the method, then the string is broken up by spaces.
+One common string method is `.length` which tells you how many character units and spaces combined your string consists of. Another one is `.split` which splits your string into an array. The string can be divided by any character or group of characters as long as it's defined in () immediately following split for example `.split(a)`. If no parameter is passed in the argument of the method, then the string is broken up by spaces.
