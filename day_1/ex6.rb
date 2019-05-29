@@ -26,5 +26,5 @@ puts joke_evaluation
 w = 'This is the left side of...'
 #defines string
 e = 'a string with a right side.'
-#prints two strings
+#prints two string
 puts w + e

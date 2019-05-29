@@ -1,5 +1,5 @@
 # In the exercises below, write your own code where indicated
-# to achieve the desired result. You should be able to run this
+# to achieve the desired resu. You should be able to run this
 # file from your terminal with the command `ruby day_1/exercises/loops.rb`
 
 #example: Write code that prints your name 5 times:

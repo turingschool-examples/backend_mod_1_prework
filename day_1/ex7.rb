@@ -16,3 +16,4 @@ commute_f = commute.to_f
 time= commute_f/speed_f
 
 puts "So, you're commute is #{commute} miles and it takes you #{time} minutes"
+#

@@ -1,4 +1,5 @@
 # prints out string"
+
 puts "I will now count my chickens:"
 # prints out Hens + result of math
 puts "Hens #{25.0 + 30.0 / 6.0}"

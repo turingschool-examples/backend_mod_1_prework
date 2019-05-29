@@ -1,6 +1,6 @@
 # In the exercises below, write your own code where indicated
 # to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_1/exercises/variables.rb`
+# file from youterminal with the command `ruby day_1/exercises/variables.rb`
 
 # example: Write code below to save your name to a variable and
 # print that variable to the terminal:
