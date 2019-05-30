@@ -77,3 +77,6 @@ end
 
 characters = js_first.length + js_last.length + ck_first.length + ck_last.length + gk_first.length + gk_last.length
 puts characters
+
+
+# I feel like all of this became way more complicated than it had to but I couldnt figure out any other way :(
