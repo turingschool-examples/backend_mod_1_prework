@@ -10,18 +10,14 @@
 
 1. Why might you want to use an if-statement?
 
-  You want to use an if statement to give options in your program. Or if you various pathways the program can follow or might need to follow, using an if statement is an easy way to write the code.
+    You want to use an if statement to give options in your program. Or if you various pathways the program can follow or might need to follow, using an if statement is an easy way to write the code.
 
 1. What is the Ruby syntax for an if statement?
 
   `if (conditional statement)
-
     code block to run if true
-
   else
-
     code block to run if the first if was false
-
   end`
 
 1. How do you add multiple conditions to an if statement?
@@ -31,17 +27,11 @@
 1. What is the Ruby syntax for an if/elsif/else statement?
 
 `if (conditional statement)
-
   code block to run if true
-
 elsif (second conditional statement)
-
   code block to run if the first if conditional is false and else/second conditional is true
-
 else
-
   final code block to run if all previous conditional statements were false
-
 end`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
