@@ -5,7 +5,9 @@
    Conditional statements are made and then are evaluated to see if they are true or false. For example:
 
    "Josh" = "Josh" True
+
    5 >= 2 True
+   
    7 > 11 False
 
 2. Why might you want to use an if-statement?
@@ -14,10 +16,14 @@
 
 3. What is the Ruby syntax for an if statement?
 
+   ~~~~
+
    First you define your variable and then:
     If variable meets this condition
       puts an affirmative statement
     end
+
+   ~~~~
 
 4. How do you add multiple conditions to an if statement?
 
