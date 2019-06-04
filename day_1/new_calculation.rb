@@ -1,0 +1,7 @@
+puts "Calculation for family trip to Utah"
+puts "Number of miles 700"
+puts "Miles per gallon 25"
+puts "Number of gallons of gas #{700 / 25}"
+puts "Cost for a gallon of gas 2.79"
+puts "Cost for gas one way #{700 / 25 * 2.79}"
+puts "Cost for gas total trip #{700 / 25 * 2.79 * 2}"
