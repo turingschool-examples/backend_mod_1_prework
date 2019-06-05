@@ -23,7 +23,7 @@
 
 1. What are the boolean values in Ruby?
 
-    true and false
+    True and False
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
