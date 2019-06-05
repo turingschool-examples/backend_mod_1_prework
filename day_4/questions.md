@@ -36,6 +36,8 @@
 
    ~~~~
 
+   
+
 5. What questions do you still have about methods in Ruby?
 
-   I think that I just need to practice more. I seem to be completing the exercises with ease, yet I still do not feel like I fully grasp the idea of methods. 
+   I think that I just need to practice more. I seem to be completing the exercises with ease, yet I still do not feel like I fully grasp the idea of methods.
