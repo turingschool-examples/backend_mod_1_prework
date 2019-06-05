@@ -13,11 +13,13 @@ You want to use an if statement to give options in your program. Or if you vario
 
 3. What is the Ruby syntax for an if statement?
 
-    if (conditional statement)
-      code block to run if true  
-    else  
-      code block to run if first statement was false  
-    end  
+```ruby
+if (conditional statement)
+  code block to run if true  
+else  
+  code block to run if first statement was false  
+end  
+```
 
 4. How do you add multiple conditions to an if statement?
 
@@ -25,13 +27,16 @@ You can add multiple conditions to an if statement using nested if statements vi
 
 5. What is the Ruby syntax for an if/elsif/else statement?
 
-    if (conditional statement)    
-      code block to run if true    
-    elsif (second conditional statement)     
-      code block to run if the first conditional is false and the elseif/second conditional is true     
-    else    
-      final code block to run if all previous conditionals were false     
-    end
+```ruby
+if (conditional statement)    
+  code block to run if true    
+elsif (second conditional statement)     
+  code block to run if the first conditional is false and the elseif/second conditional is true     
+else    
+  final code block to run if all previous conditionals were false     
+end
+```
+
 
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
