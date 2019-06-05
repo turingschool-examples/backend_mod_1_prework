@@ -1,9 +1,13 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
-`p "Hello World!"`
+```ruby
+p "Hello World!"
+```
 2. What is the character you would use to indicate comments in a ruby file?
+
 `#`
+
 3. Explain the difference between an integer and a float?
 
 Integers are whole numbers while a float has a decimal
