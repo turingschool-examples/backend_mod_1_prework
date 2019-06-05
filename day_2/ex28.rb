@@ -32,6 +32,7 @@ true || 1 == 1
 2 <=> 2 # Answer = 0
 2 <=> 1 # Answer = 1
 2 <=> 3 # Answer = -1
+22 <=> 2 # Answer = 1
 
 # This boolean asks if 9 or 11 are in the series of numbers from 10 to 20?
 
