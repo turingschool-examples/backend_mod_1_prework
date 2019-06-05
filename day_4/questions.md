@@ -32,11 +32,10 @@
 
    ~~~~
 
-  hello_someone(Josh)
+   hello_someone(Josh)
 
    ~~~~
 
-   
 
 5. What questions do you still have about methods in Ruby?
 
