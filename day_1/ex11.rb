@@ -8,7 +8,6 @@ weight = gets.chomp
 puts "\nSo, you're #{height} inches tall and weigh #{weight} pounds."
 
 today = Time.new
-year = today.year
-year = year.to_i
+year = today.year.to_i
 
 puts "\nYou will be #{year - bday_year} years old by the end of this year."
