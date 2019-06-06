@@ -14,7 +14,9 @@
 1. What is the Ruby syntax for an if statement?
 
     `if variable ==/</>/<=/>= some value`
+
       `puts "Some string"`
+
     `end`
 
 1. How do you add multiple conditions to an if statement?
@@ -24,11 +26,17 @@
 1. What is the Ruby syntax for an if/elsif/else statement?
 
     `if variable == some value`
+
       `puts "Some string"`
+
     `elsif variable == some other value`
+
       `puts "Some other string"`
+
     `else`
+
       `puts "Something else"`
+      
     `end`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
