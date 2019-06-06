@@ -15,7 +15,7 @@
 
     `if variable ==/</>/<=/>= some value`
 
-      `puts "Some string"`
+        `puts "Some string"`
 
     `end`
 
@@ -27,16 +27,16 @@
 
     `if variable == some value`
 
-      `puts "Some string"`
+        `puts "Some string"`
 
     `elsif variable == some other value`
 
-      `puts "Some other string"`
+        `puts "Some other string"`
 
     `else`
 
-      `puts "Something else"`
-      
+        `puts "Something else"`
+
     `end`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
