@@ -21,7 +21,7 @@ end
 # or
 a = *(1..4)
 a.each do |n|
-  puts "#{n}#{n}".to_i
+  puts "#{n}" * 2
 end
 11
 22
@@ -51,7 +51,7 @@ end
 # or
 a = *(1..4)
 a.each do |n|
-  puts "#{n}#{n}#{n}".to_i
+  puts "#{n}" * 3
 end
 111
 222
