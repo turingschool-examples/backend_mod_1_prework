@@ -12,15 +12,15 @@
   weather = 'snowy'
 
   if weather == 'sunny'
-    p "sunscreen"
+    puts "sunscreen"
   elsif weather == 'rainy'
-    p "umbrella"
+    puts "umbrella"
   elsif weather == 'snowy'
-    p "coat"
+    puts "coat"
   elsif weather == 'icy'
-    p "yak traks"
+    puts "yak traks"
   else
-    p "good to go!"
+    puts "good to go!"
   end
 
 # Manipulate the variable 'weather' to see if you can print something other
@@ -44,9 +44,11 @@
 
 num_quarters = 0
 
+if num_quarters >= 2
 puts "I have enough money for a gumball"
+else
 puts "I don't have enough money for a gumball"
-
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -61,3 +63,8 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+if cups_of_flour >=2 && has_sauce = true
+  puts "I can make pizza."
+else
+  puts "I cannot make pizza."
+end
