@@ -12,9 +12,9 @@ end
 math(5.2, 6)
 
 # second call
-x = 5.2
-y = 6
-math(x, y)
+x_val = 5.2
+y_val = 6
+math(x_val, y_val)
 
 # third call
 math(2.6, 7.9)
@@ -32,16 +32,16 @@ math(0, 0)
 math()
 
 # eighth call
-x = 5
-y = 8
-math(x + 2, y -2)
+x_val = 5
+y_val = 8
+math(x_val + 2, y_val -2)
 
 # ninth call
-x = 5
-y = 8
-math(x / y, y / x)
+x_val = 5
+y_val = 8
+math(x_val / y_val, y_val / x_val)
 
 # tenth call
-x = 5.0
-y = 8.0
-math(x / y, y / x)
+x_val = 5.0
+y_val = 8.0
+math(x_val / y_val, y_val / x_val)
