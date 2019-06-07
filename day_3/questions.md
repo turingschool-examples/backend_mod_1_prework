@@ -15,7 +15,7 @@ If statements are used when we only want to run a  block of code if certain cond
 
 ```
 if condition
-  do code block
+  # do code block
 end
 ```
 
@@ -27,11 +27,11 @@ Secondary, tertiary, etc. conditions can be added using elsif/else statements.
 
 ```
 if condition1
-  do this code block
+  # do this code block
 elsif condition 2
-  do this code block instead
+  # do this code block instead
 else
-  do this code block since neither of the other conditions were true
+  # do this code block since neither of the other conditions were true
 end
 ```
 
