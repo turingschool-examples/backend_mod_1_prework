@@ -12,9 +12,11 @@
 
   An integer is for whole numbers. A float can have decimals.
 
-1. In the space below, create a variable  
-  `animal` that holds the string `"zebra"`
-  `animal = "zebra"`
+1. In the space below, create a variable `animal` that holds the string `"zebra"`  
+
+  ```
+  animal = "zebra"
+  ```
 
 1. How would you print the string `"zebra"` using the variable that you created above?  
 
