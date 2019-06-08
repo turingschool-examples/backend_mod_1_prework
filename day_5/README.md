@@ -1,10 +1,10 @@
-## Day 5 - Hashes
+# Day 5 - Hashes
 
 Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call a Hash. We use hashes on a near daily basis as programmers and understanding how to build hashes and how to retrieve information from a hash can make your life as a programmer much easier.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
-## Open your local copy of backend_prework
+## Open your local copy of module_0_capstone
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
@@ -14,7 +14,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. Work through the hashes.rb file in the day_5/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_6 directory.
+1. Answer the questions in the questions.md file in the day_5 directory.
 
 ## Save your work in Git
 

@@ -1,10 +1,10 @@
-## Day 4 - Methods and Return Values
+# Day 4 - Methods and Return Values
 
 On day 1 of the prework, you learned how to store information in Variables. Today, you will learn about another way to store information; more specifically, how to use Methods to create Return Values.  In programming, we _often_ use methods, so this is an important concept to get familiar with!
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
-## Open your local copy of backend_prework
+## Open your local copy of module_0_capstone
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 

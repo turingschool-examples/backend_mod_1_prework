@@ -1,4 +1,5 @@
-## Day 1 - Strings and Numbers
+# Day 1 - Strings and Numbers
+
 
 Today, you will begin to learn the basics of Ruby. You will work through several tutorials which will help you get comfortable running files and seeing output. You will also learn about two ways to represent data in Ruby: Strings and Numbers.
 
@@ -6,9 +7,9 @@ In addition to Ruby, this day will also walk you through the commands you need t
 
 At the end of the day, you will use several git commands to save your work to your local git repository. Then you will push your updates to your remote Github repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of git later. For now, all you need to do is follow along and know that we are using git to save our work, and Github to put it on the internet.
 
-## Open your local copy of backend_prework in Atom
+## Open your local copy of module_0_capstone in Atom
 
-1. Using your terminal, open the local copy of the repository that you created during setup in Atom. To do this, enter these commands into your terminal:
+1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
 ```
 cd ~
@@ -17,7 +18,7 @@ cd turing
 ls
 cd 1module
 ls
-cd backend_prework
+cd module_0_capstone
 ls
 cd day_1
 ls
@@ -36,28 +37,28 @@ This will open the day_1 directory in Atom. You should be able to see the direct
     1. Complete the Study Drills listed at the end of the lesson.
     1. Read the Common Student Questions section.
 
-1. Follow these steps to complete [Comments in Code](https://learnrubythehardway.org/book/ex2.html)  
+1. Follow these steps to complete [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
     1. Create a file in your `day_1` directory called `ex2.rb`. If you are in your `day_1` directory, you can do this with `touch ex2.rb`. If you are not in your `day_1` directory, first navigate to it using `cd` and `ls`, and then run `touch ex2.rb`.
     1. **Type** the code from the lesson into your "ex2.rb" file, and run it with `ruby ex2.rb`.
     1. Complete the Study Drills listed at the end of the lesson.
     1. Read the Common Student Questions section.
 
-1. Follow these steps to complete [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)  
+1. Follow these steps to complete [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
     1. Create a file in your `day_1` directory called `ex3.rb`.
     1. **Type** the code from the lesson into your "ex3.rb" file, and run it with `ruby ex3.rb`.
     1. Complete the Study Drills listed at the end of the lesson.
     1. Read the Common Student Questions section.
 
-1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)  
-1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)  
-1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)  
+1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)
+1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)
 1. Repeat the steps from the previous lessons for [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
 ## Exercises
 
-1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:  
+1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
     1. strings
     1. numbers
     1. variables
@@ -157,7 +158,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
@@ -172,7 +173,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JohnDoe/backend_prework.git
+To github.com:JohnDoe/module_0_capstone.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
