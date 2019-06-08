@@ -247,3 +247,9 @@ nothing to commit, working tree clean
 From here on out, all the work you do will be in this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `module_0_capstone` repository.
 
 Each day's README will walk you through the steps you need to take to save your work.
+
+# Extension (optional)
+
+You're done! You've finished your Mod 0 Capstone! If you're interested in challenging yourself a bit more and getting a step up in your coding abilities before your first day, we recommend working on [Credit Check](https://github.com/turingschool-examples/credit_check). 
+
+Follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer. 
