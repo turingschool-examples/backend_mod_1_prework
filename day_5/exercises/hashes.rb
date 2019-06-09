@@ -4,12 +4,12 @@
 
 # example: Write code below to print a hash that holds grocery store inventory
 foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+puts foods
 
 # Write code below that will print a hash of animals and their number
 # at the zoo. (an inventory of animals)
-zoo = #YOUR CODE HERE
-p zoo
+zoo = {Tiger: 1, Otter: 2, Lion: 3, Beaver: 4}#YOUR CODE HERE
+puts zoo
 
 # Using the zoo that you created above, print all the keys in the hash.
 # YOUR CODE HERE
