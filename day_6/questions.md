@@ -15,8 +15,11 @@
 4. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
    Class = dog
+
    Attributes = breed, weight, height, name
+
    Behaviors = bark, run, sit
+   
 
    Here is what would be put in Ruby:
 
