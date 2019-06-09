@@ -11,15 +11,24 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
+def print_sum(num1, num2)
+  p num1 + num2
+end
+
+print_sum(5, 7)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+def print_strings(string1, string2)
+  p string1 + " met " + string2 + " this afternoon."
+end
+
+print_strings("Rez", "Sean")
