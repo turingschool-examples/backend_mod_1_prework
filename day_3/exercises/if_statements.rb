@@ -16,7 +16,7 @@
   elsif weather == 'rainy'
     p "umbrella"
   elsif weather == 'snowy'
-    p "boots"
+    p "warm hat"
   elsif weather == 'icy'
     p "yak traks"
   else
