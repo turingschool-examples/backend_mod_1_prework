@@ -16,6 +16,7 @@ frank.first_name = "Frank"
 frank.introduction
 frank.introduction('Katrina')
 puts "Frank's favorite number is #{frank.favorite_number}."
-puts "#{frank.first_name}"
-puts "#{frank.last_name = "Georgie"}"
-puts "#{frank.last_name}"
+puts frank.first_name
+puts frank.last_name = "Georgie"
+puts frank.last_name
+puts "The student's name is #{frank.first_name} #{frank.last_name}."
