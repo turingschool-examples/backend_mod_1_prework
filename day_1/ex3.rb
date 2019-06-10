@@ -1,4 +1,4 @@
-#Numbers and math 
+#Numbers and math
 
 
 #the puts function will print the following to console
@@ -20,8 +20,10 @@ puts 3 + 2 < 5 - 7
 #the string below asks a question then make s acalculation in the curly brackets
 puts "What is 3 + 2? #{3 + 2}"
 
+#the string below asks a question andnuses interpolation to show the calculation
 puts "What is 5 - 7? #{5 - 7}"
 
+#the string below prints a message to the console
 puts "Oh, that's why it's false."
 
 puts "How about some more."
