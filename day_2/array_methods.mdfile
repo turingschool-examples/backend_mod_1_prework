@@ -1,0 +1,12 @@
+1. << I'm not sure this is a method, but its called the shovel operator and adds an element to the end of an array
+2.  .last prints the last element in the array
+3. [num] prints the element at this point in the array
+4. .sort returns a new array where the elements are either sorted alphabetically or in ascending number value
+5. .each iterates through each element and returns a string + whatever we instruct
+6. .join combines all elements of array into one string
+7. .index "" will tell you the address of a specific elements
+8. .include? "" will tell us if the array includes a specific thing
+9. .collect seems similar to each, but it will return a new array not a string
+10. .first will return the first element in the array, can also do .first(number)
+11.  .last is the opposite of first and does the same thing starting at the end of the array
+12. .shuffle will return a new array with the element rearranged 
