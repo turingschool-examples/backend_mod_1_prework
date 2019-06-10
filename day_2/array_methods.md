@@ -1,4 +1,4 @@
-#Array methods
+#Common Array methods
 
 ##.sort
 The .sort returns an array where the elements are sorted.
