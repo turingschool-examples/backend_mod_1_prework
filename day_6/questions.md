@@ -2,7 +2,7 @@
 
 **1. In your own words, what is a Class?**
 
-A class defines a template for a specific type of object. All instances of that class will share the same characteristics (attributes) and be able to do certain actions (methods).
+A class defines a template for a specific type of object. All instances of that class will share the same characteristics (attributes) and are able to do certain actions (methods).
 
 **2. In relation to a Class, what is an attribute?**
 
@@ -10,7 +10,7 @@ An attribute is a characteristic of a class. They are generally nouns, and are t
 
 **3. In relation to a Class, what is behavior?**
 
-Behavior, also known as a method, of a class are actions that the class can do or have done to it. Methods use or modify attributes of the class.
+Behavior, also known as a method, of a class is an action that the class can do or have done to it. A method uses or modifies on or more attributes of the class.
 
 **4. In the space below, create a Dog class with at least 2 attributes and 2 behaviors**
 
@@ -57,4 +57,4 @@ spot = Dog.new("Spot", "Lab", 72, ["sit", "stay", "come"])
 **6. What questions do you still have about classes in Ruby?**
 
 - When to use @attr_name vs self.attr_name
-- What types of instance variable should be used in attr_accessor vs. attr_accessor.
+- What types of instance variable should be used in attr_reader vs. attr_accessor.
