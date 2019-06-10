@@ -12,12 +12,21 @@ class Dog
     @hungry = true
   end
 
+  def hungry
+    p "It is #{@hungry} that #{name} is hungry."
+  end
+
   def bark
     p "woof!"
   end
 
   def eat
     @hungry = false
+  end
+
+  def play
+    @hungry = true
+    p "#{name} has been playing hard and is now hungry."
   end
 end
 
@@ -27,4 +36,6 @@ p fido.name
 p fido.age
 p fido.hungry
 fido.eat
+p fido.hungry
+p fido.play
 p fido.hungry
