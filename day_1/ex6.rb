@@ -1,4 +1,5 @@
 #defines string
+
 types_of_people = 10
 #defines variable that references other variable
 x = "There are #{types_of_people} types of people."

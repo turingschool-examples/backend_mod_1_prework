@@ -3,6 +3,7 @@
 # file fr your terminal with the command `ruby day_1/exercises/interpolation.rb`
 
 # example: Write code that combines the variables below into another string:
+
 name = "Ron"
 team = "Chudley Cannons"
 
