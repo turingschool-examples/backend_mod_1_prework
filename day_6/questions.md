@@ -10,7 +10,7 @@ An attribute is a characteristic of a class. They are generally nouns, and are t
 
 **3. In relation to a Class, what is behavior?**
 
-Behavior, also known as a method, of a class is an action that the class can do or have done to it. A method uses or modifies on or more attributes of the class.
+Behavior, also known as a method, of a class is an action that the class can do or have done to it. A method uses or modifies one or more attributes of the class.
 
 **4. In the space below, create a Dog class with at least 2 attributes and 2 behaviors**
 
