@@ -12,14 +12,15 @@ zoo = {Tiger: 1, Otter: 2, Lion: 3, Beaver: 4}#YOUR CODE HERE
 puts zoo
 
 # Using the zoo that you created above, print all the keys in the hash.
-# YOUR CODE HERE
+puts zoo.keys# YOUR CODE HERE
 
 # Using the zoo that you created above, print all the values in the hash.
-# YOUR CODE here
+puts zoo.values# YOUR CODE here
 
-# Using the zoo taht you created above, print the value of the first item in
+# Using the zoo that you created above, print the value of the first item in
 # the hash
-# YOUR CODE HERE
+puts zoo.first# YOUR CODE HERE
 
 # Add an animal to the zoo hash and print the updated hash.
-# YOUR CODE HERE
+zoo['Shark'] = 5 # YOUR CODE HERE, here we are adding the string shark with a value of 5. 
+puts zoo
