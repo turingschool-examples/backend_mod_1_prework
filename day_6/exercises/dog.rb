@@ -16,6 +16,19 @@ class Dog
     p "woof!"
   end
 
+  def play
+    puts "#{name} has been playing so much #{name} has worked up an appitite!"
+    @hungry = true
+  end
+
+  def hungry
+    if @hungry == true
+      puts "#{name} is hungry! It's feeding time!"
+    elsif @hungry == false
+      puts "#{name} isn't hungry - let's play some more!"
+    end
+  end
+
   def eat
     @hungry = false
   end
@@ -28,3 +41,5 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+fido.play
+fido.hungry
