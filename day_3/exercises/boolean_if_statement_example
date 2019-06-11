@@ -1,0 +1,10 @@
+
+#http://ruby.bastardsbook.com/chapters/ifelse/
+
+num = 100
+if num <= 100 || num % 2 == 1
+    puts "Less or equal to 100 or odd"
+end
+
+#=> Less or equal to 100 or odd
+    
