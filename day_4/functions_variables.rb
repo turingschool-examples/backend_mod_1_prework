@@ -41,8 +41,55 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 #Write at least one function of your own and run it 10 different ways>>>>>>>>>>>>>>>
 
+
+#1
 def number_pairing(num_one, num_two, num_three)
   puts  num_one + num_two + num_three
 end
 
 number_pairing(1,1,1)
+
+#2
+number_pairing(1+3, 4+7,8+9)
+
+#3
+additional = 100
+number_pairing(1+additional, 2+additional, 3+additional)
+
+#4, works with floats
+number_pairing(30.21,45.39,50.67)
+
+#5 - outputs 1000
+num_num = 400
+num_num2  = 500
+number_pairing(additional,num_num,num_num2)
+
+#6
+x = 4
+y = 7
+z = 3
+if x < y
+  number_pairing(x,y,z)
+else
+  puts 'nil'
+end
+
+#7
+if x > z && x < y
+  number_pairing(1000,2000,3000)
+else put x
+end
+
+#8
+arr = [1000,9000,8000]
+number_pairing(arr[1],20,0)
+
+
+#9
+#using the array we created above
+number_pairing(arr[0],arr[1],arr[2])
+
+
+#10 #putting a function in an array and passing 3 argument variables with different values
+arr_2 = [number_pairing(x,y,z)]
+puts arr_2

@@ -22,5 +22,5 @@ puts zoo.values# YOUR CODE here
 puts zoo.first# YOUR CODE HERE
 
 # Add an animal to the zoo hash and print the updated hash.
-zoo['Shark'] = 5 # YOUR CODE HERE, here we are adding the string shark with a value of 5. 
+zoo['Shark'] = 5 # YOUR CODE HERE, here we are adding the string shark with a value of 5.
 puts zoo
