@@ -26,6 +26,6 @@ A  method basically creates a "shortcut" or a quick reference for snippet of cod
 By including the name of the method (hello or hello_someone)
 
 1. What questions do you still have about methods in Ruby?
-  1. Is there a difference between a method and function?
-  2. Can I nest methods inside each other. If so, when is nesting considered bad practice?
-  3. How might I use methods if the variable is an boolean, array, or hash?
+  - Is there a difference between a method and function?
+  - Can I nest methods inside each other. If so, when is nesting considered bad practice?
+  - How might I use methods if the variable is an boolean, array, or hash?
