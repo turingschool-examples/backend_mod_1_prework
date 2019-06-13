@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'sunny'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -43,9 +43,11 @@
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
 num_quarters = 0
-
+  if num_quarters > 2
 puts "I have enough money for a gumball"
+  else
 puts "I don't have enough money for a gumball"
+  end
 
 
 #####################
@@ -61,3 +63,8 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+  if cups_of_flour >= 2 && has_sauce = true
+    puts "I cann make pizza"
+  else
+    puts "I cannot make pizza"
+  end
