@@ -9,6 +9,10 @@ board_array = board_array.each_with_index do |space, i|
   end
 end
 
+puts "|" + "-" * (side_length * 2 - 1) + "|"
+
 board_array.each_slice(side_length) do |row|
-  puts row.join(" ")
+  puts "|" + row.join(" ") + "|"
 end
+
+puts "|" + "-" * (side_length * 2 - 1) + "|"
