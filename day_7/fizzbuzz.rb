@@ -20,7 +20,7 @@ end
 if output == 'v' || output == 'V'
   puts fzbz
 elsif output == 'h' || output == 'H'
-  p fzbz
+  p fzbz.join(", ")
 else
   puts "Selection unclear. Printing horizontally."
   p fzbz
