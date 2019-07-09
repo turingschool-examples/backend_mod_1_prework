@@ -4,7 +4,7 @@ This repository will walk you through the Mod 0 Capstone for the Backend program
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
-### Index
+### Index of the seven days of pre-work:
 
 * [Day 1 - Strings and Numbers](#day-1---strings-and-numbers)
 * [Day 2 - Arrays and Iteration](#day-2---arrays-and-iteration)
@@ -17,21 +17,21 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 # Environment
 
-## Environment Setup
+Before starting on Strings, Floats, Arrays, If statements, etc, we need to do a little more setup to prepare a ruby-specific development environment.
 
-These setup instructions assume that you have completed the setup for Module 0. If you haven't done that yet, see [these instructions](http://mod0.turing.io/)
+We'll walk through this process now to make sure we have what we need, and finish with getting started on our first day of homework. 
 
-Before we can do much programming, we need to make sure our machines are properly configured with a functional development environment. Let's walk through this process now to make sure we have what we need.
+These setup instructions assume that you have completed the setup for Module 0, to install Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/).
 
 Here's what we're going to go over:
 
-*   Setting up Terminal Access for Atom
-*   Setting up GitHub SSH Keys
-*   Installing Rbenv - a Ruby Version Manager. This allow us to install other versions as needed
-*   Installing Ruby Versions using Rbenv
-*   Forking and Cloning the Prework Repository
+*   [Setting up Terminal Access for Atom](#setting-up-terminal-access-for-atom)
+*   [Setting up GitHub SSH Keys](#github-ssh-keys)
+*   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
+*   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
+*   [Forking and Cloning the Prework Repository](#forking-the-module-0-capstone-repository)
 
-### Setting Up Terminal Access for Atom
+## Setting Up Terminal Access for Atom
 
 Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
 
@@ -41,11 +41,13 @@ To confirm that atom is working from your command line, open a terminal with Spo
 
 Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
 
-### GitHub SSH Keys
+## GitHub SSH Keys
 
 SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
 
-##### 1. Generate a new key by running (You should use the email associated with your GitHub account)
+#### 1. Generate a new key by running:
+
+(You should use the email associated with your GitHub account)
 
 ```
 $ ssh-keygen -t rsa -C "johndoe@example.com"
@@ -76,19 +78,19 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-##### 2. Add this new key to your system by running:
+#### 2. Add this new key to your system by running:
 
 ```
 $ ssh-add ~/.ssh/id_rsa
 ```
 
-##### 3. Copy the new _public_ key to your clipboard:
+#### 3. Copy the new _public_ key to your clipboard:
 
 ```
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-##### 4. Tell GitHub about this key.
+#### 4. Tell GitHub about this key.
 
 1.  Go to [https://github.com/settings/keys](https://github.com/settings/keys)
 1.  Click the green "New SSH key" button.
@@ -103,11 +105,11 @@ $ pbcopy < ~/.ssh/id_rsa.pub
 $ ssh -T git@github.com
 ```
 
-**If you get this prompt:**
+**If you get a prompt similar to this:**
 
 ```
-The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
-RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
+The authenticity of host 'github.com (192.30.252.153)'... can't be established.
+RSA key fingerprint is 00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd:ee:ff.
 Are you sure you want to continue connecting (yes/no)?
 ```
 
@@ -119,11 +121,11 @@ Are you sure you want to continue connecting (yes/no)?
 Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-Great work! You've connected your terminal to your Github profile. You can do interact with github from your terminal _without_ entering your password all the time. 
+Great work! You've connected your terminal to your Github profile. You can now interact with Github from your terminal _without_ entering your password all the time. 
 
 Now, lets get a Ruby version management tool on our machines. 
 
-## Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
+## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
 As the Ruby language has evolved over the years, new versions have been released containing new features and various upgrades. The first version, released in 1995, was 0.95, and as of this writing we're at 2.6.
 
@@ -163,17 +165,15 @@ $ rbenv init
 eval "$(rbenv init -)"
 ```
 
-This means that you will need to add the above line (beginning with `eval`) to your "bash profile".
+This output is telling you that you will need to add the above line (beginning with `eval`) to your "bash profile".
 
-Here's how edit your bash profile and add the necessary line:
-
-In your terminal, enter:
+To do this, in your terminal, enter:
 
 ```
-atom ~/.bash_profile
+$ atom ~/.bash_profile
 ```
 
-This will open up your `bash_profile` in Atom so you can edit it. Copy the line `eval "$(rbenv init -)"` and paste it at the END of the `bash_profile` file, and save it.
+This command will open up your `bash_profile` in Atom so you can edit it. Copy the line `eval "$(rbenv init -)"` and paste it at the END of the `bash_profile` file, and save it.
 
 Check if you did this step correctly by switching back to your terminal and typing `cat ~/.bash_profile`. You should see `eval "$(rbenv init -)"` at the bottom of the output.
 
@@ -189,7 +189,7 @@ It should give you a version number rather than an error message.
 
 More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
-### Ruby
+### Use rbenv to install a certain version of Ruby
 
 Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.4.1. This is the version we will use in the Backend Program.
 
@@ -251,52 +251,75 @@ $ rbenv rehash
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
 
-### Forking and Cloning the Module 0 Capstone Repository
+### Forking the Module 0 Capstone Repository
 
-Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
+Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
 
-In this scenario, the Turing Github account owns the `module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
+In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
-1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
-1. Scroll to the top of *this* page
-1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_.
-_Now, you should be on your forked copy of this repository!_
+####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-![Fork](https://i.imgur.com/7a8vnMJm.png)
+####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/module_0_capstone).
 
-The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
+####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
 
-1. In YOUR `module_0_capstone` repository that your just forked, click on `Clone or Download`
-_If you see `Clone with HTTPS` click on `Use SSH`_
+![click on 'fork' button, confirm fork to your account](/images/fork_01.jpg)
 
-![Clone](https://i.imgur.com/RHpul4Vm.png)
+####  4. On the new page, confirm that it says it's the "forked" copy of this repository, with mentions of your username in the URL and repository name.
 
-1. Click on the copy icon to copy the SSH link to your clipboard.
+![confirm new repository belongs to _your_ github account](/images/fork_02.jpg)
+
+## Clone down this new repository
+
+Now that you have forked this repository, the next thing to do is *clone your forked repository*. 
+
+Cloning is when you copy a remote Github repository to your local computer.
+
+#### 1. In YOUR `module_0_capstone` repository that your just forked, click on `Clone or Download`
+
+![clone down your copy](/images/fork_03.jpg)
+
+
+#### 2. If you see `Clone with HTTPS` click on `Use SSH`
+
+#### 3. Click on the copy icon to copy the SSH link to your clipboard.
+
+#### 4. Use your terminal to copy down this repository
+
+ 
 1. Open your terminal
-1. Enter `cd`. This is a shortcut for `cd ~`, which is "change into the home directory"
-1. Enter `mkdir turing`
-1. Enter `cd turing`
-1. Enter `mkdir 1module`
-1. Enter `cd 1module`
-1. Enter `git clone <paste the copied ssh link>`.
-_You now have a copy of this repository on your local machine!_
-1. Enter `ls`. You should see a directory called `module_0_capstone`
-1. Enter `cd module_0_capstone`
-1. Enter `git status`.
-
-If everything worked correctly, you should see
 
 ```
+$ cd .
+// This is a shortcut for `cd ~`, which is "change into the home directory"
+$ mkdir turing
+$ cd turing
+$ mkdir 1module
+$ cd 1module
+$ git clone <ctrl-v to paste ssh link here >
+Cloning into 'module_0_capstone'...
+remote: Enumerating objects: 678, done.
+remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
+Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
+Resolving deltas: 100% (332/332), done.
+
+$ cd module_1_capstone
+$ git status .
+// If everything worked correctly, you should see:
 On branch master
 nothing to commit, working tree clean
 ```
 
-From here on out, all the work you do will be in this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `module_0_capstone` repository.
+From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `module_0_capstone` repository.
 
-Each day's README will walk you through the steps you need to take to save your work.
+Each day's `README` will walk you through the steps you need to take to save your work.
 
-# Extension (optional)
+To start, in your terminal, `cd` into the `day_0` directory. Follow the instructions contained in the `readme.md` file, and have a great time! 
 
-You're done! You've finished your Mod 0 Capstone! If you're interested in challenging yourself a bit more and getting a step up in your coding abilities before your first day, we recommend working on [Credit Check](https://github.com/turingschool-examples/credit_check). 
+# Extension once finished with all pre-work (optional)
+
+You're done! You've finished your first Mod 0 Capstone assignment! 
+
+If you're interested in challenging yourself _even more_ more and getting a step up in your coding abilities before your first day, we recommend working on [Credit Check](https://github.com/turingschool-examples/credit_check). 
 
 Follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer. 
