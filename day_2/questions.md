@@ -23,9 +23,10 @@
     animals.push("lion", "gazelle", "hippo").push("mongoose","jaguar","hyena")
     => ["zebra", "giraffe", "elephant", "lion", "gazelle", "hippo", "mongoose", "jaguar", "hyena"]
 
-    *(similar - .concat - takes arguments as array, can add multiple by
+    (similar - .concat - takes arguments as array, can add multiple by
       separating arguments with comma
-    ["a","b"].concat(["c","d"],["e","f"])  )*
+    ["a","b"].concat(["c","d"],["e","f"])  )
+
     ---
 
     .unshift - adds elements to front of array
@@ -44,9 +45,11 @@
     true and false
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+
     2 == 25
     false
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+
     25 > 2
     true

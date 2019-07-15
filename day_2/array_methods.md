@@ -145,8 +145,8 @@ array_ex = [5,8,2,4,3,9,1]
 
 
 **For blocks - if they can fit on one line it is okay to use {|| block}
-  For longer blocks it is standard to use do/end :
+  For longer blocks it is standard to use do/end** :
 
         array.each do |num|
            p num * 4
-        end**
+        end

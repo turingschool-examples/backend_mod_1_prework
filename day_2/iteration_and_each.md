@@ -23,6 +23,9 @@ end
 
 ### create new array which contains multiples of 2?
 
+array.each.map {|num| num * 2 }
+
+
 ---
 
 # Array of Names
