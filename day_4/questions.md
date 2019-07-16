@@ -27,33 +27,33 @@
      time the method goes back to itself it should go through every line?
 
 
-     def encrypt(text, n)
-     if n<=0 || text.nil?
-       return text
-     elsif n>=1
-         arr1 = text.chars.select.with_index {|_,i| i.odd? }.join
-         arr2 = text.chars.select.with_index {|_,i| i.even?}.join
-         output = arr1+arr2
-         return encrypt(output,n-1)
-     end
-   end
+         def encrypt(text, n)
+           if n<=0 || text.nil?
+             return text
+           elsif n>=1
+             arr1 = text.chars.select.with_index {|_,i| i.odd? }.join
+             arr2 = text.chars.select.with_index {|_,i| i.even?}.join
+             output = arr1+arr2
+             return encrypt(output,n-1)
+           end
+         end
 
-     def decrypt(encrypted_text,n)
-       if n<=0 || encrypted_text.nil?
-         return encrypted_text
-       elsif n>=1
-         mid = encrypted_text.length/2
-         odds = encrypted_text[0...mid]
-         evens = encrypted_text[mid..-1]
-         evens_new=evens.split("")
-         odds_new=odds.split("")
-         orig = []
-         evens_new.map.with_index {|el,ind| orig[ind*2] = el }
-         odds_new.map.with_index {|el,ind| orig[ind*2+1] = el}
-         final = orig.join("")
-         return decrypt(final,n-1)
-       end
-     end
+         def decrypt(encrypted_text,n)
+           if n<=0 || encrypted_text.nil?
+             return encrypted_text
+           elsif n>=1
+             mid = encrypted_text.length/2
+             odds = encrypted_text[0...mid]
+             evens = encrypted_text[mid..-1]
+             evens_new=evens.split("")
+             odds_new=odds.split("")
+             orig = []
+             evens_new.map.with_index {|el,ind| orig[ind*2] = el }
+             odds_new.map.with_index {|el,ind| orig[ind*2+1] = el}
+             final = orig.join("")
+             return decrypt(final,n-1)
+           end
+         end
 
    decrypt(" Tah itse sits!", 3)
 
