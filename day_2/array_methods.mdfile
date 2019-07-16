@@ -1,0 +1,35 @@
+# .sort
+
+The sort method will return a new array where the elements are sorted. If the elements are strings, the elements will come back in alphabetical order. If they're numbers, they'll come back in ascending value order (lowest to highest).
+
+# .each
+
+The each method will iterate through each element (but you still have to specify what you want to do for each)
+
+# .join
+
+The join method will put two elements together into one string.
+
+# .index
+
+You can find the address of a specific element with the index method.
+
+# .include?
+
+You can ask an array if an element is present with the include? method.
+
+# .collect
+
+The collect method also iterates through an array like the each method, but there's a difference. The each method will return the original array, but the collect method will return a new modified array.
+
+# .first
+
+The first method will return the first element of an array.
+
+# .last
+
+The last method will return the last element of an array.
+
+# .shuffle
+
+The shuffle method will return the elements of an array in a shuffled order.
