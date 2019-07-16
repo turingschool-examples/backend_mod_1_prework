@@ -6,7 +6,7 @@ puts "Hello World!" or prints "Hello World!" or p "Hello World!"
 
 2. What is the character you would use to indicate comments in a ruby file?
 
-The "#", called an octothorpe or pound
+The `#`, called an octothorpe or pound
 
 3. Explain the difference between an integer and a float?
 
