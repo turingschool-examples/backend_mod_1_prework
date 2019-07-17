@@ -26,6 +26,7 @@
 1. With the same hash above, how would we get all the keys?  All the values?
 
     p states.keys
+    
     p states.values
 
 
@@ -51,4 +52,4 @@
       + Typically are hashes used for small/moderate data sets? What would be
       considered too large for a hash?
 
-      + What are the most common real life examples of uses of hashmap? 
+      + What are the most common real life examples of uses of hashmap?
