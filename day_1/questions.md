@@ -2,7 +2,8 @@
 
 ## How would you print the string `"Hello World!"` to the terminal?
 
-```puts "Hello World!"  
+```ruby
+puts "Hello World!"  
 
 print "Hello World!"
 ```
@@ -17,7 +18,7 @@ Both are numbers. Float numbers are numbers stored with a decimal value included
 
 ## In the space below, create a variable `animal` that holds the string `"zebra"`
 
-`animal = "zebra"``
+`animal = "zebra"`
 
 ## How would you print the string `"zebra"` using the variable that you created above?
 
@@ -27,7 +28,7 @@ Both are numbers. Float numbers are numbers stored with a decimal value included
 
 Interpolation is placing a field to be evaluated into a string.  
 
-`puts "My favorite animal is #{animal}."``
+`puts "My favorite animal is #{animal}."`
 
 ## How do we get input from a user? What is the method that we would use?
 
