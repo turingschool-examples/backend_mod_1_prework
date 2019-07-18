@@ -26,6 +26,23 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+p "What type of weather is out there?"
+weather = gets.chomp
+
+statement = "Since the weather is #{weather}, I will need "
+
+if weather == 'sunny'
+  p statement + "sunscreen."
+elsif weather == 'rainy'
+  p statement + "umbrella!"
+elsif weather == 'snowy'
+  p statement + "a coat!"
+elsif weather == 'icy'
+  p statement + "yak traks."
+else
+  p "I am good to go!"
+end
+
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -42,11 +59,17 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+num_quarters = [0,1,2,3]
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+num_quarters.each do |i|
+     puts "Number of quarters: #{i}"
+     if i >= 2
+          puts "I have enough money for a gumball"
+     else
+          puts "I don't have enough money for a gumball"
+     end
 
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +82,20 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+cups_of_flour = [0,1,2,3,4]
+has_sauce = [true,false]
+
+has_sauce.each do |x|
+
+     cups_of_flour.each do |i|
+          puts "Cups of flour on hand: #{i}"
+          puts "Do I have sauce? #{x}"
+
+          if x && (i >= 2)
+               puts "I can make pizza."
+          else
+               puts "I cannot make pizza."
+          end
+     end
+
+end
