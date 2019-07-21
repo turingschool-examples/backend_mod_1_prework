@@ -9,11 +9,11 @@ pet_store = {chew_toys: 85, fish_tanks: 37, hamster_wheels: 64}
 
 3. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-states["IA"]
+`states["IA"]`
 
 4. With the same hash above, how would we get all the keys?  All the values?
 
-To get all the keys, you'd type states.keys. To get all the values, you'd type states.values.
+To get all the keys, you'd type `states.keys`. To get all the values, you'd type `states.values`.
 
 5. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 
