@@ -32,5 +32,3 @@ nums = [2, 3, 4]
 nums.each do |x|
   puts x * 2
 end
-
-puts 25 == 2
