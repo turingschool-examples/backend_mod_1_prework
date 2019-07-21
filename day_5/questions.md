@@ -12,6 +12,7 @@ pet_store{
 }
 ```
 1. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+
 `states["IA"]`
 1. With the same hash above, how would we get all the keys?  All the values?
 ```ruby
