@@ -22,3 +22,4 @@ We would use a hash when we have data such as users and their emails, phone numb
 6. What questions do you still have about hashes?
 
 - Can a key/value ever be an array? I don't know if or why anyone would do that, but just wondering. Is it always a one-one ratio for hash pairs, or could the key be a string and the value be an array?
+- There was an exercise where we had to abbreviate state names. I'm really confused about how we got the states to abbreviate by using the variable "abbrev" because we didn't define or use abbrev anywhere in the previous code. Is abbrev already a method/word defined in the Ruby syntax? How did Ruby know what to do?
