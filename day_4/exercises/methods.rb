@@ -11,15 +11,26 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
+
+def number_sum(num1, num2)
+  p num1 + num2
+end
+
+number_sum(5, 4)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+
+def sorting_hat(name, house)
+  p "#{name} is in #{house}!"
+end
+
+sorting_hat("Neville", "Gryffindor")
