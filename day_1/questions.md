@@ -24,10 +24,10 @@
 
 1. Name and describe two common string methods.
 </br> * One string method is `.length`, which counts the number of characters (including spaces) in a string. For example:
-name = "John Steinbeck"
-p name.length
-=> 14
+</br> name = "John Steinbeck"
+</br> p name.length
+</br> => 14
 </br> * Another string method is `.split`, whereby a string is divided into pieces wherever a character space is encountered, returning an arrary. For example:
-band = "Red Hot Chili Peppers"
-p band.split
-=> ["Red", "Hot", "Chili", "Peppers”]
+</br> band = "Red Hot Chili Peppers"
+</br> p band.split
+</br> => ["Red", "Hot", "Chili", "Peppers”]
