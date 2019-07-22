@@ -1,0 +1,9 @@
+The (NameError) means that Ruby was looking a variable or method that didn't
+exist as the name it was looking for. In this case, carpool_capacity was
+probably misspelled in either line 7 where it was defined, or when it was called
+in line 14.
+
+1) In this case it isn't necessary to use 4.0 for space_in_a_car because it is
+only used to calculate carpool_capacity = cars_driven * space_in_a_car = 4 * 30
+which is 120. Because the product of two integers is an integer, we don't need
+to use floats.

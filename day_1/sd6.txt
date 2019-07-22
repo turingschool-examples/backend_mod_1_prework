@@ -1,0 +1,10 @@
+3) The are only four places where it sets a variable equal to a string
+inside a string, but I'm not sure if the puts lines would count also.
+
+4) When using the + operator with strings, it chains them together
+because they're not numerical so they can't be added.
+
+5) Using '' or "" should work just fine when defining strings unless
+they use those characters inside them. If '' or "" is inside the string
+you can either use opposite signs to define the string or use escape
+characters.
