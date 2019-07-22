@@ -7,6 +7,3 @@ puts "Total days: #{5 + 3 + 2}"
 puts "Now I will count the estimated daily hours remaining to complete the entire Capstone:"
 
 puts 4 + 2 + 3 - 1 * 5 - 3 % 6 + 3
-
-band = "Red Hot Chili Peppers"
-p band.split
