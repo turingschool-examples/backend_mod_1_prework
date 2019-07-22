@@ -31,7 +31,7 @@ p "Millions of #{animal} migrate 1,800 miles annually."
 </br> The method used to obtain input from a user is `gets`, which enables a user to input a line and return it as a value to the program. Calling `chomp` (i.e., `gets.chomp`) cuts off the trailing line break that is included as part of the value obtained.
 
 8. Name and describe two common string methods.
-</br> * One string method is `.length`, which counts the number of characters (including spaces) in a string. For example:
+* One string method is `.length`, which counts the number of characters (including spaces) in a string. For example:
 ```
 name = "John Steinbeck"
 p name.length
