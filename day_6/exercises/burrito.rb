@@ -36,7 +36,7 @@ p dinner.add_topping("lettuce")
 p "You added #{dinner.add_topping("lettuce").last} to your burrito."
 
 # 2. Remove a topping
-p dinner.toppings.delete("cheese")
+p dinner.remove_topping("cheese")
 # p "You removed #{dinner.remove_topping("cheese")} from your burrito."
 # I tried to print the sentence above, but I noticed that it would print "You removed   from your burrito." There was just a blank space. I don't think it'll print because the line above it removes cheese from the array and then it no longer exists in the array, therefore it own't let me call it again. If I switch the order, the sentence prints out correctly, but the simple command returns nil because cheese no longer exists in the array. I'm not sure how to solve this and get it to print correctly for both the simple command and the string.
 
