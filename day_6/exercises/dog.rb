@@ -19,12 +19,19 @@ class Dog
   def eat
     @hungry = false
   end
+
+  def play
+    @hungry = true
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
 p fido.breed
 p fido.name
 p fido.age
-p fido.hungry
-fido.eat
-p fido.hungry
+#p fido.hungry
+#fido.eat
+#p fido.hungry
+p "It is #{fido.play} that #{fido.name} is hungry."
+
+# I tried to write this in a way that I'm calling the instance method rather than calling the instance variable directly.
