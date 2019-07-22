@@ -23,11 +23,12 @@
 </br> The method used to obtain input from a user is `gets`, which enables a user to input a line and return it as a value to the program. Calling `chomp` (i.e., `gets.chomp`) cuts off the trailing line break that is included as part of the value obtained.
 
 1. Name and describe two common string methods.
-</br> * One string method is `.length`, which counts the number of characters (including spaces) in a string. For example:
+</br> - One string method is `.length`, which counts the number of characters (including spaces) in a string. For example:
 </br> name = "John Steinbeck"
 </br> p name.length
 </br> => 14
-</br> * Another string method is `.split`, whereby a string is divided into pieces wherever a character space is encountered, returning an arrary. For example:
+
+</br> - Another string method is `.split`, whereby a string is divided into pieces wherever a character space is encountered, returning an arrary. For example:
 </br> band = "Red Hot Chili Peppers"
 </br> p band.split
 </br> => ["Red", "Hot", "Chili", "Peppers”]
