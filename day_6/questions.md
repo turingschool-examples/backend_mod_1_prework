@@ -18,23 +18,23 @@
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-    `class Dog
-      attr_reader :age, :name, :breed
+       class Dog
+         attr_reader :age, :name, :breed
 
-      def initialize(age, name, breed)
-        @age = age
-        @name = name
-        @breed = breed
-      end
+         def initialize(age, name, breed)
+           @age = age
+           @name = name
+           @breed = breed
+         end
 
-      def bark
-        puts "#{name} says 'woof'!"
-      end
+         def bark
+           puts "#{name} says 'woof'!"
+         end
 
-      def lost
-        puts "Have you seen my dog #{name}, who is #{age} years old and is a #{breed}?"
-      end
-    end ` 
+         def lost
+          puts "Have you seen my dog #{name}, who is #{age} years old and is a #{breed}?"
+         end
+      end  
 
 
 1. How do you create an instance of a class?
