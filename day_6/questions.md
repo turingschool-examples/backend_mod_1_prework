@@ -46,3 +46,4 @@ To create an instance of a class, you would name the instance and use the assign
 - Is it possible to create classes within classes (like subclasses) pretty much infinitely?
 - Are class names always singular?
 - How closely relevant do attributes/behaviors of classes have to be? For a class called MyPerson, can clothes be an attribute consisting of an array? Can wear_clothes be a behavior in which you add items to that array?
+- How would you store multiple instances of a class? Would you store those instances in an array? If you stored the instances of a class in an array, would they still retain their attributes and behaviors and would you still be able to call the same methods to retrieve their attributes/perform the same actions? I'm still having some trouble seeing how all of these different concepts (arrays, hashes, conditionals, loops, classes) work together since many of the exercises for each day's work have been focused on that day's specific concept.
