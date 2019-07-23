@@ -23,6 +23,7 @@
 6. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
    `Interpolation` is placing data in the middle of a string.
+
    ```p "Millions of #{animal} migrate 1,800 miles annually."```
 
 7. How do we get input from a user? What is the method that we would use?
