@@ -34,7 +34,7 @@
          def lost
           puts "Have you seen my dog #{name}, who is #{age} years old and is a #{breed}?"
          end
-      end  
+       end  
 
 
 1. How do you create an instance of a class?
