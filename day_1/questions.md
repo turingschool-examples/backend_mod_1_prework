@@ -1,9 +1,7 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
-```
-   p "Hello World!"
-```
+   `p "Hello World!"`
 2. What is the character you would use to indicate comments in a ruby file?
 
    `#`(octothorpe)
@@ -13,9 +11,7 @@
    An `integer` is a whole number, whereas a `float` has a decimal point.
 
 4. In the space below, create a variable `animal` that holds the string `"zebra"`
-```
-animal = "zebra"
-```
+   ```animal = "zebra"```
 5. How would you print the string `"zebra"` using the variable that you created above?
 ```
 p animal
