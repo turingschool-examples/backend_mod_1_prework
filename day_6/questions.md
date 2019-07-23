@@ -2,19 +2,20 @@
 
 1. In your own words, what is a Class?
 
-  A class is a category that gives a blueprint for a type of object, it
-  defines the attributes for that type and what it can do (methods)
+    A class is a category that gives a blueprint for a type of object, it
+    defines the attributes for that type and what it can do (methods)
 
 1. In relation to a Class, what is an attribute?
 
-  An attribute is a data value that describes the state of an object/instance
-  of a class
+
+    An attribute is a data value that describes the state of an object/instance
+    of a class
 
 1. In relation to a Class, what is behavior?
 
-  Every object in a class can perform certain behavior as defined by the class,
-  which is done in through methods. A behavior is what objects of the class can
-  do, actions they can perform.
+    Every object in a class can perform certain behavior as defined by the class,
+    which is done in through methods. A behavior is what objects of the class can
+    do, actions they can perform.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
