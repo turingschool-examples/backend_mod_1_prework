@@ -1,0 +1,1 @@
+puts "I am expected to live #{79.8 - 31} more years"
