@@ -1,3 +1,6 @@
+# Exercises for Strings
+
+# helper functions, which are largely unnecessary in this small of an example
 def to_cm(inches)
     return inches * 2.54
 end
