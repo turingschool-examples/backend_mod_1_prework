@@ -31,25 +31,25 @@ numbers.collect {|number| number * 2}
 names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 puts names
 ```
-     * How would you print out only the first name?
+  * How would you print out only the first name?
 ```
 puts names.first
 ```
-     * How would you print out only the last name?
+  * How would you print out only the last name?
 ```
 puts names.last
 ```
-     * How could you print out only the initials?
+  * How could you print out only the initials?
 ```
 names.each do |name|
 p name.split.first[0] + name.split.last[0]
 ```
-     * How can you print out the last name and how many characters are in it?
+  * How can you print out the last name and how many characters are in it?
 ```
 p lastname = names.last
 p lastname.length
 ```
-     * How can you create an integer which represents the total number of characters in all the names?
+  * How can you create an integer which represents the total number of characters in all the names?
 ```
 p names.join.length
 ```
