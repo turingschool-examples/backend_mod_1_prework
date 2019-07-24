@@ -8,10 +8,13 @@ p "Hello World!"
 ```
 
 1. What is the character you would use to indicate comments in a ruby file?
-Comments are denoted with the pound sign (#)
-
+```ruby
+# Comments are denoted with the pound sign (#)
+```
 1. Explain the difference between an integer and a float?
+```
 An integer is any whole number (i.e. -3, 0, 5, 2231), while a float is a number with a decimal value (i.e. -42.3, 0.0, 41.0)
+```
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 ```ruby
@@ -40,5 +43,7 @@ value = gets.chomp
 
 
 1. Name and describe two common string methods.
+```
 "length()" returns the number of characters of the string
 "split(pattern, [limit]) returns an array of strings broken up by the patter. The limit denotes the max number indicies the array will contain.
+```
