@@ -5,15 +5,33 @@
 # 3. change_protein
 
 class Burrito
-  attr_reader :protein, :base, :toppings
+  attr_accessor :protein, :base, :toppings
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
     @toppings = toppings
   end
+
+  def add_topping(toppings)
+    @toppings = toppings
+  end
+
+  def remove_topping
+    toppings.delete! toppings
+  end
+
+  def change_protein(protein)
+    self.protein = protein
+  end
+
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+
+dinner.add_topping("Pineapple")
+dinner.remove_topping
+dinner.change_protein("Chicken")
+
 p dinner.protein
 p dinner.base
 p dinner.toppings
