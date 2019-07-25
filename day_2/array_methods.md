@@ -43,6 +43,7 @@ puts names
    ```
    names.each do |name|
    p name.split.first[0] + name.split.last[0]
+   end
    ```
    * How can you print out the last name and how many characters are in it?
    ```
