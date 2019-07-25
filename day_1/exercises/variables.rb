@@ -14,7 +14,6 @@ p house_elf
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
-# YOUR CODE HERE
 phrase = "Harry Potter must not return to Hogwarts!"
 p phrase
 
