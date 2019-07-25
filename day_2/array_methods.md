@@ -9,7 +9,7 @@
 - The `shuffle` method returns a newly created array with all the elements of the original array rearranged.
 
 ## Iteration and Each Exercises
-* If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples?
+* If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples? 
 ```
 numbers = [1,2,3,4]
 numbers.each {|number| puts 2 * number}
