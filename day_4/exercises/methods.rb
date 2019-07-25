@@ -44,9 +44,3 @@ end
 
 puts "Idiom creator:"
 make_idiom("high", "kite")
-
-def hello_someone(name)
-  p "#{name} I am"
-end
-
-hello_someone("Pam")
