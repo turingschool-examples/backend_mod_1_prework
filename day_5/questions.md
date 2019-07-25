@@ -18,7 +18,7 @@ p values
 end
 
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
-with arrays you can only use numbers to access your keys.  With hashes you can use whatever you want.  If you are mapping data you would use a hash.  Especially with alot of unique keys.
+with arrays you can only use numbers to access your keys.  With hashes you can use whatever you want.  If you are mapping data you would use a hash.  Especially with alot of unique keys.  Maybe at like a user database with a few good table key pairs.  You could store those as hashes and access them.
 
 1. What questions do you still have about hashes?
 What does this look like implemented in real life on a large scale.
