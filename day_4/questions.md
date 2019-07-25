@@ -20,5 +20,5 @@
    ```
    hello_someone("Pam")
    ```  
-1. What questions do you still have about methods in Ruby?
+1. What questions do you still have about methods in Ruby?  
    Learn Ruby the Hard Way mentioned that methods may be used similar to other "commands" such as `exists` and `open`, which are actually methods. What does that imply?  
