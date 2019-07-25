@@ -9,5 +9,4 @@ p "Alan Turing"
 puts "'Welcome to Turing!'"
 
 # Write code below to print `99 bottles of pop on the wall...`:
-# YOUR CODE HERE
 puts "'99 bottles of pop on the wall...'"

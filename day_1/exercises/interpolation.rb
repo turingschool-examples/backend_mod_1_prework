@@ -20,5 +20,4 @@ p "The #{speedy} jumped over the #{slow_poke}"
 slow_poke = "tortoise"
 speedy = "hare"
 
-# YOUR CODE HERE
 p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
