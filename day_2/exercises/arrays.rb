@@ -24,7 +24,7 @@ p animals.count
 p foods.count
 
 # Write code below that will print "Zebra" from the animals array
-p animals.first
+p animals[0]
 
 # Write code below that will print the last item from the foods array.
 p foods.last
