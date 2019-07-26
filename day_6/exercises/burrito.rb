@@ -24,7 +24,7 @@ class Burrito
     @toppings
   end
 
-  def change_protein=(protein)
+  def change_protein(protein)
     @protein = protein
   end
 end
@@ -35,4 +35,4 @@ p dinner.base
 p dinner.toppings
 p dinner.add_topping('sour cream')
 p dinner.remove_topping('salsa')
-p dinner.change_protein = "steak"
+p dinner.change_protein("steak")
