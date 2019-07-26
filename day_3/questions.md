@@ -4,13 +4,19 @@
 
 A conditional statement is a statement that evaluates to either true or false. Conditional statements use conditional operators such as ==, >, <, >=, or <= to determine their returned values or true or false. A condition statement is usually used with a series of logic statements to determine branching in programs.
 
-..1. ```
+..1.
+
+```
 1 == 1
 ```
-..1. ```
+
+..1.
+```
 "true" == "true"
 ```
-..1. ```
+
+..1.
+```
 "false" == "false" && 1 != 0
 ```
 
