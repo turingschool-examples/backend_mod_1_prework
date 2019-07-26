@@ -1,6 +1,6 @@
 class Monkey
 
-  @nums = (1..5)
+  @nums = (1..10)
 
     @nums.reverse_each do |num|
     if num > 1
