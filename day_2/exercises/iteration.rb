@@ -14,13 +14,21 @@ end
 # <animal> is awesome!" for each animal.
 
 animals.each do |animal|
-  # YOUR CODE HERE
+ p "The #{animal} is awesome!"
 end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-# YOUR CODE HERE
+foods = ["pizza", "pasta", "pesto", "cannoli", "gelato"]
+
+foods.each do |food|
+  p "Add #{food} to shopping list"
+end
 
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
-# YOUR CODE HERE
+numbers = [2, 4, 6, 8, 10, 12]
+
+numbers.each do |number|
+  p number * number
+end
