@@ -2,4 +2,16 @@
 # person methods below the class so that they print their result to the
 # terminal.
 
-#YOUR CODE HERE
+class Person
+  attr_reader :hair, :tops, :bottom
+  def initialize(hair, tops, bottom)
+    @hair  = hair
+    @tops = tops
+    @bottom = bottom
+  end
+end
+
+human = Person.new("brown", ["polo", "t-shirt"], "jeans")
+p human.hair
+p human.tops
+p human.bottom
