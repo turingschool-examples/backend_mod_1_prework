@@ -1,6 +1,6 @@
-## Ceasar Cipher
+## Caesar Cipher
 
-Also known as a shift cipher, the Ceasar Cipher is one of the oldest and simplest encoding techniques.  A Ceasar Cipher works by shifting the alphabet by a set number of letters down the alphabet.  For example, with a left shift of 3, 'D' would be replaced by 'A', 'E' would be replaced by 'B', and so on.  See below for a full alphabet example with a left shift of 3:
+Also known as a shift cipher, the Caesar Cipher is one of the oldest and simplest encoding techniques.  A Caesar Cipher works by shifting the alphabet by a set number of letters down the alphabet.  For example, with a left shift of 3, 'D' would be replaced by 'A', 'E' would be replaced by 'B', and so on.  See below for a full alphabet example with a left shift of 3:
 
 ```
 plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
