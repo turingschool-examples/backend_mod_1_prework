@@ -83,17 +83,11 @@ Can I still make it?"
 puts""
 puts""
 
-cups_of_flour = 1
+cups_of_flour = 3
 has_sauce = true
 
-if cups_of_flour == 2 && has_sauce == true
+if cups_of_flour >= 2 && has_sauce == true
   puts "I can make pizza"
-elsif cups_of_flour == 3 && has_souce == true
+elsif cups_of_flour <= 2 || has_sauce == true
   puts "I can make Pizza"
-elsif cups_of_flour == 1 && has_sauce == true
-  puts "I cannot make Pizza"
-elsif cups_of_flour == 1 && has_sauce == false
-  puts "I cannot make Pizza"
-else
-  puts "I don't know if I can make pizza"
 end
