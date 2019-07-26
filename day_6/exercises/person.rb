@@ -3,12 +3,12 @@
 # terminal.
 
 class Person
-  attr_reader :name, :age
-  attr_accessor :occupation
+  attr_reader :name, :age, :occupation
 
-  def initialize(n,a)
+  def initialize(n,a,o=nil)
     @name = n
     @age = a
+    @occupation = o
   end
 
   def celebrate_birthday
@@ -17,8 +17,8 @@ class Person
   end
 
   def graduate(o)
-    self.occupation = o
-    puts "Congratulations on graduating! You can now begin work as a #{occupation}!"
+    @occupation = o
+    puts "Congratulations on graduating! You can now begin work as a #{o}!"
   end
 
 end
@@ -28,3 +28,6 @@ p sara.age
 sara.celebrate_birthday
 p sara.age
 sara.graduate("programmer")
+p sara.occupation
+sara.graduate("zoo keeper")
+p sara.occupation
