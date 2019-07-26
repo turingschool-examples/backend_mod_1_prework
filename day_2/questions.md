@@ -28,4 +28,5 @@ animals << "Lion"
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
-25 > 2 True 
+25 > 2 True
+ 

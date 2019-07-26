@@ -11,3 +11,4 @@ For example: a = [3, 2, 1]
 The .collect method creates a new array containing the values returned by the block.
 -The .first and .last methods will return either the first or last element of an array.
 -The .shuffle array will return an array with the elements shuffled from their original positions.
+ 

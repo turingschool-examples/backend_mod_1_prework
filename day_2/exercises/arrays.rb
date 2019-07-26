@@ -36,4 +36,4 @@ p animals # YOUR CODE HERE
 # Write code below that removes the last item of food from the foods array and
 # print the result
 p foods.pop
-p foods# YOUR CODE HERE
+p foods# YOUR CODE HERE 
