@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'icy'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -42,10 +42,18 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+num_quarters_arr = [0, 1, 2, 3]
+# Pick and random value from the array.
+num_quarters = num_quarters_arr.sample
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+puts "I have #{num_quarters} quarter(s)."
+
+# Negative quarters would mean you're in debt.
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else 
+  puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -59,5 +67,26 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+
+cups_flour_arr = [0, 1, 2, 3]
+sauce_arr = [true, false]
+
+# pick a random value from the array
+cups_of_flour = cups_flour_arr.sample
+has_sauce = sauce_arr.sample
+
+# Print statements to see what values were chosen.
+print "I have #{cups_of_flour} cup(s) of flour"
+
+if has_sauce
+  puts " and I have sauce."
+else 
+  puts " and I don't have sauce."
+end
+
+# I like parentheses around multi conditional if statements
+if (cups_of_flour >= 2 && has_sauce)
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
