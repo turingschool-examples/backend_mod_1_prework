@@ -20,7 +20,7 @@ puts ''
 
 # study drills 2
 # prints a random line
-puts lines[rand(0..7)]
+puts lines.sample
 
 # study drills 3
 # this is a comment. Comments are for programmers to read
