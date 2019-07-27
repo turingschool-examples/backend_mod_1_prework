@@ -17,7 +17,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 # Environment
 
-Before starting on Strings, Floats, Arrays, If statements, etc, we need to do a little more setup to prepare a ruby-specific development environment.
+Before starting on Strings, Floats, Arrays, If statements, etc, we need to do a little more setup to prepare a Ruby-specific development environment.
 
 We'll walk through this process now to make sure we have what we need, and finish with getting started on our first day of homework. 
 
@@ -25,103 +25,10 @@ These setup instructions assume that you have completed the setup for Module 0, 
 
 Here's what we're going to go over:
 
-*   [Setting up Terminal Access for Atom](#setting-up-terminal-access-for-atom)
-*   [Setting up GitHub SSH Keys](#github-ssh-keys)
 *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
 *   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
 *   [Forking and Cloning the Prework Repository](#forking-the-module-0-capstone-repository)
 
-## Setting Up Terminal Access for Atom
-
-Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
-
-![Install Shell Commands](/images/install_shell_commands.jpg)
-
-To confirm that atom is working from your command line, open a terminal with Spotlight search (`Command + Space`), type `terminal` and hit enter. Type `atom .` in your terminal. If it is setup correctly, the atom editor will automatically open. If it does not open atom and an error occurs instead, try entering this in the command line: `ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom` and try the first command (`atom .`) again.
-
-Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
-
-## GitHub SSH Keys
-
-SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
-
-#### 1. Generate a new key by running:
-
-(You should use the email associated with your GitHub account)
-
-```
-$ ssh-keygen -t rsa -C "johndoe@example.com"
-```
-
-When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location, which is `~/ssh/id_rsa`
-
-When asked to enter a password, hit enter, which means "no password".
-
-You'll see a confirmation message that looks like:
-
-```
-Your identification has been saved in id_rsa.
-Your public key has been saved in id_rsa.pub.
-The key fingerprint is:
-SHA256:C3AB8FF13720E8AD9047DD39466B3C8974E592C your@email_address.com
-The key's randomart image is:
-+---[RSA 2048]----+
-| .       =   ..  |
-|o . . o + = ..   |
-| =.o o o o o  .  |
-|+ +o. .  ..  . . |
-|.+E  .  S   o o..|
-|..     .  .o . .+|
-|        o  oo .o+|
-|       . o  ==o.=|
-|        . .+=B=o |
-+----[SHA256]-----+
-```
-
-#### 2. Add this new key to your system by running:
-
-```
-$ ssh-add ~/.ssh/id_rsa
-```
-
-#### 3. Copy the new _public_ key to your clipboard:
-
-```
-$ pbcopy < ~/.ssh/id_rsa.pub
-```
-
-#### 4. Tell GitHub about this key.
-
-1.  Go to [https://github.com/settings/keys](https://github.com/settings/keys)
-1.  Click the green "New SSH key" button.
-1.  Leave the "title" section empty
-1.  Paste the key into the "key" section with `Command + v`.
-1.  Hit the green "Add SSH key" button.
-
-
-**To test that our key is configured, type the following into the command line:**
-
-```
-$ ssh -T git@github.com
-```
-
-**If you get a prompt similar to this:**
-
-```
-The authenticity of host 'github.com (192.30.252.153)'... can't be established.
-RSA key fingerprint is 00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd:ee:ff.
-Are you sure you want to continue connecting (yes/no)?
-```
-
--   Type `yes`
-
-**If everything's working, you'll see the the following:**
-
-```
-Hi <your_username>! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-Great work! You've connected your terminal to your Github profile. You can now interact with Github from your terminal _without_ entering your password all the time. 
 
 Now, lets get a Ruby version management tool on our machines. 
 
