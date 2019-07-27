@@ -2,7 +2,7 @@
 
 1. What is a conditional statement? Give three examples.
 A conditional statement is a check on whether is statement, or statements, is true or false. A few examples:
-'''ruby
+```ruby
 if x == true
     total++
 end 
@@ -19,7 +19,7 @@ when 2
 else
     puts "I don't know what it is."
 end
-'''
+```
 
 1. Why might you want to use an if-statement?
 
