@@ -3,17 +3,20 @@
 1. What is a conditional statement? Give three examples.
 A conditional statement is a check on whether is statement, or statements, is true or false. A few examples:
 ```ruby
+# Example 1
 if x == true
     total++
 end 
 
+# Example 2
 while y > 0
     y--
 end
 
+# Example 3
 case z
 when 1
-    puts "z is one!:
+    puts "z is one!"
 when 2
     puts "z is two!"
 else
