@@ -4,7 +4,7 @@ This repository will walk you through the Mod 0 Capstone for the Backend program
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
-### Index of the seven days of pre-work:
+### Pre-work Index
 
 * [Day 0 - More Terminal Practice](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_0)
 * [Day 1 - Strings and Numbers](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_1)

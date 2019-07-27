@@ -1,228 +1,144 @@
-# Environment
+## Dive Right In!
 
-## Environment Setup
+You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor. When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
-These setup instructions assume that you have completed the setup for Module 0. If you haven't done that yet, see [these instructions](http://mod0.turing.io/)
+Before we get started, go ahead and open the terminal on your computer. If you're on a Mac, the easiest way to do this will be to use Spotlight. Press `command-space` at the same time and a small box should open up on top of your other windows.
 
-Before we can do much programming, we need to make sure our machines are properly configured with a functional development environment. Let's walk through this process now to make sure we have what we need.
+![Spotlight](./images/spotlight.png)
 
-Here's what we're going to go over:
+Go ahead and start typing `Terminal`, and you should see your computer attempt to locate the file or program you're trying to find. If you have a lot of other programs or files with `term` in the name, you might have to type the full word, but if not, you should be able to type a letters until Spotlight correctly guesses that you're looking for the program `Terminal`. Once you see that, hit return and your terminal should open.
 
-*   Setting up Terminal Access for Atom
-*   Setting up GitHub SSH Keys
-*   Installing Rbenv - a Ruby Version Manager. This allow us to install other versions as needed
-*   Installing Ruby Versions using Rbenv
-*   Forking and Cloning the Prework Repository
+It will likely look something like the image below.
 
+![Terminal](./images/terminal.png)
 
-### Setting Up Terminal Access for Atom
+Now, type `ls` and hit return. You should see a list of directories that are in your home directory on your computer. You should be able to confirm this by opening the finder (go ahead and hit `command-space` to activate Spotlight and start typing `finder`) and navigating to that same home directory. Notice in the image below that my terminal window lists `Applications`, and `Desktop`, and `Documents`, etc. while my finder shows those same directories.
 
-Install the shell commands for Atom. Open Atom, drop down the `Atom` menu in the top left corner of your screen, and click on `Install Shell Commands`. Atom should now be enabled from your command line.
+![Finder](./images/finder.png)
 
-To confirm that atom is working from your command line, open a terminal with Spotlight search (`Command + Space`), type "terminal" and hit enter. Type `atom .` in your terminal. If it is setup correctly, the atom editor will automatically open. If it does not open atom and an error occurs instead, try entering this in the command line: `ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom` and try the first command (`atom .`) again.
+**This is key:** the terminal gives you a different way to work with your computer, but it's not completely separate. All of the files that you create and edit with your terminal, you can also view with your finder and a text editor or other program.
 
-Atom also offers a number of different options and packages that you can customize to your liking. [This](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLYzJdSdNWNqwNWlxz7bvu-lOYR0CFWQ4I) series of videos will walk you through many of them if you'd like to dive deeper.
+There are **many** commands that you can learn before you would be considered an expert at using the terminal, but you only really need a few to get started. Let's work on those below.
 
-### GitHub SSH Keys
+## Getting Around
 
-SSH keys are a more secure and convenient way of authenticating than typing in our password every time we want to interact with Github.
+### Commands
 
--   Generate a new key by running (You should use the email associated with your GitHub account)
+When navigating the filesystem in text form, it can sometimes be difficult to remember where you are and where you're going. There are three big commands that will help keep you oriented in the terminal.
 
-```bash
-$ ssh-keygen -t rsa -C "johndoe@example.com"
+* `pwd`: Stands for Print Working Directory. This will tell you where you are now. It gives you the full path all the way from your computers very top directory, or the `root`. When I type `pwd` in my terminal after just starting it up, I get the following:
+
+```sh
+/Users/sespinos
 ```
 
-When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
-When asked to enter a password, hit enter.
+This tells me that I'm in the `sespinos` directory, which is inside of the `Users` directory, which itself is in the `root` directory (represented by that very first `/`).
 
--   Add this new key to your system by running:
+* `ls`: Short for `list`, this command will list all of the files and directories inside of my current directory. So, for example, when I am in my home directory (`/Users/sespinos`) and I type `ls`, I see the following:
 
-```bash
-$ ssh-add ~/.ssh/id_rsa
+```sh
+Applications             Downloads                Music
+Creative Cloud Files     Google Drive File Stream Pictures
+Desktop                  Library                  Public
+Documents                Movies
 ```
 
--   Copy the new key to your clipboard:
+This is a list of all the directories in my home directory. Great!
 
-```bash
-$ pbcopy < ~/.ssh/id_rsa.pub
+* `cd`: Short for `change directory` will allow you to move, but you have to tell it where to go! So, for example, if I'm still in my home directory I can type `cd Desktop`, then when I enter `pwd` my terminal should print out `/Users/sespinos/Desktop`, and if I type `ls` it should list all of the files that are currently on my desktop.
+
+I can also move back up out of the directory that I moved into by typing `cd ../`. Those two dots mean move one directory up.
+
+If I know my directory structure pretty well (because I spend way to much time working on my laptop), I can chain locations together. For example, assuming I have a `turing` directory in my `Documents` directory and I'm currently in my home directory I can type the following to move directly into the `turing` directory: `cd Documents/turing`. If I then enter `pwd`, my current directory should be `/Users/sespinos/Documents/turing`. This also works going the other way. Assuming I'm in my `turing` directory, I can use the following command to get back to my home directory: `cd ../../`.
+
+* `~/`: A special shortcut, `~/` represents my home directory no matter where I am on my laptop. So, for example, if I am deep into my Documents directory and I just want to go home I can type `cd ~/` and it will take me all the way back up to my home directory.
+
+### Practice
+
+Use the commands listed above to move around your computer.
+
+* Go deep down into one of your the existing directories using `cd` to move and `ls` to see what directories are available.
+* Navigate out using `cd ../` to get back to your home directory. Try to use `pwd` to make sure you don't overshoot it!
+* Dig deep into another directory, using `ls` as you go.
+* Use `cd ~/` to navigate back out to your home directory.
+* Navigate into your Downloads directory using `cd Downloads`.
+* Navigate to your Desktop using `cd ~/Desktop`.
+* Use `pwd` and `ls` to confirm your current location.
+
+Continue practicing these commands until you feel comfortable moving around without having to look at this lesson.
+
+## Making Things
+
+### Commands
+
+* `touch`: This command will create a new file. It does so without putting anything in that file, so you could type `touch student.rb` to create an empty Ruby file, or `touch portfolio.md` to create an empty Markdown file. In both cases the filetype is indicated by the extension at the end of the filename. Each of these files would then be available for you to edit in your text editor. If you're used to using other Mac applications, `touch` is the command line equivalent of "command-n" to create a new document in other programs.
+
+* `mkdir`: Short for 'make directory,' this command will create a new directory or folder in your file system. As your projects become more complicated the files in your projects will multiply and it will be important to use directories to keep them organized.
+
+* Working from home: As with `cd` and `ls` you can use `mkdir` and `touch` to create deeply nested files and directories without `cd`ing into them. So, for example, if I wanted to create a file named `secret_library.rb` inside of a directory named `lib`, which itself was inside of a directory named `secret_library` inside of an existing `~/Documents/turing/1module` directory *and* a `secret_library_test.rb` file inside of a `test` directory inside the same project folder, I could run the following commands to make that happen.
+
+```sh
+$ cd ~/Documents/turing/1module
+$ mkdir secret_library
+$ cd secret_library
+$ mkdir lib
+$ touch lib/secret_library.rb
+$ mkdir test
+$ touch test/secret_library_test.rb
 ```
 
--   Let's tell GitHub about this key.
+This feels like a pretty authentic way to start a new project to me. I first `cd` to the place I want to create the directory that's going to hold the project and create that directory. Then I `cd` into that directory and start setting up my file/directory structure from there. Note that I don't `cd` down into the `test` or `lib` directories to create the files. I could, but generally we like to run and create our code from the project directory (it gives us the most flexibility in how we write and run our code, which we will discuss more later).
 
-* Go to [https://github.com/settings/ssh](https://github.com/settings/ssh)
-* Click the green "New SSH key" button.
-* Click on the box that says "Key" and paste the key with `Command + v`. You do not need to enter a title.
-* Hit the green "Add SSH key" button.
+Note that I could've also done the following:
 
--   To test that our key is configured, type the following into the command line:
-
-```bash
-$ ssh -T git@github.com
+```sh
+$ mkdir ~/Documents/secret_library
+$ mkdir ~/Documents/secret_library/lib
+$ touch ~/Documents/secret_library/lib/secret_library.rb
+$ mkdir ~/Documents/secret_library/test
+$ touch ~/Documents/secret_library/test/secret_library_test.rb
 ```
 
--   If you get this prompt:
+This would have the exact same impact, but gives me a whole lot more to type and makes it a little more difficult to run my code. I include it here only to make the point that you don't have to use `cd` into a specific directory every time you want to make a new directory or file.
 
-```bash
-=> The authenticity of host 'github.com (xxx.xxx.xxx.xxx)'... can\'t be established.
-RSA key fingerprint is XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX.
-Are you sure you want to continue connecting (yes/no)?
-```
+### Practice
 
--   Type 'yes'
--   If everything's working, you'll see the the following:
+Use `mkdir` and `touch` to create the directories/files in the structure described below.
 
-```bash
-=> Hi YourUsername! You've successfully authenticated, but GitHub does not provide shell access.
-```
+```sh
+|-- _secret_library
+    |
+    |--README.md
+    |--Gemfile
+    |--Rakefile
+    |
+    |--_lib
+    |  |
+    |  |--secret_library.rb
+    |  |--secret_book.rb
+    |  |--secret_librarian.rb
+    |  |--patron.rb
+    |  |--library_system.rb
+    |
+    |--_test
+       |
+       |--secret_library_test.rb
+       |--secret_book_test.rb
+       |--secret_librarian_test.rb
+       |--patron_test.rb
+       |--library_system_test.rb
+```     
 
-### [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
+Don't worry about putting any text into these files. For now, just create this structure and empty files.
 
-As the Ruby language has evolved over the years, new versions have been released containing new features and various upgrades. The first version, released in 1995, was 0.95, and as of this writing we're at 2.5.
+## Deleting Things
 
-To some extent programs written for one version of Ruby will run just fine on another version,
-but sometimes you'll encounter incompatibilities, such that a program needs to be run with a specific version of Ruby.
+### Commands
 
-For this reason, we'd like to be able to install and manage multiple versions of Ruby on our system. This is precisely the job rbenv handles.
+* `rm`: This will remove a file from your system. Be careful with this! The terminal assumes you're a little more of an expert than the system does. This doesn't move the file to the Trash, it removes it completely from your system. It's a little like moving the file to the trash and then deleting it immediately.
 
-#### Installation
+* `rm -rf`: Adding the `-r` and `-f` flags to the `rm` command will allow you to delete directories even if they have other files and/or directories inside of them. For more information on each of these flags enter `man rm` into your terminal. It will print out the manual for this command.
 
-Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
+### Practice
 
-```shell
-brew update
-```
-
-```shell
-brew install rbenv
-```
-
-```shell
-rbenv init
-```
-
-The output from your terminal will be something similar to:
-
-```shell
-# Load rbenv automatically by appending
-# the following to ~/.bash_profile:
-
-eval "$(rbenv init -)"
-```
-
-This means that you will need to add the above line (beginning with `eval`) to the bottom of your bash profile.
-
-Open a terminal with Spotlight search (`Command + Space`) and enter:
-
-```shell
-atom ~/.bash_profile
-```
-
-This will open up your bash_profile in Atom so you can edit it. Copy the line `eval "$(rbenv init -)"` and paste it at the END of your bash_profile. Save the file.
-
-Check if you did this step correctly by switching back to your terminal and typing `cat ~/.bash_profile`. You should see `eval "$(rbenv init -)"` somewhere in the output of your terminal.
-
-Close your terminal and reopen it. This is a very important step since the bash profile is loaded each time a new terminal window is opened.
-
-Now check to make sure rbenv was installed properly. In your terminal, type:
-
-```
-rbenv versions
-```
-
-It should give you a version number rather than an error message.
-
-More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
-
-### Ruby
-
-Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.4.1. This is the version we will use in the Backend Program.
-
-If you need another version it'll be the same procedure, just replace "2.4.1" in the instructions with whichever version you want.
-
-Install it with:
-
-```shell
-rbenv install 2.4.1
-```
-
-It should take a while to finish installing. Type
-
-```shell
-rbenv versions
-```
-
-and you should now see 2.4.1 listed.
-
-Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you your current version. The second shows all installed versions.
-
-Switch to your newly installed version with
-
-`rbenv local 2.4.1`
-
-Now enter:
-
-`ruby -v`
-
-This shows us what version of Ruby we are running. You should see something like:
-
-`ruby 2.4.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]`
-
-You can ignore everything after the "p". This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than 2.4.1, such as 2.5.0, go back through the Rbenv installation, make sure you have successfully edited your bash_profile, restart your terminal, and try again.
-
-#### Setting the Default Version
-
-You can tell rbenv which Ruby version you want to use by default:
-
-```shell
-rbenv global 2.4.1
-```
-
-To reload your shell, do the following:
-
-```shell
-rbenv rehash
-```
-
-### Terminal
-
-We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
-
-### Forking and Cloning the Prework Repository
-
-Next, we are going to *fork this repository*. Forking is when you copy a Github repository to your Github account. In this scenario, the Turing Github account owns the Prework repository. You do not have permission to change this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
-
-1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
-1. Click on `Fork` in the upper right corner of the screen _this will take you to a new page_.
-_Now, you should be on your forked copy of this repository!_
-
-![Fork](https://i.imgur.com/7a8vnMJm.png)
-
-The next thing you need to do is *clone your forked repository*. Cloning is when you copy a remote Github repository to your local computer:
-
-1. In YOUR module_0_capstone repository that you just forked, click on `Clone or Download`  
-_If you see `Clone with HTTPS` click on `Use SSH`_
-
-![Clone](https://i.imgur.com/RHpul4Vm.png)
-
-1. Click on the copy icon to copy the SSH link to your clipboard.
-1. Open your terminal
-1. Enter `cd`. This is a shortcut for `cd ~`, which is "change into the home directory"
-1. Enter `mkdir turing`
-1. Enter `cd turing`
-1. Enter `mkdir 1module`
-1. Enter `cd 1module`
-1. Enter `git clone <paste the copied ssh link>`.
-_You now have a copy of this repository on your local machine!_  
-1. Enter `ls`. You should see a directory called `module_0_capstone`
-1. Enter `cd module_0_capstone`
-1. Enter `git status`.
-
-If everything worked correctly, you should see
-
-```
-On branch master
-nothing to commit, working tree clean
-```
-
-From here on out, all the work you do will be in this repository. Each day's README will walk you through the steps you need to take to save your work.
+Use `rm` and `rm -rf` to delete each of the files and directories you created in the Making Things section above. Note, that it would be possible to delete the entire directory that you created with just `rm -rf secret_library`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
