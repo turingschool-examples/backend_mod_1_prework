@@ -6,13 +6,14 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 ### Index of the seven days of pre-work:
 
-* [Day 1 - Strings and Numbers](#day-1---strings-and-numbers)
-* [Day 2 - Arrays and Iteration](#day-2---arrays-and-iteration)
-* [Day 3 - If Statements and Loops](#day-3---if-statements-and-loops)
-* [Day 4 - Methods and Return Values](#day-4---methods-and-return-values)
-* [Day 5 - Hashes](#day-5---hashes)
-* [Day 6 - Classes](#day-6---classes)
-* [Day 7 - Build A Thing](#day-7---build-a-thing)
+* [Day 0 - More Terminal Practice](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_0)
+* [Day 1 - Strings and Numbers](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_1)
+* [Day 2 - Arrays and Iteration](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_2)
+* [Day 3 - If Statements and Loops](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_3)
+* [Day 4 - Methods and Return Values](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_4)
+* [Day 5 - Hashes](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_5)
+* [Day 6 - Classes](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_6)
+* [Day 7 - Build A Thing](https://github.com/turingschool-examples/module_0_capstone/tree/master/day_7)
 
 
 # Environment
