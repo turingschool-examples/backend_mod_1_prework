@@ -26,7 +26,7 @@ puts animal
 
 * What is interpolation?
 
-      Interpolation allows you to stick data into the middle of a string.  
+   Interpolation allows you to stick data into the middle of a string.  
 
 ```
 animal = "zebra"
@@ -36,13 +36,12 @@ puts "My favorite animal is a #{animal}."
 
 * How do we get input from a user? What is the method that we would use?
 
-      We get input from the user by using the method `gets.chomp`.    
-      We assign `gets.chomp` to a variable.    
+   We get input from the user by using the method `gets.chomp`.  
+   We assign `gets.chomp` to a variable.     
 
 * Name and describe two common string methods.
 
-      One common string method is the `.length` method. This method tells how many characters (including spaces)
-  are in the string.  
+   One common string method is the `.length` method. This method tells how many characters (including spaces) are in the string.    
 
 ```
 greeting = "Hi Friends!"
@@ -50,9 +49,7 @@ greeting.length
 => 11
 ```
 
-      Another commonly used string method is the `.split` method.
-  This method will take a string and split each part of the string into an Array.
-  It cuts the string anytime it encounters a space character.    
+   Another commonly used string method is the `.split` method. This method will take a string and split each part of the string into an Array. It cuts the string anytime it encounters a space character.   
 
 ```
 greeting = "Hi Friends!"
