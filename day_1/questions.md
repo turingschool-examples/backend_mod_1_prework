@@ -1,6 +1,6 @@
 ## Day 1 Questions
 
-* How would you print the string `"Hello World!"` to the terminal?
+#### How would you print the string `"Hello World!"` to the terminal?
 ```
 puts "Hello World!"
 ```
