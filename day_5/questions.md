@@ -37,10 +37,8 @@ Notice that some of the differences in formatting between a hash and an array ar
 
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 
-One good example of a time when we would use a hash is when creating an index of which pasta goes with which sauce. We don't really care about the order of the pastas or the order of the sauces just that they are paired correctly. This scenario would make the use of a hash perfect and preferred over an array.
+One good example of using a when we would use a hash is when making an English to Italian dictionary. A translation dictionary pairs two words together so you can translate from one language to another. In our example the keys would be English words and the values would be Italian words. Here is an example of what that hash might look like:
 
-Example:
-
-`pastas = {"spaghetti" => "bolognese", "ravioli" => "pesto", "fettuccine" => "alfredo", "macaroni" => "cheese"}`
+`translate = {'coffee' => 'caffe', 'woman' => 'donna', 'pizza' => 'pizza', 'la frutta' => 'the fruit'}`
 
 1. What questions do you still have about hashes?
