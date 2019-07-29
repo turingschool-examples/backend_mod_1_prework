@@ -5,12 +5,11 @@
 animals = ["zebra", "giraffe", "elephant"]
 
 ```
-
 1. Save the array you created above to a variable `animals`.
 
 1. using the array `animals`, how would you access `"giraffe"`?
-
-```p animals [1]
+```
+p animals [1]
 ```
 1. How would you add `"lion"` to the `animals` array?
 ```
@@ -34,4 +33,3 @@ animals << "Lion"
 25 > 2
 =>True
 ```
- 
