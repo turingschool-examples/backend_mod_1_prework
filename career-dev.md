@@ -25,5 +25,5 @@ It should help having strengths in problem solving, since that's a majority of w
 
 
 
-
 ![Pairin Results](https://imgur.com/CfweeTI)
+
