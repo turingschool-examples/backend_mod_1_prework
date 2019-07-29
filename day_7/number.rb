@@ -63,7 +63,8 @@ class Number
         end
 
         # Split the string into groups of three
-        str_num_array = str_num.scan(/.{3}/).reverse!
+        str_num_array = str_num.scan(/.{3}/)
+        total_places = str_num_array.length
 
         # for each tiplet
         str_num_array.each.with_index do |val, i|
@@ -71,7 +72,6 @@ class Number
             puts "index: #{i}, val: #{val}."
             if val[0].to_i != 0
                 ret_string += (NUM_WORDS[val[0].to_i] + " hundred ")
-                puts ret_string
             end
             # determine 10s place
             if val[1].to_i != 0
@@ -86,18 +86,19 @@ class Number
                 ret_string += (NUM_WORDS[val[2].to_i] + " ")
             end
             # add thousand/million/billion/trillion based on what triplet it is
-            case i
-            when 1
-                ret_string += "thousand "
+            current_place = total_places - i
+            case current_place
             when 2
-                ret_string += "million "
+                ret_string += "thousand "
             when 3
-                ret_string += "billion "
+                ret_string += "million "
             when 4
+                ret_string += "billion "
+            when 5
                 ret_string += "trillion "
             else
             end
         end
-        @num_word = ret_string
+        @num_word = ret_string[0..-1]
     end
 end
