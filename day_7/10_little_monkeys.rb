@@ -81,22 +81,22 @@ end
 
 little_monkeys = Ryhme.new("Momma", "Little Monkeys", "bumpped his head")
 
-p little_monkeys.ten_monkeys
+puts little_monkeys.ten_monkeys
 p"-" * 60
-p little_monkeys.nine_monkeys
+puts little_monkeys.nine_monkeys
 p"-" * 60
-p little_monkeys.eight_monkeys
+puts little_monkeys.eight_monkeys
 p"-" * 60
-p little_monkeys.seven_monkeys
+puts little_monkeys.seven_monkeys
 p"-" * 60
-p little_monkeys.six_monkeys
+puts little_monkeys.six_monkeys
 p"-" * 60
-p little_monkeys.five_monkeys
+puts little_monkeys.five_monkeys
 p"-" * 60
-p little_monkeys.four_monkeys
+puts little_monkeys.four_monkeys
 p"-" * 60
-p little_monkeys.three_monkeys
+puts little_monkeys.three_monkeys
 p"-" * 60
-p little_monkeys.two_monkeys
+puts little_monkeys.two_monkeys
 p"-" * 60
-p little_monkeys.one_monkey
+puts little_monkeys.one_monkey
