@@ -37,14 +37,33 @@ NUM_WORDS = {
 
 class Number
     attr_accessor :num
-    attr_reader :num_str
+    attr_reader :num_word
 
     def initialize(n)
         @num = n
-        @num_str = num_to_word()
+        @num_word = num_to_word
+    end
+
+    def num=(new_num)
+        @num = new_num
+        @num_word = num_to_word
     end
 
     def num_to_word()
+        # Convert the integer to a string
+        str_num = @num.to_s
+        # Split the string into groups of three
 
+        # for each tiplet
+            
+            # determine 100s place
+            
+            # determine 10s place
+
+            # determine 1s place
+
+            # add thousand/million/billion/trillion based on what triplet it is
     end
+
+
 end
