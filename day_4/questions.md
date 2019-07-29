@@ -27,4 +27,4 @@ hello_someone("Sam")
 * puts "#{name} I am.", after assigning the parameter a value.
 
 1. What questions do you still have about methods in Ruby?
-* Not so much a question I can articulate but I would still like to hear this explained out "for beginners" so to speak. I have looked at online videos and read explanations and I am definitely understanding it better but it would be helpful to hear/see an explanation of an example using our materials so we can compartmentalize a little better.
+* Not so much a question I can articulate but I would still like to hear this explained out "for beginners" so to speak. I have looked at online videos and read explanations and I am definitely understanding it better but it would be helpful to hear/see an explanation of an example using our materials so we can compartmentalize a little better. 
