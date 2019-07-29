@@ -29,4 +29,4 @@ stuff = {'name' => 'Zed', 'age' => 39, 'height' => 6 * 12 + 2}
 
 1. What questions do you still have about hashes?
 
-Similar to my answer from the last section, it would be nice to have a couple examples explained as you go through them. I just find it easier to learn that way and web pages and videos do not follow the same structures as our readings all the time so it would be nice to see it played in the way you guys would like us to.
+Similar to my answer from the last section, it would be nice to have a couple examples explained as you go through them. I just find it easier to learn that way and web pages and videos do not follow the same structures as our readings all the time so it would be nice to see it played in the way you guys would like us to. 
