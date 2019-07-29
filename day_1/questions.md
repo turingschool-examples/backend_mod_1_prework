@@ -12,8 +12,9 @@
 * puts animal
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 * Interpolation is used to kind if 'glue' strings together. This way, you can write a string and add a string into it without having to use the + characters. All you have to do to add your variable/strings is #{}. Ruby will find the variable associated with the string inside the braces and replace it for you.
+```
+puts "The #{animal} is white with black stripes."
 
-```puts "The #{animal} is white with black stripes."
 ```
 1. How do we get input from a user? What is the method that we would use?
 * To get input from the user you need to use the 'gets/gets.chomp' command. This is useful for a situation where the user needs to enter information.
@@ -25,4 +26,3 @@ more precise answer.
 1. Name and describe two common string methods.
 * String interpolation: allows you to add strings together using #{variable_here}.
 * Capitalize: .capitalize will make the first letter in a string uppercase and the rest of the letters in the string lowercase.
- 
