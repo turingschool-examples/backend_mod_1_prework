@@ -20,7 +20,7 @@ while valid == false do
 end
 
 while num_monkeys.num > 1 do 
-    puts num_monkeys.num_word + REPEATED_RHYME + "\n\n"
+    puts num_monkeys.num_word.capitalize + REPEATED_RHYME + "\n\n"
     num_monkeys.decriment
 end
 

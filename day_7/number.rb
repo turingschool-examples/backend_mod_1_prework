@@ -106,14 +106,18 @@ class Number
             else
             end
         end
-        @num_word = ret_string[0..-1].capitalize
+        
+        # remove the final whitespace
+        @num_word = ret_string[0..-1]
     end
 
+    # increment by one and recalculate the word
     def increment
         @num += 1
         num_to_word
     end
 
+    # decriment by one and recalculate the word
     def decriment
         @num -= 1
         num_to_word
