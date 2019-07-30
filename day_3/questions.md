@@ -1,6 +1,6 @@
 ## Day 3 Questions
 
-###1. What is a conditional statement? Give three examples.
+1. What is a conditional statement? Give three examples.
 
 Conditional statements evaluate to `true` or `false`.
 
@@ -24,6 +24,8 @@ if shoes > 5
 elsif shoes = 5
   puts "I have some shoes."
 end
+
+=> "I have some shoes."
 ```
 
 A third example is the `esle` statement which runs its code if the `if` and the `elsif` statements were both false.
@@ -37,13 +39,15 @@ elsif shoes = 5
 else
   puts "I need to go shoe shopping!"
 end
+
+=> "I need to go shoe shopping!"
 ```
 
-###1. Why might you want to use an if-statement?
+1. Why might you want to use an if-statement?
 
 So that you can have your script evaluate if something is `true` or `false` and then perform an action based on it being `true` or `false`.
 
-###1. What is the Ruby syntax for an if statement?
+1. What is the Ruby syntax for an if statement?
 
 ```
 if conditional [then]
@@ -51,11 +55,11 @@ if conditional [then]
 end
 ```
 
-###1. How do you add multiple conditions to an if statement?
+1. How do you add multiple conditions to an if statement?
 
 By using multiple conditional operators like `==`(equal), `>` (greater than), `>=`(greater than or equal to), `<`(less than), and `<=`(less than or equal to).
 
-###1. What is the Ruby syntax for an if/elsif/else statement?
+1. What is the Ruby syntax for an if/elsif/else statement?
 
 ```
 if conditional [then]
@@ -66,6 +70,6 @@ if conditional [then]
   code... "Last resort"]
 ```
 
-###1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-For `loops` as in if the statement is not `true` then run it again until it is. 
+For `loops` checking to see if a statement is `true` which runs until it receives a `true` value.
