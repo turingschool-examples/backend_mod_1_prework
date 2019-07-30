@@ -8,7 +8,7 @@
 ```
 def hello(my_name)
 
-  puts "Hello there #{my_name}."
+  puts "Hello #{my_name}."
 
 end
 puts hello("Sam I am")
