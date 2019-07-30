@@ -7,11 +7,11 @@ require 'time'
 class Person
   attr_reader :first_name, :last_name, :dob, :hair_color, :eye_color
   def initialize(first_name, last_name, dob, hair_color, eye_color)
-    @first_name  = first_name
-    @last_name     = last_name
-    @dob = dob
-    @hair_color = hair_color
-    @eye_color = eye_color
+    @first_name     = first_name
+    @last_name      = last_name
+    @dob            = dob
+    @hair_color     = hair_color
+    @eye_color      = eye_color
   end
 
   def calc_age (secs)
