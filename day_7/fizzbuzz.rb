@@ -9,4 +9,4 @@ else
   puts i
 end
 end
-# This works with any range of numbers you choose to replace to (1..100) collection with.
+# This works with any range of numbers you choose to replace the (1..100) collection with.
