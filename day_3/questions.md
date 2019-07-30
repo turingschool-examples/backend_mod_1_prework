@@ -46,7 +46,7 @@ end
 
 1. How do you add multiple conditions to an if statement?
 
-* you use && "for" and || for "or".
+* you use && for "and" and || for "or".
   -if apple is green && (and) / || (or) ripe
 
 1. What is the Ruby syntax for an if/elsif/else statement?
@@ -63,4 +63,3 @@ end
 ```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 * "elsif" can be used  if an initial condition is not met to see if another conditional statement is satisfied.
- 
