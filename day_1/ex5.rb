@@ -26,10 +26,3 @@ puts "#{inch} inch equals #{centimeter} centimeters."
 puts "#{pound} pound equals #{kilogram} kilograms."
 puts "#{inch * 4.0} inches equal #{centimeter * 4.0} centimeters."
 puts "#{pound * 80.0} pounds equals #{kilogram * 80.0} kilograms."
-
-
-
-in_to_cm = 1 * 2.54
-cm_to_in = 1 * 0.39
-lb_to_kg = 1 * 0.45
-kg_to_lb = 1 * 2.20
