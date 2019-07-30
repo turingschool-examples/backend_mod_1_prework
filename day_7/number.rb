@@ -1,4 +1,6 @@
 # A class to turn an integer to its english string
+# Note, this only goes up to quintillion, so numbers larger than quintillion do not work.
+
 module Words
     NUM_WORDS = {
         1 => "one",
@@ -31,6 +33,7 @@ module Words
     }
 end
 
+
 class Number
     include Words
     attr_accessor :num
@@ -38,28 +41,26 @@ class Number
 
     def initialize(n)
         @num = n
-        puts "Accepted #{n}."
-        @num_word = num_to_word
+        num_to_word
     end
 
+    # Recalculate the word if the number is changed
     def num=(new_num)
         @num = new_num
-        @num_word = num_to_word
+        num_to_word
     end
 
+    # Converts the integer to its English string format
     def num_to_word()
         # Convert the integer to a string
         ret_string = ""
         str_num = @num.to_s
         str_len = str_num.length
-        puts "str_len: #{str_len}"
-
 
         # How many additional 0 are needed to make a multiple of three then prepend the string
-        needed_zeros = (str_len % 3)
-        puts "needed_zeros: #{needed_zeros}"
-        if needed_zeros != 0
-            str_num.prepend("0" * (3 - needed_zeros))
+        needed_zeros = 3 - (str_len % 3)
+        if needed_zeros != 3
+            str_num.prepend("0" * needed_zeros)
         end
 
         # Split the string into groups of three
@@ -69,23 +70,25 @@ class Number
         # for each tiplet
         str_num_array.each.with_index do |val, i|
             # determine 100s place
-            puts "index: #{i}, val: #{val}."
             if val[0].to_i != 0
                 ret_string += (NUM_WORDS[val[0].to_i] + " hundred ")
             end
+
             # determine 10s place
             if val[1].to_i != 0
                 if val[1].to_i == 1
-                    ret_string += (NUM_WORDS[val[1..2].join.to_i] + " ")
+                    ret_string += (NUM_WORDS[val[1..2].to_i] + " ")
                 else
                     ret_string += (NUM_WORDS[val[1].to_i * 10] + " ")
                 end
             end
+
             # determine 1s place
             if (val[2].to_i != 0) && (val[1].to_i != 1)
                 ret_string += (NUM_WORDS[val[2].to_i] + " ")
             end
-            # add thousand/million/billion/trillion based on what triplet it is
+
+            # add thousand/million/billion/trillion/etc based on what triplet it is
             current_place = total_places - i
             case current_place
             when 2
@@ -96,9 +99,23 @@ class Number
                 ret_string += "billion "
             when 5
                 ret_string += "trillion "
+            when 6
+                ret_string += "quadrillion "
+            when 7
+                ret_string += "quintillion "
             else
             end
         end
-        @num_word = ret_string[0..-1]
+        @num_word = ret_string[0..-1].capitalize
+    end
+
+    def increment
+        @num += 1
+        num_to_word
+    end
+
+    def decriment
+        @num -= 1
+        num_to_word
     end
 end
