@@ -1,4 +1,5 @@
 # A class to turn an integer to its english string
+# This should probably be refactored to a static method in the integer and string class
 # Note, this only goes up to quintillion, so numbers larger than quintillion do not work.
 
 module Words
