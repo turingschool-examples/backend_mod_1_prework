@@ -28,13 +28,13 @@ class MyCar
 end
 
 tesla = MyCar.new(2019, 'tesla', 'black')
-tesla.accelerate(30)
+tesla.accelerate(20)
 tesla.present_speed
-tesla.accelerate(30)
+tesla.accelerate(20)
 tesla.present_speed
-tesla.slow(30)
+tesla.slow(20)
 tesla.present_speed
-tesla.slow(30)
+tesla.slow(20)
 tesla.present_speed
 tesla.turn_off
 tesla.present_speed
