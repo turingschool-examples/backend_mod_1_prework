@@ -31,7 +31,7 @@ p foods.last
 
 # Write code below that uses a method to add "lion" to the animals array and
 # print the result
-animals << "Lion"
+animals.insert(0, "Lion")
 p animals
 
 # Write code below that removes the last item of food from the foods array and
