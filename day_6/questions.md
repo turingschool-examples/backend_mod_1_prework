@@ -6,7 +6,7 @@
 
 1. In relation to a Class, what is an attribute?  
 
-   An attribute is a characteristic or information about an object (instance of a class).
+   An Attribute is a characteristic or information about an object (instance of a class).
 
 1. In relation to a Class, what is behavior?
 

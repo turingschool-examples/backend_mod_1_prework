@@ -38,4 +38,4 @@ p dinner.toppings
 
 dinner.add_topping("cilantro")
 dinner.remove_topping("cheese")
-dinner.change_protein("sofritas")
+dinner.change_protein("Sofritas")

@@ -14,7 +14,7 @@ class Dog
   end
 
   def bark
-    p "woof!"
+    p "Woof!"
   end
 
   def eat

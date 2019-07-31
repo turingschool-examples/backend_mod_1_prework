@@ -103,5 +103,5 @@ end
 sparky = GoodDog.new('Sparky', '12 inches', '10 lbs')
 puts sparky.info
 
-sparky.change_info('Spartacus', '24 inches', '45 lbs')
+sparky.change_info('Fido', '24 inches', '45 lbs')
 puts sparky.info

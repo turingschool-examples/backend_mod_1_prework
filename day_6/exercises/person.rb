@@ -24,10 +24,10 @@ class Person
 
 end
 
-donald = Person.new("pompadour", 73, "Donald")
+donald = Person.new("Pompadour", 73, "Donald")
 p donald.hairdo
 p donald.age
 p donald.name
 
-donald.change_style("mohawk")
+donald.change_style("Mohawk")
 donald.get_older(73)
