@@ -19,3 +19,4 @@
 - 2 == 25
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 - 25 > 2
+ 
