@@ -2,15 +2,15 @@
 
 ### In your own words, what is a Class?
 
-A Class is a grouping of methods that work on the same objects or instances. It is the outline for an object is, in terms of what the object's attributes are and what the object can do.  
+A Class is a grouping of methods that work on the same objects or instances. It is the outline for what an object is, in terms of what the object's attributes are and what the object can do.  
 
 ### In relation to a Class, what is an attribute?
 
-An Attribute is the defining what the object is made of within the class. All objects will have unique Attributes in the class, but they will all be related. For example a `Dog` class might have `color`, `age`, `breed` attributes. Each will be unique for each instance of dog, but they will all fall into those categories.
+An Attribute is defining what the object is made of within the class. All objects will have unique Attributes in the class, but they will all be related. For example a `Dog` class might have `color`, `age`, `breed` attributes. Each will be unique for each instance of dog, but they will all fall into those categories.
 
 ### In relation to a Class, what is behavior?
 
-A Behavior is what the object should be able to do. This is the action any of the objects can take. Going back to the `Dog` class, no matter the attributes all dogs can `bark`, `run`, `drool`.
+A Behavior is what the object should be able to do. Objects, regardless of their attributes, should be able to take the same action. Going back to the `Dog` class, no matter the attributes all dogs can `bark`, `run`, `drool`.
 
 ### In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 ```
@@ -48,4 +48,4 @@ lassie = Dog.new("Lassie", "Collie", "false")
 
 ### What questions do you still have about classes in Ruby?
 
-1. Why in the Class, Attributes, and Methods lesson did it not talk initialize method? Can we skip it if we use accessor methods?
+1. Why in the Class, Attributes, and Methods lesson did it not talk about the `initialize` method? Can we skip it if we use accessor methods?
