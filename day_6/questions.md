@@ -1,4 +1,4 @@
-## Day 5 Questions
+## Day 6 Questions
 
 ### In your own words, what is a Class?
 
