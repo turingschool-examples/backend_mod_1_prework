@@ -3,9 +3,9 @@
 1. What is a conditional statement? Give three examples.
 
 A statement that is written to yield a true or false answer.
-*if Georgia goes outside, then she will chase a squirrel.
-*if Georgia stays inside, then she will roll on her back and demand belly rubs
-*if Georgia does not stay inside or go outside, then she is taking a ride in the car.
+- If Georgia goes outside, then she will chase a squirrel.
+- If Georgia stays inside, then she will roll on her back and demand belly rubs
+- If Georgia does not stay inside or go outside, then she is taking a ride in the car.
 
 1. Why might you want to use an if-statement?
 
@@ -38,4 +38,4 @@ end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-You can use conditional statements to test your code and see if it is functioning properly.
+You might want to use conditional statements to test your code and see if it is functioning properly. 
