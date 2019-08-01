@@ -3,9 +3,9 @@
 1. What is a conditional statement? Give three examples.
 
 A statement that is written to yield a true or false answer.
--if Georgia goes outside, then she will chase a squirrel.
--if Georgia stays inside, then she will roll on her back and demand belly rubs
--if Georgia does not stay inside or go outside, then she is taking a ride in the car.
+*if Georgia goes outside, then she will chase a squirrel.
+*if Georgia stays inside, then she will roll on her back and demand belly rubs
+*if Georgia does not stay inside or go outside, then she is taking a ride in the car.
 
 1. Why might you want to use an if-statement?
 
