@@ -22,7 +22,7 @@ Before starting on Strings, Floats, Arrays, If statements, etc, we need to do a 
 
 We'll walk through this process now to make sure we have what we need, and finish with getting started on our first day of homework. 
 
-These setup instructions assume that you have completed the setup for Module 0, to install Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/).
+These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/).
 
 Here's what we're going to go over:
 
@@ -40,7 +40,9 @@ As the Ruby language has evolved over the years, new versions have been released
 To some extent programs written for one version of Ruby will run just fine on another version,
 but sometimes you'll encounter incompatibilities, such that a program needs to be run with a specific version of Ruby.
 
-For this reason, we'd like to be able to install and manage multiple versions of Ruby on our system. This is precisely the job rbenv handles.
+Additionally, there's some very useful "gems" we use while writing code (specifically the `pry` gem) and we cannot install that very useful tool without first installing and configuring `rbenv`.
+
+For this reason, we'd like to be able to install and manage multiple versions of Ruby on our system. This is precisely the job `rbenv` handles.
 
 #### Installation
 
@@ -224,10 +226,16 @@ Each day's `README` will walk you through the steps you need to take to save you
 
 To start, in your terminal, `cd` into the `day_0` directory. Follow the instructions contained in the `readme.md` file, and have a great time! 
 
+----------------------------------
+
+
 # Extension once finished with all pre-work (optional)
 
 You're done! You've finished your first Mod 0 Capstone assignment! 
 
-If you're interested in challenging yourself _even more_ more and getting a step up in your coding abilities before your first day, we recommend working on [Credit Check](https://github.com/turingschool-examples/credit_check). 
+If you're interested in challenging yourself _even more_ more and getting a step up in your coding abilities before your first day, we recommend working on either: 
 
-Follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer. 
+- [A back-end grad's advice and useful study resources](https://josh.works/turing-backend-prep-01-intro)
+- [Credit Check](https://github.com/turingschool-examples/credit_check).
+
+If you do Credit Check, follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer. 
