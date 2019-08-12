@@ -2,7 +2,7 @@
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor. When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
-You already have had some exposure to the terminal in the [mod0 session 3: Terminal and Command Line](http://mod0.turing.io/session3/#terminal-and-command-line). Let's do a little more practice!
+You already have had some exposure to the terminal in the [mod0 session 2: Terminal and Command Line](http://mod0.turing.io/session2/#terminal-and-command-line). Let's do a little more practice!
 
 ### Practice
 
