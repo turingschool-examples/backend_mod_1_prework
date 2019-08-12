@@ -6,6 +6,7 @@ def rhyme
     puts "One fell off and bumped his head,"
     puts "Mama called the doctor and the doctor said,"
     puts "No more monkeys jumping on the bed!"
+    puts " "
   end
 end
 
