@@ -4,7 +4,7 @@ Computers may not be smart, but they are good at doing many things *very* quickl
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
-## Open your local copy of module_0_capstone
+## Open your local copy of backend_module_0_capstone
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 

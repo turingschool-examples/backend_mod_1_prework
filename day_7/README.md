@@ -4,8 +4,8 @@ Congrats on making it through the first 6 days of Prework! Today, you will be pu
 
 When you have completed the activities for day 7 you will submit your work through a GitHub Pull Request - see below for instructions on how to do that.
 
-## Open your local copy of module_0_capstone
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/1module/module_0_capstone`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
+## Open your local copy of backend_module_0_capstone
+1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/1module/backend_module_0_capstone`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
 
 1. Using what you have learned in the last week, complete at least one of the projects below.  Put any files related to the project(s) you choose in a day_7 directory.
 
@@ -41,6 +41,6 @@ When you have completed *all* the activities described above, follow the steps b
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
 
-5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/module_0_capstone. (using your own GitHub username, of course!)
+5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/backend_module_0_capstone. (using your own GitHub username, of course!)
 
 And you're done!  Can't wait to see you on the first day of class!!

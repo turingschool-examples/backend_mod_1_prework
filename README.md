@@ -20,7 +20,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 Before starting on Strings, Floats, Arrays, If statements, etc, we need to do a little more setup to prepare a Ruby-specific development environment.
 
-We'll walk through this process now to make sure we have what we need, and finish with getting started on our first day of homework. 
+We'll walk through this process now to make sure we have what we need, and finish with getting started on our first day of homework.
 
 These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/).
 
@@ -31,7 +31,7 @@ Here's what we're going to go over:
 *   [Forking and Cloning the Prework Repository](#forking-the-module-0-capstone-repository)
 
 
-Now, lets get a Ruby version management tool on our machines. 
+Now, lets get a Ruby version management tool on our machines.
 
 ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
@@ -111,7 +111,7 @@ Install it with:
 $ rbenv install 2.4.1
 ```
 
-It will take a while to finish installing, and print a _lot_ of text to your terminal. 
+It will take a while to finish installing, and print a _lot_ of text to your terminal.
 
 When it's all finished, type:
 
@@ -165,11 +165,11 @@ We will be referencing many terminal commands throughout the prework. It is reco
 
 Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
 
-In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
+In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `backend_module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/module_0_capstone).
+####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/backend_module_0_capstone).
 
 ####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
 
@@ -181,11 +181,11 @@ In this scenario, the [Turing Github account](https://github.com/turingschool) o
 
 ## Clone down this new repository
 
-Now that you have forked this repository, the next thing to do is *clone your forked repository*. 
+Now that you have forked this repository, the next thing to do is *clone your forked repository*.
 
 Cloning is when you copy a remote Github repository to your local computer.
 
-#### 1. In YOUR `module_0_capstone` repository that your just forked, click on `Clone or Download`
+#### 1. In YOUR `backend_module_0_capstone` repository that your just forked, click on `Clone or Download`
 
 ![clone down your copy](/images/fork_03.jpg)
 
@@ -196,7 +196,7 @@ Cloning is when you copy a remote Github repository to your local computer.
 
 #### 4. Use your terminal to copy down this repository
 
- 
+
 1. Open your terminal
 
 ```
@@ -207,7 +207,7 @@ $ cd turing
 $ mkdir 1module
 $ cd 1module
 $ git clone <ctrl-v to paste ssh link here >
-Cloning into 'module_0_capstone'...
+Cloning into 'backend_module_0_capstone'...
 remote: Enumerating objects: 678, done.
 remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
 Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
@@ -220,22 +220,22 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `module_0_capstone` repository.
+From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `backend_module_0_capstone` repository.
 
 Each day's `README` will walk you through the steps you need to take to save your work.
 
-To start, in your terminal, `cd` into the `day_0` directory. Follow the instructions contained in the `readme.md` file, and have a great time! 
+To start, in your terminal, `cd` into the `day_0` directory. Follow the instructions contained in the `readme.md` file, and have a great time!
 
 ----------------------------------
 
 
 # Extension once finished with all pre-work (optional)
 
-You're done! You've finished your first Mod 0 Capstone assignment! 
+You're done! You've finished your first Mod 0 Capstone assignment!
 
-If you're interested in challenging yourself _even more_ more and getting a step up in your coding abilities before your first day, we recommend working on either: 
+If you're interested in challenging yourself _even more_ more and getting a step up in your coding abilities before your first day, we recommend working on either:
 
 - [A back-end grad's advice and useful study resources](https://josh.works/turing-backend-prep-01-intro)
 - [Credit Check](https://github.com/turingschool-examples/credit_check).
 
-If you do Credit Check, follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer. 
+If you do Credit Check, follow the same steps as you did in the 'Forking and Cloning the Prework Repository' section above to get this repo on your local computer.
