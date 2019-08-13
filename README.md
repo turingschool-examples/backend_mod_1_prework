@@ -22,7 +22,7 @@ Before starting on Strings, Floats, Arrays, If statements, etc, we need to do a 
 
 We'll walk through this process now to make sure we have what we need, and finish with getting started on our first day of homework.
 
-These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/).
+These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions).
 
 Here's what we're going to go over:
 
