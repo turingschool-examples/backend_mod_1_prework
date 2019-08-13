@@ -7,7 +7,7 @@ When you have completed the activities for day 7 you will submit your work throu
 ## Open your local copy of backend_module_0_capstone
 1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/1module/backend_module_0_capstone`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
 
-1. Using what you have learned in the last week, complete at both of the projects below.  Put any files related to the projects you choose in a day_7 directory.
+1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
     1. [FizzBuzz](./fizzbuzz.md)
     1. [10 Little Monkeys](./10_little_monkeys.md)
