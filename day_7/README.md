@@ -7,19 +7,19 @@ When you have completed the activities for day 7 you will submit your work throu
 ## Open your local copy of backend_module_0_capstone
 1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/1module/backend_module_0_capstone`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
 
-1. Using what you have learned in the last week, complete at least one of the projects below.  Put any files related to the project(s) you choose in a day_7 directory.
+1. Using what you have learned in the last week, complete at both of the projects below.  Put any files related to the projects you choose in a day_7 directory.
 
     1. [FizzBuzz](./fizzbuzz.md)
     1. [10 Little Monkeys](./10_little_monkeys.md)
+
+1. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
+
+1. Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. Use top down design to break these problems down as best you can. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
+
     1. [Ceasar Cipher](./ceasar_cipher.md)
     1. [Checker Board](./checker_board.md)
 
-1. When you are finished with your project(s), use your terminal to run the following commands in order to save your work to your local git repository and push your work to the remote repository on GitHub:
-
-    1. Use `git add day_7/<filename>` to add all additional files that you created today
-    1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-    1. `$ git commit -m "Add Day 7 Work"`
-    1. `$ git push origin master`
+1. When you are finished with your high level explanation, you should add, commit, and push your changes to GitHub.
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
