@@ -11,7 +11,7 @@ you would use it's index number to call on it. Since all indexes start with 0
 giraffe would be index 1. You could type - puts animals[1] and it would print giraffe.
 
 1. How would you add `"lion"` to the `animals` array?
-You can use the symbol '<<' - animal << "lion"
+You can use the operator '<<' - animal << "lion"
 You can also use the insert method. If you wanted to specify the place in the
 array that you wanted it added you would have two arguments - the index and the name
 ex animals.insert(1, "lion")
