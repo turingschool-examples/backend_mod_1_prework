@@ -1,0 +1,28 @@
+.sort - will return a new array with the array sorted according
+to the parameters you gave in the call
+
+.each - will run through the array for each index
+for example it can print each object as it runs through it.
+
+.join - will join together strings from different array indexes
+
+.index - will return the index number of the object you specify
+
+.include? - will give a true or false return as to whether the
+array holds the specified object
+
+.shuffle - will shuffle the contents of the array
+
+.first and .last - will call the first or last object
+in the array
+
+.push - will an index to the array
+
+.pop - will delete the last object in the array
+
+.shift - will delete the first object in the array
+
+.insert - will insert a new object into the array in a specific
+index spot if specified
+
+.length - will give the length of the array
