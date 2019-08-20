@@ -126,13 +126,13 @@ Be careful, there are two different rbenv commands, `version` and `versions`. Th
 Switch to your newly installed version with
 
 ```
-$ rbenv local 2.4.1`
+$ rbenv local 2.4.1
 ```
 
 Now enter:
 
 ```
-$ ruby -v`
+$ ruby -v
 ```
 
 This shows us what version of Ruby we are running. You should see something like:
