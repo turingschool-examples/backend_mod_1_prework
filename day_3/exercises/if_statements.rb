@@ -26,6 +26,7 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+weather == 'sunny'
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -48,6 +49,16 @@ puts "I have enough money for a gumball"
 puts "I don't have enough money for a gumball"
 
 
+num_quarters = 2
+
+if num_quarters => 2
+  puts "I have enough money for a gumball."
+elsif num_quarters < 2
+  puts "I don't have enough money for a gumball."
+else
+  puts "I'm not sure how much money I have!"
+end
+
 #####################
 # Using the variables defined below, determine if you have the
 # ingredients to make a pizza. A pizza requires at least two cups
@@ -61,3 +72,13 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour < 2
+  puts "I cannot make pizza."
+elsif cups_of_flour => 2 && has_sauce == false
+  puts "I cannot make pizza."
+elsif cups_of_flour => 2 && has_sauce == true
+  puts "I can make pizza."
+else
+  puts "I don't know how to make pizza"
+end 
