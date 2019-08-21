@@ -8,18 +8,19 @@ p foods
 
 # Write code below that will print a hash of animals and their number
 # at the zoo. (an inventory of animals)
-zoo = #YOUR CODE HERE
+zoo = {zebra: 3, gibbons: 4, koalas: 2, }
 p zoo
 
 # Using the zoo that you created above, print all the keys in the hash.
-# YOUR CODE HERE
+zoo.each_key {|key| puts key}
 
 # Using the zoo that you created above, print all the values in the hash.
-# YOUR CODE here
+zoo.each_value {|value| puts value}
 
 # Using the zoo taht you created above, print the value of the first item in
 # the hash
-# YOUR CODE HERE
+puts zoo[:zebra]
 
 # Add an animal to the zoo hash and print the updated hash.
-# YOUR CODE HERE
+zoo[:monkeys] = 3
+puts zoo
