@@ -48,7 +48,7 @@ For this reason, we'd like to be able to install and manage multiple versions of
 
 We've again included a video walk-through of this step (installing rbenv and the following step, installing a version of Ruby). Check it out, it might be helpful!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3DtqMlK8In0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
 
 Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
