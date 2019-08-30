@@ -2,6 +2,7 @@
 # to achieve the desired result. You should be able to run this
 # file from your terminal with the command `ruby day_1/exercises/numbers.rb`
 
+
 # example print the result of the sum of 2 and 2 to the terminal:
 p 2 + 2
 

@@ -2,6 +2,7 @@
 # to achieve the desired result. You should be able to run this
 # file from your terminal with the command `ruby day_1/exercises/loops.rb`
 
+
 #example: Write code that prints your name 5 times:
 5.times do
   p "Hermione Granger"

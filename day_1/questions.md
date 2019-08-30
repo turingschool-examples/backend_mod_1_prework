@@ -23,3 +23,5 @@
    One way to get input from the user is the gets.chomp method.
 
 1. Name and describe two common string methods.
+    .size: Returns the number of characters in a string
+    .include?: Returns "true" is a certain phrase is included in a string 
