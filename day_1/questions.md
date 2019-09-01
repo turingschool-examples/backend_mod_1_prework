@@ -30,6 +30,6 @@ The gets method is used to get user input and return it as a string. We use the 
 
 1. Name and describe two common string methods.
 
-  * We can check the length of a string with `.length`. If I wanted to see how many characters are in my `animal` string I can do `animal.length` to see there are 5 characters in zebra.
+We can check the length of a string with `.length`. If I wanted to see how many characters are in my `animal` string I can do `animal.length` to see there are 5 characters in zebra.
 
-  * We can also split strings. If I had another variable of `animals = "zebra tiger lion giraffe"` I can do `animals.split` and receive the array of my animals `["zebra", "tiger", "lion", "giraffe"]`
+We can also split strings. If I had another variable of `animals = "zebra tiger lion giraffe"` I can do `animals.split` and receive the array of my animals `["zebra", "tiger", "lion", "giraffe"]`
