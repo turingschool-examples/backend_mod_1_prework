@@ -31,6 +31,7 @@ class Dog
   def sees_treat
     self.drooling = true
     puts "#{self.name} starts to drool."
+  end
 end
 ```
 
