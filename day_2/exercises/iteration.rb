@@ -28,5 +28,5 @@ end
 # of each of the number.
 x = (1..10).to_a
 x.each do |x|
-  puts x*2
+  puts (x * 2)
 end

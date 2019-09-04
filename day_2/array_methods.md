@@ -7,9 +7,8 @@
  - sort alphabetically or numerically (not necessarily the most stable method)
 
 ##.collect
- - allows you to change an array using the block syntax
-  - this is the better method when you want to change the data in the current array or create a new array with using the block syntax
-    - You can either assign a new array using `.collect` OR use `.collect!` which will alter the existing array
+ - allows you to create a new array or alter the current array using the using the block syntax
+    - You can either assign a new array using `.collect` OR use `.collect!` and alter the existing array
 
 ##.first
  - returns the first element of the array [0]
