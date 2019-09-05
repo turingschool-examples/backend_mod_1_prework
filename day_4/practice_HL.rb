@@ -19,3 +19,13 @@ def hello_someone(name)
 end
 
 hello_someone("Harrison")
+
+
+def addition(x, y)
+  puts "Addition: #{x} + #{y}"
+  return x + y
+end
+
+help = addition(12, 10)
+
+puts help
