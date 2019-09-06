@@ -6,7 +6,7 @@ You already have had some exposure to the terminal in the [mod0 session 2: Termi
 
 ### We've got a video walk-through of how to navigate to this portion of the lesson, and how to finish _tomorrow's_ lesson:
 
-[![Walkthrough Day 1 and Git stuff](day1walkthroughscreencap.jpg)](https://youtu.be/videourlhere "Video Walkthrough for Day 1 & Git Stuff")
+[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 
 ### Practice
 

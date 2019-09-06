@@ -226,7 +226,7 @@ From here on out, all the work you do will be in your copy of this repository. O
 
 We've got _another_ video walk-through of these steps here:
 
-[![Walkthrough Day 1 and Git stuff](day1walkthroughscreencap.jpg)](https://youtu.be/videourlhere "Video Walkthrough for Day 1 & Git Stuff")
+[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 
 
 Each day's `README` will walk you through the steps you need to take to save your work.

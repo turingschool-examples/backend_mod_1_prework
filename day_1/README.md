@@ -8,7 +8,7 @@ At the end of the day, you will use several git commands to save your work to yo
 
 ### This lesson will have you using Git, Github, etc. Here's a video walkthrough
 
-[![Walkthrough Day 1 and Git stuff](day1walkthroughscreencap.jpg)](https://youtu.be/videourlhere "Video Walkthrough for Day 1 & Git Stuff")
+[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 
 ## Open your local copy of backend_module_0_capstone in Atom
 
