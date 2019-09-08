@@ -2,6 +2,7 @@
 
 1. What is a conditional statement? Give three examples.
   A conditional statement is one that can be true or false, which can be used to determine which actions to take or code to execute.
+  ```
   appetite = false
   if appetite = true
     puts "Go eat!"
@@ -26,6 +27,7 @@
   else
     puts "Time to work."
   end
+  ```
 
 1. Why might you want to use an if-statement?
   If statements allow you to run code when certain conditions are met, and not just all the time.
