@@ -4,6 +4,7 @@
 
 # example: write code below that will print an array of animals.
 # Store the array in a variable.
+
 animals = ["Zebra", "Giraffe", "Elephant"]
 p animals
 

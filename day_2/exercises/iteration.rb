@@ -4,6 +4,7 @@
 
 # example: Write code below that iterates through a list of animals and print
 # each animal.
+
 animals = ["Zebra", "Giraffe", "Elephant"]
 
 animals.each do |animal|
@@ -30,4 +31,4 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
 
 nums.each do |num|
   puts num * 2
-end   
+end
