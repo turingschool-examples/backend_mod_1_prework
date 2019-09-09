@@ -14,9 +14,9 @@
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-    Attributes: 
+    Attributes:  
       - @color
-      - @breed
+      - @breed  
     Behaviors:
       - hungry
       - tired
