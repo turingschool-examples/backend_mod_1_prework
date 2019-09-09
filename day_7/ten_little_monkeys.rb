@@ -41,21 +41,18 @@ def determine_print(num_print)
   ones_num = (num_print % 10)
   # there is a better way to do this
   str_tens_num = num_print.to_s[0]
-  tens_num = str_tens_num.to_i * 10
+  tens_num = num_print.to_s[0].to_i * 10
+  #hundreds_num = num_print.to_s[1].to_i * 100
 
+  #p hundreds_num
 
-
-  hundreds_num = (num_print / 100) * 100
-
-  
   num_size = num_print.to_s.length
-   p str_tens_num
    if num_print <= 20
      return num_index[num_print]
    elsif num_size == 2
      return num_index[tens_num].to_s << " " << num_index[ones_num].to_s
    elsif num_size == 3
-     return num_index[hundreds_num].to_s << " " << num_index[tens_num].to_s << " " << num_index[ones_num].to_s
+    # return num_index[hundreds_num].to_s << " " << num_index[tens_num].to_s << " " << num_index[ones_num].to_s
    end
 end
 
