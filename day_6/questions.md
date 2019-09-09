@@ -16,7 +16,8 @@
 
     Attributes:   
       - @color
-      - @breed  
+      - @breed
+
     Behaviors:
       - hungry
       - tired
