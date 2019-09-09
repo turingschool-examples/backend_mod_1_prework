@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'sunny'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -44,9 +44,13 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+if num_quarters == 0
+  puts "I don't have enough money for a gumball."
+elsif num_quarters == 1
+  puts "I don't have enough money for a gumball."
+else
+  puts "I have enough money for a gumball!"
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -60,4 +64,12 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
 cups_of_flour = 1
-has_sauce = true
+has_sauce = true 
+
+if cups_of_flour < 1
+  puts "I cannot make pizza. Need flour."
+elsif has_sauce == false
+  puts "I cannot make pizza. Need Sauce"
+else
+  puts "I can make pizza!"
+end
