@@ -12,17 +12,15 @@ without having to write the code over and over.`
   puts "Sam I am."
 end
 
-puts hello
-
-END CODE```
+puts hello```
 
 1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-`def hello_someone(name)
+```def hello_someone(name)
   puts "#{name} I am"
 end
 
-hello_someone("Nate")``
+hello_someone("Nate")```
 
 1. How would you call or execute the method that you created above?
 
