@@ -6,20 +6,31 @@
 foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
+puts '-' * 10
 # Write code below that will print a hash of animals and their number
 # at the zoo. (an inventory of animals)
-zoo = #YOUR CODE HERE
+zoo = {zebras: 6, elephants: 4, lions: 2, puppies: 0}
 p zoo
 
+puts '-' * 10
 # Using the zoo that you created above, print all the keys in the hash.
-# YOUR CODE HERE
+p zoo.keys
+
+puts '-' * 10
 
 # Using the zoo that you created above, print all the values in the hash.
-# YOUR CODE here
+p zoo.values
 
-# Using the zoo taht you created above, print the value of the first item in
+puts '-' * 10
+
+# Using the zoo that you created above, print the value of the first item in
 # the hash
-# YOUR CODE HERE
+
+p "There are #{zoo[:zebras]} zebras at the zoo."
+
+puts '-' * 10
 
 # Add an animal to the zoo hash and print the updated hash.
-# YOUR CODE HERE
+zoo['kitties'] = 2
+
+p "There are now #{zoo['kitties']} kitties at the zoo."
