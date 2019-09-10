@@ -2,8 +2,8 @@
 
 1. In your own words, what is the purpose of a method?
 
-In short. to save time. You can use a method to execute a piece of code over and over
-without having to write the code over and over.
+`In short. to save time. You can use a method to execute a piece of code over and over
+without having to write the code over and over.`
 
 1. In the space below, create a method named `hello` that will print `"Sam I am"`.
 
