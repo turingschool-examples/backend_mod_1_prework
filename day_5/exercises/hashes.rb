@@ -34,3 +34,5 @@ puts '-' * 10
 zoo['kitties'] = 2
 
 p "There are now #{zoo['kitties']} kitties at the zoo."
+
+.
