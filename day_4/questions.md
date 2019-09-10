@@ -7,15 +7,14 @@ without having to write the code over and over.`
 
 1. In the space below, create a method named `hello` that will print `"Sam I am"`.
 
-`Answer:
 
-def hello
+```def hello
   puts "Sam I am."
 end
 
 puts hello
 
-END CODE`
+END CODE```
 
 1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
