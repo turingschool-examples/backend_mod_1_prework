@@ -56,7 +56,6 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)
 1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)
-# ****RESUME HERE**** # 
 1. Repeat the steps from the previous lessons for [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
