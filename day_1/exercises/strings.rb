@@ -1,12 +1,16 @@
 # In the exercises below, write your own code where indicated
 # to achieve the desired result. You should be able to run this
 # file from your terminal with the command `ruby day_1/exercises/strings.rb`
+# Make sure you're not in the day_1 directory before you run the command
+# or it will not run.
 
 # example: Write code below to print your name to the terminal:
 p "Alan Turing"
+# my example
+p "Ana Perez Santos"
 
 # Write code below to print `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+p "Welcome to Turing!"
 
 # Write code below to print `99 bottles of pop on the wall...`:
-# YOUR CODE HERE
+p "99 bottles of pop on the wall..."
