@@ -54,6 +54,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
     1. Read the Common Student Questions section.
 
 1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+# ****RESUME HERE**** # 
 1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)
 1. Repeat the steps from the previous lessons for [More Strings](https://learnrubythehardway.org/book/ex6.html)
 1. Repeat the steps from the previous lessons for [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
