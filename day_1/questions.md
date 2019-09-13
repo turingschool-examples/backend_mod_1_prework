@@ -10,8 +10,7 @@
 
 1. Explain the difference between an integer and a float?
 
-
-  Basically, decimals. Integers are whole numbers. Floats are decimals.
+    Basically, decimals. Integers are whole numbers. Floats are decimals.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
