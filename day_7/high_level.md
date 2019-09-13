@@ -18,10 +18,10 @@
     - I may need a nested loop or if statement of some kind.
 
 1. Length (Rows)  
-  1.1 print rows with offsetting X and " " beginning points  
-  1.2 print the correct amount of rows based on the input   
-     1.2.2 loop or until function may be necessary    
-     1.2.3 have these rows print out on separate rows  
+  1. print rows with offsetting X and " " beginning points  
+  1. print the correct amount of rows based on the input   
+   1. loop or until function may be necessary    
+   1. have these rows print out on separate rows  
 2. Width (Columns)  
-  2.1 print odd row or every other row starting with "X" and even row staring with " "  
-  2.2 Create method that prints the correct sequence of X's and " "'s  
+  2. print odd row or every other row starting with "X" and even row staring with " "  
+  2. Create method that prints the correct sequence of X's and " "'s  
