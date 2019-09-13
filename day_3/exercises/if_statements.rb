@@ -8,19 +8,20 @@
   # if it is rainy, print "umbrella"
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
-
-  weather = 'snowy'
+print "What is the weather today? "
+  puts "Is it sunny, rainy, snowy, or icy?"
+  weather = gets.chomp
 
   if weather == 'sunny'
-    p "sunscreen"
+    puts "sunscreen"
   elsif weather == 'rainy'
-    p "umbrella"
+    puts "umbrella"
   elsif weather == 'snowy'
-    p "coat"
+    puts "don't go to the beach"
   elsif weather == 'icy'
-    p "yak traks"
+    puts "yak traks"
   else
-    p "good to go!"
+    puts "good to go!"
   end
 
 # Manipulate the variable 'weather' to see if you can print something other
@@ -44,8 +45,16 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+puts "How many quarters do you have?"
+  num_quarters = gets.chomp.to_i
+
+  if num_quarters >= 2
+    puts "I have enough money for a gumball"
+
+  elsif num_quarters < 2
+    puts "I don't have enough money for a gumball"
+
+end
 
 
 #####################
