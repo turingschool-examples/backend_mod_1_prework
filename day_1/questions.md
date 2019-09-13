@@ -1,16 +1,21 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
-  puts "Hello, World!"
+
+puts "Hello, World!"
 
 1. What is the character you would use to indicate comments in a ruby file?
-  An octothorp: #
+
+An octothorp: #
 
 1. Explain the difference between an integer and a float?
+
+
   Basically, decimals. Integers are whole numbers. Floats are decimals.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-  animal = "zebra"
+
+animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
   puts animal
