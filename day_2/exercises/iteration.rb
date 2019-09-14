@@ -28,10 +28,23 @@ end
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
 
+#1
 numbers = [1, 2, 3, 4, 5]
 p (numbers * 2).sort
 
-# numbers = [1, 2, 3, 4, 5]
-# numbers.each do |num|
-#   p num.to_s * 2
-# end
+#2
+double_number = []
+
+numbers = [1, 2, 3, 4, 5]
+numbers.each do |num|
+double_number << num * 2
+end
+
+print double_number
+
+#3
+
+numbers = [1, 2, 3, 4, 5]
+double_number = numbers.map do |num|
+num * 2
+end
