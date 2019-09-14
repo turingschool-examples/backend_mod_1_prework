@@ -39,7 +39,7 @@ color = "blue"
 ```
 
 ***1. Why might you want to use an if-statement?***
-Some code should only run under certain circumstances, in a specific order, or under conditions. if-statements allow us to do this within a block.
+`Some code should only run under certain circumstances, in a specific order, or under conditions. if-statements allow us to do this within a block.`
 
 ***1. What is the Ruby syntax for an if statement?***
 ```
@@ -48,7 +48,7 @@ puts "do this"
 end
 ```
 ***1. How do you add multiple conditions to an if statement?***
-By using boolean operators, such as &&, ||, and, or.
+`By using boolean operators, such as &&, ||, and, or.`
 
 ***1. What is the Ruby syntax for an if/elsif/else statement?***
 ```
@@ -65,4 +65,4 @@ end
 ```
 
 ***1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?***
-unless-statements and when-statements. We can use conditional statements any time we need to compare two or more pieces of code.
+`unless-statements and when-statements. We can use conditional statements any time we need to compare two or more pieces of code.`
