@@ -1,6 +1,6 @@
 ## Day 3 Questions
 
-1. What is a conditional statement? Give three examples.
+***1. What is a conditional statement? Give three examples.***
 ex1)
 ```
 age = 21
@@ -38,19 +38,19 @@ color = "blue"
   end
 ```
 
-1. Why might you want to use an if-statement?
+***1. Why might you want to use an if-statement?***
 Some code should only run under certain circumstances, in a specific order, or under conditions. if-statements allow us to do this within a block.
 
-1. What is the Ruby syntax for an if statement?
+***1. What is the Ruby syntax for an if statement?***
 ```
 if this_this_is_true
 puts "do this"
 end
 ```
-1. How do you add multiple conditions to an if statement?
-By using boolean operators, such as &&, ==, etc...
+***1. How do you add multiple conditions to an if statement?***
+By using boolean operators, such as &&, ||, and, or.
 
-1. What is the Ruby syntax for an if/elsif/else statement?
+***1. What is the Ruby syntax for an if/elsif/else statement?***
 ```
 if booleanOne
     #if booleanOne is true it executes the following action
@@ -64,5 +64,5 @@ else
 end
 ```
 
-1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+***1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?***
 unless-statements and when-statements. We can use conditional statements any time we need to compare two or more pieces of code.
