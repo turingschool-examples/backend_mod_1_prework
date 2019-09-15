@@ -68,17 +68,17 @@ end
   ```
   names_arr = ["Alice Smith", "Bob Evans", "Roy Rogers"]
   names_arr.each do |names|
-    last_name = names.split.first
+    last_name = names.split.last
     p "#{last_name} #{last_name.length}"
   end
   ```
   * How can you create an integer which represents the total number of characters in all the names?
 ```
-  #Without White Space
+  # Without White Space
   names_arr = ["Alice Smith", "Bob Evans", "Roy Rogers"]
   p names_arr.join.delete(" ").length
 
-  #With White Space
+  # With White Space
   names_arr = ["Alice Smith", "Bob Evans", "Roy Rogers"]
   p names_arr.join(" ").length
   ```
