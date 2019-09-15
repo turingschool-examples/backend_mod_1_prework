@@ -11,7 +11,7 @@ Today we'll be covering a few simple array methods.
 The `each` method takes two arguments, an element and a block. When you call `each` on an array it will run the given block once through each element in the array.
 
 ### 2. `collect`
-"The `collect` method applies the block to each element in the array"
+The `collect` method applies the block to each element in the array
 Ex)
 ```
 a = [3, 5, 2, 1, 7]
