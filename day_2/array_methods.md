@@ -12,6 +12,7 @@ The `each` method takes two arguments, an element and a block. When you call `ea
 
 ### 2. `collect`
 The `collect` method applies the block to each element in the array
+
 Ex)
 ```
 a = [3, 5, 2, 1, 7]
@@ -21,6 +22,7 @@ a.collect {|x| x + 2 }
 
 ### 3. `first` and `last`
 The `first` method returns the first element in the array.
+
 Ex)
 ```
 b = ["a", "b", "c", "d"]
@@ -28,6 +30,8 @@ b.first
 => "a"
 ```
 The `last` method returns the last element in the array.
+
+Ex)
 ```
 b = ["a", "b", "c", "d"]
 b.last
@@ -36,6 +40,7 @@ b.last
 
 ### 4. `shuffle`
 The shuffle method randomly shuffles the elements in an array.
+
 Ex)
 ```
 b = ["a", "b", "c", "d"]
@@ -45,6 +50,8 @@ b.shuffle
 
 ### 5. `sort`
 The `sort` method sorts the objects in the array alphabetically. Unless they're integers, in which case it will sort them in ascending order.
+
+Ex)
 ```
 a = [3, 5, 2, 1, 7]
 a.sort
