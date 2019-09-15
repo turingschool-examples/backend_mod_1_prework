@@ -8,6 +8,7 @@ a.collect {|x| x * 2}
 
 ## 2) If you had the same array, how would you only print out the even numbers? What about the odd numbers?
 ```
+# even numbers
 my_nums = [1, 2, 3, 4]
 my_nums.each do |even_num|
 if even_num.even?
@@ -16,6 +17,7 @@ end
 end
 ```
 ```
+# odd numbers
 my_nums = [1, 2, 3, 4]
 my_nums.each do |odd_num|
 if odd_num.odd?
