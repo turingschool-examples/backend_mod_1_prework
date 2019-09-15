@@ -6,7 +6,10 @@
 p "Alan Turing"
 
 # Write code below to print `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+puts "Welcome to Turing!"
 
 # Write code below to print `99 bottles of pop on the wall...`:
-# YOUR CODE HERE
+puts "99 bottles of pop on the wall..."
+
+
+#used puts because I wanted new lines for all strings
