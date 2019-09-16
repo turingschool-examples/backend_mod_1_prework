@@ -84,6 +84,4 @@ names.reverse_each { |name| str += "#{name} " }
 
 firstName = names[0].split.shift, names[1].split.shift, names[2].split.shift
 
-firstName = names[>>0].split.shift
-
 lastName = lastName = names[0].split.reverse.shift, names[1].split.reverse.shift, names[2].split.reverse.shift
