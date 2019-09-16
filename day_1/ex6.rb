@@ -34,3 +34,5 @@ e = "a string with a right side."
 
 #print the variables w and e
 puts w + e
+
+#by adding two stings using variables, we can make a longer string by telling the computer to print them together.
