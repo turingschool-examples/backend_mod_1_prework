@@ -30,7 +30,6 @@ speed_limit > 40
 print "speed up"
 
 elsif
-
 speed_limit < 40
 print "slow down"
 
