@@ -4,25 +4,28 @@
 
 # example: Write code below to save your name to a variable and
 # print that variable to the terminal:
-name = "Harry Potter"
+name = "Jordan Holtkamp"
 p name
 
 # Write code below to save the string 'Dobby' to a variable and
 # print that variable to the terminal:
 house_elf = "Dobby"
-# YOUR CODE HERE
+p house_elf
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
-# YOUR CODE HERE
+chamber_of_secrets = "Harry Potter must not return to Hogwarts!"
+p chamber_of_secrets
 
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
 students = 22
-# YOUR CODE HERE
+more_students = students + 2
 p students
+p more_students
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
-# YOUR CODE HERE
+less_students = students - 2
 p students
+p less_students
