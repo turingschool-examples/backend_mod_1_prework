@@ -70,3 +70,16 @@ end
 
 cups_of_flour = 1
 has_sauce = true
+
+puts "How many cups of flour do you have?"
+  cups_of_flour = gets.chomp.to_i
+
+puts "Do you have sauce?"
+ has_sauce = gets.chomp
+  if cups_of_flour >= 2 && has_sauce == "yes"
+    puts "I can make pizza"
+
+  else
+    puts "I cannot make pizza"
+
+end
