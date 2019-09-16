@@ -2,11 +2,11 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-  puts "Hello World!"
+puts "Hello World!"
 
 1. What is the character you would use to indicate comments in a ruby file?
 
-  I would use a "#".
+    I would use a "#".
 
 1. Explain the difference between an integer and a float?
 
@@ -30,5 +30,6 @@ puts "My favorite animal is a #{animal}!"
   We use the gets command. gets.chomp seems to be the easiest method, because it can add the user input into strings without the extra \n, which would cause a line break in the returned text.
 
 1. Name and describe two common string methods.
+
   The .length at the end of a variable-defined string will tell you how many characters (including spaces) are in a string.
   The .split will give back an array of substrings, based on the defined point of splitting. Without a defined point, it will automatically split at a space, but if you put .split(","), it is a split with an argument, and will split at commas instead.
