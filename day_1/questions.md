@@ -21,6 +21,7 @@
     puts animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+
     Interpolation allows you to put previously defined variables inside a string.
     puts "My favorite animal is a #{animal}!"
 
@@ -31,5 +32,5 @@
 1. Name and describe two common string methods.
 
     The .length at the end of a variable-defined string will tell you how many characters (including spaces) are in a string.
-    
+
     The .split will give back an array of substrings, based on the defined point of splitting. Without a defined point, it will automatically split at a space, but if you put .split(","), it is a split with an argument, and will split at commas instead.
