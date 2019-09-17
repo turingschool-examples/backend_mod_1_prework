@@ -3,8 +3,8 @@ def convert_to_array(num)
   num.to_s.split(//).map{|chr| chr.to_i}
 end
 
-
 def convert_to_word(int)
+
   ordinals = {
     1000 => "Thousand",
     900 => "Nine Hundred",
@@ -44,6 +44,7 @@ def convert_to_word(int)
     2 => "Two",
     1 => "One"
   }
+
   ordinals.each do |num, word|
     if int == 0
       return "Zero"
@@ -58,8 +59,6 @@ def convert_to_word(int)
     end
   end
 end
-
-puts convert_to_word(888)
 
 def little_monkeys(n)
 
