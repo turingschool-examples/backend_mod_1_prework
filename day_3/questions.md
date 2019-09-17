@@ -30,15 +30,15 @@
 
     if x == a
 
-      the code here runs
+          the code here runs
 
     elsif y == b
 
-      the code here runs
+          the code here runs
 
     else z == c
 
-      the code here runs
+          the code here runs
 
     end
 
