@@ -1,10 +1,12 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
+
 print "Hello World!" or puts "Hello World!" or p "Hello World"
 
 1. What is the character you would use to indicate comments in a ruby file?
-# - indicates a comment
+
+(#) indicates a comment
 
 1. Explain the difference between an integer and a float?
 
@@ -13,9 +15,11 @@ doing math where you don't want to round the answer to a whole number you want
 to use a float.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
+
 animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
+
 puts animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
