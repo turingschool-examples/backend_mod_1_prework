@@ -11,12 +11,11 @@
 1. Explain the difference between an integer and a float?
    > An integer is a whole number without any decimal places. A float is a number
    that includes a floating decimal and allows for more precision in calculations.
-
+   
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 ```
 animal = "zebra"
 ```
-
 1. How would you print the string `"zebra"` using the variable that you created above?
 ```
 puts animal
