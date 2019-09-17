@@ -6,16 +6,18 @@ also allow you to pass arguments and variables to the code which can then return
 a value.
 
 1. In the space below, create a method named `hello` that will print `"Sam I am"`.
-def hello
-puts "Sam I am"
-end
 
-hello
+def hello <br>
+puts "Sam I am" <br>
+end <br>
+
+puts hello
 
 1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-def hello_someone(name)
- puts "#{name} I am"
-end
+
+def hello_someone(name) <br>
+ puts "#{name} I am" <br>
+end <br>
 
 hello_someone("Sam")
 
@@ -25,4 +27,4 @@ hello_someone("Sam")
 
 1. What questions do you still have about methods in Ruby?
 
-Why did one of the lesson plans refer to them as functions? 
+Why did one of the lesson plans refer to them as functions?
