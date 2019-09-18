@@ -46,6 +46,10 @@ For this reason, we'd like to be able to install and manage multiple versions of
 
 #### Installation
 
+We've again included a video walk-through of this step (installing rbenv and the following step, installing a version of Ruby). Check it out, it might be helpful!
+
+[![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
+
 Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
 ```
@@ -101,14 +105,14 @@ More information about rbenv can be found [here](https://github.com/rbenv/rbenv#
 
 ### Use rbenv to install a certain version of Ruby
 
-Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.4.1. This is the version we will use in the Backend Program.
+Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.5.1. This is the version we will use in the Backend Program.
 
-If you need another version it'll be the same procedure, just replace `2.4.1` in the instructions with whichever version you want.
+If you need another version it'll be the same procedure, just replace `2.5.1` in the instructions with whichever version you want.
 
 Install it with:
 
 ```
-$ rbenv install 2.4.1
+$ rbenv install 2.5.1
 ```
 
 It will take a while to finish installing, and print a _lot_ of text to your terminal.
@@ -119,36 +123,36 @@ When it's all finished, type:
 $ rbenv versions
 ```
 
-and you should now see `2.4.1` listed.
+and you should now see `2.5.1` listed.
 
 Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you _your current ruby version_. The second shows _all installed versions_.
 
 Switch to your newly installed version with
 
 ```
-$ rbenv local 2.4.1`
+$ rbenv local 2.5.1
 ```
 
 Now enter:
 
 ```
-$ ruby -v`
+$ ruby -v
 ```
 
 This shows us what version of Ruby we are running. You should see something like:
 
 ```
-ruby 2.4.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]
+ruby 2.5.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]
 ```
 
-You can ignore everything after the `p` in `2.4.1p205`. This output shows us we are running Ruby 2.4.1, which is what we want. If you got something different than `2.4.1`, such as `2.5.0`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+You can ignore everything after the `p` in `2.5.1p205`. This output shows us we are running Ruby 2.5.1, which is what we want. If you got something different than `2.5.1`, such as `2.5.0`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
 
 #### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default:
 
 ```
-$ rbenv global 2.4.1
+$ rbenv global 2.5.1
 ```
 
 Once you set the global ruby version, make your terminal aware of this update with:
@@ -171,9 +175,7 @@ In this scenario, the [Turing Github account](https://github.com/turingschool) o
 
 ####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/backend_module_0_capstone).
 
-####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
-
-![click on 'fork' button, confirm fork to your account](/images/fork_01.jpg)
+####  3. Click on `Fork` in the upper right corner of the screen
 
 ####  4. On the new page, confirm that it says it's the "forked" copy of this repository, with mentions of your username in the URL and repository name.
 
@@ -204,8 +206,8 @@ $ cd .
 // This is a shortcut for `cd ~`, which is "change into the home directory"
 $ mkdir turing
 $ cd turing
-$ mkdir 1module
-$ cd 1module
+$ mkdir 0module
+$ cd 0module
 $ git clone <ctrl-v to paste ssh link here >
 Cloning into 'backend_module_0_capstone'...
 remote: Enumerating objects: 678, done.
@@ -213,7 +215,7 @@ remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
 Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
 Resolving deltas: 100% (332/332), done.
 
-$ cd module_1_capstone
+$ cd backend_module_0_capstone
 $ git status .
 // If everything worked correctly, you should see:
 On branch master
@@ -221,6 +223,11 @@ nothing to commit, working tree clean
 ```
 
 From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `backend_module_0_capstone` repository.
+
+We've got _another_ video walk-through of these steps here:
+
+[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
+
 
 Each day's `README` will walk you through the steps you need to take to save your work.
 
