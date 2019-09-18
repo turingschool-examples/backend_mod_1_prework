@@ -24,3 +24,6 @@ ten_Little_Monkeys = Nursery_Rhyme.new("Little Monkeys", 10)
 ten_Little_Monkeys.title
 ten_Little_Monkeys.monkey_Count
 ten_Little_Monkeys.verse
+
+#Bonus
+#by identifying how many monkeys we have within an attribute, we can change the monkey_Count to any starting value.
