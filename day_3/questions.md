@@ -17,23 +17,30 @@
 1. What is the Ruby syntax for an if statement?
 
 if cats > dogs
+
   puts "CATS RULE, DOGS DROOL."
+
 end
 
 1. How do you add multiple conditions to an if statement?
+
 if/elsif/else statements
 
 1. What is the Ruby syntax for an if/elsif/else statement?
 
 if dog = Golden Retriever
+
   p "The goodest boy in the world."
 
 elsif dog = Pug
+
   p "Ugly but in a cute way."
 
 else
+
   p "We don't deserve dogs!"
+  
 end
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-I found something called case statements, that are conditional. 
+I found something called case statements, that are conditional.
