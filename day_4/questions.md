@@ -16,7 +16,11 @@ def hello_someone(name)
 end
 ```
 1. How would you call or execute the method that you created above?
-`hello_someone("Sam")`
+```
+hello_someone("Sam")
+```
 
 1. What questions do you still have about methods in Ruby?
-I saw there are countless ways to call a method, what is considered to be the best practice? Or is it all/usually case-based?
+```
+I saw there are countless ways to call a method, what is considered to be the best practice? Or is it all/usually case-by-case?
+```
