@@ -1,3 +1,7 @@
-c = [ "r", "q", "s", "i"]
+def caesar_cipher("Computer Programs", shift = 5)
+  alphabet = Array('a'..'z')
+  encrypter = Hash[alphabet.zip(alphabet.rotate(shift))]
+  string.chars.map { |c| encrypter.fetch(c, " ")}
+end
 
-puts c.rotate
+p caesar_cipher("Computer Programs").join
