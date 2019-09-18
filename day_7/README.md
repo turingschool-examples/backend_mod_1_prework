@@ -16,7 +16,7 @@ When you have completed the activities for day 7 you will submit your work throu
 
 1. Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. Use top down design to break these problems down as best you can. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
 
-    1. [Ceasar Cipher](./ceasar_cipher.md)
+    1. [Caesar Cipher](./caesar_cipher.md)
     1. [Checker Board](./checker_board.md)
 
 1. When you are finished with your high level explanation, you should add, commit, and push your changes to GitHub.
