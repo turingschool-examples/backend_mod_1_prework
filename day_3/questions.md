@@ -37,4 +37,4 @@ See above.
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-I am not positive on this one. Will be asking after next session. Will submit new commit after asking. 
+We could possibly use switch-statements, which allow for more readable code, as these conditional statements can get a bit messy. Additionally, when checking to see if an expression evaluates as true, we could also loop to repeat the execution of the code. 
