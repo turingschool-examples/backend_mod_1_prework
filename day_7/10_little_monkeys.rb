@@ -6,13 +6,17 @@ monkeyHash.each do |numeral, string|
     puts "#{string} little monkeys jumping on the bed,
 One fell down and bumped his head,
 Mama called the doctor and the doctor said,
-'No more monkeys jumping on the bed!'"
+'No more monkeys jumping on the bed!'
+
+"
   elsif
     numeral == 1
     puts "#{string} little monkey jumping on the bed,
 He fell down and bumped his head,
 Mama called the doctor and the doctor said,
-'No more monkeys jumping on the bed!'"
+'No more monkeys jumping on the bed!'
+
+"
   else
     numeral == 0
     puts "Now there's no more monkeys jumping on the bed!"
