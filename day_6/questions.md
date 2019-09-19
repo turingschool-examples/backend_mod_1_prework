@@ -18,29 +18,45 @@
 class Dog
 
   def initialize(name, age, personality, location, dislikes)
+
     #@name = name
+
     #@age = age
+
     #@personality = personality
+
     #@location = location
+
     #@dislikes = dislikes
+
   end
 
   def speaks
+
     puts "Hi, I'm #{@name}. I'm #{@age} years old and very #{@personality}."
+
   end
 
   def shares
+
     puts "I was rescued from a hurricane in #{@location}."
+
   end
 
   def hates
+
     puts "That's why I have panic attacks and want to be held when I hear #{@dislikes}."
+
   end
+
 end
 
   gumbo = Dog.new("Gumbo", "9", "loving", "Texas", "thunder and rain")
+
   p gumbo.speaks
+
   p gumbo.shares
+
   p gumbo.hates
 
 1. How do you create an instance of a class?
