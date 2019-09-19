@@ -45,20 +45,21 @@ def convert_to_word(int)
     1 => "One"
   }
 
-  ordinals.each do |num, word|
-    if int == 0
-      return "Zero"
-    elsif int < 10
-      return "#{ordinals[int]}"
-    elsif int < 100
-      arr = convert_to_array(int)
-      return "#{ordinals[arr[0] * 10]} #{ordinals[arr[1]]}"
-    elsif int < 1000
-      arr = convert_to_array(int)
-      return "#{ordinals[arr[0] * 100]} #{ordinals[arr[1] * 10]} #{ordinals[arr[2]]}"
-    end
+  arr = convert_to_array(int)
+
+  if int == 0
+    return "Zero"
+  elsif int < 20
+    return "#{ordinals[int]}"
+  elsif int < 100
+    return "#{ordinals[arr[0] * 10]} #{ordinals[arr[1]]}"
+  elsif int < 1000 && arr[1] == 1
+    return "#{ordinals[arr[0] * 100]} #{ordinals[(arr[1] * 10) + arr[2]]}"
+  elsif int < 1000
+    return "#{ordinals[arr[0] * 100]} #{ordinals[arr[1] * 10]} #{ordinals[arr[2]]}"
   end
 end
+
 
 def little_monkeys(n)
 
@@ -69,7 +70,7 @@ def little_monkeys(n)
     puts "One fell off and bumped his head,"
     puts "Mama called the doctor and the doctor said,"
     puts "No more monkeys jumping on the bed!"
-
+    puts ""
     n -= 1
   end
 end
