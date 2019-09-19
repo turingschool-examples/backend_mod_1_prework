@@ -4,8 +4,11 @@
 - Next, you name it
 - Finally, you end it
 *Syntax*
+
 def say
-  # method body goes here
+
+  method body goes here
+
 end
 
 Create a file named say.rb and follow the examples.

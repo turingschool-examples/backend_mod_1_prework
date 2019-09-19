@@ -1,7 +1,7 @@
 ### EXERCISE 19: METHODS & VARIABLES
 # Variables in your method are not connected to the variables in your script
-## EXAMPLE
 
+## EXAMPLE
 # This line tells Ruby I'm making a method with def for "define", then I name
 # the method "cheese_and_crackers", and put my arguments inside the parentheses
 def cheese_and_crackers(cheese_count, boxes_of_crackers)

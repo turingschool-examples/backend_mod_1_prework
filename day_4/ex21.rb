@@ -2,7 +2,6 @@
 # You can use = and return to set variables to be a value from a method
 
 ## TASK
-
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b

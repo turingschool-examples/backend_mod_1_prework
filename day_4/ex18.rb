@@ -7,8 +7,7 @@
 # You create a method by using def in Ruby
 
 ## TASK
-
-# this one is like your scripts with ARGV
+# This one is like your scripts with ARGV
 
 # The first line tells Ruby we're making a method with def for "define"
 # On the same line, we name the method "print_two"

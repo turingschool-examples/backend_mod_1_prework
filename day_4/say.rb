@@ -26,7 +26,7 @@ say("I'm fine")
 # Programmers strive to use parameters that are concise and meaningful.
 
 # Method Invocation
-# "We call (or invoke) the method by tayping its name and passing in arguments."
+# "We call (or invoke) the method by typing its name and passing in arguments."
 
 # Arguments
 # This is information sent to the method invocation, where it is changed or used
@@ -46,7 +46,7 @@ say("hi")
 say("how are you")
 say("I'm fine")
 
-## DEFAULT PRAMETERS
+## DEFAULT PARAMETERS
 # It's important to structure the method definition so that it always works,
 # even when a parameter is not given
 
