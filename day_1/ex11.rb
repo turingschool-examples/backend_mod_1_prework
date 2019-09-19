@@ -27,5 +27,12 @@ print "Which program are you enrolled in? "
 program = gets.chomp
 print "When will you graduate? "
 graduate = gets.chomp
+# This will assign whatever I put into the terminal when gets.chomp is prompted
 
 puts "Awesome! You've been in the #{program} program at Turing for #{time}. I'm sure you'll be a coding wiz by rhe time #{graduate} rolls around!"
+
+#STUDY DRILLS
+# the method gets.chomp will prompt the user to input and assign a value to any?
+# attribute
+
+#
