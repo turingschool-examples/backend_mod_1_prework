@@ -19,11 +19,11 @@ print_name
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
 
-def add (a,b)
-  a + b
+def add (a, b)
+  p (a + b)
 end
 
-add (2,5)
+add 2, 5
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
