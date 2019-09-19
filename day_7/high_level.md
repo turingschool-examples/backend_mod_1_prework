@@ -2,7 +2,7 @@
 
 Build Caesar Cipher
  1 define shift method to codify string data set based on shift values provided by the user
-   1.1 define a cipher method
+   1.1 define a cipher shift method for the user in relation to the string describing and holding the data
        1.1 establish 'string' variable in program
        1.2 establish 'shift' variable in program
            1.2.1 assign alphabet array to define unshifted string data set between 'a' and 'z'
