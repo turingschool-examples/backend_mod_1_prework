@@ -14,6 +14,12 @@ Behavior is what the object is capable of doing. Behaviors are associated to any
 class Dog
   attr_accessor :first_name, :breed, :gender
 
+  def initialize(first_name, breed, gender)
+    @first_name  = first_name
+    @breed       = breed
+    @gender      = gender
+  end
+
   def speak()
     puts "Hi, I'm #{first_name} the #{breed}!"
   end
@@ -23,6 +29,8 @@ class Dog
   end
 
 end
+
+capo = Dog.new("Capo","Labradoodle","Boy")
 
 1. How do you create an instance of a class?
 To create an instance, first add an object to the desired class. Then add the object's attributes by calling out the object followed by the attribute in .attribute syntax. Finally set the attribute equal to a string or integer.
