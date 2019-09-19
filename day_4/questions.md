@@ -8,7 +8,7 @@
     def hello
       p 'Sam I am'
     end
-    ```
+  ```
 
 1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
   ```
