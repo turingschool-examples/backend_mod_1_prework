@@ -1,4 +1,4 @@
-## EXERCISE 5: MORE VARIABLES AND PRINTING
+### EXERCISE 5: MORE VARIABLES AND PRINTING
   # "Every time you put " around a piece of text you have been making a string."
   # "You print strings, save strings to files, send strings to web servers..."
   # "In this exercise you will learn how to make strings that have variables embedded in them."
@@ -26,7 +26,8 @@ puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
 # STUDY DRILLS
   # 1. "Change all the variables so there is no my_ in front of each one."
     # Check!
-  # 2. "Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Ruby."
+  # 2. "Try to write some variables that convert the inches and pounds to centimeters
+      # and kilograms. Do not just type in the measurements. Work out the math in Ruby."
 
 puts "The following are my measurements and characteristics."
 my_name = 'Ana'
