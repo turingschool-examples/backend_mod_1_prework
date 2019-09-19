@@ -19,3 +19,5 @@ puts "{states.keys}"
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 When you are using large sets of data, where a hash is going to be much more efficient in retrieving your data.
 1. What questions do you still have about hashes?
+
+I would like to gain a better understanding of when to use hash over array. 
