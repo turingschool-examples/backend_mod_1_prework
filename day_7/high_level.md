@@ -30,7 +30,7 @@
   3.1 Run the program in irb
     3.1.1 input the original_Message with gets.chomp
       3.1.1 review each iteration until the message is clear
+      
 **4 print Solution**
-
   4.1 Print the cracked code to the console
   4.2 Print the shift quantity to the console
