@@ -1,4 +1,4 @@
-#Solving the Caesar Cipher
+# Solving the Caesar Cipher
 
 **1 Create Solution Key**
   1.1 assign each letter to a number
@@ -6,6 +6,7 @@
       1.1.1.1 alpha_Hash = {A, B, C ...  Y, Z}
     1.1.2 assign each letter in the hash a corresponding numeric value
       1.1.2.1 alpha_Hash = {A = '1', B = '2', C = '3' ...  Y = '25', Z = '26'}
+      
 **2 Create Program**
   2.1 create new class 'Cipher'
     2.1.1 assign Cipher attributes
@@ -24,10 +25,12 @@
   2.2 create new object, caesar_Cipher
     2.2.1 caesar_Cipher = Cipher.new("Caesar Cipher")
     2.2.2 Attr: @starting_Value = starting_Value, @end_Value = end_Value
+    
 **3 Run Program**
   3.1 Run the program in irb
     3.1.1 input the original_Message with gets.chomp
       3.1.1 review each iteration until the message is clear
 **4 print Solution**
+
   4.1 Print the cracked code to the console
   4.2 Print the shift quantity to the console
