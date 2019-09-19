@@ -13,4 +13,4 @@ Build Caesar Cipher
                  1.2.1.6 establish |letter| variable to define alphabet index to its position at or between a..z
                          1.2.1.6.1  
 
-I'm excited to grasp the syntax of this language and its variables in a way that turns them into codifiable language
+I'm excited to grasp the syntax of this language and its variables in a way that turns them into codifiable language because that seems a long way away right now.
