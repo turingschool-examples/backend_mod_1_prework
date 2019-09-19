@@ -39,11 +39,3 @@
 # a = 5
 # some_method(a)
 # puts a
-
-def hello_someone()
-name = "Sam"
-book = "#{name} I am"
-
-end
-
-puts hello_someone
