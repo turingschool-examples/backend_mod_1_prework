@@ -6,13 +6,13 @@ space_in_a_car = 4.0
 drivers = 30
 #There are 90 passengers
 passengers = 90
-#assigning a variable for a stationary car.
+
 cars_not_driven = cars - drivers
-#assigning a variable for a car in use.
+
 cars_driven = drivers
-#total carpool capacity.
+
 carpool_capacity = cars_driven * space_in_a_car
-#total number of passengers divided by total cars in use.
+
 average_passengers_per_car = passengers / cars_driven
 
 
@@ -23,4 +23,29 @@ puts "We can transport #{carpool_capacity} people today."
 puts "We have #{passengers} to carpool today."
 puts "We need to put about #{average_passengers_per_car} in each car."
 
-#from text, line 4 would have printed an error like this if there was a misspelling in the code. If the developer had misspelled carpool_capacity and ran it with correct spelling, the computer would not recognize a file with that name.
+#STUDY DRILLS
+# If error "undefined local variable or method `carpool_capacity'..." showed
+# in line 22, the developer has not identified the method: carpool_capacity.
+# Either the original spelling of the identified method is incorect, or there is
+# no preceeding program that allows the method to be returned.
+
+#1: You do not need to type 4.0 in float point notation, as the seats available in a
+# car will be a whole number and fractions of seats cannot be available.
+
+#6 change vairable names to variables and run the code
+#there are 100 cars.
+i = 100
+#there are 4 spaces in each car.
+a = 4.0
+#There are 30 drivers.
+b = 30
+#There are 90 passengers
+x = 90
+
+cars_not_driven = i - b
+
+cars_driven = b
+
+carpool_capacity = cars_driven * a
+
+average_passengers_per_car = x / cars_driven
