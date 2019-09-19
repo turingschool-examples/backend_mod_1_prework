@@ -35,7 +35,7 @@
 # They can appear between braces or between do..end.
 
 ## TASK
-# Type the following into your terminal
+# Type the following into your terminal:
 
 # States that the people variable equals 30
 people = 30

@@ -1,9 +1,7 @@
 ### EXERCISE 29: WHAT IF
-# The if-statement
 
 ## TASK
 # Type the following into your terminal, and see what happens:
-
 people = 20
 cats = 30
 dogs = 15

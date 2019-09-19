@@ -56,7 +56,7 @@ elsif num_quarters == 3
 end
 # I have enough money for a gumball
 
-#####################
+
 # Using the variables defined below, determine if you have the
 # ingredients to make a pizza. A pizza requires at least two cups
 # of flour and sauce.

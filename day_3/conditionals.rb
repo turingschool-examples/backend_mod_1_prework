@@ -9,7 +9,6 @@
 # <= less than or equal to
 
 ### TASK
-
 minutes = 5
 
 if minutes < 7

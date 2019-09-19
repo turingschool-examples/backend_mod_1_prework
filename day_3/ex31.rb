@@ -1,10 +1,9 @@
 ### EXERCISE 31: MAKING DECISIONS
-## "Now that you have if, else, and elsif you can start to make scripts that decide things...
+# "Now that you have if, else, and elsif you can start to make scripts that decide things...
 # In this script you will ask the user questions and make decisions based on their answers."
 
 ## TASK
-# Write the following scrip, then play around with it to figure it out.
-
+# Write the following scrip, then play around with it to figure it out:
 puts "You enter a dark room with four doors. Do you go through the 'Blue' door, the 'Yellow' door, the 'Green' door or the 'Black' door?"
 
 print "> "
@@ -84,7 +83,6 @@ end
  # Check!
 
 # 2. "Write a completely new game."
-
 
 puts "You wake up to find you are in a strange room. You've never been here before. You look around, and notice there is one door, but no windows. Above the door a sign reads 'Left hand or Right hand'. Do you choose the 'left' or 'right' hand, or do you 'walk' around?"
 
