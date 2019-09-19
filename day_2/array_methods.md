@@ -70,6 +70,7 @@ arr.count { arr.select { |v| (v) % 2 == 0 }.uniq }
 //this will count the unit quantity if there are multiple units that meet the criteria.
 
 names = w%[Phil DeLong Courtney Newby Sampson Catsman]
+
 // first/ last names only?
 // print only initials?
 // print the last name and how many characters?
