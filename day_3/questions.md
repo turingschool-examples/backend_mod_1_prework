@@ -27,7 +27,7 @@ end
 
 1. What is the Ruby syntax for an if/elsif/else statement?
 
-variable = 'string'
+variable = 'string i'
 
 if variable == 'string 1'
   p "1 statement"
@@ -50,4 +50,4 @@ until current_Fuel == 0
   p "you're probably fine! fuel tank is #{current_Fuel}% full"
   current_Fuel -= 10
 end
-  p "refuel now, tank is #{current_Fuel}%!!!" 
+  p "refuel now, tank is #{current_Fuel}%!!!"
