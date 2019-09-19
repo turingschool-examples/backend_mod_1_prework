@@ -9,7 +9,7 @@ end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
 7.times do
-  p 2 + 7
+  p 2 + 2
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
