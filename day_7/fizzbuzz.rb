@@ -1,12 +1,6 @@
-class Fizzbuzz
-  attr_reader :numbers
-
-  def initialize
-    @numbers = (1..100).to_a
-  end
-
   def fizz
-    @numbers.each do |number|
+    numbers = (1..100)
+    numbers.each do |number|
       if number % 5 == 0 && number % 3 == 0
         p "FizzBuzz"
       elsif number % 3 == 0
@@ -17,17 +11,10 @@ class Fizzbuzz
         p number
       end
     end
+    numbers
   end
-end
 
-fizzy = Fizzbuzz.new
-
-p fizzy.fizz
-
-
-
-
-
+p fizz
 
 # Create a file named fizzbuzz.rb and within that file, write a program that prints the numbers from 1 to 100 with the following rules:
 # * For any number that is a multiple of 3, print 'Fizz'
