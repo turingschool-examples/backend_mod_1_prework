@@ -7,14 +7,34 @@ class Ryhme
   end
 
   def amount_of_monkeys
-    (1..10).to_s
+    amount_of_monkeys = ['Ten', 'Nine', 'Eight',
+      'Seven', 'Six', 'Five', 'Four', 'Three', 'Two', 'One']
   end
 end
 
 ten_little_monkeys = Ryhme.new("Mama", "Doctor")
 
-p " #{ten_little_monkeys.amount_of_monkeys} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
-
+p " #{ten_little_monkeys.amount_of_monkeys[0]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[1]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[2]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[3]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[4]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[5]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[6]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[7]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[8]} little monkeys jumping on the bed, One fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p " #{ten_little_monkeys.amount_of_monkeys[9]} little monkey jumping on the bed, He fell off and bumped his head, #{ten_little_monkeys.antagonist} called the #{ten_little_monkeys.protagonist} and the #{ten_little_monkeys.protagonist} said, No more monkeys jumping on the bed!"
+p "-" * 100
+p "No more monkeys jumping on the bed"
 
 # ## 10 Little Monkeys
 #
