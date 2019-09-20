@@ -6,13 +6,19 @@ class CheckerBoard
   end
 
   def render
-
+   board = (1..@size).map do |number|
+    if number.even?
+      p "  X   X   X  "
+    elsif !number.even?
+      p "X   X   X   X"
+    end
+   end
   end
 end
 
-checkerboard = CheckerBoard.new(8)
+checkerboard = CheckerBoard.new(10)
 
-p checkerboard.render
+checkerboard.render
 
 
 # ## Checker Board
