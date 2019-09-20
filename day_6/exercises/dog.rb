@@ -16,6 +16,10 @@ class Dog
     p "woof!"
   end
 
+  def play
+    @hungry = true
+  end
+
   def eat
     @hungry = false
   end
@@ -28,3 +32,5 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+p fido.play
+puts "Seems to me that Fido is hungry? #{fido.play}."
