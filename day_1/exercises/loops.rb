@@ -9,9 +9,17 @@ end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
 7.times do
-  # YOUR CODE HERE
+  p 2 + 2
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
 # YOUR CODE HERE
+
+10.times do 
+  p "She sells seshells down by the shshore. Damn, let me try again."
+end
+
+5.times do
+  p "Where are the Javascript for loops?"
+end
