@@ -11,7 +11,7 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
@@ -19,7 +19,34 @@ print_name("Albus Dumbledore")
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
 # YOUR CODE HERE
+def add_together(num1, num2)
+  puts num1 + num2
+end
+
+add_together(1, 3)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+
+def concatenationer(string1, string2)
+  puts string1 + " " + string2 + "."
+end
+
+concatenationer("Hi", "Bob")
+
+def say(words = "ENTER SOMETHING")
+  puts words
+end
+
+say()
+say("Hello")
+say("Greetings")
+say("third times the charm")\
+
+def add_three(value)
+  value + 3 #implicit return
+end
+
+add_three(2).times {puts "This should print 5 times"}
+
