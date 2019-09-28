@@ -1,6 +1,6 @@
 ## 10 Little Monkeys
 
-Create a file named 10_little_monkeys.rb and within that file, write a program that will print the following nursery rhyme, but for *10* monkeys.
+Create a file named 10_little_monkeys.rb and within that file, write a program that will print the following nursery rhyme, but for _10_ monkeys.
 
 > Three little monkeys jumping on the bed,  
 > One fell off and bumped his head,  
@@ -18,4 +18,5 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 > "Get those monkeys right to bed!"
 
 ### Bonus
+
 Can you write the program so that it will run for any number of monkeys?
