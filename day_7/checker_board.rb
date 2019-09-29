@@ -8,16 +8,11 @@ puts "Please select checkerboard size:"
 input = gets.chomp.to_i
 size = input/2
 
-first_line = (board[:black] + board[:white]) * (size)
-second_line = (board[:white] + board[:black]) * (size)
-both = [first_line, second_line]
+line_1 = (board[:black] + board[:white]) * (size)
+line_2 = (board[:white] + board[:black]) * (size)
+both = [line_1, line_2]
 
-
-
-if input.odd?
-  puts "Please select even number:"
-  gets.chomp.to_i
-else input.even?
+if input.even?
   size.times do |line|
     puts both
   end
