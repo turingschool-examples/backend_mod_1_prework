@@ -23,7 +23,7 @@ To create a variable that hold the expected string:
 
 5. How would you print the string `"zebra"` using the variable that you created above?
 
-I would write out:
+I would just write out:
 ``` puts "#{animal}"
 ```
 
