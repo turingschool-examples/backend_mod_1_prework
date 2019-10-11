@@ -18,19 +18,22 @@ An integer is a number without a decimal point. A float is a number with a decim
 4. In the space below, create a variable `animal` that holds the string `"zebra"`
 
 To create a variable that hold the expected string:
-``` animal = "zebra"
+```
+animal = "zebra"
 ```
 
 5. How would you print the string `"zebra"` using the variable that you created above?
 
-I would just write out:
-``` puts "#{animal}"
+I would write out:
+```
+puts "#{animal}"
 ```
 
 6. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
 Interpolation is a method that allows you to embed the result of a variable within a string.
-``` puts "I am not an #{animal}."
+```
+puts "I am not an #{animal}."
 ```
 
 7. How do we get input from a user? What is the method that we would use?
