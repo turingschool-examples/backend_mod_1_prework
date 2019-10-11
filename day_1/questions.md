@@ -33,7 +33,7 @@ puts "#{animal}"
 
 Interpolation is a method that allows you to embed the result of a variable within a string.
 ```
-puts "I am not an #{animal}."
+puts "I am not a #{animal}."
 ```
 
 #### 7. How do we get input from a user? What is the method that we would use?
