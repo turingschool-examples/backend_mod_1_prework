@@ -6,7 +6,7 @@ puts "Hello World!"
 
 ### What is the character you would use to indicate comments in a ruby file?
 
-hashtag (#)
+\#
 
 ### Explain the difference between an integer and a float?
 
