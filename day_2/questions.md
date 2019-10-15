@@ -22,7 +22,7 @@ trick question?  the values are true and false.
 
 The operators to determine true/false include:  
 && (and)  
-|| (or)
+|| (or)  
 ! (not)  
 != (not equal)  
 == (equals)  
