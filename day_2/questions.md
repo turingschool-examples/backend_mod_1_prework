@@ -26,8 +26,8 @@ The operators to determine true/false include:
 ! = not  
 != not equal  
 == equals  
-\>= greater than or equal
-\<= less than or equal
+\>= greater than or equal  
+\<= less than or equal  
 
 ### In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 2 == 25 returns false
