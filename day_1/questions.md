@@ -22,6 +22,7 @@ puts animal
 
 ### What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
+Interpolation is the ability to print the result of a piece of code within a string.  
 puts "A #{animal} has black and white stripes."
 
 ### How do we get input from a user? What is the method that we would use?
