@@ -1,36 +1,36 @@
 ## Day 2 Questions
 
-1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+### Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 animal_set = ["zebra", "giraffe", "elephant"]
 
-1. Save the array you created above to a variable `animals`.
+### Save the array you created above to a variable `animals`.
 animals = animal_set
 
-1. using the array `animals`, how would you access `"giraffe"`?
+### using the array `animals`, how would you access `"giraffe"`?
 animals[1]
 
-1. How would you add `"lion"` to the `animals` array?
+### How would you add `"lion"` to the `animals` array?
 animals.push("lion")
 
-1. Name and describe two additional array methods.
+### Name and describe two additional array methods.
 .first returns the first element in an array.
-.last returns the last element in an array.
 
-1. What are the boolean values in Ruby?
-trick question?  the values are true and false.
+.last returns the last element in an array.  
 
-The operators to determine true/false include:
-&& = and
-|| = or
-! = not
-!= not equal
-== equals
->= greater than or equal
-<= less than or equal
+### What are the boolean values in Ruby?
+trick question?  the values are true and false.  
 
+The operators to determine true/false include:  
+&& = and  
+|| = or  
+! = not  
+!= not equal  
+== equals  
+>= greater than or equal  
+<= less than or equal  
 
-1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+### In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 2 == 25 returns false
 
-1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+### In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 25 > 2 returns true
