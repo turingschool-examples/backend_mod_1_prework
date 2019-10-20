@@ -18,7 +18,7 @@ Using your terminal, open the local copy of the repository that you created duri
 1. [x] Work through the exercise files in the day_2/exercises directory.  Complete them in this order:
     1. [x] arrays
     1. [x] iteration
-1. Answer the questions in the questions.md file in the day_2 directory.
+1. [x] Answer the questions in the questions.md file in the day_2 directory.
 
 ## Save your work in Git
 
