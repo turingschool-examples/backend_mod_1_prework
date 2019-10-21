@@ -22,13 +22,14 @@ class FizzBuzz
   def range(range_array)
     range_array.each do |ranger|
         insertion_point = array.index(ranger)
-        if ranger % 3 == 0 && ranger % 5 == 0
+        case rangermania
+        when ranger % 3 == 0 && ranger % 5 == 0
           array.delete(ranger)
           array.insert(insertion_point, 'FizzBuzz')
-        elsif ranger % 3 == 0
+        when ranger % 3 == 0
           array.delete(ranger)
           array.insert(insertion_point, 'Fizz')
-        elsif ranger % 5 == 0
+        when ranger % 5 == 0
           array.delete(ranger)
           array.insert(insertion_point, 'Buzz')
         end
