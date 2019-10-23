@@ -1,13 +1,10 @@
 #### Caesar Cipher Breakdown
 
-1. Need to create a class named Caesar Cipher which will encode our string according to the rules of a caesar cipher (based on integer shift value)
-        1.1 Need to create a method to convert the data/string input into coded form in alignment with a provided shift value (integer)
-                1.1.1 Need to be able to shift the array positively and negatively (so that the alphabet can shift left or right depending on provided shift value)
-
-    1.1.2 Need to store the alphabet in an array (means it is integer-indexed) that can be manipulated (assign a variable)
-
-    1.1.3 Need to return/create paired elements: letters/string elements and their numerical/integer value (assign a variable)
-
+1. Need to create a class named Caesar Cipher which will encode our string according to the rules of a caesar cipher (based on integer shift value)   
+  1.1 Need to create a method to convert the data/string input into coded form in alignment with a provided shift value (integer)    
+    1.1.1 Need to be able to shift the array positively and negatively (so that the alphabet can shift left or right depending on provided shift value)        
+    1.1.2 Need to store the alphabet in an array (means it is integer-indexed) that can be manipulated (assign a variable)    
+    1.1.3 Need to return/create paired elements: letters/string elements and their numerical/integer value (assign a variable)    
       1.1.3.1 Need to ensure that elements of the new shift value array are merged with corresponding elements of the old/standard array to provide a relationship that allows for cross-referencing (caesar cipher rules)
 
         1.1.3.1.1 Need to rotate the alphabet array based on shift value to return a new array
