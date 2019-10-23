@@ -8,15 +8,15 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-1. Work through the [Methods](https://launchschool.com/books/ruby/read/methods) lesson from LaunchSchool, up to the `obj.method or method(obj)` header.  Any files that you create while working through this lesson can be kept in the day_4 directory.
+1. [x] Work through the [Methods](https://launchschool.com/books/ruby/read/methods) lesson from LaunchSchool, up to the `obj.method or method(obj)` header.  Any files that you create while working through this lesson can be kept in the day_4 directory.
 
 1. Work through the following lessons from Learn Ruby the Hard Way. _*Note*: in these lessons, the author refers to methods as functions. We will be using the vocabulary word method at Turing_
 
-    1. [Intro to Methods](https://learnrubythehardway.org/book/ex18.html)
-    1. [Methods and Variables](https://learnrubythehardway.org/book/ex19.html)
-    1. [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html)
+    1. [x] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html)
+    1. [x] [Methods and Variables](https://learnrubythehardway.org/book/ex19.html)
+    1. [x] [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html)
 
-1. Work through the methods.rb file in the day_4/exercises directory.
+1. [x] Work through the methods.rb file in the day_4/exercises directory.
 
 1. Answer the questions in the questions.md file in the day_4 directory.
 
