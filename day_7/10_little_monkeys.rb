@@ -1,4 +1,3 @@
-# little_monkeys = ['Ten', 'Nine', 'Eight', 'Seven', 'Six', 'Five', 'Four', 'Three', 'Two']
 
 def nursery_rhyme
   little_monkeys = ['Ten', 'Nine', 'Eight', 'Seven', 'Six', 'Five', 'Four', 'Three', 'Two']
@@ -17,7 +16,7 @@ nursery_rhyme
 #   p "How many monkeys are jumping on the bed?"
 #   little_monkeys = gets.chomp.to_i
 #
-#   if little_monkeys.class == String
+#   if little_monkeys.class != Integer
 #     puts "Please enter a number! Thank you."
 #   elsif little_monkeys <= 1
 #     puts "There are more monkeys than that!"

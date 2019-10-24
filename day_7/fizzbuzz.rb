@@ -2,11 +2,8 @@ def fizz_buzzer
   puts "Hello. Want to play FizzBuzz?"
   print "Please input first number: "
   number1 = gets.chomp.to_i
-  print "Please input second number: "
+  print "Please input a second number larger than the first: "
   number2 = gets.chomp.to_i
-
-  # Need to add validation (number 1 < number2, big enough range to get results ie. 1..3)
-    scope = (number1..number2).each.to_a
 
     def range(array)
       array.each do |ranger|
@@ -23,10 +20,17 @@ def fizz_buzzer
           end
       end
 
-      print array
+      fizz_output = array.join(", ")
     end
 
-    range(scope)
+    if number1 > number2
+      puts "Sorry your second number needs to be larger than the first"
+    elsif number2 < number1 + 3
+      puts "Sorry your second number needs to be larger for a proper FizzBuzzing"
+    else
+      scope = (number1..number2).each.to_a
+      puts range(scope)
+    end
 end
 
 fizz_buzzer
