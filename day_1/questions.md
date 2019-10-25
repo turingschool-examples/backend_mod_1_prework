@@ -4,7 +4,7 @@
    `puts "Hello World!"`
 
 1. What is the character you would use to indicate comments in a ruby file?
-   # Everything to the right of the pound sign on the same line will be a comment
+    Everything to the right of the pound sign (#) on the same line will be a comment
 
 1. Explain the difference between an integer and a float?
    Integer is a whole number while a float contains a decimal
