@@ -15,9 +15,9 @@ If statements help with branching decisions. You can check to see if what you're
 3. What is the Ruby syntax for an if statement?
 
 if booleanCondition
-  # code to execute
+  code to execute
 else
-  # code to execute
+  code to execute
 end
 
 4. How do you add multiple conditions to an if statement?
@@ -27,11 +27,11 @@ You include elsif as another condition to check.
 5. What is the Ruby syntax for an if/elsif/else statement?
 
 if booleanCondition
-  # code to execute
+  code to execute
 elsif booleanCondition(2)
-  # code to execute
+  code to execute
 else
-  # code to execute
+  code to execute
 end
 
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
