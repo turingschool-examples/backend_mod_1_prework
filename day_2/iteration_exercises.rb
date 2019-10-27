@@ -13,7 +13,7 @@ end
 #If you had the same array, how would you only print out the even numbers? What about the odd numbers?
 puts "Print only even numbers"
 numbers.each do |num|
-  if num % 2 == 0
+  if num.even?
     puts num
   else
   end
@@ -22,7 +22,7 @@ end
 #Odds
 puts "Print only odd numbers"
 numbers.each do |num|
-  if num % 2 != 0
+  if num.odd?
     puts num
   else
   end
@@ -34,7 +34,8 @@ numbers_doubled = []
 numbers.each do |num|
   numbers_doubled.push(num*2)
 end
-puts numbers_doubled
+print numbers_doubled
+puts ""
 
 #Given an array of first and last names, e.g. [“Alice Smith”, “Bob Evans”, “Roy Rogers”], how would you print out the full names line by line?
 full_names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
