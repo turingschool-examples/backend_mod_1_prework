@@ -2,10 +2,33 @@
 
 1. In your own words, what is the purpose of a method?
 
-1. In the space below, create a method named `hello` that will print `"Sam I am"`.
+The purpose of a method is to return a value based on the code within the body.
 
-1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+2. In the space below, create a method named `hello` that will print `"Sam I am"`.
 
-1. How would you call or execute the method that you created above?
+```
+def greeting()
+  p "Sam I am
+end
+```
 
-1. What questions do you still have about methods in Ruby?
+3. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+
+```
+def hello_someone(name)
+  p "#{name} I am"
+end
+```
+4. How would you call or execute the method that you created above?
+
+```
+def hello_someone(name)
+  p "#{name} I am"
+end
+
+hello_someone()
+```
+
+5. What questions do you still have about methods in Ruby?
+
+Still wrapping my head around the return part of a + b and having it assigned to a variable. 
