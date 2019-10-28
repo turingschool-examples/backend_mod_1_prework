@@ -7,8 +7,8 @@ The purpose of a method is to return a value based on the code within the body.
 2. In the space below, create a method named `hello` that will print `"Sam I am"`.
 
 ```
-def greeting()
-  p "Sam I am
+def hello
+  p "Sam I am"
 end
 ```
 
@@ -31,4 +31,4 @@ hello_someone()
 
 5. What questions do you still have about methods in Ruby?
 
-Still wrapping my head around the return part of a + b and having it assigned to a variable. 
+Still wrapping my head around the return part of a + b and having it assigned to a variable. But I'm working through it with more practice. 
