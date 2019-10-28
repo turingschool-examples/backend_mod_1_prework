@@ -26,6 +26,27 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+puts "What is the weather like outside?"
+puts "1. Sunny"
+puts "2. Snowy"
+puts "3. Rainy"
+puts "4. Icy"
+
+#I added a user input learned from the Learn Ruby the Hard Way excercise.
+weather = $stdin.gets.chomp
+
+if weather == '1'
+  p "sunscreen"
+elsif weather == '3'
+  p "umbrella"
+elsif weather == '2'
+  p "coat"
+elsif weather == '4'
+  p "yak traks"
+else
+  p "I guess I can't help you"
+end
+
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -44,8 +65,15 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+# puts "I have enough money for a gumball"
+# puts "I don't have enough money for a gumball"
+
+#I tried to make the if statement as short as possible instead of giving a test for each number (0, 1, 2, 3, etc)
+if num_quarters < 2
+  puts "I don't have enough money for a gumball."
+else
+  puts "I have enough money for a gumball."
+end
 
 
 #####################
@@ -61,3 +89,9 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 &&  has_sauce == true
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
