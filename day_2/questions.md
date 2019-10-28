@@ -20,10 +20,8 @@
   * The Boolean values in Ruby are *True* and *False*.  Though as I was researching I found that they have more of *truthy* and *falsey* values.  This is in the sense that any return that isn't false or nil, is considered true.
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
-  * ``` 2 == 25
-        false```
+  * ```  2 == 25 false ```
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
-  * ```25 >= 2
-       true```
+  * ``` 25 >= 2 true ```
        
