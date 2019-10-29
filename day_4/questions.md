@@ -4,16 +4,18 @@
   * The purpose of a method is to have a block of code essentially rewritten out in advance that can be used multiple times with multiple arguments without having to rewrite the code every time.  Basically making the code modular.
 
 1. In the space below, create a method named `hello` that will print `"Sam I am"`.
-  * ```
+  ```Ruby
   def hello()    
-      p "Sam I am."    
-    end
+    p "Sam I am."    
+  end
+  ```
 
 1. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-  * ```
+  ```Ruby
   def hello_someone(name)  
       p "#{name} I am"  
   end
+  ```
 
 1. How would you call or execute the method that you created above?
   * To call the method you just type it's name like you want call a variable and at the argument to the parenthesis.  
