@@ -1,0 +1,19 @@
+# Function Checklist from EX18
+
+1. Did you start your function definition with `def`
+1. Does your function name have only characters and `_` (underscore) characters?
+1. Did you put an open parenthesis `(` right after the function name?
+1. Did you put your arguments after the parenthesis `(` separated by commas?
+1. Did you make each argument unique (meaning no duplicate names)?
+1. Did you put a close parenthesis `)` after the arguments?
+1. Did you indent all lines of code you want in the function two spaces?
+1. Did you end your function with `end` lined up with the `def` above?
+
+# Run (use or call) Function Checklist
+
+1. Did you call/use/run this function by typing its name?
+1. Did you put the `(` character the name to run it?
+1. Did you put the values you want into the parenthesis separated by commas?
+1. Did you end the function call with a `)` character?  
+
+For functions that don't have parameters I like the () after them anyways because it makes them easy to identify as functions.
