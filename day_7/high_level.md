@@ -20,7 +20,7 @@
   5. 3 push each new character + space strings to encoder_array
   5. 4 puts encoder_array
 6. create a new variable for final output ```final_output = encoder_array.join```
-7. put final_output
+7. puts final_output
 
 0. create basic validation (put at top keep here in pseudo for updates)
   0. 1 first arg is a string of alpha + spaces
