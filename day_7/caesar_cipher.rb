@@ -1,38 +1,54 @@
+class CaesarCipher #create CaesarCipher class
+  attr_accessor :phrase, :offset #create getter and setter methods for phrase and offset
+  attr_reader :cipher #create getter method for cipher
 
-#initializing an array that includes the 26 letters of the alphabet.
-alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+  #define two class variables.  One for lowercase letters, the other for uppercase
+  @@alpha_lower = "abcdefghijklmnopqrstuvwxyz"
+  @@alpha_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-#request a phrase from the user to be ciphered.
-puts "Enter the phrase to be ciphered:"
+  def initialize #initalize all new objects by getting a phrase and offset from the user and initializing cipher as an empty string.
 
-#store the users phrase as a string called called 'phrase'
-phrase = gets.chomp
+    #request a phrase from the user to be ciphered.
+    puts "Enter the phrase to be ciphered:"
 
-#request the alphabet offset that will applied to the phrase to create the cipher.
-puts "enter a cipher offset:"
+    #store the users phrase as a string called called 'phrase'
+    @phrase = gets.chomp
 
-#store the offset value as an integer called 'offset'
-offset = gets.chomp.to_i
+    #request the alphabet offset that will be applied to the phrase to create the cipher.
+    puts "Enter a cipher offset:"
 
-#initialize 'cipher' as an empty string that will ultimately store the ciphered phrase.
-cipher = ""
+    #store the offset value as an integer called 'offset'
+    @offset = gets.chomp.to_i
 
-#for each character in the user 'phrase', convert the character to the new ciphered value and add it to the 'cipher' string.
-for i in 0..phrase.length-1 do
+    #initialize the cipher as an empty string.
+    @cipher =""
+    
+  end #initialize method
 
-  #sets boolean variable to true if the phrase character is in the alphabet array.
-  in_alphabet = alphabet.include? phrase[i].downcase
+  def encode #the method to encode the phrase to a cipher.
 
-    #if in_alphabet is true, then calcuate the index of the 'phrase' character in the alphabet array, add the offset value to that index, and store that alphabet array's value as the cipher value.
-    if in_alphabet == true
-      cipher[i] = alphabet[(alphabet.index(phrase[i].downcase) + offset) % 26]
+    #iterate over each character in 'phrase'.  for each character in 'phrase', calculate the ciphered character, and add it to the string 'cipher'
+    @phrase.length.times do |i|
 
-    #if in_alphabet is false, then the character in 'phrase' is not a character in the alphabet (likely punctuation or a number) so applies the index and value of the phrase to the same index and value of the cipher.
-    else
-      cipher[i] = phrase[i]
-    end
+        #if phrase[i] is in the lowercase alphabet then:
+      if @@alpha_lower.include?(@phrase[i]) == true
+        #get the index of phrase[i] letter in the lowercase alphabet, add the offset value to the index, and add that lowercase letter to the cipher.
+        @cipher[i] = @@alpha_lower[(@@alpha_lower.index(@phrase[i]) + @offset) % 26]
 
-end
+        #if phrase[i] is in the uppercase alphabet then:
+      elsif @@alpha_upper.include?(@phrase[i]) == true
+        #get the index of phrase[i] in the uppercase alphabet, add the offset value to the index, and add that uppercase letter to the cipher.
+        @cipher[i] = @@alpha_upper[(@@alpha_upper.index(@phrase[i]) + @offset) % 26]
 
-#prints the cipher to the screen.
-puts "Your ciphered phrase is: \"#{cipher}\""
+      else
+        #if phrase[i] is not in either the upper or lower case strings, then it must be punctuation or a number.  So just add that phrase[i] to the cipher without any manipulation.
+        @cipher[i] = @phrase[i]
+
+      end #end if
+    end #end iteration
+  end #end method
+end #end class
+
+new_cipher = CaesarCipher.new #create a new object of the CaesarCipher class
+new_cipher.encode #encode the phrase of the cipher you just created.
+puts "Your ciphered phrase is: \"#{new_cipher.cipher}\"" #print the ciphered phrase.
