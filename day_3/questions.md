@@ -11,8 +11,10 @@
 
 1. What is the Ruby syntax for an if statement?
 
-    if people < cars
+    if people < cars  
+
       puts "We have enough cars!"
+
     end
 
 1. How do you add multiple conditions to an if statement?
@@ -22,11 +24,17 @@
 1. What is the Ruby syntax for an if/elsif/else statement?
 
     if people < cars
+
       puts "We have enough cars!"
+
     elsif people > cars
+
       puts "We don't have enough cars."
+
     else
+
       puts "We don't know what to do."
+      
     end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
