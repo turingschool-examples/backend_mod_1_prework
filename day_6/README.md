@@ -15,7 +15,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. [x] Work through the files in the day_6/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_6 directory.
+1. [x]  Answer the questions in the questions.md file in the day_6 directory.
 
 ## Save your work in Git
 
