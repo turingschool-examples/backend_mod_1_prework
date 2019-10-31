@@ -27,5 +27,8 @@ puts HumanBeing.ancestors
 sparky = GoodDog.new # creates a new instance of the GoodDog class. ** Instantiation **
 sparky.speak("Arf!")
 bob = HumanBeing.new # Instantiates HumanBeing
+
+# calls the HumanBeing method .speak
 bob.speak("Hello!")
 
+# Would it be better to use a module here?
