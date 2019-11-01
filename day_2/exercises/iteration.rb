@@ -13,8 +13,8 @@ end
 # Write code below that iterates through a list of animals and prints "The
 # <animal> is awesome!" for each animal.
 
-animals.each do |animal|
-  # YOUR CODE HERE
+animals.each do |name|
+  p "The Giraffe is awesome!"
 end
 
 # Create an array of foods and then iterate over that array to print "Add
