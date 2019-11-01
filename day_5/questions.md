@@ -15,11 +15,16 @@ A Hash is a data structure that allows us to store data like a list. It is diffe
 1. With the same hash above, how would we get all the keys?  All the values?
 
 <code>states.each do |abbrev, state|</code>
+
 <code>&nbsp;&nbsp;puts "#{abbrev}\n"</code>
+
 <code>end</code>
 
+
 <code>states.each do |abbrev, state|</code>
+
 <code>&nbsp;&nbsp;puts "#{state}\n"</code>
+
 <code>end</code>
 
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
