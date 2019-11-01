@@ -10,6 +10,7 @@ The purpose of a method is to perform an action that either uses the classes att
     def hello
 
     &nbsp;&nbsp;puts "Sam I am"
+
     end
     </code>
 
@@ -17,8 +18,9 @@ The purpose of a method is to perform an action that either uses the classes att
 
     <code>
     def hello_someone(name)
-    
+
     &nbsp;&nbsp;puts "#{name} I am"
+    
     end
     </code>
 
