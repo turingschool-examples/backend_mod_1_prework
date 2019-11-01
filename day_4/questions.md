@@ -6,20 +6,20 @@ The purpose of a method is to perform an action that either uses the classes att
 
 1. In the space below, create a method named `hello` that will print `"Sam I am"`.
 
-    def hello
+    'def hello
         puts "Sam I am"
-    end
+    end'
 
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-    def hello_someone(name)
+    'def hello_someone(name)
         puts "#{name} I am"
-    end
+    end'
 
 1. How would you call or execute the method that you created above?
 
-hello_someone("Meghan")
+'hello_someone("Meghan")''
 
 1. What questions do you still have about methods in Ruby?
 
