@@ -10,7 +10,7 @@ The character used to indicate comments in ruby is `#` (also called pound, hash,
 
 #### 3. Explain the difference between an integer and a float?
 
-Integers are whole numbers (1, 2, ...) while a floats are decimal numbers (1.0 , 2.1, ...).
+Integers are whole numbers (1, 2, ...) while floats are decimal numbers (1.0 , 2.1, ...).
 
 In Ruby, integers and floats are objects and have methods associated with them.
 
