@@ -56,7 +56,7 @@ Example:
 ```ruby
 string1 = "always better "
 string2 = "together"
-prints string1 + string2  #returns "always better together"
+print string1 + string2  #returns "always better together"
 ```
 
 `[]` is a method that returns a substring of the string given as input.
