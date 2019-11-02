@@ -26,6 +26,20 @@
 # Manipulate the variable 'weather' to see if you can print something other
 # than 'coat'
 
+weather = 'sunny'
+
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'rainy'
+  p "umbrella"
+elsif weather == 'snowy'
+  p "coat"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
+
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -42,11 +56,19 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+  puts "You would like to buy some gumballs. How many quarters do you have?"
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+  num_quarters = gets.chomp
 
+  if num_quarters == "0"
+    puts "I don't have enough money for a gumball"
+  elsif num_quarters == "1"
+    puts "I don't have enough money for a gumball"
+  elsif num_quarters == "2"
+    puts "I have enough money for a gumball"
+  else
+    puts "I have enough money for a gumball"
+  end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -59,5 +81,26 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+puts "You want to make a pizza. How many cups of flour do you have?"
+
+cups_flour = gets.chomp
+
+if cups_flour == "0"
+  puts "I cannot make pizza"
+elsif cups_flour == "1"
+  puts "I cannot make pizza"
+elsif cups_flour == "2"
+  puts "I cannot make pizza"
+else cups_flour == "3"
+  puts "Do you have sauce?"
+
+  has_sauce = gets.chomp
+
+  if has_sauce == "Yes"
+    puts "I can make pizza"
+  elsif has_sauce == "yes"
+    puts "I can make pizza"
+  else
+    puts "I cannot make pizza"
+  end
+end
