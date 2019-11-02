@@ -5,7 +5,7 @@
 This method sorts the elements of an array. The sorting will depend on the data type contained in the array (alphabetical order for string, ascending value order for integers or floats, ...).
 
 the `.sort` method returns a copy of the original array
-the `.sort!` method modifies the original Array
+the `.sort!` method modifies the original array
 
 #### method `.each`
 
@@ -24,7 +24,7 @@ The `.join` method concatenates the element of an array and returns the string t
 Example:
 ```ruby
 a = ["I", "need", "space", "between", "these", "words."]
-print a.join # returns "Ineedspacebetweenthesewords"
+print a.join # returns "Ineedspacebetweenthesewords."
 b = ["cohort", 19, 11]
 print b.join # returns "cohort1911"
 ```

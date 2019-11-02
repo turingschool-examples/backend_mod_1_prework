@@ -23,7 +23,7 @@ Indices in Ruby start from `0`. Therefore to access "giraffe", we need the first
 
 #### 5. Name and describe two additional array methods.
 
-The `select` method allows to keep certain elements of an array based on a requirement given as an input and returns the array of elements that meet the requirement
+The `select` method allows to keep certain elements of an array based on a requirement given as an input and returns the array of elements that meet the requirement.
 
 Example:
 ```ruby
