@@ -2,7 +2,9 @@ iterations = 100
 
 iterations.times { |x|
   #You need x + 1 because the iteration is technically 0
-  if (x + 1) % 3.00 == 0
+  if (x + 1) % 3.00 == 0 && (x + 1) % 5 == 0
+    print "FizzBuzz, "
+  elsif (x +1) % 3 == 0
     print "Fizz, "
   elsif (x + 1) % 5.00 == 0
     print "Buzz, "
@@ -34,7 +36,9 @@ end
 user_interations = end_number - start_number + 1
 user_interations.times { |x|
   #We add the starting number to the iteration number to get our beginning point
-  if (x + start_number) % 3.00 == 0
+  if (x + start_number) % 3.00 == 0 && (x + start_number) % 5 == 0
+    print "FizzBuzz, "
+  elsif (x + start_number) % 3 == 0
     print "Fizz, "
   elsif (x + start_number) % 5.00 == 0
     print "Buzz, "
