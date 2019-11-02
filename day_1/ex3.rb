@@ -22,7 +22,7 @@ puts 3 + 2 < 5 - 7
 
 puts "What is 3 + 2? #{3 + 2}"
 # prints first the question given as a string and the answer just after
-# here "#" allows to convert the result of a math operation into a string
+# here "#{}" allows to convert the result of a math operation into a string
 
 puts "What is 5 - 7? #{5 - 7}"
 # prints out the string and calculation introduced by #{}
