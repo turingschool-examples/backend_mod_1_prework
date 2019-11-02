@@ -19,6 +19,10 @@ class Dog
   def eat
     @hungry = false
   end
+
+  def play
+    @hungry = true
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
@@ -28,3 +32,12 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+
+fido.play
+puts fido.hungry
+
+if fido.hungry == true
+  puts "The dog is hungry"
+else
+  puts "The dog has been fed"
+end
