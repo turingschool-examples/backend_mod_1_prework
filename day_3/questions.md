@@ -83,6 +83,6 @@ end
 
 We could also repeat a set of instructions as long as a condition is not met. For example, while the glass is not full, fill up the glass.
 
-(1) if glass_not_full == true
-      fill_up_glass
-      go to (1)
+(1) if glass_not_full == true \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill_up_glass \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; go to (1)
