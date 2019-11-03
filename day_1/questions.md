@@ -60,15 +60,13 @@ The program will prompt the user for his/her information, and when the user hits
 
 answer:
 
-1. Split - the .split method takes a string and splits it into an array the returns the array.
+    1. **Split** - the `.split` method takes a string and splits it into an array the returns the array.
 
-```ruby
-"Hello, how are you?".split #=> ["Hello,", "how", "are", "you?"]
-```
-2. Reverse - the .reverse method reverses the order of the characters in a string.
+    ```ruby
+    "Hello, how are you?".split #=> ["Hello,", "how", "are", "you?"]
+    ```
+    1. **Reverse** - the `.reverse` method reverses the order of the characters in a string.
 
-answer:
-
-```ruby
-"Hello World!".reverse #=> "!dlroW olleH"
-```
+    ```ruby
+    "Hello World!".reverse #=> "!dlroW olleH"
+    ```
