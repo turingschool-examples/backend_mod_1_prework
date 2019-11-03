@@ -13,4 +13,9 @@ Ceaser Cipher
     1.2.2 Create a hash named cipher and set it = to whats in the {}
     1.2.3 Make sure your formatting is correct with => to equate the values and , after each value pair
 2 Write code comparing string to Cipher
-3 Return string
+  2.1 Create variable to store string
+  2.2 Create a code that iterates through the hash to compare the string to the Cipher
+    2.2.1 Use .each to loop through the cipher hash
+    2.2.2 Split up the string to compare each letter to the cipher
+    2.2.3 Use an if statement to return the corresponding letter to the string from the cipher
+  2.3 Print the letters to return the coded string
