@@ -24,3 +24,5 @@ if people > trucks
 else
   puts "fine, lets stay home then"
 end
+
+#elsif tells the computer to run code on another peratmeter and else tell the computer to run the statement if the if and elsif fail

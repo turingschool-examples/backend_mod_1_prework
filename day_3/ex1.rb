@@ -34,3 +34,7 @@ end
 if people == dogs
   puts "People are dogs."
 end
+
+#If statment does? if statements create a branch in the code, like choose your own adventure
+#It says, if this is true, run the code, otherwise dont
+#2: the endent is a block of code, easier to read

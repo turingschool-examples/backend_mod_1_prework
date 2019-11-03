@@ -12,6 +12,11 @@ class Dog
     @hungry = true
   end
 
+  def play
+    puts "Good dog, who wants to go on a run"
+    @hungry = true
+  end
+
   def bark
     p "woof!"
   end
@@ -28,3 +33,5 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+fido.play
+p fido.play
