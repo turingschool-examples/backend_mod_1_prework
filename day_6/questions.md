@@ -2,7 +2,7 @@
 
 #### 1. In your own words, what is a Class?
 
-A class is an abstract concept of a category of objects.
+A class is an abstract concept that represents a category of objects.
 
 #### 2. In relation to a Class, what is an attribute?
 
