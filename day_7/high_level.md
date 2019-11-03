@@ -27,9 +27,9 @@
     - **At this point, I know hashing would help solve the problem, but I don't fully understand how they work, exactly how the syntax is supposed to be written, or why it's written that way.  Additional study and instructor guidance would be helpful in fully understanding it's usage.**
 
    * 3.5.1 From what I do understand, hashes can assign each letter a number, and then use the argument "10" to shift the array 10 spaces
-    * 3.5.1.1 For example, shifting right 3 places would start the array with "C" and then go from there to "B", and shifting left would start with "X" and end with "W".
-    * 3.5.1.2 This would set up a new array with a new order, and then the new order of those letters could be applied to correspond to the text the user originally entered.
-    * 3.5.1.3 This would set the method up to print back the jumbled phrase.
+    - 3.5.1.1 For example, shifting right 3 places would start the array with "C" and then go from there to "B", and shifting left would start with "X" and end with "W".
+    - 3.5.1.2 This would set up a new array with a new order, and then the new order of those letters could be applied to correspond to the text the user originally entered.
+    - 3.5.1.3 This would set the method up to print back the jumbled phrase.
 
 4. Write code to print the jumbled word or phrase
   * 4.1 "puts cipher(wordphrase, 3)"
