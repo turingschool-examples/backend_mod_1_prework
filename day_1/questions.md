@@ -4,6 +4,12 @@
 
 1. What is the character you would use to indicate comments in a ruby file?
 
+answer: I would use
+
+```ruby
+puts "hello world!"
+```
+
 1. Explain the difference between an integer and a float?
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
