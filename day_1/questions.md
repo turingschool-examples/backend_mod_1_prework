@@ -2,7 +2,7 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-answer: I would use
+answer:
 
 ```ruby
 puts "Hello World!"
@@ -10,11 +10,9 @@ puts "Hello World!"
 
 1. What is the character you would use to indicate comments in a ruby file?
 
-answer: I would use
+answer:
 
-```ruby
-puts "an octothorpe (#)"
-```
+I would use an octothorpe (#).
 
 1. Explain the difference between an integer and a float?
 
@@ -45,7 +43,7 @@ puts "animal"
 
 answer:
 
-#string interpolation lets you substitute defined variables or expressions in a given string with respected values. In addition, it only works when we use double quotes ("").
+String interpolation lets you substitute defined variables or expressions in a given string with respected values. In addition, it only works when we use double quotes ("").
 
 ```ruby
 animal = "zebra"
@@ -56,10 +54,21 @@ puts "Here comes the #{animal}!!"
 
 answer:
 
-#The program will prompt the user for his/her information, and when the user hits enter, it will take what he/she entered and use it going forward in its execution. We use the gets method to get the user input (as a string)
+The program will prompt the user for his/her information, and when the user hits enter, it will take what he/she entered and use it going forward in its execution. We use the gets method to get the user input (as a string)
 
 1. Name and describe two common string methods.
 
-#1. Split - the .split method takes a string and splits it into an array the returns the array.
+answer:
 
-"Hello, how are you?".split
+1. Split - the .split method takes a string and splits it into an array the returns the array.
+
+```ruby
+"Hello, how are you?".split #=> ["Hello,", "how", "are", "you?"]
+```
+2. Reverse - the .reverse method reverses the order of the characters in a string.
+
+answer:
+
+```ruby
+"Hello World!".reverse #=> "!dlroW olleH"
+```
