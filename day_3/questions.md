@@ -4,6 +4,7 @@
 
 A conditional statement evaluates to true or false and then, based on the answer, makes a decision.   
 
+''' ruby
 if smoke = true
   p "Fire!!"
 end
@@ -15,6 +16,7 @@ end
 if pencil_tip = broken
   p "Time to sharpen that pencil."
 end
+'''
 
 2. Why might you want to use an if-statement?
 
