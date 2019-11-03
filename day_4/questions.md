@@ -31,4 +31,4 @@ hello_someone()
 
 5. What questions do you still have about methods in Ruby?
 
-Still wrapping my head around the return part of a + b and having it assigned to a variable. But I'm working through it with more practice. 
+Still wrapping my head around the return part of a + b and having it assigned to a variable. But I'm working through it with more practice.
