@@ -33,5 +33,7 @@ This is a top down design of how I would break down the Caesar Cipher (without l
 ```
 Using the top down method above, we should get an output that could potentially look like this:
 
+```
 cipher.encode("Matt Holmes", 1)
 => "NBUU IPMFT"
+```
