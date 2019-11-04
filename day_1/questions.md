@@ -3,7 +3,7 @@
 1. How would you print the string `"Hello World!"` to the terminal?
 I would use 'puts "Hello World!"'.
 1. What is the character you would use to indicate comments in a ruby file?
-You would use the Octothorpe (#)
+You would use the Octothorp (#)
 1. Explain the difference between an integer and a float?
 An integer is a whole number and a float has a decimal point.
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
