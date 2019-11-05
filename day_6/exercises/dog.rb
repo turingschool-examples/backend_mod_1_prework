@@ -20,12 +20,14 @@ class Dog
     @hungry = false
   end
 
-# Run this file to double check it works 
+# Run this file to double check it works
   def play
+    puts "#{@name} is now hungry!"
     @hungry = true
   end
 
 end
+
 
 fido = Dog.new("Bernese", "Fido", 4)
 p fido.breed

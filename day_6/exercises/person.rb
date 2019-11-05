@@ -17,7 +17,6 @@ class Person
   def has_birthday_next_month
     puts "#{name} is currently #{age}, but will be #{age + 1} next month."
   end
-
 end
 
 sam = Person.new("Sam", 24)
