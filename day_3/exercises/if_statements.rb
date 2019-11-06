@@ -43,7 +43,11 @@
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
 num_quarters = "0"
+gumball_m = "1"
 
+
+if num_quarters > gumball_m
+  
 if num_quarters == "2"
   puts "I have enough money for a gumball"
 elsif num_quarters == "1"

@@ -6,15 +6,15 @@
 # each animal.
 animals = ["Zebra", "Giraffe", "Elephant"]
 
-animals.each do |animal|
+animals.each do |animal| "is awesome"
   p animal
 end
 
 # Write code below that iterates through a list of animals and prints "The
 # <animal> is awesome!" for each animal.
 
-animals.each do |name|
-  p "The Giraffe is awesome!"
+animals.each do
+    p  "is awesome"
 end
 
 # Create an array of foods and then iterate over that array to print "Add
