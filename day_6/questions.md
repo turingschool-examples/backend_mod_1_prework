@@ -37,7 +37,7 @@
 
 1. How do you create an instance of a class?
 
-  - Call the `new` method. If the class has a constructor, parameters can be passed to the class to initialize the object's attributes.
+  - Call the `new` method. If the class has a constructor, parameters can be passed to the `new` method to initialize the object's attributes.
   ```
     spot = Dog.new(7, 20)
   ```
