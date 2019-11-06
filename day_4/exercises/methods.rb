@@ -12,6 +12,7 @@ print_name
 # Write a method that takes an argument of your name and prints your name
 def print_name(mariana)
   p "Mariana"
+  return mariana 
 end
 
 print_name("Albus Dumbledore")
