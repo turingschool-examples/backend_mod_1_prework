@@ -1,5 +1,12 @@
-array = ["1, 2, 3,4,5,6,7,8,9,10"]
 
-if p i = array.index(3)
-  array[i] = "Fizz"
-end
+1.upto(100) do |i|
+     if i % 5 == 0 and i % 3 == 0
+       puts "FizzBuzz"
+     elsif i % 5 == 0
+       puts "Buzz"
+     elsif i % 3 == 0
+       puts "Fizz"
+     else
+       puts i
+     end
+   end
