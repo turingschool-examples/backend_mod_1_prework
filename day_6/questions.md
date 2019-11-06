@@ -29,5 +29,5 @@ dog.play("catch_ball")
 
 end
 1. How do you create an instance of a class?
-
+object = instance.new
 1. What questions do you still have about classes in Ruby?
