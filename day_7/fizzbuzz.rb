@@ -2,11 +2,11 @@ numbers = Array(1..100)
 
 numbers.each do |x|
   if x % 3 == 0 && x % 5 == 0
-    p "FizzBizz"
+    p "FizzBuzz"
   elsif x % 3 == 0
     p "Fizz"
   elsif x % 5 == 0
-    p "Bizz"
+    p "Buzz"
   else p "#{x}"
   end
 end
