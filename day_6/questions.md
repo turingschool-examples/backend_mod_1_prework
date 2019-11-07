@@ -14,35 +14,35 @@ Behavior is the actions that a class can undertake. For example, a dog can bark.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-class Dog
+  class Dog
 
-  def initialize(name, color, breed)
+    def initialize(name, color, breed)
 
-    @name = name
+      @name = name
 
-    @color = color
+      @color = color
 
-    @breed = breed
+      @breed = breed
+
+    end
+
+    def quiz
+
+      puts "Owner: who was the greatest baseball player?"
+
+      puts "#{self.name}: DiMaggio?"
+
+    end
+
+    def name_change(n)
+
+      self.name = n
+
+      puts "I will henceforth be referred to by my mother's maiden name, #{self.name}."
+
+    end
 
   end
-
-  def quiz
-
-    puts "Owner: who was the greatest baseball player?"
-
-    puts "#{self.name}: DiMaggio?"
-
-  end
-
-  def name_change(n)
-
-    self.name = n
-
-    puts "I will henceforth be referred to by my mother's maiden name, #{self.name}."
-
-  end
-
-end
 
 1. How do you create an instance of a class?
 
