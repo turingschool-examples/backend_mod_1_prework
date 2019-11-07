@@ -31,6 +31,6 @@ systematically loop thru the message, pulling each letter's index location from 
   3.3 Determine coded message
     3.3.1 Find letter in coded alphabet matching location from original alphabet
     3.3.2 Substitute in new letter
-    3.3.2 Put string back together using coded letters
+    3.3.3 Put string back together using coded letters
 4 Display message
 ```
