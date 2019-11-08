@@ -13,7 +13,7 @@ An attribute is some aspect that applies to all objects within that class. For e
 Behavior is the actions that a class can undertake. For example, a dog can bark. In code, this could be translated as a member of the Dog class, Fido, having a method which prints a bark when called.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
-
+```
   class Dog
 
     def initialize(name, color, breed)
@@ -43,11 +43,11 @@ Behavior is the actions that a class can undertake. For example, a dog can bark.
     end
 
   end
-
+```
 1. How do you create an instance of a class?
-
+```
 instance = Class.new(attribute1, attribute2, attribute3, etc.)
-
+```
 1. What questions do you still have about classes in Ruby?
 
 Nothing at the moment.
