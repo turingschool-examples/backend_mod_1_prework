@@ -21,31 +21,50 @@
 
 
 class Cesar_cipher
-  attr_reader :input_string, :alphabet, :shifted, :input_array, :index_of_string
+  attr_accessor :input_string, :alphabet, :shifted, :input_array, :index_of_string
 
-  def initialize(input_string)
+  def initialize(input_string, shifted)
     @input_string = input_string
     @shifted =  shifted
     @alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-    @input_array = []
-    @index_of_string = []
+    @input_array = input_array
+    @index_of_string = index_of_string
 
   end
 
-  def string_to_array
-    @input_array = @input_string.upcase.split('').each do|letter|
-    @index_of_string += @alphabet.index(letter)#.split(//)#.map {|chr| chr.to_i}
-    #@index_of_string = Array(@index_of_string)
-    puts @index_of_string
 
-    end
-    #puts @index_of_string = @index_of_string + 3
-    #@index_of_string = @index_of_string.each do|number|
-    #  number = number + 3
-    #  puts number
 
+  def shift_alphabet
+    poppable = @alphabet.shift(@shifted)
+    @alphabet = @alphabet.push(poppable)
+  end
+
+  def string_to_index
+    @input_array = @input_string.upcase.split('').collect do|letter|
+      @alphabet.index(letter)
     end
     end
 
-try_it = Cesar_cipher.new('Hello World')
-try_it.string_to_array
+  def index_to_string
+    @input_array = @input_array.collect do |letter|
+      if letter.nil? || letter == 0
+        letter = " "
+      else
+      letter = letter.to_i
+      @alphabet[letter]
+    end
+  end
+    puts @input_array.join.downcase
+  end
+end
+
+
+
+
+try_it = Cesar_cipher.new('Hello World', 4)
+try_it.string_to_index
+try_it.shift_alphabet
+try_it.index_to_string
+
+#answer:
+#Khoor Zruog
