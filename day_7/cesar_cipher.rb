@@ -21,6 +21,9 @@
 
 
 class Cesar_cipher
+  class << self
+  end
+
   attr_accessor :input_string, :alphabet, :shifted, :input_array, :index_of_string
 
   def initialize(input_string, shifted)
@@ -29,7 +32,6 @@ class Cesar_cipher
     @alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     @input_array = input_array
     @index_of_string = index_of_string
-
   end
 
 
@@ -37,12 +39,14 @@ class Cesar_cipher
   def shift_alphabet
     poppable = @alphabet.shift(@shifted)
     @alphabet = @alphabet.push(poppable)
+    self
   end
 
   def string_to_index
     @input_array = @input_string.upcase.split('').collect do|letter|
       @alphabet.index(letter)
     end
+    self
     end
 
   def index_to_string
@@ -61,10 +65,8 @@ end
 
 
 
-try_it = Cesar_cipher.new('Hello World', 4)
-try_it.string_to_index
-try_it.shift_alphabet
-try_it.index_to_string
+try_it = Cesar_cipher.new('Hello World', 3)
+try_it.string_to_index.shift_alphabet.index_to_string
 
 #answer:
 #Khoor Zruog
