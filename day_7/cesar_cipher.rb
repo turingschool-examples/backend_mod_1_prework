@@ -34,8 +34,6 @@ class Cesar_cipher
     @index_of_string = index_of_string
   end
 
-
-
   def shift_alphabet
     poppable = @alphabet.shift(@shifted)
     @alphabet = @alphabet.push(poppable)
