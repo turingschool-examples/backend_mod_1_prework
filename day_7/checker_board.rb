@@ -21,26 +21,27 @@ class CheckerBoard
   def initialize(width, height)
     @width = width
     @height = height
-    @checker = ["X", " "]
-    @board = []
+    @checker = "X "
+    @board = ""
   end
 
   def checker_this
     x = 1
     while x <= @height do
-        @board.push(["X"," ", "X", " ","X"])
+      if x.even?
+        @board.concat((@checker * @width) + "\n" + " ")
+      else
+        @board.concat((@checker * @width) + "\n")
+      end
     x += 1
     end
-    y = 1
-    while y <= @width do
-      y += 1
-      @board.each do |rows|
-        rows.push("X"," ")
-        print rows + "\n"
-      end
-    end
+    print @board
   end
 end
 
+
 try_it = CheckerBoard.new(2,4)
 try_it.checker_this
+
+test2 =  CheckerBoard.new(3,5)
+test2.checker_this
