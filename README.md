@@ -105,14 +105,14 @@ More information about rbenv can be found [here](https://github.com/rbenv/rbenv#
 
 ### Use rbenv to install a certain version of Ruby
 
-Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.5.1. This is the version we will use in the Backend Program.
+Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.6.3. This is the version we will use in the Backend Program.
 
-If you need another version it'll be the same procedure, just replace `2.5.1` in the instructions with whichever version you want.
+If you need another version it'll be the same procedure, just replace `2.6.3` in the instructions with whichever version you want.
 
 Install it with:
 
 ```
-$ rbenv install 2.5.1
+$ rbenv install 2.6.3
 ```
 
 It will take a while to finish installing, and print a _lot_ of text to your terminal.
@@ -123,14 +123,14 @@ When it's all finished, type:
 $ rbenv versions
 ```
 
-and you should now see `2.5.1` listed.
+and you should now see `2.6.3` listed.
 
 Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you _your current ruby version_. The second shows _all installed versions_.
 
 Switch to your newly installed version with
 
 ```
-$ rbenv local 2.5.1
+$ rbenv local 2.6.3
 ```
 
 Now enter:
@@ -142,17 +142,17 @@ $ ruby -v
 This shows us what version of Ruby we are running. You should see something like:
 
 ```
-ruby 2.5.1p205 (2017-12-14 revision 61247) [x86_64-darwin17]
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin19]
 ```
 
-You can ignore everything after the `p` in `2.5.1p205`. This output shows us we are running Ruby 2.5.1, which is what we want. If you got something different than `2.5.1`, such as `2.5.0`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+You can ignore everything after the `p` in `2.6.3p205`. This output shows us we are running Ruby 2.6.3, which is what we want. If you got something different than `2.6.3`, such as `2.5.0`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
 
 #### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default:
 
 ```
-$ rbenv global 2.5.1
+$ rbenv global 2.6.3
 ```
 
 Once you set the global ruby version, make your terminal aware of this update with:
