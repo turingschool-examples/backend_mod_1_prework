@@ -36,22 +36,22 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 1. Follow these steps to complete your first Learn Ruby the Hard Way lesson: [A Good First Program](https://learnrubythehardway.org/book/ex1.html).
     1. This lesson tells you to type code into a file called "ex1.rb". Create this file in your `day_1` directory. If you are in your `day_1` directory, you can do this with `touch ex1.rb`. If you are not in your `day_1` directory, first navigate to it using `cd` and `ls`, and then run `touch ex1.rb`
-    1. Work through the lesson, **typing** the code into your "ex1.rb" file, and running it with `ruby ex1.rb`. Make sure you get similar output to what the lesson shows you. If you get an error saying "No such file or directory", make sure your "ex1.rb" file is in your day_1 directory, and that you are running `ruby ex1.rb` from that directory. You should see `ex1.rb` listed when you enter `ls`.
-    1. Complete the Study Drills listed at the end of the lesson.
-    1. Read the Common Student Questions section.
+    2. Work through the lesson, **typing** the code into your "ex1.rb" file, and running it with `ruby ex1.rb`. Make sure you get similar output to what the lesson shows you. If you get an error saying "No such file or directory", make sure your "ex1.rb" file is in your day_1 directory, and that you are running `ruby ex1.rb` from that directory. You should see `ex1.rb` listed when you enter `ls`.
+    3. Complete the Study Drills listed at the end of the lesson.
+    4. Read the Common Student Questions section.
 
-1. Follow these steps to complete [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+2. Follow these steps to complete [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
     1. Create a file in your `day_1` directory called `ex2.rb`. If you are in your `day_1` directory, you can do this with `touch ex2.rb`. If you are not in your `day_1` directory, first navigate to it using `cd` and `ls`, and then run `touch ex2.rb`.
-    1. **Type** the code from the lesson into your "ex2.rb" file, and run it with `ruby ex2.rb`.
-    1. Complete the Study Drills listed at the end of the lesson.
-    1. Read the Common Student Questions section.
+    2. **Type** the code from the lesson into your "ex2.rb" file, and run it with `ruby ex2.rb`.
+    3. Complete the Study Drills listed at the end of the lesson.
+    4. Read the Common Student Questions section.
 
-1. Follow these steps to complete [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
+3. Follow these steps to complete [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
     1. Create a file in your `day_1` directory called `ex3.rb`.
-    1. **Type** the code from the lesson into your "ex3.rb" file, and run it with `ruby ex3.rb`.
-    1. Complete the Study Drills listed at the end of the lesson.
-    1. Read the Common Student Questions section.
+    2. **Type** the code from the lesson into your "ex3.rb" file, and run it with `ruby ex3.rb`.
+    3. Complete the Study Drills listed at the end of the lesson.
+    4. Read the Common Student Questions section.
 
 1. Repeat the steps from the previous lessons for [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 1. Repeat the steps from the previous lessons for [Strings](https://learnrubythehardway.org/book/ex5.html)
