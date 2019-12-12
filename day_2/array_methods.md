@@ -11,6 +11,7 @@ array_3 = Array.new
 #### Index Method
 - You can access certain parts of an array using the index method.
 - Arguments can be single integer, paired (start/length), or a range.
+'''ruby
 array = [1,2,3,4,5,6]
 array[2] => 3
 array[0] => 1
@@ -18,7 +19,7 @@ array[2,3] => 3,4,5
 array[2,2] => 3,4
 array[1..4] => 2,3,4,5
 array[2..4] => 3,4,5
-
+'''
 #### First / Last Method
 -You retrieve the first or last element in an array by calling .first or .last.
 array.last => 6
