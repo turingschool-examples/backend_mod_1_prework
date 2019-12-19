@@ -32,8 +32,13 @@ if people == dogs
 puts "People are dogs."
 end
 
-# If the condition is true, it runs the program underneath
-# To show that it's underneath the conditional
-# The program still runs though, it's messy
-# Yes, though they might not work/make sense for these specific variables and conditions
-# Some of the conditionals change
+# What do you think the 'if' does to the code underneath?
+  # If the condition is true, it runs the program underneath
+# Why does the code under the 'if' need to be indented two spaces?
+  # To show that it's underneath the conditional
+# What happens if it isn't indented
+  # The program still runs though it's messy
+# Can you put other boolean expressions from Exercise 27 in the 'if-statement?' Try it.
+  # Yes, though they might not work/make sense for these specific variables and conditions
+# What happens if you change the initial values for 'people', 'cats', and 'dogs'
+  # Some of the functions have different outputs because the conditional changed
