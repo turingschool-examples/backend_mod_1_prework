@@ -4,6 +4,7 @@
 
 # example: Write code below that iterates through a list of animals and print
 # each animal.
+
 animals = ["Zebra", "Giraffe", "Elephant"]
 
 animals.each do |animal|
@@ -19,7 +20,9 @@ end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
+
 foods = ["Reeses'", "Snickers", "Twix"]
+
 foods.each do |food|
   puts "Add #{food} to shopping list."
 end
@@ -28,6 +31,7 @@ end
 # of each of the number.
 
 numbers = [1,2,3,4,5]
+
 numbers.each do |number|
   puts "#{number}#{number} OR #{number} * 2 = #{number * 2}"
 end
