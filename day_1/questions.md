@@ -24,4 +24,4 @@
 
 8. Name and describe two common string methods.
 - `(string).each` # Is helpful for loops. `.each` goes through each value in an array and iterates.
-- `(string).lower` # Is helpful after getting inputs. `.lower` changes the entire string to lowercase. Which helps when you're comparing their input to set responses.
+- `(string).downcase` # Is helpful after getting inputs. `.lower` changes the entire string to lowercase. Which helps when you're comparing their input to set responses.
