@@ -43,6 +43,6 @@ else
   puts "Let's get a Cyber Truck."
 end
 
-
-# Elsif is used for other conditionals underneath the first 'if'
-# Else is used for all other conditionals not listed in the function
+# Try to guess what 'elsif' and 'else' are doing
+  # Elsif is used for other conditionals underneath the first 'if'
+  # Else is used for all other conditionals not listed in the function
