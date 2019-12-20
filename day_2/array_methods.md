@@ -56,6 +56,7 @@ names.index("Larry")
 ```
 
 **Method:  .include?**
+
 Include is basically asking "Is the defined object inside the array?".  The output will be _true_ or _false_.  
 
 ```
@@ -66,6 +67,7 @@ names.include?("Ben")
 ```
 
 **Method:  .collect**
+
 .collect is very similar to .each, however where .each always outputs the original array, .collect will output a new array.  In the case of .collect, the goal is to change the array, not to show a result on the screen.  If puts is used as the block result, the new array will only include [ nil ] for each object in the array.
 
 ```
@@ -83,6 +85,7 @@ names.collect { |n| n + " is cool" }
 ```
 
 **Method:  .first**
+
 The .first method will return the object with index 0 in the array.  .first is a more readable way of typing `array[0]`.
 
 ```
@@ -93,6 +96,7 @@ names.first
 ```
 
 **Method:  .last**
+
 Like .first, last will return the last object in the array.  It will produce the same result as `array[-1]`.
 ```
 names = [ "Ben", "Alexis", "Neal", "Bethany" ]
@@ -102,6 +106,7 @@ names.last
 ```
 
 **Method:  .shuffle**
+
 The shuffle method will return a new array with the array objects in a random order.  This could be used in something like a raffle where all contestants names' are in a "hat" (array) and you randomly draw a name off the top (in index 0).
 ```
 names = [ "Ben", "Alexis", "Neal", "Bethany" ]
