@@ -1,7 +1,8 @@
 # Array Methods
 
 **Method:  .sort**
-Adding array.sort will organize the array alphabetically by default.  Numbers will take precede letters, and capital letters will precede lower case.  Basic blocks can be added to change the sort where two variables are declared in the block and <=> is used to determine the direction of the sort.  The result of .sort will be a new array.
+
+Adding array.sort will organize the array alphabetically by default.  Numbers will precede letters, and capital letters will precede lower case.  Basic blocks can be added to change the sort where two variables are declared in the block and <=> is used to determine the direction of the sort.  The result of .sort will be a new array.
 
 ```
 names = [ "Ben", "Alexis", "Neal", "Bethany" ]
@@ -11,6 +12,7 @@ names.sort
 ```
 
 **Method:  .each**
+
 The .each method means, "Execute the code block on each element of the array."  The method ends when it reaches the last item of the array.  The result of the method is determined by the method block.  The _output_ of .each is always the original array.
 
 ```
@@ -26,6 +28,7 @@ BETHANY
 ```
 
 **Method:  .join**
+
 .join will create a string from the given array.  A separator can be added to the .join method by using ("<whatever>").  With no separator, the objects in the array will be run together.  The result of this method is a string.
 
 ```
@@ -39,7 +42,8 @@ names.join(".")
 ```
 
 **Method:  .index**
-The .index method is used to return an index value of what is specified in an array.  If that object is not in the array.  The output of the method is the index number.  If the item does not exist in the array, the output will be nil.
+
+The .index method is used to return an index value of an object inside an array.  The output of the method is the index number.  If the item does not exist in the array, the output will be nil.
 
 ```
 names = [ "Ben", "Alexis", "Neal", "Bethany" ]
