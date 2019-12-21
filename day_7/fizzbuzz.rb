@@ -19,3 +19,5 @@ def fizzbuzz(a,b)
     end
   end
 end
+
+fizzbuzz(1,100)
