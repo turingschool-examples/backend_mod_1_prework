@@ -43,7 +43,7 @@ class MyCar
   def info
     puts "You have a #{@color}, #{@year} #{@model}."
   end
-
+ 
   def crash
     puts "Oh no! Did you buy a new car or repair your current one?"
     puts "> "
