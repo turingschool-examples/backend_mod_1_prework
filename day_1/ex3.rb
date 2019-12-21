@@ -1,7 +1,7 @@
 # Puts a message
 puts "I will now count my chickens:"
 
-# Puts a message with the computation 30 / 6 + 25 (30) as the resulting string
+# Puts a message with the computation 30 / 6 + 25 (30) as the resulting string 
 puts "Hens #{25.0 + 30.0 / 6.0}"
 # Puts a message with the computation 100 - .04(75) (97) as the resulting string
 puts "Roosters #{100.0 - 25.0 * 3.0 % 4.0}"
