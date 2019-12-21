@@ -1,7 +1,6 @@
 # Ruby converting an integer into it's string name... The best example I can find that doesn't use a unique gem that we've already installed.. Is to make a hash..
 
 # Code currently works for 10 monkeys..
-monkeys(10)
 
 def monkeys(number)
   number_to_string = {
