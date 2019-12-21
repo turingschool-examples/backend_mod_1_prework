@@ -32,11 +32,13 @@ class MyCar
     @current_speed = 0
     puts "You come to a stop, and turn the car off"
   end
+  
 # Create a method called spray_paint
   def spray_paint(color)
     @color = color
     puts "You spray paint your car #{@color}"
   end
+  
 # My own methods for practice, though I don't know how you'd use 'self.color', 'self.year', 'self.model'
   def info
     puts "You have a #{@color}, #{@year} #{@model}."
