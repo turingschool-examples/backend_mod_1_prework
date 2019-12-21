@@ -36,3 +36,4 @@ end
   - `buddy = Dog.new("Buddy", 4, "beagle", "male")`
 
 6. What questions do you still have about classes in Ruby?
+- self.attributes is still a bit confusing to me, because it seems everything still functions with @attributes
