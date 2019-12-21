@@ -16,7 +16,7 @@
 > `puts animal`
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-> interpolation is where we stick data (variables, code) into the middle of a string.
+> Interpolation is where we stick data (variables, code) into the middle of a string.
   `puts "My favorite zoo creature is a #{animal}."`
 
 1. How do we get input from a user? What is the method that we would use?
