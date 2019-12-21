@@ -21,3 +21,32 @@
   5.4 Concatenate new string
   5.5 Return/print new string
 ```
+## Checker Board - Top Down Design
+```
+1. Define a function with 1 argument
+  1.1 Size of board
+2. Make two variables for the different patterns
+  2.1 pattern_1 = "X X X "
+  2.2 pattern_2 = " X X X"
+3. Put (size_of_board) into an array that counts down to 1
+4. Iterate through the new array
+  4.1 if even puts: pattern_1
+  4.2 if odd puts: pattern_2
+
+1. We should be able to control the length of the board as well..
+2. Make four variables for the different patterns
+  2.1 pattern_1 = "X"
+  2.2 pattern_2 = " "
+  2.3 new_pattern_1 = ""
+  2.4 new_pattern_2 = ""
+3. Put size into a array that counts down
+4. Iterate through the new array..
+  4.1 Even numbers append "X" to new_pattern_1 AND append " " to new_pattern_2
+  4.2 Odd numbers append " " to new_pattern_1 AND append "X" to new_pattern_2
+5. It should look something like this..
+  5.1 [5,4,3,2,1]
+  5.2 new_pattern_1 << " X X "
+  5.3 new_pattern_2 << "X X X"
+6. Iterate through the array again
+  6.1 Odd numbers puts new_pattern_2
+  6.2 Even numbers puts new_pattern_1
