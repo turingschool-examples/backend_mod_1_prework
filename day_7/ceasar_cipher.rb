@@ -12,13 +12,18 @@ class CeasarCipher
 
   def encode(message, offset)
   alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
+  # One line of code, changes all the letters upcase to match alphabet, splits it by character into an array and stores it in a new array,
+  # and collects the index value of the letter in the alphabet
   @encoded_array = message.upcase.split("").collect {|x| alphabet.index(x)}
   @encoded_array.each do |x|
+    # Space is returned as a nil because it's not in the alphabet, so you can't subtract the offset from it.
+    # I tried to reserve alphabet[26] as " " but it proved to be more difficult than an if statment
     if x == nil
+      # Appends a space into the message, if there's a space
       @encoded_message << " "
     else
       x -= offset
+      # otherwise, x changes by the offset and is replaced by the character in the new value slot
       @encoded_message << alphabet[x]
       end
     end
@@ -33,9 +38,11 @@ cipher.encode("Hello World", 5)
 # Program 2.. Not entirely sure why we're doing it in a class, so I attempted it as a regular function..
 
 def encode(message, offset)
+  # local variables
   new_array = []
   new_message = ""
-
+  
+  # Array of the cipher
   alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
   new_array = message.upcase.split("").collect {|x| alphabet.index(x)}
@@ -53,7 +60,8 @@ end
 encode("Hello World", 5)
 
 
-# Program 1.. My first one that I spent hours on, only to figure out that it's impossible for my output to equal the one online..
+# Program 1.. My first one that I spent hours on, only to figure out that it's impossible for my output to equal the one online because
+# I'm converting everything as is to decimal values, including lowercase letters which have a different value than uppercase
 
 class CeasarCipher
   attr_accessor :message, :offset
