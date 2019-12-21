@@ -4,6 +4,7 @@ class Student
   def introduction(target)
     puts "Hi #{target}, I'm #{first_name}!"
   end
+  
 # Specify return
   def grade
     return "10th grade"
@@ -23,4 +24,4 @@ frank.first_name = "Frank"
 puts "Frank's favorite number is #{frank.favorite_number}."
 frank.introduction("Johnny")
 puts "Frank is in the #{frank.grade}."
-frank.nick_name("Frankie") # Even though we don't want to change his first name
+frank.nick_name("Frankie") # Even though we don't necessarily want to change his first name
