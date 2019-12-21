@@ -23,4 +23,4 @@
 > We call the method `gets` to receive user input. It is usually followed by the `chomp` string method to remove the new line character (\n). `gets.chomp`
 
 1. Name and describe two common string methods.
-> A common string method called is `downcase`. This method will make all of the characters in the string lowercase. Another common method is `length`. This method will return the number of characters in the string.
+> A common string method is `downcase`. This method will make all of the characters in the string lowercase. Another common method is `length`. This method will return the number of characters in the string.
