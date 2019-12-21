@@ -12,6 +12,7 @@ dogs = 15
 # Nothing changes but it will be harder to read.  However, if puts is on the same line as the if statement it does break and you will get a syntax error.  However as mentioned above, it is a good idea to make the code readable and therefore to indent under the if.
 
 # Can you put other boolean expressions from Exercise 27 in the if-statement?  Try it!
+# Yep, you can use them.  I used || to represent OR on line 35.
 
 # What happens if you change the initial values for people, cats, and dogs?
 # By chaning those values you can change which paths the code takes.  If you cange dogs to be a larger number than people, "The world is dry!" will become "The world is drooled on!"
