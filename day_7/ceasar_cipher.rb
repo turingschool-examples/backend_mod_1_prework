@@ -12,6 +12,7 @@ class CeasarCipher
 
   def encode(message, offset)
   alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+    
   # One line of code, changes all the letters upcase to match alphabet, splits it by character into an array and stores it in a new array,
   # and collects the index value of the letter in the alphabet
   @encoded_array = message.upcase.split("").collect {|x| alphabet.index(x)}
@@ -19,7 +20,7 @@ class CeasarCipher
     # Space is returned as a nil because it's not in the alphabet, so you can't subtract the offset from it.
     # I tried to reserve alphabet[26] as " " but it proved to be more difficult than an if statment
     if x == nil
-      # Appends a space into the message, if there's a space
+      # If there's a space, it appends " " to the new message
       @encoded_message << " "
     else
       x -= offset
