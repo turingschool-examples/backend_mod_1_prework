@@ -1,13 +1,13 @@
 Use your debugger to work through the following exercises.
 
 ## If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples?
-> `numbers = [1,2,3,4]`
-  `numbers.each do |number|
-    puts number, number
-   end`
-  `numbers.each do |number|
-    puts number, number, number
-   end`
+`numbers = [1,2,3,4]`
+`numbers.each do |number|
+  puts number, number
+  end`
+`numbers.each do |number|
+  puts number, number, number
+  end`
 ## If you had the same array, how would you only print out the even numbers? What about the odd numbers?
 > `numbers.each { |num| puts num if num.even? }`
   `numbers.each { |num| puts num if !num.even? }`
