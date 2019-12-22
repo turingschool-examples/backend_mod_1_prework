@@ -9,8 +9,8 @@ When you have completed the activities for day 7 you will submit your work throu
 
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
-    1. [FizzBuzz](./fizzbuzz.md)
-    1. [10 Little Monkeys](./10_little_monkeys.md)
+    1. [x] [FizzBuzz](./fizzbuzz.md)
+    1. [x] [10 Little Monkeys](./10_little_monkeys.md)
 
 1. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
 

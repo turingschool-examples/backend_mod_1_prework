@@ -8,13 +8,13 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-1. Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way.
+1. [x] Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way.
 
-1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
+1. [x] Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
 
-1. Work through the hashes.rb file in the day_5/exercises directory.
+1. [x] Work through the hashes.rb file in the day_5/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_5 directory.
+1. [x] Answer the questions in the questions.md file in the day_5 directory.
 
 ## Save your work in Git
 

@@ -11,15 +11,15 @@ Using your terminal, open the local copy of the repository that you created duri
 
 1. Work through the following lessons from Learn Ruby the Hard Way.
 
-    1. [What If?](https://learnrubythehardway.org/book/ex29.html)
-    1. [Else and If](https://learnrubythehardway.org/book/ex30.html)
-    1. [Making Decisions](https://learnrubythehardway.org/book/ex31.html)
+    1. [x] [What If?](https://learnrubythehardway.org/book/ex29.html)
+    1.[x] [Else and If](https://learnrubythehardway.org/book/ex30.html)
+    1.[x] [Making Decisions](https://learnrubythehardway.org/book/ex31.html)
 
-1. Read through the [Conditionals](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) section of Ruby in 100 Minutes.
+1. [x] Read through the [Conditionals](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) section of Ruby in 100 Minutes.
 
-1. Work through the exercise files in the day_3/exercises directory.
+1. [x] Work through the exercise files in the day_3/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_3 directory.
+1. [x] Answer the questions in the questions.md file in the day_3 directory.
 
 ## Save your work in Git
 
