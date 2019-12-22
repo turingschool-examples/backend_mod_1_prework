@@ -12,12 +12,22 @@ class Dog
     @hungry = true
   end
 
+  def play(game)
+    puts "You play #{game} with #{@name}"
+    @hungry = true
+  end
+
   def bark
     p "woof!"
   end
 
   def eat
-    @hungry = false
+    if @hungry == true
+      puts "You feed #{name}."
+      @hungry = false
+    else
+      puts "#{name} isn't hungry right now."
+    end
   end
 end
 
@@ -28,3 +38,5 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+fido.play("tug of war")
+p.fido.hungry
