@@ -36,7 +36,7 @@ interpolation is a way to reference a variable as _not_ part of the string itsel
 
 1. How do we get input from a user? What is the method that we would use?
 ```
-p prompt for user input
+p "prompt for input"
 variable = gets.chomp
 ```
 
