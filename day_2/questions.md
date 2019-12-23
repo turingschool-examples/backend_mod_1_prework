@@ -10,7 +10,7 @@
 
 1. using the array `animals`, how would you access `"giraffe"`?
 
-`puts animals[1]`
+`animals[1]`
 
 1. How would you add `"lion"` to the `animals` array?
 
@@ -35,10 +35,10 @@
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
-`2 == 25
-=> false`
+`2 == 25`
+`=> false`
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
-`25 > 2
-=> true`
+`25 > 2`
+`=> true`
