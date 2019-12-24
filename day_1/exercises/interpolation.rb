@@ -6,18 +6,26 @@
 name = "Ron"
 team = "Chudley Cannons"
 
-p "The #{team} are #{name}'s favorite Quidditch team"
+
 
 # Write code that combines the variables below into a string that reads "The
 # quick red fox jumped over the lazy brown dog":
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"
 
-p # YOUR CODE HERE
+<<<<<<< HEAD
+p "The #{speedy} jumped over the #{slow_poke}"
+=======
+
+>>>>>>> 32f084ea34c0c2dc9fe8d81d0aaf0c386a8ce620
 
 # Write code that combines the variables below into a string that reads "In a
 # predictable result, the tortoise beat the hare!"
 slow_poke = "tortoise"
 speedy = "hare"
 
-# YOUR CODE HERE
+<<<<<<< HEAD
+p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
+=======
+
+>>>>>>> 32f084ea34c0c2dc9fe8d81d0aaf0c386a8ce620
