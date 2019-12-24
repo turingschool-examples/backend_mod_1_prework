@@ -1,0 +1,20 @@
+.sort- will return a new sorted array. Strings will be sorted in alphabetical order, numbers will be sorted in ascending value.
+.each - calls the given block once for each element. This is used to iterate over an array rather than writing multiple loops.
+.collect - this invokes the given block once for each element, a new array is returned which has the value returned by the block.
+.first - this returns the first element of the array.
+.last - this returns the last element of the array.
+.shuffle - this returns a new array of shuffled elements.
+
+Exercises
+-Double
+numbers = [1,2,3,4]
+numbers.each { |x| print "#{x*2}"; }
+- Triple
+numbers = [1,2,3,4]
+numbers.each { |x| print "#{x*3}"; }
+-Print Evens/Odds
+numbers = [1,2,3,4]
+numbers.each { |x| puts x if x.even/odd? }
+- Multiply by 2
+numbers [1,2,3,4]
+puts numbers *2
