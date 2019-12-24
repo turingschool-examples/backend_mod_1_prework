@@ -19,3 +19,9 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 
 ### Bonus
 Can you write the program so that it will run for any number of monkeys?
+
+start with variable = 10
+print rhyme with x little monkeys...
+x - 1 (-= or something)
+put if x = 1 get those monkeys right to bed
+put if x = 0 nothing (end?)

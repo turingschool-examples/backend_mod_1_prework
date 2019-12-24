@@ -13,3 +13,18 @@ The output of you program will look something like this:
 
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
+
+
+
+# Notes
+
+ask user for startpoint and endpoint
+
+convert both to integers
+
+while startpoint is less than or equal to endpoint
+if number is multiple of 3 and 5, print fizzbuzz
+if number is multiple of 3, print fizz
+if number is multiple of 5, print buzz
+if else print number
+add one to startpoint
