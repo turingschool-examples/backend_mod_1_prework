@@ -1,0 +1,18 @@
+Top Down Design - Ceasar Cipher
+
+1. Store 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' into 'alphabet' variable
+2. Receive the string by the user
+  2.1 Store string into variable 'phrase'
+3. Receive the number of shifts from the user
+  3.1 Store number into variable 'number'
+4. Use iteration
+  if letter = " "
+    4.1 Just store " "
+  else
+    4.1 For each letter in phrase locate it in 'alphabet' variable
+    4.2 Shift
+      4.2.1 For each letter shift to the right 'number' of times
+5. Print new string
+  5.1 Store newly shifted string
+    5.1.1 For each letter store newly shifted letter into variable 'new_phrase'
+  5.2 Print out new_phrase variable
