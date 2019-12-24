@@ -8,40 +8,30 @@
 
 1. What is the Ruby syntax for an if statement?
 
-`if`
-
-`else`
-
-`end`
+        if
+        else
+        end
 
 1. How do you add multiple conditions to an if statement?
 
-`elsif`
+        elsif
 
 1. What is the Ruby syntax for an if/elsif/else statement?
 
-`if`
-
-`elsif`
-
-`else`
-
-`end`
+        if
+        elsif
+        else
+        end
 
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 > A when statement. Every condition that CAN be matched = when statement. This is done with a case statement. EX:
 
-variable = 5
+        variable = 5
 
-`case` (insert variable name here)
-
-`when` (insert range of conditions here, ex: 1..20)
-
-    (insert code block here)
-
-`else`
-
-    (insert code block here)
-
-`end`
+        case (insert variable name here)
+        when (insert range of conditions here, ex: 1..20)
+          (insert code block here)
+        else
+          (insert code block here)
+        end
