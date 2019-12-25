@@ -1,6 +1,8 @@
+# We will define a new class called GoodDog
 class GoodDog
   attr_accessor :name
 
+# We will define attributes of this new object
   def initialize(name)
     @name = name
   end
@@ -18,7 +20,7 @@ class GoodDog
   end
 end
 
-sparky = GoodDog.new("Jackson")
+sparky = GoodDog.new("Sparky")
 puts sparky.speak
 puts sparky.name
 # puts sparky.get_name
