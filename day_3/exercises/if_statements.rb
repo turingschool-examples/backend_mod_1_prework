@@ -9,18 +9,21 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  puts "What is the weather like?"
+  puts "Is it sunny, rainy, snowy, or icy?"
+  weather = $stdin.gets.chomp
 
+  print "You should bring "
   if weather == 'sunny'
-    p "sunscreen"
+    puts "some sunscreen!"
   elsif weather == 'rainy'
-    p "umbrella"
+    puts "an umbrella!"
   elsif weather == 'snowy'
-    p "coat"
+    puts "a coat!"
   elsif weather == 'icy'
-    p "yak traks"
+    puts "yak traks!"
   else
-    p "good to go!"
+    puts "whatever you think is best!"
   end
 
 # Manipulate the variable 'weather' to see if you can print something other
@@ -42,10 +45,18 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+puts "How many quarters do you have?"
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+print "> "
+num_quarters = $stdin.gets.chomp.to_i
+
+if num_quarters >= 2
+  puts "I have enough money for a gumball! :)"
+elsif num_quarters < 3
+  puts "I don't have enough money for a gumball! :("
+else
+  puts "I don't have enough money for a gumball! :("
+end
 
 
 #####################
@@ -59,5 +70,27 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
-has_sauce = true
+
+puts "How many cups of flour do you have?"
+print "> "
+cups_of_flour = $stdin.gets.chomp.to_i
+
+puts "Do you have sauce? (y/n)"
+print "> "
+has_sauce = $stdin.gets.chomp
+
+if has_sauce == "y" then has_sauce = true
+end
+
+if has_sauce == "n" then has_sauce = false
+end
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza!"
+elsif cups_of_flour >= 2 && has_sauce == false
+  puts "I cannot make pizza because I have no sauce."
+elsif cups_of_flour < 2 && has_sauce == true
+  puts "I cannot make pizza because I don't have enough flour."
+else
+  puts "I cannot make pizza!"
+end
