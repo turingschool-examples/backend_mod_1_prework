@@ -22,12 +22,20 @@
 
 ## .first and .last
 .first returns the first element in the array. .first(x) returns the first x elements of the array, as an array if x is greater than one.
-`["a", "b", "c", "d"].first` returns "a"
-`["a", "b", "c", "d"].first(2)` returns ["a", "b"]
+```["a", "b", "c", "d"].first
+  => "a"
+  ```
+```["a", "b", "c", "d"].first(2)
+  =>["a", "b"]
+  ```
 
 .last does the exact opposite (shocking!)
-`["a", "b", "c", "d"].last` returns "d"
-`["a", "b", "c", "d"].last(2)` returns ["c", "d"]
+```["a", "b", "c", "d"].last
+  => "d"
+```
+```["a", "b", "c", "d"].last(2)
+  => ["c", "d"]
+```
 
 as a side note, for both .first and .last, if x >= array.count, it just returns the entire array.
 
