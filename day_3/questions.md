@@ -3,9 +3,9 @@
 1. What is a conditional statement? Give three examples.
 ```
 a conditional statement evaluates to true or false.
-  * array.include?(object)
-  * variable >= > == <= < != specific value
-  * hash.has_key?(key) or .has_value?(value)
+  array.include?(object)
+  variable >= > == <= < != specific value
+  hash.has_key?(key) or .has_value?(value)
 ```
 
 1. Why might you want to use an if-statement?
