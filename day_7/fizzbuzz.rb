@@ -10,7 +10,7 @@ def multiples(num)
   end
 end
 
-numbers = Array(1..100) # Array(n1..n2) will work for any range of numbers
+numbers = Array(1..100) # Array(a..b) will work for any range of numbers
 
 numbers.each do |num|
   print multiples(num)
