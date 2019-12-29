@@ -5,17 +5,18 @@
 The purpose of a method is a way to recall code without having to rewrite the same piece of code over and over.
 ***
 **2. In the space below, create a method named `hello` that will print `"Sam I am"`.**
-
+```
 def hello
   p "Sam I Am"
 end
+```
 ***
 **3. Create a method name `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.**
-
+```
 def hello_someone(name)
   p "#{name} I am"
 end
-
+```
 ***
 **4. How would you call or execute the method that you created above?**
 
