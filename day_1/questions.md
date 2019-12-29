@@ -3,7 +3,9 @@
 **1. How would you print the string `"Hello World!"` to the terminal?**
 
 puts "Hello World!"
+
 print "Hello World!"
+
 p "Hello World!"
 ***
 **2. What is the character you would use to indicate comments in a ruby file?**
@@ -19,8 +21,11 @@ An integer is a whole number without a decimal point while a float contains a de
 animal = "zebra"
 ***
 **5. How would you print the string `"zebra"` using the variable that you created above?**
+
 puts animal
+
 print animal
+
 p animal
 ***
 **6. What is interpolation? Use interpolation to print a sentence using the variable `animal`.**
