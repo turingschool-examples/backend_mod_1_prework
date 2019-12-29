@@ -14,4 +14,5 @@ def scream(words) # evaluates to scream("Yippeee")
 end
 =end
 
-# the answer to the question is nothing will be returned. "Yippeee" was saved as "Yippeee!!!!" and then nothing happens because we return out of the method.
+# the answer to the question is nothing will be returned. "Yippeee" was saved as
+# "Yippeee!!!!" and then nothing happens because we return out of the method.
