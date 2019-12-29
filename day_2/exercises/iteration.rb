@@ -12,14 +12,12 @@ end
 
 # Write code below that iterates through a list of animals and prints "The
 # <animal> is awesome!" for each animal.
-
 animals.each do |animal|
   p "The " + animal + " is awesome!"
 end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-# YOUR CODE HERE
 food = ["Eggs", "Milk", "Butter"]
 food.each do |food|
   p "Add " + food + " to shopping list"
