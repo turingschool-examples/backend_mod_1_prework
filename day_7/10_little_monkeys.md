@@ -19,3 +19,9 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 
 ### Bonus
 Can you write the program so that it will run for any number of monkeys?
+
+If I could figure out how to include the 'humanize' gem I could do it easily.
+
+Or, If I could just use numbers instead of using the word.
+
+But, It would be quite some logic to figure out how to convert __all__ numbers into their word counterparts.

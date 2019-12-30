@@ -6,10 +6,12 @@
 p 2 + 2
 
 # print the result of the difference of 7 less than 83 to the terminal:
-p #YOUR CODE HERE
+puts 83 - 7
 
 # print the result of 6 multiplied by 53 to the terminal:
-# YOUR CODE HERE
+print 6 * 53
+print "\n"
 
 # print the result of the modulo of 10 into 54:
-# YOUR CODE HERE
+
+puts 54 % 10

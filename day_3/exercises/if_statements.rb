@@ -19,6 +19,10 @@
     p "coat"
   elsif weather == 'icy'
     p "yak traks"
+  elsif weather == "windy"
+    p "windbreaker"
+  elsif weather == "cloudy"
+    p "nothing, it's perfect outside."
   else
     p "good to go!"
   end
@@ -41,11 +45,22 @@
 # When num_quarters = 1, program should print "I don't have enough money for a gumball"
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
-
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+puts "You want a gumball"
+puts "How many quarters do you have?"
+puts "0, 1, 2, or 3"
+print "> "
+num_quarters = $stdin.gets.chomp
+if num_quarters == "0"
+  puts "I don't have enough money for a gumball\n"
+elsif num_quarters == "1"
+  puts "I don't have enough money for a gumball\n"
+elsif num_quarters == "2"
+  puts "I have enough money for a gumball\n"
+elsif num_quarters == "3"
+  puts "I have enough money for a gumball\n"
+else
+  puts "I didn't want a gumball anyway!\n"
+end
 
 
 #####################
@@ -58,6 +73,33 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 1 and has_sauce = false, your program should print "I cannot make pizza"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
+puts "You want to make a pizza!"
+puts "How many cups of flour do you have?"
+puts "1, 2, or 3"
+cups_of_flour = $stdin.gets.chomp
 
-cups_of_flour = 1
-has_sauce = true
+puts "Do you have sauce? yes or no?" #.downcase
+init_answer = $stdin.gets.chomp
+has_sauce = nil
+
+if init_answer.downcase == "yes"
+  has_sauce = true
+elsif init_answer.downcase == "no"
+  has_sauce = false
+else
+  puts "invalid answer, please start over"
+  exit!
+end
+
+
+if cups_of_flour == "1" && has_sauce == true
+  puts "I can not make pizza"
+elsif cups_of_flour == "1" && has_sauce == false
+  puts "I can not make pizza"
+elsif cups_of_flour == "2" && has_sauce == true
+  puts "I can make pizza"
+elsif cups_of_flour == "3" && has_sauce == true
+  puts "I can make pizza"
+else
+  puts "I didn't want pizza anyway!"
+end
