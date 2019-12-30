@@ -10,18 +10,17 @@ All classes are similar objects, so attributes are what make each object unique 
 
 **In relation to a Class, what is behavior?**
 
-If an attribute is a noun or adjective that is unique to an object of a class, a behavior would be the verb.  Behaviors are things that a class can do.  For example, a Person class would have a name attribute.  It would also have a say_name behavior where it returns a value of or "says" its name attribute.
+If an attribute is a noun or adjective that is unique to an object of a class, a behavior would be the verb.  Behaviors are things that an object can do.  For example, a Person class would have a name attribute.  It would also have a say_name behavior where it returns a value of or "says" its name attribute.
 
 **In the space below, create a Dog class with at least 2 attributes and 2 behaviors**
 
 ```
 class Dog
-  attr_accessor :name :breed
   #attributes to be created for each new instance during initialize
-  def initialize(name, breed)
+  def initialize(name, breed, sitting=false)
     @name = name
     @breed = breed
-    @sitting = false
+    @sitting = sitting
   end
 
   # a behavior/method of a dog (something a dog can do)
@@ -40,7 +39,7 @@ end
 
 **How do you create an instance of a class?**
 
-After a class is created with `class <ClassName>` a new instance of that class can be created using the `new` method.  
+After a class is created with `class <ClassName>` a new instance of that class can be created using the `new` method.  The below method does not have any arguments that need to be passed to the Dog class.  In the previous example a name and breed would need to be passed to create an object of the class.
 
 ```
 class Dog
