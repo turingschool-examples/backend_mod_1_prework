@@ -19,10 +19,14 @@ monkey_word.reverse_each do |k, v|
   end
 end
 
-# Had troubble figuring out how to make it all work, so started over with smaller words, and fewer items in array
-# Problem is that I was filling the whole thing then looking for the last
-# Solution was to look at each item, and based on what the key was, return one of two verses.
+# Had trouble figuring out how to make this work, so started over with smaller words, and fewer items in array
+# Problem was that I had the program print everything then look to change the last verse... not the right order.
+# Solution was to look at each item, and based on what the key was, return one of two verses (before filling in values).
 # Here is what my practice work looked like when I was doing things in the right order:
+# (There were also multiple other lines that had been removed from when I tried to do things in different ways
+# before settling on what I have here.)  I once I had a framework for how I should lay everthing out, I commented
+# it out but kept it for reference.  I didn't even need to troubleshoot since my practice run went the way
+# I had hoped!
 
 
 # This works, save it!
