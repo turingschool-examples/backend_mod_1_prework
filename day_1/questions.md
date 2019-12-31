@@ -1,30 +1,30 @@
-## Day 1 Questions
+# Day 1 Questions
 
-1. How would you print the string `"Hello World!"` to the terminal?
+## How would you print the string `"Hello World!"` to the terminal?
 
 `puts "Hello World!"`
 
-1. What is the character you would use to indicate comments in a ruby file?
+## What is the character you would use to indicate comments in a ruby file?
 
 An octothorpe `#`
 
-1. Explain the difference between an integer and a float?
+## Explain the difference between an integer and a float?
 
 An integer is a whole number, without a decimal point. Examples are 6, 4, 100, 10,000. Integers are easier for us to see and for Ruby to use. Floats are numbers that include decimals. Examples are 6.5, 4.0, 100.33333, and 10,000.75. Floats will allow for the most accurate result when doing arithmetic and useful when you need a precise number.  
 
-1. In the space below, create a variable `animal` that holds the string `"zebra"`
+## In the space below, create a variable `animal` that holds the string `"zebra"`
 
 `animal = "zebra"`
 
-1. How would you print the string `"zebra"` using the variable that you created above?
+## How would you print the string `"zebra"` using the variable that you created above?
 
 `puts zebra`
 
-1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+## What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
 Interpolation is one of two ways to combine strings and variables. Interpolation allows us to access data stored in a variable within a string. An example is `puts "A #{zebra} has black and white stripes."`
 
-1. How do we get input from a user? What is the method that we would use?
+## How do we get input from a user? What is the method that we would use?
 
 We can get input from a user by using `gets.chomp` and storing that data into a variable. For example, if we want to get the name of a user and print out the name of that user, we can use this code:
 
@@ -34,7 +34,7 @@ name = gets.chomp
 puts "Your name is #{name}."
 ```
 
-1. Name and describe two common string methods.
+## Name and describe two common string methods.
 
 Two common string methods are `.length` and `.split`
 1. `.length` will give you the number of characters within a string (including spaces.) Here is an example:
