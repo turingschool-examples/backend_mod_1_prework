@@ -1,8 +1,14 @@
 puts "FIZZBUZZ!"
 
-# this was cool to find in the ruby-doc, it calls a new instance of the array class with a range of 100 values
-# the numbers start with n and increase n + 1 up to 100.  I recognized this syntax of calling a
-# new object of a class immediately!
+
+# Mostly knew how to do this one, but didn't know how to auto fill an array.
+# I found the .new example in ruby-doc and after all the work I did on Classes
+# was excited to see it in action.  I called a new object called "range" from the class Array
+# and gave it an argument of 100 items in the array and a formula that started with n and increased
+# by n + 1.  It is exactly the same as all the examples I did before and was excited
+# to see my learning in action!
+
+
 range = Array.new(100){|n| n + 1}
 
 range.collect do |num|
