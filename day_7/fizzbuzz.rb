@@ -1,10 +1,10 @@
 puts "      _________  ___  __________   __________    _________    __     ___  __________   __________"
 puts "     /  ______/ /  / /____     /  /____     /   /   __    |  /  /   /  / /____     /  /____     /"
-puts "    /  /___    /  /      /   /        /   /    /   /_/   /  /  /   /  /     /   /        /   /"
-puts "   /  ____/   /  /     /   /        /   /     /        /   /  /   /  /    /   /        /   /"
-puts "  /  /       /  /    /   /        /   /      /   __   |   /  /   /  /   /   /        /   /"
-puts " /  /       /  /   /   /____    /   /____   /   /_/   /  /  /___/  /  /   /____    /   /____"
-puts "/__/       /__/  /_________/  /_________/  /_________/  /_________/ /_________/  /_________/"
+puts "    /  /___    /  /      /   /        /   /    /   /_/   /  /  /   /  /      /   /        /   /"
+puts "   /  ____/   /  /     /   /        /   /     /        /   /  /   /  /     /   /        /   /"
+puts "  /  /       /  /    /   /        /   /      /   __   |   /  /   /  /    /   /        /   /"
+puts " /  /       /  /   /   /____    /   /____   /   /_/   /  /  /___/  /   /   /____    /   /____"
+puts "/__/       /__/  /_________/  /_________/  /_________/  /_________/  /_________/  /_________/"
 
 
 # Mostly knew how to do this one, but didn't know how to auto fill an array.
@@ -14,6 +14,15 @@ puts "/__/       /__/  /_________/  /_________/  /_________/  /_________/ /_____
 # by n + 1.  It is exactly the same as all the examples I did before and was excited
 # to see my learning in action!
 
+ # puts "FizzBuzz Starts at:"
+ # print"> "
+ # fb_st = gets.chomp.to_i
+ #
+ # puts "FizzBuzz Ends at:"
+ # print"> "
+ # fb_end = gets.chomp.to_i
+ #
+ # fb_rg = fb_end - fb_st
 
 range = Array.new(100){|n| n + 1}
 
