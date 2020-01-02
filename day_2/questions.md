@@ -28,8 +28,8 @@
 | :------: | :-------------------: |
 | true     |TRUE                   |
 | false    | FALSE                 |
-| &&       | AND                   |
 | ||       | OR                    |
+| &&       | AND                   |
 | !        | NOT                   |
 | !=       | NOT EQUAL TO          |
 | ==       | IS EQUAL              |
