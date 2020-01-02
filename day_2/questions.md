@@ -24,17 +24,17 @@
 
 6. What are the boolean values in Ruby?
 
-| Operator   | Meaning               |
-| :--------: | :-------------------: |
-| `true`     |TRUE                   |
-| `false`    | FALSE                 |
-| `||`       | OR                    |
-| `&&`       | AND                   |
-| `!`        | NOT                   |
-| `!=`       | NOT EQUAL TO          |
-| `==`       | IS EQUAL              |
-| `>=`       | GREATER THAN OR EQUAL |
-| `<=`       | LESS THAN OR EQUAL    |
+| Operator                   | Meaning               |
+| :------------------------: | :-------------------: |
+| `true`                     |TRUE                   |
+| `false`                    | FALSE                 |
+| <code>&#124; &#124;</code> | OR                    |
+| `&&`                       | AND                   |
+| `!`                        | NOT                   |
+| `!=`                       | NOT EQUAL TO          |
+| `==`                       | IS EQUAL              |
+| `>=`                       | GREATER THAN OR EQUAL |
+| `<=`                       | LESS THAN OR EQUAL    |
 
 7. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
