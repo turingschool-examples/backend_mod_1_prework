@@ -107,7 +107,7 @@ names.last
 
 **Method:  .shuffle**
 
-The shuffle method will return a new array with the array objects in a random order.  This could be used in something like a raffle where all contestants names' are in a "hat" (array) and you randomly draw a name off the top (in index 0).
+The shuffle method will return a new array with the array objects in a random order.  This could be used in something like a raffle where all contestants' names are in a "hat" (array) and you randomly draw a name off the top (in index 0).
 ```
 names = [ "Ben", "Alexis", "Neal", "Bethany" ]
 
