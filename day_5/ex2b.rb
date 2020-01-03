@@ -24,5 +24,4 @@ times.each do |key, value|
 end
 
 
-#
-# puts "I lived in #{capital_cities["Florida"]}, #{states["Florida"]} for #{times["Florida"]} years."
+puts "I lived in #{capital_cities["Florida"]}, #{states["Florida"]} for #{times["Florida"]} years."
