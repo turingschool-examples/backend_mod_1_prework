@@ -18,8 +18,25 @@ animals.push("lion")
 
 ## Name and describe two additional array methods.
 
-1. `.pop` This method will remove the last element in an array
-2. `.include?(object)` This method will return true if the given object is present in the array, otherwise it will return false.  
+1. `.pop` This method will remove the last element in an array. See an example below:
+
+```ruby
+animals = ["zebra", "giraffe", "elephant", "lion"]
+
+animals.pop
+=>"lion"
+
+animals
+=> ["zebra", "giraffe", "elephant"]
+```
+2. `.include?(object)` This method will return true if the given object is present in the array, otherwise it will return false. See an example below:
+
+```ruby
+animals.include?("rhino")
+=> false
+```
+
+Since "rhino" is not an item in the array animals, Ruby returns false.
 
 ## What are the boolean values in Ruby?
 
