@@ -26,6 +26,11 @@ zoo.each do |animal, num|
   puts "There are #{animal} at this zoo."
 end
 
+puts "-" * 10
+
+puts "Or you could do it this way using the .keys method"
+puts zoo.keys
+
 
 # Using the zoo that you created above, print all the values in the hash.
 puts "-" * 10
@@ -33,6 +38,11 @@ puts "-" * 10
 zoo.each do |animal, num|
   puts "There are #{num} #{animal}."
 end
+
+puts "-" * 10
+
+puts "Or you could do it this way with the .values method"
+puts zoo.values
 
 
 # Using the zoo hash that you created above, print the value of the first item in
