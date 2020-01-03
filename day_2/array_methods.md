@@ -55,7 +55,7 @@ This tells us that "Dessert" is present in the meals array, but "Snack" is not.
 
 5. `.collect`
 
-Invokes a given clock once for each element in an array. It creates a new array containing the values returned by the block. For example, if we want to add an underscore to our random_letters array, we can use the `.collect` method
+Invokes a given block once for each element in an array. It creates a new array containing the values returned by the block. For example, if we want to add an underscore to our random_letters array, we can use the `.collect` method
 
 ```ruby
 random_letters.collect { |x| x + "_" }
