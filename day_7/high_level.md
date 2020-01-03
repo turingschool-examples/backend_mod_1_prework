@@ -1,7 +1,7 @@
-#High Level Coding: Caesar Cipher#
+# High Level Coding: Caesar Cipher
 
 
-###Intro###
+### Intro
 
 The goal of the Caesar Cipher is to use an alphabet shift to scramble a message into a coded message.  In its most basic form it would simply shift the alphabet over a set number of characters:
 
@@ -18,7 +18,7 @@ cipher.encode("Hello World", 5)
 => "CZGGJ RJMGY"
 ```
 
-##Top Down Design of Caesar Cipher##
+## Top Down Design of Caesar Cipher
 
 ```
 1 Get Input
@@ -58,7 +58,7 @@ Other ideas:
   * What about numbers?
   * What about a decoder to descramble message?
 
-##Thoughts on how the program will work based on TDD##
+## Thoughts on how the program will work based on TDD
 
   1. The program will start at a screen telling the user where we are in the process.  "Enter Message Here" or something of the sort.  "Press Enter to scramble" or some kind of instructions will also be needed.
 
@@ -70,6 +70,6 @@ Other ideas:
 
   5.  The program then outputs the scrambled information.
 
-##My Own Approach##
+## My Own Approach
 
 I will use some basic things I know and start with one or two characters and get them scrambled and then scale up from there.  If the program works for 2 or 3 variables I will be able to make it work for a whole alphabet.  This will also ensure I am doing it in small pieces and not starting with something too complex at first.  It will also make sure the code I am writing is scalable.
