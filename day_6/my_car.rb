@@ -50,12 +50,12 @@ end
 escape = MyCar.new(2012, "Ford", "Escape", "Gray")
 focus = MyCar.new(2013, "Ford", "Focus", "Gray")
 
-# escape.description
-# focus.description
+escape.description
+focus.description
 #
-# escape.speed_up(10)
-# escape.slow_down(5)
-# escape.park
+escape.speed_up(10)
+escape.slow_down(5)
+escape.park
 
 puts escape.year
 puts escape.color
