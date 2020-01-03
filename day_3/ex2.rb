@@ -1,6 +1,7 @@
 # Study Drills
 # Try to guess what elsif and else are doing.
-# elsif and else are other "forks" in the road the code can take.  If this, then this or this or that.
+# elsif and else are other "forks" in the road the code can take.  If this, then this or this or that.  Most importantly
+# elsif is a defined path like if.  Else means that if nothing either other prescribed path is fale, then "default" to this opition
 
 #Change the numers of cars, people, and trucks and then trace through each if statement to see what will be printed.
 # Moved a few around.  It made it easier with all the step-by-step notation!
