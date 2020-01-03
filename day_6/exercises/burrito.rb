@@ -19,8 +19,8 @@ class Burrito
   end
   # I changed the default value of toppings to an array.  To add to my topppings I will keep
   # my existing toppings and add with push.  I'll push in the new topping as an argument to the toppings array
-  # and since the default values of this exercise were done with attr_reader, not writer, I will use the
-  # intance variable.
+  # and since the default values of this exercise were done with attr_reader, not writer, I will write a method
+  # to change the @toppings instance varaible.
   def add_topping(new_top)
     @toppings = @toppings.push(new_top)
   end
