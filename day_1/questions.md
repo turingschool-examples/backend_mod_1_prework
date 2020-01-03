@@ -18,11 +18,11 @@ An integer is a whole number, without a decimal point. Examples are 6, 4, 100, 1
 
 ## How would you print the string `"zebra"` using the variable that you created above?
 
-`puts zebra`
+`puts animal`
 
 ## What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-Interpolation is one of two ways to combine strings and variables. Interpolation allows us to access data stored in a variable within a string. An example is `puts "A #{zebra} has black and white stripes."`
+Interpolation is one of two ways to combine strings and variables. Interpolation allows us to access data stored in a variable within a string. An example is `puts "A #{animal} has black and white stripes."`
 
 ## How do we get input from a user? What is the method that we would use?
 
