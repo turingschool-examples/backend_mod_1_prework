@@ -6,17 +6,17 @@ p, puts, or print would all print "Hello World!" to the terminal.
 
 `p "Hello World!"` would produce the result `"Hello World!"`
 
-`puts "Hello World!"` would produce the result `Hello World!` with a non-printed `\n` for a new line.  The hash rocket (=>) will be on a line below the printed text.
+`puts "Hello World!"` would produce the result `Hello World!` with a non-printed `\n` for a new line.  The hash rocket `=>` will be on a line below the printed text.
 
 `print "Hello World!"` would produce the result `Hello World!` and the hash rocket will be on the same line as the text.
 
 **What is the character you would use to indicate comments in a ruby file?**
 
-Comments are expressed using the hash, pound, or octothorpe character `#`.  Anything afer the `#` is not run as code.  Ths can be used to explain what the code does or to temporarily disable code.
+Comments are expressed using the hash, pound, or octothorpe character `#`.  Anything after the `#` is not run as code.  This can be used to explain what the code does or to temporarily disable code.
 
 **Explain the difference between an integer and a float?**
 
-Integers are whole numbers, `1`, `5000`, `245`.  Floats use decimals like `1.0`, `24.5`, or `99.99999`.  While playing around I found a useful method to be `.round("number of places")`.  I used this for converting from feet to meters in one of the examples.  For example:
+Integers are whole numbers, 1, 5000, 245.  Floats use decimals like 1.0, 24.5, or 99.99999.  While playing around I found a useful method to be `.round(<number of places>)`.  I used this for converting from feet to meters in one of the examples.  Here's how it can be used:
 
 ```
 height = 70
