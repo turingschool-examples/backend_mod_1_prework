@@ -38,5 +38,5 @@ puts w + e
 
 # Extras:
 # Find where there are srings inside of strings:  there are 4, there is one that is a boolean (because it is not in "") and there is one where an integer is in the string.
-# the + operator added together two shorter strings into one longer string.  Strings are like a long string of letters stuck togerher.  When you call one by a variable, you can then add it to another variable of strings.
+# the + operator added together two shorter strings into one longer string.  Strings are like a long string of letters stuck together.  When you call the + operator, it will add one string followed by another.
 # '' and "" both work fine for combining srings.  I would guess that is because there is nothing extra complicated inside the "".  I think "" will always work, but '' might not.
