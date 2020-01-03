@@ -30,6 +30,8 @@ hello_someone("Sydney")
 I'm planning on working a little more with the `return` method from Learn Ruby the Hard Way.  I don't quite understand the point of it.  But fortunately, I can see how all of these things can be used and how earlier lessons I've learned work with this.  For example, when logging into my bank account, somewhere there would be a piece of code exactly like what is above to greet me.  When I log into Turbotax, it knows my name and address and such and auto fills those.  When it asks if those are right, and I say
 "need to update" it would use a method like `gets.chomp` to update the attribute of my address.  Then it would use a method to look up my address and return that new value to the screen.
 
+_I finished with my capstone early and have time to go back through and make sure it is all looking good.  I see what is going on with the return method now.  The method was written to put some text to the screen.  However, in the background it also assigned the value of the math calculation to the variable.  That is why it output "SUBTRACTING 78 - 4" and then later I was able to use #{height} to interpolate the number 74 into my string._
+
 **I wanted to add one thing:**
 
 After answering the above question I was thinking back to "default values" and did some playing in pry to make sure I understood how that worked.  I feel more comfortable just in the minute I spent doing this example.  Here was my code:
