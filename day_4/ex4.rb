@@ -14,7 +14,7 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers)
 end
 
 # this will print text to the screen
-puts "We can just give the functiion numbers directly:"
+puts "We can just give the function numbers directly:"
 
 # this tells ruby to run the above defined method with cheese_count == 20 and boxes_of_crackers == 30
 cheese_and_crackers(20,30)
