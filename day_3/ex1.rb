@@ -15,7 +15,7 @@ dogs = 15
 # Yep, you can use them.  I used || to represent OR on line 35.
 
 # What happens if you change the initial values for people, cats, and dogs?
-# By chaning those values you can change which paths the code takes.  If you cange dogs to be a larger number than people, "The world is dry!" will become "The world is drooled on!"
+# By chaning those values you can change which paths the code takes.  If you change dogs to be a larger number than people, "The world is dry!" will become "The world is drooled on!"
 
 if people < cats
   puts "Too many cats!  The world is doomed!"
