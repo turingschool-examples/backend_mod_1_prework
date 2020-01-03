@@ -1,10 +1,9 @@
-def say(words="greetings")
-  if words.include? "?" or "!"
+def say(words='hello')
+  if words.include? "!"  || "?"
     puts words.capitalize
   else
-    puts words.capitalize + "."
+    puts words.capitalize + '.'
   end
-
 end
 
 say()
