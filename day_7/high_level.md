@@ -1,7 +1,7 @@
 # High Level Coding: Caesar Cipher
 
 
-### Intro
+## Intro
 
 The goal of the Caesar Cipher is to use an alphabet shift to scramble a message into a coded message.  In its most basic form it would simply shift the alphabet over a set number of characters:
 
