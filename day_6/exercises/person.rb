@@ -52,11 +52,11 @@ puts mike.name
 puts mike.age
 # print out the greeting from the greeting method
 puts mike.greeting
-# run the diet method to change the value of weight
+# run the diet method to change the value of weight by weight - 15
 mike.diet
 # add 5 to age
 mike.add_age(5)
 # reprint the greeting message but with updated weight and age
 puts mike.greeting
-# run the nickname method and use the nickname "Vinny"
+# run the nickname method and use the nickname "Powerhouse"
 mike.nickname("Powerhouse")
