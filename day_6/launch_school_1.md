@@ -4,7 +4,7 @@ _These are the exercises in the LaunchSchool.com ruby lesson about Objects and C
 
 **How do we create an object in Ruby?  Give an example of the creation of and oject.**
 
-Objects are crated by first making a new class.  Classes are created by:
+Objects are created by first making a new class.  Classes are created by:
 
 ```
 class <ClassName>
