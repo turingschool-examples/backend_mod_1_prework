@@ -13,18 +13,30 @@ class Dog
   end
 
   def bark
-    p "woof!"
+    puts "woof!"
   end
 
   def eat
     @hungry = false
   end
+
+  def play
+    @hungry = true
+    puts "After a long play session at the park it is #{hungry} that #{name} is hungry!"
+  end
+
+  def birthday
+    @age += 1
+    puts "Happy birthday, #{self.name}! You are now #{self.age} years old!"
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
-p fido.breed
-p fido.name
-p fido.age
-p fido.hungry
+puts fido.breed
+puts fido.name
+puts fido.age
+puts fido.hungry
 fido.eat
-p fido.hungry
+puts fido.hungry
+fido.play
+fido.birthday
