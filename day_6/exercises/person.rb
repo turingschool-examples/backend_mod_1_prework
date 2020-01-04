@@ -3,7 +3,7 @@
 # terminal.
 
 class Person
-  attr_reader :name, :weight, :favorite_color
+  attr_accessor :name, :weight, :favorite_color
   def initialize(name, weight, color)
     @name     = name
     @weight   = weight
