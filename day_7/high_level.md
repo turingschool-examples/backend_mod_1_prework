@@ -15,6 +15,7 @@ CIPHER   = CDEFGH
 214     214
 BAD --> DCF
 
+```
 1. Create cipher  
     1.1 Get keys
       1.1.1 Get string
@@ -26,3 +27,4 @@ BAD --> DCF
       2.1.1 For each letter in the original string, get the original alphabet position
       2.1.2 Compare original alphabet position to that in the new alphabet
       2.1.3 Print the corresponding position of the new alphabet
+```
