@@ -1,6 +1,8 @@
-Caesar Cipher
+**Caesar Cipher Notes**
 
 I will need to use arrays and track index position values for both a normal alphabet (alpha) and shifted alphabet (cipher) array. The arrays will be related only by index position values. I found a simple Array method, `.rotate` that shifts elements by a set number of index positions. Using that method, I should rotate the alpha array to create the needed cipher array. I should create a method that will locate (return) the index positions for each of the message's characters in the alpha array, then print the corresponding index position element from the cipher array. There should be something to resolve space characters.
+
+**Top Down Design**
 
 1 Collect user input values
   1.1 Get the message to be encoded
