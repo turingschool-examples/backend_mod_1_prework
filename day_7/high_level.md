@@ -14,3 +14,15 @@ CIPHER   = CDEFGH
 
 214     214
 BAD --> DCF
+
+1. Create cipher  
+    1.1 Get keys
+      1.1.1 Get string
+      1.1.2 Get shift position
+    1.2 Create a new alphabet based on the shift position 
+      1.2.1 Shift each letter by the number given (also based on the direction given)
+2. Use cipher to create a new string
+   2.1 Output new string
+      2.1.1 For each letter in the original string, get the original alphabet position
+      2.1.2 Compare original alphabet position to that in the new alphabet
+      2.1.3 Print the corresponding position of the new alphabet
