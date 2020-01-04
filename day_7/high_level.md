@@ -4,6 +4,7 @@ I will need to use arrays and track index position values for both a normal alph
 
 **Top Down Design**
 
+```
 1 Collect user input values  
   1.1 Get the message to be encoded  
   1.2 Get the left shift value  
@@ -15,3 +16,4 @@ I will need to use arrays and track index position values for both a normal alph
   2.5 For each character in the message to be encoded, return the index position value of the character in the alpha arrays and print the corresponding index position element from the cipher arrays  
   2.6 For each " " character, print a " "  
 3 Call encoding method and pass in arguments from user  
+```
