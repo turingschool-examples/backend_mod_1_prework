@@ -5,7 +5,7 @@
 # 3. change_protein
 
 class Burrito
-  attr_reader :protein, :base, :toppings
+  attr_accessor :protein, :base, :toppings
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
@@ -14,7 +14,7 @@ class Burrito
 
   # Add a new topping
   def add_topping(value)
-    @toppings.push(value)
+    @toppings << value
   end
 
   # Remove existing topping
