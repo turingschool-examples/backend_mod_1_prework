@@ -6,7 +6,13 @@ Hashes and arrays are both used to store data. However, there are two main diffe
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
+```ruby
+pet_store = {"hamster cages" => 50, "gold fish" => 300, "bags of dog food" => 500}
+```
+
 1. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+
+`p states["IA"]`
 
 1. With the same hash above, how would we get all the keys?  All the values?
 
