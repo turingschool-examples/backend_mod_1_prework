@@ -38,20 +38,20 @@ class FizzBuzz
        elsif num % 3 == 0
          "Fizz"
        elsif num % 5 == 0
-       "Buzz"
+         "Buzz"
        else
          num.to_s
        end
-     end
-   end
+    end
+  end
 
- def show_range
+  def show_range
    puts "\n\n\n"
    puts "*" * 70
    puts "FizzBuzz from #{@min} to #{@max} looks like this!"
    puts "*" * 70
    puts "\n\n\n"
- end
+  end
 
 end
 
