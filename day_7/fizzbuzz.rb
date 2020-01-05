@@ -14,29 +14,68 @@ puts "/__/       /__/  /_________/  /_________/  /_________/  /_________/  /____
 # by n + 1.  It is exactly the same as all the examples I did before and was excited
 # to see my learning in action!
 
- # puts "FizzBuzz Starts at:"
- # print"> "
- # fb_st = gets.chomp.to_i
- #
- # puts "FizzBuzz Ends at:"
- # print"> "
- # fb_end = gets.chomp.to_i
- #
- # fb_rg = fb_end - fb_st
 
-range = Array.new(100){|n| n + 1}
-
-range.collect do |num|
-  if num  % 3 == 0 && num % 5 == 0
-    puts "FizzBuzz"
-  elsif num % 3 == 0
-    puts "Fizz"
-  elsif num % 5 == 0
-    puts "Buzz"
-  else
-    puts num.to_s
+class FizzBuzz
+  def initialize(min, max)
+    @min = min
+    @max = max
+    @field = max - min
   end
+
+  def field
+   @field
+  end
+
+  def make_array
+    fb_array = Array.new(@field){ |n| n + @min}
+  end
+
+  def fizzbuzz
+    fb_array = Array.new(@field){ |n| n + @min}
+    fb_array.collect do |num|
+     if num  % 3 == 0 && num % 5 == 0
+       "FizzBuzz"
+     elsif num % 3 == 0
+       "Fizz"
+     elsif num % 5 == 0
+       "Buzz"
+     else
+       num.to_s
+     end
+   end
+ end
+
+ def show_range
+   puts "\n\n\n"
+   puts "*" * 70
+   puts "FizzBuzz from #{@min} to #{@max} looks like this!"
+   puts "*" * 70
+   puts "\n\n\n"
+ end
+
 end
+
+range = FizzBuzz.new(25,80)
+
+range.show_range
+puts range.fizzbuzz.join ","
+
+
+# the code below works, don't delete it.
+#
+# range = Array.new(100){|n| n + 1}
+#
+# range.collect do |num|
+#   if num  % 3 == 0 && num % 5 == 0
+#     puts "FizzBuzz"
+#   elsif num % 3 == 0
+#     puts "Fizz"
+#   elsif num % 5 == 0
+#     puts "Buzz"
+#   else
+#     puts num.to_s
+#   end
+# end
 
 # The output of this array is nil nil nil....
 # to change the output, simply remove the puts and because I'm using the
