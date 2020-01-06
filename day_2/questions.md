@@ -22,4 +22,4 @@ Boolean values in ruby are about determining whether something is true or false,
 In ruby, it would be written as '2 == 25' and the answer would be false.
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
-It would be evaluated with a greater-than-equal sign like so '25 >= 2'. The result of the evaluation would be true.
+It would be evaluated with a greater-than sign like so '25 > 2'. The result of the evaluation would be true.
