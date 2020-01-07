@@ -2,15 +2,15 @@
 
 ## Creating New Array
 - You can create a new array at anytime, empty or filled.
---* Define a full array to variable
+- Define a full array to variable
 ```
 array_1 = [1,2,3,4]
 ```
---* Define an array with empty brackets
+- Define an array with empty brackets
 ```
 array_2 = []
 ```
---* Assign an array to Array.new
+- Assign an array to Array.new
 ```
 array_3 = Array.new
 => array_3 = []
