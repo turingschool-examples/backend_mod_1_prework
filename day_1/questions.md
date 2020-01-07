@@ -26,4 +26,4 @@ In order to get input from a user in the terminal we use the get method which as
 type into the terminal and press enter in order to submit it.
 
 1. Name and describe two common string methods. 
-length method tells us how many characters there are in the strings, while the split method breaks the string into substrings based on the space character. With the split method you can also input an argument that breaks down the string with a different character instead.
+Length method tells us how many characters there are in the strings, while the split method breaks the string into substrings based on the space character. With the split method you can also input an argument that breaks down the string with a different character instead.
