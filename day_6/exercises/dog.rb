@@ -16,8 +16,12 @@ class Dog
     p "woof!"
   end
 
+  def play
+    p "Fido is Hungry"
+  end
+
   def eat
-    @hungry = false
+    @hungry = true
   end
 end
 
@@ -26,5 +30,6 @@ p fido.breed
 p fido.name
 p fido.age
 p fido.hungry
-fido.eat
+p fido.play
+ fido.eat
 p fido.hungry
