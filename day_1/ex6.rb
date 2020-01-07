@@ -1,29 +1,34 @@
-# Total number of people types
+# Defining a variable for types_of_people
 types_of_people = 10
-# Assigning a string w/ computation to a variable
+# Assigning a string to a variable. The string contains interpolation
 x = "There are #{types_of_people} types of people."
-# Assigning the string to a variable
+# Defines a string the same name as the variable
 binary = "binary"
-# Assigning the string to a variable
-do_not = "don't"
-# Assinging a string w/ computation to a variable
+#  Defines a string the same name as the variable
+do_not = "do not"
+# Defines a string with interpolation
 y = "Those who know #{binary} and those who #{do_not}."
-# Print the assigned variable, since not in quotes
+
+# Prints the corresponding variables
 puts x
-# Print the assigned variable
 puts y
-# Print the assigned variable
+
+# Prints a string with an inserted variable
 puts "I said: #{x}."
-# Print the assigned variable
-puts "I also said: #{y}."
-# True or False, Boolean statement determined by syntax
+# Prints a string with an inserted variable
+puts "I also said: '#{y}'."
+
+# Defines variable as a boolean
 hilarious = false
-# Variable assignment
+# Defines interpolated string as variable
 joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
-# Print assigned variable
+
+# Prints the interpolated string
 puts joke_evaluation
-# Variable assignment
+
+# Assigning variables to a string to be used later
 w = "This is the left side of..."
 e = "a string with a right side."
-# Prints the assigned variables in their corresponding order
-puts w+e
+
+# Puts the assigned variables together in a string.
+puts w + e

@@ -1,3 +1,4 @@
+
 #Total number of cars available
 cars = 100
 
@@ -22,13 +23,18 @@ carpool_capacity = cars_driven * space_in_a_car
 # Resulting average of passengers per each car
 average_passengers_per_car = passengers / cars_driven
 
-
+# Prints available cars
 puts "There are #{cars} cars available."
+# Prints available drivers
 puts "There are only #{drivers} drivers available."
+# Prints amount of cars without drivers
 puts "There will be #{cars_not_driven} empty cars today."
+# Prints total passenger capacity w/drivers
 puts "We can transport #{carpool_capacity} people today."
+# Prints number of passengers
 puts "We have #{passengers} passengers to carpool today."
-puts "We need to put about #{average_passengers_per_car} in each car."
+# Prints average passengers per vehicle
+puts "We need to put about #{average_passengers_per_car} passengers per car."
 
 ##Study Drills
 #In the lessons inital mistake, the compiler points to line 14 ex4.rb in the file,

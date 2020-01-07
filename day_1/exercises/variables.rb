@@ -14,15 +14,28 @@ p house_elf
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
-school = "Hogwarts"
-p "#{name} must not return to #{school}!"
+phrase = "#{name} must not return to Hogwarts!"
 
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
 students = 22
-p "#{students + 2}"
+students += 2
+# YOUR CODE HERE
+p students
+
+# Another way, without affecting the variable
+students = 22
+# YOUR CODE HERE
+p students + 2
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
+students = 24
+students -= 2
 # YOUR CODE HERE
-p "#{students - 2}"
+p students
+
+# Another way, without affecting the variable
+students = 24
+# YOUR CODE HERE
+p students - 2

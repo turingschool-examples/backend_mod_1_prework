@@ -8,13 +8,12 @@
 end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
-(2+27).times do
-  p "ColoniusRex!"# YOUR CODE HERE
+7.times do
+  p "The sum of 2+2 is equal to #{2 + 2}"
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
-# YOUR CODE HERE
 10.times do
   p "She sells seashells down by the seashore."
 end

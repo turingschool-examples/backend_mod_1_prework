@@ -1,9 +1,12 @@
 # A comment, this is so you can read your program later.
-# Anything after the # will be ignored
+# Anything after the # is ignored by Ruby.
 
-puts "I could have code like this" # and the comment after is ignored
+puts "You can print here" # And make comments here
 
-# You can also use a comment to disable or comment out a peice of code.
-# puts "This wont run"
+# You can also use a comment to 'disable' pieces of code or comment out pieces.
 
-puts "This will run."
+puts "You can also use it to cut out a line of code."
+# puts "Like this one"
+
+# Study Drills
+# I found no errors!
