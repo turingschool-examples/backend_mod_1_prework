@@ -21,7 +21,7 @@ end
 # <food> to shopping list" for each food item.
 foods = ["Bananas","Potatoes","Milk","Bread","Soda"]
 foods.each do |n|
-  p "Add #{n} to shopping list"
+  p "Add #{n} to shopping list!"
 end
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.

@@ -12,7 +12,7 @@ states = ["New Mexico","Colorado","Arizona","Idaho","California"]
 p states
 
 # Write code below that will print an array of foods. Store the array in a variable.
-foods = ["hot dog","hamburger","pizza","sandwich"]
+foods = ["Hot Dog","Hamburger","Pizza","Sandwich"]
 p foods
 
 # example: Write code below that will print the number of elements in array of
@@ -31,7 +31,7 @@ p foods.last
 
 # Write code below that uses a method to add "lion" to the animals array and
 # print the result
-animals << "lion"
+animals << "Lion"
 p animals
 
 # Write code below that removes the last item of food from the foods array and
