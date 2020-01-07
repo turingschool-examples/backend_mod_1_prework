@@ -108,7 +108,7 @@ elsif walk == "2"
         end
 
     else # stairs
-      puts "The man sees you and begins writing you a beautiful poem. Congratulations."
+      puts "The man sees you %sing and begins writing you a beautiful poem. Congratulations." % stairs
     end
 
   else # walk
