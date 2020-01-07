@@ -28,4 +28,4 @@
 
 + Functions that don't have parameters do not need the `()` after them, but would it be clearer if you wrote them anyways?
 
-## To 'run', 'call', or 'use' a function all mean the same thing!
+## To 'run', 'call', or 'use' a method all mean the same thing!
