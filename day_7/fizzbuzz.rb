@@ -1,6 +1,8 @@
-n = 1
-x = 1
-y = 100
+puts "Choose low number"
+x = gets.chomp.to_i
+
+puts "Choose higher number"
+y = gets.chomp.to_i
 
 (x..y).each do |n|
   if n % 3 == 0 && n % 5 == 0
