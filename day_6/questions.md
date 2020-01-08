@@ -46,7 +46,7 @@ For instance, based on our Dog class:
 snoopy = Dog.new("Snoopy", "Labrador")
 ```
 
-1. What questions do you still have about classes in Ruby?
+**6. What questions do you still have about classes in Ruby?**
 
 When I was doing the Burrito exercise, I had a hard time figuring out how to turn my attributes into arrays and then how to remove items from those arrays.
 
