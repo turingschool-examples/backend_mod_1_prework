@@ -29,11 +29,11 @@ money = add(40,11)
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+man = "When Harry"
+woman = "met Sally"
 
 def love(man, woman)
-  man = "When Harry"
-  woman = "met Sally"
-  puts man + woman
+  puts "#{man} #{woman}."
 end
 
 love(man, woman)
