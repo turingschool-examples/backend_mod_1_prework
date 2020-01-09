@@ -1,0 +1,9 @@
+1. sort = sorts the array based on the objects hold inside of the array. For strings it will sort alphabetical, and for numbers smallest to largest.
+1. each = Goes through the array one element at a time and allows code to be repeated on each element
+1. join = creates a string by converting each element into a sting, and if given a parameter can add a string between each element.
+1. index = Returns the index number of an element that is based on the given object
+1. include? = Returns a boolean value depending on if the given object is found in the array.
+1. collect = Creates a new array based off the original array that takes the old array elements and modifies them and put them in the new array.
+1. first = Returns the first element of the array.
+1. last = Returns the last element of the array.
+1. shuffle = Returns a new array that has taken the elements in old array and moved them around in the array giving them a new index number.
