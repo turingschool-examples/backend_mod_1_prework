@@ -1,6 +1,6 @@
 ## Day 3 Questions
 
-__1. What is a conditional statement? Give three examples.__
+### 1. What is a conditional statement? Give three examples.
 
 A conditional statement is a comparison that returns a `true` or `false` value.
 
@@ -13,14 +13,14 @@ A conditional statement is a comparison that returns a `true` or `false` value.
 `"salt" == "salt" && 25 >= 87` will check if the two strings match *and* if 25 is greater than or equal to 87. Since 25 is *not* greater than 87 the code will come back `false`. Both sides of the `&&` comparison must be true for the code to return as `true`.
 
 ___
-__2. Why might you want to use an if-statement?__
+### 2. Why might you want to use an if statement?
 
-If-statements allow us to make decisions when a conditional statement is true. Without the if statement the value would simply return as true. The if-statements allow for something other than true to be returned, it could be a string or even a solution to a formula.
+If statements allow us to make decisions when a conditional statement is true. Without the if statement the value would simply return as true. The if statements allow for something other than true to be returned, it could be a string or even a solution to a formula.
 
 ___
-__3. What is the Ruby syntax for an if statement?__
+### 3. What is the Ruby syntax for an if statement?
 
-The syntax for a Ruby if-statement is as follows.
+The syntax for a Ruby if statement is as follows.
 ```ruby
 if conditional_statement
   puts "String"
@@ -28,12 +28,12 @@ end
 ```
 
 ___
-__4. How do you add multiple conditions to an if statement?__
+### 4. How do you add multiple conditions to an if statement?
 
 Multiple if conditions can be added to an if statement using `||` and `&&`. The two pipes allow you to see if either condition one *or* condition two are true and the two ampersands allow you to see if *both* condition one *and* condition two are true.
 
 ___
-__5. What is the Ruby syntax for an if/elsif/else statement?__
+### 5. What is the Ruby syntax for an if/elsif/else statement?
 
 The syntax for a Ruby if/elsif/else statement is as follows.
 
@@ -50,6 +50,6 @@ end
 ```
 
 ___
-__6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?__
+### 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
 We can use conditional statements simply to return a boolean value. Conditional statements are also used in Ruby loops.
