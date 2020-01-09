@@ -1,11 +1,12 @@
 **Caesar Cipher Top-Down Design**
 
 1. Create Caesar Cipher File
-1.1 Open laptop
 
-1.2 Open terminal
+  1.1 Open laptop
 
-1.2.1 Open local copy of backend_module_0_capstone from terminal
+  1.2 Open terminal
+
+    1.2.1 Open local copy of backend_module_0_capstone from terminal
 
 1.2.2 Use terminal command `cd` to navigate to the directory that holds the repository
 
