@@ -27,7 +27,8 @@ class Dog
   end
 ```
 
-1. How do you create an instance of a class?
+1. How do you create an instance of a class? 
+To create an instance of a class first create a new variable and set it equal the class name plus the method new. Inside the new method fill out any parameters needed. For example, 
 `perry = Dog.new("24")`
 
 1. What questions do you still have about classes in Ruby?
