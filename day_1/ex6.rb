@@ -5,7 +5,7 @@ x = "There are #{types_of_people} types of people."
 # Defines a string the same name as the variable
 binary = "binary"
 #  Defines a string the same name as the variable
-do_not = "don't"
+do_not = "do not"
 # Defines a string with interpolation
 y = "Those who know #{binary} and those who #{do_not}."
 

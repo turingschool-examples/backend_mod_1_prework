@@ -29,7 +29,7 @@ puts "What is 5 - 7? #{5.0 - 7.0}"
 puts "Oh, that's why it's false."
 
 # Prints string
-puts "How about some more."
+puts "How about some more?"
 
 # Prints strings with inserted compuatation.
 puts "Is it greater? #{5.0 > -2.0}"

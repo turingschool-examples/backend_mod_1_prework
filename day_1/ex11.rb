@@ -7,13 +7,20 @@ weight = gets.chomp
 
 puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 
-puts "\n"
-puts "New Questions"
-puts "Where are you from?"
-home = gets.chomp
-puts "How long have you lived here?"
-years_in_denver = gets.chomp
-puts " Are you FE or BE?"
-code_focus = gets.chomp
+puts "\nStudy Drills"
+puts "Would you like to try a sample form\nI created myself? (Y/N)"
+choice = gets.chomp
 
-puts "So you're from #{home}, you've lived in Denver for #{years_in_denver} and you study #{code_focus}."
+if choice == "y" or choice == "Y"
+  puts "Thanks so much! What's your name?"
+  coder_name = gets.chomp
+  puts "Excellent! Are you FE or BE coder?"
+  coder_focus = gets.chomp
+  puts "Great. Next, how old are you?"
+  coder_age = gets.chomp
+  puts "Sweet! So you're #{coder_name}, a #{coder_age} #{coder_focus} coder."
+end
+
+if choice == "n" or choice == "N"
+  puts "Okay then, I'm sure someone else will.."
+end

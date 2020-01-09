@@ -8,6 +8,11 @@ team = "Chudley Cannons"
 
 p "The #{team} are #{name}'s favorite Quidditch team"
 
+car_make = "Toyota"
+car_model = "4Runner"
+
+p "The #{car_make} #{car_model} is an excellent vehicle in my opinion."
+
 # Write code that combines the variables below into a string that reads "The
 # quick red fox jumped over the lazy brown dog":
 speedy = "quick red fox"
@@ -20,4 +25,4 @@ p "The #{speedy} jumped over the #{slow_poke}."
 slow_poke = "tortoise"
 speedy = "hare"
 
-p "In a predictable result, the #{slow_poke} beat the #{speedy}."
+p "In a predictable result, the #{slow_poke} beat the #{speedy}!"

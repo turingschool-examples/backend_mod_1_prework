@@ -1,26 +1,23 @@
-name = 'Zed A. Shaw'
-age = 35 # not a lie in 2009
-height = 74 # inches
-weight = 180 # lbs
-eyes = 'Blue'
-teeth = 'White'
-hair = 'Brown'
-
-# Study Drill Variables
-inches = 123
-pounds = 175
-kilograms = pounds / 2.205
-centimeters = inches * 2.54
+my_height
+my_name = "Zed A. Shaw"
+my_age = 35 #Idk why I would lie upwards
+my_height = 74 #inches
+my_weight = 180 #lbs
+my_height_metric = my_height * 2.54  #centimeters
+my_weight_metric = my_weight * 0.454 #kilograms
+my_eye_color = 'Blue'
+my_teeth = 'White'
+my_hair_color = 'Brown'
 
 puts "Let's talk about #{name}."
-puts "He's #{height} inches tall."
-puts "He's #{weight} pounds heavy."
-puts "Actually that's not too heavy."
-puts "He's got #{eyes} eyes and #{hair} hair."
-puts "His teeth are usually #{teeth} depending on the coffee."
+puts "He's #{my_height} inches tall. If you're British he's #{my_height_metric} cm."
+puts "He's #{my_weight} pounds heavy. If you fancy tea, he's #{my_weight_metric} kg."
+puts "Actually, he's not too heavy."
+puts "He's got #{my_eye_color} my_eye_color and #{my_hair_color} my_hair_color."
+puts "His tewtth are usually #{my_teeth} depending on the coffe."
 
 # this line is tricky, try to get it exactly right
-puts "If I add #{age}, #{height}, and #{weight};\nI get #{age + height + weight}."
+puts "If I add #{my_age}, #{my_height} and #{my_weight}, I get #{my_age + my_height + my_weight}"
 
 puts "\n"
 puts "Study Drills"
