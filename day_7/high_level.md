@@ -1,11 +1,11 @@
 **Caesar Cipher Top-Down Design**
 
 1. Create Caesar Cipher File
-  1.1 Open laptop
-  1.2 Open terminal
-  1.2 Open local copy of backend_module_0_capstone from terminal
-    1.2.2 Use terminal command `cd` to navigate to the directory that holds the repository
-  1.3 Use terminal command `touch caesar_cipher.rb` to make new Caesar Cipher ruby file
+..1.1 Open laptop
+..1.2 Open terminal
+....1.2.1 Open local copy of backend_module_0_capstone from terminal
+....1.2.2 Use terminal command `cd` to navigate to the directory that holds the repository
+..1.3 Use terminal command `touch caesar_cipher.rb` to make new Caesar Cipher ruby file
 2. Open Caesar Cipher File
   2.1 Use terminal command `atom .` to open the correct repository in Atom
   2.2 Select caesar_cipher.rb from document list in Atom
