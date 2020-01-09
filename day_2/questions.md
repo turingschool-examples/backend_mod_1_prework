@@ -1,33 +1,33 @@
 ## Day 2 Questions
 
-__1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.__
+### 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
 `["zebra", "giraffe", "elephant"]`
 
 ___
-__2. Save the array you created above to a variable `animals`.__
+### 2. Save the array you created above to a variable `animals`.
 
 `animals = ["zebra", "giraffe", "elephant"]`
 
 ___
-__3. Using the array `animals`, how would you access `"giraffe"`?__
+### 3. Using the array `animals`, how would you access `"giraffe"`?
 
 `puts animals[1]`
 
 ___
-__4. How would you add `"lion"` to the `animals` array?__
+### 4. How would you add `"lion"` to the `animals` array?
 
 `animals << "lion"`
 
 ___
-__5. Name and describe two additional array methods.__
+### 5. Name and describe two additional array methods.
 
 `.shuffle` rearranges the order of elements in an array
 
 `.join` combines all elements of an array into a single string.
 
 ___
-__6. What are the boolean values in Ruby?__
+### 6. What are the boolean values in Ruby?
 
 | Operator                   | Meaning               |
 | :------------------------: | :-------------------: |
@@ -42,15 +42,13 @@ __6. What are the boolean values in Ruby?__
 | `<=`                       | LESS THAN OR EQUAL    |
 
 ___
-__7. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?__
+### 7. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
 Evaluation:`2 == 25`
 Result: `false`
 
 ___
-__8. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?__
+### 8. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
 Evaluation: `25 > 2`
 Result: `true`
-
-___
