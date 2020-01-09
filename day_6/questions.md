@@ -1,4 +1,4 @@
-## Day 5 Questions
+## Day 6 Questions
 
 ### 1. In your own words, what is a Class?
 
@@ -7,7 +7,7 @@ A class is a general outline used to create objects, kind of like a mold. Classe
 ___
 ### 2. In relation to a Class, what is an attribute?
 
-An attribute is a characteristic that each object in a class has but each object has a different variable for that characteristic. Essentially, they are what differentiate one object from another. Some attributes can also be changed by calling on a specific method.
+An attribute is a characteristic that each object in a class has but each object has a different variable for that characteristic. For example each person (object) has a name (attribute) but every person's name is different. Essentially, attributes are what differentiate one object from another in a class. Some attributes can also be changed by calling on a specific method. For example each person (object) has a name (attribute) but that name can change when they get married (method/behavior).
 
 ___
 ### 3. In relation to a Class, what is behavior?
