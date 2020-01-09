@@ -46,6 +46,10 @@ For this reason, we'd like to be able to install and manage multiple versions of
 
 #### Installation
 
+We've again included a video walk-through of this step (installing rbenv and the following step, installing a version of Ruby). Check it out, it might be helpful!
+
+[![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
+
 Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
 ```
@@ -171,9 +175,7 @@ In this scenario, the [Turing Github account](https://github.com/turingschool) o
 
 ####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/backend_module_0_capstone).
 
-####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
-
-![click on 'fork' button, confirm fork to your account](/images/fork_01.jpg)
+####  3. Click on `Fork` in the upper right corner of the screen
 
 ####  4. On the new page, confirm that it says it's the "forked" copy of this repository, with mentions of your username in the URL and repository name.
 
@@ -221,6 +223,11 @@ nothing to commit, working tree clean
 ```
 
 From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "backend prework", and they all refer to your forked copy of this `backend_module_0_capstone` repository.
+
+We've got _another_ video walk-through of these steps here:
+
+[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
+
 
 Each day's `README` will walk you through the steps you need to take to save your work.
 
