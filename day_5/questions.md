@@ -12,7 +12,7 @@ pet_store = {leashes: 25, toys: 80, catnip: 5, beds: 15}
 ```
 
 ___
-### 3. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+### 3. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
 `states['IA']`
 
