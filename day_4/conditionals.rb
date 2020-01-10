@@ -9,3 +9,5 @@ def water_status(minutes)
     puts "Hot! Hot! Hot!"
   end
 end
+
+water_status(3)
