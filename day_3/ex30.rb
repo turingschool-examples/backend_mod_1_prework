@@ -42,6 +42,7 @@ elsif cars == trucks
   # If the above tests false it returns the below string
 else
   puts "Curiouser and curiouser!"
+end
 
 
 # elsif allows for multiple crieria under an if statement. If the initial
