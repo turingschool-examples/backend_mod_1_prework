@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'sunny'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -42,11 +42,52 @@
 # When num_quarters = 2, program should print "I have enough money for a gumball"
 # When num_quarters = 3, program should print "I have enough money for a gumball"
 
-num_quarters = 0
+# I went a little extra on this one for fun, the core of the lesson is here!
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+num_quarters = 2
+quarters_for_gum = 2
+puts "Oh! A gumball machine! It's .50 cents, let's see if I have enough!"
+puts "Check your fannypack for change? y/n"
+puts ">"
+check_bag = $stdin.gets.chomp
+if check_bag == "y"
+  puts "Rummaging through fannypack.."
+  puts "Aha!"
+  if num_quarters == 0
+    p "I don't have enough money for a gumball"
+  elsif num_quarters == 1
+    puts "I don't have enough money for a gumball"
+  elsif num_quarters == 2
+   puts "I have enough money for a gumball!"
+   puts "Do I want to buy a gumball? y/n"
+   decide = $stdin.gets.chomp
+   if decide == "y"
+     puts "Life on the edge. Good choice."
+   elsif decide == "n"
+     puts "Saving for retirement...smart!"
+   else
+     puts "I'm bad at decisions."
+   end
+  elsif num_quarters == 3
+   puts "I have enough money for a gumball, plus one more quarter!"
+   puts "Do I want to buy a gumball? y/n"
+   decide = $stdin.gets.chomp
+   if decide == "y"
+     puts "Life on the edge. Good choice."
+   elsif decide == "n"
+     puts "Saving for retirement...smart!"
+   else
+     puts "I'm bad at decisions."
+   end
+  end
 
+elsif check_bag == "n"
+  puts "I guess I don't like gum very much?"
+  puts "Walks back into sunset.."
+
+else
+  puts "I'm not really sure where I am. Or what I'm doing."
+end
 
 #####################
 # Using the variables defined below, determine if you have the
@@ -61,3 +102,25 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+enough_sauce = "have enough sauce."
+not_enough_sauce = "don't have enough sauce."
+sauce_phrase = ""
+
+  if has_sauce = true
+    sauce_phrase = enough_sauce
+  else
+    sauce_phrase = not_enough_sauce
+  end
+
+puts "I want to make a pizza, let's see if I have needed ingeredients!"
+puts "I need 2 cups of flour, and 2 cups of sauce."
+puts "I have #{cups_of_flour} cups of flour and I #{sauce_phrase}."
+if cups_of_flour == 1 && has_sauce == true
+  puts "I cannot make pizza."
+elsif cups_of_flour == 1 && has_sauce == false
+  puts "I cannot make pizza."
+elsif cups_of_flour == 2 && has_sauce == true
+  puts "I can make pizza."
+elsif cups_of_flour == 3 && has_sauce == true
+  puts "I can make pizza."
+end
