@@ -1,11 +1,11 @@
 class Cipher
 
-  def initialize(message, shift)
-    # puts "Enter message here:"
-    # print "> "
-    @message = message.upcase
-    # puts "Enter scramble shift:"
-    @shift = shift
+  def initialize(message="No message today.", shift=0)
+    puts "Enter message here:"
+    print "> "
+    @message = gets.chomp.upcase
+    print "Enter scramble shift:"
+    @shift = gets.chomp.to_i
     @letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     @alphabet = @letters.split("")
 
@@ -39,6 +39,7 @@ class Cipher
         print " "
       end
     end
+    puts "\n\n"
   end
 
 end
