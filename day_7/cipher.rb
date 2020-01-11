@@ -22,23 +22,27 @@ class Cipher
   def scramble
     msg_ary = @message.split("")
     l_idx = msg_ary.map do |l|
-        print l
-        @alphabet.index(l)
+      #p l
+      @alphabet.index(l)
     end
 
     l_idx.map do |n|
-      new_shift = n + @shift
-      if new_shift > 25
-        shift_wrap = new_shift % 26
+      if n.is_a? Integer
+        new_shift = n + @shift
+        if new_shift > 25
+          shift_wrap = new_shift % 26
+        else
+          shift_wrap = new_shift
+        end
+        print @alphabet[shift_wrap]
       else
-        shift_wrap = new_shift
+        print " "
       end
-      print @alphabet[shift_wrap]
     end
   end
 
 end
 
-greeting = Cipher.new("hello world", -5)
+greeting = Cipher.new("Hello World This is a message from the future", 6)
 
 greeting.scramble
