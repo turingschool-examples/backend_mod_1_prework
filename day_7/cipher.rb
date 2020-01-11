@@ -6,6 +6,8 @@ class Cipher
     @message = message.upcase
     # puts "Enter scramble shift:"
     @shift = shift
+    @letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    @alphabet = @letters.split("")
 
   end
 
@@ -20,45 +22,23 @@ class Cipher
   def scramble
     msg_ary = @message.split("")
     l_idx = msg_ary.map do |l|
-              letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-              alphabet = letters.split("")
-              alphabet.index(l) + @shift
-            end
+        print l
+        @alphabet.index(l)
+    end
+
     l_idx.map do |n|
-      letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-      alphabet = letters.split("")
-        print alphabet[n]
+      new_shift = n + @shift
+      if new_shift > 25
+        shift_wrap = new_shift % 26
+      else
+        shift_wrap = new_shift
       end
-
-    # msg_ary.map.with_index do |v, i|
-    #   print i
-    #   print v
-    # end
-
+      print @alphabet[shift_wrap]
+    end
   end
-
-  # def alphabet
-  #   abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-  #   alphabet = abc.split("")
-  #   p alphabet.index("J")
-  # end
-
-    # abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    #
-    # abc.split("")
-    #
-    # shift = 4
-    #
-    # if shift > 25
-    #   new_shift = shift % 26
-    # else
-    #   new_shift = shift
-    # end
-    #
-    # p abc[new_shift]
 
 end
 
-greeting = Cipher.new("helloworld", -5)
+greeting = Cipher.new("hello world", -5)
 
 greeting.scramble
