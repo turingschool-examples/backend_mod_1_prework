@@ -44,6 +44,6 @@ class Cipher
 
 end
 
-greeting = Cipher.new("Hello World This is a message from the future", 6)
+greeting = Cipher.new
 
 greeting.scramble
