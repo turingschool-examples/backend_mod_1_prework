@@ -1,17 +1,60 @@
 ## Day 1 Questions
 
-1. How would you print the string `"Hello World!"` to the terminal?
+**How would you print the string `"Hello World!"` to the terminal?**
 
-1. What is the character you would use to indicate comments in a ruby file?
+p, puts, or print would all print "Hello World!" to the terminal.
 
-1. Explain the difference between an integer and a float?
+`p "Hello World!"` would produce the result `"Hello World!"`
 
-1. In the space below, create a variable `animal` that holds the string `"zebra"`
+`puts "Hello World!"` would produce the result `Hello World!` with a non-printed `\n` for a new line.  The hash rocket `=>` will be on a line below the printed text.
 
-1. How would you print the string `"zebra"` using the variable that you created above?
+`print "Hello World!"` would produce the result `Hello World!` and the hash rocket will be on the same line as the text.
 
-1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+**What is the character you would use to indicate comments in a ruby file?**
 
-1. How do we get input from a user? What is the method that we would use?
+Comments are expressed using the hash, pound, or octothorpe character `#`.  Anything after the `#` is not run as code.  This can be used to explain what the code does or to temporarily disable code.
 
-1. Name and describe two common string methods.
+**Explain the difference between an integer and a float?**
+
+Integers are whole numbers, 1, 5000, 245.  Floats use decimals like 1.0, 24.5, or 99.99999.  While playing around I found a useful method to be `.round(<number of places>)`.  I used this for converting from feet to meters in one of the examples.  Here's how it can be used:
+
+```
+height = 70
+metric_height = height.to_f / 39.37
+puts metric_height.round(1)
+```
+
+You will produce a result of 1.8 meters instead of 1.77800355671121 meters.
+
+**In the space below, create a variable `animal` that holds the string `"zebra"`**
+
+```
+animal = "zebra"
+```
+
+**How would you print the string `"zebra"` using the variable that you created above?**
+
+```
+puts animal
+```
+
+**What is interpolation? Use interpolation to print a sentence using the variable `animal`.**
+
+Interpolation is using variables or calculations within other blocks of code.  In this example it would be inserting a string into another string (although it could be math or a value of an array etc.).
+
+```
+puts "Today we went to the zoo and saw a #{animal}!"
+
+Today we went to the zoo and saw a zebra!
+=> nil
+```
+
+**How do we get input from a user? What is the method that we would use?**
+
+Input from the user is collected using `gets.chomp`. Gets prompts the user for input and the .chomp removes the attached \n carriage return.
+
+**Name and describe two common string methods.**
+
+`.length` returns the length of a string.  One could use this method to make sure a password is long enough.
+
+`.capitalize` capitalizes the first letter of a string.  This could be used to standardize names for email greetings.

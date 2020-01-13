@@ -7,11 +7,26 @@
   p "Hermione Granger"
 end
 
+puts "\n"
+
 # Write code below that prints the sum of 2 plus 2 7 times:
 7.times do
-  # YOUR CODE HERE
+  puts 2 + 2
 end
+
+puts "\n"
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
-# YOUR CODE HERE
+phrase = "She sells seashells down by the seashore"
+
+10.times do
+  puts phrase
+end
+
+puts "\n"
+
+# Here's another way to do the above example
+10.times { |p| p = "An apple a day keeps the doctor away"
+puts p
+}
