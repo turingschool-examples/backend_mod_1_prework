@@ -25,7 +25,9 @@ end
 
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
-numbers = ["1","2","3","4","5"]
+numbers = [1 ,2 ,3 ,4 ,5]
 numbers.each do |number|
-  p number * 2
+ if number % 2 != 0
+  p number
+ end
 end
