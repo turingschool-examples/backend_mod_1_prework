@@ -6,14 +6,10 @@ cipher.encode("Hello World", 5)
 
 Ceaser Cipher problem
 
-Create an alphabet array
-
-Write an encode function that:
-takes in a string and n ( a shift value)
-determines the length of the string
-  for every position in that string -->
-determine what number the letter is in the alphabet array a.index("e")
-replace that letter with the element that is "n" slots before
-
-put in some error checking for if the position is a space/apostrophe/ any non-letter
-> make sure alphabet.include? is True for each position before changing it
+1. create an alphabet array
+2. take in given string and shift value (n)
+  2.1 determine the length of the string
+  2.2 for each position in the string find that letter in the alphabet array. (a.index("e"))
+     2.2.1 if not in alphabet array (a.include?) do not change the character (for spaces, commas, etc)
+     2.2.1 replace that character with the element that is "n" spaces before in the alphabet array
+3. return the encoded string
