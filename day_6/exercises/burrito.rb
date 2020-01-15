@@ -13,17 +13,23 @@ class Burrito
     @toppings = toppings
   end
 
-  def add_topping
-    puts "Add #{toppings[2]} to my burrito, please."
-  end
+  class Burrito
+    attr_reader :protein, :base, :toppings
+    def initialize(protein, base, toppings)
+      @protein  = protein
+      @base     = base
+      @toppings = toppings
+    end
 
-  def remove_topping
-    puts "I don't want any #{toppings[0]} in my burrito."
-  end
-
-  def change_protein
-    puts "Can we change the #{protein} to mushrooms?"
-  end
+    def add_topping(new_topping)
+      toppings.append(new_topping)
+    end
+    def remove_topping(topping)
+      toppings.delete(topping)
+    end
+    def change_protein(protein)
+      @protein = protein
+    end
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
