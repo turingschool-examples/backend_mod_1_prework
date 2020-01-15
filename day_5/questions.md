@@ -17,7 +17,7 @@ p states.values
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 Use hashes when you want the things inside the hash to be paired. For states it is easier
 to access Iowa with "Ia" then remembering what number state it is. You could use a hash for
-something life the third_grade = ["mary" => "Ms Mark", "fred" => "Ms Mark", "trey" => "Mr Simmons"]
+something like the third_grade = ["mary" => "Ms Mark", "fred" => "Ms Mark", "trey" => "Mr Simmons"]
 
 1. What questions do you still have about hashes?
 are "CO" => "Colorado" and Co: Colorado  the only forms of assignment?
