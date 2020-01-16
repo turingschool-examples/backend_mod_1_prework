@@ -13,29 +13,27 @@ class Burrito
     @toppings = toppings
   end
 
-  class Burrito
-    attr_reader :protein, :base, :toppings
-    def initialize(protein, base, toppings)
-      @protein  = protein
-      @base     = base
-      @toppings = toppings
-    end
+  def add_topping(topping)
+    @toppings.push(topping)
+  end
 
-    def add_topping(new_topping)
-      toppings.append(new_topping)
-    end
-    def remove_topping(topping)
-      toppings.delete(topping)
-    end
-    def change_protein(protein)
-      @protein = protein
-    end
+  def remove_topping(topping)
+    @toppings.delete(topping)
+  end
+
+  def change_protein(protein)
+    @protein = protein
+  end
+
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
-p dinner.add_topping
-p dinner.remove_topping
-p dinner.change_protein
+dinner.add_topping('pico')
+p dinner.toppings
+dinner.remove_topping('cheese')
+p dinner.toppings
+dinner.change_protein('Chicken')
+p dinner.protein
