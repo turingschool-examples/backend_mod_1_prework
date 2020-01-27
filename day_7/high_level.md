@@ -7,7 +7,7 @@
     3.2 Create variable for Width that uses data from user
 4. Program checkerboard using variables
   4.1 Creating two strings using the 'while' method.
-    4.2 Create template using sudocode.
+    4.2 Create template using Pseudocode
 
 
 
