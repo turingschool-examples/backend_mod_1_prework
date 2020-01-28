@@ -19,7 +19,7 @@ end
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
-foods = ["Shrimp", "Alfredo", "Linguine"]
+foods = ["Shrimp", "Alfredo", "Linguine", "Butter"]
 foods.each do |food|
   p "add #{food} to shopping list"
 end
