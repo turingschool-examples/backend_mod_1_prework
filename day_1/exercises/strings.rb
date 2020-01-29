@@ -3,7 +3,7 @@
 # file from your terminal with the command `ruby day_1/exercises/strings.rb`
 
 # example: Write code below to print your name to the terminal:
-print "Melanie Tran, "
+print "Melanie Lynn Tran, "
 
 # Write code below to print `Welcome to Turing!` to the terminal:
 puts "Welcome to Turing!"
