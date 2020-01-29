@@ -37,7 +37,9 @@ You would use the `gets` method. The gets method takes the user input and change
 The first common string method is `.split`. This string method breaks a string into separate words or into an array. You can set rules to determine how the string will split. In the example below, ruby will split the string after every comma.
 
 `` names = "emma, momo, koko"
+
     names.split(",")
+
     result ----> ["emma", "momo", "koko"] ``
 
 The second common string method is .sub and .gsub. This method replaces a word with another word. `.sub` will only change the first occurance while `.gsub` will change every occurance.
