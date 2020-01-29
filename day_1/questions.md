@@ -36,8 +36,7 @@ You would use the `gets` method. The gets method takes the user input and change
 
 The first common string method is `.split`. This string method breaks a string into separate words or into an array. You can set rules to determine how the string will split. In the example below, ruby will split the string after every comma.
 
-``
-names = "emma, momo, koko"
+``names = "emma, momo, koko"
 
 names.split(",")
 
