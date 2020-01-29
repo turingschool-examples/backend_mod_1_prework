@@ -26,3 +26,11 @@ puts "Is it greater? #{5.0 > -2.0}"
 puts "Is it greater or equal? #{5.0 >= -2.0}"
 # This solves a greater/less than problem similar to math. Ruby read the problem inside #{} and computed a boolean answer.
 puts "Is it less or equal? #{5.0 <= -2.0}"
+
+
+puts "There are 50 dog treats for a party with 23 dogs."
+puts "How many dog treats will each dog get?"
+
+treats = (50 / 23)
+
+puts "Each dog will get #{treats} dog treats."
