@@ -3,9 +3,9 @@
 1. How would you print the string `"Hello World!"` to the terminal?
 ```
 p "Hello World!"
-or
+
 puts "Hello World!"
-or
+
 print "Hello World!"
 ```
 
