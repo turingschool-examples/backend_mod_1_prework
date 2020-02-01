@@ -4,13 +4,24 @@
 
 `array_name.sort`
 
-The sort method sorts an array alphabetically or numerically depending on the array. If the code is `array_name.sort {|x,y| y <+. x}` this will sort the array in reverse alphabetically or reverse numerically.
+The sort method sorts an array alphabetically or numerically depending on the array. If the code is `array_name.sort {|x,y| y <=> x}` this will sort the array in reverse alphabetically or reverse numerically.
 
 **join**
 
 `array_name.join`
 
-The join method combines the elements together into one string. For example, if the array was `weather = ["sunny", "rainy", "snowy"]`, the .join method would return the array as `"sunnyrainysnowy"`.The join method can also join the elements in an array using separators. For example, if I wanted the strings in weather to be separated using - , then the code would be weather.join("-"). This would result in `"sunny-rainy-snow"`.
+The join method combines the elements together into one string. For example:
+```
+weather = ["sunny", "rainy", "snowy"]
+weather.join
+=> "sunnyrainysnowy"
+```
+The join method can also join the elements in an array using separators. For example:
+
+```
+weather.join("-")
+=> "sunny-rainy-snowy"
+```
 
 **index**
 
@@ -18,17 +29,36 @@ The join method combines the elements together into one string. For example, if 
 
 The index method returns of the index of the first object that is true. It tells you the position of the object in the array. If the object results in no matches found, this will return a *nil* result.
 
+```
+weather.index ("rainy")
+=> 1
+weather.index ("windy")
+=>  nil
+```
+
 **include?**
 
 `array_name.include? ("object")`
 
 The include method determines if the given object is true or false. If the array has the object, it will yield a *true*. If the array does not have the object, it will yield a *false*.
 
+```
+weather.include? ("snowy")
+=> true
+irb(main):008:0> weather.include? ("windy")
+=> false
+```
+
 **shuffle**
 
 `array_name.shuffle`
 
 The shuffle method will shuffle or mix the array around. It returns a new array with the objects in different positions.
+
+```
+weather.shuffle
+=> ["rainy", "snowy", "sunny"]
+```
 
 **each**
 
