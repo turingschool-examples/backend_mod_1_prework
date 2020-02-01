@@ -6,6 +6,21 @@
 
 The sort method sorts an array alphabetically or numerically depending on the array. If the code is `array_name.sort {|x,y| y <=> x}` this will sort the array in reverse alphabetically or reverse numerically.
 
+```
+weather.sort
+=> ["rainy", "snowy", "sunny"]
+irb(main):003:0> weather.sort {|x,y| y <=> x}
+=> ["sunny", "snowy", "rainy"]
+```
+```
+numbers = [0.33, -7.15, 101.3]
+=> [0.33, -7.15, 101.3]
+irb(main):005:0> numbers.sort
+=> [-7.15, 0.33, 101.3]
+irb(main):006:0> numbers.sort {|x,y| y <=> x}
+=> [101.3, 0.33, -7.15]
+```
+
 **join**
 
 `array_name.join`
