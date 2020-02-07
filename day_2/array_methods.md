@@ -12,4 +12,8 @@ All methods can take a block as an argument to do a little bit extra with the me
 
 `.last` Opposite effect of `.first`. Setting an argument  `a.last(n)` will return the last `n` elements.
 
-`.shuffle` Returns a new array with the elements shuffled. 
+`.shuffle` Returns a new array with the elements shuffled.
+
+`.push` Adds an element to the end of an array and returns the mutated array.
+
+`.pop` Removes the last element of an array and returns the removed element. Mutates the array.
