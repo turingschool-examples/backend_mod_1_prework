@@ -8,6 +8,7 @@ print out something to show how it changed.
 =end
 
 # gets.chomp takes the user's input and chomps the terminal newline
+# can combine with other methods eg. gets.chomp.to_i to convert value to integer
 
 print "How old are you? "
 age = gets.chomp
