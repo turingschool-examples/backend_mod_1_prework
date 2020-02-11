@@ -23,7 +23,9 @@ An integer is a whole number and a float has a decimal point.
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
 Interpolation is a term for connecting multiple strings.
-`puts "A group of #{animal} is called a zeal or a dazzle. Can you believe that's real?!"`
+```ruby
+puts "A group of #{animal} is called a zeal or a dazzle. Can you believe that's real?!"
+```
 
 1. How do we get input from a user? What is the method that we would use?
 
@@ -32,5 +34,5 @@ In order to get input from the user, we use the **gets** method. We `puts` a que
 1. Name and describe two common string methods.
 
 Two common string methods are:
-  1. capitalize - `"string".capitalize`
+  1. capitalize - `"string".capitalize` or `variable_name.capitalize`
   1. chomp - `gets.chomp`
