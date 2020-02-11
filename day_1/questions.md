@@ -35,4 +35,4 @@ In order to get input from the user, we use the **gets** method. We `puts` a que
 
 Two common string methods are:
   1. capitalize - `"string".capitalize` or `variable_name.capitalize`
-  1. chomp - `gets.chomp`
+  1. length - `"string".length` or `variable_name.length`
