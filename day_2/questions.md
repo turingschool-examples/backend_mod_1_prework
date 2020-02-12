@@ -18,8 +18,8 @@
 
 1. Name and describe two additional array methods.
 
-  1. length - checks the length of an array, meaning how many individual items are in the array.
-  1. pop - removes the last item in the array
+  * length - checks the length of an array, meaning how many individual items are in the array.
+  *  pop - removes the last item in the array
 
 1. What are the boolean values in Ruby?
 
