@@ -1,4 +1,4 @@
-# This is an adventure game written by Derek B.
+# This is an adventure game written by Derek Borski
 
 puts "Hello adventurer! You are on the Oregon trail and you have come upon a river. You have three options:"
 puts "1. Attempt a river crossing"

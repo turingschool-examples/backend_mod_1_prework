@@ -1,4 +1,4 @@
-# This is an adventure game written by Derek B.
+# This is an adventure game written by Derek Borski
 
 answers = ["1. North", "2. South", "3. Go back home and give up"]
 
