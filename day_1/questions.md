@@ -38,4 +38,4 @@
 `name.split` would return `["my","name", "is", "max"]`
 .length: this method gives you a numerical value of how long a string is.
 *Example:* `name = max`
-`name.length` would return `3`
+`name.length` would return `3`.
