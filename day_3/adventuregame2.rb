@@ -1,5 +1,7 @@
 # This is an adventure game written by Derek B.
 
+answers = ["1. North", "2. South", "3. Go back home and give up"]
+
 puts "Hello adventurer! You are on the Oregon trail and you have come upon a river. You have three options:"
 puts "1. Attempt a river crossing"
 puts "2. Go around"
@@ -13,7 +15,7 @@ if oregon == "1"
   puts "2. Take a boat across"
 
   print " >"
-  river =$stdin.gets.chomp
+  river = $stdin.gets.chomp
 
   if river == "1"
     puts "A rogue wave comes through and kills everyone in your party. Congrats on your great decision making."
@@ -37,9 +39,9 @@ if oregon == "1"
 
 elsif oregon == "2"
   puts "Ok then, we will take the long way. Probably better than crossing a river. Which direction would you like to go?"
-  puts "1. North"
-  puts "2. South"
-  puts "3. Go back home and give up"
+  puts answers[0]
+  puts answers[1]
+  puts answers[2]
 
   print " >"
   direction = $stdin.gets.chomp
@@ -53,5 +55,6 @@ elsif oregon == "2"
   end
 
 else
-  puts "Fine then, don't play along"
+  answers.push("4. Stay where you are")
+  puts answers
 end
