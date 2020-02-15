@@ -35,4 +35,4 @@ end
 ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
- *A:* You could also us a conditional statement to if something is present in a string or an array. For example you could use the `.include?` method to see if an array includes a specified element which returns `true` if the element is present.
+ *A:* You could also use a conditional statement to see if something is present in a string or an array. For example you could use the `.include?` method to see if an array includes a specified element which returns `true` if the element is present.
