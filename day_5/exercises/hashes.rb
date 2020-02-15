@@ -8,18 +8,22 @@ p foods
 
 # Write code below that will print a hash of animals and their number
 # at the zoo. (an inventory of animals)
-zoo = #YOUR CODE HERE
+# note from Eric "I was curious to see what would happen if I made one of the
+# keys in the hash below into a string. It didn't seem to change anything so I
+#left it in but I am curious as to why it behaves that way."
+zoo = {zebra: 'Carl', meerkat: 'Shana', 'Tiger': 'Khan'}
 p zoo
 
 # Using the zoo that you created above, print all the keys in the hash.
-# YOUR CODE HERE
+p zoo.keys
 
 # Using the zoo that you created above, print all the values in the hash.
-# YOUR CODE here
+p zoo.values
 
 # Using the zoo taht you created above, print the value of the first item in
 # the hash
-# YOUR CODE HERE
+p zoo.fetch(:zebra)
 
 # Add an animal to the zoo hash and print the updated hash.
-# YOUR CODE HERE
+zoo[:giraffe] = 'Dobby'
+p zoo
