@@ -15,7 +15,7 @@ pet_store = {
 
 1. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 ```
-p states[:IA]
+p states[IA]
 
 ```
 
