@@ -23,4 +23,4 @@ We would use the method `get.chomp`
 
 1. Name and describe two common string methods.
 `puts` will print out the value of what you write after it.
-`#{} will compute the value of what's in the {}, even if you've entered "" for a string`
+`#{}` will compute the value of what's in the {}, even if you've entered "" for a string.
