@@ -7,11 +7,21 @@
   p "Hermione Granger"
 end
 
-# Write code below that prints the sum of 2 plus 2 7 times:
-7.times do
-  # YOUR CODE HERE
+5.times do
+  p "Eric Larson"
 end
+
+# Write code below that prints the sum of 2 plus 2 7 times:
+
+  # YOUR CODE HERE
+  7.times do
+    p 2+2
+  end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
 # YOUR CODE HERE
+
+10.times do
+  p 'She sells seashells down by the seashore'
+end
