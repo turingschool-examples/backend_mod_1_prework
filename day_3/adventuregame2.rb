@@ -57,4 +57,6 @@ elsif oregon == "2"
 else
   answers.push("4. Stay where you are")
   puts answers
+
+  puts ""
 end
