@@ -10,7 +10,7 @@
             1. prompt user
             2. use `input_string = gets.chomp`
         3. make sure input is within 26
-            1. if it is greater than the shift number is the modulus of 26
+            1. if it is greater than 26, the shift number is the modulus of 26
     2. Create Caesar cipher function
         1. establish local variables
             1. `count` integer
