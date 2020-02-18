@@ -11,7 +11,7 @@ p name
 # print that variable to the terminal:
 house_elf = "Dobby"
 # YOUR CODE HERE
-
+p house_elf
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
 # YOUR CODE HERE
@@ -20,9 +20,9 @@ house_elf = "Dobby"
 # print the result:
 students = 22
 # YOUR CODE HERE
-p students
+p students + 2
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
 # YOUR CODE HERE
-p students
+p students - 2
