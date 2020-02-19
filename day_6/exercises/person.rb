@@ -3,6 +3,7 @@
 # terminal.
 
 class Person
+  attr_reader :eye_color, :name
 
   def initialize(eye_color, name)
     @eye_color = eye_color
@@ -19,5 +20,7 @@ class Person
 end
 
 luna = Person.new('blue', 'luna')
+p luna.name
+p luna.eye_color
 p luna.says_hello
 p luna.blinks
