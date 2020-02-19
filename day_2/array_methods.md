@@ -1,6 +1,6 @@
 # Array Methods
 
-**sort**
+**.sort**
 
 `array_name.sort`
 
@@ -21,7 +21,7 @@ irb(main):006:0> numbers.sort {|x,y| y <=> x}
 => [101.3, 0.33, -7.15]
 ```
 
-**join**
+**.join**
 
 `array_name.join`
 
@@ -38,7 +38,7 @@ weather.join("-")
 => "sunny-rainy-snowy"
 ```
 
-**index**
+**.index**
 
 `array_name.index (object)`
 
@@ -51,7 +51,7 @@ weather.index ("windy")
 =>  nil
 ```
 
-**include?**
+**.include?**
 
 `array_name.include? ("object")`
 
@@ -64,7 +64,7 @@ irb(main):008:0> weather.include? ("windy")
 => false
 ```
 
-**shuffle**
+**.shuffle**
 
 `array_name.shuffle`
 
@@ -75,7 +75,7 @@ weather.shuffle
 => ["rainy", "snowy", "sunny"]
 ```
 
-**each**
+**.each**
 
 `array_name.each {change you want applied to the array}`
 
@@ -91,7 +91,7 @@ snowy!
 
 The objects each went through the change of adding an exclamation point, but the array didn't change.
 
-**collect**
+**.collect**
 
 `array_name.collect {change you want applied to the array}`
 
