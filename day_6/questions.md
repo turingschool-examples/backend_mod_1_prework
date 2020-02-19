@@ -1,4 +1,4 @@
-## Day 5 Questions
+## Day 6 Questions
 
 1. In your own words, what is a Class?  
 *A:* a class is a description of a category. If something had the class of "dog" it would likely have qualities that all dogs have. Four legs, barks, and loves people.
