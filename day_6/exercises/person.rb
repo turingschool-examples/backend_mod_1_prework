@@ -19,6 +19,9 @@ class Person
   end
 end
 
+
+
+
 luna = Person.new('blue', 'luna')
 p luna.name
 p luna.eye_color
