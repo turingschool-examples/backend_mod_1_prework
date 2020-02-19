@@ -1,5 +1,5 @@
 1. Create a file called checker_board.rb
-  *1.1. Open terminal
+  * 1.1. Open terminal
 
     1.1.1. Type `command + space` using your keyboard
 
