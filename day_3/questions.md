@@ -6,8 +6,26 @@ Conditional statements are used to add branching logic to codes. Conditional sta
 
 ```
 1. If my bank account is over 200 dollars, then I'm buying the concert tickets.
+
+if bank account > 200
+  puts "Buy the concert tickets."
+end
+```
+
+```
 2. If I have less than 2 cups of flour, then I can't make the cake.
-3. If the room is over 80 degrees Fahrenheit, then turn on the AC.
+
+if cups_of_flour <= 2
+  puts "You can't make the cake"
+end
+```
+
+```
+3. If the room is 80 degrees Fahrenheit, then turn on the AC.
+
+if room_temp == 80
+  puts "Turn the AC on."
+end
 ```
 
 2. Why might you want to use an if-statement?
