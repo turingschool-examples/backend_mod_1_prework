@@ -1,7 +1,10 @@
 1. Create a file called checker_board.rb
-> 1.1. Open terminal
->>1.1.1. Type `command + space` using your keyboard
->>1.1.2. Type in `terminal` and hit enter
+
+1.1. Open terminal
+
+1.1.1. Type `command + space` using your keyboard
+
+1.1.2. Type in `terminal` and hit enter
 
   1.2. Create the new file
 
@@ -11,7 +14,7 @@
 
   2.1. Open atom
 
-    2.1.1. In your terminal, type `atom .`
+    2.1.1. In your terminal, type atom.
 
     2.1.2. Atom will open and you can edit the file
 
