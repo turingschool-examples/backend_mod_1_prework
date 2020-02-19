@@ -31,7 +31,7 @@ def countdown()
         puts '"No more monkeys jumping on the bed!"'
         puts ''
         monkeys -= 1
-      end
+    end
     if monkeys == 1
       puts '1 little monkey jumping on the bed,'
       puts 'He fell off and bumped his head,'
