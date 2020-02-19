@@ -1,0 +1,43 @@
+<h1> Array Methods Exercise </h1>
+
+To add an element to the end of an array the `shovel operator` is used which is signified by `<<`
+For example:
+
+`pets = ["dog", "turtle", "cat"]`
+
+`pets << "snake"
+=> ["dog", "turtle", "cat", "snake"]`
+
+
+To produce an element at a specific position square brackets are used `[]`
+For example:
+
+`pets = ["dog", "turtle", "cat"]`
+
+`pets[2]
+=> "cat"`
+
+#note the positions of the elements begin at `0`
+
+This can also be written as:
+
+'pets.last
+=> "cat"'
+
+<h2> Frequently Used Array Methods </h2>
+
+`.sort`
+
+This method will return the elements within the array in alphabetacal order if they're strings and ascending value if they're integers.
+
+'each'
+This method allows you to iterate over each array and executes a block for each element.
+
+`collect`
+This method returns the values returned by the block.
+
+`first and last`
+These methods allow you to to return the first or last element in the array.
+
+`shuffle`
+This method returns the element within an array with a shuffled order.
