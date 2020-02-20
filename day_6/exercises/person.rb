@@ -15,12 +15,12 @@ class Person
   end
 
   def array
-    @age / 2.times {|x| puts x + 1}
+    (1..@age/2).each {|x| puts "#{x} shots!"}
   end
 
   def shots
     puts "Time for birthday shots!"
-    puts array
+     array
       "#{@name} feels sick!"
   end
 end
