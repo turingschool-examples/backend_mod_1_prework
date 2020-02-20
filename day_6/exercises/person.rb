@@ -14,9 +14,14 @@ class Person
      "Hello my name is #{@name} and it's my birthday! I am #{@age} years old."
   end
 
+  def array
+    @age / 2.times {|x| puts x + 1}
+  end
+
   def shots
-     "Time for birthday shots!"
-      @age
+    puts "Time for birthday shots!"
+    puts array
+      "#{@name} feels sick!"
   end
 end
 

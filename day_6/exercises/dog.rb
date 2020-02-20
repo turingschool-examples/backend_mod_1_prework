@@ -33,5 +33,5 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
-puts fido.play
+fido.play
 p fido.hungry
