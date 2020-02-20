@@ -14,7 +14,14 @@ class Person
      "Hello my name is #{@name} and it's my birthday! I am #{@age} years old."
   end
 
-  def array
+  def drink
+  p  "Time for birthday shots!"
+    shots
+    "#{@name} feels sick!"
+  end
+end
+
+  def shots
     (1..@age/3).each do |x|
     if x != 1
       puts "#{x} shots!"
@@ -22,15 +29,11 @@ class Person
       puts "#{x} shot!"
   end
 end
+end
 
-  def shots
-    puts "Time for birthday shots!"
-    array
-    "#{@name} feels sick!"
-  end
-end
-end
+
+
 
 palo = Person.new("Palo", 24)
 p palo.greeting
-p palo.shots
+p palo.drink 
