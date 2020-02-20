@@ -5,9 +5,9 @@
 class Person
   attr_accessor :name, :age
 
-  def initialize(n, a)
-    @name = n
-    @age = a
+  def initialize(name, age)
+    @name = name
+    @age = age
   end
 
   def greeting
@@ -15,14 +15,20 @@ class Person
   end
 
   def array
-    (1..@age/2).each {|x| puts "#{x} shots!"}
+    (1..@age/3).each do |x|
+    if x != 1
+      puts "#{x} shots!"
+    else
+      puts "#{x} shot!"
   end
+end
 
   def shots
     puts "Time for birthday shots!"
-     array
-      "#{@name} feels sick!"
+    array
+    "#{@name} feels sick!"
   end
+end
 end
 
 palo = Person.new("Palo", 24)
