@@ -36,11 +36,11 @@
 
         "Aren't they cute?"
       end
-   end`
+  end`
 
 1. How do you create an instance of a class?
 
-  New instances of a class are made via a workflow called _instantiation_.
+    New instances of a class are made via a workflow called _instantiation_.
 
   Instantiation works by putting forth arguments for the instance variables, with
   the `new` method.
@@ -49,5 +49,5 @@
 
 1. What questions do you still have about classes in Ruby?
 
-  I'm still a little fuzzy on the relationship between the `.new` method and the
-  `initialize` method.
+    I'm still a little fuzzy on the relationship between the `.new` method and the
+    `initialize` method.
