@@ -44,8 +44,13 @@
 
 num_quarters = 0
 
+if num_quarters >= 2
+
 puts "I have enough money for a gumball"
+elsif num_quarters <= 1
 puts "I don't have enough money for a gumball"
+
+end
 
 
 #####################
@@ -59,5 +64,13 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+cups_of_flour = 2
 has_sauce = true
+
+if has_sauce == false
+  puts " I cannot make pizza"
+elsif has_sauce == true && cups_of_flour >= 2
+  puts " I can make pizza"
+else
+  puts "I cannot make pizza"
+end
