@@ -17,6 +17,8 @@ class Burrito
   end
 
   def remove_topping(take_off)
+    # when ruby finds the below line as true, since it will find the index of
+    # the topping put in as the argument, it will then run the next line
    if @toppings.index(take_off)
      @toppings.delete(take_off)
    else

@@ -27,8 +27,8 @@ end
       puts "#{x} shots!"
     else
       puts "#{x} shot!"
+    end
   end
-end
 end
 
 
@@ -36,4 +36,4 @@ end
 
 palo = Person.new("Palo", 24)
 p palo.greeting
-p palo.drink 
+p palo.drink
