@@ -19,7 +19,7 @@
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
-  ```class GoodDog
+  `class GoodDog
        attr_accessor :name :breed
 
        def initialize(name, breed)
