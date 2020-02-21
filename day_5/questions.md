@@ -13,20 +13,20 @@ pet_store = {"fish" => 55, "birds" => 24, "dog beds" => 10, "chew toys" => 204}
 ### 3. given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
 To access the value `Iowa`, you would have to call on it's key:
-  - ```ruby
-  states["IA"]
-  ```
+```ruby
+states["IA"]
+```
 
 ### 4. With the same hash above, how would we get all the keys?  All the values?
 
 To get the keys you would use the `keys` method:
-  - ```ruby
-  states.keys
-  ```
+```ruby
+states.keys
+```
 To get the values you would use the `values` method:
-  - ```ruby
-  states.values
-  ```
+```ruby
+states.values
+```
 
 ### 5. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 
