@@ -24,4 +24,4 @@ We use the **gets.chomp** method, which gives back a string.
 
 1. Name and describe two common string methods.
  - **.length**: This method tells the user how many characters are in a string, including the number of spaes.
- b. **.split:** This method literally splits the a sentence into single words whenever there is a space in between the words.
+-  **.split:** This method literally splits the a sentence into single words whenever there is a space in between the words.
