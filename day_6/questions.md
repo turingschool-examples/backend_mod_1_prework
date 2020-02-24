@@ -31,7 +31,7 @@ end
 
 Once the class has been created, you use the following formula (using the variables in the example above):
 
-`kunga = Dog.new`
+`kunga = Dog.new("Kunga", 5, "English Labrador")
 `kunga.name = "Kunga"`
 `kunga.treat_count = 5`
 `kunga.breed = "English Labrador"`
