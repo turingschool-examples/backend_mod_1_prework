@@ -29,12 +29,9 @@ end
 
 1. How do you create an instance of a class?
 
-Once the class has been created, you use the following formula (using the variables in the example above):
+Once the class has been created, you instantiate the instance and assign a variable. Using the example above:
 
-`kunga = Dog.new("Kunga", 5, "English Labrador")
-`kunga.name = "Kunga"`
-`kunga.treat_count = 5`
-`kunga.breed = "English Labrador"`
+`kunga = Dog.new("Kunga", 5, "English Labrador")`
 
 1. What questions do you still have about classes in Ruby?
 
