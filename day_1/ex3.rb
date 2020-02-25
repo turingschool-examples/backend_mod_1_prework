@@ -32,6 +32,14 @@ puts "Roosters #{100 - 25 * 3 % 4}"
         # number by how many numbers exist, then the number after the %
         # should be 3, instead of 4.
         # I still don't have a clue of what the % symbol and 4 does.
+    # From the Common Student Questions
+        # Quote: In programming this calculation is dypically done with
+        # simple division and the / operator.  The % modulus is a
+        # different operation that just happens to use the % symbol
+        # HOW IT WORKS:
+            # X divided by Y with J remaining
+            # 100 divided by 16 with 4 remaining
+            # The result of % is the J part.
 
 # This is our calculations for eggs
 puts "Now I will count the eggs:"
