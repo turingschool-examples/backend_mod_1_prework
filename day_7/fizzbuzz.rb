@@ -22,7 +22,7 @@ end
 puts "How many numbers would you like to FizzBuzz with?"
 max_value = gets.chomp.to_i
 while max_value <= 0
-  puts "No, idiot. A number after 1 or the number 1. Love, Dwight."
+  puts "Value must be greater than 1 or the number 1."
   max_value = gets.chomp.to_i
 end
 (1..max_value).each do |n|
