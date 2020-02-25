@@ -37,4 +37,37 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 # This is putting those two strings together to be printed in a specific way on the terminal
-puts w + e 
+puts w + e
+
+
+# Study Drills
+    #2
+        # There are three occurances of strings within a string in this example
+
+    #3
+        # Line 1 is a variable being defined
+        # So Line 2 is not string within a string, it is a string with a variable interpolated.
+        # Lines 3 and 4 are variables defined into a string but it isn't until line 5 that we get
+            # our first string within a string
+        # Line 7 is simply line 2 repeated.
+        # Line 8 is repeating line 5, which is a string with in a string, so that is our second occurance.
+        # Line 10 places the string under variable x into a string "I said: #{x}." This is our third occurance.
+        # Line 11 places variable y into a string, but this is a second layered process and doesn't qualify as
+            # a string within a string, but as a string within a string within a string.
+        # Line 13 is a variable defined as a boolean and therefore not an occurance.
+        # Line 14 is a variable that has a string, but inside is an interpolated boolean.
+        # Line 16 simply prints line 14 into the terminal.
+        # Line 18 is a variable being defined into a string.
+        # Line 19 is a variable being defined into a string.
+        # Line 21 is printing two string variables next to one another into the terminal but that does not
+            # qualify as an occurance of a string within a string.
+    #4
+        # This makes a longer string because we have added the two variables next to each other.
+    #5
+        # Unless the string holds an apostrophe, changing the double quotations into single quotations will work.
+            # Single quotations trying to hold strings that have apostrophes confuses the computer.
+            # Example 'There's too much going on!' vs. "There's too much going on!"
+            # On the first example, the opening single quote is before the T at the beginning
+            # The computer reads the apostrophe in there's as the ending single quote, when in actuality, the string
+                # continues.  But now the computer is reading the single quote after the ! as an opening single
+                # quote that is incomplete.
