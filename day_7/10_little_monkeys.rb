@@ -1,5 +1,5 @@
 def little_monkeys
-  gets.chomp.to_i.downto(1) do |num|
+ 10.downto(1) do |num|
     if num != 1
     puts "#{int_to_str[num]} little monkeys jumping on the bed,
       One fell off and bumped his head,
@@ -11,7 +11,7 @@ def little_monkeys
       Mama called,the doctor and the doctor said,
       \"Get those monkeys right to bed!\""
     end
-  end
+ end
 end
 def int_to_str
 {1 => 'One',2 => 'Two',3 => 'Three',4 => 'Four',5 => 'Five',6 => 'Six',
@@ -19,5 +19,5 @@ def int_to_str
 12 => 'Twelve',13 => 'Thirteen',14 => 'Fourteen',15 => 'Fifteen',
 16 => 'Sixteen',17 => 'Seventeen',18 => 'Eighteen',19 => 'Nineteen'}
 end
-puts "How many monkeys are there?"
-little_monkeys
+#puts "How many monkeys are there?"
+ little_monkeys
