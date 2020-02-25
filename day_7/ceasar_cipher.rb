@@ -1,3 +1,4 @@
+
 def encode(string, number)
   encoded_string = ""
 
@@ -10,6 +11,9 @@ def encode(string, number)
   puts encoded_string
 end
 
-encode("zagnut", 3)
-encode("PORK chops!", 7)
-encode("this is a test...", 1)
+puts "What would word or phrase would you like to encode? "
+to_encode = gets.chomp
+puts "Pick a number between 1 and 25: "
+shift_number = gets.chomp.to_i
+
+encode(to_encode, shift_number)
