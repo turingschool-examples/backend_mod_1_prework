@@ -6,23 +6,27 @@
 # print that variable to the terminal:
 name = "Harry Potter"
 p name
+my_name = "Eric Larson"
 
 # Write code below to save the string 'Dobby' to a variable and
 # print that variable to the terminal:
 house_elf = "Dobby"
+minion = "Fluffy"
 # YOUR CODE HERE
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
 # YOUR CODE HERE
+p "#{name} must not return to Hogwarts!}"
+p "#{my_name}'s minion #{minion} served as the noble steed for the house elf #{house_elf}"
 
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
 students = 22
 # YOUR CODE HERE
-p students
+p students +2
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
 # YOUR CODE HERE
-p students
+p students -2
