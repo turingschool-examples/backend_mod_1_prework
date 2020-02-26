@@ -4,7 +4,7 @@
 - This is a collection of data
 - typically they are covered in brackets []
 - the data inside the brackets are called elements
-- you can have an array of strings, but can you have strings of arrays?
+- you can have an array of strings, but can you have strings of arrays? [the answer is no.]
 
 ## Iteration
 - Iteration is like printing labels on Microsoft Word.  You want to print all the names, but you have to tell the program where the names are located and then the program has to go to that location, pick up the name, and print that specific information into the space you designated on the label.
@@ -91,16 +91,17 @@ If I had put this information into an array, I could have done this quicker.
 ```
 work_days_per_month = ["23", "20", "22", "22", "21", "22", "23", "21", "22", "22", "21", "23"]
 
-tanf_hours_met = 135
+tanf_hours_met = "135"
 
-2020_work_days_per_month.each do ||
+work_days_per_month.each do |days|
 
-puts
+daily_average = days / tanf_hours_met
+
+puts daily_average
+
+end
 ```
-
-
-
-
+**I moved on because this was a rabbit hole I didn't have time to complete. I can use the .each method, but manipulating it so that this math is done to each of these elements was not configured.**
 
 ### .sort
 This method sorts the elements within an array, kind of like the sort button on excel.
@@ -141,12 +142,15 @@ yoda_phrase.include?"luke"
 ```
 I think this means this method sets up the output as a boolean.
 
-### .each
-
 ### .collect
+**Enumerable mixin** [find definition for this term] 
+It allows you to transform each element of your collection object into something else, ending up with an Array.
 
 ### .first
+This method gives you the element that is in the 0 position.
 
 ### .last
+This method gives you the element that is in the final position.
 
 ### .shuffle
+This method shuffles the elements inside the array.
