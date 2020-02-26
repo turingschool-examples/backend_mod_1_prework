@@ -89,7 +89,7 @@ end
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 5
+cups_of_flour = 1
 has_sauce = true
 
 if cups_of_flour >=2 && has_sauce == true
