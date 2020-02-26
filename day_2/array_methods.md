@@ -38,4 +38,27 @@ yoda_phrase.join(" ")
 This finds the address of a specific element.  Probably super helpful for arrays that are gigabytes.
 
 ### .include?
-This
+This method took some playing with before I could understand it.
+
+You have to input what within the array you are looking for and the output will be true or false.
+For example
+```
+yoda_phrase = ["Don't", "join", "the", "dark", "side"]
+
+yoda_phrase.include?"join"
+=> true
+
+yoda_phrase.include?"luke"
+=> false
+```
+I think this means this method sets up the output as a boolean.
+
+### .each
+
+### .collect
+
+### .first
+
+### .last
+
+### .shuffle
