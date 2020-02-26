@@ -24,4 +24,4 @@ We get input from a user by using the `print` command to ask the user for input,
 
 1. Name and describe two common string methods.  
 * One common string method is the `string.length` method, which returns the character length of the string.
-* Another common string method is the `string.split` method, which splits the string into an array anywhere there are spaces. The `.split` method can also be used with an argument to split the string where there is a specific character, for example `string.split(t)` would split the string anywhere there is the letter "t".
+* Another common string method is the `string.split` method, which splits the string into an array anywhere there are spaces. The `.split` method can also be used with an argument to split the string where there is a specific character, for example `string.split("t")` would split the string anywhere there is the letter "t".
