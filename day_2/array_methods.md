@@ -87,6 +87,7 @@ puts "In December I have to work #{dec_av_hr_pr_day} hours per day to meet my ho
 This was time consuming and ineffective.
 
 If I had put this information into an array, I could have done this quicker.
+[still working on making this work]
 ```
 work_days_per_month = ["23", "20", "22", "22", "21", "22", "23", "21", "22", "22", "21", "23"]
 
