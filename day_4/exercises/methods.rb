@@ -4,14 +4,14 @@
 
 # example: Write a method below that, when called will print your name
 def print_name
-  p "Severus Snape"
+  p "Madeleine Halle"
 end
 
 print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p [0,8]
 end
 
 print_name("Albus Dumbledore")
