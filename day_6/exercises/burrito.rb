@@ -5,12 +5,14 @@
 # 3. change_protein
 
 class Burrito
+  
   attr_reader :protein, :base, :toppings
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
     @toppings = toppings
   end
+
   def add_topping
     puts "You are having a burrito with #{toppings.last}."
   end
@@ -20,7 +22,7 @@ class Burrito
   end
 
   def change_protein
-    @protein1 = steak
+    @protein1 = "Steak"
     puts "Would you like to change your protein from #{protein} to #{@protein1}?"
   end
 end
