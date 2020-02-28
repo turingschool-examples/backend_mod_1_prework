@@ -1,6 +1,8 @@
 ## Day 5 Questions
 
 1. In your own words, what is a Class?
+Attributes and behaviors of objects are defined in Ruby as a class.
+
 
 1. In relation to a Class, what is an attribute?
 
