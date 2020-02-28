@@ -8,18 +8,41 @@ p foods
 
 # Write code below that will print a hash of animals and their number
 # at the zoo. (an inventory of animals)
-zoo = #YOUR CODE HERE
+zoo ={"koalas"=>2, "elephants"=>6, "lions"=>5}
 p zoo
 
 # Using the zoo that you created above, print all the keys in the hash.
-# YOUR CODE HERE
+
+zoo = {
+  "koalas"=>2,
+  "elephants"=>6,
+  "lions"=>5
+}
+{"koalas"=>2, "elephants"=>6, "lions"=>5}
+
+>> print "$_\n" for keys %hash;
 
 # Using the zoo that you created above, print all the values in the hash.
-# YOUR CODE here
 
-# Using the zoo taht you created above, print the value of the first item in
+zoo["koalas"]
+=> 2
+zoo["elephants"]
+=> 6
+zoo["lions"]
+=> 5
+
+print "There are #{zoo["koalas"]} koalas, #{zoo["elephants"]} elephants, and #{zoo["lions"]} lions at the Brookfield Zoo."
+=> There are 2 koalas, 6 elephants, and 5 lions at the Brookfield Zoo.
+=> nil
+
+# Using the zoo that you created above, print the value of the first item in
 # the hash
-# YOUR CODE HERE
+zoo["koalas"]
+=> 2
 
 # Add an animal to the zoo hash and print the updated hash.
-# YOUR CODE HERE
+
+zoo["giraffes"] = 3
+=> "3 "
+zoo
+=> {"koalas"=>2, "elephants"=>6, "lions"=>5, "giraffes"=>3}
