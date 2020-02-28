@@ -14,7 +14,7 @@ def print_name(name)
   p "Arique Aguilar"
 end
 
-print_name("Albus Dumbledore")
+print_name("name")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
