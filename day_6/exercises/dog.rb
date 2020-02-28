@@ -28,3 +28,15 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+
+def call
+  p "bark"
+end
+
+def eat
+  @hungry = true
+end
+
+fido = Dog.new("Bernese", "Fido", 4)
+p fido.call
+p fido.hungry
