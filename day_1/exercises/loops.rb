@@ -6,12 +6,17 @@
 5.times do
   p "Hermione Granger"
 end
+name = "Tyler Porter"
+5.times do
+  puts name
+end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
 7.times do
-  # YOUR CODE HERE
+  puts 2 + 7
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
-# YOUR CODE HERE
+phrase = "She sells seashells down by the seashore"
+10.times{ puts phrase}
