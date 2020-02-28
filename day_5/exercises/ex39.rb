@@ -85,3 +85,17 @@ puts "I live in #{places_been['Live']}"
 puts "I was raised in #{cities['Illinois']}"
 puts "I went to school in #{places_been['Studied']}"
 puts "It all started in #{cities['Puerto Rico']}, #{places_been['Born']}"
+
+
+#puts '*' * 10
+#states.each do |state, abbrev|
+#  puts "#{state} is abbrevaited #{abbrev}"
+#end
+puts "~-*'*-~" * 8
+places_been.each do |my_act, my_place|
+puts "In #{my_place} I was #{my_act}"
+end
+
+cities.each do |my_place, my_city|
+  puts "In #{my_place} in the city of #{my_city}"
+end
