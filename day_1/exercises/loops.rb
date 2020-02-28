@@ -8,10 +8,13 @@
 end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
+int = 2 + 7
 7.times do
-  # YOUR CODE HERE
+  p int
 end
 
 # Write code below that prints the phrase 'She sells seashells down by the seashore'
 # 10 times.
-# YOUR CODE HERE
+10.times do
+  p 'She sells seashells down by the seashore'
+end
