@@ -1,12 +1,11 @@
 def add(a, b)
   puts "ADDING #{a} + #{b}"
-# return is acting a lot like print and
+# return is making this method available to other parts of the code
   return a + b
 end
 
 def subtract(a, b)
   puts "SUBTRACTING #{a} - #{b}"
-# return is making this method available to other parts of the code
   return a - b
 end
 
