@@ -29,7 +29,6 @@ addition(2 + 8)
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
-
 def dating(man, woman)
   puts "When #{man} met #{woman}"
 end
