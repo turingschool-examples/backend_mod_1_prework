@@ -1,6 +1,6 @@
-### Top Down Design
+# Top Down Design
 
-High level notes for the Caesar Cipher.
+## High level notes for the Caesar Cipher.
 
 This program takes a string input and encodes it with a simple shift cipher.
 
@@ -42,3 +42,51 @@ My "pseudo-algorithm" to use with above pseudocode:
     3. the encode method uses the user integer to modify the alphabet attribute
     4. the encode method uses the modified alphabet to modify the user string
     5. the returned result is an "encoded" string
+
+---
+
+## High level notes for a checkerboard.
+
+This program takes an integer input and generates a checkerboard composed of alternating "X" and " " (space) characters.
+
+The example output for a user input of 6:
+
+```
+X X X  
+ X X X  
+X X X  
+ X X X  
+X X X  
+ X X X
+ ```
+
+I re-visualized the above checkerboard as a series of arrays:
+
+```
+["X", " ", "X", " ", "X", " "]
+[" ", "X", " ", "X", " ", "X"]
+["X", " ", "X", " ", "X", " "]
+[" ", "X", " ", "X", " ", "X"]
+["X", " ", "X", " ", "X", " "]
+[" ", "X", " ", "X", " ", "X"]
+```
+
+There is a better pattern to envision when every other array is reversed:
+
+```
+["X", " ", "X", " ", "X", " "]
+["X", " ", "X", " ", "X", " "]
+["X", " ", "X", " ", "X", " "]
+["X", " ", "X", " ", "X", " "]
+["X", " ", "X", " ", "X", " "]
+["X", " ", "X", " ", "X", " "]
+```
+
+My "pseudo-algorithm":
+
+    - take user input as an integer
+    - generate an amount arrays equal to the integer input
+    - each array has a number of elements equal to the  integer input
+    - every other array is reversed
+    - every array is converted into a string
+    - each string is printed on a new line
