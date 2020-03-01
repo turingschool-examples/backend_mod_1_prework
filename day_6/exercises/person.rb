@@ -3,3 +3,28 @@
 # terminal.
 
 #YOUR CODE HERE
+class Person
+  attr_accessor :name, :hair
+  attr_reader :height
+
+  def initialize (name, height, hair)
+    @name = name
+    @height = height
+    @hair = hair
+  end
+
+  def dye_hair(hair)
+    self.hair = hair
+    puts "Hair color is now: #{@hair}"
+  end
+
+  def introduce
+    puts "Hi, I'm #{@name}"
+  end
+end
+
+kyle = Person.new("Kyle", "6 ft", "brown")
+kyle.introduce
+puts kyle.hair
+kyle.dye_hair("purple")
+puts kyle.height
