@@ -14,3 +14,7 @@ cipher = CeasarCipher.new
 cipher.encode("Hello World", 5)
 => "CZGGJ RJMGY"
 ```
+
+MY NOTES
+
+This has to do with making an array and the input shifting the position in the array but delivering everything that exists in the array.
