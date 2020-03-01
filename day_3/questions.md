@@ -1,7 +1,7 @@
 ## Day 3 Questions
 
 1. What is a conditional statement? Give three examples.
-a conditional statement gives a true or false result based on the given operator (such as '==', '>', '<=')
+\n **a conditional statement gives a true or false result based on the given operator (such as '==', '>', '<=')**
 
 1. Why might you want to use an if-statement?
 if-statements are useful for creating multiple branches of code path possibilities
