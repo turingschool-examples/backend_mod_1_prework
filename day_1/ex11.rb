@@ -25,3 +25,4 @@ c = gets.chomp
 
 puts "Hi #{a}! here are some pictures of a #{b} #{c}"
 # obviously there are not any pictures of a car. It's the thought that counts right? =)
+ 

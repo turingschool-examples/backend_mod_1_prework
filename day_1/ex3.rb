@@ -26,3 +26,4 @@ puts "Is it greater? #{5.0 > -2.0}"
 puts "Is it greater or equal? #{5.0 >= -2.0}"
 # Types out "Is it less or equal?" then give a boolean return value
 puts "Is it less or equal? #{5.0 <= -2.0}"
+  

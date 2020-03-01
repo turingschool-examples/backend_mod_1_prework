@@ -27,7 +27,7 @@ w = "This is the left side of..."
 e = "a string with a right side."
 # adds w and e together to get "This is the left side of...a string with a right side."
 puts w + e
-
+ 
 ## Are you sure there are only four places? How do you know? Maybe I like lying.
 # I am pretty sure there are 4. here are the ones i see:
 # * “Those who know #{binary} …”

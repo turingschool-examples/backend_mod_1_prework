@@ -27,7 +27,7 @@ puts "we can transport #{carpool_capacity} people today."
 puts "we have #{passengers} passengers to carpool today."
 # Types out "we need to put about 3 passengers in each car."
 puts "we need to put about #{average_passengers_per_car} passengers in each car."
-
+ 
 
 # The error in his code would have been in line 7. He never assigned the variable to carpool_capacity.
 

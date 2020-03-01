@@ -35,3 +35,4 @@ name = gets.chomp
 1. Name and describe two common string methods.
 * Length. using .length would tell you how many characters are in a string. Including spaces and other special characters.
 * Upcase. Using .upcase Would take all letters and make them all uppercase.
+ 
