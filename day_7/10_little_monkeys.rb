@@ -1,38 +1,119 @@
-# First print the rhyme as it should look like.
+number =  {
+  10 => 'Ten',
+  9 => 'Nine',
+  8 => 'Eight',
+  7 => 'Seven',
+  6 => 'Six',
+  5 => 'Five',
+  4 => 'Four',
+  3 => 'Three',
+  2 => 'Two',
+  1 => 'One',
+}
 
-class LittleMonkeys
-attr_reader :rhyme, :time, :count_down
+number.each do |digit, spelled_out|
 
-  def rhyme
-    rhyme_one = "#{count_down} little monkeys jumping on the bed,"
-
-    rhyme_two = "One fell off and bumped his head,"
-
-    rhyme_three = "Mama called the doctor and the docter said,"
-
-    rhyme_four = "No more monkeys jumping on the bed!"
-
-    p rhyme_one
-    p rhyme_two
-    p rhyme_three
-    p rhyme_four
+  if digit == 1
+    puts "#{spelled_out} little monkey jumping on the bed"
+    puts 'He fell off and bumped his head'
+  else
+    puts "#{spelled_out} little monkeys jumping on the bed"
+    puts 'One fell off and bumped his head'
   end
 
-  def time
-    # This method allows for the rhyme above to be multiplied to repeat.
-    rhyme*"#{user_input}"
-  end
+  puts 'Mama called the doctor and the doctor said'
 
-  def count_down
-    # This method allows the number at the beginning of the rhyme to count down.
+
+  if digit == 1
+    puts "Get those monkeys right to bed!"
+    puts ""
+  else
+    puts "No more monkeys jumping on the bed!"
+    puts ""
   end
 end
+# I can't get the quotes for the last phrase to work, but the space is awesome!
 
 
 
 
-#count_down is for the number to come down
-#doctor is to gain double quotes feature
 
-#Second develop a mechanism that allows this to be printed multple times
-#bonus if you can add a user input method that inputs to this feature
+
+
+
+
+
+
+
+
+
+
+# number = ["Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two", "One"]
+#
+# p "#{number[0]...} little monkeys jumping on the bed"
+# p "One feel off and bumped his head"
+# p "Mama called the doctor and the doctor said,"
+# p "No more monkeys jumping on the bed!"
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# # # First print the rhyme as it should look like.
+# #
+# # class LittleMonkeys
+# # attr_reader :rhyme, :count_down
+# #
+# #   def count_down(count)
+# #
+# #     x = gets.chomp.to_i
+# #
+# #     while x >= 0
+# #       puts x
+# #       x = x - 1
+# #     end
+# #
+# #     puts "Done!"
+# #
+# #   end
+# #
+# # end
+# #
+# # sing = LittleMonkeys.new
+# # sing.count_down(1)
+# # p sing
+# # p sing.count_down(2)
+# # p sing
+# # p sing.count_down(3)
+# # p sing
+# #
+# # def rhyme
+# #   rhyme_one = "#{count_down} jumping on the bed,"
+# #
+# #   rhyme_two = "One fell off and bumped his head,"
+# #
+# #   rhyme_three = "Mama called the doctor and the docter said,"
+# #
+# #   rhyme_four = "No more monkeys jumping on the bed!"
+# #
+# #   p rhyme_one
+# #   p rhyme_two
+# #   p rhyme_three
+# #   p rhyme_four
+# # end

@@ -3,3 +3,47 @@
 # For any number that is a multiple of 3, print Fizz
 # For any number that is a multiple of 5, print Buzz
 # For any number that is a multiple of both 3 and 5, p FizzBuzz
+
+def fizzbuzz(num)
+  num.each do |x|
+    if x%3 == 0 && x%5 == 0
+      p "FizzBuzz"
+    elsif x%3 == 0
+      p "Fizz"
+    elsif x%5 == 0
+      p "Buzz"
+    else
+      p x
+    end
+  end
+end
+game = (1..100)
+p fizzbuzz(game)
+#Needs to go in one line.
+#Needs to have quotes taken off words.
+#Needs to have 1..100 removed from the end.
+
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# game = Array(1..100)
+#
+# game.each do
+#   if % 3 == 0 &&
+#     puts "Fizz"
+#   elsif game == % 5
+#     puts "Buzz"
+#   else game == % 15
+#     puts "FizzBuzz"
+#   end
+# end
+# p game
