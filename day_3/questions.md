@@ -34,4 +34,4 @@ end``
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-**we can use a while statement to make changes to some code while something is either true or false
+**we can use a while statement to make changes to some code while something is either true or false**
