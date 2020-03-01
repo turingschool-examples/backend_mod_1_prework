@@ -9,7 +9,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'sunny'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -36,6 +36,18 @@
 # a conditional statement that only prints one or the
 # other.
 
+num_quarters = 0
+
+if num_quarters == 0
+  p "I don't have enough money for a gumball"
+elsif num_quarters == 1
+  p "I dont have enough money for a gumball"
+elsif num_quarters == 2
+  p "I have enough money for a gumball"
+elsif num_quarters == 3
+  p "I have enough money for a gumball"
+end
+
 # You should be able to change num_quarters and achieve these outputs:
 # When num_quarters = 0, program should print "I don't have enough money for a gumball"
 # When num_quarters = 1, program should print "I don't have enough money for a gumball"
@@ -52,6 +64,19 @@ puts "I don't have enough money for a gumball"
 # Using the variables defined below, determine if you have the
 # ingredients to make a pizza. A pizza requires at least two cups
 # of flour and sauce.
+
+cups_of_flour = 1
+has_sauce = true
+
+if cups_of_flour == 1 && has_sauce == true
+  p "I cannont make pizza"
+elsif cups_of_flour == 1 && has_sauce == false
+  p "I cannont make pizza"
+elsif cups_of_flour == 2 && has_sauce == true
+  p "I can make pizz"
+elsif cups_of_flour == 3 && has_sauce == true
+  p "I can make pizza"
+end
 
 # You should be able to change the variables to achieve the following outputs:
 # When cups_of_flour = 1 and has_sauce = true, your program should print "I cannot make pizza"

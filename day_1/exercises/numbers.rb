@@ -4,12 +4,13 @@
 
 # example print the result of the sum of 2 and 2 to the terminal:
 p 2 + 2
+p 2 + 2
 
 # print the result of the difference of 7 less than 83 to the terminal:
-p #YOUR CODE HERE
+p 83 - 7
 
 # print the result of 6 multiplied by 53 to the terminal:
-# YOUR CODE HERE
+p 6 * 52
 
 # print the result of the modulo of 10 into 54:
-# YOUR CODE HERE
+p 10 % 54
