@@ -19,12 +19,10 @@ p "harry Potter must not return to Hogwarts!"
 
 # example: Write code below to add 2 to the variable `students` and
 # print the result:
-students = 22
-p students + 2
+students = 22 + 2
 p students
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:
-students = 22
-students - 2
+students = 22 - 2
 p students
