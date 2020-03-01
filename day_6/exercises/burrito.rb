@@ -13,7 +13,27 @@ class Burrito
   end
 end
 
+def add_topping(topping)
+  p "Can you add #{topping} to my burrito?"
+end
+
+def remove_topping(topping)
+  p "I can do wothout the #{topping}"
+end
+
+def change_protein(pro1, pro2)
+  p "I want #{pro2} instead of #{pro1}."
+end
+
+
+
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
+
+add_topping("onions")
+
+remove_topping("salsa")
+
+change_protein("Beans", "Chicken")
