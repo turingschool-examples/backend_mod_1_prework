@@ -4,7 +4,7 @@
 
 #example: Write code that prints your name 5 times:
 5.times do
-  p "Hermione Granger"
+  p "Derek Borski"
 end
 
 # Write code below that prints the sum of 2 plus 2 7 times:
