@@ -38,7 +38,7 @@ end
 puts "Study Drills"
 "1. The if creates a conditional statement for your code."
 "2. The indent indicates that it is strictly conditional under
-the if statement"
-"3. Nothing except your code is unorganized and not easy to navigate"
+the if statement and creates a block of code"
+"3. you will not have a block of code and it will be like a soup sandwich"
 "4. Yes, it simply changes the if statment accordingly"
 "5. The path of the code is altered based on the values"

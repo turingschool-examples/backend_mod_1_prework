@@ -23,9 +23,8 @@ def add(a, b)
     return a + b
 end
 
-sum = add(2, 10)
+add(2, 10)
 
-puts "Sum: #{sum}"
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
