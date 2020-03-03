@@ -26,7 +26,7 @@ elsif trucks < cars
 #lastly if neither of the above are true, put string below
 else
   puts "We still can't decide."
-#This is ending the code block for the statement  
+#This is ending the code block for the statement
 end
 
 #This is creating a condition between people and trucks
@@ -38,3 +38,6 @@ else
   puts "Fine, let's stay home then."
 #This is ending the code block for the if statement.
 end
+
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills
