@@ -2,11 +2,11 @@
 
 ### 1. What is a conditional statement? Give three examples.  
   A conditional statement is a comparison that returns true or false  
-   ```ruby 
+  ```ruby 
     5 > 3  
     5 <= 3  
-    5 != 3  
-    ``` 
+    5 != 3
+  ```
 
 ### 1. Why might you want to use an if-statement?  
   To allow the flow of logic through the program
