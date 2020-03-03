@@ -35,4 +35,4 @@
   - .length & .gsub
 
     - .length outputs the length of the string
-    - .gsub lets you replace parts of a string 
+    - .gsub lets you replace parts of a string
