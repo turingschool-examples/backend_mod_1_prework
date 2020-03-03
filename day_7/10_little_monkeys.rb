@@ -1,3 +1,5 @@
+# 10_little_monkeys program written by @dborski
+
 monkey = "Ten little monkeys jumping on the bed,
 One fell off and bumped his head,
 Mama called the doctor and the doctor said,
