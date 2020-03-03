@@ -11,11 +11,11 @@ class Person
   end
   def grow(inches)
     @height += inches
-    puts " #{Person} has grown #{inches}"
+    puts " #{first_name} has grown #{inches}"
   end
   def married(last_name)
     @last_name = last_name
-    puts "#{Person} was married and changed their last name to #{last_name}"
+    puts "#{first_name} was married and changed their last name to #{last_name}"
   end
   def gain_weight(weight)
     @weight += weight

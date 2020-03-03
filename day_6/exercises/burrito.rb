@@ -34,13 +34,13 @@ class Burrito
 
 end
 
-dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+dinner = Burrito.new("Beans", "Rice", ["Cheese", "Salsa", "Guacamole"])
 puts dinner.protein
 puts dinner.base
 puts dinner.toppings
-dinner.remove_topping(["cheese","salsa"])
+dinner.remove_topping(["Cheese","Salsa"])
 puts dinner.current_burrito
 dinner.change_protein("Chicken")
 puts dinner.current_burrito
-dinner.add_topping(['cheese','salsa'])
+dinner.add_topping(["Cheese","Salsa"])
 puts dinner.current_burrito
