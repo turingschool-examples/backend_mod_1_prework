@@ -17,16 +17,23 @@
 1. Name and describe two additional array methods.
 
 `.count` - Returns the total number of elements
+
 `.join` - Combines different object in an array
 
 1. What are the boolean values in Ruby?
 
 `&&` - and
+
 `||` - or
+
 `!` - not
+
 `!=` - not equal
+
 `==` - equal
+
 `>=` - greater-than-equal
+
 `<=` - less-than-equal
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
@@ -35,4 +42,4 @@
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
-`25 > 2` True 
+`25 > 2` True
