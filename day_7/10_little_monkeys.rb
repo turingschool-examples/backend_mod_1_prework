@@ -23,16 +23,17 @@ number.each do |digit, spelled_out|
 
   puts 'Mama called the doctor and the doctor said'
 
-
   if digit == 1
-    puts "Get those monkeys right to bed!"
-    puts ""
+    doctor_phrase_one = "Get those monkeys right to bed!"
+    p "#{doctor_phrase_one}"
+    puts " "
+
   else
-    puts "No more monkeys jumping on the bed!"
-    puts ""
+    doctor_phrase_multiple = "No more monkeys jumping on the bed!"
+    p "#{doctor_phrase_multiple}"
+    puts " "
   end
 end
-# I can't get the quotes for the last phrase to work, but the space is awesome!
 
 
 
