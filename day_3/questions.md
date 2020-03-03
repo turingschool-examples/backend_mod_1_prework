@@ -23,7 +23,7 @@ end`
   puts "code here"
 elsif condition = true
   puts "code here"
-else condition = true
+else
   puts "code here"
 end`
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
