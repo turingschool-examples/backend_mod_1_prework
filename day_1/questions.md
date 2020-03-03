@@ -16,5 +16,5 @@
 ### 1. How do we get input from a user? What is the method that we would use?  
    We use the 'get' method
 ### 1. Name and describe two common string methods.  
-   .length -> .length calculates the number of characters in a string. 
+   .length -> .length calculates the number of characters in a string.  
    .split -> .split breaks a string into an array of strings with cuts based on spaces
