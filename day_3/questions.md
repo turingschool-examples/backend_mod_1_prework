@@ -3,8 +3,8 @@
 ### 1. What is a conditional statement? Give three examples.  
   A conditional statement is a comparison that returns true or false  
     ```ruby 
-    5 > 3
-    5 <= 3
+    5 > 3  
+    5 <= 3  
     5 != 3 
     ``` 
 
