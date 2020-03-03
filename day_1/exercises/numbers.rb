@@ -6,7 +6,11 @@
 puts 2 + 2
 
 # print the result of the difference of 7 less than 83 to the terminal:
+<<<<<<< HEAD
 puts 7 - 83
+=======
+puts 7 - 83 
+>>>>>>> origin/master
 
 # print the result of 6 multiplied by 53 to the terminal:
 # YOUR CODE HERE
