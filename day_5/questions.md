@@ -4,7 +4,7 @@
 
 A hash is much like an array in that it is used to store data that can be referenced later. The big difference compared to an array is that while an array is stored and callable by a numerical index number, a hash value is stored and callable in what is called a key/value pair.
 
-For example, the string `"Yellow Submarine"` could be accessed by `songs[1]` in an array, but accessed by `songs[song_2]` in a hash.
+For example, the string `"Yellow Submarine"` could be accessed by `songs[1]` in an array, but accessed by `songs["song_2"]` in a hash.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
