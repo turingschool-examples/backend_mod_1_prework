@@ -6,26 +6,32 @@
 
 class Burrito
   attr_reader :protein, :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
     @toppings = toppings
   end
+
   def add_topping(toppings)
     @toppings += toppings
-    puts "You added #{toppings}"
+    puts "You added #{toppings.join(', ')}"
   end
+
   def remove_topping(toppings)
     @toppings -= toppings
-    puts "You removed #{toppings}"
+    puts "You removed #{toppings.join(', ')}"
   end
+
   def change_protein(protein)
   @protein = protein
   puts "You changed your protein choice to #{protein}"
   end
+
   def current_burrito
-    puts "Your burrito contains #{@protein}, #{@toppings}, #{@base}"
+    puts "Your burrito contains #{@protein}, #{@toppings.join(', ')}, #{@base}"
   end
+
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])

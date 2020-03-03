@@ -16,4 +16,9 @@
 1. How do we get input from a user? What is the method that we would use?
 * `gets`
 1. Name and describe two common string methods.
-* 
+*  One of the string methods is the split method. It splits the string where specified
+and the syntax for the split method is `"Here's the string".split(" ")` which would
+have an output of `["Here's", "the", "string"]`
+* The other method is downcase which takes a string and converts the string into all
+lower cases. The syntax for the downcase method is `"rOsTam".downcase` and the output
+is "rostam"
