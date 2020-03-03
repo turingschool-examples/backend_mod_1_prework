@@ -13,7 +13,24 @@ class Burrito
   end
 end
 
+def add_topping
+  p "Add pepperoni"
+end
+
+def remove_topping
+  p "I don't like Olives"
+end
+
+def change_protein
+  p "Chicken is better than sausage"
+end
+
+
+
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
+p change_protein
+p remove_topping
+p add_topping
