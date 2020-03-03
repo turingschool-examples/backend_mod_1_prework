@@ -77,3 +77,7 @@ puts "Is it greater or equal? #{5 >= -2}"
 
 # Boolean, and the answer should be false.
 puts "Is it less or equal? #{5 <= -2}"
+
+
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills

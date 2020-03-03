@@ -1,7 +1,7 @@
 # This is defining a variable
 types_of_people = 10
 
-# This is defining a varibale with a string data and an interpolation
+# This is defining a variable with a string data and an interpolation
 x = "There are #{types_of_people} types of people."
 
 # This is defining a variable called binary as a string with the word binary in it
@@ -11,7 +11,7 @@ binary = "binary"
 do_not = "don't"
 
 # This is defining the variable called y as a string with two interpolation from previously defined variables
-y = "those who know #{binary} and those who #{do_not}."
+y = "those who know #{binary} and those who #{do_not}." #[sic]
 
 # This is making sure that variable x is printed onto the terminal
 puts x
@@ -40,7 +40,8 @@ e = "a string with a right side."
 puts w + e
 
 
-# Study Drills
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills
     #2
         # There are three occurances of strings within a string in this example
 

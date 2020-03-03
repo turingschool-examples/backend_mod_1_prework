@@ -1,12 +1,14 @@
-#print "How old are you? "
-#age = gets.chomp
-#print "How tall are you? "
-#height = gets.chomp
-#print "How much do you weigh? "
-#weight = gets.chomp
+print "How old are you? "
+age = gets.chomp
+print "How tall are you? "
+height = gets.chomp
+print "How much do you weigh? "
+weight = gets.chomp
 
-#puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
+puts "So, you're #{age} years old, #{height} tall and #{weight} lbs due to earth's gravitational pull."
 
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills
 
 # Study Drills
     #1
