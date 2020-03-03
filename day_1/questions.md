@@ -1,6 +1,6 @@
 ## Day 1 Questions
 
-1. How would you print the string `"Hello World!"` to the terminal?  
+### 1. How would you print the string `"Hello World!"` to the terminal?  
       `p "Hello World!"`
 1. What is the character you would use to indicate comments in a ruby file?  
       Hash #
