@@ -16,7 +16,7 @@
   elsif weather == 'rainy'
     p "umbrella"
   elsif weather == 'snowy'
-    p "coat"
+    p "jacket"
   elsif weather == 'icy'
     p "yak traks"
   else
@@ -44,8 +44,11 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+elsif num_quarters <= 1
+  puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -59,5 +62,11 @@ puts "I don't have enough money for a gumball"
 # When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
 # When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
 
-cups_of_flour = 1
+cups_of_flour = 2
 has_sauce = true
+
+if cups_of_flour >=2 && has_sauce = true
+  p "I can make pizza"
+else cups_of_flour >=1 || has_sauce = false
+  p "I cannot make pizza"
+end
