@@ -3,7 +3,7 @@
 # file from your terminal with the command `ruby day_1/exercises/variables.rb`
 
 # example: Write code below to save your name to a variable and
-# print that variable to the terminal:
+# print that variable to the terminal
 name = "Rostam Mahabadi"
 puts name
 
