@@ -24,4 +24,4 @@ We can use a hash to record personal info i.e. height, weight, age. A hash is mo
 
 ### 1. What questions do you still have about hashes?  
 
-Can I make an array of hashes?cs
+Can I make an array of hashes?
