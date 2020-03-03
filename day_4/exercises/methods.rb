@@ -4,7 +4,7 @@
 
 # example: Write a method below that, when called will print your name
 def print_name
-  puts "Severus Snape"
+  puts "Rostam Mahabadi"
 end
 
 print_name
@@ -14,12 +14,11 @@ def print_name(name)
   puts name
 end
 
-print_name("Albus Dumbledore")
+print_name("Rostam Mahabadi")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
 def sum (x,y)
-  #optionsal eturn x + y
   new_sum = x + y
   puts "The sum of the two numbers is #{new_sum}"
 end
@@ -28,9 +27,7 @@ x = gets.chomp.to_i
 puts "Please enter second number: "
 y = gets.chomp.to_i
 sum(x,y)
-# optional answer = sum(x,y)
-#optional puts "The sum of the two numbers is #{answer}"
-# optional puts "The sum of the two numbers is " + sum(x,y).to_s
+# optional answer sum(2,3)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
