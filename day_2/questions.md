@@ -1,4 +1,8 @@
 ## Day 2 Questions
+```
+Please enter exercise file and open arrays.rb for my work. - Arique
+```
+
 
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
