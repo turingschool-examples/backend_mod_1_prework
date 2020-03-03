@@ -37,3 +37,6 @@ cheese_and_crackers(10 + 20, 5 + 6)
 puts "And we can combine the two, variables and math:"
 # This is the method cheese_and_crackers with addition being added to the variables defined  in line 24 & 26
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills

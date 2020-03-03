@@ -2,7 +2,7 @@
 
 1. In your own words, what is the purpose of a method?
 
-Methods is a type of calculation or measurement performed on a class.
+Methods is a type of calculation or measurement performed on a class attribute.
 
 1. In the space below, create a method named `hello` that will print `"Sam I am"`.
 
