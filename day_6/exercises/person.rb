@@ -21,7 +21,8 @@ mom = Person.new
 p mom.introduction("Arique")
 p mom.express("scared")
 
-
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills
 
 ########THIS ROUND FAILED, TRY AGAIN!
 #class Person

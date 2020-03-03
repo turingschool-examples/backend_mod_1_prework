@@ -55,7 +55,8 @@ puts ''
 puts "---HumanBeing ancestors---"
 puts HumanBeing.ancestors
 
-
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills
 
 
 
