@@ -6,7 +6,7 @@
 puts 2 + 2
 
 # print the result of the difference of 7 less than 83 to the terminal:
-puts 7 - 83 #YOUR CODE HERE
+puts 7 - 83 
 
 # print the result of 6 multiplied by 53 to the terminal:
 # YOUR CODE HERE

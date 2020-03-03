@@ -20,4 +20,4 @@ puts "The #{speedy} jumped over the #{slow_poke}"
 slow_poke = "tortoise"
 speedy = "hare"
 
-puts "In a predictable result, the #{slow_poke} beat the #{speedy}"
+puts "In a predictable result, the #{slow_poke} beat the #{speedy}!"
