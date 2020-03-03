@@ -7,18 +7,18 @@
 def fizzbuzz(num)
   num.each do |x|
     if x%3 == 0 && x%5 == 0
-      p "FizzBuzz"
+      print "FizzBuzz "
     elsif x%3 == 0
-      p "Fizz"
+      print "Fizz "
     elsif x%5 == 0
-      p "Buzz"
+      print "Buzz "
     else
-      p x
+      print "#{x} "
     end
   end
 end
 game = (1..100)
-p fizzbuzz(game)
+fizzbuzz(game)
 #Needs to go in one line.
 #Needs to have quotes taken off words.
 #Needs to have 1..100 removed from the end.
