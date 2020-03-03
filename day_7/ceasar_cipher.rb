@@ -2,7 +2,7 @@ puts "How many shifts?"
 shift = gets.chomp.to_i
 
 puts "What word would you like to encrypt?"
-string = gets.chomp
+string = gets.chomp.downcase
 
 
 def caesar_cipher(string, shift)
