@@ -11,7 +11,7 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  puts "#{name}"
 end
 
 print_name("Albus Dumbledore")
@@ -19,7 +19,22 @@ print_name("Albus Dumbledore")
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
 # YOUR CODE HERE
+def add(a, b)
+  puts a + b
+end
 
+add(3, 7)
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+def highlight_generator(player_name, team_name)
+  puts "#{player_name} scored on the #{team_name}."
+end
+
+puts "Please enter the last name of a hockey player > "
+player_name = gets.chomp
+
+puts "Please enter the name of a hockey team > "
+team_name = gets.chomp
+
+highlight_generator(player_name, team_name)
