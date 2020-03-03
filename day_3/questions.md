@@ -5,7 +5,9 @@
 Conditional statements evaluate to true or false. Here are a few examples:
 
 `2 == 2 || 6 < 2`
+
 `7 < 10 && "hello == "hello"`
+
 `money < 2`
 
 1. Why might you want to use an if-statement?
@@ -35,3 +37,5 @@ end
 ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+
+We could use an `unless` statement to check if something is false. Perhaps we could also use an if-statement in our mini-test program to create tests for our code. 
