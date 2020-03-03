@@ -1,4 +1,4 @@
-# FizzBuzz Program
+# fizzbuzz program written by @dborski 
 
 numbers = (1..100).to_a
 
