@@ -26,7 +26,9 @@ states.values
 states.keys
 
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
-When information needs to be related to one another, for the purposes of keeping an updated inventory, hashes are better than arrays.  In arrays, items are very fixed and proper.  In hashes, you can update certain pieces of related elements which makes their relationships more dynamic than is possible in an array.
+I would pair a mom's name with her child's name and a cellphone number.
+
+In this example, a hash is better then an array because all of this information is useless unless it is paired accordingly.
 
 
 
