@@ -35,3 +35,7 @@ numbers = ["29", "28", "25", "18"]
 numbers.each do |number|
 p number * 2
 end
+
+
+study_drills = "***************************************************************** CAT FILE TO SEE STUDY DRILLS!"
+puts study_drills
