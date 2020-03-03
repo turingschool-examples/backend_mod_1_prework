@@ -28,7 +28,15 @@ end
 # Create an array of numbers and then iterate over that array to print doubles
 # of each of the number.
 
-array = [1, 2, 3, 4, 5]
-array.each do |doubles|
-  puts "#{doubles} #{doubles}"
+numbers = [1, 2, 3, 4, 5]
+numbers.each do |number|
+  puts "#{number} #{number}"
+end
+
+#OR
+# not sure if you mean doubles as in two of the same number or doubles as in
+# double of the same number, which would indicate addition
+numbers = [1, 2, 3, 4, 5]
+numbers.each do |number|
+  puts number + 2
 end

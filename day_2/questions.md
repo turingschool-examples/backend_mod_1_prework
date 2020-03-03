@@ -18,4 +18,4 @@
 * the result of the evaluation would be `false`
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 * You would run the greater than to evaluation with `>` so the code would
-be `25>2` and the result of this evaluation would be `true`
+be `25 > 2` and the result of this evaluation would be `true`
