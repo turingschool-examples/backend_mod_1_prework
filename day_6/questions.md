@@ -1,14 +1,14 @@
 ## Day 5 Questions
 
 1. In your own words, what is a Class?
-A class is a mold that holds the basic archetypes of an object.
+A class is a mold that holds attributes and methods that can later be used in your program.
 
 
 1. In relation to a Class, what is an attribute?
-An attribute is the information that describes the class.
+An attribute is the information that describes the class object.
 
 1. In relation to a Class, what is behavior?
-In relation to class, a behavior is a method that is given to the class.
+In relation to class, a behavior is a method that is given to the class that some how runs a calculation or interacts with it's attributes.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors
 
