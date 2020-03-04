@@ -12,5 +12,4 @@ monkeys.each{ |m|
       puts "Mama called the doctor and the doctor said,"
       puts "No more monkeys jumping on the bed!"
   end
-}
- 
+} 
