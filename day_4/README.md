@@ -12,7 +12,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-_*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
+    _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
 
     - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
 

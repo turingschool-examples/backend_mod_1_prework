@@ -17,7 +17,7 @@ p zoo
 
 # Write code that prints all of the 'values' of the zoo variable 
 # you created above:
-# YOUR CODE here
+# YOUR CODE HERE
 
 # Write code that prints the value of the first animal of the zoo variable 
 # you created above:
