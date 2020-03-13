@@ -1,25 +1,28 @@
-# In the exercises below, write your own code where indicated
-# to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_5/exercises/hashes.rb`
+# In the below exercises, write code that achieves
+# the desired result. To check your work, run this
+# file by entering the following command in your terminal: 
+# `ruby day_5/exercises/hashes.rb`
 
-# example: Write code below to print a hash that holds grocery store inventory
+# Example: Write code that prints a hash holding grocery store inventory:
 foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
-# Write code below that will print a hash of animals and their number
-# at the zoo. (an inventory of animals)
+# Write code that prints a hash holding zoo animal inventory:
 zoo = #YOUR CODE HERE
 p zoo
 
-# Using the zoo that you created above, print all the keys in the hash.
+# Write code that prints all of the 'keys' of the zoo variable 
+# you created above:
 # YOUR CODE HERE
 
-# Using the zoo that you created above, print all the values in the hash.
+# Write code that prints all of the 'values' of the zoo variable 
+# you created above:
 # YOUR CODE here
 
-# Using the zoo taht you created above, print the value of the first item in
-# the hash
+# Write code that prints the value of the first animal of the zoo variable 
+# you created above:
 # YOUR CODE HERE
 
-# Add an animal to the zoo hash and print the updated hash.
+# Write code that adds an animal to the zoo hash. 
+# Then, print the updated hash:
 # YOUR CODE HERE
