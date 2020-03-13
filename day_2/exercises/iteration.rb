@@ -1,4 +1,3 @@
-Learn more or give us feedback
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
