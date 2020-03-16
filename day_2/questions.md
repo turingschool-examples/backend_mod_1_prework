@@ -4,11 +4,11 @@
 
 1. Save the array you created above to a variable `animals`.
 
-1. using the array `animals`, how would you access `"giraffe"`?
+1. Using the array `animals`, how would you access `"giraffe"`?
 
 1. How would you add `"lion"` to the `animals` array?
 
-1. Name and describe two additional array methods.
+1. Name and describe two additional array methods:
 
 1. What are the boolean values in Ruby?
 

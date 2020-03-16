@@ -1,6 +1,6 @@
-# In the dog class below, add a play method that, when called, will result in
-# the dog being hungry. Call that method below the class, and print the dog's
-# hunger status.
+# In the dog class below, write a `play` method that makes
+# the dog hungry. Call that method below the class, and 
+# print the dog's hunger status.
 
 class Dog
   attr_reader :breed, :name, :age, :hungry

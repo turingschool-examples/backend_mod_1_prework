@@ -1,16 +1,20 @@
 # Day 5 - Hashes
 
-Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call a Hash. We use hashes on a near daily basis as programmers and understanding how to build hashes and how to retrieve information from a hash can make your life as a programmer much easier.
+Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device called a Hash. As professional developers, you will use hashes on a near daily basis- a solid understanding of how to build hashes and how to retrieve information from them will make life much easier.
 
-When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
 ## Open your local copy of backend_module_0_capstone
 
-Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
+Using your terminal, open your local copy of the forked repository you created during setup. Hopefully you are getting the hang of this, but revisit [day_1](../day_1) for more detail if needed.
 
-1. Work through the [Hashes](https://learnrubythehardway.org/book/ex39.html) lesson from Learn Ruby the Hard Way.
+## Hash Lessons
 
-1. Work through the [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) section of Ruby in 100 minutes
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+
+    - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
+
+    - [ ] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
 
 1. Work through the hashes.rb file in the day_5/exercises directory.
 
@@ -18,7 +22,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Save your work in Git
 
-When you are finished with all of the day_5 activities, use your terminal to run the following commands in order to save your work to your local git repository.
+When you are finished with all of the day_5 activities, enter the following commands in your terminal in order to save your work to your local git repository:
 
 1. `$ git add day_5/exercises`
 1. `$ git add day_5/questions.md`
@@ -28,7 +32,7 @@ When you are finished with all of the day_5 activities, use your terminal to run
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+Remember- You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Push your code up to Github with the following command:
 
 ```
 git push origin master
