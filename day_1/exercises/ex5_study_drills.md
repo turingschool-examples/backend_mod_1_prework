@@ -25,8 +25,10 @@ my_hair = hair
 1. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Ruby.
 ```
 height = 74
-cm_height = heigh * 2.54
+cm_height = height * 2.54
+=> 187.96
 
 weight = 180
 kg_weight = weight / 2.205
+=> 81.63265306122449
 ```
