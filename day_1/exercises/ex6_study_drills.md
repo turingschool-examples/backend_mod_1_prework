@@ -26,7 +26,7 @@ binary = "binary"
 do_not = "don't"
 ```
 
-- This is interpolating a variable called binary into a string assigned to the variable y.
+- This is the variable y getting assigned to a string that is interpolated the variables binary and do_not into a string.
 
 ```
 y = "Those who know #{binary} and those who #{do_not}."
@@ -52,7 +52,7 @@ puts "I also said: '#{y}'."
 hilarious = false
 ```
 
-- This is a string interpolating the variable hilarious and assigning it to the variable joke_evaulation.
+- This is a variable joke_evaulation being assigned to a string that is interpolating the variable hilarious.
 
 ```
 joke_evaulation = "Isn't that joke so funny?! #{hilarious}"
@@ -92,7 +92,8 @@ puts w + e
 
 1. Explain why adding the two strings w and e with + makes a longer string.
 
-    - Because these two strings are assigned to variables w and e, we can then add these two variables and print their data in the order they were put in the equation.
+    - Because these two strings are assigned to variables w and e, we can then place these variables into an equation.  When we print these variables, what is revealed is the string data that they represent.
 
 1. What happens when you change the strings to use ' (single-quote) instead of " (double-quote)? Do they still work? Try to guess why.
-    - Yes, they do work, because single and double quotes make appropriate strings, so long as you are consistent on using single versus double strings.
+
+    - Yes, they do work, because single and double quotes make syntactical sense strings, choosing between one or the other is convention.
