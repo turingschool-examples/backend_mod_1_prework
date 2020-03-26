@@ -2,76 +2,76 @@
 
 1. Go through this program and write a comment above each line explaining it.
 
-    - This is assigning the integer 10 to the variable types_of_people.
+- This is assigning the integer 10 to the variable types_of_people.
 
 ```
 types_of_people = 10
 ```
 
-    - This is interpolating the variable types_of_people into a string assigned to the variable x.
+- This is interpolating the variable types_of_people into a string assigned to the variable x.
 
 ```
 x = "There are #{types_of_people} types of people."
 ```
 
-    - This is assigning a string to the variable binary.
+- This is assigning a string to the variable binary.
 
 ```
 binary = "binary"
 ```
 
-    - This is assigning a string to the variable do_not.
+- This is assigning a string to the variable do_not.
 
 ```
 do_not = "don't"
 ```
 
-    - This is interpolating a variable called binary into a string assigned to the variable y.
+- This is interpolating a variable called binary into a string assigned to the variable y.
 
 ```
 y = "Those who know #{binary} and those who #{do_not}."
 ```
 
-    - This is printing the strings assigned to the variables x and y.
+- This is printing the strings assigned to the variables x and y.
 
 ```
 puts x
 puts y
 ```
 
-    - This is interpolating variables x and y into strings and printing those strings.
+- This is interpolating variables x and y into strings and printing those strings.
 
 ```
 puts "I said: #{x}."
 puts "I also said: '#{y}'."
 ```
 
-    - This is a boolean being assigned to the variable hilarious.
+- This is a boolean being assigned to the variable hilarious.
 
 ```
 hilarious = false
 ```
 
-    - This is a string interpolating the variable hilarious and assigning it to the variable joke_evaulation.
+- This is a string interpolating the variable hilarious and assigning it to the variable joke_evaulation.
 
 ```
 joke_evaulation = "Isn't that joke so funny?! #{hilarious}"
 ```
 
-    - This is printing the string assigned to the joke_evaulation.
+- This is printing the string assigned to the joke_evaulation.
 
 ```
 puts joke_evaulation
 ```
 
-    - This is assigning a string to variables w and e.
+- This is assigning a string to variables w and e.
 
 ```
 w = "This is the left side of..."
 e = "a string with a right side."
 ```
 
-    - This prints variables w and e together into one line.
+- This prints variables w and e together into one line.
 
 ```
 puts w + e  
