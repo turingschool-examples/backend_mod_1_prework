@@ -10,7 +10,7 @@ The # octothorpe or pound character indicates a comment.
 
 1. Explain the difference between an integer and a float?
 
-An integer is a whole number and a float is a variable with a fractional value or moving decimal points.
+An integer is a whole number and a float is a variable with a fractional value or moving decimal point.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 animal = "zebra"
@@ -26,7 +26,7 @@ Interpolation is the process of adding data into the middle of a string (#{}).
 
 1. What method is used to get input from a user?
 
-gets or chomp 
+gets or chomp
 
 1. Name and describe two common string methods:
 
