@@ -23,6 +23,7 @@ my_teeth = teeth
 my_hair = hair
 ```
 1. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Ruby.
+
 ```
 height = 74
 cm_height = height * 2.54
