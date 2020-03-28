@@ -7,7 +7,9 @@ The purpose of a method is to take a code that might be used multiple times and 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
 def hello(words)
+
   puts words
+
 end
 
 hello("Sam I am")
@@ -15,7 +17,9 @@ hello("Sam I am")
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
 def hello_someone(name)
+
   puts name
+
 end
 
 1. How would you call or execute the method that you created above?
