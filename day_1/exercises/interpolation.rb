@@ -15,11 +15,12 @@ p "The #{team} are #{name}'s favorite Quidditch team"
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"
 
-p # YOUR CODE HERE
+p "The #{speedy} jumped over the #{slow_poke}"
+
 
 # Write code that uses the variables below to form a string that reads
 # "In a predictable result, the tortoise beat the hare!":
 slow_poke = "tortoise"
 speedy = "hare"
 
-# YOUR CODE HERE
+p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
