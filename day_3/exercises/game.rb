@@ -1,15 +1,12 @@
 # Variables
 companions = ["Frodo"]
 companion_assignment = ["1: ", "2: ", "3: ", "4: ", "5: ", "6: ", "7: "]
-weapons = []
-purse = []
+companion_health = Hash.new
+personal_stats = Hash.new
+# {name, weapon, armor, max_health, current_health, mobility, purse }
 items = []
-armor = []
 journey_path = []
-damage_weapon = [] # out of 10
-mobility = [] # out of 10
-protection = [] # out of 10
-health = 100
+
 
 # Introduction
 puts "Welcome to Rivendell!"
@@ -17,10 +14,11 @@ puts "What is your name?"
 print "> "
 
 name = $stdin.gets.chomp
-companions.unshift name.capitalize
-name = name.capitalize
+companions.unshift name.downcase.capitalize
+name = name.downcase.capitalize
+personal_stats['name'] = name
 
-print "\nWelcome, #{name.capitalize}. You have been summoned to accompany Frodo on his quest"
+print "\nWelcome, #{name}. You have been summoned to accompany Frodo on his quest"
 puts " to destroy the ring, but first you must choose your other companions of the fellowship."
 
 # Fellowship establishment
@@ -28,7 +26,8 @@ puts "\nWho would you like to join the fellowship of the ring?"
 companion_assignment.each do |companion|
   print companion
   companion_input = $stdin.gets.chomp
-  companions.push companion_input.capitalize
+  companions.push companion_input.downcase.capitalize
+  companion_health[companion_input.downcase.capitalize] = 100
 end
 
 # Variable reassignment to sort array
@@ -45,25 +44,31 @@ puts "5. Other"
 print "\n> "
 weapon = $stdin.gets.chomp
 
-if weapon == "1" || weapon.capitalize == "Battle hammer"
-  weapons.push "Battle hammer"
+if weapon == "1" || weapon.downcase == "battle hammer"
+  personal_stats["weapon"] = "battle hammer"
+  personal_stats["weapon_damage"] = 35
 
-elsif weapon == "2" || weapon.capitalize == "Long sword"
-  weapons.push "Long sword"
+elsif weapon == "2" || weapon.downcase == "long sword"
+  personal_stats["weapon"] = "long sword"
+  personal_stats["weapon_damage"] = 25
 
-elsif weapon == "3" || weapon.capitalize == "Long bow"
-  weapons.push "Long bow"
+elsif weapon == "3" || weapon.downcase == "long bow"
+  personal_stats["weapon"] = "long bow"
+  personal_stats["weapon_damage"] = 15
 
-elsif weapon == "4" || weapon.capitalize == "Double-headed axe"
-  weapons.push "Double-headed axe"
+elsif weapon == "4" || weapon.downcase == "double-headed axe"
+  personal_stats["weapon"] = "double-headed axe"
+  personal_stats["weapon_damage"] = 30
 
 elsif weapon == "5"
   print "Name your weapon: "
   weapon_other = $stdin.gets.chomp
-  weapons.push "%s" % weapon_other.capitalize
+  personal_stats["weapon"] = "%s" % weapon_other.downcase
+  personal_stats["weapon_damage"] = 25
 
 else
-  weapons.push weapon
+  personal_stats["weapon"] = weapon.downcase
+  personal_stats["weapon_damage"] = 25
 
 end
 
@@ -77,27 +82,44 @@ puts "4. Other"
 print "\n> "
 armor_class = $stdin.gets.chomp
 
-if armor_class == "1" || armor_class.capitalize == "Light elven cloak"
-  armor.push "Light elven cloak"
+if armor_class == "1" || armor_class.downcase == "elven cloak"
+  personal_stats["armor"] = "elven cloak"
+  personal_stats["max health"] = 80
+  personal_stats["mobility"] = 40
+  personal_stats["current health"] = personal_stats["max health"]
 
-elsif armor_class == "2" || armor_class.capitalize == "Leather gambeson"
-  armor.push "Leather gambeson"
+elsif armor_class == "2" || armor_class.downcase == "Llather gambeson"
+  personal_stats["armor"] = "leather gambeson"
+  personal_stats["max_health"] = 100
+  personal_stats["mobility"] = 30
+  personal_stats["current health"] = personal_stats["max health"]
 
-elsif armor_class == "3" || armor_class.capitalize == "Chainmail"
-  armor.push "Chainmail"
+elsif armor_class == "3" || armor_class.downcase == "chainmail"
+  personal_stats["armor"] = "chainmail"
+  personal_stats["max_health"] = 120
+  personal_stats["mobility"] = 20
+  personal_stats["current health"] = personal_stats["max health"]
 
 elsif armor_class == "4"
   print "Name your armor: "
   armor_other = $stdin.gets.chomp
-  armor.push "%s" % armor_other.capitalize
+  personal_stats["armor"] = "%s" % armor_other.downcase
+  personal_stats["max_health"] = 100
+  personal_stats["mobility"] = 30
+  personal_stats["current health"] = personal_stats["max health"]
 
 else
-  armor.push armor_class
+  personal_stats["armor"] = armor_class.downcase
+  personal_stats["max_health"] = 100
+  personal_stats["mobility"] = 30
+  personal_stats["current health"] = personal_stats["max health"]
 
 end
 
-puts "\nYou have chosen #{weapons[0]} as your weapon, #{armor[0]} as your armor, "
-print "and the fellowship is: "
+
+
+print "\nYou have chosen #{personal_stats["weapon"]} as your weapon, #{personal_stats["armor"]} as your armor,"
+puts " and the fellowship is: "
 
 companions.each do |name|
   if name != companions[-1]
@@ -125,41 +147,50 @@ gold_offering = $stdin.gets.chomp
 if gold_offering == "1"
   print "Elrond: Take care not to refuse help along this journey. The path is perilous"
   puts " and you would do well to accept all honest aid along the way."
-  purse.push 100
+  personal_stats["purse"] = 100
 
-elsif gold_offering == "2" || gold_offering.capitalize == "Yes"
+elsif gold_offering == "2" || gold_offering.downcase == "yes"
   puts "Elrond: May the light of Earendil guide you along your journey."
-  purse.push 100
+  personal_stats["purse"] = 100
 
-elsif gold_offering == "3" || gold_offering.capitalize == "No"
+elsif gold_offering == "3" || gold_offering.downcase == "no"
   print "Elrond: Do not be foolish. Help will be given to those who ask for it."
   puts " Will you take at least 50 gold pieces?"
   print "\n> "
   gold_final_offering = $stdin.gets.chomp
 
-  if gold_final_offering.capitalize == "Yes"
+  if gold_final_offering.downcase == "yes"
     print "Elrond: Take care not to refuse help along this journey. The path is perilous"
     puts " and you would do well to accept all honest aid along the way."
-    purse.push 50
+    personal_stats["purse"] = 50
 
-  elsif gold_final_offering == "No"
+  elsif gold_final_offering.downcase == "no"
     print "Elrond: Your pride may prove to be your undoing."
     puts " Nonetheless, I pray the light of Earendil enlightens your path ahead."
-    purse.push 0
+    personal_stats["purse"] = 0
 
   else
     puts "Elrond: Here, take it. May the light of Earendil enlighten your path ahead."
-    purse.push 50
+    personal_stats["purse"] = 50
 
   end
 
 else
   puts "Elrond: Here, take it. May the light of Earendil enlighten your journey ahead."
-  purse.push 100
+  personal_stats["purse"] = 100
 
 end
 
-puts "\nYou have collected #{purse[0]} gold pieces."
+puts "\nYou have collected #{personal_stats["purse"]} gold pieces."
+
+
+puts "\nWould you like to see your personal stats?"
+print "> "
+stats_update = $stdin.gets.chomp
+
+if stats_update.downcase == "yes"
+  puts personal_stats
+end
 
 # path1 selection
 puts "\nThe fellowship has gathered outside of Rivendell and continues on to: "
@@ -169,7 +200,7 @@ puts "2. The Misty Mountain Pass"
 print "\n> "
 path1 = $stdin.gets.chomp
 
-if path1 == "1" || path1.capitalize == "Mines of Moria" || path1.capitalize == "Mines of moria"
+if path1 == "1" || path1.downcase == "mines of moria"
   journey_path.push "Mines of Moria"
 
 else
@@ -187,7 +218,7 @@ puts "2. Take cover and hide"
 print "\n> "
 orc_en1_response = $stdin.gets.chomp
 
-if orc_en1_response == "1" || orc_en1_response.capitalize == "Engage the orcs in battle"
+if orc_en1_response == "1" || orc_en1_response.downcase == "engage the orcs in battle"
   puts "\n#{name}: Do not let them get away!"
   puts "Which of the fellowship leads the attack?"
     companions.each do |name|
