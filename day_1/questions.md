@@ -19,7 +19,6 @@ animal = "zebra"
 1. **How would you print the string `"zebra"` using the variable that you created above?**
 
 animal = "zebra"
-
 puts "#{animal}"
 
 1. **What is interpolation? Use interpolation to print a sentence using the variable `animal`.**
@@ -30,7 +29,6 @@ Interpolation involves sticking data into the middle of your string.  Your strin
 animal = 'zebra'
 
 puts "A #{animal} can outrun a lion any day!"
-
 => "A zebra can outrun a lion any day!"
 
 1. **What method is used to get input from a user?**
@@ -48,18 +46,14 @@ One common string method is the "times" method: this involves repeating a certai
     end
 
 =>This is so fun!
-
   This is so fun!
-
   This is so fun!
 
 
 Another common string method is the interpolation method, which means sticking defined data into the middle of your string.  For ex.:
 
 name = "Amy"
-
 assignment = "capstone"
 
 puts "#{name} is working very hard on her #{assignment}."
-
 => Amy is working very hard on her capstone.  
