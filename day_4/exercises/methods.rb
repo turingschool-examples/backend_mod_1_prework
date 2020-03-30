@@ -36,10 +36,3 @@ end
 
 compatability("arm", "hammer")
 compatability("peanut butter", "jelly")
-
-
-def hello
-  p "Sam I am"
-end
-
-hello 
