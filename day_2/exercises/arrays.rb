@@ -24,7 +24,7 @@ p animals.count
 
 # Write code that prints the number of elements
 # in your above array of foods:
-p food.count
+p foods.count
 
 # Write code that prints "Zebra" from your animals array:
 p animals[0]
