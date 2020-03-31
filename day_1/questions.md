@@ -23,5 +23,5 @@ p "The animal used in the example is a #{animal}."
 gets.chomp
 
 1. Name and describe two common string methods:
-.size is a method used to determine the size of the string.
+.size or .length is a method used to determine the size of the string.
 .split is a method that will split a string using spaces as a separator character.
