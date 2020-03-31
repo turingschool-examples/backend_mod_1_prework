@@ -15,6 +15,8 @@
     ```
         if <condition>
             #code
+        else
+            #code
         end
     ```
 
@@ -27,6 +29,8 @@
             # code
         elsif <condition>
             # code
+        else
+            #code
         end
     ```
 
