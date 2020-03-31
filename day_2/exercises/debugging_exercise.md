@@ -22,11 +22,13 @@ numbers.each {|x| print x * 2 }  ==> 2468
 names = ["Brad Pitt", "Leonardo Dicaprio", "Al Pacino"]
 
 ### How would you print out the full names line by line?
-names.each {|x| puts x }   ==> Brad Pitt
-                               
-                               Leonardo Dicaprio
-                               
-                               Al Pacino
+names.each {|x| puts x }   ==> 
+
+Brad Pitt
+
+Leonardo Dicaprio
+
+Al Pacino
 
 ### How would you print out only the first name?
 brad_pitt = names[0].split
@@ -36,16 +38,22 @@ leonardo_dicaprio = names[1].split
 al_pacino = names[2].split
 
 puts brad_pitt.first           ==> Brad
+
 puts leonardo_dicaprio.first   ==> Leonardo
+
 puts al_pacino.first           ==> Al
 
 ### How would you print out only the last name?
 brad_pitt = names[0].split
+
 leonardo_dicaprio = names[1].split
+
 al_pacino = names[2].split
 
 puts brad_pitt.last           ==> Pitt
+
 puts leonardo_dicaprio.last   ==> Dicaprio
+
 puts al_pacino.last           ==> Pacino
 
 
@@ -54,15 +62,21 @@ names.each {|x| x.split puts x[0]} ==> not completed
 
 ### How can you print out the last name and how many characters are in it?
 brad_pitt = names[0].split
+
 leonardo_dicaprio = names[1].split
+
 al_pacino = names[2].split
 
 bp_last = brad_pitt[1]
+
 ld_last = leonardo_dicaprio[1]
+
 ap_last = al_pacino[1]
 
 puts "#{bp_last} #{bp_last.length}"  ==> Pitt 4
+
 puts "#{ld_last} #{ld_last.length}"  ==> Dicaprio 8
+
 puts "#{ap_last} #{ap_last.length}"  ==> Pacino 6
 
 ### How can you create an integer which represents the total number of characters in all the names?
