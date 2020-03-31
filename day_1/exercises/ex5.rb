@@ -22,6 +22,6 @@ puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
 
 #Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Ruby.
 inch = 2.54 # cm
-puts "His height is #{height * inch} cm"
+puts "His height is #{height * inch} in cm"
 pound = 0.45 #kg
-puts "His weight is #{weight * pound} kg"
+puts "His weight is #{weight * pound} in kg"
