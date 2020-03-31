@@ -1,15 +1,20 @@
 ### If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples?
 numbers = [1,2,3,4]
+
 numbers.each { |x| print x, x }  ==> 11223344
+
 numbers.each { |x| print x, x, x } ==> 111222333444
 
 ### If you had the same array, how would you only print out the even numbers? What about the odd numbers?
 numbers = [1,2,3,4]
+
 print numbers.select {|num| num.even?} ==> [2,4]
+
 print numbers.select {|num| num.odd?}  ==> [1,3]
 
 ### How could you create a new array which contains each number multipled by 2?
 numbers = [1,2,3,4]
+
 numbers.each {|x| print x * 2 }  ==> 2468
 
 
@@ -18,12 +23,16 @@ names = ["Brad Pitt", "Leonardo Dicaprio", "Al Pacino"]
 
 ### How would you print out the full names line by line?
 names.each {|x| puts x }   ==> Brad Pitt
+                               
                                Leonardo Dicaprio
+                               
                                Al Pacino
 
 ### How would you print out only the first name?
 brad_pitt = names[0].split
+
 leonardo_dicaprio = names[1].split
+
 al_pacino = names[2].split
 
 puts brad_pitt.first           ==> Brad
