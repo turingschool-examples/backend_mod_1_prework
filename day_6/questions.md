@@ -36,3 +36,4 @@
 
 1. What questions do you still have about classes in Ruby?
   - What is the difference between `@instance_variable = value` and `self.instance_variable` ? Are these two syntaxes equivalent?
+  - How does the `private class ` work in Ruby?
