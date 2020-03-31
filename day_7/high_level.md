@@ -22,6 +22,21 @@
 1. Create an instance of the class
   - Call the `encode` method  with two arguements.
 
+   ### SOLUTION 2
+
+   1. Created a class => `CeasarCipher2`
+   1. Defined the encode method with two arguements `input` and `shift`
+   1. Create a variable called `hashed_alphabets`
+    - Range A-Z to an array
+    - Range A-Z to array and rotate it with the shift values
+    - Create a hash mapping the Range with the rotated range
+ 1. create a `shifted_vals` array and set it to an empty array
+ 1. change the `input` string to uppercase to match the Range
+ 1. Iterate through each char mapping the char with the corresponding rotated value
+ 1. Append the mapped char to the `shifted_vals` if the value is `nil `append an empty string
+ 1. Return joined shifted_vals to form a `input_string`
+ 1. Create an instance of the class
+    - Call the `encode` method with two arguements.
 
 
 ***
