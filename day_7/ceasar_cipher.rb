@@ -41,12 +41,29 @@ class CeasarCipher
 
 
   end
-  p encoded_arr.join
   return encoded_arr.join
   end
 
 end
 
 
+#alternative method for ceasar cipher
+
 cipher = CeasarCipher.new
-cipher.encode("Hello World",5)
+p cipher.encode("Hello World",5)
+
+class CeaserCipher2
+    def encode(input, shift)
+      #Hash A-Z with a shifted value of A-Z
+    hashed_alphabet = Hash[("A".."Z").to_a.zip(("A".."Z").to_a.rotate(shift))]
+     shifted_vals =[]
+     #Match each character in the input array with the corresponding shifted value
+     # Append to shifted values
+     input.upcase.each_char{|char| (hashed_alphabet[char]!= nil)? shifted_vals << hashed_alphabet[char] : shifted_vals << " "}
+    return shifted_vals.join
+
+    end
+end
+
+code = CeaserCipher2.new
+p code.encode("Hello World", -5)
