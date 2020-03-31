@@ -11,6 +11,14 @@ class Person
     @smile = true
     @speak = speak
   end
+
+  def smile
+    @smile = true
+  end
+
+  def speak
+    "I've missed you.."
+  end
 end
 
 
@@ -20,5 +28,4 @@ p kristin.name
 p kristin.eyes
 p kristin.height
 p kristin.smile
-kristin.speak
-p "Iv'e missed you.."
+p kristin.speak
