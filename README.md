@@ -46,6 +46,8 @@ To solve potential compatability issues, we'd like to be able to install and man
 
 Here is a video walk-through that may be helpful for the following steps. Check it out!
 
+Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.5.3**, per the written instructions below.
+
 [![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
 
 Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
@@ -103,14 +105,14 @@ More information about rbenv can be found [here](https://github.com/rbenv/rbenv#
 
 ### Use rbenv to install a certain version of Ruby
 
-Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.6.3. This is the version we will use in the Backend Program.
+Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.5.3. This is the version we will use in the Backend Program.
 
-If you need another version it'll be the same procedure, just replace `2.6.3` in the instructions with whichever version you want.
+If you need another version it'll be the same procedure, just replace `2.5.3` in the instructions with whichever version you want.
 
 Install it with:
 
 ```
-$ rbenv install 2.6.3
+$ rbenv install 2.5.3
 ```
 
 It will take a while to finish installing, and print a _lot_ of text to your terminal.
@@ -121,14 +123,14 @@ When it's all finished, type:
 $ rbenv versions
 ```
 
-and you should now see `2.6.3` listed.
+and you should now see `2.5.3` listed.
 
 Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you _your current ruby version_. The second shows _all installed versions_.
 
 Switch to your newly installed version with
 
 ```
-$ rbenv local 2.6.3
+$ rbenv local 2.5.3
 ```
 
 Now enter:
@@ -140,17 +142,17 @@ $ ruby -v
 This shows us what version of Ruby we are running. You should see something like:
 
 ```
-ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin19]
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-darwin17]
 ```
 
-You can ignore everything after the `p` in `2.6.3p205`- the first bit shows us we are running Ruby 2.6.3, which is what we want to verify. If you got something different than `2.6.3`, such as `2.5.0`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+You can ignore everything after the `p` in `2.5.3p105`- the first bit shows us we are running Ruby 2.5.3, which is what we want to verify. If you got something different than `2.5.3`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
 
 #### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default. Let's do that with terminal command:
 
 ```
-$ rbenv global 2.6.3
+$ rbenv global 2.5.3
 ```
 
 Now, let's make your terminal aware of this update with command:
@@ -161,7 +163,7 @@ $ rbenv rehash
 
 ## Terminal
 
-We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with day_1. 
+We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with day_1.
 
 [Check out day_0 to practice!](day_0)
 
@@ -169,13 +171,13 @@ We will be referencing many terminal commands throughout the prework. It is reco
 
 Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
 
-In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `backend_module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. 
+In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `backend_module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on.
 
 In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_module_0_capstone) that you're reading right now! 
+####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_module_0_capstone) that you're reading right now!
 
 ####  3. Click on `Fork` in the upper right corner of the screen, just under the top banner.
 
@@ -236,7 +238,7 @@ To begin, open your terminal and `cd` into the `day_0` directory. Follow the ins
 
 # Extension (optional, after capstone completed)
 
-You've finished your Mod 0 Capstone assignment! So you're done!!! 
+You've finished your Mod 0 Capstone assignment! So you're done!!!
 
 But there's always more to learn!
 
