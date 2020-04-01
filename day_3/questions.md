@@ -1,6 +1,6 @@
 ## Day 3 Questions
 
-1. What is a conditional statement? Give three examples./n
+1. What is a conditional statement? Give three examples.
 
 A conditional statement defines a set of rules that should be preformed if certain parameters are met.
 If I put in more work studying in mod 0, then mod 1 should be easier.
@@ -28,18 +28,16 @@ people = 10
 chairs = 12
 
 if people == chairs
-
   puts "Perfect, we have the right amount."
 
 elsif people < chairs
-
   puts "We have too many chairs."
 
 else
-
   puts "We need more chairs."
 
 end
+
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
