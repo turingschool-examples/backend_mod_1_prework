@@ -28,13 +28,16 @@ people = 10
 chairs = 12
 
 if people == chairs
-  puts "Perfect, we have the right amount."
+
+...puts "Perfect, we have the right amount."
 
 elsif people < chairs
-  puts "We have too many chairs."
+
+...puts "We have too many chairs."
 
 else
-  puts "We need more chairs."
+
+...puts "We need more chairs."
 
 end
 
