@@ -69,3 +69,30 @@ puts puzzle4
 ```
 
 **5. Remove the word return, and see if the script still works. You'll find that it does because Ruby implicitly returns whatever the last expression calculates. However, this isn't clear, so I want you to do it explicitly for my book.**
+
+> If the return is put above the puts, return acts like a method that kicks you out of the string.
+
+```
+def divide(a, b)
+  return a / b
+  puts "DIVIDING #{a} / #{b}"
+end
+```
+
+> If you take out the return and leave the position of the code in the same place, then our code breaks
+
+```
+def divide(a, b)
+  a / b
+  puts "DIVIDING #{a} / #{b}"
+end
+```
+
+> But if you move the a / b formula  down, and don't add return, Ruby assumes you have written return.
+
+```
+def divide(a, b)
+  puts "DIVIDING #{a} / #{b}"
+  a / b
+end
+```

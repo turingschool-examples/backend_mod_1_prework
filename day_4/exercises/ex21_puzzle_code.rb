@@ -9,6 +9,7 @@ end
 def subtract(a, b)
   puts "SUBTRACTING #{a} - #{b}"
   a - b
+
 end
 
 def multiply(a, b)
