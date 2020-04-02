@@ -53,10 +53,10 @@ end
 
 # 4. Can you put other boolean expressions from Exercise 27 in the if-statement?
 
-if people && dogs
+if people != dogs
   puts "Get a cat"
 end
 
 # 5. What happens if you change the initial values for 'people', 'cats', and 'dogs'?
 
-# It will change wether the 'if' is proved true or false. 
+# It will change wether the 'if' is proved true or false.
