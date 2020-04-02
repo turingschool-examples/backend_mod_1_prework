@@ -13,11 +13,17 @@ It's important for developers to use if statements in ruby because they help in 
 **1. What is the Ruby syntax for an if statement?**
 
 if conditional then
+
   puts (code)
+
 elsif conditional then
+
   puts (code)
+
 else
+
   puts (code)
+
 end
 
 
@@ -31,11 +37,17 @@ To add multiple conditions to an if statement, you can include some common opera
 x = 2
 
 if x > 4
+
   puts "x is greater than 4"
+
 elsif x < 2
+
   puts "You're way under"
+
 else x < 3 && x != 5
+
   puts "x is 2 and you are so smart"
+  
 end
 
 
