@@ -2,7 +2,7 @@
 
 * ***In your own words, what is the purpose of a method?***
 
-    A method is used to preform some type of action on an attribute based on an argument given to it. So, let's say we have an attribute which is a car. And we have a method change_color which changes the color of the car. We then have an argument of let's say blue. So, our method change color will change the color of the car to blue.
+    A method is used to preform some type of action on an attribute based on an argument given to it. So, let's say we have an attribute which is a car. And we have a method change_color which changes the color of the car. We then have an argument of let's say blue. So, our method change color will change the color of the car to blue. Methods allow us to manipulate attributes of data without actually changing the variables. 
 
 ---
 
