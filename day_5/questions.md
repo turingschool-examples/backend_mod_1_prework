@@ -31,15 +31,13 @@ pet_store = {
 
 * ***What is another example of when we might use a hash?  In your example, why is a hash better than an array?***
 
-    The examples above are more uniform in a sense. In the pet_store example it's a list of all the items and then a list of the number of that item. The states example lists states and then their abbreviation. It's parallel.
+    The examples above are more uniform in a sense. In the pet_store example it's a list of all the items and then a list of the number of that item. The states example lists states and then their abbreviation. It's parallel. It wouldn't make sense to use an array because an array would only list what items you have and not the number of items each has. What if we added another milk item? We would want to manipulate the data to change the amount to 2. An array couldn't do that.
 
 basket_items {
   "milk" => 1,
   "chicken" => 4,
   "eggs" => 2
 }
-
-    It wouldn't make sense to use an array because an array would only list what items you have and not the number of items each has. What if we added another milk item? We would want to manipulate the data to change the amount to 2. An array couldn't do that.
 
 ---
 
