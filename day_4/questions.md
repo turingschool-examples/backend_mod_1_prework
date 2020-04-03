@@ -24,17 +24,17 @@
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-    def hello_someone(name)
+    > def hello_someone(name)
 
-      puts "#{name} I am"
+      > puts "#{name} I am"
 
-    end
+    > end
 
-    hello_someone("Sam")
+    > hello_someone("Sam")
 
 1. How would you call or execute the method that you created above?
 
-By assigning a variable to the method in parenthesis below.
+By assigning a data type to the argument. After a data type has been assigned, it will be executed in the code assigned to the method.
 
 1. What questions do you have about methods in Ruby?
 
