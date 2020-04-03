@@ -1,8 +1,26 @@
 class CeasarCipher
-DEFAULT_ALPHABET = [*'A'..'Z', *'a'..'z']
+  attr_reader :shift
 
-def cipher(text, val = 13, alphabet = DEFAULT_ALPHABET)
-   text.tr alphabet.join, alphabet.rotate(val).join
+  def initialize(shift: 5)
+    raise ArgumentError unless shift.is_a? Integer
+    @shift = shift
+  end
+
+  def encrypt(text)
+  text.tr(alphabet, cipher)
+  end
+
+  def decrypt(text)
+  text.tr(cipher, alphabet)
+  end
+
+  private
+
+  def alphabet
+  [*('a'..'z'), *('A'..'Z')].join
+  end
+
+  def cipher
+  alphabet.chars.rotate(shift).join
+  end
 end
-
-cipher = CeasarCipher.new('This is crazy!', 7)
