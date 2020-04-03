@@ -35,4 +35,4 @@ basket_items {
 
 * ***What questions do you still have about hashes?***
 
-    Can you use a hash to define a hash value? Like to map it so that the main hash is menu, and under menu you would have keys that would list the menu items, but the values associated to those keys would be the the price of the item, or the nutritional values. 
+    Can you use a hash to define a hash value? Like to map it so that the main hash is menu, and under menu you would have keys that would list the menu items, but the values associated to those keys would be the the price of the item, type of dish or the nutritional values. And would that hash be able to have different types of variable values? Like a price of 10$ is an integer and type of dish of Italian would be a string. 
