@@ -45,3 +45,6 @@ class CeasarCipher
   end
 
 end
+
+code1 = CeasarCipher.new
+p code1.encode("Hello World" , 5)
