@@ -8,7 +8,8 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {"zebras" => 20,
+zoo = {
+  "zebras" => 20,
   "giraffes" => 2,
   "monkeys" => 32
 }
