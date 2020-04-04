@@ -41,3 +41,21 @@
 
 1. Create an instance of the class
   - Call the `checker_board` method  with `board_size` arguement.
+
+ ### Second Solution for the Checker board using the array method
+
+ 1. Created a class => CheckerBoard2
+ 1. Defined a `checker_board_2` method with one arguement `board_size`
+ 1. Created an array `range` by getting the range from 1 to board_size the used the `.to_a` method to make it an array.
+ 1. Defined a `checker_board` method with one arguement `board_size`
+ 1. Created a new variable `x_line_first` to store the string where x is first then space
+      - loop through the range array with the inject method
+      - Initialize the inject method with an empty string `inject("")`
+      - Inject takes two arguements ie the final computation and the loop variable
+      - inside the inject method create a terniary expression if the loop variable is odd print "X" else " _ "
+     - Repeat that wirh a new variable and store values where space comes x_first_line
+ 1. Loop through the range print x first string when range is odd otherwise print space string
+
+ #### Lessons Learnt
+- The array methods and the use of inject method to perform computations in the arrays
+- Replacing the if else block with a terniary opertor for easier code
