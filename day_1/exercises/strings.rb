@@ -7,7 +7,7 @@
 p "Alan Turing"
 
 # Write code that prints `Welcome to Turing!` to the terminal:
-p 'Welcome to Turing!'
+p 
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
-p `99 bottles of pop on the wall...`
+p 
