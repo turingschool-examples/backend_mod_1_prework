@@ -86,19 +86,19 @@ if armor_class == "1" || armor_class.downcase == "elven cloak"
   personal_stats["armor"] = "elven cloak"
   personal_stats["max health"] = 80
   personal_stats["mobility"] = 40
-  personal_stats["current health"] = personal_stats["max health"]
+  personal_stats["current health"] = personal_stats["max_health"]
 
-elsif armor_class == "2" || armor_class.downcase == "Llather gambeson"
+elsif armor_class == "2" || armor_class.downcase == "leather gambeson"
   personal_stats["armor"] = "leather gambeson"
   personal_stats["max_health"] = 100
   personal_stats["mobility"] = 30
-  personal_stats["current health"] = personal_stats["max health"]
+  personal_stats["current health"] = personal_stats["max_health"]
 
 elsif armor_class == "3" || armor_class.downcase == "chainmail"
   personal_stats["armor"] = "chainmail"
   personal_stats["max_health"] = 120
   personal_stats["mobility"] = 20
-  personal_stats["current health"] = personal_stats["max health"]
+  personal_stats["current health"] = personal_stats["max_health"]
 
 elsif armor_class == "4"
   print "Name your armor: "
@@ -106,13 +106,13 @@ elsif armor_class == "4"
   personal_stats["armor"] = "%s" % armor_other.downcase
   personal_stats["max_health"] = 100
   personal_stats["mobility"] = 30
-  personal_stats["current health"] = personal_stats["max health"]
+  personal_stats["current health"] = personal_stats["max_health"]
 
 else
   personal_stats["armor"] = armor_class.downcase
   personal_stats["max_health"] = 100
   personal_stats["mobility"] = 30
-  personal_stats["current health"] = personal_stats["max health"]
+  personal_stats["current health"] = personal_stats["max_health"]
 
 end
 
@@ -239,17 +239,21 @@ if orc_en1_response == "1" || orc_en1_response.downcase == "engage the orcs in b
   print "> "
   orc_en1_attack = $stdin.gets.chomp
   if orc_en1_attack == "1"
-    puts "#{orc_en1_companion} slays the first orc while #{companions!=orc_en1_companion}"
+    puts "#{orc_en1_companion} slays the first orc while #{companions[2}"
     print " slays the second."
 
-  elsif orc_en1_attack == "2"
+  elsif orc_en1_attack == "2" && orc_en1_companion != name
     puts "#{orc_en1_companion} slays the first orc, but is mortally wounded by the second orc and dies."
     companions.delete("#{orc_en1_companion}")
     puts "In a rage, #{companions[2]} decapitates the orc in retribution."
 
+  elsif orc_en1_attack == "2" && orc_en1_companion == name
+    puts "You slay the first orc, but are wounded by the second orc (-10 HP)."
+    puts "In a rage, #{companions[2]} decapitates the orc in retribution."
+
   elsif orc_en1_attack == "3"
     puts "#{orc_en1_companion} slits the throat of the first orc."
-    puts "#{name} uses their #{weapons[0]} to slay the second orc."
+    puts "#{name} uses their #{weapon} to slay the second orc."
   end
 
 else
