@@ -26,8 +26,7 @@ elsif (booleanExpression2)
 
 else
 
-    # code to execute if all previous if and elsif
-   statements are false
+    # code to execute if all previous if and elsif statements are false
 
 end
 
