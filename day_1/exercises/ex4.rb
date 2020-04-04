@@ -29,5 +29,8 @@ puts "We need to put about #{90 / 30} in each car."
 
 # Study Drills
 
-# the error on line 14 came about because the variable was written as a string vs a defined variable or perhaps in line 7 where the variavble 'carpool_capacity' is defined there was some sort of spelling error.
-#1 In this particular instance, the .0 is not as curcial because it still produces the same asnwer just without the .0 (ie 120.0 vs 120)
+# the error on line 14 came about because the variable was written as a string vs
+# a defined variable or perhaps in line 7 where the variavble 'carpool_capacity'
+# is defined there was some sort of spelling error.
+#1 In this particular instance, the .0 is not as curcial because it still
+# produces the same asnwer just without the .0 (ie 120.0 vs 120)

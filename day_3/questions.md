@@ -18,8 +18,8 @@ To allow the option for more than one choice. If you choose this, then you get t
 
 toilet_paper = 10
 
-if toilet_paper < 1
-  puts "Buy more toilet paper."
+if toilet_paper < 1\s\s
+  puts "Buy more toilet paper."\s\s
 end   
 
 1. How do you add multiple conditions to an if statement?
@@ -28,19 +28,19 @@ By adding elsif and else statements after the initial if
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-boys = 12
+boys = 12\s\s
 girls = 15
 
-if boys > girls
-  puts "We need more girls."
-elsif boy < girls
-    puts "We need more boys."
-else
-    puts "Just deal with it."
+if boys > girls\s\s
+  puts "We need more girls."\s\s
+elsif boy < girls\s\s
+    puts "We need more boys."\s\s
+else\s\s
+    puts "Just deal with it."\s\s
 end     
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-Math calculations
-Surveys
+Math calculations\s\s
+Surveys\s\s
 ??
