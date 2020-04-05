@@ -7,9 +7,9 @@ Calls a given block of code once for each element in an array, using each elemen
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.each {|x| print x, "--" }
-    a -- b -- c -- d --
+a = ["a", "b", "c", "d" ]
+a.each {|x| print x, "--" }
+a -- b -- c -- d --
 '''
 
 ### 2. *.join:*
@@ -19,9 +19,11 @@ Returns the elements of an array as one string, separated by the desired *separa
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    ["a", "b", "c", "d" ].join("-")
-    #=> "a-b-c-d"
+
+a = ["a", "b", "c", "d" ]
+["a", "b", "c", "d" ].join("-")
+ #=> "a-b-c-d"
+
 '''
 
 ### 3. *.include?:*
@@ -30,10 +32,10 @@ Returns true if the specified item is within the array, and false if the item is
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.include?("b") #=> true
-    # or
-    a.include?("r") #>= false
+a = ["a", "b", "c", "d" ]
+a.include?("b") #=> true
+ #or
+a.include?("r") #>= false
 '''
 
 ### 4. *.collect*
@@ -42,9 +44,9 @@ Calls the given block once for each item within the array, and creates a new arr
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.collect { |x| x + "?" }
-    #>= ["a?", "b?", "c?", "d?" ]
+a = ["a", "b", "c", "d" ]
+a.collect { |x| x + "?" }
+ #>= ["a?", "b?", "c?", "d?" ]
 '''
 
 ### 5. *.count:*
@@ -53,8 +55,8 @@ Returns the number of elements.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.count #=> 4
+a = ["a", "b", "c", "d" ]
+a.count #=> 4
 '''
 
 ### 6. **.sort:**
@@ -63,8 +65,8 @@ Returns a new array where the elements are sorted in alphabetical order if they 
 **Example:**
 
 '''ruby
-    a = ["c", "a", "d", "b" ]
-    a.sort #=> ["a", "b", "c", "d" ]
+a = ["c", "a", "d", "b" ]
+a.sort #=> ["a", "b", "c", "d" ]
 '''
 
 ### 7. *.shuffle:*
@@ -73,8 +75,8 @@ Shuffles the items in an array and outputs a new array.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.shuffle #=> ["c", "a", "b", "d" ]
+a = ["a", "b", "c", "d" ]
+a.shuffle #=> ["c", "a", "b", "d" ]
 '''
 
 ### 8. *.last:*
@@ -83,8 +85,8 @@ Returns the last item in an array, or nil if empty.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.last #=> "d"
+a = ["a", "b", "c", "d" ]
+a.last #=> "d"
 '''
 
 ### 9. *.first:*
@@ -103,9 +105,9 @@ Returns the position or index of a specified item within the array, or nil if em
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.index("b")
-    #=> "1"
+a = ["a", "b", "c", "d" ]
+a.index("b")
+ #=> "1"
 '''
 
 
@@ -119,8 +121,8 @@ Returns the last element in the array. Does nothing if the array is empty.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.pop #=> "d"
+a = ["a", "b", "c", "d" ]
+a.pop #=> "d"
 '''
 
 ### 2. *.push:*
@@ -129,9 +131,9 @@ Returns the last element in the array. Does nothing if the array is empty.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.push("e", "f", "g")
-    #=> ["a", "b", "c", "d", "e", "f", "g"]
+a = ["a", "b", "c", "d" ]
+a.push("e", "f", "g")
+ #=> ["a", "b", "c", "d", "e", "f", "g"]
 '''
 
 ### 3. *.clear:*
@@ -140,8 +142,8 @@ Removes everything inside of  array.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.clear  #=> []
+a = ["a", "b", "c", "d" ]
+a.clear  #=> []
 '''
 
 ### 4. *.compact:*
@@ -150,8 +152,8 @@ Returns the array, minus all of the nil elements.
 **Example:**
 
 '''ruby
-    ["a", "nil", "c", "d" ].compact
-    #=> ["a","c", "d"]
+["a", "nil", "c", "d" ].compact
+ #=> ["a","c", "d"]
 '''
 
 ### 5. *.count:*
@@ -160,6 +162,6 @@ Returns the number of elements.
 **Example:**
 
 '''ruby
-    a = ["a", "b", "c", "d" ]
-    a.count #=> 4
+a = ["a", "b", "c", "d" ]
+a.count #=> 4
 '''
