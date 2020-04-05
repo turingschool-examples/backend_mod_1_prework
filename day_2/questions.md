@@ -2,27 +2,27 @@
 
 ### 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-'''ruby
+```ruby
 ["zebra", "giraffe", "elephant"]
-'''
+```
 
 ### 2. Save the array you created above to a variable `animals`.
 
-'''ruby
+```ruby
 animals = ["zebra", "giraffe", "elephant"]
-'''
+```
 
 ### 3. Using the array `animals`, how would you access `"giraffe"`?
 
-'''ruby
+```ruby
 animals[1]
-'''
+```
 
 ### 4. How would you add `"lion"` to the `animals` array?
 
-'''ruby
+```ruby
 animals.push "Lion" or animals << "Lion"
-'''
+```
 
 ### 5. Name and describe two additional array methods:
 
@@ -37,15 +37,15 @@ The main three Boolean Values in Ruby are:
 - ! which represents NOT
 
 ### 7. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
-'''ruby
+```ruby
 2 == 25
-'''
+```
 
 This equates to *False*.
 
 ### 8. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
-'''ruby
+```ruby
 25 > 2
-'''
+```
 
 This equates to *True*.
