@@ -21,7 +21,9 @@ animals[1]
 ### 4. How would you add `"lion"` to the `animals` array?
 
 ```ruby
-animals.push "Lion" or animals << "Lion"
+animals.push "Lion"
+#or
+animals << "Lion"
 ```
 
 ### 5. Name and describe two additional array methods:
