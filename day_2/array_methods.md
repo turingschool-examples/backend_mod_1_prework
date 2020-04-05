@@ -5,6 +5,7 @@
 Calls a given block of code once for each element in an array, using each element as a parameter and returning the array itself.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.each {|x| print x, "--" }
@@ -16,6 +17,7 @@ Calls a given block of code once for each element in an array, using each elemen
 Returns the elements of an array as one string, separated by the desired *separator*.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     ["a", "b", "c", "d" ].join("-")
@@ -26,6 +28,7 @@ Returns the elements of an array as one string, separated by the desired *separa
 Returns true if the specified item is within the array, and false if the item is not found.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.include?("b") #=> true
@@ -37,6 +40,7 @@ Returns true if the specified item is within the array, and false if the item is
 Calls the given block once for each item within the array, and creates a new array containing the values that were returned.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.collect { |x| x + "?" }
@@ -47,6 +51,7 @@ Calls the given block once for each item within the array, and creates a new arr
 Returns the number of elements.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.count #=> 4
@@ -56,6 +61,7 @@ Returns the number of elements.
 Returns a new array where the elements are sorted in alphabetical order if they are strings, or ascending value order if they are numbers.
 
 **Example:**
+
 '''ruby
     a = ["c", "a", "d", "b" ]
     a.sort #=> ["a", "b", "c", "d" ]
@@ -65,6 +71,7 @@ Returns a new array where the elements are sorted in alphabetical order if they 
 Shuffles the items in an array and outputs a new array.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.shuffle #=> ["c", "a", "b", "d" ]
@@ -74,6 +81,7 @@ Shuffles the items in an array and outputs a new array.
 Returns the last item in an array, or nil if empty.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.last #=> "d"
@@ -83,6 +91,7 @@ Returns the last item in an array, or nil if empty.
 Returns the first item in an array, or nil if empty.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.last #=> "a"
@@ -92,6 +101,7 @@ Returns the first item in an array, or nil if empty.
 Returns the position or index of a specified item within the array, or nil if empty.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.index("b")
@@ -107,6 +117,7 @@ Returns the position or index of a specified item within the array, or nil if em
 Returns the last element in the array. Does nothing if the array is empty.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.pop #=> "d"
@@ -116,6 +127,7 @@ Returns the last element in the array. Does nothing if the array is empty.
 "Pushes" desired objects to the end fo the array. Since a.push will return the array as a whole, you can chain appends together.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.push("e", "f", "g")
@@ -126,6 +138,7 @@ Returns the last element in the array. Does nothing if the array is empty.
 Removes everything inside of  array.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.clear  #=> []
@@ -135,6 +148,7 @@ Removes everything inside of  array.
 Returns the array, minus all of the nil elements.
 
 **Example:**
+
 '''ruby
     ["a", "nil", "c", "d" ].compact
     #=> ["a","c", "d"]
@@ -144,6 +158,7 @@ Returns the array, minus all of the nil elements.
 Returns the number of elements.
 
 **Example:**
+
 '''ruby
     a = ["a", "b", "c", "d" ]
     a.count #=> 4
