@@ -8,6 +8,7 @@ Arrays and hashes vary from each other because arrays are just an ordered collec
 **1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.**
 
 pet_store = {beds: 15, birds: 13, litter_boxes: 8, kibble_bags: 24}
+
 p pet_store
 
 
