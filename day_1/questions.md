@@ -14,7 +14,7 @@ An integer is a whole number (4) and a float is a decimal number (4.1)
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
-animal = zebra
+animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 

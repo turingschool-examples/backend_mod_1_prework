@@ -16,15 +16,14 @@ p house_elf
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
 hp_quote = "Harry Potter must not return to Hogwarts!"
+p hp_quote
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
 students = 22
-add = 2
-p students + add
+p students + 2
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
 students = 22
-sub = -2
-p students + sub 
+p students -2
