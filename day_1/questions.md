@@ -11,7 +11,7 @@
 1. What character is used to indicate comments in a ruby file?
 
   The octathorpe or pound sign.<br>
-  `# this is a comment`
+  `# this is a comment!`
 
 1. Explain the difference between an integer and a float?
 
