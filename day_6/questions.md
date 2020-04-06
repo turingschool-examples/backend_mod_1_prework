@@ -19,9 +19,9 @@ class Dog
 attr_accessor :name, :breed, :favorite_toy
 
   def initialize(name, breed, favorite_toy)
-   @name   = name
-   @breed  = breed
-   @favorite_toy = favorite_toy
+    @name   = name
+    @breed  = breed
+    @favorite_toy = favorite_toy
   end
 
   def do_trick
@@ -38,7 +38,7 @@ end
 
 * `marley = Dog.new("Marley", "Pitbull", "orange ball")`
 
-* instance = Class.new(variables)
+* `instance = Class.new(variables)`
 
 1. What questions do you still have about classes in Ruby?
 
