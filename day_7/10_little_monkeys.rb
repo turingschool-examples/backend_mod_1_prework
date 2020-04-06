@@ -13,11 +13,11 @@ numbers = {
   9 => 'Nine',
   10 => 'Ten'
 }
-# use the each method but ran in reverse 
+# use the each method but ran in reverse
 numbers.reverse_each do |key, value|
 # states if integer = 1, add the string value and write the remaining string
   if key == 1
-    puts "#{value} little monkeys jumping on the bed,"
+    puts "#{value} little monkey jumping on the bed,"
     puts 'He fell off and bumped his head,'
 # states any other integer add the string value and the remaining string
   else
