@@ -1,0 +1,15 @@
+produce = {"apples" => 3, "oranges" => 1, "carrots" => 12}
+puts "There are #{produce['oranges']} oranges in the fridge."
+
+produce["grapes"] = 221
+produce
+produce["oranges"] = 6
+produce
+produce.keys
+produce.values
+
+puts "There are #{produce['oranges']} oranges in the fridge."
+
+fruit = {bananas: 100, limes: 100000, lemons: 100000000}
+
+puts "There are #{fruit[:limes]} limes in the fridge."
