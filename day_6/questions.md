@@ -14,8 +14,8 @@
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 
-*
-`class Dog
+* ```
+class Dog
   attr_accessor :name, :breed, :favorite_toy
 
   def initialize(name, breed, favorite_toy)
@@ -33,8 +33,7 @@
   puts "Ooo, a new #{toy} for my #{@breed}...you know what that means! I think #{@name} has a new favorite toy!"
   end
 end
-`
-
+```
 1. How do you create an instance of a class?
 
 * `marley = Dog.new("Marley", "Pitbull", "orange ball")`
