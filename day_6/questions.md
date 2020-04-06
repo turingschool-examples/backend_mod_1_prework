@@ -14,14 +14,14 @@
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 
-* ```
+* 
 class Dog
-  attr_accessor :name, :breed, :favorite_toy
+attr_accessor :name, :breed, :favorite_toy
 
   def initialize(name, breed, favorite_toy)
-    @name   = name
-    @breed  = breed
-    @favorite_toy = favorite_toy
+   @name   = name
+   @breed  = breed
+   @favorite_toy = favorite_toy
   end
 
   def do_trick
@@ -29,14 +29,16 @@ class Dog
   end
 
   def new_toy(toy)
-  self.favorite_toy = toy
-  puts "Ooo, a new #{toy} for my #{@breed}...you know what that means! I think #{@name} has a new favorite toy!"
+    self.favorite_toy = toy
+    puts "Ooo, a new #{toy} for my #{@breed}...you know what that means! I think #{@name}           has a new favorite toy!"
   end
 end
-```
+
 1. How do you create an instance of a class?
 
 * `marley = Dog.new("Marley", "Pitbull", "orange ball")`
+
+* instance = Class.new(variables)
 
 1. What questions do you still have about classes in Ruby?
 
