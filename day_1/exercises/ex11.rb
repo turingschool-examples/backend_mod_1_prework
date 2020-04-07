@@ -18,6 +18,7 @@ number = gets.chomp.to_i
 bigger = number * 100
 puts "A bigger number is #{bigger}."
 
+#Remmeber that gets.chomp gives you a string, so, you have to turn it into a number.
 print "give me another number: "
 another = gets.chomp
 number = another.to_i
