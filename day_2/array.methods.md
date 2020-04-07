@@ -27,14 +27,14 @@ We can ask ruby if the array includes specific elements. Returns true/false valu
 ### .each
 Allow us to apply a method to each element at the same time and print them. Example below:
 
-> * meals = ["corn", "peas", "apple"]
-> * meals.each {|x| print x + "--"}  ==> corn--peas--apple--
+> meals = ["corn", "peas", "apple"]
+> meals.each {|x| print x + "--"}  ==> corn--peas--apple--
 
 ### .collect
 Allow us to apply a method to each element at the same time and return a new array with applied changes. Example below:
 
-> * meals = ["corn", "peas", "apple"]
-> * meals.collect { |x| x + "!"}   ==>  ["corn!", "peas!", "apple!"]
+> meals = ["corn", "peas", "apple"]
+> meals.collect { |x| x + "!"}   ==>  ["corn!", "peas!", "apple!"]
 
 
 ### .shuffle
