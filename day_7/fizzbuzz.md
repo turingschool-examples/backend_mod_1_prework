@@ -12,5 +12,25 @@ The output of your program will look something like this:
 => 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, ..., 98, Fizz, Buzz
 ```
 
+```
+fizzbuzz = [*1..100]
+
+fizzbuzz.each do |num|
+  if num % 3 == 0
+    puts "Fizz"
+  elsif num % 5 == 0
+    puts "Buzz"
+  elsif num % 15 == 0
+    puts "FizzBuzz"
+  else puts num
+  end
+end
+```
+
+
+
+
+
+
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
