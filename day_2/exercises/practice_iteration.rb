@@ -44,13 +44,8 @@ names.each { |name| puts name.split(' ').last + ", " + name.split(' ').last.leng
 
 #create an integer which represents the total number of characters in all the names
 
-# the following code returns the character count for each name (w/o spaces), but prints them together (not added together). How to add the integers together?
-names.each { |name| print name.split(' ').join('').length.to_i }
-
-# this is a hacked solution that clearly doesn't scale.
-# I could also skip the variables and just add these together, butsame problem.
-name0 = names[0].split(' ').join('').length.to_i
-name1 = names[1].split(' ').join('').length.to_i
-name2 = names[2].split(' ').join('').length.to_i
-integer = name0 + name1 + name2
+total_count = 0
+names.each { |name|
+  total_count += name.split(' ').join('').length }
+p total_count
 # => 27
