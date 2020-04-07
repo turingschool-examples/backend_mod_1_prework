@@ -8,7 +8,7 @@ class Teacher
     @eye_color = eye_color
   end
 
-  def grades_papers(grader)
+  def gradesPapers(grader)
     if grader
        " grades papers at his desk"
     else
@@ -16,7 +16,7 @@ class Teacher
     end
   end
 
-  def eats_apples(eater)
+  def eatsApples(eater)
     if eater
        " while he eats apples."
     else
@@ -31,4 +31,4 @@ end
 
 Bob = Teacher.new("Bob", "blue")
 #puts "Bob with the #{eye_color} eyes #{grades_papers} at his desk while he #{eats_apples}."
-p Bob.introduction + Bob.grades_papers(true) + Bob.eats_apples(true)
+p Bob.introduction + Bob.gradesPapers(true) + Bob.eatsApples(true)
