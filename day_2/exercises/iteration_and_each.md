@@ -2,10 +2,10 @@
 
 ## If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples?
 To double the elements within the array, for example:
-`array = [1, 2, 3, 4]
+```array = [1, 2, 3, 4]
 array.each do |array|
   puts array * 2
-end`
+end```
 
 To triple the elements within the array, for example:
 `array = [1, 2, 3, 4]
