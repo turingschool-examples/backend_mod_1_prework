@@ -3,7 +3,7 @@
 1. How would you print the string `"Hello World!"` to the terminal?
 print "Hello World!"
 1. What character is used to indicate comments in a ruby file?
-#
+pound sign
 1. Explain the difference between an integer and a float?
 Interger has no decimals
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
