@@ -24,13 +24,66 @@ end
 
 #How would you print out only the first name?
 names.each do |names|
-  puts names
+  puts first_name = names.split[0]
 end
+# GOT IT!!!! that took a while ^^^
+# help from google and experimenting
 
 #How would you print out only the last name?
+names.each do |names|
+  puts last_name = names.split[1]
+end
 
 #How could you print out only the initials?
+names.each do |names|
+  first_name = names.split[0]
+  last_name = names.split[1]
+  first_initial = first_name[0]
+  last_initial = last_name[0]
+  puts "#{first_initial}." + "#{last_initial}."
+end
+# turned them into strings to be able to use a period
+
 
 #How can you print out the last name and how many characters are in it?
+names.each do |names|
+  last_name = names.split[1]
+  print last_name
+  puts last_name.length
+end
+
+#OR
+
+names.each do |names|
+  last_name = names.split[1]
+  puts "#{last_name} #{last_name.length}"
+end
+# To add a space between the name and number of characters
 
 #How can you create an integer which represents the total number of characters in all the names?
+names.each do |names|
+  first_name = names.split[0]
+  last_name = names.split[1]
+  puts first_name.length + last_name.length
+end
+## NOT SURE HOW TO FIND THE SUM OF ALL NAMES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
