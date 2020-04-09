@@ -5,7 +5,8 @@ To double the elements within the array, for example:
 ```array = [1, 2, 3, 4]
 array.each do |array|
   puts array * 2
-end```
+end
+```
 
 To triple the elements within the array, for example:
 `array = [1, 2, 3, 4]
