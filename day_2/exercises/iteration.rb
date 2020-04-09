@@ -15,14 +15,28 @@ end
 # "The <animal> is awesome!" for each animal:
 
 animals.each do |animal|
-  # YOUR CODE HERE
+  puts "The #{animal} is awesome!"
 end
 
-# Write code that stores an array of foods in a variable, 
+# Write code that stores an array of foods in a variable,
 # then iterates over that array to print
 # "Add <food> to shopping list" for each food item:
-# YOUR CODE HERE
+foods = ["apples", "banannas", "pears"]
 
-# Write code that stores an array of numbers in a variable, 
-# then iterates over that array to print doubles of each number: 
-# YOUR CODE HERE
+foods.each do |food|
+  puts "Add #{food} to shopping list"
+end
+
+# for the |texthere|, or the collection, can that be named anything, or is it typically the singular version of the veariable
+
+
+# Write code that stores an array of numbers in a variable,
+# then iterates over that array to print doubles of each number:
+numbers = [1,2,3,4,5]
+
+numbers.each do |number|
+  print number
+  print number
+end
+
+# i got this one to work, but i still am struggling with these.
