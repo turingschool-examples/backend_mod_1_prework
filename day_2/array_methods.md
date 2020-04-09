@@ -20,4 +20,4 @@
 
 .shuffle # shuffles ele of an array but does not modify OG array
 
-.shuffle! #shuffles ele of an array and modifies the OG array 
+.shuffle! #shuffles ele of an array and modifies the OG array
