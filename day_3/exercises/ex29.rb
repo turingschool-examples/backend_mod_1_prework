@@ -32,10 +32,17 @@ end
 
 
 if people == dogs
-  puts "People are dogs."
+puts "People are dogs."
 end
 
 
 #STUDY DRILL
 
-# I think the 'if' code presents a condition, when if met
+#1 I think the 'if' code presents a condition, when if met, the code beneath gets executed
+#2 The code doesn't need to be indented, but it makes it easier to read
+#3 The code works fine if its not indented
+#4
+if people >= dogs && people <= cats
+  puts "This code runs!"
+end
+#5 The everything changes and whatever is true will print.
