@@ -4,7 +4,7 @@
 
 A conditional statement takes a look at an argument, and if the variables meet (or do not meet) the conditions, then the command will execute (or move down to the next condition).
 
-## Examples:
+Examples:
 
 `If-statement`, `Elsif-statement` and `Else-statement`
 
