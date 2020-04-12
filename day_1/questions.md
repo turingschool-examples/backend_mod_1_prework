@@ -63,6 +63,6 @@
 
   *#length* counts the total number of characters (including whitespace) in a given string and returns it as an integer.
   ```ruby
-  "Hello".length()
+  "Hello".length
   # => 5
   ```

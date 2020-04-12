@@ -2,17 +2,17 @@
 
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 ```ruby
-zoo = ["zebra", "giraffe", "elephant"]
+["zebra", "giraffe", "elephant"]
 ```
 
 1. Save the array you created above to a variable `animals`.
 ```ruby
-animals = zoo
+animals = ["zebra", "giraffe", "elephant"]
 ```
 
 1. Using the array `animals`, how would you access `"giraffe"`?
 ```ruby
-animals[2]
+animals[1]
 ```
 
 1. How would you add `"lion"` to the `animals` array?
