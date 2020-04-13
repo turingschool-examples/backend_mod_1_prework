@@ -10,25 +10,25 @@ Using your terminal, open your local copy of the forked repository you created d
 
 ## Hash Lessons
 
-1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
+    - [x] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
+    - [x] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
 
-1. Work through the hashes.rb file in the day_5/exercises directory.
+2. Work through the hashes.rb file in the day_5/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_5 directory.
+3. Answer the questions in the questions.md file in the day_5 directory.
 
 ## Save your work in Git
 
 When you are finished with all of the day_5 activities, enter the following commands in your terminal in order to save your work to your local git repository:
 
 1. `$ git add day_5/exercises`
-1. `$ git add day_5/questions.md`
-1. Use `git add day_5/<filename>` to add all additional files that you created today
-1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Add Day 5 Work"`
+2. `$ git add day_5/questions.md`
+3. Use `git add day_5/<filename>` to add all additional files that you created today
+4. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
+5. `$ git commit -m "Add Day 5 Work"`
 
 ## Push to Github
 
