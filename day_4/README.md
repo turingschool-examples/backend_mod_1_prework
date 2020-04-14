@@ -36,6 +36,8 @@ When you are finished with all of the day_4 activities, enter the following comm
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Add Day 4 Work"`
 
+* an easier way to do this, if you are sure of the files in your folder, is to cd into the backend_module_0_capstone and `git add day_4`
+
 ## Push to Github
 
 Remember- You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Push your code up to Github with the following command:
