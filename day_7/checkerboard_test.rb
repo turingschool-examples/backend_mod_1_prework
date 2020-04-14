@@ -1,11 +1,11 @@
 # Asks the user for a number:
-# puts "Let's decide what size to make our checkerboard. Pick a number greater than 0."
-# num = gets.chomp.to_i
+puts "Let's decide what size to make our checkerboard. Pick a number greater than 0."
+num = gets.chomp.to_i
 # ------------------------------
 # For convenience,
 # let's pick our own number.
 
-num = 6
+# num = 6
 arr = (1..num).to_a
 
 # i = 0
@@ -29,7 +29,7 @@ arr = (1..num).to_a
 # Also can't figure out how to reverse
 # every other row.
 # ------------------------
-# Figured out how to reverse every other row!
+# Update: Figured out how to reverse every other row!
 
 arr.each { |i|
   if i.odd?
