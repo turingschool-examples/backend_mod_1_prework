@@ -19,10 +19,10 @@
   end
   ```
 
-1. Why might you want to use an if-statement?
+2. Why might you want to use an if-statement?
 * When you want a piece of code to be executed *only* when a certain condition(s) is/are met
 
-1. What is the Ruby syntax for an if statement?
+3. What is the Ruby syntax for an if statement?
 * Syntax:
   ```
   if <conditional statement>
@@ -30,7 +30,7 @@
   end
   ```
 
-1. How do you add multiple conditions to an if statement?
+4. How do you add multiple conditions to an if statement?
 * You would include `elsif` and/or `else` statements
 * Syntax:
   ```
@@ -43,7 +43,7 @@
   end
   ```
 
-1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+5. Provide an example of the Ruby syntax for an if/elsif/else statement:
   ```
   if test_score == "A"
     puts "You did great!"
@@ -54,5 +54,5 @@
   end
   ```
 
-1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 * I'm not sure if this will be part of the Mod 0 curriculum or capstone, but `for` loops can also be considered conditional statements because each time the code executes, the program then asks if the conditions for the code to keep running are still met. If the conditions are no longer met, then the code won't run anymore.
