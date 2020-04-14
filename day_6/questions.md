@@ -27,4 +27,5 @@ oliver = Dog.new("Oliver", "pit bull")
 
 
 1. What questions do you still have about classes in Ruby?
-No questoins as of now.
+Exercise person.rb
+Why does 'nil' print?
