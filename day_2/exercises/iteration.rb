@@ -34,9 +34,14 @@ end
 # then iterates over that array to print doubles of each number:
 numbers = [1,2,3,4,5]
 
+numbers.map { |n|n * 2  }
+
 numbers.each do |number|
-  print number
-  print number
+  p "#{number} * 2"
 end
 
-# i got this one to work, but i still am struggling with these.
+
+# this didn't work numbers = Array.new(2)
+
+
+# i got this one to work, but i still am struggling with these. it seems like most of the solutions that i am seeing online are super complex, and not basic
