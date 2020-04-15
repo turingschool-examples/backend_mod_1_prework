@@ -32,13 +32,6 @@ end
 puts cipher
 
 
-#end
-
-
-
-#cipher = CeasarCipher.new
-#cipher.encode
-#cipher.encode("Hello World", 5)
 
 
 
