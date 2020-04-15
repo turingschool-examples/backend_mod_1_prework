@@ -74,7 +74,7 @@ $ rbenv init
 .
 .
 # Load rbenv automatically by appending
-# the following to ~/.bash_profile:
+# the following to ~/.zshrc:
 
 eval "$(rbenv init -)"
 ```
@@ -84,12 +84,12 @@ This output is telling you that you will need to add the above line (beginning w
 To do this, in your terminal, enter:
 
 ```
-$ atom ~/.bash_profile
+$ atom ~/.zshrc
 ```
 
-This command will open up your `bash_profile` in Atom so you can edit it. Copy the line `eval "$(rbenv init -)"` and paste it at the END of the `bash_profile` file, and save it.
+This command will open up your `ZSH Runtime Configuration` file in Atom so you can edit it. Copy the line `eval "$(rbenv init -)"` and paste it at the END of the `.zshrc` file, and save it.
 
-Check to see if you did this step correctly by switching back to your terminal and typing `cat ~/.bash_profile`. You should see `eval "$(rbenv init -)"` at the bottom of the output.
+Check to see if you did this step correctly by switching back to your terminal and typing `cat ~/.zshrc`. You should see `eval "$(rbenv init -)"` at the bottom of the output.
 
 After, *close your terminal and reopen it.* This is a very important step since the bash profile is loaded each time a new terminal window is opened.
 
