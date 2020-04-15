@@ -19,3 +19,5 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 
 ### Bonus
 Can you write the program so that it will run for any number of monkeys?
+
+## Yes!
