@@ -1,27 +1,9 @@
-# runs for given range of numbers
-array = (1..100).to_a
+puts "Pick a number greater than 0."
+num = gets.chomp.to_i
 
-# array.each { |x|
-#   if x % 15 == 0 && x != array.last
-#     print "FizzBuzz, "
-#   elsif x % 5 == 0 && x != array.last
-#     print "Buzz, "
-#   elsif x % 3 == 0 && x != array.last
-#     print "Fizz, "
-#   elsif x % 15 == 0 && x == array.last
-#     print "FizzBuzz."
-#   elsif x % 5 == 0 && x == array.last
-#     print "Buzz."
-#   elsif x % 3 == 0 && x == array.last
-#     print "Fizz."
-#   elsif x != array.last
-#     print x.to_s + ", "
-#   else
-#     print x.to_s + "."
-#   end
-# }
+array = (1..num).to_a
 
-array.each { |x|
+array.map { |x|
   if x % 15 == 0
     print "FizzBuzz"
   elsif x % 5 == 0
@@ -38,10 +20,3 @@ array.each { |x|
     # If I wanted a . at the end, I'd add it here
   end
 }
-# how to give the results in an array?
-# I tried using #collect, didn't work.
-
-# What do they mean by 'writing the program'
-# so it will run for any range of numbers'?
-# do they mean integrating user input?
-# or writing a class method?

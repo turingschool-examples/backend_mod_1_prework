@@ -31,21 +31,21 @@ arr = (1..num).to_a
 # ------------------------
 # Update: Figured out how to reverse every other row!
 
-arr.each { |i|
+arr.map { |i|
   if i.odd?
-    p (arr.each { |x|
+    p (arr.map { |x|
       if x.odd?
-        print "O"
+        "O"
       else
-        print "X"
+        "X"
       end
     })
   else
-    p (arr.each { |x|
+    p (arr.map { |x|
       if x.even?
-        print "O"
+        "O"
       else
-        print "X"
+        "X"
       end
     })
   end
