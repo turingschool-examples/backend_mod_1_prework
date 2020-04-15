@@ -11,15 +11,15 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
-    1. [FizzBuzz](./fizzbuzz.md)
-    1. [10 Little Monkeys](./10_little_monkeys.md)
+    1. - [x][FizzBuzz](./fizzbuzz.md)
+    1. - [x][10 Little Monkeys](./10_little_monkeys.md)
 
-1. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
+1. - [ ] When you are finished with your projects, you should add, commit, and push your changes to GitHub.
 
 1. Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
 
     1. [Ceasar Cipher](./ceasar_cipher.md)
-    1. [Checker Board](./checker_board.md)
+    1. - [x] [Checker Board](./checker_board.md)
 
 1. When you are finished with your high level explanation, you should add, commit, and push your changes to GitHub.
 
@@ -32,11 +32,11 @@ When you have completed *all* the activities described above, follow the steps b
 1. Go to *your* prework repository on GitHub
 
 1. click on `New Pull Request` per the image below:
-    
+
     ![New PR](https://i.imgur.com/lGKNxwC.png)
 
 1. On the Pull Request page, make sure you see something similar to below (but with your username):
-    
+
     ![New PR](https://i.imgur.com/CwJH8os.png)
 
 1. Click on `Create New Pull Request` (circled in the image above).
@@ -53,7 +53,7 @@ And with that form submission, ***you're done!!!*** Any feedback after this has 
 
 # Extension (optional, after capstone completed)
 
-You've finished your Mod 0 Capstone assignment! So you're done!!! 
+You've finished your Mod 0 Capstone assignment! So you're done!!!
 
 But there's always more to learn!
 

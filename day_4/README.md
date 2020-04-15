@@ -12,15 +12,15 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
+    _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be using the word `method`._
 
-    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
+    - [x] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header.
 
-    - [ ] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
+    - [x] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Methods and Variables](https://learnrubythehardway.org/book/ex19.html) from Learn Ruby the Hard Way.
+    - [x] [Methods and Variables](https://learnrubythehardway.org/book/ex19.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html) from Learn Ruby the Hard Way.
+    - [x] [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html) from Learn Ruby the Hard Way.
 
 1. Work through the methods.rb file in the day_4/exercises directory.
 
@@ -35,6 +35,8 @@ When you are finished with all of the day_4 activities, enter the following comm
 1. Use `git add day_4/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Add Day 4 Work"`
+
+* an easier way to do this, if you are sure of the files in your folder, is to cd into the backend_module_0_capstone and `git add day_4`
 
 ## Push to Github
 
