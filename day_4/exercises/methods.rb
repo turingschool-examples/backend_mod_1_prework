@@ -12,16 +12,28 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "Your name is #{name}."
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
+def add_method(a, b)
+  puts "#{a} + #{b} = #{a + b}"
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+add_method(5, 9)
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+def novel_name(compass_direction, biblical_location)
+  puts "#{compass_direction} of #{biblical_location}"
+end
+
+compass_direction = "East"
+biblical_location = "Eden"
+
+novel_name(compass_direction, biblical_location)
