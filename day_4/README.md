@@ -1,7 +1,7 @@
 # Day 4 - Methods and Return Values
 
 On day 1 of the prework, you learned how to store information in Variables. Today, you will learn about another way to store information; more specifically, how to use Methods to create Return Values.  In programming, we _often_ use methods, so this is an important concept to get familiar with!
-
+«»
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
 ## Open your local copy of backend_module_0_capstone
@@ -14,7 +14,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
     _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
 
-    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
+    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header.
 
     - [ ] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
 

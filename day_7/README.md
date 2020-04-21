@@ -1,7 +1,7 @@
 # Day 7 - Build a Thing!
 
-Congrats on making it through the first 6 days of Prework! Today, you will put together everything you have learned to actually build a program! Hopefully, this will show you how much you have already accomplished in your first week as a programmer!
-
+«Congrats on making it through the first 6 days of Prework! Today, you will put together everything you have learned to actually build a program! Hopefully, this will show you how much you have already accomplished in your first week as a programmer!
+»
 When you have completed the activities for day 7, you will follow instructions to submit your work through a GitHub Pull Request.
 
 ## Open your local copy of backend_module_0_capstone
@@ -32,11 +32,11 @@ When you have completed *all* the activities described above, follow the steps b
 1. Go to *your* prework repository on GitHub
 
 1. click on `New Pull Request` per the image below:
-    
+
     ![New PR](https://i.imgur.com/lGKNxwC.png)
 
 1. On the Pull Request page, make sure you see something similar to below (but with your username):
-    
+
     ![New PR](https://i.imgur.com/CwJH8os.png)
 
 1. Click on `Create New Pull Request` (circled in the image above).
@@ -53,7 +53,7 @@ And with that form submission, ***you're done!!!*** Any feedback after this has 
 
 # Extension (optional, after capstone completed)
 
-You've finished your Mod 0 Capstone assignment! So you're done!!! 
+You've finished your Mod 0 Capstone assignment! So you're done!!!
 
 But there's always more to learn!
 
