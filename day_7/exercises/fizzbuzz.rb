@@ -1,32 +1,22 @@
 (1..100).each do |x|
-  if x % 3 == 0 && x % 5 == 0
-    if x == 100
-      print "FizzBuzz"
-    else
-      print "FizzBuzz, "
-      x += 1
-    end
+  if x % 5 == 0 && x % 3 == 0 && x == 100
+    print "FizzBuzz"
+  elsif x % 5 == 0 && x % 3 == 0
+    print "FizzBuzz, "
+    x += 1
+  elsif x % 5 == 0 && x == 100
+    print "Buzz"
   elsif x % 5 == 0
-    if x == 100
-      print "Buzz"
-    else
-      print "Buzz, "
-      x += 1
-    end
+    print "Buzz, "
+    x += 1
+  elsif x % 3 == 0 && x == 100
+    print "Fizz"
   elsif x % 3 == 0
-    if x == 100
-      print "Fizz"
-    else
-      print "Fizz, "
-      x += 1
-    end
+    print "Fizz, "
+    x += 1
   else
-    if x == 100
-      print "#{x}"
-    else
-      print "#{x}, "
-      x += 1
-    end
+    print "#{x}, "
+    x += 1
   end
 end
 
@@ -39,33 +29,25 @@ print "Please enter an integer for the upper limit for the FizzBuzz counter: "
 y = gets.chomp.to_i
 
 for z in x..y do
-  if z % 3 == 0 && z % 5 == 0
-    if z == y
-      print "FizzBuzz"
-    else
-      print "FizzBuzz, "
-      z += 1
-    end
+  if z % 5 == 0 && z % 3 == 0 && z == y
+    print "FizzBuzz"
+  elsif z % 5 == 0 && z % 3 == 0
+    print "FizzBuzz, "
+    z += 1
+  elsif z % 5 == 0 && z == y
+    print "Buzz"
   elsif z % 5 == 0
-    if z == y
-      print "Buzz"
-    else
-      print "Buzz, "
-      z += 1
-    end
+    print "Buzz, "
+    z += 1
+  elsif z % 3 == 0 && z == y
+    print "Fizz"
   elsif z % 3 == 0
-    if z == y
-      print "Fizz"
-    else
-      print "Fizz, "
-      z += 1
-    end
+    print "Fizz, "
+    z += 1
+  elsif z == y
+    print "#{z}"
   else
-    if z == y
-      print "#{z}"
-    else
-      print "#{z}, "
-      z += 1
-    end
+    print "#{z}, "
+    z += 1
   end
 end
