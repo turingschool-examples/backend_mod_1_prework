@@ -11,27 +11,27 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
+    - [x] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
 
-    - [ ] [Classes Defining Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
+    - [x] [Classes Defining Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
 
-    - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
+    - [x] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
 
-    - [ ] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
+    - [x] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
 
-1. Work through the files in the day_6/exercises directory.
+2. Work through the files in the day_6/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_6 directory.
+3. Answer the questions in the questions.md file in the day_6 directory.
 
 ## Save your work in Git
 
 When you are finished with all of the day_6 activities, enter the following commands in your terminal in order to save your work to your local git repository:
 
 1. `$ git add day_6/exercises`
-1. `$ git add day_6/questions.md`
-1. Use `git add day_6/<filename>` to add all additional files that you created today
-1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Add Day 6 Work"`
+2. `$ git add day_6/questions.md`
+3. Use `git add day_6/<filename>` to add all additional files that you created today
+4. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
+5. `$ git commit -m "Add Day 6 Work"`
 
 ## Push to Github
 

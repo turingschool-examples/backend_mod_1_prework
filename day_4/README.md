@@ -14,27 +14,27 @@ Using your terminal, open your local copy of the forked repository you created d
 
     _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
 
-    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
+    - [x] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header.
 
-    - [ ] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
+    - [x] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Methods and Variables](https://learnrubythehardway.org/book/ex19.html) from Learn Ruby the Hard Way.
+    - [x] [Methods and Variables](https://learnrubythehardway.org/book/ex19.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html) from Learn Ruby the Hard Way.
+    - [x] [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html) from Learn Ruby the Hard Way.
 
-1. Work through the methods.rb file in the day_4/exercises directory.
+2. Work through the methods.rb file in the day_4/exercises directory.
 
-1. Answer the questions in the questions.md file in the day_4 directory.
+3. Answer the questions in the questions.md file in the day_4 directory.
 
 ## Save your work in Git
 
 When you are finished with all of the day_4 activities, enter the following commands in your terminal in order to save your work to your local git repository:
 
 1. `$ git add day_4/exercises`
-1. `$ git add day_4/questions.md`
-1. Use `git add day_4/<filename>` to add all additional files that you created today
-1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Add Day 4 Work"`
+2. `$ git add day_4/questions.md`
+3. Use `git add day_4/<filename>` to add all additional files that you created today
+4. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
+5. `$ git commit -m "Add Day 4 Work"`
 
 ## Push to Github
 
