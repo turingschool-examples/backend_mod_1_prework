@@ -25,7 +25,7 @@ arr = (1..num).to_a
 
 # This code so far will print 6 rows of
 # "OXOXOX", but each row ends with the
-# original array. How do I get rid of that?
+# original array. How do I get rid of that? (answer: use .map)
 # Also can't figure out how to reverse
 # every other row.
 # ------------------------
@@ -33,20 +33,20 @@ arr = (1..num).to_a
 
 arr.map { |i|
   if i.odd?
-    p (arr.map { |x|
+    puts arr.map { |x|
       if x.odd?
         "O"
       else
         "X"
       end
-    })
+    }.join
   else
-    p (arr.map { |x|
+    puts arr.map { |x|
       if x.even?
         "O"
       else
         "X"
       end
-    })
+    }.join
   end
 }
