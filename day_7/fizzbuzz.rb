@@ -1,21 +1,23 @@
-def numbers
-  (1..100).map do |i|
+def fizzbuzz(number)
+  (1..number).map do |i|
 
     if i % 3 == 0 && i % 5 == 0
-      puts "fizzbuzz"
+      "fizzbuzz"
 
     elsif i % 3 == 0
-      puts "fizz"
+      "fizz"
 
     elsif i % 5 == 0
-      puts "buzz"
+      "buzz"
 
     else
-      puts i
+      i
     end
   end
 end
 
-numbers
+puts "Please enter an integer number for fizzbuzz to run!"
 
-#we could just change the range above 1..560 for example instead of 1..100, it could go to any range that you want it to go to and still work.
+input_number = gets.chomp.to_i
+
+puts fizzbuzz(input_number)
