@@ -15,7 +15,7 @@
 
 1. What is the Ruby syntax for an if statement?
 
-```ruby
+    ```ruby
 if conditional statement
   some code
 elsif other conditional statement (this is optional)
@@ -31,7 +31,7 @@ end
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-```ruby
+    ```ruby
 if mood == 'happy'
   puts "Yay!"
 elsif mood == 'sad'
