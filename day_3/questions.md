@@ -5,9 +5,9 @@
     Conditional statements are statements that can evaluate to either true or false. They are typically made up of conditional operators.
 
     Examples:
-    - x > 1 && x < 0
-    - answer == true
-    - array.include?(34)
+    - `x > 1 && x < 0`
+    - `answer == true`
+    - `array.include?(34)`
 
 1. Why might you want to use an if-statement?
 
@@ -16,14 +16,14 @@
 1. What is the Ruby syntax for an if statement?
 
     ```ruby
-if conditional statement
-  some code
-elsif other conditional statement (this is optional)
-  some code
-else (this is optional)
-  some code
-end
-```
+    if conditional statement
+      some code
+    elsif other conditional statement (this is optional)
+      some code
+    else (this is optional)
+      some code
+    end
+    ```
 
 1. How do you add multiple conditions to an if statement?
 
@@ -32,14 +32,14 @@ end
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
     ```ruby
-if mood == 'happy'
-  puts "Yay!"
-elsif mood == 'sad'
-  puts "Awe"
-else
-  puts "meh"
-end
-```
+    if mood == 'happy'
+      puts "Yay!"
+    elsif mood == 'sad'
+      puts "Awe"
+    else
+      puts "meh"
+    end
+    ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
