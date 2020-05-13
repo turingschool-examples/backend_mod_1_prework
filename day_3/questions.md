@@ -3,9 +3,18 @@
 1. What is a conditional statement? Give three examples.
   - A conditional statement is a statement that requires something to be either true or false depending on how you set it up  before you running a line of code. Ex:
     num = 0
-    if num == 0                 if num == 1                   if num == 2
-      puts "hello"                puts "Bye"                    puts "Hungry"
-    end                         end                           end
+    if num == 0                                    
+      puts "hello"                                    
+    end             
+
+    if num == 1
+      puts "Bye"
+    end
+
+    if num == 2
+      puts "Hungry"
+    end
+    
 1. Why might you want to use an if-statement?
   - When you want to return something specific but depending on an input you get. Can also be anything else in fact it does not have to be an input.
 1. What is the Ruby syntax for an if statement?
