@@ -14,7 +14,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
     _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
 
-    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
+    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header.
 
     - [ ] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
 
