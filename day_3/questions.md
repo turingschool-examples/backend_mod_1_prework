@@ -3,16 +3,23 @@
 1. What is a conditional statement? Give three examples.
   - A conditional statement is a statement that requires something to be either true or false depending on how you set it up  before you running a line of code. Ex:
     `num = 0`
-    `if num == 0                                    
+
+    `if num == 0         
+
       puts "hello"                                    
+
     end`          
 
     `if num == 1
+
       puts "Bye"
+
     end`
 
     `if num == 2
+
       puts "Hungry"
+      
     end`
 
 1. Why might you want to use an if-statement?
