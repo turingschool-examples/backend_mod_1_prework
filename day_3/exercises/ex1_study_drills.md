@@ -7,6 +7,6 @@
 1. **What happens if it isn't indented?**
 >Ruby won't know where your `if-statement` ends and where others being, so it will throw an error.
 1. **Can you put other boolean expressions from Exercise 27 in the `if-statement`?**
->Tested ||, &&, and != in .rb file
+>Tested ||, &&, and != in `ex1.rb` file
 1. **What happens if you change the initial values for `people`, `cats`, and `dogs`?**
 >It will change the outcome of all the conditional code.

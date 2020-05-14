@@ -29,3 +29,9 @@ if people > trucks
 else
   puts "Fine, let's stay home then."
 end
+
+# Try to guess what elsif and else are doing:
+
+# "If" executes the code if the condition is true, otherwise it will
+# execute the code specified by elsif, and lastly it will run the code
+# specified by else (which could be thought of as "otherwise run this").
