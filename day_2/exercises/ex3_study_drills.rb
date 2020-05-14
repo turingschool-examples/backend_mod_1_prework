@@ -1,4 +1,4 @@
-# Study Drills:
+# Boolean Study Drills:
 
 # Equality Operators:
 # < less than

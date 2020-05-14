@@ -1,3 +1,5 @@
+# Boolean Practice:
+
 p true && true #true
 p false && true #false
 p 1 == 1 && 2 == 1 #false
