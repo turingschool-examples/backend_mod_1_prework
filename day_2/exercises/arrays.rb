@@ -10,12 +10,13 @@ p animals
 
 # Write code that stores an array of states in a variable,
 # then prints that array:
-states = #YOUR CODE HERE
+states = ["Colorado", "California", "Michigan"]
 p states
 
 # Write code that stores an array of foods in a variable,
 # then prints that array:
-# YOUR CODE HERE
+foods = ["egg", "ribeye steak", "chicken thigh"]
+p foods
 
 # Example: Write code that prints the number of elements
 # in your above array of animals:
@@ -23,18 +24,25 @@ p animals.count
 
 # Write code that prints the number of elements
 # in your above array of foods:
-# YOUR CODE HERE
+p foods.count
 
 # Write code that prints "Zebra" from your animals array:
-# YOUR CODE HERE
-
+p animals[0]
+p animals.first
 # Write code that prints the last item of your foods array:
-# YOUR CODE HERE
+p foods[-1]
+p foods.last
 
 # Write code that adds "lion" to your animals array
 # and prints the result (Hint- use a method):
-# YOUR CODE HERE
+animals.push("lion")
+p animals
+animals << "lion2"
+p animals
 
 # Write code that removes the last element from your foods array
 # and prints the result (Hint- use a method):
-# YOUR CODE HERE
+animals.delete_at(-1)
+p animals
+animals.pop
+p animals
