@@ -1,20 +1,20 @@
-p true && true
-p false && true
-p 1 == 1 && 2 == 1
-p "test" == "test"
-p 1 == 1 || 2 != 1
-p true && 1 == 1
-p false && 0 != 0
-p true || 1 == 1
-p "test" == "testing"
-p 1 != 0 && 2 == 1
-p "test" != "testing"
-p "test" == 1
-p !(true && false)
-p !(1 == 1 && 0 != 1)
-p !(10 == 1 || 1000 == 1000)
-p !(1 != 10 || 3 == 4)
-p !("testing" == "testing" && "Zed" == "Cool Guy")
-p 1 == 1 && (!("testing" == 1 || 1 == 0))
-p "chunky" == "bacon" && (!(3 == 4 || 3 == 3))
-p 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
+p true && true #true
+p false && true #false
+p 1 == 1 && 2 == 1 #false
+p "test" == "test" #true
+p 1 == 1 || 2 != 1 #true
+p true && 1 == 1 #true
+p false && 0 != 0 #false
+p true || 1 == 1 #true
+p "test" == "testing" #false
+p 1 != 0 && 2 == 1 #false
+p "test" != "testing" #true
+p "test" == 1 #false
+p !(true && false) #true
+p !(1 == 1 && 0 != 1) #false
+p !(10 == 1 || 1000 == 1000) #false
+p !(1 != 10 || 3 == 4) #false
+p !("testing" == "testing" && "Zed" == "Cool Guy") #true
+p 1 == 1 && (!("testing" == 1 || 1 == 0)) #true
+p "chunky" == "bacon" && (!(3 == 4 || 3 == 3)) #false
+p 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun")) #false
