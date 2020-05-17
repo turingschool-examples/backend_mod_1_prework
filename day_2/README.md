@@ -20,10 +20,10 @@ Using your terminal, open your local copy of the forked repository you created d
     - [x] [Boolean Practice](https://learnrubythehardway.org/book/ex28.html) from Learn Ruby the Hard Way.
 
 1. Work through the exercise files in the day_2/exercises directory.  Complete them in this order:
-    1. arrays [x]
+    1. arrays 
     1. iteration [x]
 
-1. Answer the questions in the questions.md file in the day_2 directory. [x] 
+1. Answer the questions in the questions.md file in the day_2 directory. [x]
 
 ## Save your work in Git
 
