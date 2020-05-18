@@ -27,4 +27,8 @@ foods.each do |food|
 end
 # Write code that stores an array of numbers in a variable,
 # then iterates over that array to print doubles of each number:
-# YOUR CODE HERE
+numbers = ["1","2","3","4"]
+numbers.each do |number|
+  number = number.to_i
+  puts number * 2
+end
