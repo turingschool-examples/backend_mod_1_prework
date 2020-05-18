@@ -18,8 +18,8 @@
 
 1. Name and describe two additional array methods:
 
-#.pop removes the last variable in an array and prints that variable
-#.insert(Element Number, 'lion') allows you to insert "lion" at any position
+# .pop removes the last variable in an array and prints that variable
+# .insert(Element Number, 'lion') allows you to insert "lion" at any position
 
 1. What are the boolean values in Ruby?
 
@@ -35,8 +35,8 @@
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
-#false
+# false
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
-#true
+# true
