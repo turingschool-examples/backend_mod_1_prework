@@ -2,6 +2,8 @@ require 'humanize'
 
 # Version 2
 
+monkey_jump = {1 => "One", 2 => "Two", 3 => "Three"}
+
 print "How many monkeys are jumping on the bed?: "
 x = gets.chomp.to_i
 until x > 0
@@ -11,7 +13,7 @@ end
 
 if x == 1
     puts " "
-    puts "#{x.humanize.capitalize} little monkey jumping on the bed,"
+    puts "#{monkey_jump[x]} little monkey jumping on the bed,"
     puts "It fell off and bumped his head,"
     puts "Mama called the doctor and the doctor said,"
     puts "No more monkeys jumping on the bed!"
@@ -21,7 +23,7 @@ elsif x >= 1
     loop do
         if x >= 1
             puts " "
-            puts "#{x.humanize.capitalize} little monkeys jumping on the bed,"
+            puts "#{monkey_jump[x]} little monkeys jumping on the bed,"
             puts "One fell off and bumped his head,"
             puts "Mama called the doctor and the doctor said,"
             puts "No more monkeys jumping on the bed!"
@@ -30,7 +32,7 @@ elsif x >= 1
            x -= 1
            if  x == 0
              puts " "
-             puts "#{x.humanize.capitalize} little monkeys jumping on the bed,"
+             puts "#{monkey_jump[x]} little monkeys jumping on the bed,"
              puts "No one fell off nor bumped his head,"
              puts "Mama and the doctor were happy to say,"
              puts "No little monkeys falling is a good day!"
