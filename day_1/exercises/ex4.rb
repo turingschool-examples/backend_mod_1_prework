@@ -8,11 +8,11 @@ drivers = 30
 passengers = 90
 # The line below tells ruby the variable "cars_not_driven" should be interpreted as the result of subtracting the number "drivers" represents from the number "cars" represents.
 cars_not_driven = cars - drivers
-# The line below tells ruby the string "cars_driven" should be interpreted as the number "drivers" represents
+# The line below tells ruby the variable "cars_driven" should be interpreted as the number "drivers" represents
 cars_driven = drivers
-# The line below tells ruby the string "carpool_capacity" should be interpreted as the result of multiplying "cars_driven" and "space_in_a_car"
+# The line below tells ruby the variable "carpool_capacity" should be interpreted as the result of multiplying "cars_driven" and "space_in_a_car"
 carpool_capacity = cars_driven * space_in_a_car
-# The line below tells ruby the string "cars" should be interpreted as the interger "100"
+# The line below tells ruby the variable "cars" should be interpreted as the interger "100"
 average_passengers_per_car = passengers / cars_driven
 
 
