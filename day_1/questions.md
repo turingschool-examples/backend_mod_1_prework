@@ -42,6 +42,6 @@
 
 1. Name and describe two common string methods:
 
-   -`.split` splits a string into an array of smaller substrings split by a space
+   - `.split` splits a string into an array of smaller substrings split by a space
 
-   -`.length` returns the number of characters in a string
+   - `.length` returns the number of characters in a string
