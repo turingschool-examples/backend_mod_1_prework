@@ -4,14 +4,15 @@
 A conditional statement is a statement that is dependent upon certain conditions being met.  [From Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals), they evaluate to `true` or `false`.
 
 Examples:
-`if tacos == 7
+```if tacos == 7
    puts "We have enough tacos!"
 
 if time >= 1800
   puts "It's taco time!"
 
 if money < 100 and feet = "hurt"
-  puts "Your feet hurt and you don't have enough money to order tacos"`
+  puts "Your feet hurt and you don't have enough money to order tacos"
+  ```
 
 
 1. Why might you want to use an if-statement?  
@@ -19,7 +20,7 @@ As we saw in the Zork-esq mini-game, it could be used to create a sort of interf
 
 1. What is the Ruby syntax for an if statement?  
 
-`variable = <a float, integer, string, array, etc>
+```variable = <a float, integer, string, array, etc>
 
 if variable == <a float integer, string, array, etc>
   puts "The thing you'd like the terminal to print"
@@ -27,7 +28,8 @@ elsif variable == <a different float, integer, string, array, etc>
   puts "Another option"
 else
   puts "An option in case none of the other conditions have been met."
-end`
+end
+```
 
 1. How do you add multiple conditions to an if statement?  
 With `elsif`!
