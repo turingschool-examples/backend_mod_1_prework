@@ -7,8 +7,10 @@
     > p "Hello World!"
 
 1. What character is used to indicate comments in a ruby file?
-    > # single line comments
-
+    ```
+    # single line comments
+    ```
+    
     ```
     =begin
     for
