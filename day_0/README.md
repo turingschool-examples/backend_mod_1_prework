@@ -69,3 +69,6 @@ Be careful when deleting something though the terminal! While we want to be comf
 ### Practice
 
 Use `rm` and `rm -rf` to delete each of the files and directories you created in the Making Things section above. Note, that it would be possible to delete the entire directory that you created with just `rm -rf secret_library`. *Don't do this!* At this point, delete each of the files and directories individually to practice these commands. This will help you remember them better in the long run, which is the goal! More practice now will allow you to be more efficient in the future.
+
+# Student Response
+>I practiced all of this once. I felt very comfortable with this practice, so I moved forward to Day 1.
