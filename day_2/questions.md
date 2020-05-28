@@ -4,28 +4,23 @@
 
 _An array is denoted by the [] symbols. To use the strings you must use double-quotes. And to distinguish between the elements, include a comma between them._
 
-*don't forget to format for code blocks after push from local to forked repo*
-_["zebra", "giraffe", "elephant"]_
+```["zebra", "giraffe", "elephant"]```
 
 2. Save the array you created above to a variable `animals`.
 
-*don't forget to format for code blocks after push from local to forked repo*
-_animals = ["zebra", "giraffe", "elephant"]_
+```animals = ["zebra", "giraffe", "elephant"]```
 
 3. Using the array `animals`, how would you access `"giraffe"`?
 
-
 _To access an element, you can use the array[#], where # represents the index value of the element beginning with the whole number 0. In this case, we want the second element at index value 1._
 
-*don't forget to format for code blocks after push from local to forked repo*
-_animals[1]_
+```animals[1]```
 
 4. How would you add `"lion"` to the `animals` array?
 
 _You can use the '<<' code to add the strings to the end of the array or you can use the .push method to add elements to the end and the .unshift to add elements to the beginning._
 
-*don't forget to format for code blocks after push from local to forked repo*
-_animals << "lion"_
+```animals << "lion"```
 
 5. Name and describe two additional array methods:
 
@@ -42,9 +37,10 @@ _They are true and false and can be used with methods such as '==' which means i
 
 _You would evaluate using the method '=='. This would return a false boolean value._
 
-*don't forget to format for code blocks after push from local to forked repo*
-_2 == 25_
+```2 == 25```
 
 8. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
 _You would evaluate using the method '>'. This would return a true boolean value._
+
+```25 > 2```
