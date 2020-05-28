@@ -5,6 +5,7 @@
 Conditional statements are statements that execute based on meeting certain criteria. One or more branches can be take based on the criteria.
 
 Example 1 - generic if statements
+
     ```
     num_dogs = 2
     num_cats = 3
@@ -18,6 +19,7 @@ Example 1 - generic if statements
     end
     ```
   Example 2 - elsif statements
+
     ```
     num_dogs = 2
     num_cats = 3
@@ -30,6 +32,7 @@ Example 1 - generic if statements
     ```
 
   Example 3 - nested statements
+
     ```
     num_dogs = 2
     num_cats = 3
@@ -55,6 +58,7 @@ If statements are good for one or two options that don't depend on many variable
 3. **What is the Ruby syntax for an if statement?**
 
 The syntax is as follows:
+
 ```
 if (condition)
   statements
