@@ -2,7 +2,8 @@
 
 1. What is a conditional statement? Give three examples.
   A conditional statement evaluates a true or false to run or skip portions of code
-  ex: if sun_out == true
+  ex:
+        if sun_out == true
           puts "good morning"
         end
 
@@ -30,6 +31,7 @@
 using && or ||
 
 5. Provide an example of the Ruby syntax for an if/elsif/else statement:
+
   if battery_charge < 80%
     puts "fast charging enabled"
   elsif battery_charge > 81%
