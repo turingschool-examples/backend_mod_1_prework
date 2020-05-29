@@ -19,16 +19,16 @@
 
 1. What are the boolean values in Ruby?
 Logic statements are used to determine whether something is true or false.
-- && and
+- `&&` and
   - true/true returns true; true/false returns false
-- || or
+- `||` or
   - true/true returns true; true/false returns true
-- ! not
-- != not equal
-- >= greater-than-equal
-- <= less-than-equal
-- true
-- false
+- `!` not
+- `!=` not equal
+- `>=` greater-than-equal
+- `<=` less-than-equal
+- `true`
+- `false`
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 `2 == 25` returns `false`
