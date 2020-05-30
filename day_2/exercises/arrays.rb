@@ -38,4 +38,5 @@ p animals << "lion"
 
 # Write code that removes the last element from your foods array
 # and prints the result (Hint- use a method):
+
 p foods.pop

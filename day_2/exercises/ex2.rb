@@ -1,5 +1,4 @@
 # Questions from https://learnrubythehardway.org/book/ex28.html
-
 # Boolean practice - Questions 1-20 on the above webpage
 
 #1 true

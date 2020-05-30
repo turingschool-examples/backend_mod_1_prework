@@ -13,7 +13,6 @@ end
 
 # Write code that iterates through a list of animals and prints
 # "The <animal> is awesome!" for each animal:
-
 animals.each do |animal|
   p "The #{animal} is awesome!"
 end
@@ -36,4 +35,4 @@ end
 numbers = 1, 2, 3, 4, 5
 numbers.each do |number|
   p number * 2
-end 
+end

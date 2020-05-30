@@ -1,5 +1,6 @@
 ## Day 2 Questions
 
+
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 * ["Zebra", "Giraffe", "Elephant"]
 1. Save the array you created above to a variable `animals`.

@@ -1,5 +1,6 @@
 # Questions from "Iteration and Each" lesson.
 # How do you print the doubles of each number in an array?
+
 array = [1, 2, 3, 4]
 array.each do |doubled|
   puts doubled * 2
