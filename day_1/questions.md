@@ -113,6 +113,6 @@ Outputs:
 
 ```
 
-"HelloHelloHello"
+HelloHelloHello
 
 ```
