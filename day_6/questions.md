@@ -10,7 +10,7 @@
 
 1. What is behavior of a Class?
 
-   - A behavior of a class is an function or method of a class
+   - A behavior of a class is a function or method of a class
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 
