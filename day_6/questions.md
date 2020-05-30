@@ -42,4 +42,4 @@
 
 1. What questions do you still have about classes in Ruby?
 
-   -What might be more scenarios in which we use `self.instance_variable` over `@instance_variable` or just `instance_variable` in a class?
+   - What might be more scenarios in which we use `self.instance_variable` over `@instance_variable` or just `instance_variable` in a class?
