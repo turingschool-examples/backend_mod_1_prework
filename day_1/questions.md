@@ -87,7 +87,7 @@ For example:
 
 ```ruby
 
-print "Coding" + "fun"
+print "Coding" + "is fun"
 
 ```
 
