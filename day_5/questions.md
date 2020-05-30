@@ -34,7 +34,7 @@
    ```ruby
    fav_artist_albums = {
      "Lady Gaga": "Chromatica",
-     "Dua Lipa": "Future Nostalgia"
+     "Dua Lipa": "Future Nostalgia",
      "Charli XCX": "How I'm Feeling Now"
    }
    ```
