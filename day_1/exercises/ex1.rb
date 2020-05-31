@@ -1,0 +1,10 @@
+puts "Hello World!"
+puts "Hello Again"
+puts "I like typing this."
+puts "This is fun."
+puts "Yay! Printing."
+puts "I'd much rather you 'not'."
+puts 'I "said" do not touch this.'
+puts " "
+#puts "Hmm, how do I make it only run one line?"
+#"The octothorpe makes a comment, or hides this section from printing out"
