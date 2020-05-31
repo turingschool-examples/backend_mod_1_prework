@@ -51,7 +51,7 @@ puts animal
 
 answer:
 
-Interpolation inserts data held within a variable, such as a string or integer, into text.
+Interpolation inserts data held within a variable, such as a string or integer, into a string.
 
 ```ruby
 
@@ -99,13 +99,15 @@ Coding is fun
 
 ```
 
-Another common string method is String Replication, which uses the `*` operator to multiply a string by the indicated number.
+Another common string method is Looping, which repeats a given string an indicated number of times
 
 For example:
 
 ```ruby
 
-print "Hello" * 3
+5.times do
+  "Repeat this line 5 times"
+end
 
 ```
 
@@ -113,6 +115,10 @@ Outputs:
 
 ```
 
-HelloHelloHello
+"Repeat this line 5 times"
+"Repeat this line 5 times"
+"Repeat this line 5 times"
+"Repeat this line 5 times"
+"Repeat this line 5 times"
 
 ```
