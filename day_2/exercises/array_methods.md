@@ -1,6 +1,6 @@
 # Arrays
 
- *Arrays* are created using the [], strings are are contained within '' or "",
+ *Arrays* are created using the [], elements are are contained within '' or "",
  and all elements within an array are seperated using commas.
 
 ```
