@@ -5,36 +5,60 @@
 
 # Example: Write code that stores an array in a variable,
 # then prints that array:
-animals = ["Zebra", "Giraffe", "Elephant"]
-p animals
+
+#Answer
+#animals = ["Zebra", "Giraffe", "Elephant"]
+#p animals
 
 # Write code that stores an array of states in a variable,
 # then prints that array:
-states = #YOUR CODE HERE
-p states
+
+# Answer
+# states = ["florida", "Colorado", "Texas"]
+# p states
+
 
 # Write code that stores an array of foods in a variable,
 # then prints that array:
-# YOUR CODE HERE
+
+# Answer
+#foods = ["apples", "milk", "spinach"]
+# p foods
+
+
 
 # Example: Write code that prints the number of elements
 # in your above array of animals:
-p animals.count
+
+# Answer
+#p animals.count
 
 # Write code that prints the number of elements
 # in your above array of foods:
-# YOUR CODE HERE
+
+# Answer
+#p foods.count
+
 
 # Write code that prints "Zebra" from your animals array:
-# YOUR CODE HERE
+
+#Answer
+#p animals[0]
 
 # Write code that prints the last item of your foods array:
-# YOUR CODE HERE
+
+# Answer
+#p foods.last
+
 
 # Write code that adds "lion" to your animals array
 # and prints the result (Hint- use a method):
-# YOUR CODE HERE
+
+# Answer
+#p animals << "lion"
 
 # Write code that removes the last element from your foods array
 # and prints the result (Hint- use a method):
-# YOUR CODE HERE
+
+# Answer
+#p foods.pop

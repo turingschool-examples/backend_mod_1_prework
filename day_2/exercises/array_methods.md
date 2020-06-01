@@ -24,8 +24,8 @@ example_array2[1..4] = #=> [2, 3, 4, 5]
 
 ```
 
- 2. Special methods first and last are used to return the first element and last
- object in an array, respectively.
+ 2. Special methods first and last are used to return the first and last
+ element in an array, respectively.
 
  ```
  example_array2.first #=> 1
