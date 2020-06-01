@@ -33,7 +33,7 @@ if people == dogs
 end
 
 # p Study Drills
-# 1) I think that `if` looks at the logic statement and if the statement returns true, will run the code beneath it. If it returns false, it does not run that code. I think of it as one of those quizzes found in teen magazines with arrows/branches that move you to different paths.
+# 1) I think that `if` looks at the logic statement and if the statement returns true, will run the code beneath it. If it returns false, it does not run that code. I think of it as one of those quizzes found in teen magazines with arrows/branches that move you to different paths. (a fork in the road)
 # 2) The code is indented under the if statement for readability purposes (nesting).
 # 3) If I don't indent, the code still runs, but it isn't as readable. Indenting in Ruby isn't obligatory, but it's best practice.
 # 4) Yes. Tried out a few below:

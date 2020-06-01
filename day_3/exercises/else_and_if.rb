@@ -8,7 +8,7 @@ if cars > people
   puts "We should take the cars."
 # if the first if statement is false, evaluate elsif statement. If less cars than people is true, put string
 elsif cars < people
-  puts "We should not take teh cars."
+  puts "We should not take the cars."
 # if none of the above are true, put string
 else
   puts "We can't decide."
