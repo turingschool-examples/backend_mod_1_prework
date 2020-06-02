@@ -7,7 +7,7 @@ In the same way that a variable represents strings and numbers, a method represe
 1. Create a method named `hello` that will print `"Sam I am"`.
 
 def hello
-p "Sam I am."
+  p "Sam I am."
 end
 
 hello
@@ -15,7 +15,7 @@ hello
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
 def hello_someone(name)
-p "#{name} I am."
+  p "#{name} I am."
 end
 
 1. How would you call or execute the method that you created above?

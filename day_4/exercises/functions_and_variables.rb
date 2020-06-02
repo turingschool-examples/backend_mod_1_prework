@@ -6,7 +6,8 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers)
   puts "You have #{boxes_of_crackers} boxes of crackers!"
 # same as above but no arguments in these strings
   puts "Man that's enough for a party!"
-# I know the \n creates a newline (or prevents it?), but not sure what its purpose is here. Nothing happens when I remove it.
+# I know the \n creates a newline (or prevents it?), but not sure what its
+# purpose is here. Nothing happens when I remove it.
   puts "Get a blanket.\n"
 # ends the definition of the method
 end
@@ -60,9 +61,12 @@ birds_in_cage(number_of_birds > 10000, number_of_species < 20)
 
 birds_in_cage(number_of_birds.to_i, number_of_species.to_i)
 
-# I tried adding gets.chomp after the method definition. It allowed user input between each method call, but the input didn't do anything.
+# I tried adding gets.chomp after the method definition. It allowed user input
+# between each method call, but the input didn't do anything.
 
-# I've noticed that when I divide an integer by a smaller integer, I get a return of 0... from a little research, it looks like this operation "truncates to zero."
+# I've noticed that when I divide an integer by a smaller integer, I get a
+# return of 0... from a little research, it looks like this operation "truncates
+#  to zero."
 birds_in_cage(number_of_birds * number_of_species, number_of_species / number_of_birds)
 
 birds_in_cage(number_of_birds > number_of_species && number_of_birds < number_of_species, number_of_birds == number_of_species && number_of_birds == number_of_species)
