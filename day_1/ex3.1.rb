@@ -1,3 +1,6 @@
+# Again, the instructions stated to re-write the file to have floats.  I took this very literally. So, instead of editing the file, I made a new one.
+# I'm not seeing this on the instructions to include, but I did the work.....?
+
 puts "I will now count my chickens:"
 
 puts "Hens #{25.0 + 30.0 / 6.0}"

@@ -11,18 +11,32 @@ animals.each do |animal|
   p animal
 end
 
+primates = ["Apes", "Orangutans", "Gorillas"]
+
+primates.each do |animal|
+  puts animal
+end
+
 # Write code that iterates through a list of animals and prints
 # "The <animal> is awesome!" for each animal:
 
 animals.each do |animal|
-  # YOUR CODE HERE
+  puts "The #{animal} is awesome!"
 end
 
-# Write code that stores an array of foods in a variable, 
+# Write code that stores an array of foods in a variable,
 # then iterates over that array to print
 # "Add <food> to shopping list" for each food item:
-# YOUR CODE HERE
+foods = ["Avocado", "Coconut Milk", "Peanutbutter Pretzels", "Tri Tip", "Eggs"]
 
-# Write code that stores an array of numbers in a variable, 
-# then iterates over that array to print doubles of each number: 
-# YOUR CODE HERE
+foods.each do |food|
+  puts "Add #{food} to shopping list"
+end
+
+# Write code that stores an array of numbers in a variable,
+# then iterates over that array to print doubles of each number:
+numbers = [2, 12, 394, 1934]
+numbers.each do |number|
+  squared_numbers = number * 2
+  puts squared_numbers
+end
