@@ -2,23 +2,23 @@
 
 1. What is a conditional statement? Give three examples. A statement that evaluates to
 either true or false.
-  # if weather = "sunny"
+  if weather = "sunny"
       puts "enjoy the sunshine today."
-    end
+  end
 
-  # if weather = "sunny"
+  if weather = "sunny"
       puts "enjoy the sunshine today."
     else
       puts "there is no sunshine today."
-    end
+  end
 
-  # if grade >= 80
+  if grade >= 80
       puts "You received a B or better on the test."
     elsif grade < 80 && grade >= 60
       puts "You passed the test but received lower than a B."
     else
       puts "You failed the test."
-    end
+  end
 
 1. Why might you want to use an if-statement? If-statements are useful for telling the
 computer what do do with certain information. If something is true then run this code,
