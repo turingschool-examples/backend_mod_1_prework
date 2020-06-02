@@ -2,6 +2,7 @@
 
 1. What is a conditional statement? Give three examples. A statement that evaluates to
 either true or false.
+  ```ruby
   if weather = "sunny"
       puts "enjoy the sunshine today."
   end
@@ -19,20 +20,23 @@ either true or false.
     else
       puts "You failed the test."
   end
-
+```
 1. Why might you want to use an if-statement? If-statements are useful for telling the
 computer what do do with certain information. If something is true then run this code,
 if it is false, then run this code. If-statements can also be used to get info from the
 user and change the output based on the user's response.
 
 1. What is the Ruby syntax for an if statement?
+
 if condition [then]
   code to execute if condition is true
 end
 
+
 1. How do you add multiple conditions to an if statement? if else and elsif
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+
 if condition [then]
    code if condition is true
 [elsif condition 2 [then]
