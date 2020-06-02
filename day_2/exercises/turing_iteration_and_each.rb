@@ -22,7 +22,7 @@ numbers.each do |number|
 end
 # I adapated this solution from Stack Overflow. I think I understand why it works to use end twice - because we are ending both the each method and the operation?
 
-# How could you create a new array which contains each number multipled by 2?
+# How could you create a new array which contains each number multiplied by 2?
 numbers = [1,2,3,4]
 p numbers.map { |n| n * 2 }
 
@@ -33,31 +33,35 @@ names.each do |name|
 end
 
 # How would you print out only the first name?
-names = [ "Alice Smith", "Bob Evans", "Roy Rogers" ]
-names.each do |name|
-  puts name
-end
+names = [ ["Alice", "Smith"], ["Bob", "Evans"], ["Roy", "Rogers"] ]
+names.each { |first_name, last_name| puts "#{first_name}" }
 
 # How would you print out only the last name?
-names = [ "Alice Smith", "Bob Evans", "Roy Rogers" ]
-names.each do |name|
-  puts name
-end
+names = [ ["Alice", "Smith"], ["Bob", "Evans"], ["Roy", "Rogers"] ]
+names.each { |first_name, last_name| puts "#{last_name}" }
 
 # How could you print out only the initials?
 names = [ "Alice Smith", "Bob Evans", "Roy Rogers" ]
-names.each do |name|
-  puts name
+names.each do |initials|
+  initials = ("A".."Z").to_a
 end
 
+# I really struggled with this problem! I know the above code doesn't work,
+# though I think I might be onto something. I'll try pseudocode below:
+# 1. Iterate through each element in the array
+# 2. Split each element by the space between first and last name
+# 3. For each element in each new array, use .each do and another method to
+# print only the first letter of each element.
+
 # How can you print out the last name and how many characters are in it?
-names = [ "Alice Smith", "Bob Evans", "Roy Rogers" ]
-names.each do |name|
-  puts name
+names = [ ["Alice", "Smith"], ["Bob", "Evans"], ["Roy", "Rogers"] ]
+names.each do |first_name, last_name|
+  puts last_name
+  puts last_name.length
 end
 
 # How can you create an integer which represents the total number of characters in all the names?
-names = [ "Alice Smith", "Bob Evans", "Roy Rogers" ]
-names.each do |name|
-  puts name
-end
+names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
+count = 0
+names.each {|s| count += s.length}
+puts count

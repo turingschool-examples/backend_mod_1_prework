@@ -23,4 +23,5 @@ I will mark my incorrect answers and try to explain why they're incorrect.
 20. true *false because we end up with true && false*
 
 Study drills:
+
 1 & 2. Other equality operators, which we went over yesterday: < less than, > greater than, <= less than or equal, >= greater than or equal.
