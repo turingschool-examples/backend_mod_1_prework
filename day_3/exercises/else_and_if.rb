@@ -26,16 +26,19 @@ else
   puts "We still can't decide."
 end
 
-# This makes a final decision about the number of people in the people variable vs. the numner of trucks in the truck variable.
+# This makes a final decision about the number of people in the people variable
+# vs. the numner of trucks in the truck variable.
 if people > trucks
   puts "Alright, let's just take the trucks."
 else
   puts "Fine, let's stay home then."
 end
 
-# 1. Elsif gives the computer a second option if the if statement is false. Else gives the computer an option both if and elsif are false.
+# 1. Elsif gives the computer a second option if the if statement is false. Else
+# gives the computer an option both if and elsif are false.
 
-# 2. Changing the numbers can cause a different outcome. If all variables have the same value, we will always land of the else statement.
+# 2. Changing the numbers can cause a different outcome. If all variables have
+# the same value, we will always land of the else statement.
 
 # 3. Here is some code I tried:
 
@@ -65,6 +68,8 @@ else
   puts "Fine, let's stay home then."
 end
 
-# The first part equated to true, the second to false (so we landed on the elsif statement), and the third to false, because people and trucks are not an equivalent value.
+# The first part equated to true, the second to false (so we landed on the elsif
+# statement), and the third to false, because people and trucks are not an
+# equivalent value.
 
 # 4. See original code.

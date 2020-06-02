@@ -34,11 +34,13 @@ end
 
 # Study drill:
 
-# 1. If creates a conditional statement. We're telling the computer it should print a certain outcome if the conditional statement is true.
+# 1. If creates a conditional statement. We're telling the computer it should
+# print a certain outcome if the conditional statement is true.
 
 # 2. By indenting the code under if, we are attaching the code to the if statement.
 
-# 3. When I ran the code without an indentation in a new file, nothing happened (no output in terminal).
+# 3. When I ran the code without an indentation in a new file, nothing happened
+# (no output in terminal).
 
 # 4. Here is what I tried:
 
@@ -54,6 +56,8 @@ if people > dogs || dogs > people
   puts "Chaos!"
 end
 
-# The first part gave me nothing and the second gave me "Chaos!", which both make sense.
+# The first part gave me nothing and the second gave me "Chaos!", which both
+# make sense.
 
-# 5. If you change the values to make the if statements untrue, you get no output.
+# 5. If you change the values to make the if statements untrue, you get no
+# output.

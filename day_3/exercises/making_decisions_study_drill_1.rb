@@ -17,8 +17,10 @@ if door == "1"
     puts "The bear eats your legs off. Good job!"
   else
     puts "Well, doing that is probably better. Bear runs away."
-  # Wondering about the purpose in the original game of the %s in the string and the % bear after the string.
-  # Doing research, it looks like this stands for a symbol, but in practice it just creates an awkward spacing in the string when you play the game...
+  # Wondering about the purpose in the original game of the %s in the string and
+  # the % bear after the string.
+  # Doing research, it looks like this stands for a symbol, but in practice it
+  # just creates an awkward spacing in the string when you play the game...
   end
 
 elsif door == "2"
