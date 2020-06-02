@@ -22,7 +22,8 @@ puts "I also said: '#{y}'."
 
 # This defines the variable hilarious as a Boolean value.
 hilarious = false
-# This defines the variable joke_evaluation as a string containing our Boolean value.
+# This defines the variable joke_evaluation as a string containing our Boolean
+# value.
 joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 
 # This prints the string assigned to joke_evaluation.
