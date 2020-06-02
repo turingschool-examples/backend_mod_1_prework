@@ -36,7 +36,10 @@
 
 # Write code that stores an array of numbers in a variable,
 # then iterates over that array to print doubles of each number:
-arr = [1, 2, 3]
-arr.each do |x|
-  p x * 2
-end
+
+# Answer: 
+
+# arr = [1, 2, 3]
+#arr.each do |x|
+#  p x * 2
+#end
