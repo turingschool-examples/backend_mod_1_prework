@@ -26,6 +26,10 @@ output: 2,4,6
 1. What are the boolean values in Ruby?
 true and false 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+```
 (2=25) is false
+```
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+```
 (25>2) is false
+```
