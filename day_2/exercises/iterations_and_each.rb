@@ -29,8 +29,24 @@
 
 # How would you print out only the first name?
 # a = ["Alice Smith", "Bob Evans", "Roy Rogers"]
-# puts a[0]
+# a.each do |b|
+#   puts b.split(" ")[0]
+# end
+
+
 
 #How would you print out only the last name?
 # a = ["Alice Smith", "Bob Evans", "Roy Rogers"]
-# puts a[2]
+# a.each do |b|
+#   puts b.split(" ")[1]
+# end
+
+# How could you print out only the initials?
+ a = ["Alice Smith", "Bob Evans", "Roy Rogers"]
+ a.each do |b|
+   puts b.split(" ")[0, 1][0]
+  end
+
+
+
+  
