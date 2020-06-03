@@ -14,12 +14,10 @@ if money < 100 and feet = "hurt"
   puts "Your feet hurt and you don't have enough money to order tacos"
   ```
 
-
-1. Why might you want to use an if-statement?  
+1. Why might you want to use an if-statement?
 As we saw in the Zork-esq mini-game, it could be used to create a sort of interface for a user.
 
-1. What is the Ruby syntax for an if statement?  
-
+1. What is the Ruby syntax for an if statement?
 ```variable = <a float, integer, string, array, etc>
 
 if variable == <a float integer, string, array, etc>
@@ -31,11 +29,11 @@ else
 end
 ```
 
-1. How do you add multiple conditions to an if statement?  
+1. How do you add multiple conditions to an if statement?
 With `elsif`!
 
-1. Provide an example of the Ruby syntax for an if/elsif/else statement:  
+1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 I did that above, which makes me wonder if I answered that correctly...
 
-1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?  
+1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 Without looking it up, I'm guessing there are similar `when-statements` and `because-statements`.  I'm sure there are others but those are some quick ones I thought of.

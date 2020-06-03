@@ -94,6 +94,8 @@ It appears that `.scan(/./)` is a whole concept, not separate.  And that it trie
 
 So I can deduce this is in some way related to the block of code processing things one letter at a time, and that the single dot tells it to do so.  I've also discovered it doesn't appear to matter if there is a space between `.scan` and `(/./)`.  I think this might be as far as I'm gonna get with this one right now, let's move on to `do`, which seems obvious and familiar, but lets look at it anyway.
 
+-----------------------------------------------------------
+
 It is at this point I have now scrolled down on the site I initially found the code block and have now seen that someone has gone through and explained everything. Lol.  Whelp, that's a few hours off my life.  Let's see if they really do answer all my questions.
 
 Yep, but there are now new questions.  Michael, the person explaining the code, suggests `string.each_char do |b|` instead of `string.scan()/./) do |b|`, so I've updated that and yep it works.  So we'll start a new list below. And he does mention how the parentheses should stylistically be next to the `.whatever`.  Hmm `.include? (b.downcase)` isn't really explained, so let's look that up still.  `number.times{b = b.next}` makes a fair amount of sense, this is what's shifting the letters in the received phrase by a certain amount of numbers.  And yep, the `<<` does add the above to the `b[-1]` last character of the string "since `"z".next == "aa"`", and that would be a mess.  He does also say "Note that the use of `return` here is both unnecessary and not idiomatic.", but if I take that out, then what is returned is simply what I've typed in.  And if I change it to `p` or `puts` or `print`, then what is returned is one line reading `"Czggj Rjmgy"` and a line below it reading `Czggj Rjmgy`, which isn't what I'm looking for.  So let's keep `return` on the list.
@@ -111,15 +113,3 @@ Back to ruby-doc.org!  The entry for `.each_char` says it pretty plainly, it "[p
 `return` also appears to be much more complex than just a `p`, but for now I'll leave that for another day.
 
 Satisfied that I've got a grasp on what this code is doing, I'll close with the thought that I have no idea if this is what you all wanted with *High Level* notes, or if I have even gone about this in an appropriate way.  If you would like me to redo this section, let me know!
-
-
-
-
-
-
-
-
-
-
-
-``
