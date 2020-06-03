@@ -30,22 +30,26 @@ How would you print out only the last name?
 >names.each{ |name| puts name.split[1]}
 
 How could you print out only the initials?
->names.each { |name|
+```
+names.each { |name|
   split_names= name.split
   first = split_names[0]
   last = split_names[1]
   puts(first[0] + last[0])
 }
-
+```
 How can you print out the last name and how many characters are in it?
->names = ["Brett Sherman", "George Bush"]
+```
+names = ["Brett Sherman", "George Bush"]
 names.each { |name|
     split_names = name.split
     first = split_names[0]
     last = split_names[1]
     puts(last,last.length)
   }
-
+```
 How can you create an integer which represents the total number of characters in all the names?
+```
 > names = ["Brett Sherman", "George Bush"]
 names.each { |name| puts name.length }
+```
