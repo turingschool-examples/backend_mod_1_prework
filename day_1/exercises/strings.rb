@@ -10,4 +10,4 @@ p "Luke Hunter James-Erickson"
 p "Welcome to Turing!"
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
-# ruby strings.rb
+p "99 bottles of pop on the wall..."
