@@ -1,4 +1,4 @@
-=begin
+
 puts "You see an ominous house where bears surely lurk. Do you.."
 puts "1. Go inside and poke around."
 puts "2. Run away because bears."
