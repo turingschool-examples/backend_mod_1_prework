@@ -100,7 +100,7 @@ blessing = $stdin.gets.chomp
     puts "3. You sense something that seems important inside of the body of the slime."
 
     print "> "
-    slime = &stdin.gets.chomp
+    slime = gets.chomp
 
     if slime == "1"
       puts "You run away, reaping no experience, but live to fight another day. You make it past the slime, and eventually to the big bad. However, once there, he makes you an offer that you can't refuse, and you join him. You've failed your quest, and he eventually betrays you after taking over a sizable portion of the world. You gave him everything he could have wanted. Good job breaking it, hero."
@@ -115,4 +115,5 @@ blessing = $stdin.gets.chomp
       puts "You allow yourself to be eaten by the slime. Inside, you see an organ on your way down, and can manage to strike the organ before you become encased. You kill the monster on hit, and it dissolves. You're covered in liquid goo, but you're alive, along with an armory of other people's weapons. With your luck, you decide to make your way back to town and sell the spoils."
       rich_end = "Your spoils sell for a pretty penny back in town. Some of your newly-aquired-and-sold weapons had special properties that are worth an impressive amount of money. You no longer need to adventure, and you choose not to. A comfy life at home awaits you. ... At least until the Chancellor comes for you."
       print "#{rich_end}" % slime
+    end
   end
