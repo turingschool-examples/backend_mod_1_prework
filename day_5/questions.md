@@ -42,6 +42,6 @@ A hash could be used to track COVID rates per 100k people by county in Colorado:
 
 `case_rate = {"Denver" => 832.69, "Jefferson" => 398.63, "Clear Creek" => 174.93}`
 
-In this situation there is a large amount of data as Colorado has 64 counties but without naming each piece of data they cannot be differentiated between each other. Naming the values creates a sort of catalog that can use the names of specific counties to give corresponding data. 
+In this situation there is a large amount of data as Colorado has 64 counties but without naming each piece of data they cannot be differentiated between each other. Naming the values creates a sort of catalog that can use the names of specific counties to give corresponding data. This is better than an array because an array could only hold either the names or the data, without a way of linking the names to the data.
 
 1. What questions do you still have about hashes?
