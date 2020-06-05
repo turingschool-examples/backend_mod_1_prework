@@ -4,10 +4,10 @@
 A class is a template for creating objects/instances. They define what type of attributes and methods all instances of that class will share. A class is a representation of a "thing", while an instance of that class is the actual "thing".
 
 1. What is an attribute of a Class?\
-An attribute is a trait or state that contains data (e.g., `color`). While all instances will have the same attributes, they each have their own unique attribute _values_ (e.g., `color = 'pink'`).
+An attribute is a trait or state that contains data (e.g., `color`). While all instances of a class will have the same attributes, they each have their own unique attribute _values_ (e.g., `color = 'pink'`).
 
 1. What is behavior of a Class?\
-A behavior of a class is an action that an instance can do or have done to it. Class behaviors are defined with methods and often impact an attribute in some way.
+A behavior of a class is an action that an instance can do or have done to it. These behaviors are defined with methods and often impact an attribute in some way.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 ```ruby
