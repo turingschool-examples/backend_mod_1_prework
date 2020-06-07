@@ -1,0 +1,50 @@
+Study Drills
+
+What If?
+
+1. What do you think the if does to the code under it
+
+   if evaluates whether or not the code next to it, which is called an expression
+   is true or false and will only print the code below it if true
+
+ 2. Why does the code under the if need to be indented two spaces?
+
+   I believe the indentation just makes code easier to read by letting others know
+   it is part of a block, which is likely important in larger/more complex code.
+
+ 3. What happens if it is not indented?
+
+    The output looks the same when I tested it
+
+ 4. Can you put other boolean expressions in the if-statement?
+
+    You can!
+
+ 5. What happens when you change the initial values for people, cats, and dogs?
+
+    Depending on what you have changed the values to be different lines will be
+    printed when you run this in your terminal.
+
+
+Else and If:
+
+1. Try to guess what elsif and else are doing
+
+    First Ruby will evaluate the condition for if, if it is true then the code
+    underneath it will be run. If it is false, Ruby will go to the elsif statement
+    and again if true, the code will be run but if false, Ruby will go to the next
+    elseif if there is one and repeat the process. If the if statement and all the
+    elseif statement(s) return false, then Ruby will run the code under else.
+
+2. Change the numbers of cars, people, and trucks, and then trace through each
+  if - statement to see what will be printed.
+
+    I changed cars to 30, people to 30, and trucks to 42. If we ran that, we
+    should see:
+    "We can't decide."
+    "That's too many trucks."
+    "Fine, let's just stay home then."
+
+3. Try some more complex boolean expressions
+
+    Added to else_if_lesson.rb
