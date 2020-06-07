@@ -45,11 +45,17 @@
 1. What is the Ruby syntax for an if statement?
 
     a. if [conditional]
+
         puts code
+
       elsif [conditional] *(if-statements can have many of these or none)*
+
         puts code
+
       else  *(if-statements can have one of these or none)*
+
         puts code
+
       end
 
 
@@ -62,7 +68,7 @@
     a. temperature = "cold"
        soup_ready = true
 
-       if temperature == "cold" && soup_ready == true
+      if temperature == "cold" && soup_ready == true
         puts "This soup will warm you up!"
       elsif temperature == "cold" && soup_ready == false
         puts "Soup is almost ready to warm you up!"
@@ -75,4 +81,4 @@
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-    a. I pondered (and Googled) and didn't come up with anything else other than an if-statement. Even the .include? Array method is technically an if-statement. It is basically saying "If the Array includes the given element, then return true". 
+    a. I pondered (and Googled) and didn't come up with anything else other than an if-statement. Even the .include? Array method is technically an if-statement. It is basically saying "If the Array includes the given element, then return true".
