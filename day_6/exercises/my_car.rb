@@ -9,12 +9,12 @@ class MyCar
 
   def speed_up(number)
     @current_speed += number
-    puts "You have sped up to #{number} mph."
+    puts "You have sped up #{number} mph."
   end
 
   def brake(number)
     @current_speed -= number
-    puts "You have slowed down to #{number} mph."
+    puts "You have slowed down #{number} mph."
   end
 
   def current_speed
