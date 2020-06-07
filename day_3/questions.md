@@ -3,8 +3,9 @@
 1. What is a conditional statement? Give three examples.
 
   A conditional statement is an if-then statement that evaluates to true or false. For example:
-    a. If Charlie is a dog, then he likes to sniff butts. If Charlie is not a dog, then he does not like to sniff butts.
 
+    a. If Charlie is a dog, then he likes to sniff butts. If Charlie is not a dog, then he does not like to sniff butts.
+    
       charlie = "dog"
 
       if charlie == "dog"
@@ -15,6 +16,7 @@
 
     b. If your favorite color is blue or purple and you are tired, then you should eat some blueberries.
 
+
       color = "blue"
       is_tired = true
 
@@ -23,6 +25,7 @@
       else
         puts "Don't eat any blueberries!""
       end
+
 
     c. If you get 6 hours of sleep, then you are kind of rested. If you get less than 6 hours then you are very tired. If you get more than 6 hours but less than or equal to 10 hours then you are fully rested. If you get 11 or more hours, then you overslept!
 
