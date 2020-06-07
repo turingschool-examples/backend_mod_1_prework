@@ -1,15 +1,10 @@
 def fizzbuzz(num)
   count = 1
   while count <= num do
-    if count % 3 == 0 && count % 5 == 0
-      puts "FizzBuzz"
-    elsif count % 3 == 0
-      puts "Fizz"
-    elsif count % 5 == 0
-      puts "Buzz"
-    else
-      puts count
-    end
+    puts "FizzBuzz" if count % 3 == 0 && count % 5 == 0
+    puts "Fizz" if count % 3 == 0
+    puts "Buzz" if count % 5 == 0
+    puts count if count % 3 != 0 && count % 5 != 0
     count += 1
   end
 end
