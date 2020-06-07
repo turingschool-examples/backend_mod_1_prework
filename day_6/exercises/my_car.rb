@@ -27,17 +27,17 @@ class MyCar
   end
 end
 
-honda = MyCar.new(2019, 'volkswagon golf', 'blue')
-honda.speed_up(50)
-honda.current_speed
-honda.speed_up(20)
-honda.current_speed
-honda.brake(15)
-honda.current_speed
-honda.brake(5)
-honda.current_speed
-honda.shut_down
-honda.current_speed
+volkswagon = MyCar.new(2019, 'volkswagon golf', 'blue')
+volkswagon.speed_up(50)
+volkswagon.current_speed
+volkswagon.speed_up(20)
+volkswagon.current_speed
+volkswagon.brake(15)
+volkswagon.current_speed
+volkswagon.brake(5)
+volkswagon.current_speed
+volkswagon.shut_down
+volkswagon.current_speed
 
 class MyCar
   attr_accessor :color
@@ -50,4 +50,4 @@ class MyCar
   end
 end
 
-honda.spray_paint('white')
+volkswagon.spray_paint('white')
