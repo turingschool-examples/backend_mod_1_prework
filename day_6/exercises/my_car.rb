@@ -28,11 +28,11 @@ class MyCar
 end
 
 honda = MyCar.new(2019, 'volkswagon golf', 'blue')
-honda.speed_up(30)
+honda.speed_up(50)
 honda.current_speed
-honda.speed_up(15)
+honda.speed_up(20)
 honda.current_speed
-honda.brake(10)
+honda.brake(15)
 honda.current_speed
 honda.brake(5)
 honda.current_speed
