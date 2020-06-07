@@ -1,3 +1,4 @@
+
 rot = ->(rotation, text) do
   alphabet = ("a".."z").to_a
   key = Hash[alphabet.zip(alphabet.rotate(rotation))]
