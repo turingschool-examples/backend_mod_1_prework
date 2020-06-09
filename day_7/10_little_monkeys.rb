@@ -20,4 +20,5 @@ def monkeys(monkeys1, monkeys2, monkeys3 )
 end
 
 
-monkeys("Three", "Two", "One")
+monkeys("Ten", "Nine", "Eight")
+#Bonus: Change parameters when you call the method for any number of monkeys.
