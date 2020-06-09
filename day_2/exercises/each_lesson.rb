@@ -1,17 +1,28 @@
 # If you had an array of numbers, e.g. [1,2,3,4]
-# how do you print out the doubles of each number? Triples?
+# how do you print out the doubles of each number?
 
 array = [3, 4, 5, 6]
-array.each { |num| puts (num * 2) }
-
-# testing out both single-line syntax and normal syntax
-
-array.each do |num|
-  puts num * 3
+array.each do |number|
+  puts number
+  puts number
 end
 
-# If you had the same array
-# How would you only print out the even numbers?
+#Triples?
+
+array.each do |number|
+  puts number
+  puts number
+  puts number
+end
+
+# clarify what they are looking for
+
+array.each {|number| puts (number * 2)}
+
+array.each {|number| puts (number * 3)}
+
+
+# If you had the same array how would you only print out the even numbers?
 
 array.each do |x|
   if x.even?
@@ -29,11 +40,9 @@ end
 
 
 # How could you create a new array which contains each number multipled by 2?
+# could not figure out how to do it with .each.
 
-result = []
-array.each do |num|
-  puts result << num * 2
-end
+result = array.collect {|array| array * 2}
 
 # Given an array of first and last names
 # How would you print out the full names line by line?
@@ -58,17 +67,34 @@ end
 
 # How could you print out only the initials?
 
-
-#full_names.each do |initials|
-#   puts initials.split
+full_names.each do |name|
+  x = name.split
+  result = x.first[0]
+  result_1 = x.last[0]
+  puts result + result_1
+end
 
 # How can you print out the last name and how many characters are in it?
-# this is wrong
-
-#last_name_length = []
-#full_names.each do |last_name|
-  #puts last_name_length << [ (last_name.split.last), (last_name.count) ]
-# end
+full_names.each do |name|
+  puts name.split[1] + " " + "#{name.split[1].length}"
+end
 
 # How can you create an integer which represents the total number of characters
 # in all the names?
+#
+full_names.each do |name|
+  name.split[0].length + name.split[1].length
+  name.length
+end
+
+full_names.each do |name|
+  name.split.join
+  name.split.join.length
+  name.split[0].length
+end
+
+full_names.join do |name|
+  name[0]
+end
+
+puts full_names.join.length
