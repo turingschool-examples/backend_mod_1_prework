@@ -10,7 +10,7 @@ if cars > people
 #checks the opposite, and if this is true this is printed
 elsif cars < people
   puts "We should not take the cars."
-  #if neither are true this is the default answer 
+  #if neither are true this is the default answer
 else
   puts "We can't decide."
 end
@@ -49,6 +49,8 @@ end
 
 
 =begin
+
+STUDY DRILL Q
 1. elsif is a way to extend an if statement.
 instead of only one option, there can be several by using elsif.
 else is a way to insert a default answer if no other if statement is true

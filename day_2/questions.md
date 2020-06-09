@@ -20,7 +20,7 @@ animals << lion
 
 .last    Calls the last element of an array
 
-.delete   Deletes an element of an array
+.delete_at   Deletes an element of an array
 
 1. What are the boolean values in Ruby?
 
@@ -34,4 +34,4 @@ false
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
 25 > 2
-false
+true

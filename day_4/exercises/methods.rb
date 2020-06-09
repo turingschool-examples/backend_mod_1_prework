@@ -33,7 +33,7 @@ add(10, 5)
 # Then call your method:
 
 def strings(team1, team2)
-  p "I think the #{team1} are better than #{team2}."
+  p "I think the #{team1} are better than the #{team2}."
 end
 
 strings("Jayhawks", "Wildcats")

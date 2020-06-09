@@ -2,11 +2,12 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-puts "Hellos World!"
+print "Hellos World!"
 
 1. What character is used to indicate comments in a ruby file?
 
-#the hash#  
+#the hash
+
 
 1. Explain the difference between an integer and a float?
 
@@ -35,8 +36,8 @@ puts "What is your favorite animal?"
 input = gets.chomp
 
 1. Name and describe two common string methods:
-.upcase and .length
+.upcase! and .length
 
 length tallies the total number of characters used in a string
 
-upcase changes the string to ALL CAPS
+upcase! changes the string to ALL CAPS

@@ -1,4 +1,4 @@
-=begin
+
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b
@@ -36,11 +36,7 @@ what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
 
-def method_man()
-  return "M-E-T-H-O-D MAAAAN"
-end
 
-puts method_man
 
 a1 = 50/2
 a2 = 180 * a1
@@ -52,7 +48,7 @@ puts a4
 puts ((((50/2)*-180)+74)+35)
 
 
-=end
+
 
 def multiply(a, b)
   puts "MULTIPLYING #{a} * #{b}"

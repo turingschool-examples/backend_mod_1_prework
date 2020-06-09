@@ -35,4 +35,13 @@ numbers = [1, 2, 3, 4, 5]
 
 numbers.each do |x|
   p x*2
-end 
+
+end
+
+numbers.each do |x|
+  print x
+  print " "
+  p x
+end
+
+#i was unclear if you wanted X printed twice or X multiplied by 2

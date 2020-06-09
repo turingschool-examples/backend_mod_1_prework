@@ -12,10 +12,10 @@ puts "Now I will count the eggs:"
 puts 3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0
 # puts a string. the second statement checks to see if the solution on the left is less than the solution to the right
 puts "Is it true that 3+2 < 5-7?"
-puts 3+2 < 5-7
+puts 3.0+2.0 < 5.0-7.0
 # interpolates the answer to the math problem inside of a string
-puts "What is 3+2? #{3+2}"
-puts "What is 5-7? #{5-7}"
+puts "What is 3+2? #{3.0+2.0}"
+puts "What is 5-7? #{5.0-7.0}"
 
 
 puts "Oh, that's why it's false."
@@ -25,6 +25,10 @@ puts "How about some more."
 # the interpolation is checking to see rather
 #greater than; greater or equal to; less than or equal to
 # it then puts true or false
-puts "Is it greater? #{5 > -2}"
-puts "Is it greater or equal? #{5 >= -2}"
-puts "Is it less or equal? #{5 <= -2}"
+puts "Is it greater? #{5.0 > -2.0}"
+puts "Is it greater or equal? #{5.0 >= -2.0}"
+puts "Is it less or equal? #{5.0 <= -2.0}"
+
+
+#ex3extra is another exercise I wanted to mess around with
+#inspred by "find something you need to calculate"

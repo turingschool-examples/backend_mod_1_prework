@@ -36,13 +36,15 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 puts "---------------------------------"
 
 def score_of_the_game(nuggets, lakers)
-puts "the score was #{nuggets} Nuggets, #{lakers} Lakers"
+puts "The score was #{nuggets} Nuggets, #{lakers} Lakers"
 end
 
 score_of_the_game(97, 96)
 
-nuggets = 97
-lakers = 96
+nuggets = 115
+lakers = 116
+
+score_of_the_game(nuggets, lakers)
 
 score_of_the_game(100 + 15, 100 +13)
 
@@ -52,3 +54,52 @@ ot_lal = 15
 score_of_the_game(100 + ot_nugs, 100 + ot_lal)
 
 puts score_of_the_game(40,50)
+
+nuggets = 95
+lakers = 95
+ot_nugs = 20
+ot_lal = 19
+score_of_the_game(nuggets + ot_nugs, lakers + ot_lal)
+
+nq1 = 15
+nq2 = 19
+nq3 = 30
+nq4 = 29
+nuggets = nq1 + nq2 + nq3 + nq4
+
+lq1 = 23
+lq2 = 14
+lq3 = 31
+lq4 = 11
+lakers = lq1 + lq2 + lq3 + lq4
+score_of_the_game(nuggets, lakers)
+
+score_of_the_game(19+25+13+30, 27+30+11+17)
+
+
+p "How much did the Nuggets score last night?"
+nuggets = gets.chomp.to_i
+p "And the Lakers?"
+lakers = gets.chomp.to_i
+
+score_of_the_game(nuggets, lakers)
+
+
+
+
+
+
+p "How much did the Nuggets score last night?"
+nuggets = gets.chomp.to_i
+p "And the Lakers?"
+lakers = gets.chomp.to_i
+
+if nuggets > lakers
+  p "Woohoo! Denver won!"
+  score_of_the_game(nuggets, lakers)
+elsif nuggets < lakers
+  p "Boo! LA won"
+  score_of_the_game(nuggets, lakers)
+else
+  p "What? There are no ties in basketball"
+end

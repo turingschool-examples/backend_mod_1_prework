@@ -8,3 +8,8 @@ groceries = bread+milk+lettuce+eggs
 
 puts "The total tax for your groceries is $#{(tax * groceries).round(2)}.
 Bringing your total bill to be $#{((tax * groceries) + groceries).round(2)}."
+
+
+
+#ex3extra is another exercise I wanted to mess around with
+#inspred by "find something you need to calculate"

@@ -31,3 +31,11 @@ w = "This is the left side of . . ."
 e = "a string with a right side."
 #combining and puts-ing 2 strings
 puts w + e
+
+#Study Qs:
+#2)there are 5 strings put within a strings
+#and one integer put into a string
+#3)w+e makes a longer string because ruby is smart enough
+#to see '+' and add two variable together
+#4)single quotes do not work w/ interpolation. probably because
+#if there were a contraction, an extra ' would confuse ruby 

@@ -101,6 +101,7 @@ puts states
 country = Hash.new
 country['Mexico'] = 'Mexico City'
 country['Columbia'] = 'Bogota'
+country['France'] = 'Paris'
 puts country
 
 

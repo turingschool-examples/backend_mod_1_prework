@@ -2,19 +2,19 @@
 
 1. What is a Hash, and how is it different from an Array?
 
-A hash is a collection of Keys and Values (each key must be unipue). it is more two dimensional than an array. Hashes also don't particularly care about the order of the data stored, while an array does.
+A hash is a collection of Keys and Values (each key must be unique). it is more two dimensional than an array. Hashes also don't particularly care about the order of the data stored, while an array does.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
 pet_store = {
-pooper-scooper: 50,
-dog_food: 25,
-leashes: 60
+"pooper-scooper" => 50,
+"dog_food" => 25,
+"leashes" => 60
 }
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-puts stats["IA"]
+puts states["IA"]
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
 

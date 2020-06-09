@@ -13,7 +13,7 @@ puts "He's #{height} inches tall. In centermeters that is #{metric_height}."
 puts "He's #{weight} pounds heavy. In kilos that is #{metric_weight}."
 puts "Actualy that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
-puts "His teech are usually #{teeth} depending on the coffee."
+puts "His teeth are usually #{teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
