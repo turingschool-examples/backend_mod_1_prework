@@ -1,4 +1,4 @@
-numbers = [*1..10000]
+numbers = [*1..100]
 numbers.map! { |num|
   if(num % 3 == 0 && num % 5 == 0)
     "FizzBuzz"
