@@ -1,6 +1,6 @@
 # Caesar Cipher
 
-## Set up the class
+## Set up a class
 - Create a CaesarCipher class.
 
 
