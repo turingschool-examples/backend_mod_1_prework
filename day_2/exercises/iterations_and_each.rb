@@ -46,7 +46,3 @@
  a.each do |b|
    puts b.split(" ")[0, 1][0]
   end
-
-
-
-  
