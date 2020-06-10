@@ -60,15 +60,18 @@ puts "If your number is negative I'll shift your encryption to the left."
 puts "If you give me a positive number, I'll shift your phrase to the right."
 puts "-" * 60
 puts "Please type a phrase: "
-starting_phrase = gets.chomp
+starting_phrase = gets.chomp.downcase()
 puts "Please type a number: "
 shifting_number = gets.chomp.to_i
+  if shifting_number > 25
+    shifting_number = shifting_number - 25
+  end
 puts "-" * 60
 puts "Your encrypted code is:"
-cipher = CeasarCipher.new(starting_phrase,shifting_number)
+cipher = CeasarCipher.new(starting_phrase, shifting_number)
   cipher.word.each do |x|
     cipher.changes_letters(x)
-     print cipher.join_the_elements_to_string(cipher.changes_letters(x)) + ' '
+     print cipher.join_the_elements_to_string(cipher.changes_letters(x)) + " "
   end
   puts " "
   puts "_" * 60
