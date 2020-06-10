@@ -38,7 +38,7 @@ p dinner.protein
 p dinner.base
 p dinner.toppings
 #Call add_topping
-p dinner.add_topping ["queso"]
+p dinner.add_topping ("Queso")
 #Call remove topping
 puts dinner.remove_topping("guacamole")
 #call change_protein
