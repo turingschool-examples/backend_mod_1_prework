@@ -58,26 +58,3 @@ true || 1 == 1
 
 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
   false
-
-
-Study Drills:
-1. Try to find as many "equality operators" as you can
-  > greater than
-  < less than
-  >= greater than or equal to
-  <= less than or equal to
-  <=> combined comparison operator
-    14 <=> 14 #=> 0
-    14 <=> 12 #=> 1
-    14 <=> 16 #=> -1
-  === test equality
-  .eql? true if two values are equal and of the same type
-  equal? true if two things are the same object
-
-2. Write out the names of each of these equality operators
-  *mostly done above but listed additional below*
-  && (and)
-  || (or)
-  ! (not)
-  != (not equal)
-  == (equal)
