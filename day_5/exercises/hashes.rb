@@ -33,7 +33,7 @@ end
 # YOUR CODE HERE
 puts '-' * 10
 
-puts zoo[:monkeys]
+puts zoo[:monkeys] 
 
 
 # Write code that adds an animal to the zoo hash.
