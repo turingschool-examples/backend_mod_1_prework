@@ -12,10 +12,10 @@ class CaesarCipher
     new_string = ""
     user_input.each_char do |character|
       if
-        !alphabet.include?(character) then new_string += character
-      else
-        new_letter = alphabet_hash[(character.ord + number - 97)%25]
+        alphabet.include?(character) then new_letter = alphabet_hash[(character.ord + number - 97)%25]
         new_string += new_letter
+      else
+        new_string += character
       end
     end
     new_string
