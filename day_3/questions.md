@@ -5,7 +5,8 @@
   A conditional statement is an if-then statement that evaluates to true or false. For example:
 
     a. If Charlie is a dog, then he likes to sniff butts. If Charlie is not a dog, then he does not like to sniff butts.
-    
+
+    ```ruby
       charlie = "dog"
 
       if charlie == "dog"
@@ -13,22 +14,23 @@
       else
         puts "Charlie does not like to sniff butts"
       end
-
+    ```
     b. If your favorite color is blue or purple and you are tired, then you should eat some blueberries.
 
-
+    ```ruby
       color = "blue"
       is_tired = true
 
        if is_tired == true && (color == "blue" || color == "purple")
         puts "Eat some blueberries!"
       else
-        puts "Don't eat any blueberries!""
+        puts "Don't eat any blueberries!"
       end
-
+    ```
 
     c. If you get 6 hours of sleep, then you are kind of rested. If you get less than 6 hours then you are very tired. If you get more than 6 hours but less than or equal to 10 hours then you are fully rested. If you get 11 or more hours, then you overslept!
 
+```ruby
     hours_sleep = 9
 
     if hours_sleep == 6
@@ -40,6 +42,7 @@
     else
       puts "You overslept!!"
     end
+```
 
 1. Why might you want to use an if-statement?
 
@@ -68,8 +71,10 @@
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-    a. temperature = "cold"
-       soup_ready = true
+    a.
+```ruby
+      temperature = "cold"
+      soup_ready = true
 
       if temperature == "cold" && soup_ready == true
         puts "This soup will warm you up!"
@@ -80,7 +85,7 @@
       else
         puts "It's too hot for soup anyways!"
       end
-
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
