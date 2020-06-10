@@ -13,17 +13,22 @@ class Burrito
   end
 
   def add_topping(addtopping)
-    toppings[3] = (addtopping)
+    toppings.push(addtopping)
+    "You added #{addtopping}"
   end
 
   def remove_topping(rmtopping)
-    toppings.reject { |topping| toppings == rmtopping}
-    "Remove #{rmtopping}"
+    toppings.delete(rmtopping)
+    "You removed #{rmtopping}"
   end
 
   def change_protein(chprotein)
-    protein = (chprotein)
+    @protein = (chprotein)
     "Change protein to #{chprotein}"
+  end
+
+  def info
+    puts "#{protein}", "#{base}", "#{toppings}"
   end
 
 end
@@ -38,3 +43,4 @@ p dinner.add_topping ["queso"]
 puts dinner.remove_topping("guacamole")
 #call change_protein
 puts dinner.change_protein("Chicken")
+puts dinner.info
