@@ -24,7 +24,9 @@
 
 4. How would you call or execute the method that you created above?
 
-  `hello_someone("Stevie")``
+  #assumed a class had been declared#
+
+  `person.hello_someone("Stevie")`
 
 5. What questions do you have about methods in Ruby?
 
