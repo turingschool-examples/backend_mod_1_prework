@@ -57,7 +57,7 @@
 1. How do you add multiple conditions to an if statement?
 
 
-    You would add "elsif" or "esle" statements into your if statement.  Each set of conditions will have their own identification as either an elsif or else statement.  There would only be one else statement.  This is the "in case all else fails" option.
+    You would add `elsif` or `esle` statements into your if statement.  Each set of conditions will have their own identification as either an `elsif` or `else` statement.  There would only be one else statement.  This is the "in case all else fails" option.
 
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
@@ -74,9 +74,8 @@
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
 
-    ```I could use a conditonal statement when I'm looking to search inside an array for certain word of a certain length.
+    I could use a conditonal statement when I'm looking to search inside an array for certain word of a certain length.
     number_letters = ["sheep", "elephant", "kitten", "panther"]
     number_letters.each do |letters|
       letters.length >= 6
       puts letters
-    ```  
