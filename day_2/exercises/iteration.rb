@@ -8,7 +8,7 @@
 animals = ["Zebra", "Giraffe", "Elephant"]
 
 animals.each do |animal|
-  p animal
+  p animal 
 end
 
 # Write code that iterates through a list of animals and prints
