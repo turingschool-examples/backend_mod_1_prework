@@ -50,26 +50,26 @@
          do a task
        else
         do this other task
-    end
+        end
     ```
 
 
 1. How do you add multiple conditions to an if statement?
 
 
-    ```You would add "elsif" or "esle" statements into your if statement.  Each set of conditions will have their own identification as either an elsif or else statement.  There would only be one else statement.  This is the "in case all else fails" option.
-    ```
+    You would add "elsif" or "esle" statements into your if statement.  Each set of conditions will have their own identification as either an elsif or else statement.  There would only be one else statement.  This is the "in case all else fails" option.
+
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
     ```
-    a = 100    *variable assinged*
-    if a < 100  *variable is given a condition. if the conditions are met..*
-    puts "kittens" *this action is taken*
-    elsif (a >= 100) && (a != 32) *if the variable didn't meet the first set of conditions then lets pass it through these conditions...*
-    puts "doggies"  *if the variable matches, this is the action taken*
-    else  *if nothing else,*
-    puts "dragonfly" *take this action*
-    end *this is done*
+    a = 100                       (variable assinged)
+    if a < 100                    (variable is given a condition. if the conditions are met..)
+    puts "kittens"                (this action is taken)
+    elsif (a >= 100) && (a != 32) (if the variable didn't meet the first set of conditions then lets pass it through these conditions...)
+    puts "doggies"                (if the variable matches, this is the action taken)
+    else                          (if nothing else,)
+    puts "dragonfly"              (take this action)
+    end                           (this is done)
     ```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
