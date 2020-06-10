@@ -7,7 +7,6 @@ class CeasarCipher
     @shifting_number = shifting_number
     # @alphabet_constant = [('a'..'z')]
     @alphabet_constant = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-    @shifted_alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     @last_array = last_array
     @shifted_array = shifted_array
   end
@@ -28,14 +27,11 @@ class CeasarCipher
         while word_length > -1
           important_number = @alphabet_constant.index(a[counter])
           shifted_number = important_number + @shifting_number
-          # p shifted_number
           if shifted_number > 25
             shifted_number = shifted_number - 25
             shifted_letter = @alphabet_constant[shifted_number]
-            # p shifted_number
           else
             shifted_letter = @alphabet_constant[shifted_number]
-            # p shifted_letter
           end
             @shifted_array.insert(counter, shifted_letter)
             @shifted_array.delete_at(counter + 1)
