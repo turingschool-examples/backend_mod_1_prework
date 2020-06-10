@@ -1,0 +1,6 @@
+Study Drills:
+
+Ex4:
+
+1. The NameError for carpool_capacity means that the variable didn't have anything assigned to it or it was typed in wrong
+2. Changing 4.0 to 4 has no change on the output, it is just 120 instead of 120.0
