@@ -16,4 +16,4 @@ fizzbuzz(1, 100)
 
 # Bonus- also works with custom range
 fizzbuzz(10, 50)
-fizzbuzz(150, 175)
+fizzbuzz(160, 175)
