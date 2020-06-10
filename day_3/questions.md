@@ -2,7 +2,8 @@
 
 1. What is a conditional statement? Give three examples.
   ```
-  A conditional is essentially a fork in the road.  There is a choice or a path that needs to be followed based on parameters.  These conditional statements are usually used in a combination of `if statements` and logical operators.
+  A conditional is essentially a fork in the road.  There is a choice or a path that needs to be followed based on parameters.  These conditional statements are usually used in a combination of "if statements" and logical operators.
+
   ```
   ```
   puts "Enter in a number: "
@@ -40,16 +41,22 @@
 
 
 1. Why might you want to use an if-statement?
+
     You would be wise to use an if statement when you want to handle a situation where a decision must be made.
+
 1. What is the Ruby syntax for an if statement?
 
-    ```if a <= 1
-         puts "That item is all out of stock."
+    ```if *some variable* *compared to*  *object*
+         do a task
+       else
+        do this other task
     end
     ```
 
 
 1. How do you add multiple conditions to an if statement?
+
+
     ```You would add "elsif" or "esle" statements into your if statement.  Each set of conditions will have their own identification as either an elsif or else statement.  There would only be one else statement.  This is the "in case all else fails" option.
     ```
 
@@ -65,8 +72,11 @@
     end *this is done*
     ```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+
+
     ```I could use a conditonal statement when I'm looking to search inside an array for certain word of a certain length.
     number_letters = ["sheep", "elephant", "kitten", "panther"]
     number_letters.each do |letters|
       letters.length >= 6
       puts letters
+    ```  
