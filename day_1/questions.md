@@ -29,4 +29,4 @@
                   sentence.gsub('o', '0')
                   ```
                   should print on the terminal a string
-                  `"I l00k 0ut my wind0w every morning and h0pe t0 see the sun shine."       
+                  `"I l00k 0ut my wind0w every morning and h0pe t0 see the sun shine."`       
