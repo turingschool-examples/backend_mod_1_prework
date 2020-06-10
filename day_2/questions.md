@@ -1,16 +1,29 @@
 ## Day 2 Questions
 
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+
+```
 array = ["zebra", "giraffe", "elephant"]
+```
 
 1. Save the array you created above to a variable `animals`.
+
+```
 animals = ["zebra", "giraffe", "elephant"]
+```
 
 1. Using the array `animals`, how would you access `"giraffe"`?
+
+```
 animals.index(1)
+```
 
 1. How would you add `"lion"` to the `animals` array?
-I'd use the "push" method, which would "push" the new element to the end of the array: (animals.push("lion").
+I'd use the "push" method, which would "push" the new element to the end of the array:
+
+```
+(animals.push("lion").
+```
 
 1. Name and describe two additional array methods:
 
