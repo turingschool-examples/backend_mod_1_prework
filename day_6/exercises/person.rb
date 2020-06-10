@@ -14,15 +14,15 @@ class Person
     @age = @age + 1
   end
 
-  def learn_language(string)
-    @language_spoken << (string)
+  def learn_language(new_language)
+    @language_spoken << (new_language)
   end
 end
 
 james = Person.new(42, ['English'])
 p james.age
 james.increase_age
-p james.age 
+p james.age
 p james.language_spoken
 james.learn_language('Japanese')
 p james.language_spoken
