@@ -12,15 +12,15 @@ class LittleMonkeys
     str = ''
     # p numbers_to_name
     numbers_to_name.each do |num, name|
-      if x == 0 #0
+      if x == 0 #evaluates the largest number (@position0)
         return str
-      elsif x.to_s.length == 1 && x/num > 0 #1-9
+      elsif x.to_s.length == 1 && x/num > 0 #evlauates next chunk
         return str + "#{name}"
-      elsif x < 100 && x/num > 0 #21-99
+      elsif x < 100 && x/num > 0 #evlauates the next smallest chunk
         return str + "#{name}" if x%num == 0 #100
-        return str + "#{name} " + into_words(x%num) #101-
-      elsif x/num > 0
-        return str + into_words(x/num) + " #{name} " + into_words(x%num)
+        return str + "#{name} " + into_words(x%num) 
+      elsif x/num > 0 #evlauates smallest number
+        return str + into_words(x/num) + " #{name} " + into_words(x%num)#
       end
     end
   end
