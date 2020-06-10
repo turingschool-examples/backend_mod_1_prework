@@ -13,12 +13,12 @@ class Burrito
   end
 
   def add_topping(addtopping)
-    toppings.push(addtopping)
+    @toppings.push(addtopping)
     "You added #{addtopping}"
   end
 
   def remove_topping(rmtopping)
-    toppings.delete(rmtopping)
+    @toppings.delete(rmtopping)
     "You removed #{rmtopping}"
   end
 
