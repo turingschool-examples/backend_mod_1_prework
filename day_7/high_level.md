@@ -37,24 +37,23 @@ A block is declared which will process the `user_input` string. The `each_char` 
 user_input.each_char do |character|
 ```
 
-If statement is created, which calls the `include?` method to identify if a given character that is being run through the block is within the previously created range, `alphabet`. If it is determined that the character is not within the `alphabet` range, it is aded to the previously created `new_string` string without being changed.
+If statement is created, which calls the `include?` method to identify if a given character that is being run through the block is within the previously created range, `alphabet`. If it is determined that the character is within the `alphabet` range, the variable new_letter is defined which takes the character and processes it according to its integer ordinal via the method `ord`. The integer from the `number` variable is added to this integer and 97, which is the starting point of the lowercase alphabet's integer ordinals, is subtracted. This is divided by 25 and the remainder identifies a key in the previously defined hash, `alphabet_hash`.
 ```
 if
-  !alphabet.include?(character) then new_string += character
-  ```
-
-The variable `new_letter` is created under `else` for all characters found to be within the `alphabet` from the previous line, the contents of which is where the translation for the letter will occur. The method `ord` is called which returns the integer ruby associates with the character, known as the integer ordinal. The integer from the `number` variable is added to this integer and 97, which is the starting point of the lowercase alphabet's integer ordinals, is subtracted. This is divided by 25 and the remainder identifies a key and its value in the previously defined hash, `alphabet_hash`.
-```
-new_letter = alphabet_hash[(character.ord + number - 97)%25]
+  alphabet.include?(character) then new_letter = alphabet_hash[(character.ord + number - 97)%25]
 ```
 
-A variable is declared which inserts the value of `new_letter`, a letter, into the the string held by `new_string`.
+The value of the identified key, which is a string containing a single letter, is added to the `new_string` variable.
+
 ```
-new_string = new_string + new_letter
+new_string += new_letter
 ```
 
-The if statment is closed.
-The block is closed.
+An `else` statement that takes a character, still in string form, found to be untrue by the `.include?` method from the `if` statement, inserts it into the string held by `new_string`
+
+The if statement is closed within the indentation of the block.
+The block is closed within the indentation of the method.
+The method is closed within the indentation of the class.
 The class is closed.
 
 A new instance, `newCipher`, of the class is declared.
