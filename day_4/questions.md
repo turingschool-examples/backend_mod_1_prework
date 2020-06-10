@@ -10,7 +10,7 @@ def hello()
  p "Sam I am"
 end
 
-hello()
+hello() 
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
