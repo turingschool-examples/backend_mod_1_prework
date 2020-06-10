@@ -23,5 +23,5 @@ puts "My favorite animal is the #{animal}."
 The "gets.chomp" method
 
 1. Name and describe two common string methods:
-+The .length method, would tell you how many characters are in your string.
-+The .sub method, substitutes a string for what you want to replace it with in a single occurrence. Similar to the "find and replace" method in Microsoft Word.
++ The .length method, would tell you how many characters are in your string.
++ The .sub method, substitutes a string for what you want to replace it with in a single occurrence. Similar to the "find and replace" method in Microsoft Word.
