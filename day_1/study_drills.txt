@@ -2,5 +2,20 @@ Study Drills:
 
 Ex4:
 
-1. The NameError for carpool_capacity means that the variable didn't have anything assigned to it or it was typed in wrong
-2. Changing 4.0 to 4 has no change on the output, it is just 120 instead of 120.0
+1. Explain the NameError in your own words.
+  a. The NameError for carpool_capacity means that the variable didn't have anything assigned to it or it was typed in wrong.
+
+2. I used 4.0 for space_in_a_car, but is that necessary? What happens if it is just 4?
+  a. Changing 4.0 to 4 has no change on the output, it is just 120 instead of 120.0
+
+Ex6:
+
+1. "Are you sure there are only four places?"
+  a. Yes, the only other strings with another variable in it is joke_evaluation but the variable is a boolean value and not a string
+
+2. Explain why adding two strings w and e with + makes a longer string
+  a. Due to string concatenation which means joining two or more strings together to create a new string.
+
+3. What happens when you change the strings to use '' instead of ""? Do they still work?
+  a. They do not work, you receive an error because of the way do_not = don't is set up. The apostrophe in "don't" acts as the closing single quote instead of an apostrophe so the "t'" causes an error
+  b. From what I've read "" is used when there is string interpolation, sequences and contractions. the "" tells Ruby to replace variables with #{} and the '' in Ruby to leave the string as is and ignore variable inside it
