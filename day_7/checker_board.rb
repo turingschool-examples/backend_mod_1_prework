@@ -5,8 +5,8 @@ puts "Please enter a number: "
 
 
 user_input = gets.chomp.to_i.abs()
-a_character = "X  "
-b_character = "  X"
+a_character = "X "
+b_character = " X"
 a_line = a_character * (user_input / 2) + "\n"
 a_line_odd = a_character * (user_input / 2) + a_character + "\n"
 b_line = b_character * (user_input / 2) + "\n"
