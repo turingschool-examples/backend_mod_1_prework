@@ -1,4 +1,9 @@
 
+
+# this was my first go and I got really turned around. I was going to use an array....but then hashes took over....
+# I ended up starting again!
+
+
 class CeasarCipher
   attr_accessor :alphabet, :starting_phrase, :shifting_number, :new_hash
 
