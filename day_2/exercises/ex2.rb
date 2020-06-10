@@ -16,8 +16,8 @@ numbers.each do |number|
 end
 
 # Prints out the even numbers of the array
-# numbers.each do |number|
-  # if number.even?
-    # puts number
-  # end
-# end
+numbers.each do |number|
+   if number.even?
+    puts number
+   end
+end
