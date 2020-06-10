@@ -5,7 +5,7 @@ Create a file named 10_little_monkeys.rb and within that file, write a program t
 > Three little monkeys jumping on the bed,  
 > One fell off and bumped his head,  
 > Mama called the doctor and the doctor said,  
-> "No more monkeys jumping on the bed!"
+> "No more monkeys jumping on the bed!" 
 >
 > Two little monkeys jumping on the bed,  
 > One fell off and bumped his head,  
