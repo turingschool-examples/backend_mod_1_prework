@@ -1,4 +1,4 @@
-# Add the following methods to this burrito class and 
+# Add the following methods to this burrito class and
 # call the methods below the class:
 # 1. add_topping
 # 2. remove_topping
@@ -11,9 +11,28 @@ class Burrito
     @base     = base
     @toppings = toppings
   end
+
+  def add_topping(toppings)
+    "Please add #{toppings}."
+  end
+
+  def remove_topping(toppings)
+    "Please remove #{toppings}."
+  end
+
+  def change_protein(protein)
+    "I changed my mind I want #{protein}."
+  end
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+array = ["cheese", "salsa", "guacamole"]
 p dinner.protein
 p dinner.base
 p dinner.toppings
+p dinner.add_topping("lettuce")
+p array.push("lettuce")
+p dinner.remove_topping("cheese")
+array.delete("cheese")
+p array
+p dinner.change_protein("Chicken")
