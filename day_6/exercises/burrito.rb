@@ -30,6 +30,6 @@ dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
 p dinner.protein
 p dinner.base
 p dinner.toppings
-p dinner.add_topping(["sour cream"])
+p dinner.toppings << "sour cream"
 p dinner.remove_topping(["cheese", "salsa"])
 p dinner.change_protein("Chicken")
