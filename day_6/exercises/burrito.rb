@@ -5,7 +5,9 @@
 # 3. change_protein
 
 class Burrito
-  attr_reader :protein, :base, :toppings
+  attr_accessor :protein
+  attr_reader :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
@@ -13,7 +15,7 @@ class Burrito
   end
 
   def add_topping(toppings)
-    "Please add #{toppings}."
+    "Please add #{toppings}"
   end
 
   def remove_topping(toppings)
@@ -21,18 +23,26 @@ class Burrito
   end
 
   def change_protein(protein)
+    self.protein = protein
     "I changed my mind I want #{protein}."
   end
 end
 
-dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
-array = ["cheese", "salsa", "guacamole"]
-p dinner.protein
+dinner = Burrito.new("Beans", "Rice", toppings = ["Cheese", "Salsa", "Guacamole"])
+#array = ["cheese", "salsa", "guacamole"]
 p dinner.base
 p dinner.toppings
-p dinner.add_topping("lettuce")
-p array.push("lettuce")
-p dinner.remove_topping("cheese")
-array.delete("cheese")
-p array
+p dinner.add_topping("Lettuce")
+p toppings.push("Lettuce")
+p dinner.remove_topping("Cheese")
+toppings.delete("Cheese")
 p dinner.change_protein("Chicken")
+
+p "-" * 20
+
+puts "Your Burrito will have: "
+puts dinner.protein
+puts dinner.base
+toppings.each do |topping|
+  puts topping
+end
