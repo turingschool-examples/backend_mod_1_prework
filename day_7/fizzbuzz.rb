@@ -1,7 +1,9 @@
 x = 1
 
 while x <= 100
-  if x % 3 == 0
+  if x % 3 == 0 && x % 5 == 0
+    puts "FizzBuzz"
+  elsif x % 3 == 0
     puts "Fizz"
   elsif x % 5 == 0
     puts "Buzz"
@@ -28,7 +30,9 @@ if n2 <= n1
   puts "Second number should be higher than the first, try again."
 else
   while n1 <= n2
-    if n1 % 3 == 0
+    if n1 % 3 == 0 && n1 % 5 == 0
+      puts "FizzBuzz"
+    elsif n1 % 3 == 0
       puts "Fizz"
     elsif n1 % 5 == 0
       puts "Buzz"
