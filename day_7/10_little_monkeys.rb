@@ -32,7 +32,7 @@ while n >= 1
     He fell off and bumped his head,
     Mama called the doctor and the doctor said,
     \"Get those monkeys right to bed!\""
-  else n <= 9999999999
+  else
     puts "
     #{n} little monkeys jumping on the bed,
     One fell off and bumped his head,
