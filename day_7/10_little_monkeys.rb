@@ -11,18 +11,18 @@ num = {
   10 => 'Ten'
 }
 
-num.reverse_each do |x, y|
-  if x == 1
-    puts "#{y} little monkey jumping on the bed,"
+num.reverse_each do |key, value|
+  if key = 1
+    puts "#{value} little monkey jumping on the bed,"
     puts 'He fell off and bumped his head,'
   else
-    puts "#{y} little monkeys jumping on the bed,"
+    puts "#{value} little monkeys jumping on the bed,"
     puts 'One fell off and bumped his head,'
   end
 
   puts 'Mama called the doctor and the doctor said,'
 
-  if x == 1
+  if key == 1
     puts '"Get those monkeys right to bed!"', ''
   else
     puts '"No more monkeys jumping on the bed!"', ''
