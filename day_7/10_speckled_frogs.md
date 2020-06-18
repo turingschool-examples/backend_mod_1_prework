@@ -15,7 +15,7 @@ Create a file named 10_speckled_frogs.rb and within that file, write a program t
 > One speckled frog sat on a log 
 > eating some most delicious bugs.  
 > One jumped in the pool where its nice and cool,  
-> then there was one speckled frog.
+> then there were no more speckled frogs!
 
 ### Bonus
 Can you write the program so that it will run for any number of frogs?
