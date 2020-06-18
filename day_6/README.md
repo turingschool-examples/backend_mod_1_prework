@@ -4,7 +4,7 @@ Today, you are going to be learning about Objects and Classes. In ruby, Classes 
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
-## Open your local copy of backend_module_0_capstone
+## Open your local copy of backend_mod_1_prework
 Using your terminal, open your local copy of the forked repository you created during setup. Hopefully you are getting the hang of this, but revisit [day_1](../day_1) for more detail if needed.
 
 ## Class lessons

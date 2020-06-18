@@ -10,7 +10,7 @@ After completing the days work, you will use several git commands to save your w
 
 [![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 
-## Open your local copy of backend_module_0_capstone in Atom
+## Open your local copy of backend_mod_1_prework in Atom
 
 Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
@@ -21,7 +21,7 @@ cd turing
 ls
 cd 0module
 ls
-cd backend_module_0_capstone
+cd backend_mod_1_prework
 ls
 cd day_1
 ls
@@ -32,7 +32,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 ## An Introduction to Ruby
 
-[Read This Introduction](https://learnrubythehardway.org/book/intro.html) to the Learn Ruby The Hard Way Tutorial. To reiterate this introduction, ***DO NOT*** copy and paste code examples when working through lessons in your capstone. Actually type each of them out.
+[Read This Introduction](https://learnrubythehardway.org/book/intro.html) to the Learn Ruby The Hard Way Tutorial. To reiterate this introduction, ***DO NOT*** copy and paste code examples when working through lessons in your prework. Actually type each of them out.
 
 ### Ruby Basics Lessons
 
@@ -48,19 +48,19 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html) 
+    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
     - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html) 
+    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html) 
+    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
     - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html) 
+    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html) 
+    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
     - [ ] Have you created 7 `ex.rb` files with your code in them?
 
@@ -70,7 +70,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 - Each day contains an exercises directory containing files where you will practice writing code.
 
 Work through the files in the day_1/exercises directory.  Complete them in this order:
-    
+
 1. strings   
 1. numbers   
 1. variables   
@@ -187,7 +187,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JohnDoe/backend_module_0_capstone.git
+To github.com:JohnDoe/backend_mod_1_prework.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
