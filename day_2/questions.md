@@ -19,7 +19,7 @@ The .each method runs a block of code on each element in an array; the .shuffle 
 Boolean values in ruby are true/false statements.
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
-You would use 2 == 25; it would return false
+You would use 2 == 25; it would return false.
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
-You would use 25 > 2; it would return true
+You would use 25 > 2; it would return true.
