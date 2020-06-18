@@ -4,7 +4,7 @@ You will likely spend the majority of your time in Module 1 in either the Termin
 
 You already have had some exposure to the terminal in the [mod0 session 2: Terminal and Command Line](http://mod0.turing.io/session2/#terminal-and-command-line). Let's practice a little more!
 
-### Here's a video walk-through of how to navigate your capstone:
+### Here's a video walk-through of how to navigate your mod 1 prework:
 
 [![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 

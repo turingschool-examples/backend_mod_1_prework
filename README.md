@@ -1,6 +1,6 @@
-# Backend Mod 0 Capstone Repository
+# Backend Mod 1 Pre-work Repository
 
-This repository will walk you through the Mod 0 Capstone for the Backend program at Turing.
+This repository will walk you through the Mod 1 Pre-work for the Backend program at Turing.
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. Please complete all the exercises and questions, as well as lessons listed in the day's readme.
 
@@ -27,7 +27,7 @@ We will now cover these three topics:
 
 *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
 *   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
-*   [Forking and Cloning the Prework Repository](#forking-the-module-0-capstone-repository)
+*   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
 
 
 First, let's get a Ruby version management tool on our machines.
@@ -167,17 +167,17 @@ We will be referencing many terminal commands throughout the prework. It is reco
 
 [Check out day_0 to practice!](day_0)
 
-### Forking the Module 0 Capstone Repository
+### Forking the Module 1 Prework Repository
 
 Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
 
-In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `backend_module_0_capstone` repository. You do not have permission to change anything in this repository, so you need your own copy to work on.
+In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `backend_mod_1_prework` repository. You do not have permission to change anything in this repository, so you need your own copy to work on.
 
 In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_module_0_capstone) that you're reading right now!
+####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_mod_1_prework) that you're reading right now!
 
 ####  3. Click on `Fork` in the upper right corner of the screen, just under the top banner.
 
@@ -193,7 +193,7 @@ Now that you have forked this repository, the next thing to do is *clone* your f
 
 Cloning is when you copy a remote Github repository to your local computer.
 
-#### 1. In YOUR `backend_module_0_capstone` repository that your just forked, click on `Clone or Download`
+#### 1. In YOUR `backend_mod_1_prework` repository that your just forked, click on `Clone or Download`
 
 ![clone down your copy](/images/fork_03.jpg)
 
@@ -211,20 +211,20 @@ $ cd turing
 $ mkdir 0module
 $ cd 0module
 $ git clone <ctrl-v to paste ssh link here >
-Cloning into 'backend_module_0_capstone'...
+Cloning into 'backend_mod_1_prework'...
 remote: Enumerating objects: 678, done.
 remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
 Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
 Resolving deltas: 100% (332/332), done.
 
-$ cd backend_module_0_capstone
+$ cd backend_mod_1_prework
 $ git status .
 // If everything worked correctly, you should see:
 On branch master
 nothing to commit, working tree clean
 ```
 
-From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod0 and the capstone, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_module_0_capstone` repository that you have just now cloned to your device.
+From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
 Here's _another_ video walk-through you may find helpful:
 
@@ -236,15 +236,16 @@ To begin, open your terminal and `cd` into the `day_0` directory. Follow the ins
 
 ----------------------------------
 
-# Extension (optional, after capstone completed)
+# Extensions (optional, after pre-work completed)
 
-You've finished your Mod 0 Capstone assignment! So you're done!!!
+You've finished your Mod 1 pre-work assignment!
 
 But there's always more to learn!
 
 If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
 
+- [Turing's ruby exercises repo](https://github.com/turingschool/ruby-exercises)
 - [A back-end grad's advice and useful study resources](https://josh.works/turing-backend-prep-01-intro)
 - [Credit Check](https://github.com/turingschool-examples/credit_check).
 
-If you do Credit Check, follow the [same steps](#forking-the-module-0-capstone-repository) as you did previously to fork and clone this repo on to your local computer.
+If you do Credit Check, follow the [same steps](#forking-the-module-1-prework-repository) as you did previously to fork and clone this repo on to your local computer.

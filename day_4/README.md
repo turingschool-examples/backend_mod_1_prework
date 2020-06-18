@@ -4,7 +4,7 @@ On day 1 of the prework, you learned how to store information in Variables. Toda
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
-## Open your local copy of backend_module_0_capstone
+## Open your local copy of backend_mod_1_prework
 
 Using your terminal, open your local copy of the forked repository you created during setup.  To do this, you will need to use the terminal command `cd` to enter the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. Revisit [day_1](../day_1) for more detail if needed.
 
