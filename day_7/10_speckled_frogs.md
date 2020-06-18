@@ -1,6 +1,6 @@
-## 5 Speckled Frogs
+## 10 Speckled Frogs
 
-Create a file named 5_speckled_frogs.rb and within that file, write a program that will print the following nursery rhyme, but for *5* frogs.
+Create a file named 10_speckled_frogs.rb and within that file, write a program that will print the following nursery rhyme, but for *10* frogs.
 
 > Three speckled frogs sat on a log 
 > eating some most delicious bugs.  
