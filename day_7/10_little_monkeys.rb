@@ -1,6 +1,6 @@
 puts "--------10 Little Monkeys--------"
 
-monkeys = (1..20)
+monkeys = (1..10).reverse_each
 
 monkeys.each do |monkey|
   puts "#{monkey} little monkeys jumping on the bed,
