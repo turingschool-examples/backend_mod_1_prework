@@ -1,5 +1,5 @@
 puts "You're in a dark room.  Pick door #1 or door #2."
-print "> "
+print "type answer here > "
 
 door = $stdin.gets.chomp
 
@@ -53,6 +53,6 @@ elsif door == "2"
     end
 
 else
-  puts "Run this game again and die respectfully!  Geeze!"
+  puts "Run this game again and die respectfully!  Geeze!"atom 
 
 end
