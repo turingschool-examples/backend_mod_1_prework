@@ -20,13 +20,13 @@
 1. What is the Ruby syntax for an if statement?
 
   ```
-  ##if## <statement>
+  if <statement>
     ...do some stuff
-  ##elsif## <statement>
+  elsif <statement>
     ...do some other stuff
-  ##else##
+  else
     ...do this other stuff
-  ##end##
+  end
   ```
 
 1. How do you add multiple conditions to an if statement?
