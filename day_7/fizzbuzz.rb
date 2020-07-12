@@ -9,9 +9,14 @@ b = gets.chomp.to_i
 
 range = (a..b).to_a
 
-range.each do |number|
-  print "Fizz" if number % 3 == 0
-  print "Buzz" if number % 5 == 0
-  print number if number % 3 != 0 && number % 5 != 0
-  print ", " if number < b
+if a > b
+  puts "Please enter the lower number first"
+else
+  range.each do |number|
+    print "Fizz" if number % 3 == 0
+    print "Buzz" if number % 5 == 0
+    print number if number % 3 != 0 && number % 5 != 0
+    print ", " if number < b
+    puts "." if number == b
+  end
 end
