@@ -27,7 +27,8 @@ puts "Hello World!"
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
 `interpolation` is the process of putting information into the middle of a string using `#{}`
-  ex/ `puts "My favorite animal is the #{animal}."``
+
+  ex/ `puts "My favorite animal is the #{animal}."`
 
 1. What method is used to get input from a user?
 
@@ -37,4 +38,5 @@ puts "Hello World!"
 
 `.length` Tells you how many characters(including spaces) are in the string.
 `.sub` or `.gsub` Substitute a piece of the string for something else.  You have to specify two arguments,  first what you want to replace, second, what you want to replace it with. `.gsub` stands for global substitution, where as `.sub` is a single substitution.
+
 ex/ `greeting.gsub("Everyone!", "Friends!")` In this "Everyone!" is removed and replaced with "Friends!"
