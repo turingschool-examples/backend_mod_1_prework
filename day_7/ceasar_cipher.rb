@@ -1,4 +1,4 @@
-seeker = ("A".."Z").to_a << " "
+alphabet = ("A".."Z").to_a << " "
 string_index = Array.new
 cypher = Array.new
 
@@ -10,8 +10,8 @@ print "> "
 b = gets.chomp.to_i
 
 array = a.upcase.split('')
-array.each {|letter| string_index << seeker.index(letter)}
+array.each {|letter| string_index << alphabet.index(letter)}
 
-string_index.each {|index| cypher << seeker.rotate(b).slice(index)}
+string_index.each {|index| cypher << alphabet.rotate(b).slice(index)}
 
 puts cypher.join

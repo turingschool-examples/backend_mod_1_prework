@@ -1,5 +1,3 @@
-range = Array.new
-
 puts "Enter number at which you'd like to begin FizzBuzz: "
 print "> "
 a = gets.chomp.to_i
