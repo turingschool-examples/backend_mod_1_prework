@@ -1,11 +1,12 @@
 puts "Input number of rows: "
 print "> "
 
-x = gets.chomp.to_i
+number = gets.chomp.to_i
 
-x.times do |board|
-  board = x
-  puts "X X X " if board % 2 == 0
-  puts " X X X" if board % 2 != 0
-  x -= 1
+range = (1..number).to_a
+
+range.each do |square|
+  print "X " * number if square.even? == true
+  print " X" * number if square.odd? == true
+  print "\n"
 end
