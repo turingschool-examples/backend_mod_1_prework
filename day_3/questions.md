@@ -38,13 +38,14 @@ end
   if conditional then
     code here
   end
-    ```
+  ```
 
 4. How do you add multiple conditions to an if statement?
 
   Use `elsif` and `else` following the `if` statement to add in multiple condition to run through.  See the following example.
 
 5. Provide an example of the Ruby syntax for an if/elsif/else statement:
+
 ```ruby
 if x < 5
     puts "x is small"
