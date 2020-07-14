@@ -46,4 +46,4 @@ Here a new instance of the Dog class has been created and assigned to the variab
 
 1. What questions do you still have about classes in Ruby?
 
-Can you create a behavior in a class that would add a new attribute to that class, or would the attribute have to be present already?
+Can you create a behavior in a class that would add a new attribute to that class, or would the attribute have to be present already? 
