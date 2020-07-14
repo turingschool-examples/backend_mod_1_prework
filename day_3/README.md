@@ -1,4 +1,4 @@
-# Day 3 - If Statements and Loops
+# Day 3 - If Statements and Conditionals
 
 One of the most important concepts in computer programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with ***If-Statements*** and ***Loops***, which you will learn about today.
 
