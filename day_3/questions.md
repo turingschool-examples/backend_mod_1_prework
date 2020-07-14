@@ -28,11 +28,11 @@ def going_outside(temperture, humidity)
 end
   ```
 
-1. Why might you want to use an if-statement?
+2. Why might you want to use an if-statement?
 
   An `if-statement` allows you to start making script that decides thing.  Like when asking questions, getting user input, and responding to that input.
 
-1. What is the Ruby syntax for an if statement?
+3. What is the Ruby syntax for an if statement?
 
   ```ruby
   if conditional then
@@ -40,11 +40,11 @@ end
   end
     ```
 
-1. How do you add multiple conditions to an if statement?
+4. How do you add multiple conditions to an if statement?
 
   Use `elsif` and `else` following the `if` statement to add in multiple condition to run through.  See the following example.
 
-1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+5. Provide an example of the Ruby syntax for an if/elsif/else statement:
 ```ruby
 if x < 5
     puts "x is small"
@@ -65,7 +65,7 @@ else
 end
 ```
 
-1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
   You can use them in our `.each do` loops that we've done in past assignments.  We could use them in other loops like `until`.
 
