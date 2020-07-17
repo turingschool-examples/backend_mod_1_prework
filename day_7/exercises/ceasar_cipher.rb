@@ -13,65 +13,93 @@ class CeasarCipher
   end
 
   def transform_words_to_indexes
-    # p @prep
     @prep.collect! do |word|
       letters = word.split('')
       letters_length = letters.length
-      letters.collect! do |letter|
-        # letter
+      letter = letters.collect! do |letter|
         letter_index = @working_alphabet.find_index(letter)
-        letter = letter_index
       end
     end
     return @prep
   end
 
   def shift(number)
-    # p @prep
-    @prep.collect! do |word|
-      word.collect! do |value|
-        shifted_number = value + number
-        if shifted_number < 0 && shifted_number.abs() > 26
-          value = shifted_number + 26 + shifted_number.abs()
-        else
-          value = shifted_number
-        end
+    # p number
+    @prep.collect! do |word| #array of numbers seperated by words
+      word.collect! do |value| #one array of numbers
+        shifted_number = (value - number) #valid number! @this point the shifted_number is good!
+
+        # require 'pry'; binding.pry
+        # if shifted_number < 0 && shifted_number.abs() > 26
+          # value = 26 - shifted_number
+          # new_value = shifted_number - 26
+
+        # else
+          # new_value = shifted_number
+        # end
         if shifted_number > 26
-          value = shifted_number - 26
+          new_value = shifted_number - 26
+          # p value = shifted_number + 26 + shifted_number.abs()
+          p shifted_number = new_value
+          # new_value = shifted_number
+          shifted_number
+          if new_value > 26
+            p new_value -= 26
+            shifted_number = new_value
+            # new_value = shifted_number
+          # else
+
+          end
         else
-          value = shifted_number
+          shifted_number = new_value
+          # new_value = shifted_number
         end
+        shifted_number = new_value
       end
     end
+    p @prep
     return @prep
   end
 
   def transform_indexes_to_words
-    @prep.collect! do |word|
+    # p @prep
+    @prep.collect! do |word| #all elements SHOULD be less than 26
+      # require 'pry'; binding.pry
       word.collect! do |value|
-        if value <= 0
-          altered_number = (25 - value.abs())
-          shifted_letter = @working_alphabet[altered_number]
-          value = shifted_letter
-        else
-          altered_number = value - 25
-        shifted_letter = @working_alphabet[altered_number]
-        value = shifted_letter
-        end
+        @working_alphabet[value]
+        # if value <= 0
+
+          # p value
+          # altered_number = value - 26
+          # shifted_letter = @working_alphabet[altered_number]
+          # value = shifted_letter
+        # else
+          # p value
+          # require 'pry'; binding.pry
+          # altered_number = (26 - value.abs())
+          # shifted_letter = @working_alphabet[altered_number]
+          # value = shifted_letter
+
+
+
+        # end
       end
     end
+    p @prep
     return @prep
   end
 
 
   def encode(word, shift)
+
     transform_words_to_indexes
     shift(shift)
     transform_indexes_to_words
+    p @prep
     @prep.collect! do |word|
-      smashed_word = word.join
+      p smashed_word = word.join
     end
-    return @prep.join(' ')
+      return @prep.join(' ')
   end
 end
 
