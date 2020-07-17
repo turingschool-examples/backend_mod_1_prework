@@ -26,10 +26,9 @@ The `.push()` method allows you to add a passed element to the array
 
 1. What are the boolean values in Ruby?
 
-```!false = true
+!false = true
 
 !true = false
-
 true||false = true
 true||true = true
 false||true = true
@@ -59,14 +58,11 @@ not (false || false) = true
 1 == 1 true
 0 == 1 false
 0 == 0 true
-```
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
-`p 2 == 25`
-This will return `false`
+p 2 == 25 This will return false
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
-`p 25 > 2`
-This will return true
+p 25 > 2 This will return true
