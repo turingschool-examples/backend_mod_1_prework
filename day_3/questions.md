@@ -4,8 +4,6 @@
 
 `A conditional statement is how we tell the computer to do one thing or another based on if the statement is true or false. They create a fork, or a branch, in the decision making process`
 
-``
-
 1. Why might you want to use an if-statement?
 
 `An if-statement is used to say if something is true, do this and if it is not, then to do something else`
@@ -23,15 +21,15 @@ end`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-`name = "Cydnee"
+`name = "Cydnee"`
 
-if name == "Cydnee"
+`if name == "Cydnee"
     puts "My name is Cydnee"
-end
+end`
 
-name = "Cydnee"
+`name = "Cydnee"`
 
-if name == "Cydnee"
+`if name == "Cydnee"
     puts "My name is Cydnee"
 elsif name == "Ben"
     puts "My name is Ben"
