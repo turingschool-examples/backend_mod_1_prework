@@ -6,6 +6,7 @@ animal_set = ["zebra", "giraffe", "elephant"]
 ### Save the array you created above to a variable `animals`.
 animals = animal_set
 
+
 ### using the array `animals`, how would you access `"giraffe"`?
 animals[1]
 
@@ -14,7 +15,6 @@ animals.push("lion")
 
 ### Name and describe two additional array methods.
 .first returns the first element in an array.
-
 .last returns the last element in an array.  
 
 ### What are the boolean values in Ruby?

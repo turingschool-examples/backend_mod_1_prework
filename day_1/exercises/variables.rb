@@ -1,27 +1,30 @@
-# In the exercises below, write your own code where indicated
-# to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_1/exercises/variables.rb`
+# In the below exercises, write code that achieves
+# the desired result. To check your work, run this
+# file by entering the following command in your terminal: 
+# `ruby day_1/exercises/variables.rb`
 
-# example: Write code below to save your name to a variable and
-# print that variable to the terminal:
+# Example: Write code that saves your name to a variable and
+# prints what that variable holds to the terminal:
 name = "Harry Potter"
 p name
 
-# Write code below to save the string 'Dobby' to a variable and
-# print that variable to the terminal:
+# Write code that saves the string 'Dobby' to a variable and
+# prints what that variable holds to the terminal:
 house_elf = "Dobby"
 puts house_elf
+
 
 # Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 # and print that variable to the terminal:
 harry_warning = "Harry Potter must not return to Hogwarts!"
 puts harry_warning
 
-# example: Write code below to add 2 to the variable `students` and
-# print the result:
+# Write code that adds 2 to the `students` variable and
+# prints the result:
 students = 22
 students = students + 2
 p students
+
 
 # Write the code below to subract 2 students from the `students` variable and
 # print the result:

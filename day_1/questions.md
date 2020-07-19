@@ -3,9 +3,8 @@
 ### How would you print the string `"Hello World!"` to the terminal?
 
 puts "Hello World!"
-
-### What is the character you would use to indicate comments in a ruby file?
-
+=======
+1. What character is used to indicate comments in a ruby file?
 \#
 
 ### Explain the difference between an integer and a float?
@@ -38,3 +37,7 @@ age = gets.chomp
 ### Name and describe two common string methods.
 .length returns the number of characters in the string  
 .upcase capitalizes all the letters in a string.
+
+1. What method is used to get input from a user?
+gets
+

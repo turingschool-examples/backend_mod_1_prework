@@ -1,21 +1,23 @@
-# In the exercises below, write your own code where indicated
-# to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_2/exercises/iteration.rb`
+# In the below exercises, write code that achieves
+# the desired result. To check your work, run this
+# file by entering the following command in your terminal:
+# `ruby day_2/exercises/iteration.rb`
 
-# example: Write code below that iterates through a list of animals and print
-# each animal.
+# Example: Write code that iterates through a list of animals
+# and print each animal:
 animals = ["Zebra", "Giraffe", "Elephant"]
 
 animals.each do |animal|
   p animal
 end
 
-# Write code below that iterates through a list of animals and prints "The
-# <animal> is awesome!" for each animal.
+# Write code that iterates through a list of animals and prints
+# "The <animal> is awesome!" for each animal:
 
 animals.each do |animal|
   puts "The #{animal} is awesome!"
 end
+
 
 # Create an array of foods and then iterate over that array to print "Add
 # <food> to shopping list" for each food item.
@@ -37,3 +39,4 @@ end
 numbers.each do |i|
   puts "#{i}#{i}"
 end
+

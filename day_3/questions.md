@@ -10,7 +10,7 @@ For example:
 #### Why might you want to use an if-statement?
 When you might want different code to execute depending on the user response.
 
-#### What is the Ruby syntax for an if statement?
+#### What is the Ruby syntax for an if/elsif/else statement?
 if [boolean statement] (e.g. x == 2)  
  [code to perform if boolean statement is true]  
  elsif [boolean_statement2]    
@@ -22,9 +22,6 @@ if [boolean statement] (e.g. x == 2)
 end  
 
 #### How do you add multiple conditions to an if statement?
-see above.
-
-#### What is the Ruby syntax for an if/elsif/else statement?
 see above.
 
 #### Other than an if-statement, can you think of any other ways we might want to use a conditional statement?

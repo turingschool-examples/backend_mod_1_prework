@@ -1,9 +1,10 @@
-# In the exercises below, write your own code where indicated
-# to achieve the desired result. You should be able to run this
-# file from your terminal with the command `ruby day_3/exercises/if_statements.rb`
+# In the below exercises, write code that achieves
+# the desired result. To check your work, run this
+# file by entering the following command in your terminal:
+# `ruby day_3/exercises/if_statements.rb`
 
-# example, using the weather variable below, determine what you need to take
-# with you to be prepared based on the following conditions:
+# Example: Using the weather variable below, write code that decides 
+# what you should take with you based on the following conditions:
   # if it is sunny, print "sunscreen"
   # if it is rainy, print "umbrella"
   # if it is snowy, print "coat"
@@ -41,24 +42,18 @@ while repeat_weather == "y"
 end
 
 
-# Manipulate the variable 'weather' to see if you can print something other
-# than 'coat'
-
-
 ##################
 # Using the num_quarters variable defined below, determine
 # if you have enough money to buy a gumball. A gumball costs
-# two quarters. Right now, the program will print
-# out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write
-# a conditional statement that only prints one or the
-# other.
+# two quarters.
 
-# You should be able to change num_quarters and achieve these outputs:
-# When num_quarters = 0, program should print "I don't have enough money for a gumball"
-# When num_quarters = 1, program should print "I don't have enough money for a gumball"
-# When num_quarters = 2, program should print "I have enough money for a gumball"
-# When num_quarters = 3, program should print "I have enough money for a gumball"
+# Right now, the program will print
+# out both "I have enough money for a gumball" and
+# "I don't have enough money for a gumball". Write a 
+# conditional statement that prints only one or the other.
+
+# Experiment with manipulating the value held within num_quarters
+# to make sure both conditions can be achieved.
 
 num_quarters = 0
 repeat_gum = "y"
@@ -81,15 +76,18 @@ end
 
 
 #####################
-# Using the variables defined below, determine if you have the
-# ingredients to make a pizza. A pizza requires at least two cups
-# of flour and sauce.
+# Using the variables defined below, write code that will tell you
+# if you have the ingredients to make a pizza. A pizza requires 
+# at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
-# When cups_of_flour = 1 and has_sauce = true, your program should print "I cannot make pizza"
-# When cups_of_flour = 1 and has_sauce = false, your program should print "I cannot make pizza"
-# When cups_of_flour = 2 and has_sauce = true, your program should print "I can make pizza"
-# When cups_of_flour = 3 and has_sauce = true, your program should print "I can make pizza"
+# If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
+# If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
+# If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
+# If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
+
+# Experiment with manipulating the value held within both variables
+# to make sure all above conditions output what you expect.
 
 cups_of_flour = 1
 has_sauce = true
