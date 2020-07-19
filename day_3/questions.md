@@ -27,9 +27,9 @@ end`
 
 if name == "Cydnee"
     puts "My name is Cydnee"
-end`
+end
 
-`name = "Cydnee"
+name = "Cydnee"
 
 if name == "Cydnee"
     puts "My name is Cydnee"
