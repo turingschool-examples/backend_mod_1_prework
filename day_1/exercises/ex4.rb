@@ -22,4 +22,4 @@ puts "We can transport #{carpool_capacity} people today."
 puts "We have #{passengers} to carpool today."
 puts "We need to put about #{average_passengers_per_car} in each car."
 
-#The error listed in the study drill is do to not having listed any information for the variable "carpool_capacity" in line 7.
+#The error listed in the study drill is due to not having listed any information for the variable "carpool_capacity" in line 7.

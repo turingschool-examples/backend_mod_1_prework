@@ -26,7 +26,7 @@ puts "What is 5 - 7? #{5.0 - 7.0}"
 #Prints "Oh, that's why it's false."
 puts "Oh, that's why it's false."
 
-# Prints "Houw about some more."
+# Prints "How about some more."
 puts "How about some more."
 
 # Prints "Is it greater?" then determins whether the statement 5 > -2 is true or false (true)

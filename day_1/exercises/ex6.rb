@@ -33,4 +33,5 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 # Prints the strings both the w and e variable, combining them with +
+# and making a longer string
 puts w + e

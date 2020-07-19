@@ -7,7 +7,7 @@ weight = gets.chomp
 
 puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 
-#What does gets.chomp do? - gets asks the user for input, .chomp is a method which removes the trailing line from the string.
+# What does gets.chomp do? - gets asks the user for input, .chomp is a method which removes the trailing line from the string.
 
 print "What's your name then?: "
 name = gets.chomp
