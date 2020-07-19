@@ -10,7 +10,7 @@
 
 1. Using the array `animals`, how would you access `"giraffe"`?
 
-`p animals.fetch(1)``
+`p animals.fetch(1)`
 
 1. How would you add `"lion"` to the `animals` array?
 
@@ -19,6 +19,7 @@
 1. Name and describe two additional array methods:
 
 `.push adds an element to an array`
+
 `.reverse_each runs iterations of an array in reverse order`
 
 1. What are the boolean values in Ruby?
