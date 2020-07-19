@@ -24,19 +24,28 @@ end`
 `name = "Cydnee"`
 
 `if name == "Cydnee"
+
     puts "My name is Cydnee"
+
 end`
 
 `name = "Cydnee"`
 
 `if name == "Cydnee"
-    puts "My name is Cydnee"
-elsif name == "Ben"
-    puts "My name is Ben"
-elsif name == "Val"
-    puts "My name is Val"
-else
-    puts "My name is someone else"
+
+    puts "My name is Cydnee"`
+
+`elsif name == "Ben"
+
+    puts "My name is Ben"`
+
+`elsif name == "Val"
+
+    puts "My name is Val"`
+`else
+
+puts "My name is someone else"`
+
 end`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
