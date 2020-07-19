@@ -21,32 +21,32 @@ end`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-`name = "Cydnee"`
+``name = "Cydnee"
 
-`if name == "Cydnee"
+if name == "Cydnee"
 
     puts "My name is Cydnee"
 
-end`
+end
 
-`name = "Cydnee"`
+name = "Cydnee"``
 
-`if name == "Cydnee"
+``if name == "Cydnee"
 
-    puts "My name is Cydnee"`
+    puts "My name is Cydnee"
 
-`elsif name == "Ben"
+elsif name == "Ben"
 
-    puts "My name is Ben"`
+    puts "My name is Ben"
 
-`elsif name == "Val"
+elsif name == "Val"
 
-    puts "My name is Val"`
-`else
+    puts "My name is Val"
+else
 
-puts "My name is someone else"`
+puts "My name is someone else"
 
-end`
+end``
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
