@@ -23,7 +23,7 @@ end
 # "Add <food> to shopping list" for each food item:
 food = ["eggs", "bacon", "sausage", "toast"]
 food.each do |food|
-  print "Add #{food} to shopping list"
+  p "Add #{food} to shopping list "
 end
 # YOUR CODE HERE
 
