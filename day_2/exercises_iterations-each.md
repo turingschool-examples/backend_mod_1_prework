@@ -1,18 +1,19 @@
 #! Exercises bullet 1
-
+```
 array = [1,2,3,4]
 array_mod = array.each {|x| puts "#{x*2}"}
 array_mod2 = array.each {|x| puts "#{x*3}"}
-
+```
 #! Exercise bullet 2
+```
 array = [1,2,3,4]
 puts array.select(&:even?)
 puts array.select(&:odd?)
-
+```
 #! Exercise bullet 3
-
+```
 multiplied_by_2 = array.collect {|x| x*2}
-
+```
 #! Exercise bullet 4
 #a)
 ```
@@ -31,9 +32,8 @@ end
 splitnames = names.collect {|x| x.split(" ")}
 splitnames.each do |key, value|
 puts value
-```
 end
-
+```
 #d)
 ```
 splitnames = names.collect {|x| x.split(" ")}
