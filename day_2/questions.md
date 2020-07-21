@@ -22,7 +22,7 @@ animals.push("lion")
 
 1. Name and describe two additional array methods:
 
-**array.count** - will return the number of elements in the array
+**array.count** - will return the number of elements in the array  
 **array.sort** - will return a string with the elements of the array in alphabetical order if they are strings, and ascending order if numbers.
 
 1. What are the boolean values in Ruby?
@@ -40,10 +40,10 @@ I would type `25 > 2` which would result in true.
 
 **QUESTION:** Why does this return each name on one line as well as the string at the end?
 
-irb(main):003:0> names = ["Megan", "Brian", "Sal"]
-=> ["Megan", "Brian", "Sal"]
-irb(main):004:0> names.each {|name| puts name }
-Megan
-Brian
-Sal
-=> ["Megan", "Brian", "Sal"]
+irb(main):003:0> names = ["Megan", "Brian", "Sal"]  
+=> ["Megan", "Brian", "Sal"]  
+irb(main):004:0> names.each {|name| puts name }  
+Megan  
+Brian  
+Sal  
+<!-- => ["Megan", "Brian", "Sal"]   -->
