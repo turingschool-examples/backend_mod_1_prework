@@ -24,7 +24,7 @@ Interpolation is the process of adding a variable into a string.
 
 1. Name and describe two common string methods:
 `length` is a method that returns the number of characters in a string.
-`split` is a method that divides a string up into individuals elements, and
+`split` is a method that divides a string up into individual elements, and
 returns them as an array. By default, `split` divides a string using spaces
 as the dividing line, but we can change that by adding an argument at the end
 of the method like `(",")`.
