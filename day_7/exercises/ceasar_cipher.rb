@@ -1,6 +1,6 @@
 
 class CeasarCipher
-  attr_reader :word, :shift, :letters
+  attr_accessor :word, :shift, :letters, :prep
 
   ALPHABET_CONSTANT = ("A".."Z")
 
@@ -19,43 +19,35 @@ class CeasarCipher
         letter_index = @working_alphabet.find_index(letter)
       end
     end
-    return @prep
+    return prep
   end
 
   def shift(number)
-    @prep.collect! do |word| #array of numbers seperated by words
-      word.collect! do |value| #one array of numbers
-        shifted_number = (value - number) #valid number! @this point the shifted_number is good!
-        if number > 0 #shift to the left
-          new_value = 26 + shifted_number
-          shifted_number = new_value
+    self.prep.collect! do |word| #array of numbers seperated by words
+      word.map! do |value| #one array of numbers
+        value -= number
+        if value > 26 #shift to the right
+          value -=  26
         else
-          shifted_number = new_value
+          value
         end
-
-
-        if number < 0 #shift to the right
-          new_value = shifted_number - 26
-          shifted_number = new_value
-          shifted_number
-          if new_value > 26
-            new_value -= 26
-            shifted_number = new_value
-          end
+        if value < 0
+          value += 26
+        else
+          value
         end
-        shifted_number = new_value
       end
     end
-    return @prep
+    prep
   end
 
   def transform_indexes_to_words
-    @prep.collect! do |word| #all elements SHOULD be less than 26
+    self.prep.collect! do |word| #all elements SHOULD be less than 26
       word.collect! do |value|
         @working_alphabet[value]
       end
     end
-    return @prep
+    prep
   end
 
 
@@ -64,10 +56,10 @@ class CeasarCipher
     transform_words_to_indexes
     shift(shift)
     transform_indexes_to_words
-    @prep.collect! do |word|
-      smashed_word = word.join
+    self.prep.collect! do |word|
+      word.join
     end
-      return @prep.join(' ')
+      self.prep.join(' ')
   end
 end
 
