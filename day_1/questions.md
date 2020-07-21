@@ -4,7 +4,7 @@
 ```puts "Hello World!"```
 
 1. What character is used to indicate comments in a ruby file?
-#
+```#```
 
 1. Explain the difference between an integer and a float?
 An integer is a whole number that does not include decimals, while a float is a number that has decimals.
@@ -17,7 +17,7 @@ An integer is a whole number that does not include decimals, while a float is a 
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 Interpolation is the process of adding a variable into a string.
-```puts "I like giraffes, but #{animal}s will always be my favorite."
+```puts "I like giraffes, but #{animal}s will always be my favorite."```
 
 1. What method is used to get input from a user?
 ```gets.chomp```
