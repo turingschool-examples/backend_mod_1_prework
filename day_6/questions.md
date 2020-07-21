@@ -17,20 +17,29 @@
 > class Dog
 >
 >  attr_accessor :name, :weight, :has_tail
+>
 >  def initialize(name, weight, has_tail)
+>
 >    @name   = name
+>
 >    @weight    = weight
+>
 >    @has_tail = true
 >   end
 >
 >  def dock_tail(tail)
+>
 >   self.has_tail = tail
->  end
+>  
+> end
 >
 >  def call_dog
+>
 >   p "Come here #{@name}!"
+>
 >  end
->end
+>
+> end
 >
 >dog = Dog.new("Sir Max", "45", "true")
 
