@@ -4,12 +4,12 @@
 
 # YOUR CODE HERE
 class Person
-  attr_reader :height, :weight, :depression, :anxious
-  def initialize(height, weight, depression, anxious)
+  attr_reader :height, :weight, :depressed, :anxious
+  def initialize(height, weight)
     @height = height
     @weight = weight
-    @depression = depression
-    @anxious = anxious
+    @anxious = true
+    @depressed = true
   end
   def grow(growth)
     @height += growth
@@ -18,14 +18,14 @@ class Person
     @weight += weight_gained
   end
   def depress
-    @depression = true
+    @depressed = true
   end
   def make_anxious
     @anxious = true
   end
   def therapy
     @anxious = false
-    @depression = false
+    @depressed = false
   end
   def shrink(amount_shrunk)
     @height -= amount_shrunk
@@ -35,10 +35,10 @@ class Person
   end
 end
 
-greg = Person.new(160, 145, true, false)
+greg = Person.new(160, 145)
 p greg.height
 p greg.weight
-p greg.depression
+p greg.depressed
 p greg.anxious
 greg.grow(4)
 greg.gain_weight(15)
@@ -46,12 +46,12 @@ greg.depress
 greg.make_anxious
 p greg.height
 p greg.weight
-p greg.depression
+p greg.depressed
 p greg.anxious
 greg.shrink(1)
 greg.therapy
 greg.lose_weight(6)
 p greg.height
 p greg.weight
-p greg.depression
+p greg.depressed
 p greg.anxious

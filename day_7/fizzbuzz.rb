@@ -10,12 +10,14 @@ upper_bound = gets.chomp.to_i
 
 array =* (lower_bound..upper_bound)
 array.each do |number|
-  if number % 3 == 0 && number % 5 ==0
-    print "Fizzbuzz, "
-  elsif number % 3 == 0 && number % 5 != 0
-    print "Fizz, "
-  elsif number % 5 == 0 && number % 3 != 0
-    print "Buzz, "
-  else print "#{number}, "
+  print ", " if number != lower_bound
+  if number % 3 == 0 && number % 5 == 0
+    print "Fizzbuzz"
+  elsif number % 3 == 0
+    print "Fizz"
+  elsif number % 5 == 0
+    print "Buzz"
+  else
+    print "#{number}"
   end
 end
