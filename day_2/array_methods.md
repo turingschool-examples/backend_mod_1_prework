@@ -1,8 +1,10 @@
-#Array Methods
-##An **ARRAY** allows us to store collections of data
-##**ITERATION** allows us to go through every element of an array
+## Array Methods
 
-###Methods in my own words
+### An **ARRAY** allows us to store collections of data
+
+### **ITERATION** allows us to go through every element of an array
+
+#### Methods in my own words
 
 
 `.sort` is an array method that will sort through an array and return a new array with the elements sorted, either in alphabetical or numerical order.

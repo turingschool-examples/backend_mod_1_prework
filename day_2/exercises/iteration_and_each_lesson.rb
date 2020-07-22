@@ -44,16 +44,31 @@ names.each {|name| puts name}
 
 
 #How would you print out only the first name?
-#This is the point where I downloaded pry
-#How do I use pry?
 
+names.each do |name|
+  name = name.split(" ")
+  puts name[0]
+end
 
 #How would you print out only the last name?
+
+names.each do |name|
+  name = name.split(" ")
+  puts name[1]
+end
 
 #How could you print out only the initials?
 
 #How can you print out the last name and how many characters
 #are in it?
+
+names.each do |name|
+  last_name = name.split(" ")
+  puts last_name.count
+  puts last_name
+end
+
+#???
 
 #How can you create an integer which represents the total
 #number of characters in all the names?

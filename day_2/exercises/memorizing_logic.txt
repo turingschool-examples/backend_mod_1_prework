@@ -1,4 +1,3 @@
-This is how I'm showing my work for this exercise.
 Truth Tables - practice memorizing these 15m/day for 1 week
 
 !false . . . true
