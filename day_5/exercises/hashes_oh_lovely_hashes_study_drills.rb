@@ -70,16 +70,16 @@ puts "The city for the state 'ME' is #{city}"
 
 
 # ******** study drill # 2
-find the ruby documentation for hashes and try to do even more things to them
-
-according to ruby-doc.org :
-a hash is a dictionary-like collection of unique keys and their values, also
-called associative arrays, but where an array uses integers as its index,
-a hash allows you to use any object type.
-hashes enumerate their values in the order that the corresponding keys were
-inserted.
-
-this is me writing a hash with keys and values where the keys are symbols
+# find the ruby documentation for hashes and try to do even more things to them
+#
+# according to ruby-doc.org :
+# a hash is a dictionary-like collection of unique keys and their values, also
+# called associative arrays, but where an array uses integers as its index,
+# a hash allows you to use any object type.
+# hashes enumerate their values in the order that the corresponding keys were
+# inserted.
+#
+# this is me writing a hash with keys and values where the keys are symbols
 states = {
   Washington: 'WA',
   Ohio: 'OH',
