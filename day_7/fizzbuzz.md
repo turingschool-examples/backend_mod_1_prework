@@ -1,6 +1,6 @@
 ## FizzBuzz
 
-Create a file named fizzbuzz.rb and within that file, write a program that prints something for each number from 1 to 100 with the following rules:
+Create a file named fizzbuzz.rb ✔️ and within that file, write a program that prints something for each number from 1 to 100 with the following rules:
 
 * For any number that is a multiple of 3, print 'Fizz'
 * For any number that is a multiple of 5, print 'Buzz'
