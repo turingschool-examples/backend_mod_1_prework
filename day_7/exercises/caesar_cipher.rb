@@ -15,9 +15,7 @@ def cipher
       puts "Ok, have a nice day!"
     end
   elsif shift_val > 0 && shift_val <=26
-  #  puts # I don't think I need this elsif
   elsif shift_val < 0 && shift_val >= -26
-  #  puts # I don't think I need this elsif
   else
     puts "Please pick a number between -26 and 26."
     cipher()
