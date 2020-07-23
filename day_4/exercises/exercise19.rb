@@ -32,7 +32,7 @@ def cookie_baking (time, high_altitude)
     puts "At your altitude of #{high_altitude}, you will need to add 1 tbsp of flour and 3 tsp of water for your recipe!\n"
   elsif (high_altitude < 5000 && (time < 15 && time >= 12))
     puts "At your altitude of #{high_altitude}, you will need to add 1 tbsp of flour and 3 tsp of water for your recipe!\n"
-    puts "Your cookies will turn out perfect if you cook it for about #{time} minutes"
+    puts "Your cookies will turn out perfect if you cook it for about #{time} minutes!\n"
   elsif (high_altitude > 5000 && time < 12)
     puts "At your altitude of #{high_altitude}, you will need to add 1 tbsp of flour and 3 tsp of water for your recipe!"
     puts "You need to cook your cookies longer than #{time} minutes or they will be uncooked!\n"
