@@ -1,6 +1,6 @@
 ## 10 Speckled Frogs
 
-Create a file named `10_speckled_frogs.js` and within that file, write several a program that will print the following nursery rhyme:
+Create a file named `10_speckled_frogs.rb` and within that file, write several a program that will print the following nursery rhyme:
 
 > 3 speckled frogs sat on a log 
 > eating some most delicious bugs.  
