@@ -37,8 +37,27 @@ states.each do |state, abb|
   puts "#{state} has the abbreviation #{abb} and the Capital is #{capital}."
 end
 =end
-states.collect do  |state, abbrev|
-  city = cities[abbrev]
-  city ||= "data corrupt"
+city_state = states.map do |k, v|
+  city = cities[v] || "x"
+  state = k
+  abbrev = v
+  puts [city, state, abbrev].to_s
+  [city, state, abbrev]
+
+end
+
+city_state = city_state.sort_by do |x|
+  x[0]
+
+end
+
+
+city_state = city_state.each do  |x|
+  if x[0] == "x"
+  city = "z.data corrupt"
+else city = x[0]
+  end
+  state = x[1]
+  abbrev = x[2]
   puts "#{city} in #{state}, #{abbrev}"
 end
