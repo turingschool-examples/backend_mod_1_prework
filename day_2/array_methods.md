@@ -11,7 +11,7 @@ toys << "boat"
 #### .first
 Returns the first element in an array.
 ```ruby
-print toys.last
+print toys.first
 => "car"
 ```
 
