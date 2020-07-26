@@ -18,9 +18,6 @@
 # Required
 # Make your program print the rhyme above for *10* frogs, with attention to where language changes.
 
-# Extension 2
-# Make your program work for any number of frogs.
-
 frogs = (1..10).to_a.reverse
 
 frogs.each do |num|
@@ -59,3 +56,7 @@ frog_hash.each do |int, str|
     puts "#{str.capitalize} speckled frog sat on a log\neating some most delicious bugs.\nOne jumped in the pool where its nice and cool,\nthen there were no more speckled frogs!\n\n"
   end
 end
+
+# Extension 2
+# Make your program work for any number of frogs.
+# It does!
