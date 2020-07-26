@@ -1,4 +1,4 @@
-# Day 1 - Strings and Numbers
+# Day 1 - Strings and Numbers --> -->
 
 Today, you will begin to learn the basics of Ruby. You will work through several tutorials which will help build your comfort running files and seeing output. You will also learn about two ways to represent data in Ruby: *Strings* and *Numbers*.
 
