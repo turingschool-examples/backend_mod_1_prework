@@ -1,9 +1,10 @@
 # In the dog class below, write a `play` method that makes
-# the dog hungry. Call that method below the class, and 
+# the dog hungry. Call that method below the class, and
 # print the dog's hunger status.
 
 class Dog
-  attr_reader :breed, :name, :age, :hungry
+  attr_accessor :hungry
+  attr_reader :breed, :name, :age
 
   def initialize(breed, name, age)
     @breed  = breed
@@ -19,6 +20,10 @@ class Dog
   def eat
     @hungry = false
   end
+
+  def play
+    self.hungry = true
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
@@ -27,4 +32,7 @@ p fido.name
 p fido.age
 p fido.hungry
 fido.eat
+p fido.hungry
+
+fido.play
 p fido.hungry
