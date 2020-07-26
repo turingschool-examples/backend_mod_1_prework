@@ -18,7 +18,6 @@ def checkerboard(size)
   end
 end
 
-checkerboard(7)
-checkerboard(4)
-checkerboard(3)
-checkerboard(20)
+puts "What size board would you like?"
+length = gets.chomp.to_i
+checkerboard(length)
