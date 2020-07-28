@@ -41,10 +41,43 @@ array.each do |number|
   end
 end
 
-puts "--------------------------------------------"
-puts "Extension 2: Here's for any number of frogs"
-puts "--------------------------------------------"
+puts "------------------------------------------------------"
+puts "Extension 2: Here's a program for any number of frogs"
+puts "------------------------------------------------------"
 
+
+class FrogsOnLog
+
+  def number_of_frogs(number)
+    array = []
+    number.times do |number|
+      array.push(number + 1)
+  end
+
+  array.sort! {|x, y| y <=> x}
+
+  array.each do |number|
+    if number > 2
+      puts "#{number} speckled frogs sat on a log eating some most delicious bugs."
+      puts "One jumped in the pool where it's nice and cool,"
+      puts "then there were #{number - 1} speckled frogs."
+    elsif number == 1
+      puts "#{number} speckled frog sat on a log eating some most delicious bugs."
+      puts "One jumped in the pool where it's nice and cool,"
+      puts "then there were #{number - 1} speckled frogs."
+    else number == 2
+      puts "#{number} speckled frogs sat on a log eating some most delicious bugs."
+      puts "One jumped in the pool where it's nice and cool,"
+      puts "then there was #{number - 1} speckled frog."
+    end
+  end
+  end
+end
+
+# You can create a new instance for a new number and pass a number as an argument to the
+# number_of_frogs method to run the code.
+fifteen = FrogsOnLog.new
+fifteen.number_of_frogs(15)
 
 
 
