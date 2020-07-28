@@ -24,29 +24,32 @@ p new_array
 
 puts "------------------------------------------------------------"
 puts "Bonus: program so that it will run for any range of numbers"
-puts "-------------------------------------------------------------"
+puts "------------------------------------------------------------"
 
 
-your_array_here = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-new_array = []
+class PersonalArray
 
-def given_array(array)
-
-
-array.each do |number|
-
-  if (number % 3) == 0 && (number % 5) == 0
-    new_array.push("FizzBuzz")
-  elsif (number % 3) == 0
-    new_array.push("Fizz")
-  elsif (number % 5) == 0
-    new_array.push("Buzz")
-  else
-    new_array.push(number)
+  def given_array(array)
+    new_array = []
+  array.each do |number|
+    if (number % 3) == 0 && (number % 5) == 0
+      new_array.push("FizzBuzz")
+    elsif (number % 3) == 0
+      new_array.push("Fizz")
+    elsif (number % 5) == 0
+      new_array.push("Buzz")
+    else
+      new_array.push(number)
+    end
   end
+  print new_array
+end
 end
 
-end
+# given range of 5-64 as argument
+five_to_64 = PersonalArray.new
+five_to_64.given_array(5..64)
 
-given_array(your_array_here)
-p new_array
+# given range of 30-56 as argument
+thirty_to_56 = PersonalArray.new
+thirty_to_56.given_array(30..56)
