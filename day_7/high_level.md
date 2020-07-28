@@ -1,6 +1,6 @@
 ## High-Level Explanations
 
-###Caesar Cipher
+### Caesar Cipher
 - Create a new class named `CaesarCipher`.
 - Define a method called encode which will hold two arguments: the unencoded `string` and the `shift` value.
 
