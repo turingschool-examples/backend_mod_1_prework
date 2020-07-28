@@ -9,8 +9,7 @@ number = $stdin.gets.chomp.to_i
       end
     end
 
-# Below was where I statred, but I realized I had made it too complicated
-# puts "------------Original code below------------"
+# Below is how I statred, but I realized that I had made it too complicated
 #
 # class CheckerBoard
 #
