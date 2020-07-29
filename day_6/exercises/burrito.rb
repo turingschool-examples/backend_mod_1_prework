@@ -12,8 +12,9 @@ class Burrito
     @toppings = toppings
   end
 
-  def add_topping
-  puts "I'd like to add more #{toppings[2]} please!"
+  def add_topping(new_topping)
+    toppings.push(new_topping)
+    puts "I dont see #{new_topping} on your menu but can you please add some #{new_topping} for me?!"
   end
 
   def remove_topping
@@ -31,6 +32,6 @@ p dinner.protein
 p dinner.base
 p dinner.toppings
 
-dinner.add_topping
+dinner.add_topping("lettuce")
 dinner.remove_topping
 dinner.change_protein
