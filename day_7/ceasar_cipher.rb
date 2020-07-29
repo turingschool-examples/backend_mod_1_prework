@@ -10,8 +10,7 @@ print "> "
 # Positive integers shift letters to the right; negative integers shift letters to the left.
 b = gets.chomp.to_i
 
-array = a.upcase.split('')
-array.each {|letter| letter == " " ? string_index << letter : string_index << alphabet.index(letter) }
+a.upcase.split('').each {|letter| letter == " " ? string_index << letter : string_index << alphabet.index(letter) }
 
 string_index.each {|index| index == " " ? cypher << index : cypher << alphabet.rotate(b)[index] }
 
