@@ -4,24 +4,34 @@
 # `ruby day_4/exercises/methods.rb`
 
 # Example: Write a method that when called will print your name:
-def print_name
-  p "Severus Snape"
+def print_name(a)
+  puts "#{a}"
 end
 
-print_name
+print_name("Hanna")
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "#{name}"
 end
 
-print_name("Albus Dumbledore")
+print_name("Hanna")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
+def add(a,b)
+  puts "The sum of #{a} and #{b} is:"
+  return a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+puts add(1,5)
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+def adage(status, action)
+  puts "If it ain't #{status}, #{action} fix it."
+end
+
+adage("broke","don't")
