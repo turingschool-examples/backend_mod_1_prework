@@ -5,24 +5,39 @@
 
 # Example: Write code that iterates through a list of animals
 # and print each animal:
+
 animals = ["Zebra", "Giraffe", "Elephant"]
 
-animals.each do |animal|
-  p animal
+animal.each do |animals|
+  puts animals
 end
 
 # Write code that iterates through a list of animals and prints
 # "The <animal> is awesome!" for each animal:
 
-animals.each do |animal|
-  # YOUR CODE HERE
+animals.each do |animals|
+  puts "This #{animals} is awesome!"
 end
 
-# Write code that stores an array of foods in a variable, 
+# Write code that stores an array of foods in a variable,
 # then iterates over that array to print
 # "Add <food> to shopping list" for each food item:
-# YOUR CODE HERE
 
-# Write code that stores an array of numbers in a variable, 
-# then iterates over that array to print doubles of each number: 
-# YOUR CODE HERE
+food = ["dark chocolate", "sushi", "blackberries"]
+
+food.each do |food|
+ puts food
+end
+
+shopping_list = food
+ puts "My shopping list includes:"
+shopping_list.each do |shopping_list|
+ puts shopping_list
+end
+
+# Write code that stores an array of numbers in a variable,
+# then iterates over that array to print doubles of each number:
+
+number = [1, 2, 3, 4]
+double_number = number.collect {|number| number * 2}
+puts double_number
