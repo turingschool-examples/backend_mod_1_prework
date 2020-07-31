@@ -12,18 +12,18 @@ Using your terminal, open your local copy of the forked repository you created d
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
     1. [FizzBuzz](./fizzbuzz.md)
-    1. [10 Speckled Frogs](./10_speckled_frogs)
+    2. [10 Speckled Frogs](./10_speckled_frogs)
 
-1. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
+2. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
 
-1. Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
+3. Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
 
     1. [Ceasar Cipher](./ceasar_cipher.md)
     1. [Checker Board](./checker_board.md)
 
-1. When you are finished with your high level explanation, you should add, commit, and push your changes to GitHub.
+4. When you are finished with your high level explanation, you should add, commit, and push your changes to GitHub.
 
-1. Log in to GitHub, navigate to your remote prework repository and make sure all work from all the days is there!
+5. Log in to GitHub, navigate to your remote prework repository and make sure all work from all the days is there!
 
 ## Submission
 
@@ -31,21 +31,21 @@ When you have completed *all* the activities described above, follow the steps b
 
 1. Go to *your* prework repository on GitHub
 
-1. click on `New Pull Request` per the image below:
+2. click on `New Pull Request` per the image below:
 
     ![New PR](https://i.imgur.com/lGKNxwC.png)
 
-1. On the Pull Request page, make sure you see something similar to below (but with your username):
+3. On the Pull Request page, make sure you see something similar to below (but with your username):
 
     ![New PR](https://i.imgur.com/CwJH8os.png)
 
-1. Click on `Create New Pull Request` (circled in the image above).
+4. Click on `Create New Pull Request` (circled in the image above).
 
-1. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
+5. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
 
     ![Create PR](https://i.imgur.com/CQQzfNc.png)
 
-1. ***[Please complete this form to submit your prework.](https://forms.gle/wxoVuhHKjrRyvGW2A)*** Be sure to include links to your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will look something like: `https://github.com/YOUR_GITHUB_USERNAME/backend_mod_1_prework`. (using your own GitHub username, of course!)
+6. ***[Please complete this form to submit your prework.](https://forms.gle/wxoVuhHKjrRyvGW2A)*** Be sure to include links to your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will look something like: `https://github.com/YOUR_GITHUB_USERNAME/backend_mod_1_prework`. (using your own GitHub username, of course!)
 
 And with that form submission, ***you're done!!!*** Any feedback after this has been reviewed will be Slacked to you. Can't wait to see you on the first day of class!!
 
