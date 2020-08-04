@@ -1,6 +1,6 @@
-monkey = ["Ten", "Nine", "Eight", "Seven", "Six", "Five","Four", "Three", "Two", "One"]
-monkey.each do |ele|
-  1.times {p "#{ele} little monkey(s) jumping on the bed, One fell off and bumped his head, Mama called the doctor and the doctor said,  'No more monkeys jumping on the bed!'"}
+monkeys = ["Ten", "Nine", "Eight", "Seven", "Six", "Five","Four", "Three", "Two", "One"]
+monkeys.each do |monkey|
+  p "#{monkey} little monkey(s) jumping on the bed, One fell off and bumped his head, Mama called the doctor and the doctor said,  'No more monkeys jumping on the bed!'"
 end
 
 # Bonus
