@@ -18,11 +18,13 @@ class Burrito
   end
 
   def remove_topping
-    puts "Please remove the #{toppings[0]}, many thanks!"
+    puts "Please remove the #{toppings[0]} from the menu, many thanks!"
+    toppings.shift
   end
 
-  def change_protein
-    puts "Can I please change my protein from #{protein} to Chicken, thanks!"
+  def change_protein(new_protein)
+    protein.sub("Beans", new_protein)
+    puts "Can I please change my protein from #{protein} to #{new_protein}, thanks!"
   end
 
 end
@@ -34,4 +36,4 @@ p dinner.toppings
 
 dinner.add_topping("lettuce")
 dinner.remove_topping
-dinner.change_protein
+dinner.change_protein("tofu")
