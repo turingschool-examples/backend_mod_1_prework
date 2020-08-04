@@ -11,7 +11,7 @@ class Person
     @awake = true
   end
 
-  def all_nighter
+  def pull_all_nighter
     @mood = "Tired"
   end
 
@@ -20,7 +20,7 @@ class Person
     @awake = true
   end
 
-  def birthday
+  def celebrate_birthday
     @age += 1
     puts "Happy birthday #{name}! You are now #{age} years old."
   end
@@ -29,31 +29,37 @@ class Person
     puts "#{name} is #{height}cm tall."
   end
 
-  def alarm
+  def wake_up
     @awake = true
     puts "Time to get up!"
   end
 
-  def bed
+  def go_to_bed
     @awake = false
     puts "Time to go to sleep!"
   end
+
+  def measure_in_imperial
+    puts "#{name} is #{(height / 2.54).round(2)} inches tall."
+  end
+
 end
 
 eugene = Person.new("Eugene", 30, 180)
 p eugene.name
 p eugene.age
 p eugene.awake
-eugene.bed
+eugene.go_to_bed
 p eugene.awake
-eugene.alarm
+eugene.wake_up
 p eugene.awake
-eugene.birthday
-# p eugene.age
+eugene.celebrate_birthday
+p eugene.age
 p eugene.mood
-eugene.all_nighter
+eugene.pull_all_nighter
 p eugene.mood
 eugene.caffeinate
 p eugene.mood
 eugene.measure
 # YOUR CODE HERE
+eugene.measure_in_imperial
