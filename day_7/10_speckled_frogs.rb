@@ -1,107 +1,72 @@
-class LittleMonkeysJumping
-  attr_accessor :number_of_monkeys
+# Found this number conversion on Stack Overflow
+# Link: https://stackoverflow.com/questions/19445003/using-ruby-convert-numbers-to-words
 
-  def initialize(number_of_monkeys)
-    @number_of_monkeys = number_of_monkeys
+def in_words(int)
+  numbers_to_name = {
+      1000000000 => "Billion",
+      1000000 => "Million",
+      1000 => "Thousand",
+      100 => "Hundred",
+      90 => "Ninety",
+      80 => "Eighty",
+      70 => "Seventy",
+      60 => "Sixty",
+      50 => "Fifty",
+      40 => "Forty",
+      30 => "Thirty",
+      20 => "Twenty",
+      19=>"Nineteen",
+      18=>"Eighteen",
+      17=>"Seventeen",
+      16=>"Sixteen",
+      15=>"Fifteen",
+      14=>"Fourteen",
+      13=>"Thirteen",
+      12=>"Twelve",
+      11 => "Eleven",
+      10 => "Ten",
+      9 => "Nine",
+      8 => "Eight",
+      7 => "Seven",
+      6 => "Six",
+      5 => "Five",
+      4 => "Four",
+      3 => "Three",
+      2 => "Two",
+      1 => "One"
+    }
+  str = ""
+  numbers_to_name.each do |num, name|
+    if int == 0
+      return str
+    elsif int.to_s.length == 1 && int/num > 0
+      return str + "#{name}"
+    elsif int < 100 && int/num > 0
+      return str + "#{name}" if int%num == 0
+      return str + "#{name} " + in_words(int%num)
+    elsif int/num > 0
+      return str + in_words(int/num) + " #{name} " + in_words(int%num)
+    end
   end
+end
 
-   def sing_rhyme
-     numbers_to_words = {'1' =>'One', '2' =>'Two', '3' =>'Three', '4' =>'Four', '5' =>'Five', '6' =>'Six', '7' =>'Seven', '8' =>'Eight', '9' =>'Nine', '10' =>'Ten', '11' =>'Eleven', '12' =>'Twelve', '13' =>'Thirteen', '14' =>'Fourteen', '15' =>'Fifteen', '16' =>'Sixteen', '17' =>'Seventeen', '18' =>'Eighteen', '19' =>'Nineteen', '20' =>'Twenty', '30' =>'Thirty', '40' =>'Forty', '50' =>'Fifty', '60' =>'Sixty', '70' => 'Seventy', '80' => 'Eighty', '90' =>'Ninety'}
+#print in_words(957684)
 
-     if @number_of_monkeys == 0
-       puts "All the monkeys are in bed!"
-     else
+# This section is to convert the number to a word for the nursery rhyme.
 
-   move_index = 0
-   monkey_countdown = @number_of_monkeys
-   word_holder = ['']
-   descending_num_words = ['']
+array = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
-   while monkey_countdown >= 21
-       array_of_monkeys = monkey_countdown.to_s.split('')
-
-       if (array_of_monkeys[-2] + array_of_monkeys[-1]).to_i <=20 && (array_of_monkeys[-2] +    array_of_monkeys[-1]).to_i > 10
-         word_holder[0] = ['']
-         word_holder[1] = numbers_to_words[(array_of_monkeys[-2] + array_of_monkeys[-1])]
-        else
-          word_holder[0] = numbers_to_words[array_of_monkeys[-1]]
-          word_holder[1] = numbers_to_words[array_of_monkeys[-2] + '0']
-        end
-
-        if array_of_monkeys.length > 2
-          if array_of_monkeys[-3] == "0"
-            word_holder[2] = ['']
-          else
-            word_holder[2] = numbers_to_words[array_of_monkeys[-3]] + ' Hundred'
-          end
-        end
-
-        if array_of_monkeys.length > 3
-          word_holder[3] = numbers_to_words[array_of_monkeys[-4]] + ' Thousand'
-        end
-
-     descending_num_words[0 + move_index] = (word_holder.reverse).join(' ')
-     monkey_countdown = monkey_countdown - 1
-     word_holder = ['']
-     move_index += 1
-     end
-   while monkey_countdown >= 21
-       array_of_monkeys = monkey_countdown.to_s.split('')
-
-       if (array_of_monkeys[-2] + array_of_monkeys[-1]).to_i <=20 && (array_of_monkeys[-2] +    array_of_monkeys[-1]).to_i > 10
-         word_holder[0] = ['']
-         word_holder[1] = numbers_to_words[(array_of_monkeys[-2] + array_of_monkeys[-1])]
-        else
-          word_holder[0] = numbers_to_words[array_of_monkeys[-1]]
-          word_holder[1] = numbers_to_words[array_of_monkeys[-2] + '0']
-        end
-
-        if array_of_monkeys.length > 2
-          if array_of_monkeys[-3] == "0"
-            word_holder[2] = ['']
-          else
-            word_holder[2] = numbers_to_words[array_of_monkeys[-3]] + ' Hundred'
-          end
-        end
-
-        if array_of_monkeys.length > 3
-          word_holder[3] = numbers_to_words[array_of_monkeys[-4]] + ' Thousand'
-        end
-
-     descending_num_words[0 + move_index] = (word_holder.reverse).join(' ')
-     monkey_countdown = monkey_countdown - 1
-     word_holder = ['']
-     move_index += 1
-     end
-
-     move_index = 0
-twenty_or_less = [20,@number_of_monkeys].min
-while twenty_or_less >= 0
-  if descending_num_words[move_index] == ''
-    descending_num_words[move_index] << numbers_to_words[twenty_or_less.to_s]
+array.each do |frogs|
+  if frogs == 2
+    puts "#{in_words (frogs)} speckled frogs sat on a log eating some most delicious bugs."
+    puts "One jumped in the pool where its nice and cool,"
+    puts "then there was #{in_words (frogs - 1)} speckled frog."
+  elsif frogs == 1
+    puts "#{in_words (frogs)} frog sat on a log eating some most delicious bugs"
+    puts "One jumped in the pool where its nice and cool,"
+    puts "then there were no more speckled frogs!"
   else
-    descending_num_words << numbers_to_words[twenty_or_less.to_s]
+    puts "#{in_words (frogs)} speckled frogs sat on a log eating some of the most delicious bugs."
+    puts "One jumped in the pool where its nice and cool, then there were #{in_words (frogs - 1)} speckled frogs."
   end
-  twenty_or_less -= 1
-  move_index += 1
-end
-
-  move_index = 0
-    while descending_num_words[move_index] != "One"
-   puts "#{descending_num_words[move_index]} little monkeys jumping on the bed,"
-   puts "One fell off and bumped his head,"
-   puts "Mama called the doctor and the doctor said,"
-   puts "No more monkeys jumping on the bed!"
-   puts " "
-   move_index += 1
- end
-  puts "One little monkey jumping on the bed,"
-  puts "He fell off and bumped his head,"
-  puts "Mama called the doctor and the doctor said,"
-  puts "Get those monkeys right to bed!"
-  end
-end
-
-some_monkeys = LittleMonkeysJumping.new(10)
-some_monkeys.sing_rhyme
 end

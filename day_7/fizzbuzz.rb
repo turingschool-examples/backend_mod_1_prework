@@ -1,26 +1,14 @@
-class FizzBuzz
+array = (1..300)
 
-  def initialize(first_number, last_number)
-    @first_number = first_number
-    @last_number = last_number
-  end
 
-  def fizzbuzz_compute
-    x = @first_number
-    while x <= @last_number
-      if x % 3 == 0 && x % 5 == 0
-        p "FizzBuzz"
-      elsif x % 3 == 0
-        p "Fizz, "
-      elsif x % 5 == 0
-        p "Buzz, "
-      else
-        p "#{x}"
-      end
-      x += 1
-    end
+array.each do |input|
+  if (input % 5) == 0 && (input % 3) == 0
+    print "FizzBuzz, "
+  elsif (input % 5) == 0
+    print "Buzz, "
+  elsif (input % 3) == 0
+    print "Fizz, "
+  else (input)
+    print "#{input}, "
   end
 end
-
-first_game = FizzBuzz.new(1, 100)
-first_game.fizzbuzz_compute
