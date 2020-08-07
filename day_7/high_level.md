@@ -1,6 +1,6 @@
-*** High Level Summary for Checker Board Challenge
+### High Level Summary for Checker Board Challenge
 
-****** What we need:
+##### What we need:
 
 To begin, the instructions state that we need to construct a checker board
 based on the size that the user instructs. So we will first ask the user what size they would like the checker board to be. We will use a `gets.chomp` command to have the user input the desired size, so that we can create the checker board around that constraint.
