@@ -5,9 +5,9 @@ board = gets.chomp.to_i/2
 def make (board)
   if (board * 2) == 1
     puts "X"
-  elsif board % 2 == 0
-    puts "X " * (board)
-    puts " X" * (board)
+  elsif (board % 2) == 0
+    puts "X " * board
+    puts " X" * board
   else
     puts "X " * board + "X"
     puts " X" * board + " "
