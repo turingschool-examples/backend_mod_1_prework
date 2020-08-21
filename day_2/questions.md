@@ -15,15 +15,16 @@ animals.push "lion"
 - True or False  
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?  
 - I would first assign variables with these two values and then see if they are equal. The result would be "false"  
-''' x = 2  
-y = 25  
-x == y  
-=> false'''    
+    x = 2  
+    y = 25  
+    x == y  
+    => false   
+
 - You can also more simply write 2 == 25 and return the same result if you don't need to use them again later on in the program.  
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?  
 - Similar to the question above, I would assign variables and then compare them with ">" and the result would be "true"  
-''' x = 2  
-y = 25  
-y > x  
-=> true '''  
+    x = 2  
+    y = 25  
+    y > x  
+    => true      
 - You can also more simply write 25 > 2 and return the same result if you don't need to use the numbers later on in the program.  
