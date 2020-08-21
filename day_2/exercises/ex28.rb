@@ -1,4 +1,4 @@
-'''irb(main):001:0> true && true
+irb(main):001:0> true && true
 => true
 irb(main):002:0> false && true
 => false
@@ -37,5 +37,4 @@ irb(main):018:0> 1 == 1 && (!("testing" == 1 || 1 == 0))
 irb(main):019:0> "chunky" == "bacon" && (!(3 == 4 || 3 == 3))
 => false
 irb(main):020:0> 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
-=> false
-'''
+=> false  
