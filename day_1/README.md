@@ -54,9 +54,9 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
     - [x] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+    - [x] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
-    - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
+    - [x] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
     - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
