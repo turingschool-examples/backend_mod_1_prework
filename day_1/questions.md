@@ -1,8 +1,12 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
+I would type as follows
+puts "Hello world!"
 
 1. What character is used to indicate comments in a ruby file?
+
+The # sign allows for comments
 
 1. Explain the difference between an integer and a float?
 
