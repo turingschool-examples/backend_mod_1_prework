@@ -58,11 +58,11 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
     - [x] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [x] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
+    - [x] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
-    - [ ] Have you created 7 `ex.rb` files with your code in them?
+    - [x] Have you created 7 `ex.rb` files with your code in them?
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
