@@ -1,5 +1,5 @@
 arr = [1, 2, 3, 4]
-arr.map { |x| 2 * x }
+arr2 = arr.map { |x| 2 * x }
 
 # The map method can be used to create a new array based on the original array,
 #   but with the values modified by the supplied block:
