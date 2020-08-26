@@ -25,6 +25,14 @@ numbers.each do |number|
  end
 end
 
+# or
+
+numbers = [4, 6, 12, 13]
+numbers.each do |number|
+  number *= 2
+  puts number
+end
+
 # Triples
 numbers = [1, 2, 3, 4]
 numbers.each do |number|
@@ -41,6 +49,13 @@ numbers.each do |number|
  end
 end
 
+# or
+
+numbers = [4, 6, 12, 13]
+numbers.each do |number|
+  number *= 3
+  puts number
+end
 # Odd
 numbers = [1, 2, 3, 4]
 numbers.each do |number|
@@ -52,21 +67,24 @@ end
 # Each number multipled by 2
 numbers = [4, 6, 12, 13]
 numbers.each do |number|
-  number *= 2
-  puts number
+  numbers = number *= 2
+  puts numbers
 end
 
 # Full names line by line
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  puts names
+  name = names
+  puts name
 end
 
 # Print first names
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  puts names.split.first
+  name = names.split.first
+  puts name
 end
+
 
 # Print last name
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
@@ -74,16 +92,21 @@ name.each do |names|
   puts names.split.last
 end
 
+
 # Print initials
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  puts names.gsub(/[a-z]+/,"")
+  name = names.gsub(/[a-z]+/,"")
+  puts name
+end
+
 
 # Print last name and number of characters
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
+  name = names.split.last.size
+  puts name
   puts names.split.last
-  puts names.split.last.size
 end
 
 # Int representing number of characters in all names
@@ -92,4 +115,4 @@ names.each do |name|
 names = name.gsub(/\s+/,"").size
   puts names
  end
-end
+ 
