@@ -67,21 +67,20 @@ end
 # Each number multipled by 2
 numbers = [4, 6, 12, 13]
 numbers.each do |number|
-  numbers = number *= 2
-  puts numbers
+  number = number *= 2
+  puts number
 end
 
 # Full names line by line
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  name = names
-  puts name
+  puts names
 end
 
 # Print first names
-name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
-name.each do |names|
-  name = names.split.first
+names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
+names.each do |name|
+  name = name.split.first
   puts name
 end
 
@@ -89,22 +88,23 @@ end
 # Print last name
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  puts names.split.last
+  names = names.split.last
+  puts names
 end
 
 
 # Print initials
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  name = names.gsub(/[a-z]+/,"")
-  puts name
+  names = names.gsub(/[a-z]+/,"")
+  puts names
 end
 
 
 # Print last name and number of characters
 name = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 name.each do |names|
-  name = names.split.last.size
+  names = names.split.last.size
   puts name
   puts names.split.last
 end
@@ -112,7 +112,6 @@ end
 # Int representing number of characters in all names
 names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 names.each do |name|
-names = name.gsub(/\s+/,"").size
-  puts names
+name = name.gsub(/\s+/,"").size
+  puts name
  end
- 
