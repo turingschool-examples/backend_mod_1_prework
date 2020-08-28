@@ -56,11 +56,11 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
     - [x] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
-    - [x ] [Strings](https://learnrubythehardway.org/book/ex5.html)
+    - [x] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [x ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [x] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
+    - [x] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
     - [ ] Have you created 7 `ex.rb` files with your code in them?
 
