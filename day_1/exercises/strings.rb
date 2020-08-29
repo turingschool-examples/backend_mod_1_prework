@@ -6,7 +6,7 @@
 # Example: Write code that prints your name to the terminal:
 p "Alan Turing"
 
-p "Jordan Frederick Beck"
+p "Jordan Beck"
 
 
 p "Welcome to Turing!"
