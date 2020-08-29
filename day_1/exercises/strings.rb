@@ -6,6 +6,8 @@
 # Example: Write code that prints your name to the terminal:
 p "Alan Turing"
 
+puts "Jordan Frederick Beck"
+
 # Write code that prints `Welcome to Turing!` to the terminal:
 p #YOUR CODE HERE
 
