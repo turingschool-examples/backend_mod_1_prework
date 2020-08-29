@@ -14,6 +14,6 @@ end
 end
 
 # Write code that prints the phrase 'She sells seashells down by the seashore'
-10.time do
+10.times do
   p "She sells seashells down by the seashore"
 end
