@@ -8,7 +8,7 @@ p "Alan Turing"
 
 p "Jordan Frederick Beck"
 
-# Write code that prints `Welcome to Turing!` to the terminal:
+
 p "Welcome to Turing!"
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
