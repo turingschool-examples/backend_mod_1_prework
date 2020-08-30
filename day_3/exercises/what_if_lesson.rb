@@ -35,16 +35,20 @@ end
 
 # STUDY DRILLS
 
-# What do you think the if does to the code under it?
-#    1. Why does the code under the 'if' need to be indented two spaces?
+#   1. What do you think the if does to the code under it?
+        # If statements determine if an expression is true, and if it is then it executes the code in the block below it.
+#   2. Why does the code under the 'if' need to be indented two spaces?
         # To make the code easier to read.
-#    What happens if you don't end it with 'end'?
-        # The program won't know when the 'if' statement ends and it'll throw a syntax error.
-#    Can you put other boolean expressions from Exercise 27 in the if-statement? Try it.
+#   3. What happens if your code isn't indented?
+        # The program will run normally but it will be harder to read.
+#   4. Can you put other boolean expressions from Exercise 27 in the if-statement? Try it.
         dogs += 1
         if people != dogs
             puts "People are not dogs."
         end
 
-#    What happens if you change the initial values for people, cats, and dogs?
+        if cats >= dogs
+            puts "Cats rule the world!"
+        end
+#   5. What happens if you change the initial values for people, cats, and dogs?
         # If the if statements return false, the block inside them won't be executed.
