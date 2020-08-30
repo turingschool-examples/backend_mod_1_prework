@@ -1,3 +1,6 @@
+ Common Array Methods In Ruby
+ ============================
+
 1. Sort
    
    + Orders the array by default in ascending order. We can further specify how the array is sorted using a block right after calling sort.
