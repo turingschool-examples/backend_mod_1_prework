@@ -3,6 +3,8 @@
 
 ### These are built in methods in Ruby which I've found useful. I've done some research from mainly [ruby-docs.org method page](https://ruby-doc.org/core-2.4.1/Array.html#method) which focuses on Arrays. I've added some examples of how I've tested each method and the outputs I've observed.
 
+
+
 1. **Sort**
    
    + Orders the array by default in ascending order. We can further specify how the array is sorted using a block right after calling sort.
