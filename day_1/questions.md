@@ -20,13 +20,13 @@
 
 5. How would you print the string `"zebra"` using the variable that you created above?
 
-  * `puts animal`
+   * `puts animal`
 
 
 6. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-  * `puts "the #{animal} is black and white striped"`
-  * Interpolation is the combining of a string and a variable. The variable can represent anything. It lets you substitute a result in the middle of a string.
+   * `puts "the #{animal} is black and white striped"`
+   * Interpolation is the combining of a string and a variable. The variable can represent anything. It lets you substitute a result in the middle of a string.
 
 
 7. What method is used to get input from a user?
