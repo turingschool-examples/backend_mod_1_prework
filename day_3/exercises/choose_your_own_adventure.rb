@@ -31,7 +31,12 @@ if help == "1"
         
         elsif direction == "2"
             puts "You decide to walk back to your car. You get back to where you broke down but your car is gone! The tow truck must've taken it. The end!"
+        else
+            puts "That's not an option! The end."
         end
+    
+    else
+        puts "That's not an option! The end."
     end
 
 elsif help == "2"
@@ -47,7 +52,12 @@ elsif help == "2"
         puts "You're lost in the woods. The end!"
     elsif stay == "2"
         puts "You take a look under the hood to see if you can figure out what the problem is. You mess with some moving parts, turn the key and to your surprise, the car starts! Good job!"
+    else
+        puts "That's not an option! The end."
     end
+else
+    puts "That's not an option! The end."
+
 end
 
 
