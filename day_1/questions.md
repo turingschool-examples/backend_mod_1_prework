@@ -15,16 +15,17 @@
 
 4. In the space below, create a variable `animal` that holds the string `"zebra"`
 
- `animal = "zebra"`
+ * `animal = "zebra"`
 
 
 5. How would you print the string `"zebra"` using the variable that you created above?
 
-  `puts animal`
+  * `puts animal`
+
 
 6. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-  `puts "the #{animal} is black and white striped"`
+  * `puts "the #{animal} is black and white striped"`
   * Interpolation is the combining of a string and a variable. The variable can represent anything. It lets you substitute a result in the middle of a string.
 
 
