@@ -30,11 +30,11 @@
 
 7. What method is used to get input from a user?
   * gets is used to get an input from a user
-   * input = get
-   * this will prompt the user to type something in w/ keyboard
+  * input = get
+  * this will prompt the user to type something in w/ keyboard
 
 
 8. Name and describe two common string methods:
-   * .split will split a string into an array by default where the spaces are. A value can be entered to tell the program where to split in the string. for ex: .split(",") will split the string into an array based on where the commas are.
+  * .split will split a string into an array by default where the spaces are. A value can be entered to tell the program where to split in the string. for ex: .split(",") will split the string into an array based on where the commas are.
 
-   * .length will return a how many characters a string has. Can be used to calculate the total length of a string
+  * .length will return a how many characters a string has. Can be used to calculate the total length of a string
