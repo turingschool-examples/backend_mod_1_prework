@@ -48,8 +48,8 @@ elsif help == "2"
     puts "> "
     stay = $stdin.gets.chomp
     if stay == "1"
-        puts "You decide to venture into the woods. You walk for what feels like miles. When you finally get to the bluff, you climb to the top and try to call for help when suddenly your phone dies! Looking around, you realize you can't see your car."
-        puts "You're lost in the woods. The end!"
+    puts "You decide to venture into the woods. You walk for what feels like miles. When you finally get to the bluff, you climb to the top and try to call for help when suddenly your phone dies! Looking around, you realize you can't see your car."
+    puts "You're lost in the woods. The end!"
     elsif stay == "2"
         puts "You take a look under the hood to see if you can figure out what the problem is. You mess with some moving parts, turn the key and to your surprise, the car starts! Good job!"
     else
