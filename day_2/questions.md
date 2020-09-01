@@ -27,6 +27,9 @@
 
 1. What are the boolean values in Ruby?
 
+   * boolean values are either true or false
+   * boolean values are determined by boolean operators (!, &&, ||, ==)
+
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
    * `2 == 25 => false`
