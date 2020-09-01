@@ -1,8 +1,8 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
-   * print "hello world"
-   * puts "hello world"   
+   * `print "hello world"`
+   * `puts "hello world"`   
 
 
 2. What character is used to indicate comments in a ruby file?
