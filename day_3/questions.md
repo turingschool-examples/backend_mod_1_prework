@@ -16,19 +16,19 @@ outcome, or many outcomes are possible. This way you can plan for many
 alternate outcomes
 
 1. What is the Ruby syntax for an if statement?
-
+<pre>
 variable = "value"
 
 if variable == value
   puts "something"
 end
-
+<code>
 1. How do you add multiple conditions to an if statement?
 
 Using else and elsif allow for additional conditions for a statement.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-
+<pre>
 peanuts = 18
 
 if peanuts == 20
@@ -38,9 +38,9 @@ elsif peanuts >= 21
 else
   puts "I could use more peanuts!"
 end
-
+<code>
 1. Other than an if-statement, can you think of any other ways we might want to
 use a conditional statement?
 
-I have not yet seen other methods, but I presume using words like "when, while, 
+I have not yet seen other methods, but I presume using words like "when, while,
 or during" could help modify If/Then statements.
