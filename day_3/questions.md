@@ -1,12 +1,24 @@
 ## Day 3 Questions
 
 1. What is a conditional statement? Give three examples.
-   A conditional statement is one resulting in true or false depending
-   on specified criteria (e.g., 2 < 3, .nil? method)
+```ruby
+# A conditional statement is one resulting in true or false depending
+# on specified criteria (e.g., 2 < 3, .nil? method)
+
+1 < 2
+
+animals = []
+animals.nil?
+
+animals.include?("lion")
+```
 
 1. Why might you want to use an if-statement?
-   When you want multiple branches depending on user or data input.
-   You can effectively write much more complex code using conditionals.
+
+```ruby
+# When you want multiple branches depending on user or data input.
+# You can effectively write much more complex code using conditionals.
+```
 
 1. What is the Ruby syntax for an if statement?
 ```ruby
