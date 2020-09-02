@@ -28,10 +28,38 @@
 
 1. Why might you want to use an if-statement?
 
+   - A large reason is based on the user experience. Without if-statements, the program will feel too rigid.
+   With if statements, the user is able to interact dynamically with the program instead of a static being which
+   plays out the same way everytime it's launched.
+
 1. What is the Ruby syntax for an if statement?
+
+   - ```ruby
+      if statement which results in boolean
+         action if above results to a true boolean
+      end
+     ```
 
 1. How do you add multiple conditions to an if statement?
 
+   - To add multiple conditions to an if statement, we can add `elsif` statements which add additional branches instead of
+   a binary thought process of having one outcome or the other(happens or doesn't happen). With an `elsif` statement, we can
+   have numerous conditions such as if more than one condition is `true` then an event will trigger.
+
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
+   - ```ruby
+      if favorite_fruit == "peach"
+        user = "peachy"
+      elsif favorite_fruit == "orange"
+        user = "probably doesn't have scurvy"
+      else
+        user = "You don't like peach or orange? Weirdo..."
+      end
+     ```
+
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+
+   - We can use a conditional statement when we just want an output of true or false or to assign a boolean to a variable.
+
+   - `player_is_alive = health > 0`
