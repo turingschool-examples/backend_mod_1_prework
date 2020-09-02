@@ -18,13 +18,13 @@ alternate outcomes
 1. What is the Ruby syntax for an if statement?
 
 '''
-<pre>
-variable = "value"
 
-if variable == value
-  puts "something"
-end
-<code>
+          variable = "value"
+
+          if variable == value
+            puts "something"
+          end
+
 '''
 1. How do you add multiple conditions to an if statement?
 
@@ -33,17 +33,17 @@ Using else and elsif allow for additional conditions for a statement.
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
 '''
-<pre>
-peanuts = 18
 
-if peanuts == 20
-  p "huzzah!"
-elsif peanuts >= 21
-  puts "That is a lot of peanuts!"
-else
-  puts "I could use more peanuts!"
-end
-<code>
+              peanuts = 18
+
+              if peanuts == 20
+                p "huzzah!"
+              elsif peanuts >= 21
+                puts "That is a lot of peanuts!"
+              else
+                puts "I could use more peanuts!"
+              end
+
 '''
 
 1. Other than an if-statement, can you think of any other ways we might want to
