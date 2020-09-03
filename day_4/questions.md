@@ -12,7 +12,8 @@ def hello(name)
   p name + " I am"
 end
 
-hello("Sam")```
+hello("Sam")
+```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 ```ruby
@@ -21,12 +22,14 @@ def hello(name)
 end
 
 name = "Sam"
-hello(name)```
+hello(name)
+```
 
 
 1. How would you call or execute the method that you created above?
 ```ruby
-hello(name)```
+hello(name)
+```
 
 1. What questions do you have about methods in Ruby?
 ```ruby
