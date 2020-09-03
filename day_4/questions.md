@@ -3,7 +3,8 @@
 1. In your own words, what is the purpose of a method?
 ```ruby
 # A method allows you to create mini-scripts. It is very customizable
-# and incredibly helpful```
+# and incredibly helpful
+```
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 ```ruby
