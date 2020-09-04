@@ -1,4 +1,4 @@
-# In the below exercises, write code that achieves
+a# In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
 # `ruby day_1/exercises/interpolation.rb`
