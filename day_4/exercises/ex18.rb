@@ -1,4 +1,4 @@
-# this one is like your scripts with ARGV REVIEW THIS!!!!!!
+# this one is like your scripts with ARGV
 def print_two(*args)
   arg1, arg2 = args
   puts "arg1: #{arg1}, arg2: #{arg2}"
@@ -24,4 +24,3 @@ print_two("Zed", "Shaw")
 print_two_again("Zed", "Shaw")
 print_one("First!")
 print_none()
-# DO STUDY DRILLS!!!
