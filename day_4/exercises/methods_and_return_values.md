@@ -1,4 +1,5 @@
 
+```Ruby
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b
@@ -35,3 +36,4 @@ puts "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
+```
