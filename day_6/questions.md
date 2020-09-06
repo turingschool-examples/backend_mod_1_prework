@@ -16,6 +16,10 @@ A behavior of a class is referred to as a method. Methods manipulate or change a
 
 class Dog
   attr_accessor :nose, :height
+```
+  def initialize
+  @nose = nose
+  @height = height
 
   def sniff
   "Rufus smells the flowers."
@@ -25,7 +29,7 @@ class Dog
     12
   end
 end
-
+```
 1. How do you create an instance of a class?
 
 You can create an instance by using the 'new' method and assigning it to a variable.
