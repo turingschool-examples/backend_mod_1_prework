@@ -77,7 +77,7 @@ The code underneath the if-statement should be indented for readability Blocks o
 You can achieve this by using `else` and `elsif`.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-
+```
 if variable == value
   puts "This string."
 elsif variable == different value
@@ -85,7 +85,7 @@ elsif variable == different value
 else
   puts "This string if those conditionals don't return true."
 end
-
+```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-I would think to truobleshoot a hypothesis to see if its conclusion is true and utilize it in different code.
+I would think to troubleshoot a hypothesis to see if its conclusion is true and utilize it in different code.
