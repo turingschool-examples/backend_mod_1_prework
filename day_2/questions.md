@@ -11,8 +11,8 @@ animals = ["zebra", "giraffe", "elphant"]
 1. Using the array `animals`, how would you access `"giraffe"`?
 
  animals.each do |animal|
- p animal.slice(1)
-end
+   p animal.slice(1)
+ end
 
 1. How would you add `"lion"` to the `animals` array?
 
