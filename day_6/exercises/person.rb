@@ -4,13 +4,18 @@
 
 class Person
   attr_accessor :name, :height
+  def initialize(name, height)
+    @name = name
+    @height = height
+  end
 
-  def exercise
-    "#{name} lost 15 lbs."
+
+  def greet
+    @name = "Hi, I'm #{@name}."
   end
 
   def duck
-    7
+    @height - 1
   end
 end
 
@@ -18,8 +23,8 @@ end
 
 
 
-jim = Person.new
-
-jim.name = "Jim"
-p jim.exercise
+jim = Person.new("Jim", 6)
+jim.greet
 p jim.duck
+p jim.name
+p jim.height
