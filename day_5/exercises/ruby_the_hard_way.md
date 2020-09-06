@@ -8,9 +8,9 @@ states = {
 }
 
 cities = {
-'CA' => 'San Francisco',
-'MI' => 'Detroit',
-'FL' => 'Jacksonville'
+  'CA' => 'San Francisco',
+  'MI' => 'Detroit',
+  'FL' => 'Jacksonville'
 }
 
 cities['NY'] = 'New York'
