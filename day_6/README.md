@@ -11,9 +11,9 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
+    - [x] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
 
-    - [ ] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
+    - [x] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
 
     - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
 
