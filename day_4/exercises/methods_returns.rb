@@ -61,6 +61,8 @@ puts "by changing the formula round we get #{what_2} a nice, even number."
 
 # this is the formula that would recreate the results in the challenge above
 74 - 180 * 50 / 2 + 35 #=> -4391
+# formula format
+((50 / 2) * -180) + 74 + 35
 
 # writing a formula and using functions to calculate
 print "\n"
@@ -71,8 +73,8 @@ iq = divide(100, 2)
 print "\n"
 
 # Formula = ((100 - 35) * 5 + 75) / 12
-calc = divide(add(75, (multiply(5, (subtract(100, age))))), 12)
-puts "#{calc}"
+calculation = divide(add(75, (multiply(5, (subtract(100, age))))), 12)
+puts "This is the number: #{calculation}"
 
 # below is what I ended up getting first, the formula above was the original
 # and after some reverse engineering i figured out the solution
