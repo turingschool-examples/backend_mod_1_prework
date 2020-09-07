@@ -15,7 +15,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
     - [x] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
 
-    - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
+    - [x] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
 
     - [ ] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
 
