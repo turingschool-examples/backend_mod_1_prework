@@ -67,19 +67,20 @@ puts "by changing the formula round we get #{what_2} a nice, even number."
 # writing a formula and using functions to calculate
 print "\n"
 age =  add(30, 5)
-height = subtract(78, 4)
+height = subtract(79, 4)
 weight = multiply(90, 2)
 iq = divide(100, 2)
 print "\n"
 
-# Formula = ((100 - 35) * 5 + 75) / 12
-calculation = divide(add(75, (multiply(5, (subtract(100, age))))), 12)
+
+# ((iq - age) * weight + height) => 231
+# my formula ((50 - 35) * 180 + 75) / 12 => 231
+calculation = divide(add(height, (multiply(weight, (subtract(iq, age))))), 12)
 puts "This is the number: #{calculation}"
+print "\n"
 
-# below is what I ended up getting first, the formula above was the original
-# and after some reverse engineering i figured out the solution
-# took me a while but i got it!
-
-# formula = ((100 - 35 + 75) * 5) / 12
-# calculation = divide(multiply(5, add(75, subtract(100, age))), 12)
-# puts "My calculation comes out to be #{calculation}."
+# doing another just for practice
+# ((weight / height) * iq + age) - 52 => 83
+# ((180 / 75) * 50 + 35) - 52 => 83
+calc_two = subtract(add(age ,multiply(iq, divide(weight, height))), 52)
+puts "This is our second calculation for practice: #{calc_two}"
