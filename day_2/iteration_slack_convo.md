@@ -1,5 +1,5 @@
 # Digging into Ruby Methods
-While working through the [Iteration and Each](https://backend.turing.io/module1/lessons/iteration_and_each Mod 1 pre-work) exercises in Turing's Mod 1 pre-work (day_2) a good question came up about iterating through arrays. The two exercises involved:
+While working through the [Iteration and Each](https://backend.turing.io/module1/lessons/iteration_and_each) Mod 1 pre-work exercises in Turing's Mod 1 pre-work (day_2) a good question came up about iterating through arrays. The two exercises involved:
 - If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples?
 - How could you create a new array which contains each number multiplied by 2?
 
