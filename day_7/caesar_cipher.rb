@@ -15,6 +15,7 @@ class CeasarCipher
          encoded_hash[alphabet_char] = cipher[current_iteration]
       end#of plain_array
 
+
         original_string = string.split("")
 
       new_string = original_string.map do |arg_string|

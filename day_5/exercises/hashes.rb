@@ -9,6 +9,7 @@ p foods
 
 # Write code that prints a hash holding zoo animal inventory:
 zoo = {lion: 3, monkey: 6, giraffe: 2}
+
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable
