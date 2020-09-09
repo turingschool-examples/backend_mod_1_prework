@@ -6,7 +6,7 @@ x = "There are #{types_of_people} types of people."
 binary = "binary"
 # Assigns value don't to variable do_not
 do_not = "don't"
-#
+# Prints binary where binary is called and prints don't where do_not is called. This is a good example of the string inside of a string.
 y = "Those who know #{binary} and those who #{do_not}."
 
 # Prints line 4 with defined value
@@ -37,4 +37,4 @@ e = "a string with a right side."
 puts w + e
 
 
-# I feel like my work often answers the study drill questions as we go, and I rarely feel the need to further declare answers but if it does not translate across the board and there are questions seemed not answered I am always okay with revisiting and adding then in to clear up any confusion others may have!
+# I feel like my work often answers the study drill questions as we go, and I rarely feel the need to further declare answers but if it does not translate across the board and there are questions seemed not answered I am always okay with revisiting and adding them in to clear up any confusion others may have!

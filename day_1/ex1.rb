@@ -7,4 +7,4 @@
 #puts 'I "said" do not touch this.'
 puts "Print another line, please."
 
-# Putting a hash allows for annotations. I'm going
+# Putting a hash allows for annotations.

@@ -1,5 +1,5 @@
 print "How old are you? "
-# Gets input from user and assigns it as a value to the designated variable in orer to be able to call them via line 10
+# Gets input from user via gets.chomp and assigns it as a value to the designated variable in orer to be able to call them via line 10
 age = gets.chomp
 print "How tall are you? "
 height = gets.chomp

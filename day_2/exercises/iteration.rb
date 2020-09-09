@@ -14,7 +14,7 @@ end
 # Write code that iterates through a list of animals and prints
 # "The <animal> is awesome!" for each animal:
 
-animals.each { |animal|p "The #{animal} is awesome!" }
+animals.each { |animal| p "The #{animal} is awesome!" }
 
 # Write code that stores an array of foods in a variable,
 # then iterates over that array to print
