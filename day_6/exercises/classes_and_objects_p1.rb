@@ -16,45 +16,42 @@ sparky = GoodDog.new    # => "This object was initialized!"
 # triggered whenever a new object of its class is created.
 
 
-# Instance Variables — the @name variable below is an instance variable. It exists
-# as long as the object instance exists and is one way to tie information to
-# objects. In this example, the initialize method calls for an argument.
-
 class GoodDog
-  def initialize(name)
-    @name = name
-  end
+  attr_accessor :name, :height, :weight
 
-  def name              # This was renamed from "get_name"
-    @name
-  end
-
-  def name=(n)          # This was renamed from "set_name="
+  def initialize(n, h, w)
     @name = n
+    @height = h
+    @weight = w
   end
 
   def speak
-    "#{@name} says arf!"
+    "#{name} says arf!"  # We're now calling the instance method, rather than the @name instance variable
   end
 
+  def change_info(n, h, w)
+    self.name = n
+    self.height = h
+    self.weight = w
+  end
+
+  def info
+    "#{self.name} weighs #{self.weight} and is #{self.height} tall."
+  end
 end
 
-sparky = GoodDog.new("Sparky")
 
-# Here, the string "Sparky" is passed from the new method through to the
-# initalize method and is assigned to the local variable name. So the constructor
-# sets @name to "Sparky" and we've effectively set the name attribute of the sparky
-# object as the string.
-
-puts sparky.speak  # => Arf!
-puts sparky.get_name
-sparky.set_name = "Spartacus"
-puts sparky.get_name
+sparky = GoodDog.new('Sparky', '12 inches', '10 lbs')
+puts sparky.info
+sparky.change_info('Spartacus', '24 inches', '45 lbs')
+puts sparky.info
 
 # Above, we make the sparky object bark. Nice.
 
-fido = GoodDog.new("Fido")
-puts fido.speak  # => Arf!
+fido = GoodDog.new('Fido', '36 inches', '60 lbs')
+puts fido.info
+fido.change_info('Fido', '42 inches', '71 lbs')
+puts fido.info
 
 # In the GoodDog class, we added a 'getter' method to retreive the @name local variable of
 # the object. If we want to change sparky's name variable we can use a 'setter'
