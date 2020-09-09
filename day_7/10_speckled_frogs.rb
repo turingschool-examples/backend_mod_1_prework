@@ -35,4 +35,4 @@ speckled_frogs.print
 
 # I recognize that I'm violating the 'don't repeat yourself' principle with the repeated if statements to change language after
 # setting `@frogs -= 1`. I've hit a bit of a wall at this time but plan to continue researching possible solutions to re-evaluate
-# how I'm handling instance variables @plural and @grammar across the two puts
+# how I'm handling instance variables @plural and @grammar across the two puts before and after performing math on @frogs
