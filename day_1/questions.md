@@ -6,7 +6,7 @@
 
 1. What character is used to indicate comments in a ruby file?
 
- -  #
+  #
 
 1. Explain the difference between an integer and a float?
 
