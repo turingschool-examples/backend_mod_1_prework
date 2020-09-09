@@ -10,7 +10,7 @@ Common Array Methods in Ruby
 <br/>
 .index "- The index method tells you the numeric position (or index) of sub string (or piece of a string) within an Array"
 <br/>"
-.include? "- The include method lets you know if a piece of code is part of where you are searching inside of your Array.
+.include? "- The include method lets you know if a piece of code is part of where you are searching inside of your Array."
 <br/>
 .collect "- collect is a method that allows a user to create a new Array. It holds the values returned by a block, which are passed through the collect method and applied to all elements."
 <br/>
