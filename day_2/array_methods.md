@@ -1,4 +1,5 @@
 Common Array Methods in Ruby
+```Ruby
 <br/>
 <br/>
 .sort - The sort method predictably mixes up the elements of an Array.
@@ -18,3 +19,4 @@ Common Array Methods in Ruby
 .last - This method prints the last element in your Array.
 <br/>
 .shuffle - Shuffle method randomly mixes up elements in an Array.
+```
