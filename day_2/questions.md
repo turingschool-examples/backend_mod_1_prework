@@ -35,7 +35,7 @@ true or false values
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 ```Ruby
-  2 = 25
+  2 == 25
 
   => false
 ```
