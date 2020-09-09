@@ -19,6 +19,8 @@ p states.values
 ```
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 
+- A specific time we would use a has over an array, is if we are working with non numbers. That allows us to use all kinds of objects
+
 - Another time we might use a Hash is if we were making a list of volunteer names (string) and their phone numbers (string). A hash is better than an array in this instance, because this way we can use strings, instead of only integers.
 
 1. What questions do you still have about hashes?
