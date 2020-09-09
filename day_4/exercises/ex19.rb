@@ -80,3 +80,12 @@ if books == "fiction"
 elsif books == "non-fiction"
   types_of_books(amount_of_nonfiction)
 end
+
+# call 8
+types_of_books("30", "50").to_i
+
+# call 9
+types_of_books(70, 80).to_s
+
+# call 10
+types_of_books(40, 60).to_f 
