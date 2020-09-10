@@ -1,3 +1,4 @@
+```Ruby
 people = 15
 cars = 30
 trucks = 40
@@ -22,4 +23,5 @@ if cars > people || trucks < cars
   puts "Alright, let's just take the trucks."
 else
   puts "Fine, let's stay home then."
-end 
+end
+```
