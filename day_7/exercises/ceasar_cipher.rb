@@ -8,9 +8,7 @@ def cipher(string, shift)
     rotated = plain.rotate(shift)
     encrypt = Hash[rotated.zip(plain)]
     string.chars.map do |char| 
-        if plain.include?(char) 
-            encrypt.fetch(char)
-        end
+            encrypt.fetch(char, char)
     end
 end
 
