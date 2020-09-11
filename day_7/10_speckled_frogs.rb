@@ -1,5 +1,4 @@
-# frogs = 10..1
-# frogs.first.downto(frogs.last).each do |x|
+
 
 (10).downto(1) do |x|
   if x > 1

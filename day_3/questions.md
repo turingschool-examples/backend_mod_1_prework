@@ -4,11 +4,11 @@
 
 A conditional statement uses if/then type logic. Often including else and elsif
 conditions as well. These statements allow us to use boolean logic to determine outcomes.
-
+```
 If Jim goes, I will go.
 If there are walnuts I can't eat it, otherwise let's eat!
 I don't text you, my phone is not charged.
-
+```
 1. Why might you want to use an if-statement?
 
 An if-statement is especially useful for when you do not already know an
@@ -17,7 +17,7 @@ alternate outcomes
 
 1. What is the Ruby syntax for an if statement?
 
-'''
+```Ruby
 
           variable = "value"
 
@@ -25,14 +25,14 @@ alternate outcomes
             puts "something"
           end
 
-'''
+```
 1. How do you add multiple conditions to an if statement?
 
 Using else and elsif allow for additional conditions for a statement.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-'''
+```Ruby
 
               peanuts = 18
 
@@ -44,7 +44,7 @@ Using else and elsif allow for additional conditions for a statement.
                 puts "I could use more peanuts!"
               end
 
-'''
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to
 use a conditional statement?
