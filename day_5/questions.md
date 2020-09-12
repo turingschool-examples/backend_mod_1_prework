@@ -24,10 +24,10 @@
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 
    * We might use a hash to keep track of individual players soccer goals throughout a season. A hash is better than an array in this sense because it can store objects as both keys and data, making it extremely versatile. We'd use it any time we want to map two different things together.
-   * scoreboard = {'James': 1, 'Linda': 3, 'Bobby': 1, 'Gilbert': 2}
+   * `scoreboard = {'James': 1, 'Linda': 3, 'Bobby': 1, 'Gilbert': 2}`
 
 
 1. What questions do you still have about hashes?
 
-   * In the examples we followed for the first reading (https://learnrubythehardway.org/book/ex39.html) I stumbled on an interesting road-block that my cohort classmates and I could not figure out! If you open test.rb in the exercises folder for day_5 you will see the problem I ran into. I am curious why example #2 runs, but example #1 does not.
+   * In the examples we followed for the first reading (https://learnrubythehardway.org/book/ex39.html) I stumbled on an interesting road-block that my cohort classmates and I could not figure out! If you open test.rb in the exercises folder for day_5 you will see the problem I ran into. I am curious why example 2 runs, but example 1 does not.
    * Other than this I feel pretty confident in my understanding of hashes.
