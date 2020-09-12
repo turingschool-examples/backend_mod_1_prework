@@ -2,6 +2,7 @@ class CeasarCipher
   def initialize
     # range of a - z to an array
     @alpha = ("A".."Z").to_a
+    @string_enc = ""
   end
 
 # Method takes user input string, number arguments
@@ -15,14 +16,15 @@ class CeasarCipher
       # rotate alpha by number, and return index of rotated alphabet
       # -number is used to shift alpha in the opposite direction
         rotate = @alpha.rotate(-number)
-        rotate[index]
+        @string_enc << rotate[index]
       else
       # if char is not in alpha gives char
-        char
+        @string_enc << char
       end
-    end.join('')
+    end
+    p @string_enc
   end
 end
 
 cipher = CeasarCipher.new
-p cipher.encode("Hello World", 5)
+cipher.encode("Hello World", 5)
