@@ -12,7 +12,7 @@ Using your terminal, open your local copy of the forked repository you created d
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
     1. [FizzBuzz](./fizzbuzz.md)
-    1. [10 Speckled Frogs](./10_speckled_frogs)
+    1. [10 Speckled Frogs](./10_speckled_frogs.md)
 
 1. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
 
