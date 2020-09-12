@@ -23,6 +23,13 @@
   - This method should account for white spaces " ", print a white space if the iteration is on the char " ".
   - Whatever the ascii value is of the character, subtract it by the left shift amount
   - If the value is lower than the "a" ascii value(the starting value), we need to move the next left shift to the "z" value or the end of the alphabet.
+    - If the value is lower than 97(a), subtract 97 from the value to find the difference. Then subtract that value from 123(z + 1)
     - For example: Left shift "a" by 3 should get me "x". If I don't adjust the ascii values I will get some random character outside of the alphabet.
   - Upcase print the adjusted ascii value after doing computation^
-  
+
+
+## Resources To Use:
+
+- .each_byte to convert every character to an ascii value
+- .chr to convert the ascii value back to a char
+- .upcase to capitalize every character as directed by the example
