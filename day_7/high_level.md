@@ -33,3 +33,10 @@
 - `.each_byte` to convert every character to an ascii value
 - `.chr` to convert the ascii value back to a char
 - `.upcase` to capitalize every character as directed by the example
+
+## Updated Notes Post-Completion
+
+- I see why a class is a good instantiation where without a class, there may be numerous global variables which we don't want to flood up the common space of the program.
+- Ran into an issue where I made my class variables `@encoded_string`, `@arr_of_ascii` outside of an `initialize` method. I guess I need to create those variables within the `initialize` method.
+- Logically I made the check for white spaces BEFORE any computations of left shifts and the ascii value, basically push the white space into `@arr_of_ascii` before left shifting the ascii value IF it's a white space.
+- Approached this problem with a custom input idea. I see now that the problem is asking for the string to be ciphered in the parameter as opposed to what I did. This is something I want to focus on, attention to detail. Whether or not I think there's a better way, I have a prompt and need to follow it to completion.
