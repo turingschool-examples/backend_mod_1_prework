@@ -27,3 +27,4 @@ p zoo[:zebras]
 # Then, print the updated hash:
 zoo["bear"] = 5
 p zoo
+5
