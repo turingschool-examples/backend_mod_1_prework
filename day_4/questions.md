@@ -21,4 +21,4 @@ end
 - You would call the methods above by typing `hello` and the other one would be `hello-someone` with an argument of a name being passed in.
 
 1. What questions do you have about methods in Ruby?
-Not at the time. 
+- Not at the time.
