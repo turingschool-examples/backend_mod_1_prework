@@ -45,6 +45,7 @@ _#gets.chomp_
   `"Dominic.length"` will return 7
 
   2. _The split method will split the string based on spaces unless told otherwise._
+
   `x = "This is my sentance"
 
   x.split
