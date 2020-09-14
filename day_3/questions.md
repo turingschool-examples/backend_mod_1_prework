@@ -2,11 +2,7 @@
 
 1. What is a conditional statement? Give three examples.
 
-- A conditional statement lets you use branching options so
-
-- you can create behavior that can only happen if you choose
-
-- the correct branch.
+- A conditional statement lets you use branching options so you can create behavior that can only happen if you choose the correct branch.
 
 - I only know three and they are if/unless/and case/ when statements.`
 
@@ -16,28 +12,34 @@
 
 1. What is the Ruby syntax for an if statement?
 
-`1. if booleanExpression
-    2.puts code if it is true.
-3.end`
+```ruby
+ if booleanExpression
+    puts code if it is true.
+end
+```
 
 1. How do you add multiple conditions to an if statement?
 
-`1. elseif boolean..however many you need
-    2. else if nothing is true.`
+```ruby
+elsif booleanexpression1
+  puts "code if true"
+elsif booleanExpression2
+  puts "code if 2 is true"
+else shows that nothing is true.
+end
+  ```
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-`1. if booleanExpression
-    2.puts code if it is true.
-  3.elseif booleanExpression2
-      4. puts code if second expression is true.
-
-- now you can run more elseif until you find a true Statements
-
-- if no true statements are found you run
-1. else
-    2.puts this code runs if everything else is false.
-3. end`
+```ruby
+if booleanExpression
+    puts "code if expression is true"
+  elsif booleanExpression2
+     puts "code if expression 2 is true and first was false"
+else you find a true Statements
+  puts "this will print if nothing is true"
+end
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
