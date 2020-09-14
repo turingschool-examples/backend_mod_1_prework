@@ -14,12 +14,12 @@ class Burrito
 
   def remove_topping(topping)
     @toppings.delete topping
-    puts "You have removed #{topping} from your pizza."
+    puts "You have removed #{topping} from your burrito."
   end
 
   def add_topping(topping)
     @toppings.push topping
-    puts "You have added #{topping} to your pizza."
+    puts "You have added #{topping} to your burrito."
   end
 
   def change_protein(protein)
