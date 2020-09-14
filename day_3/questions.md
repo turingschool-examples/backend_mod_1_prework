@@ -16,28 +16,28 @@
 
 1. What is the Ruby syntax for an if statement?
 
-`if booleanExpression
-  puts code if it is true.
-end`
+`1. if booleanExpression
+    2.puts code if it is true.
+3.end`
 
 1. How do you add multiple conditions to an if statement?
 
-`elseif boolean..however many you need
-  else if nothing is true.`
+`1. elseif boolean..however many you need
+    2. else if nothing is true.`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-`if booleanExpression
-  puts code if it is true.
-  elseif booleanExpression2
-  puts code if second expression is true.
+`1. if booleanExpression
+    2.puts code if it is true.
+  3.elseif booleanExpression2
+      4. puts code if second expression is true.
 
 - now you can run more elseif until you find a true Statements
 
 - if no true statements are found you run
-else
-  puts this code runs if everything else is false.
-end`
+1. else
+    2.puts this code runs if everything else is false.
+3. end`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
