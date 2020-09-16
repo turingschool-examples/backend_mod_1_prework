@@ -25,7 +25,18 @@ names2.each do |name|
   puts name.split.last
   puts name.split.last.length
 end
-firstinitial =names2.first[0.1]
-lastinitial =names2.last[0,1]
-puts "#{firstinitial} #{lastinitial}."
-puts names2.split"Counting : #{names2.count}/n/n"
+
+
+initials=[]
+names2.each {|x| puts x}
+names2.map! {|x| x.split" "}
+names2.each {|x| print x[0] + " "}
+puts
+names2.each {|x| print x[1] + " "}
+puts
+names2.each do |each|
+  initials << each.first[0] + each.last[0]
+end
+
+print initials
+puts
