@@ -30,5 +30,7 @@ end
 # Write code that stores an array of numbers in a variable,
 # then iterates over that array to print doubles of each number:
 numbers=[1,3,5,9,11]
+numbers.each do |n| n*= 2
 
-puts numbers * 2
+puts n
+end 

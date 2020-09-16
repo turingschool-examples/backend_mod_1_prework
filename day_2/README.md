@@ -17,7 +17,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
     - [ ] [Booleans](https://learnrubythehardway.org/book/ex27.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Boolean Practice](https://learnrubythehardway.org/book/ex28.html) from Learn Ruby the Hard Way.
+    - [ ] [Boolean Practice](athttps://learnrubythehardway.org/book/ex28.html) from Learn Ruby the Hard Way.
 
 1. Work through the exercise files in the day_2/exercises directory.  Complete them in this order:
     1. arrays
