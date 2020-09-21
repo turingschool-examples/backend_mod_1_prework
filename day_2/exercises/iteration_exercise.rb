@@ -30,7 +30,7 @@ array = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 
 array.each {|x| puts x}
 
-How would you print out only the first name?
+# How would you print out only the first name?
 
 array = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 
@@ -48,21 +48,10 @@ end
 
 # How could you print out only the initials?
 
-array = ["Alice Smith", "Bob Evans", "Roy Rogers"]
+my_array = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 
-initials = []
-
-array.each {|x| puts x}
-array.map! {|x| x.split" "}
-array.each {|x| print x[0] + " "}
-puts
-array.each {|x| print x[1] + " "}
-puts
-array.each do |each|
-    initials << each.first[0] + each.last[0]
+my_array.each do |name| puts name.split.first[0] + name.split.last[0] 
 end
-print initials
-puts
 
 # How can you print out the last name and how many characters are in it?
 
