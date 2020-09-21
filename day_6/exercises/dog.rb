@@ -13,11 +13,7 @@ class Dog
   end
 
   def play
-    if @hungry == true
-      puts "#{hungry}"
-    puts "Your dog is hungry"
-  else
-    puts "Your dog can play for longer"
+      @hungry = true 
   end
 end
 
