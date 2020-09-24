@@ -6,31 +6,31 @@ class Person
   attr_reader :name, :weight, :height
 
   def initialize(name, weight, height)
-    @name = name
-    @weight = weight
-    @height = height
+    @name = name.capitalize
+    @weight = weight * 0.45359237
+    @height = height * 30.48
   end
 
-  def add_name(name)
-    puts "Your name is #{name}"
+  def capitalize_name(name)
+    puts "Your name is #{name.capitalize}"
   end
 
-  def add_weight(weight)
-    puts "Your weight is #{weight}"
+  def convert_weight(weight)
+    puts "Your weight in Kilograms is #{weight * 0.45359237}"
   end
 
-  def add_height(height)
-    puts "Your height is #{height}"
+  def convert_height(height)
+    puts "Your height in Centimeters is #{height * 30.48}"
   end
 
 end
 
-register = Person.new("Vanessa", "170lb", "5'4")
+register = Person.new("vanessa", 170, 5)
 
 p register.name
 p register.weight
 p register.height
 
-p register.add_name("Vanessa")
-p register.add_weight("170lb")
-p register.add_height("5'4")
+p register.capitalize_name("vanessa")
+p register.convert_weight(170)
+p register.convert_height(5)
