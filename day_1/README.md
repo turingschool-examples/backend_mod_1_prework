@@ -71,9 +71,9 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 Work through the files in the day_1/exercises directory.  Complete them in this order:
 
-1. strings   
-1. numbers   
-1. variables   
+1. strings
+1. numbers
+1. variables
 1. interpolation
 1. loops
 
