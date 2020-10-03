@@ -32,11 +32,11 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 ## An Introduction to Ruby
 
-[Read This Introduction](https://learnrubythehardway.org/book/intro.html) to the Learn Ruby The Hard Way Tutorial. To reiterate this introduction, ***DO NOT*** copy and paste code examples when working through lessons in your prework. Actually type each of them out.
+We are going to dive right in and start creating Ruby programs. In the lessons linked below you will be asked to create Ruby files, type Ruby commands into them, and then run those files to see what the output is. Please be sure that you are typing each command yourself and *not* copying and pasting. Typing these commands yourself will help you remember the commands better than copying and pasting. This will be true even in future mods, and we recommend that you maintain this practice going forward during your time at Turing.
 
 ### Ruby Basics Lessons
 
-1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
+1. Next, you will complete the lessons linked below. *For ***each*** lesson* ***follow these directions closely***:
 
     1. Create a file within your `day_1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `day_1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. Refer to back to [day_0](../day_0) if you need a refresher on terminal commands.
 
@@ -47,6 +47,13 @@ This will open the day_1 directory in Atom. You should be able to see the direct
     1. Read the Common Student Questions section.
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
+
+    - [ ] [Hello World!](/lessons/hello_world.md)
+    - [ ] [Strings](/lessons/hello_world.md)
+    - [ ] [Variables](/lessons/hello_world.md)
+    - [ ] [Getting Input](/lessons/hello_world.md)
+    - [ ] [Numbers](/lessons/hello_world.md)
+    - [ ] [Comments](/lessons/hello_world.md)
 
     - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
