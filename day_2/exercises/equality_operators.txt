@@ -1,0 +1,22 @@
+Exercise 28 Learn Ruby the Hard Way, Boolean Practice
+
+Study Drills:
+1. Try to find as many "equality operators" as you can.
+2. Write the names for each of these operators.
+
+== equality, or double equal, will return true if both objects
+are equal and false if they are not. Synonymous with eql?
+=== case-equality, triple equals, or threequals. Behaves
+differently depending on the type of object it is called on.
+Returns true if the object on the right "belongs to" the
+object on the left. Can be used to test if an object is an
+instance of a class.
+!= not equal
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+<=> combined comparison operator, or spaceship operator, or three-way comparison.
+Useful for implementing custom ways of sorting things.
+Can perform greater than, less than, and equal comparisons.
+Return values are 0, 1, and -1.
