@@ -35,4 +35,3 @@ puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
  what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
  puts "That becomes: #{what}. Can you do it by hand?"
- 
