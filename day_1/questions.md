@@ -31,7 +31,8 @@ Integer is whole numbers, float is any number with decimal places including x.0
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
 Interpolation is using #{} to print the contents of a variable inside of another string.
-puts "This is how I'd print the animal #{animal} into a sentence."
+
+`puts "This is how I'd print the animal #{animal} into a sentence."`
 
 1. What method is used to get input from a user?
 
