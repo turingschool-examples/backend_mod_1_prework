@@ -9,7 +9,7 @@ Or `irb > puts "Hello World!"`
 
 1. What character is used to indicate comments in a ruby file?
 
-# for single line comments
+`# ` for single line comments
 ```
 =begin
 for multi-line comments
