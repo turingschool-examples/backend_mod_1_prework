@@ -4,13 +4,17 @@
 # `ruby day_1/exercises/numbers.rb`
 
 # Example: Write code that prints the result of the sum of 2 and 2:
-p 2 + 2
+addition = 2 + 2
+puts addition
 
 # Write code that prints the result of 7 subtracted from 83:
-p #YOUR CODE HERE
+subtraction = 83 - 7
+puts subtraction
 
 # Write code that prints the result of 6 multiplied by 53:
-# YOUR CODE HERE
+multiplication = 6 * 53
+puts multiplication
 
 # Write code that prints the result of the modulo of 10 into 54:
-# YOUR CODE HERE
+modulo = 54 % 10
+puts modulo
