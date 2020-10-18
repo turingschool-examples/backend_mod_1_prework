@@ -4,9 +4,10 @@
 
 names = ["Jam Flex", "Hotblack Desiato", "Andy Samberg"]
 
+fn_arr = []
+
 names.each do |name|
-  fn_arr = []
-  # fix each getting own array
-  fn_arr.push(name.split[0])
-  p fn_arr
+  fn_arr.push(name.split[1])
 end
+
+p fn_arr
