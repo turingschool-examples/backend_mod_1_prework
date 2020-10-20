@@ -46,7 +46,4 @@ end
 
 full_names.each {|name| puts name.split.last.length}
 
-full_names.each do |name|
-  total_chars = name.size
-  puts total_chars
- end
+puts full_names.join.length
