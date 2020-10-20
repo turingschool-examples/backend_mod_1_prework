@@ -38,4 +38,11 @@ fullNames.each do |name|
 end
 
 puts "Create an integer which represents the total number of characters in all the names:"
+puts "Using just methods:"
 puts fullNames.join.gsub(" ", "").length
+puts "Using iteration and each:"
+total = 0
+fullNames.each do |name|
+  total += name.gsub(" ", "").length
+  puts total
+end
