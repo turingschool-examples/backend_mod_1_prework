@@ -8,21 +8,28 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = #YOUR CODE HERE
+zoo = {zebra: 2, turtle: 243, dove: 4, turtledove: 1, elephant: 3}
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable 
 # you created above:
-# YOUR CODE HERE
+puts "Zoo hash has the following keys:"
+zoo.each do |key, value|
+  p key
+end
 
 # Write code that prints all of the 'values' of the zoo variable 
 # you created above:
-# YOUR CODE HERE
+puts "Zoo hash has the following values:"
+zoo.each do |key, value|
+  p value
+end
 
 # Write code that prints the value of the first animal of the zoo variable 
 # you created above:
-# YOUR CODE HERE
+p zoo[:zebra]
 
 # Write code that adds an animal to the zoo hash. 
 # Then, print the updated hash:
-# YOUR CODE HERE
+zoo[:unicorn] = 0
+p zoo
