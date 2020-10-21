@@ -33,7 +33,7 @@ if people == dogs
   puts "People are dogs."
 end
 
-Study Drills
+#Study Drills
 
 #1. The "if" looks over the included statement and determines if it is true or false.
 #2. The code needs to be indented because it is behaving according to the line above it.
