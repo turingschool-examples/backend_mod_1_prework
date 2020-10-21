@@ -3,7 +3,7 @@
 # file by entering the following command in your terminal:
 # `ruby day_3/exercises/if_statements.rb`
 
-# Example: Using the weather variable below, write code that decides 
+# Example: Using the weather variable below, write code that decides
 # what you should take with you based on the following conditions:
   # if it is sunny, print "sunscreen"
   # if it is rainy, print "umbrella"
@@ -13,20 +13,32 @@
   weather = 'snowy'
 
   if weather == 'sunny'
-    p "sunscreen"
+    puts "Remember to bring your sunscreen!"
   elsif weather == 'rainy'
-    p "umbrella"
+    puts "You'll probably want your umbrella today."
   elsif weather == 'snowy'
-    p "coat"
+    puts "You will be needing your coat today!"
   elsif weather == 'icy'
-    p "yak traks"
+    puts "I think some yak traks will be really helpful today."
   else
-    p "good to go!"
+    puts "You're good to go!"
   end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
+weather = 80
 
+if weather >= 80
+  puts "Remember to bring your sunscreen!"
+elsif weather <= 40
+  puts "It might rain. You'll probably want your umbrella today."
+elsif weather == 30
+  puts "You will be needing your winter coat today!"
+elsif weather <= 20
+  puts "I think some yak traks will be really helpful today."
+else
+  puts "You're good to go!"
+end
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -35,7 +47,7 @@
 
 # Right now, the program will print
 # out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write a 
+# "I don't have enough money for a gumball". Write a
 # conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
@@ -43,13 +55,23 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+ puts "I don't have enough money for a gumball"
+end
 
+num_quarters = 4
+
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+ puts "I don't have enough money for a gumball"
+end
 
 #####################
 # Using the variables defined below, write code that will tell you
-# if you have the ingredients to make a pizza. A pizza requires 
+# if you have the ingredients to make a pizza. A pizza requires
 # at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
@@ -63,3 +85,9 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make the pizza!"
+else
+  puts "I cannot make pizza."
+end
