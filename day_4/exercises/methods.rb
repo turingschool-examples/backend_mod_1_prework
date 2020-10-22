@@ -12,16 +12,29 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+def sum_of(x, y)
+  p x + y
+end
+
+sum_of(12, 122)
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+
+# concatenation, or interpolation? The example is interpolation and that's more fun so here goes
+
+def movie_stars(star1, star2)
+  p "See #{star1} and #{star2} in the new blockbuster Eviction Notice 2: Doorbell Bandits"
+end
+
+movie_stars("Jimmy Neutron", "Buzz Lightyear")
