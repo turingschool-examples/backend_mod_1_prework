@@ -30,5 +30,5 @@
 
 1. Name and describe two common string methods:
 
-+ count, will take a string a return the number of characters in it.
++ length, will take a string a return the number of characters in it.
 + downcase, changes all the characters in a string to lowercase
