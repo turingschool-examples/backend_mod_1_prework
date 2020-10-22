@@ -1,4 +1,4 @@
-#H3 Array Methods
+# H3 Array Methods
 1. **Sort**
 - Sort takes an array and sorts it to go from smallest to largest element.  
 2. **Each**
