@@ -15,9 +15,9 @@ Using your terminal, open your local copy of the forked repository you created d
 
     - [ ] Turing's [Iteration and Each](http://backend.turing.io/module1/lessons/iteration_and_each) lesson.
 
-    - [ ] [Booleans](https://learnrubythehardway.org/book/ex27.html) from Learn Ruby the Hard Way.
+    - [X] [Booleans](https://learnrubythehardway.org/book/ex27.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Boolean Practice](https://learnrubythehardway.org/book/ex28.html) from Learn Ruby the Hard Way.
+    - [X] [Boolean Practice](https://learnrubythehardway.org/book/ex28.html) from Learn Ruby the Hard Way.
 
 1. Work through the exercise files in the day_2/exercises directory.  Complete them in this order:
     1. arrays
