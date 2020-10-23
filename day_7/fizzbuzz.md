@@ -14,3 +14,20 @@ The output of your program will look something like this:
 
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
+
+
+prompt input from user- array_size = 100
+make array of numbers array = (1..array_size).to_a
+iterate over that array
+array.each do |number|
+  if number % 3 == 0
+    if number % 5 == 0
+      puts 'Fizzbuzz'
+    else
+      puts 'Fizz'
+    end
+  elsif number % 5 == 0
+    puts 'Buzz'
+  else
+    puts number 
+end
