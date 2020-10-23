@@ -4,7 +4,7 @@
 
 1. What character is used to indicate comments in a ruby file? **The octothorpe --> #**
 
-1. Explain the difference between an integer and a float? **An integer is a whole number, whereas a float contains decimals (numbers less than one would need to display the 0. to be a valid integer). Floats are used when more precision is needed.
+1. Explain the difference between an integer and a float? **An integer is a whole number, whereas a float contains decimals (numbers less than one would need to display the 0. to be a valid integer). Floats are used when more precision is needed.**
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 **animal = "zebra"**
