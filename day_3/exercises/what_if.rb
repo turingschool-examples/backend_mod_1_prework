@@ -34,4 +34,10 @@ if people == dogs
 end
 
 # 1. It lets the code beneth it know if it is needed
-# 2.
+# 2. that lets ruby know to only run this code if the conitional is met.
+# otherwise it would always run.
+# 3. It will always run. Nothing will tell it not to run
+# 4. If true == true and true == false
+#       return false
+# 5. it will change the strings printed. if dogs == 16 then we wouldn't
+# see "People are dogs" on our terminals
