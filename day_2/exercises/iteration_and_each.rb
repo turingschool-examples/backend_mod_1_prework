@@ -53,13 +53,10 @@ end
 
 # How could you print out only the initials?
 
-# initials = names.collect do |name|
-#    name[0].split
-#  end
-#
-# initials.each do |initial|
-#   p initial
-# end
+names.each do |name|
+  p name.split.first[0] + name.split.last[0]
+end
+
 
 # How can you print out the last name and how many characters are in it?
 
@@ -69,4 +66,11 @@ end
 
 # How can you create an integer which represents the total number of characters in all the names?
 
-integer = names.join.length
+integer = names.collect do |name|
+  name.split.join.length
+end
+
+p integer.sum
+
+# OR
+# integer = names.join.length #includes spaces
