@@ -6,24 +6,23 @@
 # Example: Write code that saves your name to a variable and
 # prints what that variable holds to the terminal:
 name = "Harry Potter"
-p name
+puts name
 
 # Write code that saves the string 'Dobby' to a variable and
 # prints what that variable holds to the terminal:
 house_elf = "Dobby"
-# YOUR CODE HERE
+puts house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-# YOUR CODE HERE
+hp_message = "Harry Potter must not return to Hogwarts!"
+print hp_message
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
 students = 22
-# YOUR CODE HERE
-p students
+puts students + 2
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
-# YOUR CODE HERE
-p students
+puts students - 2
