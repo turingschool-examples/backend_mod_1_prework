@@ -5,23 +5,32 @@
 
 # Example: Write a method that when called will print your name:
 def print_name
-  p "Severus Snape"
+  puts "Severus Snape"
 end
 
 print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
 # YOUR CODE HERE
+def get_sum(num_one, num_two)
+  puts num_one + num_two
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+get_sum(3,4)
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+print_statement(dog, cat)
+  puts "The dog named #{dog} plays with the cat named #{cat}."
+end
+
+print_statement("Daisy", "Onyx")
