@@ -5,6 +5,7 @@
   A conditional statement is a block of code that evaluates a variety of options for a program to prompt.
 
   Examples:
+  
     - if number = 25
     - if number > 25
     - if number < 25
