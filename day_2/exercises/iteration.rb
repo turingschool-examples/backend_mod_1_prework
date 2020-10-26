@@ -7,22 +7,32 @@
 # and print each animal:
 animals = ["Zebra", "Giraffe", "Elephant"]
 
-animals.each do |animal|
-  p animal
+animals.each do |animals|
+  puts animals
 end
 
 # Write code that iterates through a list of animals and prints
 # "The <animal> is awesome!" for each animal:
 
 animals.each do |animal|
-  # YOUR CODE HERE
+  puts "The #{animal} is awesome!"
 end
 
-# Write code that stores an array of foods in a variable, 
+# Write code that stores an array of foods in a variable,
 # then iterates over that array to print
 # "Add <food> to shopping list" for each food item:
-# YOUR CODE HERE
 
-# Write code that stores an array of numbers in a variable, 
-# then iterates over that array to print doubles of each number: 
-# YOUR CODE HERE
+foods = ["pizza", "pasta", "lasagna", "chicken parmesan"]
+
+foods.each do |foods|
+  puts "Add #{foods} to shopping list"
+end
+
+# Write code that stores an array of numbers in a variable,
+# then iterates over that array to print doubles of each number:
+
+numbers = [1, 2, 3, 4, 5]
+
+numbers.each do |x|
+  puts x * 2
+end
