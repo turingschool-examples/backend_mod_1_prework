@@ -11,12 +11,12 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
-    1. [FizzBuzz](./fizzbuzz.md)
-    1. [10 Speckled Frogs](./10_speckled_frogs)
+    x 1. [FizzBuzz](./fizzbuzz.md)
+    x 1. [10 Speckled Frogs](./10_speckled_frogs)
 
 1. When you are finished with your projects, you should add, commit, and push your changes to GitHub.
 
-1. Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
+1. x Add a `high_level.md` file to your day_7 directory. In that file, write up high level notes about how you would solve one of the following problems. When you're finished writing your detailed notes, you can also choose to code a solution to the problem(s).
 
     1. [Ceasar Cipher](./ceasar_cipher.md)
     1. [Checker Board](./checker_board.md)
