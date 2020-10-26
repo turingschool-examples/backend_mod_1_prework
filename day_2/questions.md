@@ -14,7 +14,7 @@ Use the variable name with brackets and, inside the brackets, put the index numb
 
 1. How would you add `"lion"` to the `animals` array?
 
-I would use the shovel operator.  animals >> "lion"
+I would use the shovel operator.  animals << "lion"
 
 1. Name and describe two additional array methods:
 
