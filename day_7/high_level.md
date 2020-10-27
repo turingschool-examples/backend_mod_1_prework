@@ -18,3 +18,6 @@ I'm not sure if I'll want to use while loops or just use the .each method or bot
 First thing I did was create the method to ask the user for input.  If the user inputs an odd number the method reruns itself until an even number is inputed.  If a string is entered the program ends. I saved the input from that method in a global variable then set two global variables to equal "X " and " X" to make my rows and columns filler.  
 
 Then I created another method using the saved user input as a parameter to print out the board.  The inputed number is divided by 2 at three points in the last method because my method defaults to printing two rows every iteration with two columns also filled each iteration.  I feel this if fine because checkerboards are always an even number of rows/columns.  I probably could reconfigure some things to make odd numbers of rows/columns acceptable.  Mainly saving the variables as `"x"`  and `" "` and then reconfiguring how it reads the block in the while loop and the while loop itself.  For now I'm going to leave it for the above reason.
+
+####Update
+I went back and changed the code to allow for odd numbers to be accepted.  Personally this goes against my beliefs on how a checkerboard is defined but life is about growth.
