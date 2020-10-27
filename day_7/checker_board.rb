@@ -1,4 +1,4 @@
-
+# Output =>
 # X X X
 #  X X X
 # X X X
@@ -13,24 +13,15 @@ lines = gets.chomp
 checker_board = "X" + " " + "X" + " " + "X"
 line_2 = " " + "X" + " " + "X" + " " + "X"
 
-# if lines.to_i == 1
-#    checker_board
-# end
-
 if lines.to_i.odd? && lines.to_i > 0
   until lines.to_i == 1
-   p checker_board
-
-
-  lines = lines.to_i - 1
-  if lines.to_i.even?
+    p checker_board
+    lines = lines.to_i - 1
+    if lines.to_i.even?
     p line_2
-
-  end
+    end
 
   lines = lines.to_i - 1
-
-
 
   end
 

@@ -9,12 +9,21 @@
 # cipher.encode("Hello World", 5)
 # => "CZGGJ RJMGY"
 
+p "Give me some words!"
+
+str = gets.chomp
+str = str.upcase
+
+p "How should we encode it? (shift number)"
+
+number = gets.chomp
+number = number.to_i
 
 normal =  ("A".."Z").to_a
 # cipher = "XYZABCDEFGHIJKLMNOPQRSTUVW"
 
-cipher = normal.rotate(-3)
+cipher = normal.rotate(number.to_i)
 
 ciphered = normal.zip(cipher).to_h
 
-'HELLO WORLD!'.each_char.map { |c| p ciphered[c] }
+str.each_char.map { |c| p ciphered [c] }

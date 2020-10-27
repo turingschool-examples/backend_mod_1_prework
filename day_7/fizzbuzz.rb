@@ -7,8 +7,15 @@
 
 # To run for any number, change the range to 1..####(new number)
 
-for num in 1..100
-  if num % 15 == 0
+p "Give me a number, any number"
+
+number = gets.chomp
+number = number.to_i
+
+
+for num in 1..number.to_i
+  # if num % 15 == 0
+  if num % 5 == 0 && num % 3 == 0
     p "FizzBuzz"
   elsif num % 5 == 0
     p "Buzz"
