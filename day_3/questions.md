@@ -5,7 +5,7 @@ A boolean value that the following line of code is predicated on.
 ```
 bob_is_hungry = true
 If bob_is_hungry = true
-  puts "Costco muffin and mulk"
+  puts "Costco muffin and milk"
 elseif bob_is_hungry = false
   puts "play POE"
 else
@@ -31,15 +31,15 @@ If conditional
 ```
 bob_is_hungry = true
 If bob_is_hungry = true
-  puts "Costco muffin and mulk"
+  puts "Costco muffin and milk"
 elseif bob_is_hungry = false
   puts "play POE"
 else
-  puts "Costco muffin and milk"
+  puts "Twiddle thumbs"
 end
 
 ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-The unless modifier in ruby to execute a command if the conditional is false. 
+The unless modifier in ruby to execute a command if the conditional is false.
