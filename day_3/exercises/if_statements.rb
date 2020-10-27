@@ -24,3 +24,26 @@
     p "good to go!"
   end
 end
+
+
+puts "Weather's looking a little dicey. Let me know the forecast and I can help with what to wear."
+puts "Is it sunny, rainy, snowy, or icy?"
+print "> "
+weather = $stdin.gets.chomp
+
+if weather == "sunny"
+  puts "Looks like our luck has changed! Better bring that sunscreen!"
+
+elsif weather == "rainy"
+  puts "If you want your hair to stay looking fabulous, I'd suggest bringing an umbrella."
+
+elsif weather == "snowy"
+  puts "Time for that trusty winter coat."
+
+elsif weather == "icy"
+  puts "Let's break out the ol' yak traks!"
+
+else
+  puts "Think we're good to go!"
+end
+  
