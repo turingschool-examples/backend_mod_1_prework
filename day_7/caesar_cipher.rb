@@ -1,6 +1,4 @@
 
-# comments needed
-
 class CaesarCipher
 
   def encode(string, shift)
