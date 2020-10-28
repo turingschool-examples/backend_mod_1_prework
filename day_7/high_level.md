@@ -6,6 +6,7 @@ To build a Ceasar Cipher
 - push new results
 
 # Checker Board
+To build a checker board
 - Store users board size requests: height, width.
 - Divide stored number by two to account for two separate characters
 - Have board print two lines - one starting with "X" and the next starting with " "
