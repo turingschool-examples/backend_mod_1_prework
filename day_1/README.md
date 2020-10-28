@@ -67,6 +67,27 @@ This will open the day_1 directory in Atom. You should be able to see the direct
     - [x] Have you created 7 `ex.rb` files with your code in them?
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
+**Strings**
+```Ruby
+#I completed all steps up until the last step, for ease of review I have only copied the last exercise."
+irb(main):030:0> modifier = "very"
+"very"
+irb(main):031:0> mood = "excited"
+"excited"
+irb(main):032:0> puts "I am #{modifier * 3 + mood} for today's class!"
+I am veryveryveryexcited for today's class!
+```
+**Numbers**
+```ruby
+irb(main):038:0> for(var i = 0; i < 5; i++){
+irb(main):039:2* console.log("Hello, World");
+irb(main):040:2> }
+irb(main):041:1> 5.times do
+irb(main):042:2*    puts "Hello, World!"
+irb(main):043:2> end
+irb(main):044:1> irb
+irb(main):045:1>
+```
 
 ## Exercises
 - Each day contains an exercises directory containing files where you will practice writing code.
