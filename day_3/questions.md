@@ -16,12 +16,12 @@
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 > cookies = 2
 
->if cookies >= 2
-  puts "We have enough for us both."
->elsif cookies == 1
-  puts "We are running low on cookies"
->else
-  puts "We ran out of cookies."
+>if cookies >= 2  
+  puts "We have enough for us both."  
+>elsif cookies == 1  
+  puts "We are running low on cookies"  
+>else  
+  puts "We ran out of cookies."  
 >end  
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
