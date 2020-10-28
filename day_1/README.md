@@ -94,11 +94,11 @@ irb(main):045:1>
 
 Work through the files in the day_1/exercises directory.  Complete them in this order:
 
-1. strings   
-1. numbers   
-1. variables   
-1. interpolation
-1. loops
+1. [x] strings   
+1. [x] numbers   
+1. [x] variables   
+1. [x] interpolation
+1. [x] loops
 
 ## Questions
 - Each day contains a questions.md file where you will answer questions about what you have learned.
