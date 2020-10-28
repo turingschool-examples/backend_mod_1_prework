@@ -10,24 +10,24 @@
 >The behavior of a class is defined in the instance methods. These methods are actions that can be applied to every instance of the class. For example, behavior I would include in a bicycle class could be slow_down, pedal_faster, and turn_handle.  
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:  
->class Dog
-  attr_accessor :dog_name, :breed, :color
+>class Dog  
+  attr_accessor :dog_name, :breed, :color  
 
->  def initialize(dog_name, breed, color)
-    @dog_name = dog_name
-    @breed = breed
-    @color = color
-  end
+>  def initialize(dog_name, breed, color)  
+    @dog_name = dog_name  
+    @breed = breed  
+    @color = color  
+  end  
 
->  def introduce
-    "My dog is a #{breed}. His name is #{dog_name} and he has #{color} fur."
-  end
+>  def introduce  
+    "My dog is a #{breed}. His name is #{dog_name} and he has #{color} fur."  
+  end  
 
->  def change_name(name)
-    @dog_name = name
-    "When I first got him, his name was #{name}."
-  end
-end  
+>  def change_name(name)  
+    @dog_name = name  
+    "When I first got him, his name was #{name}."  
+  end  
+end    
 
 1. How do you create an instance of a class?
 >bruce = Dog.new('Bruce', 'Boston Terrier', 'black')  
