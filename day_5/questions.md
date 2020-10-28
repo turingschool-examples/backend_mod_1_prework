@@ -30,11 +30,9 @@ I am having trouble understanding this code from ex39
 ```ruby  
 # by default ruby says "nil" when something isn't in there
 state = states['Texas']
-
 if !state
   puts "Sorry, no Texas."
 end
-
 # default values using ||= with the nil result
 city = cities['TX']
 city ||= 'Does Not Exist'
