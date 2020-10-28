@@ -5,6 +5,7 @@
 #if previous line statred with x, start new line with ' '
 
 #puts number of times specified by user
+#note
 
 puts "How many spaces heigh would you like your board to be?"
 puts "> "

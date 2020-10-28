@@ -60,5 +60,5 @@ X X X
 
 # enter user variables into function
  counter(height, width)
-
+#noteS
  ```
