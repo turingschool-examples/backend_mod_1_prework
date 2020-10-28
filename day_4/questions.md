@@ -5,17 +5,14 @@
 The purpose of a method is to make code that has a specific purpose, is able to be repeated, and is also customizable.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
-
 ```ruby
 def hello(phrase= "Sam I am")
   p phrase
 end
-
 hello()
 ```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-
 ```ruby
 def hello_someone(name)
   p "#{name} I am"
