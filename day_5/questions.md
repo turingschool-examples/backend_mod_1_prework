@@ -10,9 +10,9 @@
 >puts "The state that goes with the abbreviation IA is #{states['IA']}."  
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
->states. each do |key, value|
-   puts "#{key}"
-   puts "#{value}"
+>states. each do |key, value|  
+   puts "#{key}"  
+   puts "#{value}"  
  end  
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
