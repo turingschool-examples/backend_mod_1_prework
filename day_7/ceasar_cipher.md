@@ -14,3 +14,53 @@ cipher = CeasarCipher.new
 cipher.encode("Hello World", 5)
 => "CZGGJ RJMGY"
 ```
+```
+# asks user for input
+print "what is your word?"
+print "> "
+#stores response
+text = $stdin.gets.chomp.downcase
+#ask user for response
+print "number of characters to shift"
+print "> "
+#store response
+number = $stdin.gets.chomp
+
+#function holds a string and a number
+def caesar_cipher (string, number)
+# split string
+  string_array = string.split("")
+# make letter an integer
+  number = number.to_i
+#store results in array
+  array = []
+# process through each number  
+  string_array.each do |letter|
+#make a 0
+    result = letter.ord - 97
+#set num to result    
+    num = result.to_i
+# add your given number to the stored number
+    num += number
+# make a 98 again
+    num += 97
+# turn num back into a character
+    new_result = num.chr("UTF-8")
+# push your result into your array
+    array.push(new_result)
+# end block of code
+  end
+# take away spaces in array
+  p array.join
+# end block of code
+end
+
+
+# call code with inputs
+caesar_cipher(text, number)
+
+# store results in ARRAY
+# print result array.join
+# account for spaces
+#convert to lowercase!
+```
