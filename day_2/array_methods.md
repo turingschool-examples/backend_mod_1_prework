@@ -18,7 +18,6 @@ array.index("This") #=> 0
 array.index("array") #=> 3
 ```
 
-
 1. `.include?` will essentially "ask" if the array includes a specific argument and will return either true or false.
 Example:
 ```ruby

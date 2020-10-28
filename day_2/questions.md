@@ -21,21 +21,18 @@ animals.push("lion")
 ```
 1. Name and describe two additional array methods:
 `.join` will join together all elements in the array.
-
 `.pop` will remove the last element from the array.  
 
 1. What are the boolean values in Ruby?
-* true
-* false
-* && (and)
-* || (or)
-* ! (not)
-* != (not equal)
-* == (equal)
-* >= (greater-than-equal)
-* <= (less-than-equal)
-
-
+  * true
+  * false
+  * && (and)
+  * || (or)
+  * ! (not)
+  * != (not equal)
+  * == (equal)
+  * \>\= (greater-than-equal)
+  * <= (less-than-equal)
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 `2 == 25` #=> false
 
