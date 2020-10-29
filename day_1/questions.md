@@ -2,7 +2,7 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-+ `puts '`"Hello World!"`'`
++ `puts "Hello World!"`
 
 1. What character is used to indicate comments in a ruby file?
 
