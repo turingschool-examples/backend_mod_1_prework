@@ -4,7 +4,7 @@ def cheese_and_crackers(cheese_count, box_of_crackers)
   puts "Man that's enough for a party!"
   puts "Get a blanket.\n"
 end
-
+ 
 
 puts "We can just give the function numbers directly:"
 cheese_and_crackers(20, 30)

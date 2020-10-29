@@ -5,7 +5,7 @@
 Methods allow us to group one or more statements into a single unit so we don't have to repeat it over and over.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
-
+ 
 def hello
   puts "Sam I am"
 end

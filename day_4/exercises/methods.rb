@@ -9,7 +9,7 @@ def print_name
 end
 
 print_name
-
+ 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
   puts "My name is #{name}."
