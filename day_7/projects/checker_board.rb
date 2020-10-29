@@ -11,16 +11,15 @@ class CheckerBoard
   def draw_line
     counter = 1
     @board.insert(-1, @x)
-    until counter > @size
+    until counter == @size
       if @board[-1] == @x
         @board.insert(-1, @o)
-        elsif @size == counter
-          @board.insert(-1, "\n")
       else
         @board.insert(-1, @x)
       end
       counter += 1
     end
+    @board.insert(-1, "\n")
   end
 
   def draw_line2
@@ -29,26 +28,37 @@ class CheckerBoard
     until counter == @size
       if @board[-1] == @o
         @board.insert(-1, @x)
-      elsif @size == counter
-        @board.insert(-1, "\n")
       else
         @board.insert(-1, @o)
       end
       counter += 1
     end
+    @board.insert(-1, "\n")
   end
 
   def print_board
     empty = ''
-    self.draw_line
-    self.draw_line2
-    self.draw_line2
+    marker = "1"
+    counter = 0
+    until counter == @size
+      if marker == "1"
+        self.draw_line2
+        counter += 1
+        marker = "2"
+      elsif marker == "2"
+        self.draw_line
+        counter += 1
+        marker = "1"
+      end
+    end
     @board.each do |line|
       empty += line
     end
+    puts empty
   end
+
 end
 
 
-chess = CheckerBoard.new(4)
+chess = CheckerBoard.new(6)
 chess.print_board
