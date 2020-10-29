@@ -89,6 +89,23 @@ This method will add an element(s) to a specific position in an array
 arr = [1, 2, 3, 4, 5, 6]
 arr.insert(4, 4.5, 4.9) #=> [1, 2, 3, 4, 5, 4.5, 4.9, 6]
 ```
+### .collect
+This method will create a new array containing the specified values. This array is not permanent unless used with (!).
+```ruby
+greetings = [ "Hello", "Hi", "Howdy" ]
+puts greetings.collect {|greeting| greeting + "!" }
+#=> ["Hello!", "Hi!", "Howdy!"]
+puts greetings
+#=> ["Hello", "Hi", "Howdy"]
+
+puts greetings.collect! {|greeting| greeting + "!" }
+#=> ["Hello!", "Hi!", "Howdy!"]
+puts greetings
+#=> ["Hello!", "Hi!", "Howdy!"]
+```
+
+### .compact
+Compact will remove nil values from an array
 
 ### .delete_at
 Delete_at will delete a particular element in a particular location from an array
@@ -104,8 +121,31 @@ arr = [1, 2, 2, 2, 3]
 arr.delete #=> 2; arr = [1, 3]
 ```
 
-### .compact
-Compact will remove nil values from an array
+### .each
+This method defines what elements should be iterated over and how. This should be used as a multiblock line of code, unless very simple.
+**Singleline**
+```ruby
+names = ["Alexa Smyth", "Katelyn Kasperowicz", "Bridget Monahan", "Christina DiStefano"]
+names.each { |name| puts name}
+# Results =>
+# Alexa Smyth
+# Katelyn Kasperowicz
+# Bridget Monahan
+# Christina DiStefano
+```
+**Multiline**
+```ruby
+names = ["Alexa Smyth", "Katelyn Kasperowicz", "Bridget Monahan", "Christina DiStefano"]
+names.each do |n|
+  text = "Hello, my name is #{n}"
+  puts text
+end
+# Results =>
+# Hello, my name is Alexa Smyth
+# Hello, my name is Katelyn Kasperowicz
+# Hello, my name is Bridget Monahan
+# Hello, my name is Christina DiStefano
+```
 
 ### .uniq / .uniq!
 These methods will remove duplicate elements (! permanent removal from array)

@@ -17,8 +17,9 @@ p animals.at(1)
 
 1. How would you add `"lion"` to the `animals` array?
 ```ruby
-animals.push("lions")
+animals.push "lions"
 ```
+
 1. Name and describe two additional array methods:
  - .insert
 This method will add an element(s) to a specific position in an array
@@ -34,8 +35,24 @@ arr.delete_at(3) #=> 4; arr = [1, 2, 3, 5, 4.5, 4.9, 6]
 ```
 
 1. What are the boolean values in Ruby? true/ false
+```ruby
+&&   #and
+||   #or
+!    #not
+!=   #not equal
+==   #equal
+>=   #greater than or equal
+>    #greater than
+<=   #less than or equal
+<    #less than
+```
 
 1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
-
+```ruby
+2 == 25 #=> false
+```
 
 1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+```ruby
+25 > 2 #=> true
+```
