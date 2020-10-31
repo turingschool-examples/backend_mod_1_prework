@@ -5,7 +5,6 @@ count = gets.chomp.to_i
 puts "Enter a stopping number: "
 stop = gets.chomp.to_i
 
-
 while count <= stop
   printed = ""
 
@@ -18,7 +17,6 @@ while count <= stop
   if count % 3 != 0 && count % 5 != 0
     printed = count
   end
-
     puts printed
     count+=1
 end
