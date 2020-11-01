@@ -11,7 +11,8 @@
 
 1. What is the Ruby syntax for an if statement?  
 *
-``` if something == true
+``` 
+if something == true
     #do this
   end
 ```  
