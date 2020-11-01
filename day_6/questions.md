@@ -10,7 +10,8 @@
 * Behavior of a class is what instances of a class can do or what can be done to class attributes.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:  
-* ```
+* 
+```
 class Dog
      attr_reader :color,
                  :breed
