@@ -30,6 +30,7 @@ p cipher_game("how are you doing today",5)
     * we want to map each alphabet in the string to an index value. We then want to add or subtract the desired number of positions from that indexed value.  
 
     * once we have performed the desired calculation we want to convert the new numbers back to their key characters. This would give us a transformed string.
+    
 ```
 def ceaser_cipher(string,n)
   new_array = string.chars.map {|x| (x.ord + n).chr}
@@ -37,7 +38,7 @@ def ceaser_cipher(string,n)
 end
 ```
 
-  3. This method is the closes i have come to solving this problem. There is one problem here - how do we deal with a space in the string characters? Because a space is not accounted for in step_1 and therefore it would return a nil class which can not be adde to n. Perhaps an if statement? 
+  3. This method is the closes i have come to solving this problem. There is one problem here - how do we deal with a space in the string characters? Because a space is not accounted for in step_1 and therefore it would return a nil class which can not be adde to n. Perhaps an if statement?
 
 ```
 def print_cipher(string,n)
