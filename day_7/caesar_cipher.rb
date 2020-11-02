@@ -11,19 +11,25 @@
 
 p "Give me some words!"
 
-str = gets.chomp
-str = str.upcase
+def cipher()
+
+  str = gets.chomp
+  str = str.upcase
 
 p "How should we encode it? (shift number)"
 
-number = gets.chomp
-number = number.to_i
+  number = gets.chomp
+  number = number.to_i
 
-normal =  ("A".."Z").to_a
+  normal =  ("A".."Z").to_a
 # cipher = "XYZABCDEFGHIJKLMNOPQRSTUVW"
 
-cipher = normal.rotate(number.to_i)
+  cipher = normal.rotate(number.to_i)
 
-ciphered = normal.zip(cipher).to_h
+  ciphered = normal.zip(cipher).to_h
 
-str.each_char.map { |c| p ciphered [c] }
+  str.each_char.map { |c| p ciphered [c] }
+
+end
+
+cipher

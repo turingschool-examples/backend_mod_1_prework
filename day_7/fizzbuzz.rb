@@ -9,10 +9,12 @@
 
 p "Give me a number, any number"
 
-number = gets.chomp
-number = number.to_i
+# number = gets.chomp
+# number = number.to_i
 
-
+def counter()
+  number = gets.chomp
+  number = number.to_i
 for num in 1..number.to_i
   # if num % 15 == 0
   if num % 5 == 0 && num % 3 == 0
@@ -25,3 +27,6 @@ for num in 1..number.to_i
     p num
   end
 end
+end
+
+p counter

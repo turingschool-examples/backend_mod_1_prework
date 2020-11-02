@@ -18,18 +18,20 @@
 p "How many speckled frogs are on that log?"
 # to just print 10 (no gets.chomp):
 #frog = 10
-frog = gets.chomp
-remaining_frogs = frog.to_i - 1
-was_when = "were"
 
-until frog == 2 do
-  p "#{frog} speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there #{was_when} #{remaining_frogs} speckled frogs."
 
-  frog = frog.to_i - 1
-  remaining_frogs = remaining_frogs - 1
+  frog = gets.chomp
+  remaining_frogs = frog.to_i - 1
+  was_when = "were"
+
+  until frog == 2 do
+    p "#{frog} speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there #{was_when} #{remaining_frogs} speckled frogs."
+
+    frog = frog.to_i - 1
+    remaining_frogs = remaining_frogs - 1
 
   if frog.to_i == 2
-  p "2 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there was 1 speckled frogs."
+    p "2 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there was 1 speckled frogs."
   else
 
   end
@@ -40,4 +42,9 @@ until frog == 2 do
 
 end
 
+
 p "1 speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were no more speckled frogs!"
+
+
+
+p poem
