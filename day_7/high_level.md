@@ -18,7 +18,7 @@ To solve the Ceasar Cipher problem, I would do the following steps:
         * Finally, return the new cipher array joined
 4. Call methods and ask for user input at then end of the file
     * Create a new CeasarCipher instance `cipher = CeasarCipher.new`
-    * Ask for input then pass those values into the encode method `* cipher.encode(phrase, shift_value)`
+    * Ask for input then pass those values into the encode method `cipher.encode(phrase, shift_value)`
 
 
 # Checker Board
