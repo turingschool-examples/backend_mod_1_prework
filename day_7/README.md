@@ -1,4 +1,4 @@
-# Day 7 - Build a Thing!
+ato# Day 7 - Build a Thing!
 
 Congrats on making it through the first 6 days of Prework! Today, you will put together everything you have learned to actually build a program! Hopefully, this will show you how much you have already accomplished in your first week as a programmer!
 
