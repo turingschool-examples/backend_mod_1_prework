@@ -1,0 +1,11 @@
+Checker board
+
+To start, I know I need to prompt the user for an input and store that input as a variable using gets.chomp. I will want to use the .to_i method to convert the input to an integer. I can use (1..input).to_a to create an array equal to the number of lines needed in the board. I can then iterate through that array, putting "X X X " for odd lines and " X X X" for even lines.
+
+I tried this out and it works. I am worried I oversimplified the problem somehow.
+
+Caesar Cipher
+
+I'm a bit less sure how to go about this one. I know I will need to take in a string to be run through the cipher and I will need to use the .split method to split that string into an array of characters. I can use the .each method to iterate through each item in the character array and transpose it with the substitution character, then I will use .join to remake the string with the substituted characters and output the new string. I am not sure the best way to approach the specifics of how to substitute each character within .each. I might be able to set up another array that contains A to Z normal and another that shifts the letters based on the number used for the cipher, but I will need to look into how to do that.
+
+After some thought and research, I am now thinking I would approach create a hash with A to Z and each letter linked to a value 1 - 26. I would still .split the input text to get an array of the characters. I could then iterate through the array referencing each character against the hash and creating a new array that holds the integer value of each character. I could then iterate through that new array increasing or decreasing each integer item by the cipher number. To get around the issue of potentially needing to circle around the alphabet from Z back to A I will use an if statement to check if each integer plus the cipher number is greater than 26. If it is not, it will save the new integer, if it is greater than 26 I will instead do initial integer - (26 - cipher number) and save that result instead. Once I have this array of the new integers, I will iterate through it comparing it against the objects in the hash and converting the integers back into characters. Then use .join on this new array to create the string with the cipher applied and output it.
