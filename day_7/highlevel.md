@@ -1,0 +1,1 @@
+I chose the ceasar cypher. If i were to be given a task to figure out how to do this, I would start by assigning a variable that has an array that lists off the alphabet 1x1. Then, i would write something that gets a phrase from the user, decyphers each letter, and then goes back three spaces from the array i created to give it the ceasar cypher.

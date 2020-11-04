@@ -1,4 +1,4 @@
-# Add the following methods to this burrito class and 
+# Add the following methods to this burrito class and
 # call the methods below the class:
 # 1. add_topping
 # 2. remove_topping
@@ -10,6 +10,9 @@ class Burrito
     @protein  = protein
     @base     = base
     @toppings = toppings
+    @add_topping = add_topping
+    @remove_toppings = remove_toppings
+    @change_protein = change_protein
   end
 end
 
