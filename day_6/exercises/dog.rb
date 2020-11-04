@@ -1,5 +1,5 @@
 # In the dog class below, write a `play` method that makes
-# the dog hungry. Call that method below the class, and 
+# the dog hungry. Call that method below the class, and
 # print the dog's hunger status.
 
 class Dog
@@ -26,5 +26,5 @@ p fido.breed
 p fido.name
 p fido.age
 p fido.hungry
-fido.eat
-p fido.hungry
+
+puts "Dog's hungry = #{fido.hungry}"
