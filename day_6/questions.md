@@ -2,7 +2,7 @@
 
 1. In your own words, what is a Class? A class is a blueprint or template. It is the structure that has shared attributes between all of its instances. It is a category.
 
-1. What is an attribute of a Class? An attribute of a class is shared by all instances. An attribute is a basic characteristic. Attributes should be simple and should not be created if the value can be obtained from a method/other attributes (Example: Box attributes are L, W, H, NOT Volume is a method).
+1. What is an attribute of a Class? An attribute of a class is shared by all instances. An attribute is a basic characteristic. Attributes should be simple and should not be created if the value can be obtained from a method/other attributes (Example: Box attributes are L, W, H, NOT Volume. Volume can be a method that uses the L, W, H attributes).
 
 1. What is behavior of a Class? The behavior of a class is an action that an instance can take in accordance with the class attributes.
 
