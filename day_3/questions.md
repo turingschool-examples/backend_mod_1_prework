@@ -44,3 +44,4 @@ end
 ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+This can be utilized to follow a decision path.
