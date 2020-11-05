@@ -3,24 +3,30 @@
 # to the terminal that show the methods in action.
 
 # YOUR CODE HERE
-class person
-  person_attr :first_name, :eye_color, :height
+class Person
+  attr_reader :first_name, :age, :height, :hours_of_sleep
 
-  def meet (first_name, eye_color, height)
-    @first_name = first_name
-    @eye_color = eye_color
+  def initialize(first_name, age, height, hours_of_sleep)
+    @firts_name  = first_name
+    @age  = age
     @height = height
+    @hours_of_sleep = hours_of_sleep
   end
 
-  def intro
-    puts "My name is #{{first_name}}!"
+  def daily_nap
+    puts "#{first_name} naps an hour for a total of #{hours_of_sleep + 1} hours"
   end
 
-  def exit
-    puts "It was a pleasure to mee you!"
+  def reach
+    puts "#{first_name} can reach the top of the shelf becasue they are #{height}cm tall}"
   end
 
-  Lucy = person.new ("Lucy", "green", "180 cm")
 
-  Lucy.introduce
-  Lucy.exit
+end
+
+Lucy = Person.new("Lucy", 30, 180, 8)
+p Lucy.first_name
+p Lucy.age
+p Lucy.height
+p Lucy.daily_nap
+Lucy.reach
