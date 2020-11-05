@@ -18,21 +18,24 @@ class Dog
 
   def eat
     @hungry = false
+    p "Is #{name} the #{breed} hungry?"
   end
 
   def run
     @hungry = true
+    p "#{name} is hungry after running"
+
   end
 
 
 end
 
-fido = Dog.new("Bernese", "Fido", 4)
+fido = Dog.new("German Shephard", "Waldo", 2)
 p fido.breed
 p fido.name
 p fido.age
 p fido.hungry
-fido.eat (boolean)
+fido.eat #(boolean)
 p fido.hungry
-fido.run (boolean)
+fido.run #(boolean)
 p fido.hungry
