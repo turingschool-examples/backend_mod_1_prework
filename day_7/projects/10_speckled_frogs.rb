@@ -57,6 +57,7 @@ print "How many frogs are on the log? "
 user_input = gets.chomp
 frog = user_input.to_i
 frogs = (1..frog).to_a.reverse
+puts "\n"
 
 frogs.each do |frog|
   if frog == 1
