@@ -46,11 +46,11 @@ end
 
 
 #Extension 3
-#
+
 print "How many frogs are on the log? "
 user_input = gets.chomp
 frog = user_input.to_i
-frogs = (1..frog).to_a.reverse #could change  the 3 into any interger and program woudl work
+frogs = (1..frog).to_a.reverse
 
 frogs.each do |frog|
   if frog == 1
