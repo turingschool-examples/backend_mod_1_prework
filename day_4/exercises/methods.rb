@@ -12,16 +12,27 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+    puts "My name is #{name}!"
 end
 
-print_name("Albus Dumbledore")
+puts print_name("Albus Dumblebore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
+def sum(x, y)
+  puts "Sum of #{x} + #{y}"
+  return x + y
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+puts "The answer is #{sum(100, 72)}!"
+
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+def seasonal_fave(holiday, treat)
+  puts "#{holiday} is my favorite holiday and #{treat} is my favorite treat during the seaon!"
+end
+
+puts seasonal_fave("Christmas", "Hot Cocoa Deluxe")
