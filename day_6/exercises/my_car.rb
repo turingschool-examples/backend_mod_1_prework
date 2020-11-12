@@ -30,7 +30,7 @@ class MyCar
 
   def spray_paint(color)
     self.color = color
-    puts "Your new Tesla paint job is #{self.color}."
+    "Your new Tesla paint job is #{self.color}."
   end
 end
 
@@ -48,4 +48,4 @@ tesla.color = "Forest Green"
 puts tesla.color
 puts tesla.year
 
-tesla.spray_paint("Magenta")
+puts tesla.spray_paint("Magenta")
