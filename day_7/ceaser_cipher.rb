@@ -1,17 +1,24 @@
-ALPHABET_SIZE = 26
 
-def caesar_cipher(string)
-  shiftArray = []
-  charLine = string.chars.map(&:ord)
 
-shift = 1
-ALPHABET_SIZE.times do |shift|
-  shiftArray << charLine.map do |c|
-    ((c + shift) < 123 ? (c + shift) : (c + shift)- 26).chr
-  end.join
+puts "What message would you like coded"
+message = gets.chomp
+puts "How many spaced would you like to move?"
+space = gets.chomp.to_i
+def cipher(message, space)
+  new_message = ""
+  message.each_char do |i|
+    space.times do
+      if(i == "z")
+        i = "a"
+      elsif(i == "Z")
+        i = "A"
+      end
+    i.next!
+    i == "%" ? i = "" : ""
+  end
+ new_message += i
+end
+puts new_message
 end
 
-  shiftArray
-end
-
-puts caesar_cipher("Grinch")
+cipher(message, space)
