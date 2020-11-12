@@ -39,4 +39,4 @@ puts "So you have #{dinner.toppings} toppings in your burrito."
 dinner.remove_toppings("salsa")
 puts "Now you have #{dinner.toppings}."
 dinner.change_protein("Chicken")
-p dinner
+puts "So you have picked #{dinner.protein}, #{dinner.base}, and #{dinner.toppings} in your burrito."
