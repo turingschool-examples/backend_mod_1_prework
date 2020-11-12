@@ -25,6 +25,7 @@ class Burrito
   def change_protein(item)
     protein = (item)
     puts "Your protein choice is now #{protein}."
+    @protein = protein
   end
 end
 

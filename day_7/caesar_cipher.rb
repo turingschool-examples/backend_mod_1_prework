@@ -1,18 +1,11 @@
-def caesar_cipher(offset, string)
-  encrypt_string = ""
-  alph = ("a".."z").to_s
-
-  string.split("").each {|c|
-      if c != " "
-          c_index = alph.index(c)
-          new_pos = c_index + offset
-          new_alph_index = new_pos % 26
-          encrypt_string = encrypt_string + alph[new_alph_index]
-      else
-          encrypt_string = encrypt_string + " "
-      end
-  }
-  return encrypt_string
+puts "What word will we be ciphering today? "
+word = gets.chomp.downcase
+puts "What is your lucky number? "
+num = gets.chomp.to_i
+def caesar_cipher(word, num)
+alphabet = ('a'..'z').to_a
+key = Hash[alphabet.zip(alphabet.rotate(num))]
+word.each_char.inject("") { |newtext, char| newtext + key[char] }
 end
 
-puts caesar_cipher(7, "I can hear my brain whimpering softly in the corner")
+puts "#{caesar_cipher(word, num)} is your new secret phrase!"
