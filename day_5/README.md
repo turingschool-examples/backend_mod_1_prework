@@ -10,7 +10,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
 ## Hash Lessons
 
-1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
     - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
 

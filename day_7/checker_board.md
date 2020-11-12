@@ -10,4 +10,6 @@ X X X
 X X X  
  X X X
  ```
- 
+
+
+ prompt the user for input

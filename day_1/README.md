@@ -36,7 +36,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 ### Ruby Basics Lessons
 
-1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
+1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these dir ections closely***:
 
     1. Create a file within your `day_1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `day_1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. Refer to back to [day_0](../day_0) if you need a refresher on terminal commands.
 

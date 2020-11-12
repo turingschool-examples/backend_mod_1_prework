@@ -14,3 +14,8 @@ cipher = CeasarCipher.new
 cipher.encode("Hello World", 5)
 => "CZGGJ RJMGY"
 ```
+prompt user for code and how many steps to right or left
+
+turns the string into an array of numbers
+make alphabet array
+get the inputted data array index, add or subtract a number from it depending on the number of steps, print the letter at that index value
