@@ -12,12 +12,12 @@ class Burrito
     @toppings = toppings
   end
 
-def add_topping(corn)
-  self.toppings.push(corn)
+def add_topping(toppings)
+  @toppings.push(toppings)
 end
 
-def remove_topping(guacamole)
-  self.toppings.delete(guacamole)
+def remove_topping(toppings)
+  @toppings.delete(toppings)
 end
 
 def change_protein(protein)
