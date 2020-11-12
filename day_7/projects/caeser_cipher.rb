@@ -1,6 +1,5 @@
 class CaesarCipher
-  attr_accessor :position
-  attr_reader :alphabet
+  attr_reader :alphabet, :position
 
   def initialize(position)
     @position = position
@@ -14,7 +13,7 @@ class CaesarCipher
       encrypted_char = letter_map[char]
 
       if encrypted_char.nil?
-        (new_str += char).upcase
+        (new_str += char)
       else
         (new_str += encrypted_char).upcase
       end
@@ -24,7 +23,7 @@ end
 
 puts "Type a message to encrypt:"
 string = gets.chomp
-puts "And type a number for the encryption key from 0-25:"
+puts "And type a number for the encryption key from 1-25:"
 position = gets.chomp.to_i
 cipher = CaesarCipher.new(position)
 puts cipher.encrypt(string)
