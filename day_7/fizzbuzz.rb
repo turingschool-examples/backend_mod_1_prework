@@ -4,12 +4,12 @@ MAX = gets.chomp.to_i
 
 def fizzbuzz
   (1..MAX).each do |n|
-    if n % 3 == 0
+  if n % 3 == 0 && n % 5 == 0
+    p "FizzBuzz"
+  elsif n % 3 == 0
       p "Fizz"
-    elsif n % 5 == 0
+  elsif n % 5 == 0
       p "Buzz"
-    elsif n % 3 == 0 && n % 5 == 0
-      p "FizzBuzz"
     else
       p n
     end
