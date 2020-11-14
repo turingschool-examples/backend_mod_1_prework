@@ -1,38 +1,36 @@
 # try reverse to polarize alternate lines?
+# build into arrays and then to_s
 
 def make_board(size)
 
-  fill_array = ["X", " "]
+  out_array = []
+  alt_array = []
+  counter = 1
 
-  row_counter = 1
-  col_counter = size
-  while row_counter <= size
-
-    row_str = ""
-    if row_counter % 2 == 0
-
-      row_str += fill_array[1]
-
-      if
-
-      #col_counter.times do
-      #  row_str += fill_array[row_counter % 2]
-      #end
-
-
-    # counter += 1
-    # puts row_str
-
+  while counter <= size do
+    if counter % 2 == 0
+       out_array << " "
+       alt_array << "X"
+    else
+      out_array << "X"
+      alt_array << " "
+    end
+    counter += 1
   end
 
+  out_row = out_array.join
+  alt_row = alt_array.join
+  row_counter = 1
+  
+  while row_counter <= size do
+    if row_counter % 2 == 0
+      puts alt_row
+    else
+      puts out_row
+    end
+    row_counter += 1
+  end
 end
 
 
-
-
-
-fill_array[counter % 2]
-
-
-def build_row(col_count)
-  row_str +=
+make_board(7)
