@@ -57,3 +57,6 @@ alphabet_array = ("A".."Z").to_a
 ```
 
 1. Declaring variables at the beginning of the method led to the program running correctly.
+
+### Additional note:
+When one solution didn't work out, I started again from scratch. I realize that I should have used git to document these changes.
