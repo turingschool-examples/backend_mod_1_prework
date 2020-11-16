@@ -6,7 +6,8 @@ class CheckerBoard
     @size = size
     @black_square = "X"
     @white_square = " "
-    @squares = "X"" "
+    @squares = "X "
+    @checkerboard = ""
   end
 
   def positions
@@ -19,24 +20,26 @@ class CheckerBoard
       self.size = gets.chomp.to_i
     end
 
-      puts '-' * size
+      @checkerboard += "#{'-' * size}\n"
 
       if size.even?
         positions.times do
-          puts "#{squares}" * positions
-          puts ("#{squares}".reverse) * positions
+          @checkerboard += "#{squares * positions}\n"
+          @checkerboard += "#{squares.reverse * positions}\n"
         end
 
       else
         positions.times do
-          puts ("#{squares}" * positions) + black_square
-          puts (("#{squares}".reverse) * positions) + white_square
+          @checkerboard += "#{squares * positions}#{black_square}\n"
+          @checkerboard += "#{squares.reverse * positions}#{white_square}\n"
         end
-        puts ("#{squares}" * positions) + black_square
+        @checkerboard += "#{squares * positions}#{black_square}\n"
       end
-      puts '-' * size
+      @checkerboard += "#{'-' * size}\n"
+      @checkerboard
     end
   end
+
 
   puts "Let's make a checkerboard!"
   puts "Black squares will be represented by 'X' and white squares by ' '."
@@ -44,4 +47,4 @@ class CheckerBoard
 
   size = gets.chomp.to_i
   checker_board = CheckerBoard.new(size)
-  checker_board.make_board
+  puts checker_board.make_board
