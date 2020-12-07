@@ -15,7 +15,7 @@ p house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-stringHarry = "Harry Potter must not return to Howarts!"
+string_harry = "Harry Potter must not return to Howarts!"
 p stringHarry
 
 # Write code that adds 2 to the `students` variable and
