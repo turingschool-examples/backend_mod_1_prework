@@ -10,4 +10,7 @@ X X X
 X X X  
  X X X
  ```
- 
+
+
+ puts "Pick size 1 or 2"
+ size = gets
