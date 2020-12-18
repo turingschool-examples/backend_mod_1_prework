@@ -7,10 +7,16 @@
 p 2 + 2
 
 # Write code that prints the result of 7 subtracted from 83:
-p #YOUR CODE HERE
+p 83 - 7
 
 # Write code that prints the result of 6 multiplied by 53:
-# YOUR CODE HERE
+p 6 * 53
 
 # Write code that prints the result of the modulo of 10 into 54:
-# YOUR CODE HERE
+# Since I'm not sure if you're asking for 54 mod 10 or 10 mod 54
+# I'm going to put both. I thinking you mean the first so I'll
+# list that first as my official "answer", ha.
+
+
+p 54 % 10
+p 10 % 54
