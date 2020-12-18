@@ -6,7 +6,7 @@
 
 1. What character is used to indicate comments in a ruby file?
 
-   - # - it's called an octothorpe or pound character
+   - it's called an octothorpe or pound character
 
 1. Explain the difference between an integer and a float?
 
@@ -24,8 +24,10 @@
 
    - It's a method that allows you to embed/place Ruby code inside of a string by using the pound character with brackets `#{}` .(Assuming you mean string interpolation)
 
-   - `animal = "zebra"`
-     `puts "I would love to pet a #{animal}."`
+   - ```Ruby
+     animal = "zebra"
+     puts "I would love to pet a #{animal}."
+     ```
 
 1. What method is used to get input from a user?
 
