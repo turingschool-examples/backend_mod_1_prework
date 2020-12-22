@@ -32,13 +32,13 @@ You add multiple conditions to a statement by adding the condition elseif.
 
 5. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-`if apples > oranges
+if apples > oranges
   p "We will make apple pie!"
 elseif apples < oranges
   p "We will make orange juice!"
 else
   p "We will not have pie or orange juice"
-end`
+end
 
 ---
 
