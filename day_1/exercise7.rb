@@ -35,3 +35,4 @@ end12 = "r"
 print end1 + end2 + end3 + end4 + end5 + end6
 # Outputs the next 6 string of letters after the previous
 puts end7 + end8 + end9 + end10 + end11 + end12
+#mod for 2nd commit
