@@ -1,0 +1,1 @@
+each method: each allows us to do the same thing to each part/element of an array. For example if we had a bunch of elements in an array and we wanted to loop back over and over and do the same thing to each individual element we would use each.
