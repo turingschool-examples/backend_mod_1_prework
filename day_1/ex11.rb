@@ -15,7 +15,6 @@
 # You can use gets.chomp to display a greeting to the user.
 # You can use get.chomp.to_i to take integer inputs from user
 # You can use gets.chomp.to_f  to take float inputs from the user
-# You can also convert from interger to float, and vice versa:
 
 #Write another "form" like this to ask some other questions.
 puts "Hello! What is your name?"
