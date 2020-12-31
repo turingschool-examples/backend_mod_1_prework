@@ -32,7 +32,7 @@ if people == dogs
   puts "People are dogs."
 end
 
-##########
+#########
 #1. The if makes it so if the statement is true then it will run the code below.
 
 #2. It makes it easier to read the code.

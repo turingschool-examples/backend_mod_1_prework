@@ -24,7 +24,7 @@ elseif
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-```
+````
 if dogs >= 3
   puts "That is alot of dogs!"
 elsif dogs <= 1

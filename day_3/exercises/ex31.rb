@@ -35,7 +35,7 @@ elsif door == "2"
     puts "The insanity rots your eyes into a pool of muck. Good job!"
   end
 
-##########
+#########
 elsif door == "3"
   puts "You see a treasure chest in the corner."
   puts "1. Open the treasure chest to claim your prize."
