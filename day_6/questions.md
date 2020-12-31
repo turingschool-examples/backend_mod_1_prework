@@ -49,6 +49,6 @@ To create an instance of a class, you first need to define the class, set some a
 
 ---
 
-1. What questions do you still have about classes in Ruby?
+6. What questions do you still have about classes in Ruby?
 
 This is by far the more challenging pre_work assignment. What can I do to get more familiar with classes and instances?
