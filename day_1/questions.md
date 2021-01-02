@@ -29,7 +29,7 @@
 
 * ### In the space below, create a variable `animal` that holds the string
 
-      `"zebra"`
+  ### `"zebra"`
 
 
           animal = "zebra"
@@ -37,7 +37,7 @@
 
 * ### How would you print the string `"zebra"` using the variable that you
 
-      created above?
+  ### created above?
 
 
           puts animal
@@ -51,7 +51,7 @@
 
 * ### What is interpolation? Use interpolation to print a sentence using the
 
-      variable `animal`.
+  ### variable `animal`.
 
 
           Interpolation is way to combine strings in Ruby. It sticks data in
