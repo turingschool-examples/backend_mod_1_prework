@@ -5,14 +5,15 @@
 
 # Example: Write code that prints your name five times:
 5.times do
-  p "Hermione Granger"
+  p "Pratique Kain"
 end
 
 # Write code that prints the sum of 2 plus 2 seven times:
 7.times do
-  # YOUR CODE HERE
+  puts 2+2
 end
 
 # Write code that prints the phrase 'She sells seashells down by the seashore'
-# ten times:
-# YOUR CODE HERE
+10.times do
+  p "she sells seashells on the sea shore"
+end
