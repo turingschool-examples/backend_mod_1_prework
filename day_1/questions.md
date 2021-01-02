@@ -98,12 +98,12 @@
         Two common string methods are:
 
 
-        * The #length method which prints out the total length of the string
+          * The #length method which prints out the total length of the string
 
-          including spaces.
+            including spaces.
 
 
-          * The ##split method separates words where there is a space and puts
+          * The #split method separates words where there is a space and puts
 
             them into an array.
 
