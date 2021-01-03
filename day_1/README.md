@@ -1,194 +1,251 @@
-# Day 1 - Strings and Numbers
+# Backend Mod 1 Pre-work Repository
 
-Today, you will begin to learn the basics of Ruby. You will work through several tutorials which will help build your comfort running files and seeing output. You will also learn about two ways to represent data in Ruby: *Strings* and *Numbers*.
+This repository will walk you through the Mod 1 Pre-work for the Backend program at Turing.
 
-In addition to learning Ruby basics, this day will also walk you through entering commands in the terminal to create files. By the end of the day, you should be very comfortable with the commands `cd` and `ls`, both very useful in navigating your machine, and the commands `mkdir` and `touch`, used to create directories and files on the machine.
+Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. Please complete all the exercises and questions, as well as lessons listed in the day's readme.
 
-After completing the days work, you will use several git commands to save your work to your local git repository. You will then push your updates to your remote Github repository. Doing this each day will help you build muscle memory with git commands and get used to seeing the output they produce. We will dive deeper into the inner workings of git later. For now, most important is to follow along and know that we are using git to save our work, and Github to put it on the internet.
+### Pre-work Index
 
-### This lesson will have you using Git, Github, etc. Here's a video walkthrough
+* [Day 0 - More Terminal Practice](day_0)
+* [Day 1 - Strings and Numbers](day_1)
+* [Day 2 - Arrays and Iteration](day_2)
+* [Day 3 - If Statements and Loops](day_3)
+* [Day 4 - Methods and Return Values](day_4)
+* [Day 5 - Hashes](day_5)
+* [Day 6 - Classes](day_6)
+* [Day 7 - Build A Thing](day_7)
+ 
+# Environment
 
-[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
+Before we can experiment with coding out the concepts we will learn in Mod0, we need to do a bit more setup to prepare a Ruby-specific development environment.
 
-## Open your local copy of backend_mod_1_prework in Atom
+Follow this guide step-by-step to make sure you have everything you need, then you will be ready to start your first day of work!
 
-Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
+***Before proceeding***, if you have not already, complete the [mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions) to install Atom, xcode-select, Homebrew, git, and Chrome.
 
-```
-cd ~
-ls
-cd turing
-ls
-cd 0module
-ls
-cd backend_mod_1_prework
-ls
-cd day_1
-ls
-atom .
-```
+We will now cover these three topics:
 
-This will open the day_1 directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
+*   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
+*   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
+*   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
 
-## An Introduction to Ruby
 
-[Read This Introduction](https://learnrubythehardway.org/book/intro.html) to the Learn Ruby The Hard Way Tutorial. To reiterate this introduction, ***DO NOT*** copy and paste code examples when working through lessons in your prework. Actually type each of them out.
+First, let's get a Ruby version management tool on our machines.
 
-### Ruby Basics Lessons
+## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
-1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
+Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2020, we're at version 2.7.
 
-    1. Create a file within your `day_1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `day_1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. Refer to back to [day_0](../day_0) if you need a refresher on terminal commands.
+Generally, programs written in one version of Ruby will run just fine on another version, but sometimes incompatibilities can be encountered, meaning that particular program needs to be run with a specific version of Ruby.
 
-    1. Work through the lesson, **typing** the code into your file, and running it in the terminal with `ruby ex1.rb`, replacing `ex1` with the actual file name of what you'd like to run. Make sure the output you get is similar to what the lesson shows. If you get an error saying "No such file or directory", be sure to verify the directory you are located in via the terminal- running command `ls` should show the file you are trying to run.
+Additionally, very useful tools called "gems" are out there that were created specifically to help developers code (specifically, the `pry` gem is very handy) and we cannot utilize these without first installing and configuring `rbenv`.
 
-    1. Complete the Study Drills listed at the end of the lesson.
+To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles.
 
-    1. Read the Common Student Questions section.
+#### Installation
 
-1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
+Here is a video walk-through that may be helpful for the following steps. Check it out!
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.5.3**, per the written instructions below.
 
-    - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+[![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
-
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
-
-    - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
-
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
-
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
-
-    - [ ] Have you created 7 `ex.rb` files with your code in them?
-
-1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
-
-## Exercises
-- Each day contains an exercises directory containing files where you will practice writing code.
-
-Work through the files in the day_1/exercises directory.  Complete them in this order:
-
-1. strings   
-1. numbers   
-1. variables   
-1. interpolation
-1. loops
-
-## Questions
-- Each day contains a questions.md file where you will answer questions about what you have learned.
-
-Answer the day 1 questions within the questions.md file. The `.md` file extension refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
-
-## Save your work in Git
-
-When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository.
-
-1. Make sure you are in your `day_1` directory. Enter `ls` in your terminal- You should see the exercises directory, README.md, and questions.md all listed.
-
-1. In your terminal, enter `git status`. You should see output like this:
-
-    ```
-    On branch master
-    Changes not staged for commit:
-      (use "git add <file>..." to update what will be committed)
-      (use "git checkout -- <file>..." to discard changes in working directory)
-
-      modified:   exercises/interpolation.rb
-      modified:   exercises/loops.rb
-      modified:   exercises/numbers.rb
-      modified:   exercises/strings.rb
-      modified:   exercises/variables.rb
-      modified:   questions.md
-
-    Untracked files:
-      (use "git add <file>..." to include in what will be committed)
-
-      ex1.rb
-      ex2.rb
-      ex3.rb
-      ex4.rb
-      ex5.rb
-      ex6.rb
-      ex7.rb
-
-    no changes added to commit (use "git add" and/or "git commit -a")
-    ```
-
-    The command `git status` shows us information about files we changed. Don't worry too much about understanding what this all means just yet. What's important is that you get comfortable typing `git status` often.
-
-1. Enter `git add ex1.rb`.
-1. Enter `git status`. Your status should now look a little different:
-
-    ```On branch master
-    Changes to be committed:
-      (use "git reset HEAD <file>..." to unstage)
-
-      new file:   ex1.rb
-
-    Changes not staged for commit:
-      (use "git add <file>..." to update what will be committed)
-      (use "git checkout -- <file>..." to discard changes in working directory)
-
-      modified:   exercises/interpolation.rb
-      modified:   exercises/loops.rb
-      modified:   exercises/numbers.rb
-      modified:   exercises/strings.rb
-      modified:   exercises/variables.rb
-      modified:   questions.md
-
-    Untracked files:
-      (use "git add <file>..." to include in what will be committed)
-
-      ex2.rb
-      ex3.rb
-      ex4.rb
-      ex5.rb
-      ex6.rb
-      ex7.rb
-    ```
-
-    Under "Changes to be committed", "ex1.rb" is now listed. This means that git is now prepared to save this file. We want to do this for each file that has been modified.
-
-1. Enter `git add ex2.rb`
-1. Enter `git status`. "ex2.rb" should now be listed under "Changes to be committed".
-1. Do this for each of the "ex#.rb" files you created and for the "questions.md" file.
-1. Enter `git status`. Under "Changes not staged for commit", you should see all the files in the exercises directory.
-1. Enter `git add exercises`.
-1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory_name>` to add all the files located in a directory.
-1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using `git add <file_name>`.
-1. Enter `git commit -m "Add day 1"`. Don't forget to close the quotes of your message!
-1. Run `git status`. You should see this output:
+Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
 ```
+$ brew update
+```
+Wait a few moments for `brew` to check its current version and make sure it is ready to be used.
+
+```
+$ brew install rbenv
+```
+Wait again, as brew installs rbenv.
+
+```
+$ rbenv init
+```
+
+The output from your terminal should be something similar to:
+
+```
+$ rbenv init
+.
+.
+.
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+
+eval "$(rbenv init -)"
+```
+
+This output is telling you that you will need to add the above line (beginning with `eval`) to your "bash profile".
+
+To do this, in your terminal, enter:
+
+```
+$ atom ~/.zshrc
+```
+
+This command will open up your `ZSH Runtime Configuration` file in Atom so you can edit it. Copy the line `eval "$(rbenv init -)"` and paste it at the END of the `.zshrc` file, and save it.
+
+Check to see if you did this step correctly by switching back to your terminal and typing `cat ~/.zshrc`. You should see `eval "$(rbenv init -)"` at the bottom of the output.
+
+After, *close your terminal and reopen it.* This is a very important step since the bash profile is loaded each time a new terminal window is opened.
+
+Now, check to make sure rbenv was installed properly. In your terminal, type:
+
+```
+$ rbenv versions
+```
+
+It should give you a version number rather than an error message.
+
+More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x).
+
+### Use rbenv to install a certain version of Ruby
+
+Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.5.3. This is the version we will use in the Backend Program.
+
+If you need another version it'll be the same procedure, just replace `2.5.3` in the instructions with whichever version you want.
+
+Install it with:
+
+```
+$ rbenv install 2.5.3
+```
+
+It will take a while to finish installing, and print a _lot_ of text to your terminal.
+
+When it's all finished, type:
+
+```
+$ rbenv versions
+```
+
+and you should now see `2.5.3` listed.
+
+Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you _your current ruby version_. The second shows _all installed versions_.
+
+Switch to your newly installed version with
+
+```
+$ rbenv local 2.5.3
+```
+
+Now enter:
+
+```
+$ ruby -v
+```
+
+This shows us what version of Ruby we are running. You should see something like:
+
+```
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-darwin17]
+```
+
+You can ignore everything after the `p` in `2.5.3p105`- the first bit shows us we are running Ruby 2.5.3, which is what we want to verify. If you got something different than `2.5.3`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+
+#### Setting the Default Version
+
+You can tell rbenv which Ruby version you want to use by default. Let's do that with terminal command:
+
+```
+$ rbenv global 2.5.3
+```
+
+Now, let's make your terminal aware of this update with command:
+
+```
+$ rbenv rehash
+```
+
+## Terminal
+
+We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with day_1.
+
+[Check out day_0 to practice!](day_0)
+
+### Forking the Module 1 Prework Repository
+
+Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
+
+In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `backend_mod_1_prework` repository. You do not have permission to change anything in this repository, so you need your own copy to work on.
+
+In order to fork the repository, follow these steps:
+
+####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
+
+####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_mod_1_prework) that you're reading right now!
+
+####  3. Click on `Fork` in the upper right corner of the screen, just under the top banner.
+
+####  4. On the new page, confirm that it is a "forked" copy of the repository, with your username included in the URL and repository name.
+
+![confirm new repository belongs to _your_ github account](/images/fork_02.jpg)
+
+Check [github help](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) out for more info about forks.
+
+## Clone down this new repository
+
+Now that you have forked this repository, the next thing to do is *clone* your forked repository.
+
+Cloning is when you copy a remote Github repository to your local computer.
+
+#### 1. In YOUR `backend_mod_1_prework` repository that your just forked, click on `Clone or Download`
+
+![clone down your copy](/images/fork_03.jpg)
+
+#### 2. If you see `Clone with HTTPS` click on `Use SSH`
+
+#### 3. Click on the copy icon to copy the SSH link to your clipboard.
+
+#### 4. Open your terminal and follow the below steps to copy down this repository:
+
+```
+$ cd .
+// This is a shortcut for `cd ~`, which is "change into the home directory"
+$ mkdir turing
+$ cd turing
+$ mkdir 0module
+$ cd 0module
+$ git clone <ctrl-v to paste ssh link here >
+Cloning into 'backend_mod_1_prework'...
+remote: Enumerating objects: 678, done.
+remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
+Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
+Resolving deltas: 100% (332/332), done.
+
+$ cd backend_mod_1_prework
+$ git status .
+// If everything worked correctly, you should see:
 On branch master
 nothing to commit, working tree clean
 ```
 
-Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file_name>` and commit them with `git commit -m "Add day 1"`.
+From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
+Here's _another_ video walk-through you may find helpful:
 
-## Push to Github
+[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 
-You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+Each day's `README` will walk you through the necessary steps to save your work.
 
-```
-git push origin master
-```
+To begin, open your terminal and `cd` into the `day_0` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
 
-You should see output similar to this:
+----------------------------------
 
-```
-Counting objects: 9, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
-Total 9 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JohnDoe/backend_mod_1_prework.git
-   e8ebd7a..32c0ed3  master -> master
-```
+# Extensions (optional, after pre-work completed)
 
-You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+You've finished your Mod 1 pre-work assignment!
+
+But there's always more to learn!
+
+If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
+
+- [Turing's ruby exercises repo](https://github.com/turingschool/ruby-exercises)
+- [A back-end grad's advice and useful study resources](https://josh.works/turing-backend-prep-01-intro)
+- [Credit Check](https://github.com/turingschool-examples/credit_check).
+
+If you do Credit Check, follow the [same steps](#forking-the-module-1-prework-repository) as you did previously to fork and clone this repo on to your local computer.

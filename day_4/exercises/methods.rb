@@ -12,16 +12,37 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+def add(a, b)
+  return a + b
+end
+
+gumball_price = add(25,50)
+
+puts "A gumball cost #{gumball_price}."
+
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+
+def oceans(pacific, atlantic)
+  puts "The west coast is home to the #{pacific}"
+  puts "The east coast is home to the #{atlantic}"
+  return pacific + atlantic
+end
+
+most_large = "Pacific Ocean"
+second_largest = "Atlantic Ocean"
+
+oceans(most_large, second_largest)
+
+puts "The oceans that border the US are the #{most_large} and the #{second_largest}"
