@@ -12,16 +12,45 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
-end
+  puts "My name is #{name}."  # Not sure if I needed to just print the name
+end                           # or if I needed the string as well.
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
+def numbers(x, y)
+  puts "#{x + y}"
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+x = 10
+y = 33
+
+numbers(x, y)
+
+puts "I could do this..."
+puts "Here is my result: #{x + y}"
+
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+def ryhme(boy, girl)
+  puts "#{boy} and #{girl} went up the hill to fetch a pail of water."
+  puts "#{boy} fell down and broke his crown, and #{girl} came tumbling after."
+end
+
+boy = "Sal"
+girl = "Gertie"
+
+ryhme(boy, girl)
+
+def karma(a, b)
+  puts "What goes #{a}, must come #{b}."
+end
+
+karma(a = "up", b = "down")
+
+# I liked ths exercise and wanted to play around a bit more, that's why I
+# wrote two.  
