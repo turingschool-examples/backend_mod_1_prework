@@ -29,4 +29,17 @@ print_two("Zed", "Shaw")
 print_two_again("Zed", "Shaw")
 print_one("First!")
 print_none()
- 
+
+def add_numbers(num1, num2)
+  result = num1 + num2
+  puts result
+end
+
+add_numbers(4, 7)
+
+def plus(n1, n2, n3, n4, n5)
+  result = n1 + n2 + n3 + n4 + n5
+  puts result
+end
+
+plus(2, 3, 45, 5, 2)

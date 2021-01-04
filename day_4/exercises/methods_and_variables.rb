@@ -45,3 +45,8 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 # Same as above.
 puts "So I can write whatever I want here and it will print?"
 cheese_and_crackers(4 * 3, 8 - 2)
+
+def hello(n)
+  puts "#{n} I am"
+end
+hello("Sam")

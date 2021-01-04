@@ -53,4 +53,4 @@ end
 karma(a = "up", b = "down")
 
 # I liked ths exercise and wanted to play around a bit more, that's why I
-# wrote two.  
+# wrote two.
