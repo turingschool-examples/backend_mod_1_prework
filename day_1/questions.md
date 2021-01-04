@@ -21,7 +21,7 @@
   
    String interpolation is the use of a variable in a string.
   
-  `puts "A #{animal} is an animal."`
+   `puts "A #{animal} is an animal."`
   
 1. What method is used to get input from a user?
   
