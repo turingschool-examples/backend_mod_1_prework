@@ -29,4 +29,6 @@
 1. Name and describe two common string methods:
   
    .length -- The length method tells you how many characters (including spaces) are in the string:
+   
+   
    .split -- Splits a string into an array of strings at a defined character or group of characters.
