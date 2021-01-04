@@ -6,14 +6,11 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 ### Pre-work Index
 
-* [Day 0 - More Terminal Practice](day_0)
-* [Day 1 - Strings and Numbers](day_1)
-* [Day 2 - Arrays and Iteration](day_2)
-* [Day 3 - If Statements and Loops](day_3)
-* [Day 4 - Methods and Return Values](day_4)
-* [Day 5 - Hashes](day_5)
-* [Day 6 - Classes](day_6)
-* [Day 7 - Build A Thing](day_7)
+* [Section 1 - SUPER LEARNERS, Terminal and Ruby Foundations](section1)
+* [Section 2 - ASKING QUESTIONS, Conditionals and Methods](section2)
+* [Section 3 - GROWTH MINDSET, Hashes](section3)
+* [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
+* [Final Project - Final Project and Submission](finalProject)
 
 # Environment
 
@@ -228,7 +225,7 @@ From here on out, all the work you do will be in your personal copy of this repo
 
 Here's _another_ video walk-through you may find helpful:
 
-[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
+[![Walkthrough Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Git Stuff")
 
 Each day's `README` will walk you through the necessary steps to save your work.
 
