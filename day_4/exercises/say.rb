@@ -26,10 +26,3 @@ end
 def print_num(num)
   puts num
 end
-
-
-def hello_someone(name)
-puts "#{name} I am"
-end
-
-hello_someone("Thomas")
