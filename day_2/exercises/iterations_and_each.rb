@@ -1,14 +1,11 @@
 # Exercise 1: Doubles
 array_of_numbers = [1, 2, 3, 4, 5]
 array_of_numbers.each do |index|
-  puts index
-  puts index
+  2.times {puts index}
 end
 # Triples
 array_of_numbers.each do |index|
-  puts index
-  puts index
-  puts index
+  3.times {puts index}
 end
 
 # Exercise 2: Even #s only
@@ -23,7 +20,9 @@ end
 
 # Exercise 3:
 array_of_numbers.each do |index|
-  puts index * 2
+  new = Array.new
+  new.push index * 2
+  puts new
 end
 
 # Exercise 4: Full Name
