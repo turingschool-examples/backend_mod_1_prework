@@ -61,10 +61,10 @@
 
 ## Study Drills
 1. There are a lot of operators in Ruby similar to != and ==. Try to find as many "equality operators" as you can. They should be like < or <=. Write out the names of each of these equality operators. For example, I call != "not equal."
-  - == equal
-  - != not equal
-  - > greater than
-  - >= greater than or equal to
-  - < less than
-  - <= less than or equal to
-  - <=> combined comparison operator (if larger value is on left returns 1, on right -1, if equal 0)
+  - `== equal`
+  - `!= not equal`
+  - `> greater than`
+  - `>= greater than or equal to`
+  - `< less than`
+  - `<= less than or equal to`
+  - `<=> combined comparison operator (if larger value is on left returns 1, on right -1, if equal 0)`
