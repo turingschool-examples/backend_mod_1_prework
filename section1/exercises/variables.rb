@@ -1,7 +1,7 @@
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal: 
-# `ruby day_1/exercises/variables.rb`
+# `ruby section1/exercises/variables.rb`
 
 # Example: Write code that saves your name to a variable and
 # prints what that variable holds to the terminal:

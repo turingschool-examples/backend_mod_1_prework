@@ -1,7 +1,7 @@
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
-# `ruby day_1/exercises/loops.rb`
+# `ruby section1/exercises/loops.rb`
 
 # Example: Write code that prints your name five times:
 5.times do

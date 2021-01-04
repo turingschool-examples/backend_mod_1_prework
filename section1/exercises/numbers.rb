@@ -1,7 +1,7 @@
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
-# `ruby day_1/exercises/numbers.rb`
+# `ruby section1/exercises/numbers.rb`
 
 # Example: Write code that prints the result of the sum of 2 and 2:
 p 2 + 2

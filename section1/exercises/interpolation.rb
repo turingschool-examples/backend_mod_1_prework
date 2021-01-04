@@ -1,7 +1,7 @@
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
-# `ruby day_1/exercises/interpolation.rb`
+# `ruby section1/exercises/interpolation.rb`
 
 # Example: Write code that uses the variables below to form a string that reads
 # "The Chudley Cannons are Ron's favorite Quidditch team":
