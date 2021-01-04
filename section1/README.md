@@ -5,7 +5,7 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 - [Vocabulary](#Vocabulary)
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
-- [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
+- [Part C: JavaScript Foundations](#Part-C-Ruby-Foundations)
 - [Deliverables](#Deliverables)
 
 ## Vocabulary
@@ -272,28 +272,12 @@ To github.com:your-username/frontend_mod_1_prework.git
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did in this section!
 
-## Deliverables
-
-In the appropriate thread in your pre-work group channel, share the following:
-
-1. Link to the commit you made with your complete Section 1 pre-work🌟
-2. A screenshot of your complete Turing Terminal challenges
-3. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
-
-<br>
-
-🌟 How to find and link a commit:
-- Go to the GitHub repository on _your_ account that holds your pre=work
-- Click commits (usually in a light blue bar in the middle-ish of the page)
-- You'll see a list of all commits made on this. You have probably only made 1 so far, the rest are from Turing staff members). Click the commit you made (it will match whatever you typed in after `git commit -m "...`)
-- Copy the URL in the URL bar, then paste that URL into Slack
-
 ## Index Links
 
 - [Vocabulary](#Vocabulary)
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
-- [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
+- [Part C: Ruby Foundations](#Part-C-Ruby-Foundations)
 - [Deliverables](#Deliverables)
 
 🚀 [Go to Section 2](../section2)
