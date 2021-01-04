@@ -5,7 +5,6 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 - [Vocabulary](#Vocabulary)
 - [Part A: How You Spend Your Time](#Part-A-How-You-Spend-Your-Time)
 - [Part B: Classes](#Part-B-Classes)
-- [Deliverables](#Deliverables)
 
 ## Vocabulary
 
