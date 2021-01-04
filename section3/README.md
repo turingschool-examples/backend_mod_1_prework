@@ -1,6 +1,6 @@
 # Section 3 - GROWTH MINDSET, Arrays and Loops
 
-Section 3 is estimated to take a total of 6-10 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
+Section 3 is estimated to take a total of 6-10 hours to complete. Similar to the previous sections, this section of pre-work involves 📒reading, 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 Since Arrays are a bigger topic, it is the main focus of this section. Some review work from the first two sections has been woven in so you get opportunities to continue seeing and applying those concepts, as well.
 
