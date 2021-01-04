@@ -30,7 +30,7 @@
 
 1. How do you add multiple conditions to an if statement?
 
-  You add multiple conditions with ir/elsif/else.
+  You add multiple conditions with if/elsif/else.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
