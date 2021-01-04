@@ -1,7 +1,7 @@
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
-# `ruby day_4/exercises/methods.rb`
+# `ruby section2/exercises/methods.rb`
 
 # Example: Write a method that when called will print your name:
 def print_name

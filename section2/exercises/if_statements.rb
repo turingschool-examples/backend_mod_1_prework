@@ -1,7 +1,7 @@
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
-# `ruby day_3/exercises/if_statements.rb`
+# `ruby section2/exercises/if_statements.rb`
 
 # Example: Using the weather variable below, write code that decides 
 # what you should take with you based on the following conditions:

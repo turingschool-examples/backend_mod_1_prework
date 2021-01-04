@@ -13,15 +13,8 @@ This section will introduce a number of new terms, that may feel a bit more comp
 
 ### Vocabulary Terms
 
-- comparison operators
-- logical operators
-- condition
-- conditionals
 - if statements
-- function
-- argument
-- parameter
-
+- method
 
 ## Get Set Up
 
@@ -51,7 +44,7 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 ### Open your local copy of backend_mod_1_prework
 
-Using your terminal, open your local copy of the forked repository you created during setup.  To do this, you will need to use the terminal command `cd` to enter the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. Revisit [day_1](../day_1) for more detail if needed.
+Using your terminal, open your local copy of the forked repository you created during setup.  To do this, you will need to use the terminal command `cd` to enter the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. 
 
 ### If statement and Conditional Lessons
 
