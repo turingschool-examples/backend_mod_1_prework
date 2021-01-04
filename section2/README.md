@@ -102,7 +102,7 @@ When you are finished with all of the `section2` activities, use your terminal t
 You've save your work to git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called **pushing**. Push your code with the following command:
 
 ```
-git push origin master
+git push origin main
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did in this section!

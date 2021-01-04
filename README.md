@@ -233,13 +233,13 @@ Resolving deltas: 100% (332/332), done.
 $ cd backend_mod_1_prework
 $ git status .
 // If everything worked correctly, you should see:
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
 From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
-Here's _another_ video walk-through you may find helpful:
+Here's _another_ video walk-through you may find helpful. **NOTE - The video may reference a "master" branch - we have renamed this branch to "main"** 
 
 [![Walkthrough Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Git Stuff")
 

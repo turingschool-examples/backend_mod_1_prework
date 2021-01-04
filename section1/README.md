@@ -201,7 +201,7 @@ When you are finished with all of the `section1` exercises and reflections, foll
 2. In your terminal, run `git status`. You should see output like this:
 
 ```
-On branch master
+On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -219,7 +219,7 @@ The command `git status` shows us information about files we changed. Don't worr
 3. Run `git add reflection.md`.
 4. Run `git status`. Your status should now look a little different:
 
-```On branch master
+```On branch main
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
@@ -243,7 +243,7 @@ Under "Changes to be committed", It now lists "reflection.md". This means that g
 9. Run `git status`. You should see this output:
 
 ```
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
@@ -254,7 +254,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 
 ```
-git push origin master
+git push origin main
 ```
 
 You should see output _similar_ to this:
@@ -267,7 +267,7 @@ Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To github.com:your-username/frontend_mod_1_prework.git
-   e8ebd7a..32c0ed3  master -> master
+   e8ebd7a..32c0ed3  main -> main
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did in this section!
