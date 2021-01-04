@@ -4,7 +4,7 @@
 
 ["zebra", "giraffe", "elephant"]
 
-1. Save the array you created above to a variable `animals`.
+ 1. Save the array you created above to a variable `animals`.
 
 animals = ["zebra", "giraffe", "elephant"]
 
