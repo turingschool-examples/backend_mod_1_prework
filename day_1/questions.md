@@ -28,8 +28,11 @@ puts animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
+  Interpolation allows you to insert a variable into a string.
+
 ```ruby
 sentence = "I want to see a #{animal}!"
+puts sentence
 ```
 
 1. What method is used to get input from a user?
