@@ -1,6 +1,6 @@
 # *Creating a Student Class*
 class Student # creates new class Student
-  attr_accessor :first_name, :last_name, :primary_phone_number #
+  attr_accessor :first_name, :last_name, :primary_phone_number # getter/setter methods for each attribute
 
   def introduction(person) # def defines a new method with the name introduction, with the parameter (person) to take an argument
     puts "Hey #{person}, I'm #{first_name}!"
@@ -28,5 +28,5 @@ zach.introduction("Sabrina")
 # every time a method is called, a value is returned. By default, a method returns the value of the last expression it evaluated
 # adding favorite_number method (in code above)
 puts "Zach's favorite number is #{zach.favorite_number}." # calling the favorite_number method, the last line of the method is just
-                                                          # the number 7, so that is the return value, which is interpolated into the string. 
+                                                          # the number 7, so that is the return value, which is interpolated into the string.
 # => Zach's favorite number is 7.

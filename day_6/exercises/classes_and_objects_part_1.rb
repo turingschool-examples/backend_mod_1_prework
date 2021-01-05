@@ -137,11 +137,11 @@ class GoodDog
     @name = name
   end
 
-  def name # renamed from "get_name", getter methods should be named the same as the instance variable they are exposing"
+  def name # renamed from "get_name", getter methods should be named the same as the instance variable they are exposing
     @name
   end
 
-  def name=(n) # renamed from "set_name=", setter methods should be named the same as the instance variable they are setting"
+  def name=(n) # renamed from "set_name=", setter methods should be named the same as the instance variable they are setting
     # = makes Ruby recognize the method as a setter method
     @name = n
   end
@@ -187,7 +187,7 @@ puts sparky.name
 # => Spartacus
 
 
-# attr_reader method - getter method ONLY. only allows to retrieve the instance variable
+# attr_reader method - getter method ONLY. only allows to retrieve the value of the instance variable
 # attr_writer method - setter method ONLY. only allows for changing the value of the instance variable
 
 # attr_accessor :name, :height, :weight <-- tracking multiple states(attributes) of an object. :symbols as arguments
@@ -214,7 +214,7 @@ class GoodDog
   end
 
   def speak
-    "#{name} says arf!"
+    "#{name} says arf!" # interpolating the getter method name, created by attr_accessor, instead of instance variable @name
   end
 
   def change_info(n, h, w) # new method to change the value of several instance variables at once
@@ -223,7 +223,7 @@ class GoodDog
     @weight = w
   end
 
-  def info # prints out a string with all of the states of the object - using getter methods not instance variables
+  def info # prints out a string with all of the values of the instance variables interpolated - using getter methods not instance variables
     "#{name} weighs #{weight} and is #{height} tall."
   end
 end

@@ -17,15 +17,15 @@ class Person
     puts "Hi I'm #{name}, and I'm #{age} years old!"
   end
 
-  def do_hobby(miles)
-    @miles_ran += miles
+  def go_running(miles)
+    self.miles_ran += miles # *** need to be self.miles_ran?
     puts "I love to go #{hobby}, today I ran #{miles_ran} miles!"
   end
 
   def add_favorite_food(food)
-    @favorite_foods << food
+    self.favorite_foods << food
     puts "I just tried #{food} and I love it. These are my favorite foods:"
-    p @favorite_foods
+    p self.favorite_foods
   end
 
 end
@@ -33,7 +33,7 @@ end
 zach = Person.new("Zach", 27, "running", ["pizza", "pecan pie", "burgers"])
 zach.introduce
 # => Hi I'm Zach, and I'm 27 years old!
-zach.do_hobby(2)
+zach.go_running(2)
 # => I love to go running, today I ran 2 miles!
 zach.add_favorite_food("sushi")
 # => I just tried sushi and I love it. These are my favorite foods:

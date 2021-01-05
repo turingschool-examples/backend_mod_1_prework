@@ -21,7 +21,7 @@ class MyCar
   end
 
   def shut_off
-    @current_speed = 0
+    @current_speed == 0
     puts "Parked!"
   end
 

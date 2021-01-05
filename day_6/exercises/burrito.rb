@@ -34,5 +34,8 @@ p dinner.base
 p dinner.toppings
 
 dinner.add_topping("hot sauce")
+# => ["cheese", "salsa", "guacamole", "hot sauce"]
 dinner.remove_topping("cheese")
+#  => ["salsa", "guacamole", "hot sauce"]
 dinner.change_protein("Steak")
+#  => "Steak"
