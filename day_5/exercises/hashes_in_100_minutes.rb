@@ -6,8 +6,8 @@ produce = {"apples" => 3, "oranges" => 1, "carrots" => 12}
 # => "rocket"; links the key and value together
 # {key => value}
 
-puts "There are #{produce['oranges']} oranges in the fridge."
-# "There are 1 oranges in the fridge." <-- produce['oranges'] returns the VALUE of the "oranges" KEY
+puts "There are #{produce["oranges"]} oranges in the fridge."
+# "There are 1 oranges in the fridge." <-- produce["oranges"] returns the VALUE of the "oranges" KEY
 
 produce["grapes"] = 221 # Adds the new "grapes" key to the produce hash, with the value of 221
 produce # {"apples"=>3, "oranges"=>1, "carrots"=>12, "grapes"=>221}

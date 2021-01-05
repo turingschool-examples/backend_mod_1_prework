@@ -1,5 +1,32 @@
 require "pry"
 
+stuff = {"name" => 'Zach', "age" => 26, "height" => 6 * 12 + 2} # key=>value pairs
+puts stuff["name"] # searching by key name
+# => Zach - returns the value of the key
+puts stuff["age"]
+# => 26
+puts stuff["height"]
+# => 74
+stuff["city"] = "Denver" # adds new key=>value pair into stuff Hash
+puts stuff["city"]
+# => Denver
+stuff[1] = "Hello!"
+stuff[2] = "Goodbye!"
+puts stuff[1]
+# => Hello!
+puts stuff[2]
+# => Goodbye!
+p stuff
+# => {"name"=>"Zach", "age"=>26, "height"=>74, "city"=>"Denver", 1=>"Hello!", 2=>"Goodbye!"}
+stuff.delete("city")
+p stuff
+# => {"name"=>"Zach", "age"=>26, "height"=>74, 1=>"Hello!", 2=>"Goodbye!"}
+stuff.delete(1)
+stuff.delete(2)
+p stuff
+# => {"name"=>"Zach", "age"=>26, "height"=>74}
+
+
 # create a mapping of state to abbreviation
 states = { # states hash with key-value pairs inside
   'Oregon' => 'OR', # key => value
@@ -22,17 +49,19 @@ cities['OR'] = 'Portland'
 
 # puts out some cities
 puts '-' * 10
-puts "NY State has: #{cities['NY']}"
+puts "NY State has: #{cities['NY']}" # => NY State has: New York
 puts "OR State has: #{cities['OR']}"
 
 # puts some states
 puts '-' * 10
-puts "Michigan's abbreviation is: #{states['Michigan']}"
+puts "Michigan's abbreviation is: #{states['Michigan']}" # => Michigan's abbreviation is: MI
 puts "Florida's abbreviation is: #{states['Florida']}"
 
 # do it by using the state then cities dict
 puts '-' * 10
-puts "Michigan has: #{cities[states['Michigan']]}"
+puts "Michigan has: #{cities[states['Michigan']]}" # => Michigan has: Detroit
+# [states['Michigan']] => 'MI'
+# cities['MI'] => 'Detriot'
 puts "Florida has: #{cities[states['Florida']]}"
 
 # puts every state abbreviation
@@ -50,7 +79,7 @@ end
 # now do both at the same time
 puts '-' * 10
 states.each do |state, abbrev|
-  city = cities[abbrev] # stores the values of each 
+  city = cities[abbrev] # stores the values of each
   puts "#{state} is abbreviated #{abbrev} and has city #{city}"
 end
 
@@ -114,3 +143,9 @@ popular_states = []
 state_population.each do |state, population|
   popular_states << state if population >= 1000
 end
+
+
+p state_population[1]
+# nil - Hashes do not have order like Arrays, can't use index numbers to identify like with Arrays. *Unless key is named 1*
+p state_population["CO"]
+# => 1500 - Must refer to key in order to retrieve the value
