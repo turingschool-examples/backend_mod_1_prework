@@ -13,16 +13,24 @@ end
 
 # Write code that iterates through a list of animals and prints
 # "The <animal> is awesome!" for each animal:
+["Zebra", "Giraffe", "Elephant"].each { |animals| p "The #{animals} is awesome!" }
+OR animals.each { |animals| p "The #{animals} is awesome!" }
 
-animals.each do |animal|
-  # YOUR CODE HERE
-end
-
-# Write code that stores an array of foods in a variable, 
+# Write code that stores an array of foods in a variable,
 # then iterates over that array to print
 # "Add <food> to shopping list" for each food item:
-# YOUR CODE HERE
+foods = ["pizza", "salad", "pasta"]
 
-# Write code that stores an array of numbers in a variable, 
-# then iterates over that array to print doubles of each number: 
-# YOUR CODE HERE
+foods.each do |foods|
+  x = "Add #{foods} to shopping list"
+  p x
+end
+
+# Write code that stores an array of numbers in a variable,
+# then iterates over that array to print doubles of each number:
+numbers = [1, 2, 3, 4]
+
+numbers.each do |number|
+ n = "#{number * 2}"
+ puts n
+end
