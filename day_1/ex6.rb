@@ -1,4 +1,4 @@
-# cound of types of people
+# count of types of people
 types_of_people = 10
 # creates a variable that is a string with a variable inside the string
 x = "There are #{types_of_people} types of people."
@@ -19,9 +19,9 @@ puts "I said: #{x}."
 puts "I also said:  '#{y}'."
 
 # creates a variable that is a boolean
-halarious = false
+hilarious = false
 # creates a variable that is a string contianing a variable
-joke_evaluation = "Isn't that joke so funny?! #{halarious}"
+joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 
 # prints variable joke_evaluation
 puts joke_evaluation
@@ -36,7 +36,7 @@ puts w + e
 
 
 # Study Drills
-# There are five places where a string has been inserted within a string.
+# There are five places (six if you count the two in line 10 as seperate ones) where a string has been inserted within a string.
 # There isn't only four places, because a boolean prints a string.
 # They make a longer string because we are concatenating them with the +  by adding them together.
 # The strings still work with a single quote instead of a double quote because they both work, its just personal preference which one you use.
