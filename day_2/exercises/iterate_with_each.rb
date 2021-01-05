@@ -1,3 +1,23 @@
+# Iteration is doing something to each element within a data collection
+
+# .each method
+names = ["Megan", "Brian", "Sal"] # Array of strings to iterate over
+names.each do |name| # iterate over each |name|(block variable) in Array names
+  puts name # do this code to each element of the Array
+end # code between do - end is the block of code to be ran on each element of Array
+
+# Syntax
+collection.each do |block_variable|
+  # Code here runs for each element
+end
+
+# Single line syntax - replace do end with {} - { = do, } = end
+names = ["Megan", "Brian", "Sal"]
+names.each {|name| puts name }
+# generally avoid single line unless the block of code is very short
+
+
+
 arr = [1,2,3,4]
 arr.each do |n|
   p n * 2

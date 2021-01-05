@@ -20,26 +20,16 @@
 - 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun")) => false
 
 
-
-
-
-
-
-
-
-
-
-
-# Equality Operators:
+## Equality Operators:
   - == - "equals" "considered the same"
   - != - "does not equal"
   - < "less than"
   - <= "less than or equal to"
-  - > "greater than"
-  - >= "greater than or equal to"
+  -  "greater than" >
+  - "greater than or equal to" >=
 
 
-# Logic Expressions:
+## Logic Expressions:
   - && "and"
   - !&& "not and"
   - || "or"
