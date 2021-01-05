@@ -39,11 +39,6 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 def snowfall(mountain = "Winter Park", inches)
   puts "#{mountain} received #{inches} inches of snow!"
-  # puts "What is your home mountain?"
-  # user_mountain = gets.chomp
-  # puts "How many inches of snow fell?"
-  # user_snow = gets.chomp
-  # puts "#{user_mountain} received #{user_snow} inches of snow!"
 end
 snowfall("Vail", 2)
 favorite_mountain = "Winter Park"
@@ -53,6 +48,11 @@ snowfall(7)
 snowfall("Breck" + " and #{favorite_mountain}", 5)
 snowfall("Park City", 5 + 4)
 snowfall("Jackson Hole", average_snowfall - 1)
+puts "What is your home mountain?"
+user_mountain = gets.chomp
+puts "How many inches of snow fell?"
+user_snow = gets.chomp.to_i
+puts "#{user_mountain} received #{user_snow} inches of snow!"
 
 
 def schedule_activity(activity = "Studying", hours = 2)

@@ -1,7 +1,7 @@
 
-def add(a, b)
+def add(a, b) # define add method, (a, b) as arguments
   puts "ADDING #{a} + #{b}"
-  return a + b
+  return a + b # a + b, then return
 end
 
 def subtract(a, b)
@@ -43,7 +43,7 @@ def subtract_three_num(a, b, c)
   return a - b - c
 end
 
-difference = subtract_three_num(12, 6, 2)
+difference = 100 - (subtract_three_num(12, 6, 2))
 puts "The difference is #{difference}."
 
 

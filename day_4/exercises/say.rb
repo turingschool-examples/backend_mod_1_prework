@@ -31,7 +31,7 @@ def say(words='hello') # sets "hello" as default parameter, in case no argument 
 end
 
 say() # prints "hello" because that is set to default
-say("hi") # prints "hi."" because an argument was passed into the method
+say("hi") # prints "hi." because an argument was passed into the method
 say("how are you")
 say("I'm fine")
 
