@@ -7,3 +7,7 @@ puts "I could have code like this." # and the comment after is ignored
 # puts "This won't run."
 
 puts "This will run."
+
+# This is a comment I made using the keys cmd + ?
+
+puts "Prints stuff out!"

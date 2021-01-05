@@ -26,7 +26,7 @@ average_passengers_per_car = passengers / cars_driven
 # the value of the cars variable is interpolated within the string
 puts "There are #{cars} cars available."
 
-# the value of the driveres variable is interpolated within the string
+# the value of the drivers variable is interpolated within the string
 puts "There are only #{drivers} drivers available."
 
 # the value of the cars_not_driven variable is interpolated within the string

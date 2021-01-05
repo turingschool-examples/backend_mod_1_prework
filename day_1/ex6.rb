@@ -30,13 +30,13 @@ e = "a string with a right side."
 puts w + e
 
 # Are you sure there are only four places? How do you know? Maybe I like lying.
-# There are five places because when joining variable e to w, that is putting e inside of w
+  # There are five places because when joining variable e to w, that is putting e(String) inside of w(String)
 
 # Explain why adding the two strings w and e with + makes a longer string.
-# It makes a longer string because using + will combine both of those smaller strings
+  # It makes a longer string because using + will combine both of those smaller strings
   # togeher
 
 # What happens when you change the strings to use ' (single-quote) instead of
- # " (double-quote)? Do they still work? Try to guess why.
-# Yes they will still work, as long as the values are wrapped in '' or "", they are
-  # considered strings
+# " (double-quote)? Do they still work? Try to guess why.
+  # Yes they will still work, as long as the values are wrapped in '' or "", they are
+  # considered strings. Its best to be consistent though, commit to either '' or "".
