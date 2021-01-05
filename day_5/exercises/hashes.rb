@@ -26,5 +26,5 @@ p zoo[:cheetahs]
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 zoo[:hippos] = 3
-p "Are the hippos at the zoo?"
+p "Are there hippos at the zoo?"
 p "Yes, we now have #{zoo[:hippos]}!"
