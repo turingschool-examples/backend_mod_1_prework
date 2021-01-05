@@ -75,8 +75,3 @@ elsif cups_of_flour == 2 && has_sauce == true
 elsif  cups_of_flour == 3 && has_sauce == true
   p "I can make pizza"
 end
-
-is_raining = false
-unless is_raining == true
-  p "We can go to the park"
-end
