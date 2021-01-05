@@ -34,7 +34,7 @@ You can create an array by putting data between square brackets `[]`.
 6. **Collect**
    - Applies block of code on all elements in array and returns new array.
 
-   Syntax = `array/var.each {|obj| block }`
+   Syntax = `array/var.collect {|obj| block }`
    Return = New array
 
 7. **First**
