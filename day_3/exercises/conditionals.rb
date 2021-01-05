@@ -1,5 +1,6 @@
 require "pry"
 
+
 # passes the integer 5 as the minutes arguement
 def water_status(5)
 # checks if 5 is less than 7
@@ -75,3 +76,7 @@ def water_status(9)
     puts "Hot! Hot! Hot!"
   end
 end
+
+# Equality vs. Assignment
+# = is an assignment! Telling, not asking. Assigning a variable.
+# == is a question. Asking, not telling. 

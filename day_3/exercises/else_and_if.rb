@@ -49,7 +49,7 @@ end
 # Study Drills
 
 # Try to guess what elsif and else are doing.
-  # If the condition above the elsif is false, then the following conditional
+  # If the condition before the elsif is false, then the following conditional
   # statement will be checked. Any number of elsif can be put into the if-statement.
   # else statement is at the end, and will run if the if and all of the elsif before it
   # returned false.

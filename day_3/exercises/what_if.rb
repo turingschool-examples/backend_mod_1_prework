@@ -1,6 +1,6 @@
-people = 20
-cats = 30
-dogs = 15
+people = 10
+cats = 60
+dogs = 60
 
 
 if people < cats
@@ -20,9 +20,9 @@ if people > dogs
 end
 
 
-dogs += 5
+# dogs += 5
 
-if people >= dogs && (people <= dogs !&& people == dogs)
+if people >= dogs
   puts "People are greater than or equal to dogs."
 end
 
@@ -30,10 +30,21 @@ if people <= dogs
   puts "People are less than or equal to dogs."
 end
 
-
 if people == dogs
   puts "People are dogs."
 end
+
+if dogs > people && dogs > cats
+  puts "Dogs are the best!"
+elsif cats > people && cats > dogs
+  puts "Cats are the best!"
+elsif people > dogs && people > cats
+  puts "Go people!"
+else cats == dogs || dogs == cats
+  puts "Can't we all get along!"
+end
+
+
 
 # Study Drills
 # 1. What do you think the if does to the code under it?

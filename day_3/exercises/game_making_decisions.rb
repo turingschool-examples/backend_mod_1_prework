@@ -110,6 +110,7 @@ elsif game == "3"
     else campaign_choice == "3"
       puts "Loading main menu..."
     end
+
   elsif menu_choice == "4"
     puts "Would you like to quit to Desktop?"
     puts "1. Yes"
@@ -123,42 +124,5 @@ elsif game == "3"
     else
       puts "Main menu..."
     end
-
   end
-
 end
-
-
-# elsif game == "2"
-#   puts "You stare into the endless abyss at Cthulhu's retina."
-#   puts "1. Blueberries."
-#   puts "2. Yellow jacket clothespins."
-#   puts "3. Understanding revolvers yelling melodies."
-#   puts "7. Jump and click heels three times."
-#
-#   print "> "
-#   insanity = $stdin.gets.chomp
-#
-#   if insanity == "1" || insanity == "2"
-#     puts "Your body survives powered by a mind of jello.  Good job!"
-#   elsif insanity == "7"
-#     puts "Where would you like to teleport?"
-#     puts "1. Kansas."
-#     puts "2. The Bahamas."
-#     puts "3. The moon."
-#
-#     print "> "
-#     location = $stdin.gets.chomp
-#     if location == "1"
-#       puts "Welcome to Kansas!"
-#     elsif location == "2"
-#       puts "Welcome to The Bahamas!"
-#     else
-#       puts "Good luck out there!"
-#     end
-#   else
-#     puts "Burritos de carne asada!"
-#   end
-#
-# else
-#   puts "You stumble around and fall on a knife and die.  Good job!"
