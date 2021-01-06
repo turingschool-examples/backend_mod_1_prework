@@ -1,5 +1,5 @@
 
-##Ceasar Cipher
+## Ceasar Cipher
 
 * Make a hash (call it alphabet) with each letter associated with a number {1:a, 2:b, 3:c etc}
 * Make a method, shift_character, that takes one character as an argument and one number as the argument and returns a character shifted by the number.
@@ -22,7 +22,7 @@
 * run encode, using peramiters that were just given by user
 * print result
 
-##Checker Board 
+## Checker Board 
 
 - Make function print_line that takes one number (N) and two characters (X and Y)  as inputs, and then prints those characters (X and Y) on a single line, alternating between them N number of times.
   - Make loop that cycles through all numbers from 1 to N. for each number…
