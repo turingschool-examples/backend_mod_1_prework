@@ -12,16 +12,26 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name # YOUR CODE HERE
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
+def sum_fun(x,y) # YOUR CODE HERE
+  puts x + y
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+sum_fun(12,34)
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+def concatenate(first_string, second_string)
+  puts "Greetings #{first_string}, shall we play #{second_string}?"
+#OR puts "Greetings " + first_string + ", shall we play " + second_string + "?"
+end
+
+concatenate("human", "a game")
