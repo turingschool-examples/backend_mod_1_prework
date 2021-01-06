@@ -15,16 +15,34 @@ class Person
     puts "I have #{hair} hair."
   end
 
+  def dye_hair(hair)
+    @hair = "#{hair}"
+    puts "I actually love my #{hair} hair now!"
+  end
+
   def socket
     puts "My eyes are #{eye}."
+  end
+
+  def put_in_contacts(eye)
+    @eye = "#{eye}"
+    puts "After putting in my contacts my eyes are now #{eye}. Love that!"
   end
 end
 
 sally = Person.new("blue", "hazel")
-print sally.color
-print sally.socket
+sally.color
+sally.dye_hair("green")
+sally.color
+sally.socket
+sally.put_in_contacts("brown")
+sally.socket
 
 puts '-' * 10
 fred = Person.new("black", "green")
-print fred.color
-print fred.socket
+fred.color
+fred.dye_hair("peachy blonde")
+fred.color
+fred.socket
+fred.put_in_contacts("blue")
+fred.socket
