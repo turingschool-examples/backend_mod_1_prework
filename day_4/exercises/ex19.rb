@@ -91,17 +91,13 @@ snacks_and_drinks(drink_count_over_time[0], snack_count_over_time[2])
 snacks_and_drinks(drink_count_over_time[2] - 1, snack_count_over_time[2] - 2)
 
 #9
-def remove_from_drink_or_snack_count_over_time(array)
-  array.pop
-end
-remove_from_drink_or_snack_count_over_time(drink_count_over_time)
-puts drink_count_over_time
-remove_from_drink_or_snack_count_over_time(snack_count_over_time)
-puts snack_count_over_time
+snacks_and_drinks(drink_count_over_time.pop, drink_count_over_time.pop)
+
 
 
 #10
-if amount_of_drinks > amount_of_snacks
+snacks_and_drinks(amount_of_drinks, amount_of_snacks)
+  if amount_of_drinks > amount_of_snacks
   puts "We have more drinks than snacks!"
 elsif amount_of_drinks < amount_of_snacks
   puts "We have less drinks than snacks!"
