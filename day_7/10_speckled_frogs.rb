@@ -1,6 +1,3 @@
-#my notes
-#`self` - gives access to the current object (what I'm `def`)
-
 class FroggyRhyme
   attr_accessor :frogs_on_log, :frog_s, :punctuation, :presence_state, :numbers_to_name
 
@@ -49,6 +46,7 @@ class FroggyRhyme
   end
 
 #found an example on stack overflow
+#note to self - `in_words` method doesn’t take an argument or define a variable, it just returns that hash.
   def in_words
     {
       10 => "ten",
@@ -96,7 +94,7 @@ class FroggyRhyme
       change_in_number
 
       print_s1L3
-      print_s1L4 #I think there's another way to do this - `recursion` 
+      print_s1L4 #I think there's another way to do this - `recursion`
                  #I didn't give myself time to investigate this
     end
   end
