@@ -24,12 +24,12 @@
 
 ##Checker Board 
 
-1. Make function print_line that takes one number (N) and two characters (X and Y)  as inputs, and then prints those characters (X and Y) on a single line, alternating between them N number of times.
+- Make function print_line that takes one number (N) and two characters (X and Y)  as inputs, and then prints those characters (X and Y) on a single line, alternating between them N number of times.
   - Make loop that cycles through all numbers from 1 to N. for each number…
     - If current number %2 == 0, then print X, otherwise print Y
-2. Make function called print_board that takes two numbers L and  W
+- Make function called print_board that takes two numbers L and  W
   - Make a loop that cycles through all numbers from 1 to L. for each number…
     - If current number %2 = 0, you  call function print_line. And pass it the parameters "X" and “ “ for X and Y. use W as N.
     - Else (current number %2 !=  0), you call function print_line and pass it the parameters “ “ and X for X and Y(the reverse order of how you did previously) use W as N.
-4. Get a number from the user
-5. Finally, call the function print_board, and use number recived as the parameter for both  L and W.
+- Get a number from the user
+- Finally, call the function print_board, and use number recived as the parameter for both  L and W.
