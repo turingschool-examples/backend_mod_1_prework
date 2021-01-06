@@ -22,7 +22,7 @@ fizz_buzz.each do |i|
 
 p fizz_buzz
 
-#DISCLAIMER: I suspect there's a better way than using what I put on rb:15.
+#DISCLAIMER: I suspect there's a better way than using what I put on rb:13.
 #Without that my outcome was '12Fizz4BuzzFizz78FizzBuzz11Fizz1314...100'
-#My approach feels more "surface level"  - it provides with visual output to match but probably
+#My approach feels more "surface level  "  - it provides with visual output to match but probably
 #not what we're looking for
