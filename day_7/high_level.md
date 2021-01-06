@@ -1,5 +1,5 @@
 I have chosen to solve: [Checker Board](./checker_board.md)    
-- I came up with this via much googling (stack overlow, a few very helpful Medium article, and some of the other commonly used resources).
+- I came up with this via much googling (stack overlow, a few very helpful Medium articles, and some of the other commonly used resources).
 
 1. First, I created a class that will know what I want to `cipher` and how many "rotations" to do.
 ```ruby
@@ -11,7 +11,7 @@ class Caeser
     @key = key
   end
 ```
-2. Then I built a method called `encode`, which should accept an argument of the string I'm are encrypting.
+2. Then I built a method called `encode`, which should accept an argument of the string to encrypt.
 ```ruby
 def encode(string, key)
 ```
@@ -22,24 +22,24 @@ def encode(string, key)
 def encrypt(string)
 string_to_ascii_array = string.chars
 ```
-4. Now that character in array are separated, I want to iterate through the array and find the ASCII character code for each character using `.ord.`
+4. Now that the characters in the array are separated, I want to iterate through the array and find the ASCII character code for each character using `.ord.`
    - I discovered that you can find an ASCII table, or you can ask Ruby to convert characters to their ASCII value via `.ord` or for multiple charachers - `.bytes`.
 ```ruby
 def encode(string, key)
 string_to_ascii_array = string.chars.map {|char| char.ord}
 ```
-4. Here `shifted` by iterating through the array of ASCII codes and adding adding the shifting value (“key”).
+4. Here, I "shifted" by iterating through the array of ASCII codes and added the shifting value (“key”).
 ```ruby
 def encode(string, key)
 string_to_ascii_array = string.chars.map {|char| char.ord}
-shifted = string_to_ascii_array.map {|char| char+key}
+shift = string_to_ascii_array.map {|char| char+key}
 ```
 6. Here it converts and joins (using `.join`) the new values in the shifted array into a string of new characters associated with the ASCII codes.
 ```ruby
 def encode(string, key)
 string_to_ascii_array = string.chars.map {|char| char.ord}
-shifted = string_to_ascii_array.map {|char| char+key}
-shifted.map { |char| char.chr }.join
+shift = string_to_ascii_array.map {|char| char+key}
+shift.map { |char| char.chr }.join
 end
 ```  
 Output => `"Mjqqt%\\twqi"`
