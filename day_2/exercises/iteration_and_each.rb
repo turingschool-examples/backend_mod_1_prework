@@ -52,15 +52,17 @@ names.each do |name|
   puts name.split.first[0]
   puts name.split.last[0]
 end
-# Try as I might with this I was only able to get the first initial to print.
-# I tried adding '.last[0]' after '.first[0]' but to no avail.
+
+#Woohoo!  Able to finally get the initials!!
 
 names.each do |name|
-  puts name.split.last
+  puts name.split.first[0] + "." + name.split.last[0] + "."
 end
-# Here I was unable to find a way to get it to print both the last name and
-# the amount of characters in the name. Perhaps this needed to be done in two
-# lines? I was not able to isolate the character length for just the last name.
+
+names.each do |name|
+  puts name.split.first[0] + ". " + name.split.last
+end
+# I was finally able to get this to work after asking a peer for help!
 
 names.each do |name|
   puts name.length
@@ -73,7 +75,7 @@ end
 # I moved onto the rest of the day_2 exercises; that helped a little
 # bit as I brought some of what I learned back to this lesson.
 # I have decided to move onto day_3 at this point because I have spent two days
-# working on this day now.  
+# working on this day now.
 # My plan is to push this to GitHub and revisit this at a later time.
 # I have put these notes in here in case I'm not able to get back to it.
 # I wanted to ensure that the reviewer of this knew that I put a
