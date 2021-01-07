@@ -37,5 +37,4 @@ p fido.hungry
 fido.eat
 p fido.hungry
 
-# I printed this a few times to ensure that I was able to get the correct
-# ensure that I was able to get it to print out corretly.
+# I printed this a few times to ensure that I was able to get it to print out corretly.
