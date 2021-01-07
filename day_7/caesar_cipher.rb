@@ -1,9 +1,9 @@
 # https://medium.com/@alexander.virga/ruby-simple-string-encryption-shift-caesar-cipher-encoder-rot-9dedf06374d1
 # I did not create this, I copied it from the website listed above so that I could understand what each line does.
 def encrypt(string, key)
-  string_to_ascii_array = string.chars.map {|char| char.ord}
-  shifted = string_to_ascii_array.map {|char| char+key}
-  shifted.map { |char| char.chr }.join
+  string_to_ascii_array = string.chars#.map {|char| char.ord}
+  # shifted = string_to_ascii_array.map {|char| char+key}
+  # shifted.map { |char| char.chr }.join
 end
 
   puts encrypt("Hello World", 5)
