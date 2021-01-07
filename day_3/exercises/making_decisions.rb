@@ -72,3 +72,5 @@ elsif staircase == "13"
     puts "You are stuck in M.C. Escher's infinite staircase. Bummer buddy."
   end
 end
+
+# Oh my goodness. I had a blast with this! I would have to reference this again to be able to recreate it. But I thoroughly enjoyed the process!
