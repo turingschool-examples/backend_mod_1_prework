@@ -40,7 +40,7 @@ end
 # want to say it's using boolean logic because it's seeking a true or false
 # answer in order to answer the question being asked.
 
-# 1. I think the 'if' acts as 'do' or 'def' would for the code beneath it as in
+# 1. I think the 'if' acts as 'do' or 'def' for the code beneath it as in
 # it starts a block.
 
 # 2. I'm not sure why the code beneath the 'if' needs to be indented by two
