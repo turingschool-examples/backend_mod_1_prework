@@ -4,6 +4,7 @@ puts "I will now count my chickens:"
 # This is a math equation, first dividing 30 & 6 then adding 25.
 puts "Hens #{25.0 + 30.0 / 6.0}"
 # This is a math equation, I'm not quite sure what the whole equation is doing. I'm a little confused about what to do with the remaing 4.
+# Added in later: I was able to dive into the % and feel more confident with it. 
 puts "Roosters #{100.0 - 25.0 * 3.0 % 4.0}"
 # This prints out the line below.
 puts "Now I will count the eggs:"
