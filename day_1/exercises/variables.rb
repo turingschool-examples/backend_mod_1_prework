@@ -34,5 +34,5 @@ p students
 # students = 22 + 2 or if I was supposed to create a new variable with the
 # variable 'students' in it.
 # Also, it was not until I got to the interpolation exercise that I realized the
-# first line was an example which is why you will see all the examples changed.
+# first line was just an example which is why you will see all the examples changed.
 # What another great lesson learned, read the fine print (maybe a few times...)!
