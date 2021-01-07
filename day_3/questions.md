@@ -7,7 +7,7 @@ elsif
 else
 ```
 1. Why might you want to use an if-statement?
- * You might want to use an if-statement to create choice for the user.  This would allow for different options to be in place and would give provide different outcomes depending on the circumstances.
+ * You might want to use an `if` statement to create choice for the user.  This would allow for different options to be in place and would give provide different outcomes depending on the circumstances.
 
 1. What is the Ruby syntax for an if statement?
  * This seems like a simple answer which makes me wary...but I would put `if` followed by the conditions.
