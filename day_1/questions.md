@@ -1,7 +1,7 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
- * I would print the string "Hello World" in the terminal by typing in
+ * I would print the string `"Hello World"` in the terminal by typing in
 ```
  p "Hello World"
 ```
@@ -31,8 +31,9 @@ animal = "zebra"
  * Interpolation is putting strings together, I think about it like a collage of strings.
 ```
 example:
+animal = "zebra"
 p "I want to ride a #{animal} someday."
-" I want to ride a zebra someday."
+"I want to ride a zebra someday."
 ```
 
 
@@ -51,7 +52,7 @@ p "I want to ride a #{animal} someday."
 
  * `times` is a method that is used to repeat the times a string is printed by the amount put in before.
 
- ```
+```
  Example:
  3.times do
     p "Hello"
@@ -59,4 +60,4 @@ p "I want to ride a #{animal} someday."
     "Hello"
     "Hello"
     "Hello"
-  ```
+```
