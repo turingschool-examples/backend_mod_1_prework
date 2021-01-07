@@ -45,7 +45,7 @@ else
 end
 
 # 1. The 'elsif' statement seems to be saying something to the affect of 'or'
-# as in this or that. The 'else' statement is there incase neither 'if' or
+# as in this or that. The 'else' statement is there in case neither 'if' or
 # 'elsif' is true. When I changed the value of 'cars' to 30 then the 'else'
 # statement of "We can't decide." printed out.
 
@@ -76,7 +76,7 @@ if trucks <= cars && people != trucks
 # print the line below
 elsif trucks == people || people >= cars
   puts "We're going to be late!"
-# if neither are true print the line below 
+# if neither are true print the line below
 else
   puts "Why the rush?"
 end
