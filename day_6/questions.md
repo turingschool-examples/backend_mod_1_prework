@@ -19,47 +19,54 @@
   ```
 
 1. What is behavior of a Class?
-  * a `behavior` of a class is a method or an action; what the class can do. The user can call upon those methods for the objects of their class. For the play example a method could be `recite_line`,  `enter_stage`, or `take_a_bow`. These are actions that can be called upon for the objects in the class.
+  * A `behavior` of a class is a method that changes an attribute. To use our play example we can have behaviors such as `audience_interruption`, `actor_breaks_leg`, `improv_dance_moves` that would change the `length_of_time`, `amount_of_actors`, and `choreography` attributes.  These are actions that change an attribute of an object in the class.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 ```
 Example:
-class = Dog
+class Dog
+     attr_accessor :name, :age
 
      def initialize(name, age)
        @name = name
        @age = age
      end
 
-     def sit
-       puts "#{name}, sit!"
+     def nick_name(name)
+       @name = name
+       puts "Here, #{name}!"
      end
 
-     def birthday(age)
+     def birthday
        @age += 1
+       puts "Happy Birthday #{name}! How does #{age} years old feel?!"
      end
-  end   
+end
   ```
 
 1. How do you create an instance of a class?
 ```
-class = Dog
+Example:
+class Dog
+     attr_accessor :name, :age
+
      def initialize(name, age)
        @name = name
        @age = age
      end
 
-     def sit
-       puts "#{name}, sit!"
+     def nick_name(name)
+       @name = name
+       puts "Here, #{name}!"
      end
 
-     def birthday(age)
-       @age += 1
-     end
-  end  
-
-  aussie = Dog.new("Hawk", 5)
-  retriever = Dog.new("Ted", 1)
+    def birthday
+      @age += 1
+      puts "Happy Birthday #{name}! How does #{age} years old feel?!"
+    end
+end
+aussie = Dog.new("Hawk", 5)
+retriever = Dog.new("Ted", 1)
 ```
 
 1. What questions do you still have about classes in Ruby?
