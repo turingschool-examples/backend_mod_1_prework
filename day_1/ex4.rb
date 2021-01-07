@@ -27,4 +27,4 @@ puts "We need to put about #{average_passengers_per_car} in each car."
 
 # Study drills
 
-# The mistake that was given I was able to recreate by not putting double quotations around line 14. There was so specification for what line 14 was being asked to do.
+# The mistake that was given I was able to recreate by not putting double quotations around line 14. There was a specification for what line 14 was being asked to do.
