@@ -22,8 +22,8 @@ end
 1. How would you call or execute the method that you created above?  
 
   - You would type `hello_someone(name)` on the command line  
-  - I believe you could call it with `.hello_someone(name)`.
+  - I believe you could call it with `.hello_someone`.
 
 1. What questions do you have about methods in Ruby?  
 
-  - Some methods are universal to ruby. Why do we need to think of methods as a way to changes an attribute to class? Could't we just think of a method as a way to accomplish a task in our code?
+  - Some methods are universal to ruby. Why do we need to think of methods as a way to change an attribute? Couldn't we just think of a method as a way to accomplish a task with our code?
