@@ -73,23 +73,17 @@
 
           The #gets method is used to get input from a user. When the user
 
-          presses the return key though Ruby will read this as newline. It's
+          presses the return key though Ruby will read this as newline. And so it keeps asking the user for input and never takes it. It's
 
           easiest to understand how this works by practicing this in the
 
           interactive ruby environment. When the variable is called again, for
 
-          instance in a interpolation string the code will print in a really
-
-          unattractive way with a newline (\n) being started after each
-
-          variable_input. Thank goodness Ruby allows you to combine methods.
+          Thank goodness Ruby allows you to combine methods.
 
           Adding the #chomp method to the #gets method (gets.chomp), gets rid
 
-          of the newline so your whole string with all its user input value will
-
-          print on the same line.
+          of the newline so the user input is accepted.
 
 
 * ### Name and describe two common string methods:
@@ -105,7 +99,7 @@
 
           * The #split method separates words where there is a space and puts
 
-            them into an array.
+            them into an array excluding the argument.
 
 
           * The #split with an argument ie split(",") or split("!"), any
@@ -113,19 +107,3 @@
             character will do split the string at these characters and turns
 
             them into an array rather than splitting at a space.
-
-
-          * The #sub method will substitute a single occurrence of a variable.
-
-            Like the find & replace in word. To use this method you have to
-
-            specify two arguments:  1st the substring you want to replace & 2nd
-
-            the string you would like to replace it with.
-
-
-          * The #gsub method which stands for global substitute is lie the
-
-            replace all in word. Using this method will replace ALL occurrences.
-
-            As with the #sub method, you have to specify the two arguments.
