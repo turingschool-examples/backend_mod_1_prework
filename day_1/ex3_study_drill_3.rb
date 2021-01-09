@@ -1,3 +1,5 @@
+puts "KIDS CHRISTMAS PRESENT SHOPPING"
+puts '-'*15
 puts "I have $235.76 cents to buy xmas presents for kids."
 
 puts "There are 6 kids."
