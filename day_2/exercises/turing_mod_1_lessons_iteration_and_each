@@ -1,0 +1,99 @@
+# Iteration and Each
+
+### 1. If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number? Triples?
+
+
+  ```* Ex:
+numbers = [1, 2, 3, 4]
+numbers.each do |ages|
+  2.times {print ages }
+end
+
+
+numbers = [1, 2, 3, 4]
+numbers.each do |ages|
+  3.times {print ages }
+end```
+
+
+### 2. If you had the same array, how would you only print out the even numbers? What about the odd numbers?
+
+
+  ```*numbers = [1,2,3,4]
+numbers.each do |ages|
+  puts ages if ages.odd?
+end
+
+
+numbers = [1,2,3,4]
+numbers.each do |ages|
+  puts ages if ages.even?
+end```
+
+
+### How could you create a new array which contains each number multipled by 2?
+
+
+  ```frogs = [5,6,7,8]
+  frogs.each do |ribbit|
+    toad = Array.new
+    toad.push ribbit*2
+    puts toad
+  end```
+
+
+### Given an array of first and last names, e.g. [“Alice Smith”, “Bob Evans”, “Roy Rogers”], how would you print out the full names line by line?
+
+
+  ```friends.each do |family|
+  puts family
+end```
+
+
+### 4a. How would you print out only the first name?
+
+
+  ```full_names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
+full_names.each do |name|
+  puts name.split.first
+end```
+
+### 4b. How would you print out only the last name?
+
+
+  ```full_names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
+  full_names.each do |name|
+    puts name.split.last
+  end```
+
+
+### 4c. How could you print out only the initials?
+
+
+  ```full_names.each do |name|
+  first = name.split.first[0]
+  last =  name.split.last[0]
+  puts "#{first}.#{last}."
+end```
+
+
+### 4d. How can you print out the last name and how many characters are in it?
+
+
+  ```full_names.each do |name|
+  last_names = name.split.last
+  puts "#{last_names}, #{last_names.length}"
+end```
+
+### 4e. How can you create an integer which represents the total number of characters in all the names?
+
+
+  ```# sum_of_names = 0
+
+# full_names.each do |integers|
+#   names_split = integers.split
+#   names_joined = names_split.join
+#   sum_of_names += names_joined.length
+# end
+
+# puts sum_of_names```

@@ -8,7 +8,7 @@ After completing the days work, you will use several git commands to save your w
 
 ### This lesson will have you using Git, Github, etc. Here's a video walkthrough
 
-[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
+- [X][![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
 
 ## Open your local copy of backend_mod_1_prework in Atom
 
@@ -48,39 +48,37 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+    - [X] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
-    - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+    - [X] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
+    - [X] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+    - [X] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
-    - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
+    - [X] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [X] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
+    - [X] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
-    - [ ] Have you created 7 `ex.rb` files with your code in them?
+    - [X] Have you created 7 `ex.rb` files with your code in them?
 
-1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
+1. Work through the [X][Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [X][Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
 ## Exercises
 - Each day contains an exercises directory containing files where you will practice writing code.
 
 Work through the files in the day_1/exercises directory.  Complete them in this order:
 
-1. strings   
-1. numbers   
-1. variables   
-1. interpolation
-1. loops
+1. [X]strings   
+1. [X]numbers   
+1. [X}variables   
+1. [Xinterpolation
+1. [X]loops
 
 ## Questions
-- Each day contains a questions.md file where you will answer questions about what you have learned.
-
-Answer the day 1 questions within the questions.md file. The `.md` file extension refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
+Answer the day 1 questions within the [X]questions.md file. The `.md` file extension refers to markdown formatting. Markdown is a simple markup language to help format your text. [X][This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
 
 ## Save your work in Git
 
