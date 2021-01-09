@@ -92,17 +92,17 @@
         Two common string methods are:
 
 
-          * The #length method which prints out the total length of the string
+          1. The #length method which prints out the total length of the string
 
             including spaces.
 
 
-          * The #split method separates words where there is a space and puts
+          2. The #split method separates words where there is a space and puts
 
             them into an array excluding the argument.
 
 
-          * The #split with an argument ie split(",") or split("!"), any
+          3. The #split with an argument ie split(",") or split("!"), any
 
             character will do split the string at these characters and turns
 
