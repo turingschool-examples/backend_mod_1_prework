@@ -1,3 +1,5 @@
+puts "Concatenation? Is that the word used instead of calculate??? I need to do more research on concatenation"
+puts '-'*15
 #assigning variable to value
 types_of_people = 10
 #assigning a variable to value with an already assigned variable
@@ -59,20 +61,18 @@ puts w + e
         #It's proper syntax though to be consistent in your code.
         #so choose one or the other and stick with it.
         #See:
-puts
-puts
-puts
+puts '-'*15
 K = 'Hello'
 A = ' Katherine'
 
 puts K + A
+puts '-'*15
 
 T = "Hello"
 H = " Lenora"
 
 puts T + H
-puts
-puts
+
 #Student_Questions
 #   [X] 1. Yes, boolean values can be manipulated. That's the whole point of
           #input and code.

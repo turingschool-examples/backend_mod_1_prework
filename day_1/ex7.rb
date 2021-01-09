@@ -6,6 +6,7 @@ print "How much do you weigh? "
 my_weight = gets.chomp
 print "So, you're #{my_age} old, #{my_height} tall and #{my_weight} heavy."
 
+
 #Study_Drills
 # [X] 1. gets.chomp in ruby. entering the irb environement really
         #helped me understand that when you set a variable name equal
@@ -14,28 +15,24 @@ print "So, you're #{my_age} old, #{my_height} tall and #{my_weight} heavy."
         #(newline).
         #The problem with newline is that after every call on that variable the
         #user input will start on a newline. So if you are using interpolation
-        #the string will print out horribly unattractive.
-        #Ruby lets you combine methods. Adding the #chomp methd to the #gets method
+        #the string will print out horribly unattractive in a wierd list.
+        #Ruby lets you combine methods. Adding the #chomp method to the #gets method
         #ie 'gets.chomp' pulls out the newline. So your string will print on the
-        #same line.
+        #same line attractively.
 
-# [X] 2.)ther way to use gets.chomp: You can change a string 'input value'
-        #and change it into an integer.ie:
+# [X] 2.)there are other ways to use gets.chomp: You can change a string
+#       'input value' and change it into an integer.ie:
 puts
-puts
-puts
-puts "How much was your plane ticket in dollars & cents?"
+puts'-'*15
+print"How much was your plane ticket in dollars & cents without the $ sign?"
 plane_ticket = gets.chomp.to_i
 puts "#{plane_ticket}"
 
 # [X] 3.Write another "form" like this to ask some other questions.
         #NOTE: I am using puts as I personally find it more attractive
               #for what I am doing here.
-
-puts
-puts
-puts
-puts
+puts'-'*15
+puts'-'*15
 print "Baby Announcement"
 puts
 puts
@@ -76,13 +73,11 @@ puts
         #data type 'input value'. I tried to use get.chomp.to_i on
         #a string however I could not get it to print out properly.
         #When used on a float it did convert it to a integer.
-puts
-puts
-puts
-puts "How much does this fridge cost. Please put this in quotations for me."
+puts'-'*15
+puts "How much does this fridge cost in dollars & cents without the $ sign?"
 fridge_cost = gets.chomp.to_i
 puts "#{fridge_cost}"
-
-puts "How much was your plane ticket in dollars & cents?"
+puts '-'*15
+puts "How much was your plane ticket in dollars & cents without the $ sign?"
 plane_ticket = gets.chomp.to_i
 puts "#{plane_ticket}"
