@@ -2,7 +2,7 @@
 
 This repository will walk you through the Mod 1 Pre-work for the Backend program at Turing.
 
-Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. Please complete all the exercises and questions, as well as lessons listed in the day's readme.
+Each day has a folder containing a `README.md` file with instructions for the section, exercises, and questions. Please complete all the exercises and questions, as well as lessons listed in the section's README.
 
 ### Pre-work Index
 
@@ -47,7 +47,7 @@ First, let's get a Ruby version management tool on our machines.
 
 ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
-Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2020, we're at version 2.7.
+Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
 
 Generally, programs written in one version of Ruby will run just fine on another version, but sometimes incompatibilities can be encountered, meaning that particular program needs to be run with a specific version of Ruby.
 
@@ -176,7 +176,7 @@ $ rbenv rehash
 
 ## Terminal
 
-We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with day_1.
+We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1.
 
 [Check out day_0 to practice!](day_0)
 
@@ -245,7 +245,7 @@ Here's _another_ video walk-through you may find helpful. **NOTE - The video may
 
 Each day's `README` will walk you through the necessary steps to save your work.
 
-To begin, open your terminal and `cd` into the `day_0` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
+To begin, open your terminal and `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
 
 ----------------------------------
 
