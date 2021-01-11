@@ -32,12 +32,6 @@ Here's what we ask you do:
 - re-assignment (of a variable)
 - concatenation
 
-### JavaScript Reserved Keywords
-
-- `console.log()`
-- `var`
-- `true`
-- `false`
 
 ## Part A Super Learner Habits
 
@@ -172,12 +166,11 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
     - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
-    - [ ] Have you created 7 `ex.rb` files with your code in them?
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
 ## Exercises
-- Each day contains an exercises directory containing files where you will practice writing code.
+- Each section contains an exercises directory containing files where you will practice writing code.
 
 Work through the files in the section1/exercises directory.  Complete them in this order:
 
