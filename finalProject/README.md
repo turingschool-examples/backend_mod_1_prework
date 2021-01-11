@@ -46,3 +46,17 @@ When you have completed *all* the activities described above, follow the steps b
 5. Please complete the form to submit your prework available [here](https://forms.gle/wxoVuhHKjrRyvGW2A). Be sure to include links for your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/frontend-mod-1-prework. (using _your_ own GitHub username)
 
 🏔You did it! This is the end of the pre-work. Continue to monitor slack (and emails from GitHub) for feedback from your instructor.
+
+# Extensions (optional, after pre-work completed)
+
+You've finished your Mod 1 pre-work assignment!
+
+But there's always more to learn!
+
+If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
+
+- [Turing's ruby exercises repo](https://github.com/turingschool/ruby-exercises)
+- [A back-end grad's advice and useful study resources](https://josh.works/turing-backend-prep-01-intro)
+- [Credit Check](https://github.com/turingschool-examples/credit_check).
+
+If you do Credit Check, follow the [same steps](#forking-the-module-1-prework-repository) as you did previously to fork and clone this repo on to your local computer.
