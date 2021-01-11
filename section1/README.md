@@ -48,8 +48,6 @@ Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through 
 
 👩‍💻 Complete all three Challenges.
 
-Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
-
 ### Making Things, Navigating
 
 #### Commands
