@@ -6,7 +6,6 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
 - [Part C: Ruby Foundations](#Part-C-Ruby-Foundations)
-- [Deliverables](#Deliverables)
 
 ## Vocabulary
 
@@ -30,7 +29,7 @@ Here's what we ask you do:
 - variable
 - assignment operator
 - re-assignment (of a variable)
-- concatenation
+- interpolation
 
 
 ## Part A Super Learner Habits
@@ -271,6 +270,5 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
 - [Part C: Ruby Foundations](#Part-C-Ruby-Foundations)
-- [Deliverables](#Deliverables)
 
 🚀 [Go to Section 2](../section2)
