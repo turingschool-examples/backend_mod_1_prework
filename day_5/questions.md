@@ -9,7 +9,7 @@
 
 > **Answer**
    ```
-   pet_store = {fish: 49, puppies: 17, kittens: 6}
+   pet_store = {fish: 49, puppies: 17, kittens: 7}
    ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
