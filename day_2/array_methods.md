@@ -10,13 +10,13 @@ Array.new()
 &
 - returns a new array with common elements of the compared arrays
 
-*
+'*'
 - returns a new string or array with repetition or concatenation
 
-+
+'+'
 - returns a new array built by concatenating
 
--
+'-'
 - returns a new array after removing items
 
 <<
@@ -259,17 +259,19 @@ to_h
 - returns hash or [key, value] pairs
 
 to_s
-- alias for: inspect
+- alias for: inspect  
 
 transpose
 - array of arrays needed and tranposes the rows and columns
 
-uniq - removes duplicates
+uniq
+- removes duplicates
+
 uniq!
--removes duplicates permanently
+- removes duplicates permanently
 
 unshift
--adds to beginning of array
+- adds to beginning of array
 
 values_at
 - returns array based on integer indices or ranges
@@ -278,4 +280,4 @@ zip
 - merges elements of an array following each argument, uses nil when size of array is off.
 
 |
-- returns new array after excluding duplicates and follows order from original array 
+- returns new array after excluding duplicates and follows order from original array

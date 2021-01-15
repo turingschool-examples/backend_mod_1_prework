@@ -19,7 +19,7 @@ arry.each do |x|
 end
 
 # prints new array with each number * 2
-arry.map { |x| puts x * 2 }
+arry.map { |x| puts x * 2 }  # in the terminal an array prints without the brackets or commas?
 
 names = ["Alice Smith", "Bob Evans", "Roy Rogers"]
 
