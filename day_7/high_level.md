@@ -1,6 +1,6 @@
 ## Ceasar Cipher
 
-> High Level Notes  
+> High Level Notes: A Ceasar Cipher encodes with shifts to the left.
 
 Goal Code:
 
@@ -11,23 +11,24 @@ cipher.encode("Hello World", 5)
 => "CZGGJ RJMGY"
 ```
 ---
-#### 1. First we have to divide a word into individual letters and ignore the spaces or characters.
+#### First we have to divide a word into individual letters and ignore the spaces or characters.
   - "hello_" = 'h', 'e', 'l', 'l', 'o', '_'
 
-#### 1. Second, Relate each letter in the alphabet to a number  
+#### Second, relate each letter in the alphabet to a number  
 
-  - Any given sentence will have a list of letters and characters or spaces.  
+Any given sentence will have a list of letters and characters or spaces.  
+
    A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z
    ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
    0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25
 
    - "Hello World" = "7, 14, 11, 11, 14, _, 22, 14, 17, 11, 3"
 
-#### 1. 'A' is represented by 0 since it is the first letter in the alphabet and 'Z' is represented by 25, but we can't simply take 0 and minus 1 and arrive at 25. (0 - 1 = -1)
+#### 'A' is represented by 0 since it is the first letter in the alphabet and 'Z' is represented by 25, but we can't simply take 0 and subtract 1 and arrive at 25. (0 - 1 = -1)
 
   - How can we get "A" to properly work for any number of moves to the left up to 25?
 
-  - We need ONE alphabet to related to TWO sets of integers: *positive* and *negative*
+  - We need ONE alphabet related with TWO sets of integers: *positive* and *negative*
     A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z
     ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
     0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25
