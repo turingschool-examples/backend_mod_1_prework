@@ -14,6 +14,12 @@ cipher.encode("Hello World", 5)
 #### First we have to divide a word into individual letters and ignore the spaces or characters.
   - "hello_" = 'h', 'e', 'l', 'l', 'o', '_'
 
+  - For a string you can use ruby .chars method and it will include the spaces. looks like the .scan(//) method will separated the string at designated locations.
+
+  - ```ryan = "Hello "
+       p ryan.chars```
+       => ["H", "e", "l", "l", "o", " "]
+
 #### Second, relate each letter in the alphabet to a number  
 
 Any given sentence will have a list of letters and characters or spaces.  
@@ -37,13 +43,13 @@ Any given sentence will have a list of letters and characters or spaces.
     ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
     -26|-25|-24|-23|-22|-21|-20|-19|-18|-17|-16|-15|-14|-13|-12|-11|-10|-9|-8|-7|-6|-5|-4|-3|-2|-1
 
-    - So lets try it with "Hello Ryan" moved 10 to the left.
-      H|e|l|l|o| |R|y|a|n
-      ---|---|---|---|---|---|---|---|---|---
-      7|4|11|11|14| |17|24|0|13
+    - So lets try it with "Hello World" moved 10 to the left.
+      H|e|l|l|o| |W|o|r|l|d
+      ---|---|---|---|---|---|---|---|---|---|---
+      7|4|11|11|14| |11|4|7|1|-7
 
-    - If we subtract 10 from each integer we get = "-3, -6, 1, 1, 4, , 7, 14, -10, 3"
-    - Which we use the two alphabets to translate = "X, U, B, B, E, , H, O, Q, D"
+    - If we subtract 10 from each integer we get = "-3, -6, 1, 1, 4, , 11, 4, 7, 1, -7"
+    - Which we use the two alphabets to translate = "X, U, B, B, E, L, E, H, B, D, T"
 
 #### 1. Lastly, would need to reassemble the letters into one statement or sentence.
 
