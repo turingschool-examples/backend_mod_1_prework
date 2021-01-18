@@ -1,7 +1,12 @@
 #Dont forget to go back and check bonus if finished with day 7 in time
 
 
-numbers = [*1..100]
+print "Gimme a start number?:"
+start_number = $stdin.gets.to_i
+print "Gimme a end number?:"
+end_number = $stdin.gets.to_i
+
+numbers = [*start_number..end_number]
 
 numbers.each do |num|
 
