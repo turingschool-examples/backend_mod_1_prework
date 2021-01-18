@@ -48,21 +48,21 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+    - [x] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
-    - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+    - [x] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
+    - [x] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+    - [x] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
-    - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
+    - [x] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [x] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
+    - [x] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
-    - [ ] Have you created 7 `ex.rb` files with your code in them?
+    - [x] Have you created 7 `ex.rb` files with your code in them?
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
@@ -71,13 +71,13 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 Work through the files in the day_1/exercises directory.  Complete them in this order:
 
-1. strings   
-1. numbers   
-1. variables   
-1. interpolation
-1. loops
+1. strings   x
+1. numbers   x
+1. variables   x
+1. interpolation  x
+1. loops  x
 
-## Questions
+## Questions x
 - Each day contains a questions.md file where you will answer questions about what you have learned.
 
 Answer the day 1 questions within the questions.md file. The `.md` file extension refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
