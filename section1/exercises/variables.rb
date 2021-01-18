@@ -27,3 +27,33 @@ p students
 # prints the result:
 # YOUR CODE HERE
 p students
+
+
+# YOU DO:
+# Declare three variables, named `first_name`, `is_hungry` and `number_of_pets`. 
+# Store the appropriate data types in each.
+# print all three variables to the terminal.
+
+# IN WORDS:
+# How did you decide to use the data type you did for each of the three variables above? 
+
+# Explain.
+
+
+# YOU DO:
+# Re-assign the values to the three variables from the previous challenge to different values (but same data type).
+# print all three variables to the terminal.
+
+
+# YOU DO:
+# Using the variables below, print the total number of snacks to the terminal:
+healthy_snacks = 6;
+junk_food_snacks = 8;
+
+
+#-------------------
+# FINAL CHECK
+#-------------------
+
+# Did you run this file in your terminal to make sure everything printed out to the terminal 
+  # as you would expect? 

@@ -23,3 +23,8 @@ slow_poke = "tortoise"
 speedy = "hare"
 
 # YOUR CODE HERE
+
+
+# YOU DO:
+# Declare three variables, name/content/data type of your choice. Think carefully about what you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates all THREE variables.
+
