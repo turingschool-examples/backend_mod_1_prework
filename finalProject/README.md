@@ -43,7 +43,7 @@ When you have completed *all* the activities described above, follow the steps b
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
 
-5. Please complete the form to submit your prework available [here](https://forms.gle/wxoVuhHKjrRyvGW2A). Be sure to include links for your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/frontend-mod-1-prework. (using _your_ own GitHub username)
+5. Please complete the form to submit your prework available [here](https://forms.gle/wxoVuhHKjrRyvGW2A). Be sure to include links for your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/backend_mod1_prework. (using _your_ own GitHub username)
 
 🏔You did it! This is the end of the pre-work. Continue to monitor slack (and emails from GitHub) for feedback from your instructor.
 
