@@ -178,7 +178,7 @@ $ rbenv rehash
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1.
 
-[Check out day_0 to practice!](day_0)
+[Check out section 1 to practice!](section1)
 
 ### Forking the Module 1 Prework Repository
 
@@ -190,7 +190,7 @@ In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_mod_1_prework) that you're reading right now!
+####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool/backend_mod_1_prework) that you're reading right now!
 
 ####  3. Click on `Fork` in the upper right corner of the screen, just under the top banner.
 
