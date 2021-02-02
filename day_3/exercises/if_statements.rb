@@ -10,7 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'hailstorm'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -40,11 +40,13 @@
 
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
-
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+puts "How many quarters do you have right now?: "
+num_quarters = $stdin.gets.chomp
+if num_quarters.to_i >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -60,6 +62,12 @@ puts "I don't have enough money for a gumball"
 
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
-
-cups_of_flour = 1
-has_sauce = true
+puts "How many cups of flour do you have? Input a whole number(ex: 1, 5, 3, etc.): "
+cups_of_flour = $stdin.gets.chomp
+puts "Do you have the sauce??? [y/n]: "
+has_sauce = $stdin.gets.chomp
+if cups_of_flour.to_i >= 2 && has_sauce == "y"
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
