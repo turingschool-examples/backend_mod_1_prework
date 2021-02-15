@@ -45,7 +45,7 @@ We will now cover these three topics:
 
 First, let's get a Ruby version management tool on our machines.
 
-## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
+<!-- ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
 Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
 
@@ -172,7 +172,7 @@ Now, let's make your terminal aware of this update with command:
 
 ```
 $ rbenv rehash
-```
+``` -->
 
 ## Terminal
 
