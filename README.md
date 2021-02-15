@@ -10,7 +10,7 @@ Each day has a folder containing a `README.md` file with instructions for the se
 * [Section 2 - ASKING QUESTIONS, Conditionals and Methods](section2)
 * [Section 3 - GROWTH MINDSET, Hashes](section3)
 * [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
-* [Final Prep - Final Deliverables and Submission](finalPrep)
+* [Final Prep - Final Deliverables and Submission](final_prep)
 
 ## What to Expect
 
