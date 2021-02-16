@@ -36,14 +36,15 @@ Follow this guide step-by-step to make sure you have everything you need, then y
 
 ***Before proceeding***, if you have not already, complete the [mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions) to install Atom, xcode-select, Homebrew, git, and Chrome.
 
-We will now cover these three topics:
+We will cover the following:
 
-*   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
-*   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
+<!-- *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
+*   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby) -->
+*   [Terminal](#terminal)
 *   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
 
-
-First, let's get a Ruby version management tool on our machines.
+<!-- 
+First, let's get a Ruby version management tool on our machines. -->
 
 <!-- ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
