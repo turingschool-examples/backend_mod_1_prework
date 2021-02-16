@@ -38,15 +38,15 @@ Follow this guide step-by-step to make sure you have everything you need, then y
 
 We will cover the following:
 
-<!-- *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
-*   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby) -->
+*   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
+*   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
 *   [Terminal](#terminal)
 *   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
 
-<!-- 
+
 First, let's get a Ruby version management tool on our machines. -->
 
-<!-- ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
+ ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
 Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
 
@@ -57,6 +57,8 @@ Additionally, very useful tools called "gems" are out there that were created sp
 To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles.
 
 #### Installation
+
+**NOTE: If you have any issues with the `rbenv` setup, make note and we will address in Mod 1. You're system version of ruby will work fine for your Prework exercises!**
 
 Here is a video walk-through that may be helpful for the following steps. Check it out!
 
@@ -173,7 +175,7 @@ Now, let's make your terminal aware of this update with command:
 
 ```
 $ rbenv rehash
-``` -->
+```
 
 ## Terminal
 
