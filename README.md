@@ -56,13 +56,13 @@ Additionally, very useful tools called "gems" are out there that were created sp
 
 To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles.
 
-#### Installation
+### Installation
 
-**NOTE: If you have any issues with the `rbenv` setup, make note and we will address in Mod 1. You're system version of ruby will work fine for your Prework exercises!**
+#### NOTE: If you have any issues with the `rbenv` setup, please message Eric Weissman on slack (@ericweissman) and we will address your issues at a later date! You're system version of ruby will work fine for your Prework exercises!
 
 Here is a video walk-through that may be helpful for the following steps. Check it out!
 
-Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.5.3**, per the written instructions below.
+Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.7.2**, per the written instructions below.
 
 [![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
 
@@ -121,14 +121,14 @@ More information about rbenv can be found [here](https://github.com/rbenv/rbenv#
 
 ### Use rbenv to install a certain version of Ruby
 
-Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.5.3. This is the version we will use in the Backend Program.
+Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.7.2. This is the version we will use in the Backend Program.
 
-If you need another version it'll be the same procedure, just replace `2.5.3` in the instructions with whichever version you want.
+If you need another version it'll be the same procedure, just replace `2.7.2` in the instructions with whichever version you want.
 
 Install it with:
 
 ```
-$ rbenv install 2.5.3
+$ rbenv install 2.7.2
 ```
 
 It will take a while to finish installing, and print a _lot_ of text to your terminal.
@@ -139,14 +139,14 @@ When it's all finished, type:
 $ rbenv versions
 ```
 
-and you should now see `2.5.3` listed.
+and you should now see `2.7.2` listed.
 
 Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you _your current ruby version_. The second shows _all installed versions_.
 
 Switch to your newly installed version with
 
 ```
-$ rbenv local 2.5.3
+$ rbenv local 2.7.2
 ```
 
 Now enter:
@@ -158,17 +158,17 @@ $ ruby -v
 This shows us what version of Ruby we are running. You should see something like:
 
 ```
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-darwin17]
+ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]
 ```
 
-You can ignore everything after the `p` in `2.5.3p105`- the first bit shows us we are running Ruby 2.5.3, which is what we want to verify. If you got something different than `2.5.3`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+You can ignore everything after the `p` in `2.7.2p105`- the first bit shows us we are running Ruby 2.7.2, which is what we want to verify. If you got something different than `2.7.2`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
 
 #### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default. Let's do that with terminal command:
 
 ```
-$ rbenv global 2.5.3
+$ rbenv global 2.7.2
 ```
 
 Now, let's make your terminal aware of this update with command:
