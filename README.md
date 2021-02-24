@@ -64,7 +64,7 @@ Here is a video walk-through that may be helpful for the following steps. Check 
 
 Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.7.2**, per the written instructions below.
 
-[![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
+<!-- [![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation") -->
 
 Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
@@ -107,7 +107,7 @@ This command will open up your `ZSH Runtime Configuration` file in Atom so you c
 
 Check to see if you did this step correctly by switching back to your terminal and typing `cat ~/.zshrc`. You should see `eval "$(rbenv init -)"` at the bottom of the output.
 
-After, *close your terminal and reopen it.* This is a very important step since the bash profile is loaded each time a new terminal window is opened.
+After, **close your terminal and reopen it.** This is a very important step since the bash profile is loaded each time a new terminal window is opened.
 
 Now, check to make sure rbenv was installed properly. In your terminal, type:
 
