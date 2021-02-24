@@ -172,7 +172,8 @@ This will open the `section1` directory in Atom. You should be able to see the d
 Work through the files in the section1/exercises directory.  Complete them in this order:
 
 1. strings   
-1. numbers   
+1. numbers
+1. booleans   
 1. variables   
 1. interpolation
 1. loops
