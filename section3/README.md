@@ -31,19 +31,24 @@ Then, consider on the following questions. We will ask you to share some of thes
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
 
-## Part B Hashes
+## Part B Arrays + Hashes
 
-Earlier, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device called a Hash. As professional developers, you will use hashes on a near daily basis- a solid understanding of how to build hashes and how to retrieve information from them will make life much easier.
+Today you will learn about two common data structures: arrays and hashes.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+    - [ ] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
+
+    - [ ] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.
 
     - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
 
     - [ ] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
 
-1. Work through the hashes.rb file in the section4/exercises directory.
+1. Work through the arrays.rb file in the section3/exercises directory.
+
+1. Work through the hashes.rb file in the section3/exercises directory.
 
 1. Answer the questions in the reflection.md file in the section4 directory.
 
