@@ -20,27 +20,35 @@ Here's what we ask you do:
 
 ### Vocabulary Terms
 
-- command
-- directory
-- code comments
-- String
-- Number
-- Boolean
-- variable
-- assignment operator
-- re-assignment (of a variable)
-- interpolation
+- command: directions given to the computer
+- directory: another word for folder, where documents/files can live and be organized
+- code comments: non-code single line snippets which are integrated into the coding which explain thought processes, intentions, how something works, etc.
+- String: data type used to represent text, uses " " or ' ' for syntax 
+- Number: integer is whole #s, float contains decimals.  0 is an integer, both integers/floats can be positive/negative.  No quotations for syntax.
+- Boolean: true/false, yes/no, on/off etc.  
+- variable: name used to hold 1 or more values 
+- assignment operator: used to assign value to a variable (=, ==, >)
+- re-assignment (of a variable): changing an existing variable to a new data.  Ruby is a pass-by-value language, so variables which reference other variables will retain the original content when called upon unless updated. (e.g. a = "ruby" / b = "a"  _meaning b = "ruby_  / a = "not ruby"  _reassignment_  / b = "ruby"  _retains value_ )
+- interpolation: evaluating a variable containing one or more placeholders, and those placeholders are replaced with corresponding values.  Sort of the act of implementing variables into the surrounding code "skeleton".
 
 
 ## Part A Super Learner Habits
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
+This is a great list that really outlines some of the things I try to actively implement daily, but definitely shows opportunities for improvement.  In my current position, I definitely have trouble taking breaks as there is always so much to do. In my free time, though, I do use it to read up on the entire field, whether its about the job market or the content itself and best practices etc.  I've really been trying to mentally immerse myself into the field as I transition into Turing full time.  Growth mindset is something I've been using for years and it has been a great way to live.  I've accomplished things that I'm very proud of and I am confident that my efforts will be successful in this as well.  
+
+I should probably read more.  
+
+I defintely want to do a better job taking care of myself mentally - taking breaks while still maintaining productivty, being present in the current topic and not bouncing around too much, etc.  Active effort will go a long way with this once I'm able to leave my current position.
+
+I also need to focus on the process of learning this and not just on the end result of my life as a future programmer.
+
 ## Part B Terminal
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
-You already have had some exposure to the terminal in [Mod 0, Session 2: Terminal and Command Line](http://mod0.turing.io/session2/#terminal-and-command-line). Let's get a little more practice!
+You already have had some exposure to the terminal in [Mod 0, Session 2: Terminal and Command Line](hhttps://learn-terminal.turing.io/). Let's get a little more practice!
 
 ### Explore and Practice
 
