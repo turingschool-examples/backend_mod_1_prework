@@ -54,7 +54,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻 Complete all three Challenges.
+👩‍💻 [Complete all three Challenges.](https://i.stack.imgur.com/PZYjD.png)
 
 ### Making Things, Navigating
 
