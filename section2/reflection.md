@@ -8,18 +8,18 @@ I tend to wait too long - I end up with dozens of google tabs before I admit def
 
 1. What is a conditional statement? Give three examples.
 
-A conditional statement is a statement that can be checked for truth, and if it is true, will execute a block of code.  Examples are if, elsif and else.  
+A conditional statement is a statement that can be checked for truth, and if it is true, will execute a block of code.  Examples are `if, elsif and else`.  
 
 1. Why might you want to use an if-statement?
 
 If you only want certain things to happen if particular requirements are met.
 
 1. What is the Ruby syntax for an if statement?
-
+```
 if condition
   does something here
 end  
-
+```
 
 1. How do you add multiple conditions to an if statement?
 
@@ -31,7 +31,8 @@ You can also use else and elsif.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-```if football_team = "Tampa Bay"
+```
+if football_team = "Tampa Bay"
   puts "Your team won the superbowl!"
 elsif football_team = "Kansas City"
   puts "Your team made it to the superbowl!"
@@ -54,11 +55,26 @@ end
 ### Methods
 
 1. In your own words, what is the purpose of a method?
+  `names a piece of code the same way we define variables`
 
 1. Create a method named `hello` that will print `"Sam I am"`.
+```
+def hello
+  puts "Sam I am"
+end
+```
+`hello`
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
+```def hello_someone(name)
+  puts "#{name} I am"
+end  
+```
 1. How would you call or execute the method that you created above?
 
+`hello_someone(name_input_here)`
+
 1. What questions do you have about methods in Ruby?
+
+`Make sense, just working on remembering syntax and execution flow`
