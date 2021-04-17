@@ -48,21 +48,21 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+    - [√] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
-    - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+    - [√] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
+    - [√] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+    - [√] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
-    - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
+    - [√] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [√] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
+    - [√] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
-    - [ ] Have you created 7 `ex.rb` files with your code in them?
+    - [√] Have you created 7 `ex.rb` files with your code in them?
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
@@ -76,7 +76,7 @@ Work through the files in the day_1/exercises directory.  Complete them in this 
 1. variables   
 1. interpolation
 1. loops
-
+cd
 ## Questions
 - Each day contains a questions.md file where you will answer questions about what you have learned.
 
