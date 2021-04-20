@@ -36,37 +36,37 @@ Follow this guide step-by-step to make sure you have everything you need, then y
 
 ***Before proceeding***, if you have not already, complete the [mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions) to install Atom, xcode-select, Homebrew, git, and Chrome.
 
-We will cover the following:
+<!-- We will cover the following:
 
 *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
 *   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
-*   [Terminal](#terminal)
+*   [Terminal](#terminal) -->
 *   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
 
 
-First, let's get a Ruby version management tool on our machines. -->
+<!-- First, let's get a Ruby version management tool on our machines. -->
+<!-- 
+ ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x) -->
 
- ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
-
-Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
+<!-- Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
 
 Generally, programs written in one version of Ruby will run just fine on another version, but sometimes incompatibilities can be encountered, meaning that particular program needs to be run with a specific version of Ruby.
 
 Additionally, very useful tools called "gems" are out there that were created specifically to help developers code (specifically, the `pry` gem is very handy) and we cannot utilize these without first installing and configuring `rbenv`.
 
-To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles.
+To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles. -->
 
-### Installation
+<!-- ### Installation
 
 #### NOTE: If you have any issues with the `rbenv` setup, please message Eric Weissman on slack (@ericweissman) and we will address your issues at a later date! You're system version of ruby will work fine for your Prework exercises!
 
 Here is a video walk-through that may be helpful for the following steps. Check it out!
 
-Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.7.2**, per the written instructions below.
+Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.7.2**, per the written instructions below. --> -->
 
 <!-- [![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation") -->
 
-Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
+<!-- Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
 ```
 $ brew update
@@ -117,9 +117,9 @@ $ rbenv versions
 
 It should give you a version number rather than an error message.
 
-More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x).
+More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x). -->
 
-### Use rbenv to install a certain version of Ruby
+<!-- ### Use rbenv to install a certain version of Ruby
 
 Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.7.2. This is the version we will use in the Backend Program.
 
@@ -161,9 +161,9 @@ This shows us what version of Ruby we are running. You should see something like
 ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]
 ```
 
-You can ignore everything after the `p` in `2.7.2p105`- the first bit shows us we are running Ruby 2.7.2, which is what we want to verify. If you got something different than `2.7.2`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+You can ignore everything after the `p` in `2.7.2p105`- the first bit shows us we are running Ruby 2.7.2, which is what we want to verify. If you got something different than `2.7.2`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again. -->
 
-#### Setting the Default Version
+<!-- #### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default. Let's do that with terminal command:
 
@@ -179,9 +179,9 @@ $ rbenv rehash
 
 ## Terminal
 
-We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1.
-
-[Check out section 1 to practice!](section1)
+We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1. -->
+<!-- 
+[Check out section 1 to practice!](section1) -->
 
 ### Forking the Module 1 Prework Repository
 
