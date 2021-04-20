@@ -197,9 +197,11 @@ In order to fork the repository, follow these steps:
 
 ####  3. Click on `Fork` in the upper right corner of the screen, just under the top banner.
 
+![click fork button](/images/be_step1.png)
+
 ####  4. On the new page, confirm that it is a "forked" copy of the repository, with your username included in the URL and repository name.
 
-![confirm new repository belongs to _your_ github account](/images/fork_02.jpg)
+![confirm fork](/images/be_step2.png)
 
 Check [github help](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) out for more info about forks.
 
@@ -211,7 +213,7 @@ Cloning is when you copy a remote Github repository to your local computer.
 
 #### 1. In YOUR `backend_mod_1_prework` repository that your just forked, click on `Clone or Download`
 
-![clone down your copy](/images/fork_03.jpg)
+![clone your copy](/images/be_step3.png)
 
 #### 2. If you see `Clone with HTTPS` click on `Use SSH`
 
@@ -252,16 +254,3 @@ To begin, open your terminal and `cd` into the `section1` directory. Follow the 
 
 ----------------------------------
 
-# Extensions (optional, after pre-work completed)
-
-You've finished your Mod 1 pre-work assignment!
-
-But there's always more to learn!
-
-If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
-
-- [Turing's ruby exercises repo](https://github.com/turingschool/ruby-exercises)
-- [A back-end grad's advice and useful study resources](https://josh.works/turing-backend-prep-01-intro)
-- [Credit Check](https://github.com/turingschool-examples/credit_check).
-
-If you do Credit Check, follow the [same steps](#forking-the-module-1-prework-repository) as you did previously to fork and clone this repo on to your local computer.
