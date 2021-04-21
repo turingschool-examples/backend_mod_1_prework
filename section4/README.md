@@ -64,4 +64,4 @@ Commit your Code Challenges and push up to your GitHub repository.
 - [Part B: Classes](#Part-B-Classes)
 
 
-🚀 [Go to the Final Project](../finalProject)
+🚀 [Go to the Final Prep](../final_prep)
