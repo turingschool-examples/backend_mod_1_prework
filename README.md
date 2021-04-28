@@ -244,6 +244,12 @@ nothing to commit, working tree clean
 
 From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
+### IMPORTANT NOTE - PLEASE READ CAREFULLY
+Do **NOT** work directly in the Github interface or use the `Edit` button to work directly from the Github version of your prework repository! 
+
+Instead, add your work in your text editor (Atom) on your local machine (laptop) - your prework involves using `git` to track changes and push your work up to Github. We will cover how to do this in Mod 0 AND we give explicit instructions on how to do this in each section of the prework!
+
+## Get Started
 
 Each day's `README` will walk you through the necessary steps to save your work.
 
