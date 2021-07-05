@@ -3,7 +3,7 @@
 # file by entering the following command in your terminal:
 # `ruby day_3/exercises/if_statements.rb`
 
-# Example: Using the weather variable below, write code that decides 
+# Example: Using the weather variable below, write code that decides
 # what you should take with you based on the following conditions:
   # if it is sunny, print "sunscreen"
   # if it is rainy, print "umbrella"
@@ -24,6 +24,21 @@
     p "good to go!"
   end
 
+  weather = "hailing" #changed the variable to print something besides "coat"
+  if weather == "sunny"
+    puts "sunscreen"
+  elsif weather == "rainy"
+    puts "umbrella"
+  elsif weather == "snowy"
+    puts "coat"
+  elsif weather == "icy"
+    puts "yak traks"
+  else
+    puts "good to go!"
+  end
+
+
+
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
@@ -35,21 +50,36 @@
 
 # Right now, the program will print
 # out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write a 
+# "I don't have enough money for a gumball". Write a
 # conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
+# class GumballLovers
+  # attr_accessor :first_name, :num_quarters, :last_name
+# num_quarters = 0
+# puts "Put in a number:"
+# num_quarters = gets.chomp.to_i
+num_quarters = 2
+# def gumball_status(num_quarters)
+  if num_quarters >= 2
+    puts "I have enough money for a gumball"
+  elsif num_quarters < 2
+    puts "I don't have enough money for a gumball"
+  else
+    puts "That's crazy!"
+  end
 
-num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+=begin
+keisha = GumballLovers.new
+keisha.first_name = "Keisha"
+keisha.gumball_status(0)
+=end
 
 #####################
 # Using the variables defined below, write code that will tell you
-# if you have the ingredients to make a pizza. A pizza requires 
+# if you have the ingredients to make a pizza. A pizza requires
 # at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
@@ -61,5 +91,21 @@ puts "I don't have enough money for a gumball"
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
-has_sauce = true
+cups_of_flour = 6
+has_sauce = false
+
+  if cups_of_flour == 1 && has_sauce == true
+    puts "I cannot make pizza"
+    # puts "a"
+  elsif cups_of_flour == 5 && has_sauce == false
+    puts "I cannot make pizza"
+    # puts "b"
+  elsif cups_of_flour == 2 && has_sauce == true
+    puts "I can make pizza"
+    # puts "c"
+  elsif cups_of_flour == 3 && has_sauce == true
+    puts "I can make pizza"
+    # puts "d"
+  else
+    puts "I cannot make a pizza"
+  end
