@@ -10,22 +10,36 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
 
-  if weather == 'sunny'
-    p "sunscreen"
-  elsif weather == 'rainy'
-    p "umbrella"
-  elsif weather == 'snowy'
-    p "coat"
-  elsif weather == 'icy'
-    p "yak traks"
-  else
-    p "good to go!"
+  weather_options = ["sunny", "rainy", "snowy", "icy"]
+  weather = "sunny"
+  weather_check = true
+  repeat_weather = "y"
+
+while repeat_weather == "y"
+
+  puts "\nWhat's the weather like outside?"
+  weather = gets.chomp
+  weather_check = weather_options.include? weather
+
+  if weather_check == true
+    print "Make sure to pack "
+      if weather == "sunny"
+        puts "sunscreen"
+      elsif weather == 'rainy'
+        puts "an umbrella"
+      elsif weather == 'snowy'
+        puts "a coat"
+      else weather == "icy"
+        puts "yak traks"
+      end
+    else
+      puts "well I'm not familiar with that weather so I suppose you're good to go!"
   end
 
-# Experiment with manipulating the value held in variable 'weather'
-# to print something other than 'coat'
+  puts "\nwant to play the weather game again (y/n)?\n"
+  repeat_weather = gets[0]
+end
 
 
 ##################
@@ -42,9 +56,23 @@
 # to make sure both conditions can be achieved.
 
 num_quarters = 0
+repeat_gum = "y"
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+while repeat_gum == "y"
+  puts "\nSo, you want to buy a gumball, eh?  Well, how many quarters do you have?"
+
+  num_quarters = gets.chomp.to_i
+
+  if num_quarters >= 2
+    puts "Congrats! you have enough money for a gumball"
+  else
+    puts "Sorry, no dice. Gumballs are 2 quarters. You need at least #{2-num_quarters} more quarter(s)!"
+  end
+
+  puts "\nwant to play the gumball game again (y/n)?\n"
+  repeat_gum = gets[0]
+end
+
 
 
 #####################
@@ -63,3 +91,27 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+repeat_pizza = "y"
+
+while repeat_pizza == "y"
+  puts "\nTo make a pizza you'll need to know how much flour you have and whether you have sauce or not."
+
+  puts "How many cups of flour do you have?"
+  cups_of_flour = gets.chomp.to_i
+
+  puts "And do you have sauce (y/n)?"
+  has_sauce_check = gets[0]
+
+  if has_sauce_check == "y"
+  has_sauce = true
+  else has_sauce = false
+  end
+
+  if has_sauce == true && cups_of_flour >=2
+    puts "I can make pizza"
+  else
+    puts "I cannot make pizza"
+  end
+  puts "\nwant to play the pizza game again (y/n)?\n"
+  repeat_pizza = gets[0]
+end

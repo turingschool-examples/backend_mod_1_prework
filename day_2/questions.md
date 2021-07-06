@@ -1,17 +1,36 @@
 ## Day 2 Questions
 
-1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+### Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+animal_set = ["zebra", "giraffe", "elephant"]
 
-1. Save the array you created above to a variable `animals`.
+### Save the array you created above to a variable `animals`.
+animals = animal_set
 
-1. Using the array `animals`, how would you access `"giraffe"`?
 
-1. How would you add `"lion"` to the `animals` array?
+### using the array `animals`, how would you access `"giraffe"`?
+animals[1]
 
-1. Name and describe two additional array methods:
+### How would you add `"lion"` to the `animals` array?
+animals.push("lion")
 
-1. What are the boolean values in Ruby?
+### Name and describe two additional array methods.
+.first returns the first element in an array.
+.last returns the last element in an array.  
 
-1. In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+### What are the boolean values in Ruby?
+trick question?  the values are true and false.  
 
-1. In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+The operators to determine true/false include:  
+&& (and)  
+|| (or)  
+! (not)  
+!= (not equal)  
+== (equals)  
+\>= (greater than or equal)  
+\<= (less than or equal)  
+
+### In Ruby, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+2 == 25 returns false
+
+### In Ruby, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+25 > 2 returns true

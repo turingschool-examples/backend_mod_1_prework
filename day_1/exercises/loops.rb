@@ -10,9 +10,12 @@ end
 
 # Write code that prints the sum of 2 plus 2 seven times:
 7.times do
-  # YOUR CODE HERE
+  puts 2 + 2
 end
 
-# Write code that prints the phrase 'She sells seashells down by the seashore'
-# ten times:
-# YOUR CODE HERE
+
+# Write code below that prints the phrase 'She sells seashells down by the seashore'
+# 10 times.
+10.times do |i|
+  puts "#{i}: She sells seashells down by the seashore"
+end

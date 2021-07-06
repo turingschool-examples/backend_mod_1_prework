@@ -1,19 +1,3 @@
-## Ceasar Cipher
-
-Also known as a shift cipher, the Ceasar Cipher is one of the oldest and simplest encoding techniques.  A Ceasar Cipher works by shifting the alphabet by a defined number of letters down the alphabet.  For example, with a left shift of 3, 'D' would be replaced by 'A', 'E' would be replaced by 'B', and so on.  See below for a full alphabet example with a left shift of 3:
-
-```
-plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
-cipher: XYZABCDEFGHIJKLMNOPQRSTUVW
-```
-
-Create a file named caesar_cipher.rb and within that file, write a program that will take any string, and encode it based on a shift value provided by the user.  The interaction pattern for this program might look something like this:
-
-```
-cipher = CeasarCipher.new
-cipher.encode("Hello World", 5)
-=> "CZGGJ RJMGY"
-```
 ### Will's top down design of the Caesar Cipher
 
 1. Create an array called 'alphabet' that contains each letter in the english language.
@@ -36,3 +20,15 @@ cipher.encode("Hello World", 5)
       - 5.1.1. store the character from the phrase as the value in the cipher.  
 
 6. Return the ciphered phrase to the user.  
+---
+Ok, so the above is the logical flow. However object oriented design should be considered at all times:
+- A Caesar Cipher is a thing with attributes (start phrase and cipher offset) and behaviors (encode and possibly decode). So, a Caesar Cipher should be a class called CaesarCipher.
+  - Create a class called CaesarCipher
+    - create an attr_accessor method to generate setter and getter functions for the 'phrase' and 'shift'
+    - create an attr_reader method for the cipher since the cipher will only be generated (not input or changed)
+    - create a class variable of the alphabet (1 above).  honestly not sure whether this should be a class variable.
+    - create an initalize method that grabs the phrase and offset from the user (2 and 3 above)
+    - create an encode method (5 above)
+  - create a new instance of the CaesarCipher called 'new_cipher'
+  - run new_cipher.encode
+  - print the cipher value to the screen.

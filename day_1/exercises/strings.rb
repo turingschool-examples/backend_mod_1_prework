@@ -3,11 +3,12 @@
 # file by entering the following command in your terminal:
 # `ruby day_1/exercises/strings.rb`
 
-# Example: Write code that prints your name to the terminal:
-p "Alan Turing"
 
-# Write code that prints `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+# example: Write code below to print your name to the terminal:
+p "Will Dunlap"
 
-# Write code that prints `99 bottles of pop on the wall...` to the terminal:
-# YOUR CODE HERE
+# Write code below to print `Welcome to Turing!` to the terminal:
+puts "Welcome to Turing!"
+
+# Write code below to print `99 bottles of pop on the wall...`:
+puts "99 bottles of pop on the wall..."
