@@ -1,0 +1,22 @@
+Objects are created by defining a class and then assinging a specific variable as a new instance of that class
+
+'''
+
+class Furniture
+end
+
+chair = furniture.new
+
+'''
+
+A module allows us to to group reusable code in a single place. They can be
+used with classes by using the "include" method followed by the model name
+
+module Study
+end
+
+class MyClass
+include study
+end
+
+my_obj = MyClass.new
