@@ -11,6 +11,27 @@ The output of your program will look something like this:
 ```
 => 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, ..., 98, Fizz, Buzz
 ```
+> (1..100).each do |n|
+>
+>  if (n % 3 == 0 && n % 5 == 0)
+>
+>   puts "FizzBuzz"
+>
+>   elsif (n % 5 == 0)
+>
+>   puts "Buzz"
+>
+>   elsif (n % 3 == 0)
+>
+>   puts "Fizz"
+>
+>   else
+>
+>   puts n
+>
+>   end
+>
+> end
 
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
