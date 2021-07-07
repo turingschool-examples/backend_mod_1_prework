@@ -12,16 +12,30 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "#{name}"
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method:
-# YOUR CODE HERE
+def ammount_of_drinks(a, b)
+    puts "We are adding #{a} grape and #{b} orange."
+    return a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
+total = ammount_of_drinks(10,20)
+
+puts " Total = #{total}"
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+
+def who_is_that(man, woman)
+  puts "I wonder who that is in the movie?"
+  puts "Oh! It is #{man} and #{woman}! "
+end
+
+who_is_that("George", "Sally")
