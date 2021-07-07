@@ -15,14 +15,21 @@ end
 # "The <animal> is awesome!" for each animal:
 
 animals.each do |animal|
-  # YOUR CODE HERE
+  p "The #{animal} is awesome!"
 end
 
-# Write code that stores an array of foods in a variable, 
+# Write code that stores an array of foods in a variable,
 # then iterates over that array to print
 # "Add <food> to shopping list" for each food item:
-# YOUR CODE HERE
+foods = ["Bread", "Meat", "Noodles" ]
+foods.each do |foods|
+  p "Add #{foods} to shopping list"
+end
 
-# Write code that stores an array of numbers in a variable, 
-# then iterates over that array to print doubles of each number: 
+# Write code that stores an array of numbers in a variable,
+# then iterates over that array to print doubles of each number:
 # YOUR CODE HERE
+numbers = [1, 3, 7, 12, 21]
+numbers.each do |numbers|
+  p numbers * 2
+end
