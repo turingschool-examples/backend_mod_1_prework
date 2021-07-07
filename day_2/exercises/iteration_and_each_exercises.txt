@@ -1,0 +1,36 @@
+# If you had an array of numbers, e.g. [1,2,3,4], how do you print out the doubles of each number?
+numbers = [1,2,3,4]
+numbers.each do |number|
+  puts "#{number} #{number}"
+end
+
+# Triples?
+numbers.each do |number|
+  puts "#{number} #{number} #{number}"
+end
+
+# If you had the same array, how would you only print out the even numbers?
+numbers.each do |number|
+  puts number if number.even?
+end
+
+# What about the odd numbers?
+number.each do |number|
+  puts number if number.odd?
+ end
+
+ # How could you create a new array which contains each number multiplied by 2?
+ numbers.each do |number|
+  puts number * 2
+end
+
+# Given an array of first and last names, e.g. [“Alice Smith”, “Bob Evans”, “Roy Rogers”], how would you print out the full names line by line?
+names = [“Alice Smith”, “Bob Evans”, “Roy Rogers”]
+names.each do |name|
+  puts name
+end
+
+# How would you print out only first name?
+names.each do |name|
+  puts
+end
