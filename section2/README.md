@@ -50,13 +50,13 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [What If?](https://learnrubythehardway.org/book/ex29.html) from Learn Ruby the Hard Way.
+    - [x] [What If?](https://learnrubythehardway.org/book/ex29.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Else and If](https://learnrubythehardway.org/book/ex30.html) from Learn Ruby the Hard Way.
+    - [x] [Else and If](https://learnrubythehardway.org/book/ex30.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Making Decisions](https://learnrubythehardway.org/book/ex31.html) from Learn Ruby the Hard Way.
+    - [x] [Making Decisions](https://learnrubythehardway.org/book/ex31.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Conditionals](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) from Ruby in 100 Minutes.
+    - [x] [Conditionals](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) from Ruby in 100 Minutes.
 
 1. Work through the if_statements.rb file in the section2/exercises directory.
 
@@ -68,9 +68,9 @@ Using your terminal, open your local copy of the forked repository you created d
 
     _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
 
-    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
+    - [x] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
 
-    - [ ] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
+    - [x] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
 
     - [ ] [Methods and Variables](https://learnrubythehardway.org/book/ex19.html) from Learn Ruby the Hard Way.
 
