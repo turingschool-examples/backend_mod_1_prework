@@ -37,7 +37,11 @@ Today you will learn about two common data structures: arrays and hashes.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
+<<<<<<< HEAD
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
+=======
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+>>>>>>> ce84630cbeb194a4e1bbce303885f7efac6c9745
     - [x] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
 
     - [x] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.
