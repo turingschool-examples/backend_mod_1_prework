@@ -61,8 +61,3 @@ car_show(cars,guests)
 
 #6
 car_show()
-
-#7
-#8
-#9
-#10
