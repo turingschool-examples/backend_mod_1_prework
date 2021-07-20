@@ -5,26 +5,32 @@
 
 # Example: Write code that saves your name to a variable and
 # prints what that variable holds to the terminal:
-name = "Harry Potter"
+
+name = "Kerri"
 puts "#{name}"
 
 # Write code that saves the string 'Dobby' to a variable and
 # prints what that variable holds to the terminal:
+
 house_elf = "Dobby"
 puts "#{house_elf}"
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-puts "#{name} must not return to Hogwarts!"
+
+ Hogwarts = "Harry Potter must not return to Hogwarts!"
+
+ p "#{Hogwarts}"
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
+
 students = 22
 puts "#{students + 2}"
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
-# YOUR CODE HERE
+
 puts "#{students - 2}"
 
 
@@ -32,6 +38,7 @@ puts "#{students - 2}"
 # Declare three variables, named `first_name`, `is_hungry` and `number_of_pets`.
 # Store the appropriate data types in each.
 # print all three variables to the terminal.
+
 first_name = "Rob"
 is_hungry = true
 number_of_pets = 2
@@ -52,6 +59,7 @@ puts "#{number_of_pets}"
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
 # print all three variables to the terminal.
+
 first_name = "Michael"
 is_hungry = false
 number_of_pets = 6
