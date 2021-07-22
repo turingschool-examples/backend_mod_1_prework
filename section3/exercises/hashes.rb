@@ -4,11 +4,22 @@
 # `ruby section3/exercises/hashes.rb`
 
 # Example: Write code that prints a hash holding grocery store inventory:
-foods = {apples: 23, grapes: 507, eggs: 48, milk: 35, beans: 63}
+foods = {
+  apples: 23,
+  grapes: 507,
+  eggs: 48,
+  milk: 35,
+  beans: 63
+}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {lions: 7, giraffes: 6, elephants: 8, penguins: 15}
+zoo = {
+  lions: 7,
+  giraffes: 6,
+  elephants: 8,
+  penguins: 15
+}
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable
@@ -39,7 +50,12 @@ p zoo
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
-email = {sender: 'Redfin', subject: 'listings', recipient: 'Kerri', images: 'homes', link: 'unsubscribe'}
+email = {sender: 'Redfin',
+  subject: 'listings',
+  recipient: 'Kerri',
+  images: 'homes',
+  link: 'unsubscribe'
+}
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
@@ -97,7 +113,7 @@ puts posts[0]
 emails = [
   {
    sender: 'Redfin',
-   subject: 'listings',  
+   subject: 'listings',
    recipient: 'Kerri',
    images: 'homes',
    link: 'unsubscribe'
