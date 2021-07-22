@@ -14,7 +14,7 @@ Each day has a folder containing a `README.md` file with instructions for the se
 
 ## What to Expect
 
-Through completing this pre-work, you can expect to get practice re-inforcing what you learned/are learning in Mod 0, learn more technical content, and deeply reflect on your mindsets and habits and start thinking about which of those mindsets and habits will help you learn to code, and which of those you may need to change.
+Through completing this pre-work, you can expect to get practice reinforcing what you learned/are learning in Mod 0, learn more technical content, and deeply reflect on your mindsets and habits and start thinking about which of those mindsets and habits will help you learn to code, and which of those you may need to change.
 
 We will remind you of the best practices that follow from time-to-time, but to ground yourself in the work ahead, read them carefully.
 
@@ -45,7 +45,7 @@ Follow this guide step-by-step to make sure you have everything you need, then y
 
 
 <!-- First, let's get a Ruby version management tool on our machines. -->
-<!-- 
+<!--
  ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x) -->
 
 <!-- Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
@@ -180,7 +180,7 @@ $ rbenv rehash
 ## Terminal
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1. -->
-<!-- 
+<!--
 [Check out section 1 to practice!](section1) -->
 
 ### Forking the Module 1 Prework Repository
@@ -245,7 +245,7 @@ nothing to commit, working tree clean
 From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
 ### IMPORTANT NOTE - PLEASE READ CAREFULLY
-Do **NOT** work directly in the Github interface or use the `Edit` button to work directly from the Github version of your prework repository! 
+Do **NOT** work directly in the Github interface or use the `Edit` button to work directly from the Github version of your prework repository!
 
 Instead, add your work in your text editor (Atom) on your local machine (laptop) - your prework involves using `git` to track changes and push your work up to Github. We will cover how to do this in Mod 0 AND we give explicit instructions on how to do this in each section of the prework!
 
@@ -256,4 +256,3 @@ Each day's `README` will walk you through the necessary steps to save your work.
 To begin, open your terminal and `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
 
 ----------------------------------
-
