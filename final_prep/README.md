@@ -34,9 +34,18 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 
 - `Add Week 1 Screenshot Here`
 
+<<<<<<< HEAD
 - `Add Week 2 Screenshot Here`
+=======
+<img width="1203" alt="Screen Shot 2021-07-23 at 12 26 28 PM" src="https://user-images.githubusercontent.com/84674761/126827102-f0280515-39f0-4b58-a8ca-f95e77777a6e.png">
+
+- `Add Week 2 Screenshot Here`
+- <img width="1211" alt="Screen Shot 2021-07-23 at 12 26 43 PM" src="https://user-images.githubusercontent.com/84674761/126827116-efab358c-5783-4bbd-87b2-749bea2456d9.png">
+>>>>>>> 44c5ec578c7ed8e361a0702c04942d77893091a8
 
 - `Add Week 3 Screenshot Here`
+- <img width="1235" alt="Screen Shot 2021-07-23 at 12 27 00 PM" src="https://user-images.githubusercontent.com/84674761/126827132-c54992eb-2814-4e7d-b669-837b99f33afc.png">
+
 
 
 ### Mentorship Prep
