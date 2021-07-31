@@ -6,14 +6,27 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 ### Pre-work Index
 
-* [Day 0 - More Terminal Practice](day_0)
-* [Day 1 - Strings and Numbers](day_1)
-* [Day 2 - Arrays and Iteration](day_2)
-* [Day 3 - If Statements and Loops](day_3)
-* [Day 4 - Methods and Return Values](day_4)
-* [Day 5 - Hashes](day_5)
-* [Day 6 - Classes](day_6)
-* [Day 7 - Build A Thing](day_7)
+* [Section 1 - SUPER LEARNERS, Terminal and Ruby Foundations](section1)
+* [Section 2 - ASKING QUESTIONS, Conditionals and Methods](section2)
+* [Section 3 - GROWTH MINDSET, Hashes](section3)
+* [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
+* [Final Project - Final Project and Submission](finalProject)
+
+## What to Expect
+
+Through completing this pre-work, you can expect to get practice re-inforcing what you learned/are learning in Mod 0, learn more technical content, and deeply reflect on your mindsets and habits and start thinking about which of those mindsets and habits will help you learn to code, and which of those you may need to change.
+
+We will remind you of the best practices that follow from time-to-time, but to ground yourself in the work ahead, read them carefully.
+
+## Best Practices: Learning to Write Code
+
+**If you are stuck for longer than 30 minutes, know that it is always ok to ask for help!** The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process - don't give up if you hit a hard spot. If you consistently practice every day and don't take shortcuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding. Use [this guide](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to learn the optimial way to ask for help when you get stuck!
+
+**Process over Product.** When asking for help, do your best to seek understanding rather than `the answer` or `the solution`. Even if your helper gets you a solution that works, make sure to spend time on *why* it works, rather than just accepting the solution and moving on.
+
+**Type every line of code.** One of the best things you can do to set yourself for success is to make sure you type out all the code examples you see in the readings and exercises in this pre-work, *do not* copy and paste. The more hands-on-keyboard practice you can give yourself, the better. Copying and pasting won't help you solidify these concepts, manually typing all the code in will. This also applies to auto complete features in popular text editors. They are helpful, no doubt, but doing things the hard way at the beginning is a great way to hone your workflow later on.
+
+**Details matter.** Pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
 
 # Environment
 
@@ -228,7 +241,7 @@ From here on out, all the work you do will be in your personal copy of this repo
 
 Here's _another_ video walk-through you may find helpful:
 
-[![Walkthrough Day 1 and Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Day 1 & Git Stuff")
+[![Walkthrough Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Git Stuff")
 
 Each day's `README` will walk you through the necessary steps to save your work.
 
