@@ -65,11 +65,13 @@ puts sidekicks
 #   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the bad_excuse to the terminal
 #   - Anything danger_level that is between 10 and 50 should result in printing the save_the_day string to the terminal
 #   - If the danger_level is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the terminal.
-def assess_situation(danger_level, announcement, excuse)
+
+
+def assess_situation(danger_level, bad_excuse, save_the_day)
   if danger_level >=50
-    puts excuse
-  elsif danger_level >10 && danger_level <50
-    puts announcement
+    puts bad_excuse
+  elsif danger_level >=10 && danger_level <50
+    puts save_the_day
   else
     puts "Meh. Hard pass."
   end
@@ -77,11 +79,11 @@ end
 
 
 #Test Cases
-announcement = 'Never fear, the Courageous Curly Bracket is here!'
-excuse = 'I think I forgot to lock up my 1992 Toyota Corolla. Be right back.'
-assess_situation(99, announcement, excuse) #> Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-assess_situation(21, announcement, excuse) #> should print - 'Never fear, the Courageous Curly Bracket is here!'
-assess_situation(3, announcement, excuse) #> should print - "Meh. Hard pass."
+save_the_day = 'Never fear, the Courageous Curly Bracket is here!'
+bad_excuse = 'I think I forgot to lock up my 1992 Toyota Corolla. Be right back.'
+assess_situation(99, bad_excuse, save_the_day) #> Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+assess_situation(21, bad_excuse, save_the_day) #> should print - 'Never fear, the Courageous Curly Bracket is here!'
+assess_situation(3, bad_excuse, save_the_day)  #> should print - "Meh. Hard pass."
 
 # Declare a new variable - scary_monster - assigned to an hash with the following key/values
 #   - name (string)
