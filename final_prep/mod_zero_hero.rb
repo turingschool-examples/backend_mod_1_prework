@@ -63,8 +63,8 @@ def assess_situation(danger_level, save_the_day, bad_excuse)
 #   - If the danger_level is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the terminal.
 
 #Test Cases
-save_the_day = 'Never fear, the Jen is here!'
-bad_excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+announcement = 'Never fear, the Jen is here!'
+excuse = 'I just remembered I left my stove on.'
 assess_situation(99, announcement, excuse) #> Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 assess_situation(21, announcement, excuse) #> should print - 'Never fear, the Courageous Curly Bracket is here!'
 assess_situation(3, announcement, excuse) #> should print - "Meh. Hard pass."
