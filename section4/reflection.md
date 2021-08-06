@@ -6,7 +6,7 @@ After using the pomodoro technique I definitely didnt feel as overwhelmed as I u
 
 1. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
 
-When setting the realistic goals it felt nice to have something short term to work for. That being said sometimes my goals would take a little longer than expected which I was surprised by.
+When setting the realistic goals it felt nice to have something short term to work for. That being said sometimes my goals would take a little longer than expected which I was surprised by. Over all I was able to work longer than if I just work straight with sporadic breaks sprinkled in.
 
 1. In your own words, what is a Class?
 

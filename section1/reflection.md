@@ -6,9 +6,10 @@ One thing that resonated with me is how much truly goes into being a 'SuperLearn
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-The first step would be running irb in the terminal to start a ruby environment. Once that is done you would need to type: puts "Hello World!" and then hit return.
+You would need to type:
+puts "Hello World!"
 
-Another option would be creating a ruby file with puts "Hello World!" in it and then opening it on the terminal by typing ruby file_name.rb
+Then you would need to run the file in the terminal by typing ruby file_name
 
 1. What character is used to indicate comments in a ruby file?
 

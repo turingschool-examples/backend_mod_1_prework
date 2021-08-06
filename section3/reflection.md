@@ -10,7 +10,7 @@ The blog post talks about seeking out challenges and that is something I already
 
 1. What is a Hash, and how is it different from an Array?
 
-A hash is almost like an array that is full of variables and their values. An array is just a list of elements.
+A hash is full of keys and their respective values. An array is just a list of elements.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
@@ -22,12 +22,13 @@ pet_store = {
 }
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+states["IA"]
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
 
-puts pet_store.keys
+puts states.keys
 and
-puts pet_store.values
+puts states.values
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 

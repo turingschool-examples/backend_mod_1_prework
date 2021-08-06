@@ -133,3 +133,5 @@ email = [
   "time_sent" => "12:59"
  }
 ]
+
+puts email

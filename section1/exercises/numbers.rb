@@ -13,4 +13,4 @@ puts 83 - 7
 puts 6 * 53
 
 # Write code that prints the result of the modulo of 10 into 54:
-puts 10 % 45
+puts 10 % 54

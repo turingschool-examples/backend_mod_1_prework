@@ -48,8 +48,12 @@ puts "There are #{foods.count} foods"
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-foods.push("Broccoli")
-puts foods
+def add_food(food)
+  foods.push(food)
+  puts foods
+end
+
+add_food("Broccoli")
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
