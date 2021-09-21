@@ -12,21 +12,32 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
 # YOUR CODE HERE
+def add(a, b)
+  puts "Add #{a} + #{b}"
+  return a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+sum = add(3, 5)
+puts " The sum of 3 +5 is #{sum}"
 
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def pets_name(pet1, pet2)
+ puts "My pets name's are #{pet1} and #{pet2}."
+end
+
+pets_name("Maci", "Holli")
 #-------------------
 # PART 3: Naming is Hard
 #-------------------
@@ -36,6 +47,7 @@ print_name("Albus Dumbledore")
 
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
-
+#pets_name is the method as it explains what each parameter will be regarding.
+#pet1 and pet2 as that is how many dogs/pets have but not all pets are dogs.
 # EXPLAIN:
-
+#Looking at the method and the parameters, it is clear to understand with no confusions.
