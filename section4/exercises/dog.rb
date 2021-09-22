@@ -33,7 +33,7 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
-fido.play 
+fido.play
 
 
 
