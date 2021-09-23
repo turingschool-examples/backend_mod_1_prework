@@ -26,3 +26,4 @@ sparky = GoodDog.new("Sparky", "12 inches", "10 lbs")
 puts sparky.info
 sparky.change_info("spot", '12 inches', '15 lbs')
 print sparky.info
+p sparky.speak
