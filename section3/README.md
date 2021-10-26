@@ -50,7 +50,7 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 1. Work through the hashes.rb file in the section3/exercises directory.
 
-1. Answer the questions in the reflection.md file in the section4 directory.
+1. Answer the questions in the reflection.md file in the section3 directory.
 
 ## Reflection
 
