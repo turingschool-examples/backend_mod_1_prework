@@ -16,7 +16,6 @@ def build_a_bear(name, age, fur, clothes, special_power)
     'sayings' => [greeting, power_saying, "Goodnight my friend!"],
     'is_cuddly' => true,
   }
-  return built_bear
 end
 
 build_a_bear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')
