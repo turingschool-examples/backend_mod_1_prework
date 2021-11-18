@@ -56,7 +56,7 @@ To solve potential compatibility issues, we'd like to be able to install and man
 
 ### Installation
 
-#### NOTE: If you have any issues with the `rbenv` setup, please reach out slack in your cohort channel and we will address your issues at a later date! Your system version of ruby will work fine for your Prework exercises!
+#### NOTE: If you have any issues with the `rbenv` setup, please reach out in slack in your cohort channel and we will address your issues at a later date! Your system version of ruby will work fine for your Prework exercises!
 
 <!-- Here is a video walk-through that may be helpful for the following steps. Check it out!
 
