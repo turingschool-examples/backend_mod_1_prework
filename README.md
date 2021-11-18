@@ -14,13 +14,13 @@ Each day has a folder containing a `README.md` file with instructions for the se
 
 ## What to Expect
 
-Through completing this pre-work, you can expect to get practice re-inforcing what you learned/are learning in Mod 0, learn more technical content, and deeply reflect on your mindsets and habits and start thinking about which of those mindsets and habits will help you learn to code, and which of those you may need to change.
+Through completing this pre-work, you can expect to get practice re-enforcing what you learned/are learning in Mod 0, learn more technical content, and deeply reflect on your mindsets and habits and start thinking about which of those mindsets and habits will help you learn to code, and which of those you may need to change.
 
 We will remind you of the best practices that follow from time-to-time, but to ground yourself in the work ahead, read them carefully.
 
 ## Best Practices: Learning to Write Code
 
-**If you are stuck for longer than 30 minutes, know that it is always ok to ask for help!** The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process - don't give up if you hit a hard spot. If you consistently practice every day and don't take shortcuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding. Use [this guide](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to learn the optimial way to ask for help when you get stuck!
+**If you are stuck for longer than 30 minutes, know that it is always ok to ask for help!** The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process - don't give up if you hit a hard spot. If you consistently practice every day and don't take shortcuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding. Use [this guide](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to learn the optimal way to ask for help when you get stuck!
 
 **Process over Product.** When asking for help, do your best to seek understanding rather than `the answer` or `the solution`. Even if your helper gets you a solution that works, make sure to spend time on *why* it works, rather than just accepting the solution and moving on.
 
@@ -30,23 +30,21 @@ We will remind you of the best practices that follow from time-to-time, but to g
 
 # Environment
 
-Before we can experiment with coding out the concepts we will learn in Mod0, we need to do a bit more setup to prepare a Ruby-specific development environment.
-
-Follow this guide step-by-step to make sure you have everything you need, then you will be ready to start your first day of work!
+Follow this guide step-by-step to make sure you have everything you need.
 
 ***Before proceeding***, if you have not already, complete the [mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions) to install Atom, xcode-select, Homebrew, git, and Chrome.
 
-<!-- We will cover the following:
+Next We will cover the following:
 
 *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
 *   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
-*   [Terminal](#terminal) -->
-*   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
+<!-- *   [Terminal](#terminal) -->
+<!-- *   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository) -->
 
 
-<!-- First, let's get a Ruby version management tool on our machines. -->
-<!-- 
- ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x) -->
+First, let's get a Ruby version management tool on our machines.
+
+ ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
 <!-- Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
 
@@ -54,19 +52,19 @@ Generally, programs written in one version of Ruby will run just fine on another
 
 Additionally, very useful tools called "gems" are out there that were created specifically to help developers code (specifically, the `pry` gem is very handy) and we cannot utilize these without first installing and configuring `rbenv`.
 
-To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles. -->
+To solve potential compatibility issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles. -->
 
-<!-- ### Installation
+### Installation
 
-#### NOTE: If you have any issues with the `rbenv` setup, please message Eric Weissman on slack (@ericweissman) and we will address your issues at a later date! You're system version of ruby will work fine for your Prework exercises!
+#### NOTE: If you have any issues with the `rbenv` setup, please reach out slack in your cohort channel and we will address your issues at a later date! Your system version of ruby will work fine for your Prework exercises!
 
-Here is a video walk-through that may be helpful for the following steps. Check it out!
+<!-- Here is a video walk-through that may be helpful for the following steps. Check it out!
 
 Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.7.2**, per the written instructions below. --> -->
 
 <!-- [![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation") -->
 
-<!-- Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
+Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
 ```
 $ brew update
@@ -117,9 +115,9 @@ $ rbenv versions
 
 It should give you a version number rather than an error message.
 
-More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x). -->
+More information about rbenv can be found [here](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x).
 
-<!-- ### Use rbenv to install a certain version of Ruby
+### Use rbenv to install a certain version of Ruby
 
 Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.7.2. This is the version we will use in the Backend Program.
 
@@ -161,9 +159,9 @@ This shows us what version of Ruby we are running. You should see something like
 ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]
 ```
 
-You can ignore everything after the `p` in `2.7.2p105`- the first bit shows us we are running Ruby 2.7.2, which is what we want to verify. If you got something different than `2.7.2`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again. -->
+You can ignore everything after the `p` in `2.7.2p105`- the first bit shows us we are running Ruby 2.7.2, which is what we want to verify. If you got something different than `2.7.2`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
 
-<!-- #### Setting the Default Version
+#### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default. Let's do that with terminal command:
 
@@ -177,11 +175,11 @@ Now, let's make your terminal aware of this update with command:
 $ rbenv rehash
 ```
 
-## Terminal
+<!-- ## Terminal
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1. -->
-<!-- 
-[Check out section 1 to practice!](section1) -->
+<!--
+[Check out section 1 to practice!](section1)
 
 ### Forking the Module 1 Prework Repository
 
@@ -245,7 +243,7 @@ nothing to commit, working tree clean
 From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
 ### IMPORTANT NOTE - PLEASE READ CAREFULLY
-Do **NOT** work directly in the Github interface or use the `Edit` button to work directly from the Github version of your prework repository! 
+Do **NOT** work directly in the Github interface or use the `Edit` button to work directly from the Github version of your prework repository!
 
 Instead, add your work in your text editor (Atom) on your local machine (laptop) - your prework involves using `git` to track changes and push your work up to Github. We will cover how to do this in Mod 0 AND we give explicit instructions on how to do this in each section of the prework!
 
@@ -256,4 +254,3 @@ Each day's `README` will walk you through the necessary steps to save your work.
 To begin, open your terminal and `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
 
 ----------------------------------
-
