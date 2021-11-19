@@ -31,12 +31,12 @@
 
 # Print the sidekicks array to terminal to ensure you added a new sidekick
 
-# Create a function called assess_situation that takes three arguments - danger_level, save_the_day, bad_excuse
+# Create a method called assess_situation that takes three arguments - danger_level, save_the_day, bad_excuse
 #   - danger_level should be an integer
 #   - save_the_day should be a string a hero would say once they save the day 
 #   - bad_excuse should be a string a hero would say if they are too afraid of the danger_level
 
-# Your function should include an if/else statement that meets the following criteria
+# Your method should include an if/else statement that meets the following criteria
 #   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the bad_excuse to the terminal
 #   - Anything danger_level that is between 10 and 50 should result in printing the save_the_day string to the terminal
 #   - If the danger_level is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the terminal.
