@@ -149,7 +149,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ x] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
     - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
