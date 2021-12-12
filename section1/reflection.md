@@ -29,6 +29,8 @@ Ex:
 `puts "#{animal} is my favorite animal"`   seen as "zebra is my favorite animal"
 
 1. What method is used to get input from a user?
-`gets.chomp`
+`gets` and/or `gets.chomp`
 
 1. Name and describe two common string methods:
+`.to_i` converts a number in a string to an integer
+`%q` is used to create multi-line strings.
