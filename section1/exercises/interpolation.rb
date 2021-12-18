@@ -34,13 +34,3 @@ bones = "8"
 
 p "The furry #{dog} munched on #{bones} chicken bones and was aughed at for being #{big}."
 =======
-P "In a predictable result, the #{slow_poke} beat #{speedy}!"
-
-
-# YOU DO:
-# Declare three variables, name/content/data type of your choice. Think carefully about what you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates all THREE variables.
-dog= "Corgi"
-big = "Chubby"
-bones = "8"
-p " The furry #{dog} munched on #{bones} chicken bones and was laughed at for being #{big}." 
->>>>>>> 5b353389b262704d3c6400c8b0ba1b177a8e1853
