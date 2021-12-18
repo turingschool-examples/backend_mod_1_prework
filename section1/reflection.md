@@ -15,7 +15,7 @@ Octothorpe (#)
 An integer is a whole numeric number with no decimal point, while a float is a numeric number with a decimal point. Example being 3 for integer and 3.0 for a float. Floating numbers are used for more accuracy as well.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-animal= zebra
+animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 
