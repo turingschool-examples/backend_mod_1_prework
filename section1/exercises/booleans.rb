@@ -15,6 +15,6 @@ p "hello" === "Hello"
 
 >>>>>>> 5b353389b262704d3c6400c8b0ba1b177a8e1853
 # YOU DO: log to the console the result of 3 is not equal to 4:
-p 3 !=4
+p 3 != 4
 # YOU DO: log to the console the result of 4 is less than or equal to 5:
-p4<==5
+p 4 <== 5
