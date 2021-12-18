@@ -13,12 +13,12 @@ puts "Actually that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
 
-#this line is tricky, try to get it exactly right
+# This line is tricky, try to get it exactly right
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
 # Equation for cm conversion
 cm = height * 30.48
-puts "#{cm} is the height in cm"
+puts "#{cm} is the height in cm."
 
 # Equation for kilogram conversion
 kilo = weight / 2.205
-puts "#{kilo} is the weight in kilograms" 
+puts "#{kilo} is the weight in kilograms." 
