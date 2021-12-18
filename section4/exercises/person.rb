@@ -13,6 +13,10 @@ def sleep(snores)
   puts "#{name} goes to bed at night and #{snores}."
   end
 
+def cook(baking)
+  puts "#{name}, is #{baking} cookies"
+end
+
 def gender(male)
   puts "#{sex} is what #{@name} identifies with."
   end
@@ -21,3 +25,4 @@ end
 Kevin = Person.new("Kevin", "male")
 puts Kevin.sleep("snores")
 puts Kevin.gender("male")
+puts Kevin.cook("baking")
