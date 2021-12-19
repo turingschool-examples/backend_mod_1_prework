@@ -2,7 +2,7 @@
 
 puts "You enter a dark room with two doors. Do you go through door #1 or door #2?"
 
-print "> "
+print " > "
 door =$stdin.gets.chomp
 
 if door == "1"
@@ -10,24 +10,24 @@ if door == "1"
   puts "1. Take the cake."
   puts "2. Scream at the bear."
 
-  print "> "
+  print " > "
   bear = $stdin.gets.chomp
 
   if bear == "1"
     puts "The bear eats your face off. Good job!"
   elsif bear == "2"
-  puts "The bear eats your legs off. Good job!"
-else
-  puts "3. Well, doing %s is probably better. Bear runs away." % bear
+    puts "The bear eats your legs off. Good job!"
+  else
+    puts "3. Well, doing %s is probably better. Bear runs away." % bear
 end
 
-elsif door =="2"
+elsif door == "2"
   puts "You stare into the endless abyss at Cthulhu's retina."
   puts "1. Blueberries."
   puts "2. Yellow jacket clothespins."
   puts "Understanding revolvers yelling melodies."
 
-  print "> "
+  print " > "
    insanity = $stdin.gets.chomp
 
    if insanity == "1" || insanity == "2"
@@ -51,7 +51,7 @@ Choose your starting pokemon."
   puts "2. Squirtle"
   puts "3. Bulbasaur."
 
-print "> "
+print " > "
 pokemon = $stdin.gets.chomp
 
 if pokemon == "1"
