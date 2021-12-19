@@ -32,7 +32,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- ![image](https://user-images.githubusercontent.com/56653844/146653876-8d858698-bf2a-46d7-aae1-eacb158a6730.png)
+- ![image](https://github.com/ShermanA-13/backend_mod_1_prework/blob/main/final_prep/week1.jpg)
 - `Add Week 2 Screenshot Here`
 - `Add Week 3 Screenshot Here`
 
