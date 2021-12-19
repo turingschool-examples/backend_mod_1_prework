@@ -39,7 +39,7 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: [Click Me: Mentorship](https://gist.github.com/ShermanA-13/94b09e7606bbbc9dcc9817c7bb6d3e31)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
@@ -49,7 +49,7 @@ You've learned a lot about how to take strong notes during Mod 0. Show us your s
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ] Add a link to your gist here: [Click Me:Group Work](https://gist.github.com/ShermanA-13/ca9371df42fcf93844fae62f2a68e758)
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *all* the activities described above, follow the steps below to submit your technical prework.
@@ -78,12 +78,13 @@ Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 wee
 
 What is your plan and how are you going to hold yourself to it? Specifically...
 - What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice)
-- What days are you going to work?
+- What days are you going to work? 
 - What times on those days are you going to work?
 - Where you going to be sitting/standing as you do this?
 - Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
 - Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+>I have everything planned out on my calendar. Yes I do and I have worked with them to find time to spend with them on weekends if I'm avaliable. 
 
 ## Extensions
 Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
