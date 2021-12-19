@@ -52,6 +52,6 @@ boxing_matches("Pink ranger", "Dr. Ooze")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-For my example above I named the function boxing_matches  because it was a situation that could
+` For my example above I named the function boxing_matches  because it was a situation that could
 apply two strings as arguments. Each fighter could start in either corner depending on the parameter assigned.
-I chose the parameters fighter_1 as well as fighter_2 to differentiate and assign who would be in which color corner.
+I chose the parameters fighter_1 as well as fighter_2 to differentiate and assign who would be in which color corner.`
