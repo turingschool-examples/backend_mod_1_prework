@@ -11,16 +11,16 @@ class Burrito
     @base     = base
     @toppings = toppings
   end
- def add_topping(addition)
+  def add_topping(addition)
    puts "A new topping is: #{addition}."
     @add_topping = (addition)
   end
 
- def remove_topping(subtraction)
+  def remove_topping(subtraction)
    puts "Take away the topping #{subtraction}."
    @remove_topping = (subtraction)
- end
- def change_protein(switch_meat)
+  end
+  def change_protein(switch_meat)
    puts "Protein selection changed to #{switch_meats}."
    @change_protein = (switch_meats)
  end
