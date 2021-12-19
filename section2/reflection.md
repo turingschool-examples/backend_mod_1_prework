@@ -2,7 +2,7 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-Asking questions has admittedly been a bit more difficult. I do have to agree with the first blog post in regards to feeling nervous about being judged with a question. I generally found the answers or clarification after class was over and I was able to review a bit slower or ask other cohorts privately. Learning coding and development reminded me of a language class. Some students have some background or knowledge prior to joining turing while I am a fresh baby lamb to this world. I try to pay attention to what questions others ask and absorb it as well.
+Asking questions has admittedly been a bit more difficult. I do have to agree with the first blog post in regards to feeling nervous about being judged with a question. I generally found the answers or clarification after class was over and I was able to review a bit slower or ask other cohorts privately. Learning coding and development reminded me of a language class. Some students have some background or knowledge prior to joining Turing while I am a fresh baby lamb to this world. I try to pay attention to what questions others ask and absorb it as well.
 
 ### If Statements
 
