@@ -7,7 +7,7 @@ Seeking help as developer is a good growth mindset and is a sign of strength not
 Another point that stood out was seeking out challenges and not giving up when faced with issues or adversity. It's okay to make mistakes and comeback to figure them out.
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
-I think at this time I demonstrate the seeking out challenges by joining Turing. I was comfortable working a repetitive restaurant lifestyle but wanted to challange myself and learn and grow myself and future.
+I think at this time I demonstrate the seeking out challenges by joining Turing. I was comfortable working a repetitive restaurant lifestyle but wanted to challenge myself and learn and grow myself and future.
 
 I would say I struggle a bit with seeking help out of discomfort and fear of sounding foolish. I realize this is something that may take time as I find my confidence in skill,  coding diction and change in way of thinking.
 
