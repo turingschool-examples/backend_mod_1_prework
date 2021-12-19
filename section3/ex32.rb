@@ -12,13 +12,13 @@ end
 # this and the next one are the preferred
 # way Ruby for-loops are written
 fruits.each do |fruit|
-  puts "A fruit of type: #{fruit}"
+  puts "A fruit of type: #{fruit}."
 end
 
 # also we can go through mixed lists
 # note this is yet another style, exactly like above
 # but in a different syntax (way to write it).
-change.each {|i| puts "I got #{i}"}
+change.each {|i| puts "I got #{i}."}
 
 # we can also build lists, first start with an empty print_one
 elements = []
