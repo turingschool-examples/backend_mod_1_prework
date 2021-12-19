@@ -7,6 +7,7 @@ The break technique does feel like it relieves a bit of pressure and gives me al
 
 1. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
 
+ I think it went pretty well. Before Turing, I had never heard of this technique. I think it does help overall work efficiency.
 
 
 1. In your own words, what is a Class?
