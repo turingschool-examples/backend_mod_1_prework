@@ -8,21 +8,24 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = #YOUR CODE HERE
+zoo = {lions: 5, polar_bears: 2,penguins: 6}
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable 
 # you created above:
-# YOUR CODE HERE
+puts zoo.keys
+#puts zoo['2']
+#puts zoo[6]
 
 # Write code that prints all of the 'values' of the zoo variable 
 # you created above:
-# YOUR CODE HERE
-
+puts zoo.values
 # Write code that prints the value of the first animal of the zoo variable 
 # you created above:
-# YOUR CODE HERE
+puts zoo.keys[0]
+
 
 # Write code that adds an animal to the zoo hash. 
 # Then, print the updated hash:
-# YOUR CODE HERE
+zoo["tigers"]=7
+puts zoo
